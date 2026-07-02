@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clusters · 归类</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F2F3F6;--surface:#fff;--ink:#15171E;--muted:#697086;--line:#E2E6EE;--accent:#15171E;
+    --t0:#F2D04B;--t1:#9DCB6A;--t2:#9DB4F0;--t3:#C58FCB;--bad:#E8743B}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;
+    line-height:1.45;-webkit-font-smoothing:antialiased;-webkit-user-select:none;user-select:none}
+  .wrap{max-width:480px;margin:0 auto;padding:22px 18px 56px}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:11px;color:var(--muted)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+
+  .solved{display:flex;flex-direction:column;gap:8px;margin-bottom:8px}
+  .group{border-radius:12px;padding:11px 14px;text-align:center}
+  .group .theme{font-family:"Space Grotesk";font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.04em}
+  .group .words{font-size:13px;margin-top:3px;line-height:1.5}
+  .group .words b{font-weight:700}
+
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}
+  .tile{aspect-ratio:1.35/1;border-radius:10px;background:var(--surface);border:1.5px solid var(--line);
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:3px;cursor:pointer;
+    font-family:"Space Grotesk";font-weight:700;font-size:clamp(11px,3.4vw,15px);line-height:1.05;word-break:break-word;
+    transition:transform .1s,background .12s,border-color .12s,color .12s}
+  .tile.sel{background:var(--ink);color:#fff;border-color:var(--ink);transform:scale(.96)}
+  .tile.shake{animation:shake .35s}
+  @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-5px)}60%{transform:translateX(5px)}}
+
+  .mistakes{display:flex;align-items:center;gap:7px;justify-content:center;margin:18px 0 4px;font-size:13px;color:var(--muted)}
+  .dot{width:11px;height:11px;border-radius:50%;background:var(--ink);transition:.2s}
+  .dot.gone{background:var(--line)}
+
+  .msg{text-align:center;font-size:14px;min-height:20px;margin:6px 0 2px;font-weight:600;color:var(--ink)}
+
+  .controls{display:flex;gap:10px;margin-top:12px;justify-content:center}
+  button{font-family:"Space Grotesk";font-weight:700;font-size:14px;padding:11px 20px;border-radius:999px;cursor:pointer;
+    border:1.5px solid var(--ink);background:transparent;color:var(--ink);transition:.12s}
+  button:disabled{opacity:.35;cursor:default;border-color:var(--line)}
+  button.primary{background:var(--ink);color:#fff}
+  button:not(:disabled):active{transform:translateY(1px)}
+
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">归类 · SAT Connections</div>
+  <h1>Clusters</h1>
+  <p class="sub">Sort the 16 words into 4 groups of 4 by their precise meaning. The catch: some words look like they belong with one group but mean something else. Four mistakes allowed.</p>
+
+  <div class="solved" id="solved"></div>
+  <div class="grid" id="grid"></div>
+
+  <div class="mistakes" id="mistakes"><span>Mistakes left</span></div>
+  <div class="msg" id="msg"></div>
+
+  <div class="controls">
+    <button id="shuffle">Shuffle</button>
+    <button id="deselect" disabled>Deselect</button>
+    <button class="primary" id="submit" disabled>Submit</button>
+  </div>
+
+  <div class="footnote">Tip: start with the group you're surest of. The trickiest group (purple) is meant to fool you.</div>
+</div>
+
+<script>
+const PUZZLES = [
+  [
+    {tier:0, theme:"Praise", words:[["laud","praise highly"],["extol","praise enthusiastically"],["commend","praise formally"],["applaud","express approval of"]]},
+    {tier:1, theme:"Criticize", words:[["censure","criticize formally"],["rebuke","scold sharply"],["denounce","condemn publicly"],["disparage","belittle, run down"]]},
+    {tier:2, theme:"Unclear", words:[["ambiguous","open to two readings"],["vague","not precise"],["nebulous","hazy, ill-defined"],["obscure","hard to understand"]]},
+    {tier:3, theme:"Short-lived", words:[["fleeting","passing quickly"],["transient","lasting briefly"],["ephemeral","gone almost at once"],["momentary","lasting a moment"]]}
+  ],
+  [
+    {tier:0, theme:"Very angry", words:[["furious","extremely angry"],["livid","furiously angry"],["irate","very angry"],["incensed","made very angry"]]},
+    {tier:1, theme:"Very happy", words:[["elated","thrilled, overjoyed"],["jubilant","triumphantly happy"],["ecstatic","overwhelmingly joyful"],["overjoyed","extremely pleased"]]},
+    {tier:2, theme:"Stingy", words:[["miserly","hoarding money"],["parsimonious","unwilling to spend"],["frugal","sparing, economical"],["thrifty","careful with money"]]},
+    {tier:3, theme:"Stubborn", words:[["obstinate","refusing to budge"],["headstrong","willful"],["intransigent","unwilling to compromise"],["adamant","firmly unyielding"]]}
+  ],
+  [
+    {tier:0, theme:"Generous", words:[["benevolent","kindly, giving"],["magnanimous","generous in spirit"],["altruistic","selflessly caring"],["charitable","giving to others"]]},
+    {tier:1, theme:"Brave", words:[["intrepid","fearless"],["valiant","courageous"],["dauntless","not discouraged"],["audacious","boldly daring"]]},
+    {tier:2, theme:"Cautious", words:[["prudent","careful, wise"],["wary","on guard"],["circumspect","watchful of risk"],["tentative","hesitant, unsure"]]},
+    {tier:3, theme:"Honest / direct", words:[["candid","frank"],["forthright","straight-talking"],["blunt","bluntly direct"],["frank","open, plain-spoken"]]}
+  ]
+];
+const TIERCOLOR=["var(--t0)","var(--t1)","var(--t2)","var(--t3)"];
+const $=id=>document.getElementById(id);
+
+let puzzle, remaining, selected, mistakes, solvedTiers, pIdx=0;
+
+function init(){
+  puzzle = PUZZLES[pIdx % PUZZLES.length];
+  remaining = [];
+  puzzle.forEach((g,gi)=>g.words.forEach(w=>remaining.push({word:w[0],gloss:w[1],group:gi})));
+  shuffleArr(remaining);
+  selected=[]; mistakes=4; solvedTiers=[];
+  $('solved').innerHTML=''; $('msg').textContent='';
+  renderMistakes(); renderGrid(); updateButtons();
+}
+function shuffleArr(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}}
+
+function renderGrid(){
+  const g=$('grid'); g.innerHTML='';
+  remaining.forEach(item=>{
+    const d=document.createElement('div'); d.className='tile'+(selected.includes(item)?' sel':'');
+    d.textContent=item.word;
+    d.addEventListener('click',()=>toggle(item,d));
+    g.appendChild(d);
+  });
+}
+function renderMistakes(){
+  const m=$('mistakes'); m.querySelectorAll('.dot').forEach(d=>d.remove());
+  for(let i=0;i<4;i++){const s=document.createElement('span');s.className='dot'+(i>=mistakes?' gone':'');m.appendChild(s);}
+}
+function toggle(item){
+  if(selected.includes(item)) selected=selected.filter(x=>x!==item);
+  else { if(selected.length>=4) return; selected.push(item); }
+  renderGrid(); updateButtons();
+}
+function updateButtons(){
+  $('submit').disabled = selected.length!==4;
+  $('deselect').disabled = selected.length===0;
+}
+
+function submit(){
+  if(selected.length!==4) return;
+  // does selected exactly match one group?
+  const groups={};
+  selected.forEach(s=>groups[s.group]=(groups[s.group]||0)+1);
+  const gids=Object.keys(groups);
+  if(gids.length===1){
+    solveGroup(parseInt(gids[0]));
+  } else {
+    // wrong; one-away?
+    const maxIn=Math.max(...Object.values(groups));
+    mistakes--; renderMistakes();
+    flashShake();
+    $('msg').textContent = maxIn===3 ? "One away…" : "Not a group — try again.";
+    if(mistakes<=0) setTimeout(reveal,650);
+  }
+}
+function flashShake(){
+  [...$('grid').children].forEach(el=>{ if(selected.some(s=>s.word===el.textContent)){el.classList.add('shake');setTimeout(()=>el.classList.remove('shake'),360);} });
+}
+
+function solveGroup(gi){
+  const g=puzzle[gi];
+  solvedTiers.push(gi);
+  remaining = remaining.filter(it=>it.group!==gi);
+  selected=[];
+  addSolvedBar(gi);
+  renderGrid(); updateButtons();
+  $('msg').textContent = solvedTiers.length<4 ? "Nice." : "";
+  if(remaining.length===0) win();
+}
+function addSolvedBar(gi){
+  const g=puzzle[gi];
+  const bar=document.createElement('div'); bar.className='group'; bar.style.background=TIERCOLOR[g.tier];
+  bar.innerHTML='<div class="theme">'+g.theme+'</div><div class="words">'+
+    g.words.map(w=>'<b>'+w[0]+'</b> — '+w[1]).join(' · ')+'</div>';
+  $('solved').appendChild(bar);
+}
+
+function win(){
+  $('msg').textContent = 'Solved with '+mistakes+' mistake'+(mistakes===1?'':'s')+' to spare ✦';
+  $('submit').disabled=true; $('deselect').disabled=true;
+}
+function reveal(){
+  // auto-show remaining groups
+  const left=[...new Set(remaining.map(r=>r.group))].sort((a,b)=>puzzle[a].tier-puzzle[b].tier);
+  left.forEach(gi=>{ if(!solvedTiers.includes(gi)){ solvedTiers.push(gi); addSolvedBar(gi);} });
+  remaining=[]; selected=[]; renderGrid();
+  $('msg').textContent='Out of guesses — here are the groups. Try a new one.';
+  $('submit').disabled=true; $('deselect').disabled=true;
+}
+
+$('submit').addEventListener('click',submit);
+$('deselect').addEventListener('click',()=>{selected=[];renderGrid();updateButtons();});
+$('shuffle').addEventListener('click',()=>{shuffleArr(remaining);renderGrid();});
+$('footnote');
+// double-click title area to load next puzzle (simple replay)
+$('shuffle').addEventListener('dblclick',()=>{pIdx++;init();});
+
+init();
+// expose a New puzzle control
+const ctrl=document.querySelector('.controls');
+const np=document.createElement('button'); np.textContent='New puzzle'; np.id='newp';
+np.addEventListener('click',()=>{pIdx++;init();});
+document.querySelector('.footnote').insertAdjacentElement('beforebegin', np);
+np.style.cssText='display:block;margin:12px auto 0';
+</script>
+</body>
+</html>

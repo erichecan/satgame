@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wordle · SAT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F2F3F6;--surface:#fff;--ink:#15171E;--muted:#697086;--line:#D6DAE2;
+    --green:#6AAA64;--yellow:#C9B458;--gray:#787C7E;--key:#D3D6DD}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;
+    line-height:1.4;-webkit-font-smoothing:antialiased;-webkit-user-select:none;user-select:none;
+    display:flex;flex-direction:column;align-items:center}
+  .wrap{width:100%;max-width:420px;padding:18px 14px 24px;display:flex;flex-direction:column;align-items:center}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--muted);align-self:flex-start}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:30px;margin:4px 0 2px;align-self:flex-start;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 14px;align-self:flex-start}
+
+  .board{display:grid;grid-template-rows:repeat(6,1fr);gap:6px;margin:0 auto 14px}
+  .row{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+  .row.bad{animation:shake .4s}
+  @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}60%{transform:translateX(6px)}}
+  .cell{width:54px;height:54px;border:2px solid var(--line);border-radius:6px;display:flex;align-items:center;justify-content:center;
+    font-family:"Space Grotesk";font-weight:700;font-size:26px;text-transform:uppercase;color:var(--ink);transition:transform .12s}
+  .cell.filled{border-color:#9aa0ad;animation:pop .1s ease}
+  @keyframes pop{from{transform:scale(.9)}to{transform:scale(1)}}
+  .cell.green{background:var(--green);border-color:var(--green);color:#fff}
+  .cell.yellow{background:var(--yellow);border-color:var(--yellow);color:#fff}
+  .cell.gray{background:var(--gray);border-color:var(--gray);color:#fff}
+
+  .msg{min-height:22px;font-size:14px;font-weight:600;margin-bottom:8px;text-align:center}
+
+  .kb{display:flex;flex-direction:column;gap:7px;width:100%;max-width:420px}
+  .kr{display:flex;gap:5px;justify-content:center}
+  .k{flex:1;height:50px;border:none;border-radius:7px;background:var(--key);color:var(--ink);font-family:"Space Grotesk";
+    font-weight:700;font-size:14px;text-transform:uppercase;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.1s}
+  .k.wide{flex:1.5;font-size:11px}
+  .k:active{transform:translateY(1px)}
+  .k.green{background:var(--green);color:#fff}.k.yellow{background:var(--yellow);color:#fff}.k.gray{background:var(--gray);color:#fff}
+
+  .learn{margin-top:16px;width:100%;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:none}
+  .learn.show{display:block;animation:rise .3s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .learn .w{font-family:"Space Grotesk";font-weight:700;font-size:24px;text-transform:uppercase}
+  .learn .pos{font-style:italic;color:var(--muted);font-size:13px;margin:0 0 6px}
+  .learn .def{font-size:15px}
+  .learn button{margin-top:12px;width:100%;font-family:"Space Grotesk";font-weight:700;font-size:15px;padding:12px;border:none;border-radius:11px;background:var(--ink);color:#fff;cursor:pointer}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">SAT · Wordle</div>
+  <h1>Five</h1>
+  <p class="sub">Guess the 5-letter SAT word in 6 tries. Green = right spot, yellow = wrong spot, gray = not in the word.</p>
+
+  <div class="board" id="board"></div>
+  <div class="msg" id="msg"></div>
+
+  <div class="kb" id="kb"></div>
+
+  <div class="learn" id="learn">
+    <div class="w" id="lw"></div>
+    <div class="pos" id="lpos"></div>
+    <div class="def" id="ldef"></div>
+    <button id="again">New word</button>
+  </div>
+</div>
+
+<script>
+const TARGETS = [
+  {w:"lucid", pos:"adjective", def:"clear and easy to understand"},
+  {w:"vapid", pos:"adjective", def:"dull and lifeless; lacking spirit"},
+  {w:"terse", pos:"adjective", def:"brief and to the point"},
+  {w:"axiom", pos:"noun", def:"a statement accepted as obviously true"},
+  {w:"inane", pos:"adjective", def:"silly and empty; without sense"},
+  {w:"tepid", pos:"adjective", def:"lukewarm; unenthusiastic"},
+  {w:"quell", pos:"verb", def:"to put an end to; suppress"},
+  {w:"rebut", pos:"verb", def:"to argue against; disprove"},
+  {w:"elude", pos:"verb", def:"to escape or avoid cleverly"},
+  {w:"abate", pos:"verb", def:"to become less intense; lessen"},
+  {w:"adept", pos:"adjective", def:"highly skilled"},
+  {w:"banal", pos:"adjective", def:"boring and unoriginal; commonplace"}
+];
+const COMMON = "about above abuse actor acute admit adopt after again agent agree ahead alarm album alert alike alive allow alone along alter among anger angle angry apart apple apply arena argue arise array aside asset audio audit avoid awake award aware badly baker basic beach began begin being below bench birth black blame blank blast blind block blood board boost booth bound brain brand brave bread break breed brief bring broad broke brown build built buyer cabin cable carry catch cause chain chair chaos charm chart chase cheap check chest chief child china chose civil claim class clean clear click climb clock close cloud coach coast could count court cover craft crash crazy cream crime cross crowd crown curve cycle daily dance dated death debut delay depth doing doubt dozen draft drama drawn dream dress drill drink drive drove dying eager early earth eight elite empty enemy enjoy enter entry equal error event every exact exist extra faith false fault fiber field fifth fifty fight final first fixed flash fleet floor fluid focus force forth forty forum found frame frank fraud fresh front fruit fully funny giant given glass globe going grace grade grand grant grass great green gross group grown guard guess guest guide happy heart heavy hence horse hotel house human ideal image index inner input issue joint judge known label large laser later laugh layer learn lease least leave legal level light limit links lives local logic loose lower lucky lunch lying magic major maker march match maybe mayor meant media metal might minor minus mixed model money month moral motor mount mouse mouth movie music needs never newly night noise north noted novel nurse occur ocean offer often order other ought paint panel paper party peace phase phone photo piece pilot pitch place plain plane plant plate point pound power press price pride prime print prior prize proof proud prove queen quick quiet quite radio raise range rapid ratio reach ready refer right rival river rough round route royal rural scale scene scope score sense serve seven shall shape share sharp sheet shelf shell shift shirt shock shoot short shown sight since sixth sixty sized skill sleep slide small smart smile smoke solid solve sorry sound south space spare speak speed spend spent split spoke sport staff stage stake stand start state steam steel stick still stock stone stood store storm story strip stuck study stuff style sugar suite super sweet table taken taste taxes teach teeth thank theft their theme there these thick thing think third those three threw throw tight times tired title today topic total touch tough tower track trade train treat trend trial tried tries truck truly trust truth twice under undue union unity until upper upset urban usage usual valid value video virus visit vital voice waste watch water wheel where which while white whole whose woman women world worry worse worst worth would wound write wrong wrote young youth".split(" ");
+
+const ALLOWED = new Set([...COMMON, ...TARGETS.map(t=>t.w)]);
+const $=id=>document.getElementById(id);
+const KEYS=[["q","w","e","r","t","y","u","i","o","p"],["a","s","d","f","g","h","j","k","l"],["enter","z","x","c","v","b","n","m","del"]];
+
+let target, row, col, grid, keyState, over;
+
+function newGame(){
+  target = TARGETS[Math.floor(Math.random()*TARGETS.length)];
+  row=0; col=0; over=false;
+  grid=Array.from({length:6},()=>Array(5).fill(""));
+  keyState={};
+  $('msg').textContent='';
+  $('learn').className='learn';
+  renderBoard(); renderKb();
+}
+
+function renderBoard(){
+  const b=$('board'); b.innerHTML='';
+  for(let r=0;r<6;r++){
+    const rd=document.createElement('div'); rd.className='row'; rd.id='row'+r;
+    for(let c=0;c<5;c++){
+      const cell=document.createElement('div'); cell.className='cell'; cell.id='c'+r+c;
+      cell.textContent=grid[r][c];
+      if(grid[r][c]) cell.classList.add('filled');
+      rd.appendChild(cell);
+    }
+    b.appendChild(rd);
+  }
+}
+function renderKb(){
+  const kb=$('kb'); kb.innerHTML='';
+  KEYS.forEach(rowKeys=>{
+    const kr=document.createElement('div'); kr.className='kr';
+    rowKeys.forEach(k=>{
+      const b=document.createElement('button'); b.className='k'+((k==='enter'||k==='del')?' wide':'');
+      b.textContent = k==='del' ? '\u232B' : k;
+      if(keyState[k]) b.classList.add(keyState[k]);
+      b.addEventListener('click',()=>press(k));
+      kr.appendChild(b);
+    });
+    kb.appendChild(kr);
+  });
+}
+
+function press(k){
+  if(over) return;
+  if(k==='enter'){ submit(); return; }
+  if(k==='del'){ if(col>0){col--;grid[row][col]='';updateCell(row,col);} return; }
+  if(/^[a-z]$/.test(k) && col<5){ grid[row][col]=k; updateCell(row,col); col++; }
+}
+function updateCell(r,c){
+  const cell=$('c'+r+c); cell.textContent=grid[r][c];
+  cell.classList.toggle('filled', !!grid[r][c]);
+}
+
+function score(guess){
+  const res=Array(5).fill('gray');
+  const count={};
+  for(const ch of target.w) count[ch]=(count[ch]||0)+1;
+  for(let i=0;i<5;i++){ if(guess[i]===target.w[i]){res[i]='green';count[guess[i]]--;} }
+  for(let i=0;i<5;i++){ if(res[i]==='green')continue; if(count[guess[i]]>0){res[i]='yellow';count[guess[i]]--;} }
+  return res;
+}
+
+function submit(){
+  if(col<5){ flashMsg('Not enough letters'); shakeRow(); return; }
+  const guess=grid[row].join('');
+  if(!ALLOWED.has(guess)){ flashMsg('Not in word list'); shakeRow(); return; }
+  const res=score(guess);
+  for(let i=0;i<5;i++){
+    const cell=$('c'+row+i); cell.classList.add(res[i]);
+    const k=guess[i];
+    const rank={green:3,yellow:2,gray:1};
+    if(!keyState[k] || rank[res[i]]>rank[keyState[k]]) keyState[k]=res[i];
+  }
+  renderKb();
+  if(guess===target.w){ over=true; flashMsg(['Genius!','Sharp!','Nice!','Got it.','Phew.','Close one!'][row]); setTimeout(reveal,700); return; }
+  row++; col=0;
+  if(row>=6){ over=true; flashMsg('The word was '+target.w.toUpperCase()); setTimeout(reveal,700); }
+}
+
+function reveal(){
+  $('lw').textContent=target.w;
+  $('lpos').textContent=target.pos;
+  $('ldef').textContent=target.def;
+  $('learn').className='learn show';
+}
+
+function flashMsg(m){ $('msg').textContent=m; }
+function shakeRow(){ const r=$('row'+row); r.classList.add('bad'); setTimeout(()=>r.classList.remove('bad'),400); }
+
+window.addEventListener('keydown',e=>{
+  const k=e.key.toLowerCase();
+  if(k==='enter') press('enter');
+  else if(k==='backspace') press('del');
+  else if(/^[a-z]$/.test(k)) press(k);
+});
+$('again').addEventListener('click',newGame);
+
+newGame();
+</script>
+</body>
+</html>

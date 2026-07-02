@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Match · 三消</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F2F3F6;--surface:#fff;--ink:#15171E;--muted:#686D7A;--line:#E4E6EC;--accent:#7A5BE0;--good:#0F9E8E;--bad:#E8743B}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;
+    line-height:1.45;-webkit-font-smoothing:antialiased;-webkit-user-select:none;user-select:none}
+  .wrap{max-width:460px;margin:0 auto;padding:22px 18px 56px}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+  .hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:"Space Grotesk";font-weight:700}
+  .hud .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-family:"Inter";font-weight:600}
+  .hud .big{font-size:22px}
+
+  .legend{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}
+  .legend .l{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted)}
+  .legend .dot{width:11px;height:11px;border-radius:50%}
+
+  .grid{display:grid;gap:6px;background:#E6E8EF;border-radius:14px;padding:6px;transition:opacity .2s}
+  .grid.frozen{opacity:.5;pointer-events:none}
+  .tile{aspect-ratio:1/1;border-radius:9px;display:flex;align-items:center;justify-content:center;
+    font-family:"Space Grotesk";font-weight:700;font-size:clamp(9px,2.9vw,12px);text-align:center;
+    cursor:pointer;padding:2px;line-height:1.02;word-break:break-word;
+    transition:transform .12s,box-shadow .12s,opacity .18s}
+  .tile.sel{box-shadow:0 0 0 3px var(--ink);transform:scale(.94);z-index:2}
+  .tile.clear{opacity:0;transform:scale(.4)}
+  .tile:active{transform:scale(.95)}
+
+  .quiz{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:15px;display:none}
+  .quiz.show{display:block;animation:rise .25s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .quiz .q{font-size:15px;margin-bottom:12px}
+  .quiz .q b{font-family:"Space Grotesk";font-weight:700;color:var(--accent);font-size:18px}
+  .qopts{display:flex;flex-direction:column;gap:8px}
+  .qopt{font-family:"Inter";font-weight:500;font-size:14px;padding:11px 14px;border-radius:10px;
+    background:#F5F6FA;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;text-align:left;transition:.12s}
+  .qopt:hover{border-color:var(--accent)}
+  .qopt.right{background:#DFF4F0;border-color:var(--good);color:var(--good);font-weight:600}
+  .qopt.wrong{opacity:.4;pointer-events:none}
+
+  .controls{display:flex;gap:10px;margin-top:16px}
+  button.ctl{font-family:"Space Grotesk";font-weight:700;font-size:14px;padding:11px 16px;border:none;
+    border-radius:11px;cursor:pointer;flex:1;transition:filter .15s,transform .08s}
+  button.ctl:active{transform:translateY(1px)}
+  .btn-primary{background:var(--ink);color:#fff}.btn-ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  .toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%);background:var(--ink);color:#fff;
+    padding:11px 18px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;z-index:30;max-width:88vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">三消 · Word Match</div>
+  <h1>Families</h1>
+  <p class="sub">Swap neighbours to line up three words from the same feeling. To clear them, you have to nail what the word means.</p>
+
+  <div class="hud">
+    <div><span class="lab">Score</span> <span class="big" id="score">0</span></div>
+    <div><span class="lab">Moves</span> <span class="big" id="moves">0</span></div>
+  </div>
+
+  <div class="legend" id="legend"></div>
+  <div class="grid" id="grid"></div>
+
+  <div class="quiz" id="quiz">
+    <div class="q" id="q"></div>
+    <div class="qopts" id="qopts"></div>
+  </div>
+
+  <div class="controls">
+    <button class="ctl btn-ghost" id="shuffle">Shuffle</button>
+    <button class="ctl btn-primary" id="restart">Restart</button>
+  </div>
+  <div class="footnote">Tap a tile, then a neighbour, to swap. A match of 3+ same-feeling words triggers a meaning check — get it right to clear.</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const CATS = [
+  {name:"Anger",  color:"#E8743B", tint:"#FBE7D7", words:[
+    {w:"furious",g:"extremely angry"},{w:"irate",g:"very angry"},{w:"livid",g:"furiously angry"},
+    {w:"seething",g:"boiling with anger"},{w:"irked",g:"mildly annoyed"}]},
+  {name:"Joy",    color:"#D69A2B", tint:"#FBF1D2", words:[
+    {w:"elated",g:"thrilled and overjoyed"},{w:"gleeful",g:"full of delight"},{w:"merry",g:"cheerful and lively"},
+    {w:"jubilant",g:"triumphantly happy"},{w:"upbeat",g:"positive and bright"}]},
+  {name:"Sadness",color:"#5B7BE0", tint:"#DFE6FB", words:[
+    {w:"morose",g:"gloomy and sullen"},{w:"glum",g:"quietly sad"},{w:"forlorn",g:"lonely and hopeless"},
+    {w:"dejected",g:"low in spirits"},{w:"somber",g:"grave and dark"}]},
+  {name:"Fear",   color:"#7A5BE0", tint:"#E7DEFB", words:[
+    {w:"anxious",g:"worried and uneasy"},{w:"uneasy",g:"slightly worried"},{w:"alarmed",g:"suddenly frightened"},
+    {w:"fearful",g:"full of fear"},{w:"timid",g:"easily scared, shy"}]},
+  {name:"Calm",   color:"#0F9E8E", tint:"#D6F1EB", words:[
+    {w:"serene",g:"peaceful and untroubled"},{w:"tranquil",g:"calm and quiet"},{w:"placid",g:"calm and even"},
+    {w:"relaxed",g:"free of tension"},{w:"mellow",g:"soft and easygoing"}]}
+];
+const ALLG = CATS.flatMap(c=>c.words.map(w=>w.g));
+const ROWS=7, COLS=5;
+const $=id=>document.getElementById(id);
+let grid, score, moves, sel=null, busy=false;
+
+function pick(a){return a[Math.floor(Math.random()*a.length)];}
+function makeCell(){const ci=Math.floor(Math.random()*CATS.length);const wd=pick(CATS[ci].words);return {cat:ci,word:wd.w,gloss:wd.g};}
+
+function init(){
+  score=0;moves=0;sel=null;busy=false;
+  $('score').textContent=0;$('moves').textContent=0;
+  $('quiz').className='quiz';$('grid').classList.remove('frozen');
+  grid=[];
+  for(let r=0;r<ROWS;r++){grid[r]=[];for(let c=0;c<COLS;c++){
+    let cell,tries=0;
+    do{cell=makeCell();tries++;}
+    while(tries<25 && (
+      (c>=2 && grid[r][c-1].cat===cell.cat && grid[r][c-2].cat===cell.cat) ||
+      (r>=2 && grid[r-1][c].cat===cell.cat && grid[r-2][c].cat===cell.cat)));
+    grid[r][c]=cell;
+  }}
+  renderLegend();render();
+}
+function renderLegend(){const l=$('legend');l.innerHTML='';
+  CATS.forEach(c=>{const d=document.createElement('span');d.className='l';
+    d.innerHTML='<span class="dot" style="background:'+c.color+'"></span>'+c.name;l.appendChild(d);});}
+
+function render(){
+  const g=$('grid');g.style.gridTemplateColumns='repeat('+COLS+',1fr)';g.innerHTML='';
+  for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++){
+    const cell=grid[r][c];const d=document.createElement('div');d.className='tile';
+    if(cell){const cat=CATS[cell.cat];d.style.background=cat.tint;d.style.color=cat.color;d.textContent=cell.word;}
+    else d.style.background='transparent';
+    if(sel&&sel.r===r&&sel.c===c)d.classList.add('sel');
+    d.dataset.r=r;d.dataset.c=c;d.addEventListener('click',()=>tap(r,c));g.appendChild(d);
+  }
+}
+function adjacent(a,b){return (Math.abs(a.r-b.r)+Math.abs(a.c-b.c))===1;}
+function swap(a,b){const t=grid[a.r][a.c];grid[a.r][a.c]=grid[b.r][b.c];grid[b.r][b.c]=t;}
+
+function tap(r,c){
+  if(busy||!grid[r][c])return;
+  if(!sel){sel={r,c};render();return;}
+  if(sel.r===r&&sel.c===c){sel=null;render();return;}
+  if(!adjacent(sel,{r,c})){sel={r,c};render();return;}
+  trySwap(sel,{r,c});
+}
+
+function findMatches(){
+  const set=new Set();
+  for(let r=0;r<ROWS;r++){let run=1;for(let c=1;c<=COLS;c++){
+    const same=c<COLS&&grid[r][c]&&grid[r][c-1]&&grid[r][c].cat===grid[r][c-1].cat;
+    if(same)run++;else{if(run>=3)for(let k=0;k<run;k++)set.add(r+'-'+(c-1-k));run=1;}}}
+  for(let c=0;c<COLS;c++){let run=1;for(let r=1;r<=ROWS;r++){
+    const same=r<ROWS&&grid[r][c]&&grid[r-1][c]&&grid[r][c].cat===grid[r-1][c].cat;
+    if(same)run++;else{if(run>=3)for(let k=0;k<run;k++)set.add((r-1-k)+'-'+c);run=1;}}}
+  return set;
+}
+
+function trySwap(a,b){
+  busy=true;swap(a,b);sel=null;render();
+  const m=findMatches();
+  if(m.size===0){setTimeout(()=>{swap(a,b);render();busy=false;toast('No match there — try another swap.');},180);return;}
+  moves++;$('moves').textContent=moves;
+  // meaning gate on the player's match
+  const [r,c]=[...m][0].split('-').map(Number);
+  openQuiz(grid[r][c]);
+}
+
+let quizFirst=true;
+function openQuiz(cell){
+  $('grid').classList.add('frozen');
+  quizFirst=true;
+  const opts=[cell.gloss];
+  while(opts.length<3){const g=pick(ALLG);if(!opts.includes(g))opts.push(g);}
+  for(let i=opts.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[opts[i],opts[j]]=[opts[j],opts[i]];}
+  $('q').innerHTML='Clear the match — what does <b>'+cell.word+'</b> mean?';
+  const box=$('qopts');box.innerHTML='';
+  opts.forEach(o=>{
+    const b=document.createElement('button');b.className='qopt';b.textContent=o;
+    b.addEventListener('click',()=>{
+      if(o===cell.gloss){
+        b.classList.add('right');
+        setTimeout(()=>{closeQuiz();resolveCascades(quizFirst?2:1);},480);
+      }else{b.classList.add('wrong');quizFirst=false;}
+    });
+    box.appendChild(b);
+  });
+  $('quiz').className='quiz show';
+}
+function closeQuiz(){$('quiz').className='quiz';$('grid').classList.remove('frozen');}
+
+function resolveCascades(mult){
+  const m=findMatches();
+  if(m.size===0){busy=false;return;}
+  score+=m.size*10*mult;$('score').textContent=score;
+  const g=$('grid');
+  m.forEach(key=>{const [r,c]=key.split('-').map(Number);const el=g.children[r*COLS+c];if(el)el.classList.add('clear');grid[r][c]=null;});
+  setTimeout(()=>{collapse();refill();render();setTimeout(()=>resolveCascades(1),150);},190);
+}
+function collapse(){for(let c=0;c<COLS;c++){let stack=[];for(let r=ROWS-1;r>=0;r--)if(grid[r][c])stack.push(grid[r][c]);
+  for(let r=ROWS-1;r>=0;r--)grid[r][c]=stack[ROWS-1-r]||null;}}
+function refill(){for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)if(!grid[r][c])grid[r][c]=makeCell();}
+
+function shuffle(){
+  if(busy)return;
+  const flat=[];for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)flat.push(grid[r][c]);
+  for(let i=flat.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[flat[i],flat[j]]=[flat[j],flat[i]];}
+  let k=0;for(let r=0;r<ROWS;r++)for(let c=0;c<COLS;c++)grid[r][c]=flat[k++];
+  sel=null;render();
+  if(findMatches().size>0){busy=true;resolveCascades(1);}  // free clears, no quiz
+}
+
+let toastTimer;
+function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2000);}
+
+$('shuffle').addEventListener('click',shuffle);
+$('restart').addEventListener('click',init);
+init();
+</script>
+</body>
+</html>

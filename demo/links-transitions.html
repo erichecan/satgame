@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links — SAT transition game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky:#E3EAE3;--paper:#F4F7F2;--turf-deep:#152C22;--turf:#2F6B4A;
+    --fairway:#5FA97C;--green-bright:#3FA76A;--flag:#E8543A;--sand:#CDB987;
+    --ink:#19271F;--muted:#5E6E62;--line:#CBD6CB;
+  }
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:radial-gradient(120% 80% at 50% -10%, #EEF3EC 0%, var(--sky) 55%, #D6E0D6 100%) fixed;
+    color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;line-height:1.45;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:560px;margin:0 auto;padding:22px 18px 64px}
+  .eyebrow{display:flex;align-items:center;gap:8px;font-family:"Archivo";font-weight:700;
+    text-transform:uppercase;letter-spacing:.14em;font-size:11px;color:var(--turf)}
+  .eyebrow .pin{width:13px;height:16px}
+  h1{font-family:"Archivo";font-weight:800;font-size:34px;line-height:1.02;letter-spacing:-.01em;margin:6px 0 2px;color:var(--turf-deep)}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;font-size:13px;color:var(--muted);font-family:"Space Mono";font-weight:700}
+
+  .stage{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 12px 28px -20px rgba(21,44,34,.5)}
+  .text{font-size:18px;line-height:1.65;color:var(--turf-deep)}
+  .gap{display:inline-block;min-width:54px;border-bottom:2.5px solid var(--flag);margin:0 3px;text-align:center;font-weight:700;color:var(--flag)}
+  .gap.filled{border-bottom-color:var(--fairway);color:var(--turf-deep)}
+
+  .steplabel{font-family:"Archivo";font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+    font-size:10px;color:var(--muted);margin:20px 0 10px;display:flex;align-items:center;gap:8px}
+  .steplabel .n{background:var(--turf);color:#fff;width:18px;height:18px;border-radius:50%;
+    display:inline-flex;align-items:center;justify-content:center;font-size:10px}
+
+  .opts{display:flex;flex-wrap:wrap;gap:9px}
+  .opt{font-family:"Inter";font-weight:600;font-size:14px;padding:10px 15px;border-radius:11px;
+    background:var(--paper);border:1.5px solid var(--line);color:var(--turf-deep);cursor:pointer;
+    transition:transform .08s,border-color .15s,background .15s}
+  .opt:hover{border-color:var(--turf)}
+  .opt:active{transform:translateY(1px)}
+  .opt.right{background:#E4F1E8;border-color:var(--green-bright);color:var(--turf)}
+  .opt.wrong{background:#FBE7E2;border-color:var(--flag);color:var(--flag);animation:shake .3s}
+  .opt.dim{opacity:.4;pointer-events:none}
+  @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+
+  #step2{display:none}#step2.show{display:block;animation:rise .3s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  .note{margin-top:16px;font-size:14px;line-height:1.5;min-height:18px;display:none}
+  .note.show{display:block;animation:rise .3s ease}
+  .note .head{font-family:"Archivo";font-weight:700;font-size:14px;margin-bottom:3px}
+  .note.ok .head{color:var(--turf)}.note.no .head{color:var(--flag)}
+  .note p{margin:0}
+
+  .next{margin-top:18px;width:100%;font-family:"Archivo";font-weight:700;font-size:15px;padding:13px;
+    border:none;border-radius:12px;cursor:pointer;background:var(--turf);color:#fff;display:none}
+  .next.show{display:block}.next:hover{background:var(--turf-deep)}
+  .done{text-align:center;padding:30px 10px}
+  .done h2{font-family:"Archivo";font-weight:800;color:var(--turf-deep);font-size:26px;margin:0 0 6px}
+  .footnote{margin-top:26px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">
+    <svg class="pin" viewBox="0 0 13 16" fill="none"><path d="M2 1.5V15" stroke="#2F6B4A" stroke-width="1.6" stroke-linecap="round"/><path d="M2 1.5L11 4L2 6.5V1.5Z" fill="#E8543A"/></svg>
+    Transitions · logic
+  </div>
+  <h1>Links</h1>
+  <p class="sub">First decide how the two sentences relate. Then pick the word that links them. The relationship is the real puzzle — the word just follows.</p>
+
+  <div class="meta"><span id="prog">01 / 06</span><span id="score">0 clean</span></div>
+
+  <div id="play">
+    <div class="stage">
+      <p class="text" id="text"></p>
+
+      <div class="steplabel"><span class="n">1</span> How do they relate?</div>
+      <div class="opts" id="rels"></div>
+
+      <div id="step2">
+        <div class="steplabel"><span class="n">2</span> Pick the linking word</div>
+        <div class="opts" id="words"></div>
+      </div>
+
+      <div class="note" id="note"><div class="head" id="nhead"></div><p id="nbody"></p></div>
+    </div>
+    <button class="next" id="next">Next pair</button>
+  </div>
+
+  <div class="footnote">A connector names a relationship: contrast, cause, addition, example, or sequence.</div>
+</div>
+
+<script>
+const RELS = [
+  {k:"contrast", label:"Contrast"},
+  {k:"cause",    label:"Cause & effect"},
+  {k:"addition", label:"Addition"},
+  {k:"example",  label:"Example"},
+  {k:"sequence", label:"Sequence"}
+];
+const WORDS = {
+  contrast:["However","Nevertheless","On the other hand","Still"],
+  cause:["Therefore","As a result","Consequently","Thus"],
+  addition:["Moreover","In addition","Furthermore","Also"],
+  example:["For instance","For example","Specifically"],
+  sequence:["Then","Next","Afterward","Finally"]
+};
+const ITEMS = [
+  {s1:"Isabella practiced her wedges every day.", s2:"her short game improved dramatically.",
+   rel:"cause", because:"The second sentence is the result of all that practice — that's cause and effect."},
+  {s1:"She practiced putting for hours before the round.", s2:"her putter let her down on the back nine.",
+   rel:"contrast", because:"You'd expect practice to help, but the outcome went the other way — that's a contrast."},
+  {s1:"The new driver added ten yards off the tee.", s2:"it was far more forgiving on mishits.",
+   rel:"addition", because:"The second point stacks another benefit on top of the first — that's addition."},
+  {s1:"She tends to rush when she gets nervous.", s2:"on the 18th tee she swung before she was set.",
+   rel:"example", because:"The second sentence gives a specific instance of the first — that's an example."},
+  {s1:"First she read the wind off the treetops.", s2:"she chose a club and committed to the shot.",
+   rel:"sequence", because:"The two sentences are steps in order — that's sequence."},
+  {s1:"Rain was in the forecast all morning.", s2:"the tournament started right on time.",
+   rel:"contrast", because:"The rain points one way, but what happened went the other — that's a contrast."}
+];
+
+let idx=0, clean=0, firstTry=true, relDone=false;
+const $=id=>document.getElementById(id);
+
+function render(filler){
+  const it=ITEMS[idx];
+  const gap = filler
+    ? '<span class="gap filled">'+filler+',</span>'
+    : '<span class="gap">&nbsp;&nbsp;&nbsp;,</span>';
+  $('text').innerHTML = it.s1+' '+gap+' '+it.s2;
+}
+
+function load(){
+  const it=ITEMS[idx];
+  firstTry=true; relDone=false;
+  $('prog').textContent = String(idx+1).padStart(2,'0')+' / '+String(ITEMS.length).padStart(2,'0');
+  render(null);
+  $('step2').className=''; $('note').className='note'; $('next').className='next';
+  const rels=$('rels'); rels.innerHTML='';
+  RELS.forEach(r=>{
+    const b=document.createElement('div'); b.className='opt'; b.textContent=r.label; b.dataset.k=r.k;
+    b.addEventListener('click',()=>pickRel(r.k,b)); rels.appendChild(b);
+  });
+  $('words').innerHTML='';
+}
+
+function pickRel(k,btn){
+  if(relDone) return;
+  const it=ITEMS[idx];
+  if(k===it.rel){
+    relDone=true;
+    btn.classList.add('right');
+    [...$('rels').children].forEach(c=>{if(c!==btn)c.classList.add('dim')});
+    const words=$('words'); words.innerHTML='';
+    WORDS[it.rel].forEach(w=>{
+      const b=document.createElement('div'); b.className='opt'; b.textContent=w;
+      b.addEventListener('click',()=>pickWord(w,b)); words.appendChild(b);
+    });
+    $('step2').className='show';
+  } else {
+    firstTry=false;
+    btn.classList.add('wrong');
+    setTimeout(()=>btn.classList.remove('wrong'),350);
+    const note=$('note'); note.className='note no show';
+    $('nhead').textContent='Not that relationship';
+    $('nbody').textContent='Not quite — '+it.because;
+  }
+}
+
+function pickWord(w,btn){
+  if(btn.classList.contains('right')) return;
+  [...$('words').children].forEach(c=>{if(c!==btn)c.classList.add('dim')});
+  btn.classList.add('right');
+  render(w);
+  if(firstTry) clean++;
+  $('score').textContent=clean+' clean';
+  const it=ITEMS[idx];
+  const note=$('note'); note.className='note ok show';
+  $('nhead').textContent='Linked';
+  $('nbody').textContent=it.because;
+  $('next').className='next show';
+  $('next').textContent = idx===ITEMS.length-1 ? 'See your card' : 'Next pair';
+}
+
+$('next').addEventListener('click',()=>{
+  if(idx===ITEMS.length-1){ finish(); return; }
+  idx++; load();
+});
+
+function finish(){
+  $('play').innerHTML =
+    '<div class="done"><h2>Round complete</h2>'+
+    '<p style="color:var(--muted);font-size:15px">'+clean+' of '+ITEMS.length+' linked on the first read.</p>'+
+    '<button class="next show" id="again" style="max-width:200px;margin:14px auto 0">Play again</button></div>';
+  document.getElementById('again').addEventListener('click',()=>location.reload());
+}
+
+load();
+</script>
+</body>
+</html>

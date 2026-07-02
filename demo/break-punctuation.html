@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Break — SAT punctuation game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky:#E3EAE3;--paper:#F4F7F2;--turf-deep:#152C22;--turf:#2F6B4A;
+    --fairway:#5FA97C;--green-bright:#3FA76A;--flag:#E8543A;--sand:#CDB987;
+    --ink:#19271F;--muted:#5E6E62;--line:#CBD6CB;
+  }
+  *{box-sizing:border-box}html,body{margin:0}
+  body{
+    background:radial-gradient(120% 80% at 50% -10%, #EEF3EC 0%, var(--sky) 55%, #D6E0D6 100%) fixed;
+    color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;
+    line-height:1.45;-webkit-font-smoothing:antialiased;touch-action:manipulation;
+  }
+  .wrap{max-width:560px;margin:0 auto;padding:22px 18px 64px}
+  .eyebrow{display:flex;align-items:center;gap:8px;font-family:"Archivo";font-weight:700;
+    text-transform:uppercase;letter-spacing:.14em;font-size:11px;color:var(--turf)}
+  .eyebrow .pin{width:13px;height:16px}
+  h1{font-family:"Archivo";font-weight:800;font-size:34px;line-height:1.02;
+    letter-spacing:-.01em;margin:6px 0 2px;color:var(--turf-deep)}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;
+    font-size:13px;color:var(--muted);font-family:"Space Mono";font-weight:700}
+
+  .stage{background:#fff;border:1px solid var(--line);border-radius:16px;
+    padding:22px 20px;box-shadow:0 12px 28px -20px rgba(21,44,34,.5)}
+  .ruletag{font-family:"Archivo";font-weight:700;text-transform:uppercase;
+    letter-spacing:.1em;font-size:10px;color:var(--muted);margin-bottom:12px}
+  .sentence{font-size:20px;line-height:1.6;color:var(--turf-deep)}
+  .slot{display:inline-block;min-width:46px;height:34px;line-height:32px;
+    border:2px dashed var(--flag);border-radius:8px;text-align:center;
+    vertical-align:middle;margin:0 1px;font-family:"Space Mono";font-weight:700;
+    font-size:22px;color:var(--flag);background:#FCEFEC;transition:background .15s,border-color .15s}
+  .slot.filled{border-style:solid;background:#EAF3EC;border-color:var(--fairway);color:var(--turf-deep)}
+  .slot.over{background:#FBE2DC}
+
+  .chips{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .chip{width:58px;height:58px;border-radius:14px;background:var(--paper);
+    border:1.5px solid var(--line);display:flex;align-items:center;justify-content:center;
+    font-family:"Space Mono";font-weight:700;font-size:26px;color:var(--turf-deep);
+    cursor:grab;user-select:none;touch-action:none;transition:transform .1s,box-shadow .15s,border-color .15s}
+  .chip:hover{border-color:var(--turf);box-shadow:0 6px 14px -8px rgba(47,107,74,.5)}
+  .chip:active{cursor:grabbing}
+  .chip.spent{opacity:.35;pointer-events:none}
+  .chip.label{font-size:11px;font-family:"Archivo";letter-spacing:.04em;line-height:1.1;padding:0 6px;text-align:center}
+  .ghost{position:fixed;z-index:50;width:58px;height:58px;border-radius:14px;background:#fff;
+    border:1.5px solid var(--turf);display:flex;align-items:center;justify-content:center;
+    font-family:"Space Mono";font-weight:700;font-size:26px;color:var(--turf-deep);
+    pointer-events:none;box-shadow:0 10px 22px -10px rgba(21,44,34,.6);transform:translate(-50%,-50%)}
+
+  .feedback{margin-top:16px;font-size:14px;line-height:1.5;min-height:20px;display:none}
+  .feedback.show{display:block;animation:rise .3s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .feedback .head{font-family:"Archivo";font-weight:700;font-size:14px;margin-bottom:3px}
+  .feedback.ok .head{color:var(--turf)}
+  .feedback.no .head{color:var(--flag)}
+  .feedback p{margin:0;color:var(--ink)}
+
+  .next{margin-top:18px;width:100%;font-family:"Archivo";font-weight:700;font-size:15px;
+    padding:13px;border:none;border-radius:12px;cursor:pointer;background:var(--turf);
+    color:#fff;display:none}
+  .next.show{display:block}
+  .next:hover{background:var(--turf-deep)}
+  .done{text-align:center;padding:30px 10px}
+  .done h2{font-family:"Archivo";font-weight:800;color:var(--turf-deep);font-size:26px;margin:0 0 6px}
+  .footnote{margin-top:26px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">
+    <svg class="pin" viewBox="0 0 13 16" fill="none"><path d="M2 1.5V15" stroke="#2F6B4A" stroke-width="1.6" stroke-linecap="round"/><path d="M2 1.5L11 4L2 6.5V1.5Z" fill="#E8543A"/></svg>
+    Punctuation · clause boundaries
+  </div>
+  <h1>The Break</h1>
+  <p class="sub">Every sentence has a break point. Drag — or tap — the right mark into the gap. The test: can each side stand on its own?</p>
+
+  <div class="meta"><span id="prog">01 / 06</span><span id="score">0 clean</span></div>
+
+  <div id="play">
+    <div class="stage">
+      <div class="ruletag" id="ruletag">Read it aloud first</div>
+      <p class="sentence" id="sentence"></p>
+      <div class="chips" id="chips"></div>
+      <div class="feedback" id="fb"><div class="head" id="fbhead"></div><p id="fbbody"></p></div>
+    </div>
+    <button class="next" id="next">Next sentence</button>
+  </div>
+
+  <div class="footnote">Drag a mark onto the gap, or just tap it. A comma between two full sentences is the classic trap.</div>
+</div>
+
+<script>
+const ITEMS = [
+  {before:"The hikers reached the summit", after:"they celebrated with a photo.",
+   accept:[";","."], rule:"Two complete sentences",
+   why:"Both halves can stand alone, so they need a hard break — a period or semicolon. A comma here would be a splice.",
+   wrong:"Read each side on its own: both are full sentences. A comma isn't strong enough to join them — that's a comma splice."},
+  {before:"She packed three essentials", after:"a map, water, and snacks.",
+   accept:[":"], rule:"Colon before a list",
+   why:"A complete sentence comes first, and a colon introduces the list that explains it.",
+   wrong:"The first part is a full sentence, and what follows is the list it points to — that calls for a colon."},
+  {before:"Because the storm was moving in", after:"the rangers closed the trail.",
+   accept:[","], rule:"Intro dependent clause",
+   why:"The opener starts with “Because” and can't stand alone, so a comma sets it off from the main clause.",
+   wrong:"“Because the storm was moving in” can't stand alone. An introductory clause like this takes a comma — nothing heavier."},
+  {before:"His strategy was simple", after:"play safe and wait for mistakes.",
+   accept:[":","—"], rule:"Colon or dash to explain",
+   why:"A full sentence is followed by an explanation of it, so a colon (or a dash) fits.",
+   wrong:"A complete thought is followed by what it means. Use a colon or a dash to introduce the explanation."},
+  {before:"The greens were soft", after:"so putts died short all afternoon.",
+   accept:[","], rule:"Comma before a conjunction",
+   why:"Two complete sentences joined by “so” take a comma right before the conjunction.",
+   wrong:"Two full clauses joined by a conjunction like “so” take a comma before it — a semicolon or colon would be wrong here."},
+  {before:"Isabella checked the yardage", after:"then she pulled an extra club.",
+   accept:[";","."], rule:"Two complete sentences",
+   why:"Both halves are complete (“then” isn't a conjunction), so use a semicolon or period — not a comma.",
+   wrong:"“then” doesn't join clauses the way “and/so” do. Both sides are full sentences, so they need a semicolon or period."}
+];
+const MARKS = [
+  {m:",",  k:"comma"},
+  {m:";",  k:"semicolon"},
+  {m:":",  k:"colon"},
+  {m:"\u2014", k:"dash"},
+  {m:".",  k:"period"}
+];
+
+let idx = 0, clean = 0, solved = false, firstTry = true;
+const $ = id => document.getElementById(id);
+
+function load(){
+  const it = ITEMS[idx];
+  solved = false; firstTry = true;
+  $('prog').textContent = String(idx+1).padStart(2,'0') + ' / ' + String(ITEMS.length).padStart(2,'0');
+  $('ruletag').textContent = 'Read it aloud first';
+  $('sentence').innerHTML = it.before + ' <span class="slot" id="slot"></span> ' + it.after;
+  $('fb').className = 'feedback';
+  $('next').className = 'next';
+  const chips = $('chips'); chips.innerHTML = '';
+  MARKS.forEach(mk=>{
+    const c = document.createElement('div');
+    c.className = 'chip'; c.textContent = mk.m; c.dataset.mark = mk.m;
+    attachDrag(c, mk.m);
+    chips.appendChild(c);
+  });
+}
+
+function place(mark){
+  if(solved) return;
+  const slot = $('slot');
+  slot.textContent = mark === '\u2014' ? '\u2014' : mark;
+  slot.classList.add('filled');
+  evaluate(mark);
+}
+
+function evaluate(mark){
+  const it = ITEMS[idx];
+  const ok = it.accept.includes(mark);
+  const fb = $('fb');
+  if(ok){
+    solved = true;
+    if(firstTry) clean++;
+    $('score').textContent = clean + ' clean';
+    $('ruletag').textContent = it.rule;
+    fb.className = 'feedback ok show';
+    $('fbhead').textContent = 'Clean strike';
+    $('fbbody').textContent = it.why;
+    $('next').className = 'next show';
+    $('next').textContent = idx === ITEMS.length-1 ? 'See your card' : 'Next sentence';
+  } else {
+    firstTry = false;
+    fb.className = 'feedback no show';
+    $('fbhead').textContent = 'Off line — try again';
+    $('fbbody').textContent = it.wrong;
+    const slot = $('slot');
+    slot.classList.remove('filled'); slot.textContent = '';
+  }
+}
+
+/* tap + pointer drag, both end in place() */
+function attachDrag(chip, mark){
+  let ghost=null, moved=false, startX=0, startY=0;
+  chip.addEventListener('pointerdown', e=>{
+    if(solved) return;
+    moved=false; startX=e.clientX; startY=e.clientY;
+    ghost=document.createElement('div'); ghost.className='ghost';
+    ghost.textContent=mark; document.body.appendChild(ghost);
+    moveGhost(e.clientX,e.clientY);
+    chip.setPointerCapture(e.pointerId);
+  });
+  chip.addEventListener('pointermove', e=>{
+    if(!ghost) return;
+    if(Math.abs(e.clientX-startX)>5||Math.abs(e.clientY-startY)>5) moved=true;
+    moveGhost(e.clientX,e.clientY);
+    const slot=$('slot'); if(!slot) return;
+    const r=slot.getBoundingClientRect();
+    const over=e.clientX>=r.left-20&&e.clientX<=r.right+20&&e.clientY>=r.top-20&&e.clientY<=r.bottom+20;
+    slot.classList.toggle('over',over);
+  });
+  chip.addEventListener('pointerup', e=>{
+    if(!ghost) return;
+    ghost.remove(); ghost=null;
+    const slot=$('slot'); if(slot) slot.classList.remove('over');
+    if(!moved){ place(mark); return; }            // tap-to-place
+    if(slot){
+      const r=slot.getBoundingClientRect();
+      const over=e.clientX>=r.left-20&&e.clientX<=r.right+20&&e.clientY>=r.top-20&&e.clientY<=r.bottom+20;
+      if(over) place(mark);
+    }
+  });
+  function moveGhost(x,y){ if(ghost){ghost.style.left=x+'px';ghost.style.top=y+'px';} }
+}
+
+$('next').addEventListener('click', ()=>{
+  if(idx === ITEMS.length-1){ finish(); return; }
+  idx++; load();
+});
+
+function finish(){
+  $('play').innerHTML =
+    '<div class="done"><h2>Round complete</h2>' +
+    '<p style="color:var(--muted);font-size:15px">You struck '+clean+' of '+ITEMS.length+' clean on the first try.</p>' +
+    '<button class="next show" id="again" style="max-width:200px;margin:14px auto 0">Play again</button></div>';
+  document.getElementById('again').addEventListener('click', ()=>{ idx=0;clean=0;$('score').textContent='0 clean';
+    $('play').innerHTML=''; location.reload(); });
+}
+
+load();
+</script>
+</body>
+</html>

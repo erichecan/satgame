@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Word {
+  id           String     @id @default(cuid())
+  word         String     @unique
+  partOfSpeech String?
+  definitionEn String
+  definitionCn String?
+  exampleEn    String?
+  difficulty   Int        @default(1)
+  isActive     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  vocabNotes   VocabNote[]
+}
+
+// 5 个游戏的题目内容统一存储，payload 按 gameType 存放各自结构化数据
+model GameItem {
+  id          String   @id @default(cuid())
+  gameType    String   // clusters | closer | read_the_green | gate_run | dissector
+  domain      String   // craft_structure | words_in_context | info_ideas | expression_conventions | math
+  difficulty  Int      @default(1)
+  payload     Json
+  explanation String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@index([gameType, isActive])
+}
+
+model Progress {
+  id                 String    @id @default(cuid())
+  gameType           String
+  itemId             String?
+  skill              String
+  result             String    // correct | incorrect
+  attempts           Int       @default(1)
+  masteryScore       Float     @default(0)
+  consecutiveCorrect Int       @default(0)
+  nextReview         DateTime?
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  @@index([skill, nextReview])
+}
+
+model VocabNote {
+  id           String    @id @default(cuid())
+  wordId       String
+  word         Word      @relation(fields: [wordId], references: [id])
+  addedFrom    String    // wrong | asked_hint | gave_up | manual
+  sourceGame   String?
+  masteryLevel Int       @default(0) // 0=新 1=学习中 2=已掌握
+  reviewCount  Int       @default(0)
+  nextReview   DateTime?
+  createdAt    DateTime  @default(now())
+
+  @@index([nextReview])
+}
+
+// 单用户应用，无多用户体系，统计信息为单例行
+model UserStats {
+  id             String   @id @default("singleton")
+  xp             Int      @default(0)
+  streak         Int      @default(0)
+  lastActiveDate DateTime?
+  updatedAt      DateTime @updatedAt
+}
+
+model Badge {
+  id          String   @id @default(cuid())
+  code        String   @unique
+  name        String
+  description String
+  earnedAt    DateTime @default(now())
+}

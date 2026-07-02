@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read the Green — SAT reading game</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --sky:#E3EAE3;--paper:#F4F7F2;--turf-deep:#152C22;--turf:#2F6B4A;
+    --fairway:#5FA97C;--green-bright:#3FA76A;--flag:#E8543A;--sand:#CDB987;
+    --ink:#19271F;--muted:#5E6E62;--line:#CBD6CB;
+  }
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:radial-gradient(120% 80% at 50% -10%, #EEF3EC 0%, var(--sky) 55%, #D6E0D6 100%) fixed;
+    color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;line-height:1.45;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:560px;margin:0 auto;padding:22px 18px 64px}
+  .eyebrow{display:flex;align-items:center;gap:8px;font-family:"Archivo";font-weight:700;
+    text-transform:uppercase;letter-spacing:.14em;font-size:11px;color:var(--turf)}
+  .eyebrow .pin{width:13px;height:16px}
+  h1{font-family:"Archivo";font-weight:800;font-size:34px;line-height:1.02;letter-spacing:-.01em;margin:6px 0 2px;color:var(--turf-deep)}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+  .meta{display:flex;justify-content:space-between;align-items:center;margin:0 2px 12px;font-size:13px;color:var(--muted);font-family:"Space Mono";font-weight:700}
+
+  .passage{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;
+    box-shadow:0 12px 28px -20px rgba(21,44,34,.5);font-size:16px;line-height:1.7;color:var(--turf-deep)}
+  .passage .s{cursor:default;border-radius:4px;padding:1px 2px;transition:background .15s}
+  .passage.huntable .s{cursor:pointer}
+  .passage.huntable .s:hover{background:#EAF3EC}
+  .passage .s.pick-wrong{background:#FBE7E2}
+  .passage .s.pick-right{background:#DCEEE2;box-shadow:inset 0 -2px 0 var(--green-bright)}
+
+  .qlabel{font-family:"Archivo";font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:10px;color:var(--muted);margin:20px 0 8px}
+  .question{font-size:16px;font-weight:600;color:var(--ink);margin:0 0 14px}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{font-family:"Inter";font-size:15px;line-height:1.4;padding:13px 15px;border-radius:12px;
+    background:var(--paper);border:1.5px solid var(--line);color:var(--ink);cursor:pointer;text-align:left;
+    transition:border-color .15s,background .15s,transform .08s}
+  .opt:hover{border-color:var(--turf)}
+  .opt:active{transform:translateY(1px)}
+  .opt.right{background:#E4F1E8;border-color:var(--green-bright);color:var(--turf);font-weight:600}
+  .opt.wrong{background:#FBE7E2;border-color:var(--flag)}
+  .opt.dim{opacity:.45;pointer-events:none}
+
+  .note{margin-top:16px;font-size:14px;line-height:1.5;display:none}
+  .note.show{display:block;animation:rise .3s ease}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .note .head{font-family:"Archivo";font-weight:700;font-size:14px;margin-bottom:3px}
+  .note.ok .head{color:var(--turf)}.note.no .head{color:var(--flag)}.note.go .head{color:var(--turf-deep)}
+  .note p{margin:0}
+  .note .trap{margin-top:8px;font-size:13px;color:var(--muted)}
+
+  .next{margin-top:18px;width:100%;font-family:"Archivo";font-weight:700;font-size:15px;padding:13px;
+    border:none;border-radius:12px;cursor:pointer;background:var(--turf);color:#fff;display:none}
+  .next.show{display:block}.next:hover{background:var(--turf-deep)}
+  .done{text-align:center;padding:30px 10px}
+  .done h2{font-family:"Archivo";font-weight:800;color:var(--turf-deep);font-size:26px;margin:0 0 6px}
+  .footnote{margin-top:26px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">
+    <svg class="pin" viewBox="0 0 13 16" fill="none"><path d="M2 1.5V15" stroke="#2F6B4A" stroke-width="1.6" stroke-linecap="round"/><path d="M2 1.5L11 4L2 6.5V1.5Z" fill="#E8543A"/></svg>
+    Reading · evidence
+  </div>
+  <h1>Read the Green</h1>
+  <p class="sub">Answer the question, then tap the one sentence that proves your answer. Reading the line is the skill — guessing isn't.</p>
+
+  <div class="meta"><span id="prog">01 / 03</span><span id="score">0 clean</span></div>
+
+  <div id="play">
+    <div class="passage" id="passage"></div>
+    <div class="qlabel" id="phase">Question</div>
+    <p class="question" id="question"></p>
+    <div class="opts" id="opts"></div>
+    <div class="note" id="note"><div class="head" id="nhead"></div><p id="nbody"></p><div class="trap" id="ntrap"></div></div>
+    <button class="next" id="next">Next passage</button>
+  </div>
+
+  <div class="footnote">Wrong answers on the SAT are traps: too broad, not stated, or the opposite. Spotting the type is half the battle.</div>
+</div>
+
+<script>
+const ITEMS = [
+  {
+    sentences:[
+      "Sea otters feed on sea urchins, which themselves graze on kelp.",
+      "Where otters are abundant, kelp forests grow thick and shelter hundreds of species.",
+      "When otters vanish, urchins multiply and strip the kelp bare.",
+      "For this reason, ecologists call the sea otter a keystone species."
+    ],
+    q:"What is the main point of the passage?",
+    options:[
+      {t:"Otters indirectly protect whole kelp forest ecosystems.", correct:true},
+      {t:"Sea urchins are the most valuable species in kelp forests.", trap:"Opposite — in the passage urchins damage the kelp."},
+      {t:"Kelp can only grow in very cold water.", trap:"Not stated — the passage never mentions temperature."},
+      {t:"Otters eat many different sea creatures.", trap:"Too narrow — one detail, not the main idea."}
+    ],
+    evidence:3,
+    evWhy:"Calling the otter a “keystone species” sums up the whole chain: more otters means fewer urchins, which means healthy kelp."
+  },
+  {
+    sentences:[
+      "Maya reread the acceptance letter three times before she believed it.",
+      "Her hands were still shaking when she finally set it down.",
+      "She had applied on a whim, certain she had no real chance."
+    ],
+    q:"What can reasonably be inferred about Maya?",
+    options:[
+      {t:"She did not expect to be accepted.", correct:true},
+      {t:"She had applied to many programs.", trap:"Not stated — we only hear about this one."},
+      {t:"She was disappointed by the news.", trap:"Opposite — shaking hands and disbelief signal shock, not letdown."},
+      {t:"She regretted applying at all.", trap:"Not supported by anything in the text."}
+    ],
+    evidence:2,
+    evWhy:"“certain she had no real chance” shows she didn't expect to get in — which is why she had to reread it to believe it."
+  },
+  {
+    sentences:[
+      "A city study followed commuters after a new downtown bike lane opened.",
+      "Within a year, the share of trips made by bicycle had nearly doubled.",
+      "Car traffic on the same street, however, fell only slightly.",
+      "Researchers concluded the lane mainly drew people who had been walking or taking the bus."
+    ],
+    q:"The findings most directly suggest that the bike lane:",
+    options:[
+      {t:"shifted existing non-drivers to cycling rather than cutting car use.", correct:true},
+      {t:"eliminated most car traffic downtown.", trap:"Opposite — car traffic fell only slightly."},
+      {t:"was used mainly by former drivers.", trap:"Contradicts the conclusion about walkers and bus riders."},
+      {t:"had no measurable effect on how people traveled.", trap:"Opposite — cycling nearly doubled."}
+    ],
+    evidence:3,
+    evWhy:"The last line says the lane drew people who had been walking or taking the bus — non-drivers — not people who used to drive."
+  }
+];
+
+let idx=0, clean=0, firstTry=true, phase="answer";
+const $=id=>document.getElementById(id);
+
+function renderPassage(){
+  const it=ITEMS[idx];
+  const p=$('passage'); p.className='passage'; p.innerHTML='';
+  it.sentences.forEach((s,i)=>{
+    const span=document.createElement('span');
+    span.className='s'; span.textContent=s+' '; span.dataset.i=i;
+    span.addEventListener('click',()=>pickEvidence(i,span));
+    p.appendChild(span);
+  });
+}
+
+function load(){
+  const it=ITEMS[idx];
+  firstTry=true; phase="answer";
+  $('prog').textContent=String(idx+1).padStart(2,'0')+' / '+String(ITEMS.length).padStart(2,'0');
+  renderPassage();
+  $('phase').textContent='Question';
+  $('question').textContent=it.q;
+  $('note').className='note';
+  $('next').className='next';
+  const opts=$('opts'); opts.innerHTML='';
+  it.options.forEach((o,i)=>{
+    const b=document.createElement('div'); b.className='opt'; b.textContent=o.t; b.dataset.i=i;
+    b.addEventListener('click',()=>pickAnswer(i,b)); opts.appendChild(b);
+  });
+}
+
+function pickAnswer(i,btn){
+  if(phase!=="answer") return;
+  const it=ITEMS[idx];
+  if(it.options[i].correct){
+    btn.classList.add('right');
+    [...$('opts').children].forEach(c=>{if(c!==btn)c.classList.add('dim')});
+    phase="evidence";
+    $('passage').classList.add('huntable');
+    $('phase').textContent='Now tap the sentence that proves it';
+    const note=$('note'); note.className='note go show';
+    $('nhead').textContent='Right answer';
+    $('nbody').textContent='Now back it up — tap the one sentence in the passage that proves it.';
+    $('ntrap').textContent='';
+  } else {
+    firstTry=false;
+    btn.classList.add('wrong');
+    const note=$('note'); note.className='note no show';
+    $('nhead').textContent='That\'s a trap';
+    $('nbody').textContent=it.options[i].trap;
+    $('ntrap').textContent='Look again and pick another.';
+  }
+}
+
+function pickEvidence(i,span){
+  if(phase!=="evidence") return;
+  const it=ITEMS[idx];
+  if(i===it.evidence){
+    phase="done";
+    span.classList.add('pick-right');
+    if(firstTry) clean++;
+    $('score').textContent=clean+' clean';
+    $('phase').textContent='Evidence locked';
+    const note=$('note'); note.className='note ok show';
+    $('nhead').textContent='That\'s the line';
+    $('nbody').textContent=it.evWhy;
+    const traps=it.options.filter(o=>!o.correct).map(o=>'• '+o.trap).join('<br>');
+    $('ntrap').innerHTML='Why the others miss:<br>'+traps;
+    $('next').className='next show';
+    $('next').textContent = idx===ITEMS.length-1 ? 'See your card' : 'Next passage';
+  } else {
+    firstTry=false;
+    span.classList.add('pick-wrong');
+    setTimeout(()=>span.classList.remove('pick-wrong'),500);
+    const note=$('note'); note.className='note no show';
+    $('nhead').textContent='Not the strongest line';
+    $('nbody').textContent='That sentence is true, but it doesn\'t directly prove the answer. Find the line that states it most clearly.';
+    $('ntrap').textContent='';
+  }
+}
+
+$('next').addEventListener('click',()=>{
+  if(idx===ITEMS.length-1){ finish(); return; }
+  idx++; load();
+});
+
+function finish(){
+  $('play').innerHTML=
+    '<div class="done"><h2>Round complete</h2>'+
+    '<p style="color:var(--muted);font-size:15px">'+clean+' of '+ITEMS.length+' read clean — answer and evidence both right first try.</p>'+
+    '<button class="next show" id="again" style="max-width:200px;margin:14px auto 0">Play again</button></div>';
+  document.getElementById('again').addEventListener('click',()=>location.reload());
+}
+
+load();
+</script>
+</body>
+</html>

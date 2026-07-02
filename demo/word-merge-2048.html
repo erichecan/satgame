@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Merge · 合成</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F2F3F6;--surface:#fff;--ink:#15171E;--muted:#686D7A;--line:#E4E6EC;
+    --accent:#E8743B;
+  }
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;
+    min-height:100vh;line-height:1.45;-webkit-font-smoothing:antialiased;
+    touch-action:none;-webkit-user-select:none;user-select:none}
+  .wrap{max-width:460px;margin:0 auto;padding:22px 18px 56px}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;
+    letter-spacing:.16em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 18px}
+
+  .hud{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:12px}
+  .hud .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+  .hud .big{font-family:"Space Grotesk";font-weight:700;font-size:22px;line-height:1}
+  .hud .strongest{text-align:right}
+  .hud .strongest .big{color:var(--accent);font-size:18px}
+
+  .board{position:relative;background:#DfE2EA;border-radius:16px;padding:8px;
+    display:grid;grid-template-columns:repeat(4,1fr);gap:8px;aspect-ratio:1/1}
+  .cell{background:#E9EBF1;border-radius:11px}
+  .tiles{position:absolute;inset:8px;display:grid;grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr);gap:8px;pointer-events:none}
+  .tile{border-radius:11px;display:flex;align-items:center;justify-content:center;
+    font-family:"Space Grotesk";font-weight:700;text-align:center;padding:2px;
+    font-size:clamp(11px,3.6vw,16px);line-height:1.05;word-break:break-word}
+  .tile.pop{animation:pop .16s ease}
+  @keyframes pop{0%{transform:scale(.7)}60%{transform:scale(1.08)}100%{transform:scale(1)}}
+  .tile.new{animation:fadein .18s ease}
+  @keyframes fadein{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:scale(1)}}
+
+  .ladder{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;
+    background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+  .ladder .step{font-size:12px;color:var(--muted);padding:3px 8px;border-radius:7px;background:#F0F1F5}
+  .ladder .step.hit{color:#fff;font-weight:600}
+  .ladder .arrow{color:#C2C6D0;font-size:11px}
+
+  .controls{display:flex;gap:10px;margin-top:16px}
+  button{font-family:"Space Grotesk";font-weight:700;font-size:14px;padding:11px 16px;
+    border:none;border-radius:11px;cursor:pointer;flex:1;transition:filter .15s,transform .08s}
+  button:active{transform:translateY(1px)}
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+  button:hover{filter:brightness(.97)}
+
+  .toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%);background:var(--ink);
+    color:#fff;padding:11px 18px;border-radius:999px;font-size:14px;font-weight:600;
+    opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:30;max-width:88vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">合成 · Word Merge</div>
+  <h1>Stronger</h1>
+  <p class="sub">Swipe to slide the tiles. Two of the same word merge into the next, stronger word up the ladder. Climb to the top.</p>
+
+  <div class="hud">
+    <div><div class="lab">Score</div><div class="big" id="score">0</div></div>
+    <div class="strongest"><div class="lab">Strongest word</div><div class="big" id="best">—</div></div>
+  </div>
+
+  <div class="board" id="board">
+    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="tiles" id="tiles"></div>
+  </div>
+
+  <div class="ladder" id="ladder"></div>
+
+  <div class="controls">
+    <button class="btn-ghost" id="newchain">New ladder</button>
+    <button class="btn-primary" id="restart">Restart</button>
+  </div>
+
+  <div class="footnote">Swipe on the board (or use arrow keys / WASD). Each ladder is a set of near-synonyms from mild to intense.</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const CHAINS = [
+  {name:"anger",  words:["annoyed","irritated","angry","furious","livid"]},
+  {name:"joy",    words:["content","pleased","happy","delighted","elated","ecstatic"]},
+  {name:"size",   words:["small","modest","large","vast","immense"]},
+  {name:"tired",  words:["tired","weary","exhausted","drained","spent"]},
+  {name:"good",   words:["decent","good","great","superb","sublime"]},
+  {name:"sad",    words:["down","glum","sad","miserable","despondent"]}
+];
+const RAMP = ["#EAECF2","#FBE7C6","#F6C98C","#EFA257","#E8743B","#D33E2C"];
+const N = 4;
+const $ = id => document.getElementById(id);
+
+let chain, grid, score, best, chainIdx = 0;
+
+function rampColor(level, len){
+  const i = Math.round(level/(len-1)*(RAMP.length-1));
+  return RAMP[Math.min(i, RAMP.length-1)];
+}
+function textColor(level, len){ return (level/(len-1) >= .55) ? "#fff" : "#15171E"; }
+
+function newGame(keepChain){
+  if(!keepChain){ chain = CHAINS[chainIdx % CHAINS.length]; chainIdx++; }
+  grid = Array.from({length:N},()=>Array(N).fill(-1));
+  score = 0; best = -1;
+  spawn(); spawn();
+  render(true);
+  renderLadder();
+  $('score').textContent = 0;
+}
+
+function spawn(){
+  const empties = [];
+  for(let r=0;r<N;r++)for(let c=0;c<N;c++) if(grid[r][c]<0) empties.push([r,c]);
+  if(!empties.length) return false;
+  const [r,c] = empties[Math.floor(Math.random()*empties.length)];
+  grid[r][c] = Math.random()<0.85 ? 0 : 1;
+  return true;
+}
+
+function render(initial){
+  const t = $('tiles'); t.innerHTML='';
+  for(let r=0;r<N;r++)for(let c=0;c<N;c++){
+    const lv = grid[r][c]; if(lv<0) continue;
+    const d = document.createElement('div');
+    d.className = 'tile' + (initial?' new':'');
+    d.style.gridRowStart = r+1; d.style.gridColumnStart = c+1;
+    d.style.background = rampColor(lv, chain.words.length);
+    d.style.color = textColor(lv, chain.words.length);
+    d.textContent = chain.words[lv];
+    t.appendChild(d);
+    if(lv>best){ best = lv; }
+  }
+  $('best').textContent = best>=0 ? chain.words[best] : '—';
+}
+
+function renderLadder(){
+  const l = $('ladder'); l.innerHTML='';
+  chain.words.forEach((w,i)=>{
+    if(i>0){const a=document.createElement('span');a.className='arrow';a.textContent='›';l.appendChild(a);}
+    const s=document.createElement('span'); s.className='step'+(i<=best?' hit':'');
+    s.textContent=w;
+    if(i<=best){ s.style.background=rampColor(i,chain.words.length); s.style.color=textColor(i,chain.words.length); }
+    l.appendChild(s);
+  });
+}
+
+function slide(line){               // line: array of levels, returns {line, gained, merged:[idx...]}
+  const top = chain.words.length-1;
+  let arr = line.filter(v=>v>=0);
+  let out = [], gained = 0, merged = false;
+  for(let i=0;i<arr.length;i++){
+    if(i+1<arr.length && arr[i]===arr[i+1] && arr[i]<top){
+      out.push(arr[i]+1); gained += (arr[i]+1); merged=true; i++;
+    } else out.push(arr[i]);
+  }
+  while(out.length<N) out.push(-1);
+  return {line:out, gained, merged};
+}
+
+function move(dir){    // 'l','r','u','d'
+  const before = JSON.stringify(grid);
+  let gained = 0, anyMerge=false;
+  const get = (r,c)=>grid[r][c], set=(r,c,v)=>grid[r][c]=v;
+  for(let i=0;i<N;i++){
+    let line=[];
+    for(let j=0;j<N;j++){
+      if(dir==='l') line.push(get(i,j));
+      else if(dir==='r') line.push(get(i,N-1-j));
+      else if(dir==='u') line.push(get(j,i));
+      else line.push(get(N-1-j,i));
+    }
+    const res = slide(line); gained+=res.gained; anyMerge=anyMerge||res.merged;
+    for(let j=0;j<N;j++){
+      const v=res.line[j];
+      if(dir==='l') set(i,j,v);
+      else if(dir==='r') set(i,N-1-j,v);
+      else if(dir==='u') set(j,i,v);
+      else set(N-1-j,i,v);
+    }
+  }
+  if(JSON.stringify(grid)===before) return;
+  score += gained; $('score').textContent = score;
+  spawn();
+  render(false);
+  renderLadder();
+  // pop animation on tiles (cheap: re-add class)
+  if(anyMerge) [...$('tiles').children].forEach(el=>{el.classList.add('pop');setTimeout(()=>el.classList.remove('pop'),170)});
+  checkState();
+}
+
+function checkState(){
+  const top = chain.words.length-1;
+  let hasTop=false, hasEmpty=false, canMove=false;
+  for(let r=0;r<N;r++)for(let c=0;c<N;c++){
+    if(grid[r][c]===top) hasTop=true;
+    if(grid[r][c]<0) hasEmpty=true;
+    if(c+1<N && grid[r][c]===grid[r][c+1]) canMove=true;
+    if(r+1<N && grid[r][c]===grid[r+1][c]) canMove=true;
+  }
+  if(hasTop){ toast('“'+chain.words[top]+'” — top of the ladder! Keep going or try a new one.'); }
+  else if(!hasEmpty && !canMove){ toast('Board jammed. Hit Restart for a fresh deal.'); }
+}
+
+let toastTimer;
+function toast(msg){
+  const t=$('toast'); t.textContent=msg; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer=setTimeout(()=>t.classList.remove('show'),2600);
+}
+
+// input
+window.addEventListener('keydown',e=>{
+  const k=e.key.toLowerCase();
+  const map={arrowleft:'l',a:'l',arrowright:'r',d:'r',arrowup:'u',w:'u',arrowdown:'d',s:'d'};
+  if(map[k]){ e.preventDefault(); move(map[k]); }
+});
+let sx,sy;
+const bd=$('board');
+bd.addEventListener('touchstart',e=>{const t=e.touches[0];sx=t.clientX;sy=t.clientY;},{passive:true});
+bd.addEventListener('touchend',e=>{
+  if(sx==null)return; const t=e.changedTouches[0];
+  const dx=t.clientX-sx, dy=t.clientY-sy;
+  if(Math.max(Math.abs(dx),Math.abs(dy))<24){sx=null;return;}
+  if(Math.abs(dx)>Math.abs(dy)) move(dx>0?'r':'l'); else move(dy>0?'d':'u');
+  sx=null;
+});
+
+$('restart').addEventListener('click',()=>newGame(true));
+$('newchain').addEventListener('click',()=>{newGame(false);toast('New ladder: '+chain.name);});
+
+newGame(false);
+</script>
+</body>
+</html>

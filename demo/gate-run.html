@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gate Run · 跑酷</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#0E1320;--surface:#19203180;--ink:#EAF0FF;--muted:#8B97B5;--line:#2A3552;--accent:#3BE08F;--bad:#FF6B6B}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:radial-gradient(130% 90% at 50% 0%,#16203A 0%,#0E1320 60%) fixed;color:var(--ink);
+    font-family:"Inter",system-ui,sans-serif;min-height:100vh;line-height:1.45;-webkit-font-smoothing:antialiased;
+    -webkit-user-select:none;user-select:none}
+  .wrap{max-width:460px;margin:0 auto;padding:22px 18px 40px}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+
+  .hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .hearts{font-size:18px;letter-spacing:2px}
+  .stat{font-family:"Space Mono";font-weight:700;font-size:14px;color:var(--muted)}
+  .stat b{color:var(--ink)}
+
+  .track{height:6px;border-radius:6px;background:#1C2640;position:relative;margin-bottom:18px;overflow:hidden}
+  .track .runner{position:absolute;top:50%;transform:translate(-50%,-50%);width:14px;height:14px;border-radius:50%;
+    background:var(--accent);box-shadow:0 0 12px var(--accent);transition:left .25s ease}
+
+  .stage{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;backdrop-filter:blur(4px)}
+  .timerbar{height:6px;border-radius:6px;background:#222C46;overflow:hidden;margin-bottom:16px}
+  .timerbar > i{display:block;height:100%;width:100%;background:var(--accent);transition:width .1s linear}
+  .kind{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:10px;color:var(--muted);margin-bottom:8px}
+  .prompt{font-size:19px;line-height:1.5;min-height:58px}
+  .gap{display:inline-block;min-width:42px;border-bottom:2px solid var(--accent);margin:0 3px}
+
+  .doors{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+  .door{font-family:"Space Grotesk";font-weight:700;font-size:18px;padding:22px 10px;border-radius:14px;
+    background:#1B2540;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;text-align:center;
+    transition:transform .08s,border-color .15s,background .15s}
+  .door:hover{border-color:var(--accent)}
+  .door:active{transform:translateY(1px)}
+  .door.right{background:#143A2A;border-color:var(--accent);color:var(--accent)}
+  .door.wrong{background:#3A1A1F;border-color:var(--bad);color:var(--bad)}
+
+  .feed{margin-top:14px;font-size:13px;color:var(--muted);min-height:18px}
+  .combo{color:var(--accent);font-weight:600}
+
+  .overlay{position:fixed;inset:0;background:#0E1320EE;display:none;align-items:center;justify-content:center;z-index:20}
+  .overlay.show{display:flex}
+  .panel{text-align:center;padding:30px}
+  .panel h2{font-family:"Space Grotesk";font-weight:700;font-size:30px;margin:0 0 6px}
+  .panel p{color:var(--muted);margin:0 0 18px}
+  .panel .final{font-family:"Space Mono";font-size:40px;color:var(--accent);font-weight:700}
+  button.play{font-family:"Space Grotesk";font-weight:700;font-size:16px;padding:13px 30px;border:none;border-radius:12px;
+    cursor:pointer;background:var(--accent);color:#0E1320}
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">跑酷 · Gate Run</div>
+  <h1>Gate Run</h1>
+  <p class="sub">Pick the right door before the bar empties. Punctuation and transitions, at speed. Three misses and you're out.</p>
+
+  <div class="hud">
+    <div class="hearts" id="hearts">♥ ♥ ♥</div>
+    <div class="stat">score <b id="score">0</b> · best combo <b id="combo">0</b></div>
+  </div>
+  <div class="track"><span class="runner" id="runner" style="left:0%"></span></div>
+
+  <div class="stage" id="stage">
+    <div class="timerbar"><i id="timer"></i></div>
+    <div class="kind" id="kind"></div>
+    <div class="prompt" id="prompt"></div>
+    <div class="doors">
+      <div class="door" id="d0"></div>
+      <div class="door" id="d1"></div>
+    </div>
+    <div class="feed" id="feed">Tap a door to start.</div>
+  </div>
+
+  <div class="footnote">Each correct gate speeds the next one up. Wrong door or timeout = one heart.</div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="panel">
+    <h2>Run over</h2>
+    <p>Gates cleared</p>
+    <div class="final" id="final">0</div>
+    <p id="bestline"></p>
+    <button class="play" id="again">Run again</button>
+  </div>
+</div>
+
+<script>
+const GATES = [
+  {kind:"punctuation", before:"She was exhausted", after:"she kept running.", doors:[",",";"], correct:1,
+   why:"Two complete sentences — a comma would splice them, so use a semicolon."},
+  {kind:"punctuation", before:"He packed one thing", after:"his camera.", doors:[":",";"], correct:0,
+   why:"A full sentence introduces a single item — that's a colon."},
+  {kind:"punctuation", before:"Because it was late", after:"they turned back.", doors:[",",":"], correct:0,
+   why:"An intro clause that can't stand alone takes a comma."},
+  {kind:"punctuation", before:"The trail was steep", after:"so they rested often.", doors:[",",";"], correct:0,
+   why:"Two clauses joined by “so” take a comma before the conjunction."},
+  {kind:"punctuation", before:"Her plan was simple", after:"wait and watch.", doors:[":","."], correct:0,
+   why:"A complete sentence followed by its explanation — use a colon."},
+  {kind:"punctuation", before:"The rain stopped", after:"the sun came out.", doors:[",","."], correct:1,
+   why:"Both halves stand alone, so a period (or semicolon) is needed."},
+  {kind:"transition", before:"It rained all day.", after:"the match went ahead.", doors:["However","Therefore"], correct:0,
+   why:"The outcome goes against expectation — that's contrast (However)."},
+  {kind:"transition", before:"She trained for months.", after:"she won easily.", doors:["However","As a result"], correct:1,
+   why:"The win is the result of training — cause and effect."},
+  {kind:"transition", before:"The bike is fast.", after:"it's very light.", doors:["Moreover","However"], correct:0,
+   why:"A second benefit is added on — that's addition (Moreover)."},
+  {kind:"transition", before:"He's often careless.", after:"he forgot his keys again.", doors:["For instance","Nevertheless"], correct:0,
+   why:"A specific example of being careless — For instance."},
+  {kind:"transition", before:"First, mix the dry ingredients.", after:"add the eggs.", doors:["Then","However"], correct:0,
+   why:"Steps in sequence — Then."},
+  {kind:"transition", before:"The forecast was grim.", after:"we set out anyway.", doors:["Nevertheless","Therefore"], correct:0,
+   why:"Acting against the grim forecast — concession/contrast (Nevertheless)."}
+];
+
+const $=id=>document.getElementById(id);
+let hearts, score, combo, bestCombo, pool, cur, tid, timeLeft, span, running=false;
+
+function startGame(){
+  hearts=3; score=0; combo=0; bestCombo=0; running=true;
+  $('score').textContent=0; $('combo').textContent=0; $('hearts').textContent='♥ ♥ ♥';
+  $('runner').style.left='0%';
+  $('overlay').classList.remove('show');
+  pool=[]; nextGate();
+}
+
+function refillPool(){ pool=[...GATES.keys()]; for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];} }
+
+function nextGate(){
+  if(!pool.length) refillPool();
+  cur=GATES[pool.pop()];
+  $('kind').textContent = cur.kind==="punctuation"?"Punctuation":"Transition";
+  $('prompt').innerHTML = cur.before+' <span class="gap"></span> '+cur.after;
+  for(let i=0;i<2;i++){ const d=$('d'+i); d.textContent=cur.doors[i]; d.className='door'; }
+  $('feed').textContent='';
+  // timer shrinks as score climbs: 4.2s down to ~1.8s
+  span = Math.max(1800, 4200 - score*90);
+  timeLeft=span;
+  $('timer').style.width='100%';
+  clearInterval(tid);
+  const step=50;
+  tid=setInterval(()=>{
+    timeLeft-=step;
+    $('timer').style.width=Math.max(0,timeLeft/span*100)+'%';
+    if(timeLeft<=0){ clearInterval(tid); miss(null); }
+  },step);
+}
+
+function choose(i){
+  if(!running) { startGame(); return; }
+  if(!cur) return;
+  clearInterval(tid);
+  if(i===cur.correct){
+    $('d'+i).classList.add('right');
+    score++; combo++; bestCombo=Math.max(bestCombo,combo);
+    $('score').textContent=score; $('combo').textContent=bestCombo;
+    $('runner').style.left=Math.min(100, score*4)+'%';
+    $('feed').innerHTML='<span class="combo">+'+combo+' combo</span> · '+cur.why;
+    setTimeout(nextGate, 520);
+  } else {
+    miss(i);
+  }
+}
+
+function miss(i){
+  combo=0;
+  if(i!=null){ $('d'+i).classList.add('wrong'); }
+  $('d'+cur.correct).classList.add('right');
+  hearts--;
+  $('hearts').textContent = '♥ '.repeat(hearts).trim() || '—';
+  $('feed').textContent = (i==null?'Too slow! ':'Nope. ')+cur.why;
+  if(hearts<=0){ running=false; clearInterval(tid); setTimeout(gameOver,700); }
+  else setTimeout(nextGate, 900);
+}
+
+function gameOver(){
+  $('final').textContent=score;
+  $('bestline').textContent='Best combo: '+bestCombo;
+  $('overlay').classList.add('show');
+}
+
+$('d0').addEventListener('click',()=>choose(0));
+$('d1').addEventListener('click',()=>choose(1));
+$('again').addEventListener('click',startGame);
+window.addEventListener('keydown',e=>{ if(e.key==='ArrowLeft')choose(0); if(e.key==='ArrowRight')choose(1); });
+
+// idle until first tap
+$('d0').textContent='Tap'; $('d1').textContent='to start';
+$('kind').textContent='Ready';
+$('prompt').textContent='Pick the correct door before the timer empties.';
+</script>
+</body>
+</html>

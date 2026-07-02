@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拆题 · Problem Dissector</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F2F4F8;--surface:#fff;--ink:#15171E;--muted:#697086;--line:#E2E6EE;--accent:#3B6FE0;--good:#0F9E8E;--bad:#E8743B}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased;-webkit-user-select:none;user-select:none}
+  .wrap{max-width:480px;margin:0 auto;padding:22px 18px 56px;position:relative}
+  .topbar{display:flex;justify-content:space-between;align-items:flex-start}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.14em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+  .lang{flex:none;font-family:"Space Grotesk";font-weight:700;font-size:13px;padding:7px 13px;border-radius:999px;
+    background:var(--surface);border:1.5px solid var(--line);color:var(--ink);cursor:pointer;margin-top:2px}
+  .lang:hover{border-color:var(--accent);color:var(--accent)}
+
+  .hud{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-family:"Space Mono";font-weight:700;font-size:13px;color:var(--muted)}
+  .hud b{color:var(--ink)}
+  .steps-ind{display:flex;gap:6px;margin-bottom:14px}
+  .si{flex:1;text-align:center;font-size:11px;font-weight:600;color:var(--muted);padding:7px 4px;border-radius:9px;background:#E8EBF2;transition:.2s}
+  .si.on{background:var(--accent);color:#fff}
+  .si.done{background:#D7E3FB;color:var(--accent)}
+
+  .problem{background:var(--ink);color:#EAF0FF;border-radius:14px;padding:16px 18px;font-size:16px;line-height:1.7;margin-bottom:16px}
+  .problem .ptag{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:10px;color:#8AA0D0;margin-bottom:6px}
+
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 10px 24px -20px rgba(20,30,60,.5)}
+  .q{font-weight:600;font-size:15px;margin-bottom:12px}
+  .q .num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:11px;font-family:"Space Grotesk";font-weight:700;margin-right:8px}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{font-family:"Inter";font-size:14px;font-weight:500;padding:12px 14px;border-radius:11px;background:#F5F7FB;border:1.5px solid var(--line);color:var(--ink);cursor:pointer;text-align:left;transition:.12s}
+  .opt:hover{border-color:var(--accent)}
+  .opt:active{transform:translateY(1px)}
+  .opt.right{background:#DFF4F0;border-color:var(--good);color:var(--good);font-weight:600}
+  .opt.wrong{background:#FBEDE6;border-color:var(--bad);opacity:.7;animation:shake .3s}
+  .opt.dim{opacity:.4;pointer-events:none}
+  @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+
+  .turnsrow{display:flex;gap:10px}
+  .turnbtn{flex:1;font-family:"Space Grotesk";font-weight:700;font-size:20px;padding:16px;border-radius:12px;background:#F5F7FB;border:1.5px solid var(--line);color:var(--ink);cursor:pointer}
+  .turnbtn:hover{border-color:var(--accent)}
+  .turnbtn .lab{display:block;font-family:"Inter";font-size:11px;font-weight:600;color:var(--muted);margin-top:2px}
+
+  .stepcards{display:flex;flex-direction:column;gap:9px}
+  .scard{display:flex;align-items:center;gap:10px;font-size:14px;padding:12px 14px;border-radius:11px;background:#F5F7FB;border:1.5px solid var(--line);cursor:pointer;transition:.12s}
+  .scard:hover{border-color:var(--accent)}
+  .scard .badge{flex:none;width:22px;height:22px;border-radius:50%;background:#E2E6EE;color:var(--muted);display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk";font-weight:700;font-size:12px}
+  .scard.locked{background:#DFF4F0;border-color:var(--good);cursor:default}
+  .scard.locked .badge{background:var(--good);color:#fff}
+  .scard.bad{animation:shake .3s;border-color:var(--bad)}
+
+  .cue{margin-top:12px;font-size:13px;line-height:1.55;color:var(--ink);background:#EAF0FB;border-left:3px solid var(--accent);padding:9px 12px;border-radius:0 9px 9px 0;display:none}
+  .cue.show{display:block}
+  .feed{margin-top:10px;font-size:13px;color:var(--muted);min-height:16px}
+
+  .reveal .answer{font-family:"Space Grotesk";font-weight:700;font-size:24px;color:var(--accent);margin:4px 0 8px}
+  .reveal .work{font-family:"Space Mono";font-size:13px;color:var(--ink);background:#F5F7FB;border-radius:10px;padding:10px 12px;line-height:1.7}
+  .reveal .turnsline{font-size:13px;color:var(--muted);margin-top:10px}
+
+  .next{margin-top:16px;width:100%;font-family:"Space Grotesk";font-weight:700;font-size:15px;padding:13px;border:none;border-radius:12px;cursor:pointer;background:var(--ink);color:#fff}
+  .next:active{transform:translateY(1px)}
+  .done{text-align:center;padding:30px 6px}
+  .done h2{font-family:"Space Grotesk";font-weight:700;color:var(--ink);font-size:26px;margin:0 0 6px}
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div>
+      <div class="eyebrow">数学读题 · Problem Dissector</div>
+      <h1 id="h1">Dissect</h1>
+    </div>
+    <button class="lang" id="lang">中文</button>
+  </div>
+  <p class="sub" id="sub"></p>
+
+  <div class="hud">
+    <span id="prog">01 / 05</span>
+    <span><span id="lblTime">Time</span> <b id="timer">0:00</b> · <span id="lblClean">Clean</span> <b id="clean">0</b></span>
+  </div>
+
+  <div class="steps-ind">
+    <div class="si" id="si0"></div>
+    <div class="si" id="si1"></div>
+    <div class="si" id="si2"></div>
+  </div>
+
+  <div class="problem" id="problemBox">
+    <div class="ptag" id="ptag">Problem</div>
+    <div id="problemText"></div>
+  </div>
+
+  <div id="play"></div>
+
+  <div class="footnote" id="footnote"></div>
+</div>
+
+<script>
+const PROBLEMS = [
+  {
+    text:{en:"A jacket originally costs $40. A store first raises the price by 25%, then takes 10% off the new price. What is the final sale price?",
+          zh:"一件夹克原价 $40。商店先把价格上调 25%,然后按上调后的价格再打 9 折(便宜 10%)。最终售价是多少?"},
+    ask:[
+      {correct:true, en:"the final sale price", zh:"最终售价"},
+      {en:"the original price", zh:"原价"},
+      {en:"the amount of the markup", zh:"上调的金额"},
+      {en:"the overall percent change", zh:"整体涨跌的百分比"}],
+    tool:[
+      {correct:true, en:"Successive percent changes", zh:"连续百分比变化"},
+      {en:"Linear equation", zh:"线性方程"},
+      {en:"System of equations", zh:"方程组"},
+      {en:"Exponential growth", zh:"指数增长"}],
+    cue:{en:"Two percent changes in a row → multiply by 1.25, then by 0.90. You can't just add +25% and −10% to cancel them.",
+         zh:"两次连续的百分比变化 → 依次乘以 1.25 再乘以 0.90;不能把 +25% 和 −10% 直接加减抵消。"},
+    turns:2,
+    steps:[{en:"Find the marked-up price (original × 1.25)", zh:"先求上调后的价格(原价 × 1.25)"},
+           {en:"Take 10% off that price (× 0.90)", zh:"再对上调后的价格打 9 折(× 0.90)"}],
+    work:{en:"40 × 1.25 = 50\n50 × 0.90 = 45", zh:"40 × 1.25 = 50\n50 × 0.90 = 45"},
+    answer:{en:"$45", zh:"$45"}
+  },
+  {
+    text:{en:"A car travels 180 miles using 6 gallons of gas. At the same rate, how many gallons are needed to travel 300 miles?",
+          zh:"一辆车用 6 加仑汽油行驶了 180 英里。按相同的油耗,行驶 300 英里需要多少加仑?"},
+    ask:[
+      {correct:true, en:"the gallons needed for 300 miles", zh:"300 英里所需的加仑数"},
+      {en:"the miles per gallon", zh:"每加仑能跑多少英里"},
+      {en:"the total miles driven", zh:"总共行驶的英里数"},
+      {en:"the cost of the gas", zh:"汽油的花费"}],
+    tool:[
+      {correct:true, en:"Ratio / proportion", zh:"比例 / 比率"},
+      {en:"Linear equation with a constant", zh:"带常数项的线性方程"},
+      {en:"Percent", zh:"百分比"},
+      {en:"Geometry (area)", zh:"几何面积"}],
+    cue:{en:"“Same rate” = one constant ratio. The problem never gives miles-per-gallon directly — you have to find it first. That's the second turn.",
+         zh:"“相同的油耗”= 同一比率。题目没直接给每加仑跑多少英里 —— 要先把这个率求出来,这就是第二个弯。"},
+    turns:2,
+    steps:[{en:"Find the fuel rate (total miles ÷ total gallons)", zh:"先求油耗率(总英里 ÷ 总加仑)"},
+           {en:"Use the rate to find gallons (target miles ÷ rate)", zh:"用油耗率求所需加仑(目标英里 ÷ 率)"}],
+    work:{en:"180 ÷ 6 = 30 miles/gallon\n300 ÷ 30 = 10 gallons", zh:"180 ÷ 6 = 30 英里/加仑\n300 ÷ 30 = 10 加仑"},
+    answer:{en:"10 gallons", zh:"10 加仑"}
+  },
+  {
+    text:{en:"A gym charges a one-time $30 sign-up fee plus $15 per month. When a member has paid $150 in total, what month is it?",
+          zh:"一家健身房收一次性 $30 注册费,之后每月 $15。当一名会员一共付了 $150 时,是第几个月?"},
+    ask:[
+      {correct:true, en:"the number of months", zh:"月数"},
+      {en:"the monthly fee", zh:"每月费用"},
+      {en:"the total after one year", zh:"一年的总花费"},
+      {en:"the sign-up fee", zh:"注册费"}],
+    tool:[
+      {correct:true, en:"Linear equation", zh:"线性方程"},
+      {en:"Exponential growth", zh:"指数增长"},
+      {en:"Quadratic equation", zh:"二次方程"},
+      {en:"Proportion", zh:"比例"}],
+    cue:{en:"A one-time fixed fee + a fixed amount each month → linear: 30 + 15m = 150.",
+         zh:"一次性固定费 + 每月固定额 → 线性关系:30 + 15m = 150。"},
+    turns:2,
+    steps:[{en:"Set up the equation (30 + 15m = 150)", zh:"列出方程(30 + 15m = 150)"},
+           {en:"Solve for the number of months m", zh:"解出月数 m"}],
+    work:{en:"30 + 15m = 150\n15m = 120 → m = 8", zh:"30 + 15m = 150\n15m = 120 → m = 8"},
+    answer:{en:"8 months", zh:"8 个月"}
+  },
+  {
+    text:{en:"A town has 5,000 residents. Its population grows by 4% each year. About how many residents will there be after 2 years (to the nearest whole number)?",
+          zh:"某镇现有 5,000 名居民,人口每年增长 4%。两年后人口约为多少(取整数)?"},
+    ask:[
+      {correct:true, en:"the population after 2 years", zh:"两年后的人口"},
+      {en:"the number of people added each year", zh:"每年增加的人数"},
+      {en:"the growth percentage", zh:"增长的百分比"},
+      {en:"the population after 1 year", zh:"一年后的人口"}],
+    tool:[
+      {correct:true, en:"Exponential growth", zh:"指数增长"},
+      {en:"Linear (add a fixed number each year)", zh:"线性(每年加固定人数)"},
+      {en:"Percent of a single value", zh:"对单一数值取百分比"},
+      {en:"Proportion", zh:"比例"}],
+    cue:{en:"“Grows by 4% each year” is proportional → exponential: multiply by (1.04) per year. Adding 4 people a year would be linear.",
+         zh:"“每年增长 4%”是按比例增长 → 指数,乘以 (1.04) 的年数次方;若是“每年增加 4 人”才是线性。"},
+    turns:2,
+    steps:[{en:"Find the year-1 population (× 1.04)", zh:"求第一年人口(× 1.04)"},
+           {en:"Multiply by 1.04 again for year 2", zh:"在第一年基础上再 × 1.04 得第二年"}],
+    work:{en:"5000 × 1.04 = 5200\n5200 × 1.04 ≈ 5408", zh:"5000 × 1.04 = 5200\n5200 × 1.04 ≈ 5408"},
+    answer:{en:"≈ 5,408 residents", zh:"≈ 5,408 人"}
+  },
+  {
+    text:{en:"Tickets cost $12 each. A group buys 8 tickets and uses a coupon for $5 off the total. They split the final cost equally among 4 people. How much does each person pay?",
+          zh:"门票每张 $12。一行人买了 8 张票,用优惠券从总价里减 $5,然后把最终费用平摊给 4 个人。每人付多少?"},
+    ask:[
+      {correct:true, en:"the amount each person pays", zh:"每人付的金额"},
+      {en:"the total before the coupon", zh:"优惠前的总价"},
+      {en:"the size of the discount", zh:"优惠的金额"},
+      {en:"the price per ticket", zh:"每张票的价格"}],
+    tool:[
+      {correct:true, en:"Multi-step arithmetic (mind the order)", zh:"多步四则运算(注意顺序)"},
+      {en:"System of equations", zh:"方程组"},
+      {en:"Percent", zh:"百分比"},
+      {en:"Proportion", zh:"比例"}],
+    cue:{en:"Total first, then subtract the coupon, then split — the order can't change. That's three turns.",
+         zh:"先算总价、再减优惠、最后平摊 —— 三步顺序不能乱,这是三个弯。"},
+    turns:3,
+    steps:[{en:"Find the ticket total (8 × 12)", zh:"求票的总价(8 × 12)"},
+           {en:"Subtract the coupon from the total (− 5)", zh:"从总价里减去优惠(− 5)"},
+           {en:"Split the result among 4 people (÷ 4)", zh:"把结果平摊给 4 人(÷ 4)"}],
+    work:{en:"8 × 12 = 96\n96 − 5 = 91\n91 ÷ 4 = 22.75", zh:"8 × 12 = 96\n96 − 5 = 91\n91 ÷ 4 = 22.75"},
+    answer:{en:"$22.75", zh:"$22.75"}
+  }
+];
+
+const UI = {
+  en:{
+    toggleLabel:"中文", h1:"Dissect",
+    sub:"Don't compute — just read: ① what's it asking → ② which method → ③ how many turns. Take the problem apart; see the math only at the end.",
+    time:"Time", clean:"Clean", ptag:"Problem",
+    si:["① The ask","② The tool","③ The turns"],
+    footnote:"This drill trains reading and planning — not the arithmetic. Computing is a separate skill.",
+    q_ask:"What is the problem actually <b>asking for</b>?",
+    q_tool:"Don't solve — which <b>method / concept</b> does this need?",
+    q_turns:"Guess first: how many <b>turns</b> (steps) does this take?",
+    q_order:"Tap the <b>solution steps</b> in order (givens → answer):",
+    hint_ask:"Look again at the last sentence of the problem.",
+    hint_tool:"Think about the cue — what kind of change is described?",
+    cue_prefix:"Cue: ",
+    turns_right:n=>"Right — "+n+" turns. Now lay them out.",
+    turns_wrong:n=>"It's actually "+n+" turns — laying out the steps makes it clear.",
+    turn_lab:n=>n===1?"1 turn":n+" turns",
+    order_bad:"That step can't go yet — what intermediate value must you find first?",
+    reveal_q:"It works out to ——",
+    turnsline:(n,ft)=>"This was a <b>"+n+"-turn</b> problem. You "+(ft?"dissected it cleanly ✦":"stumbled a bit — a few more and it clicks")+".",
+    next:"Next", summaryBtn:"See summary",
+    doneH2:"5 problems dissected",
+    doneP:c=>"You dissected "+c+" of them cleanly (no missteps).<br>Remember: read it, name the method, count the turns — computing is just the last step.",
+    again:"Again"
+  },
+  zh:{
+    toggleLabel:"EN", h1:"拆题",
+    sub:"不用算,只练读题:① 在问什么 → ② 用什么方法 → ③ 转几个弯。把题拆开,最后才看算式和答案。",
+    time:"用时", clean:"利落", ptag:"题目",
+    si:["① 在问什么","② 用什么","③ 几个弯"],
+    footnote:"这一关只练「看懂题、想清楚怎么解」,不要求算出数字 —— 那是另一层能力。",
+    q_ask:"这道题到底在<b>求什么</b>?",
+    q_tool:"读完不用算 —— 这题该<b>用哪个方法/考点</b>?",
+    q_turns:"先猜:这题要<b>转几个弯</b>(分几步)?",
+    q_order:"按顺序点出<b>解题步骤</b>(从已知 → 答案):",
+    hint_ask:"再看一眼题目最后一句。",
+    hint_tool:"想想识别线索:关键词是什么类型的变化?",
+    cue_prefix:"识别线索:",
+    turns_right:n=>"对,"+n+" 个弯。下面把这几步排出来。",
+    turns_wrong:n=>"其实是 "+n+" 个弯 —— 排一下步骤就看清楚了。",
+    turn_lab:n=>n===1?"一个弯":n+" 个弯",
+    order_bad:"这一步还排不上 —— 想想要先求出哪个中间量。",
+    reveal_q:"解出来是 ——",
+    turnsline:(n,ft)=>"这是一道 <b>"+n+" 个弯</b> 的题。你这一题"+(ft?"一路利落拆完 ✦":"拆得有点磕绊,多练几道就顺了")+"。",
+    next:"下一题", summaryBtn:"看总结",
+    doneH2:"拆完 5 道题",
+    doneP:c=>"其中 "+c+" 道一路利落拆完(没走错)。<br>记住:看懂题、认出方法、数清几个弯 —— 算只是最后一步。",
+    again:"再来一轮"
+  }
+};
+
+const $=id=>document.getElementById(id);
+let lang='en';
+let idx=0, clean=0, firstTry=true, phase='ask', tHandle, secs=0, finished=false;
+let orderState;
+const L=()=>UI[lang];
+
+function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function applyStatic(){
+  $('lang').textContent=L().toggleLabel;
+  $('h1').textContent=L().h1;
+  $('sub').textContent=L().sub;
+  $('lblTime').textContent=L().time;
+  $('lblClean').textContent=L().clean;
+  $('ptag').textContent=L().ptag;
+  $('footnote').textContent=L().footnote;
+  L().si.forEach((t,i)=>$('si'+i).textContent=t);
+}
+
+function setInd(){
+  ['si0','si1','si2'].forEach((id,i)=>{
+    const el=$(id); el.className='si';
+    const order={ask:0,tool:1,turns:2,order:2,reveal:3}[phase];
+    if(i<order) el.classList.add('done');
+    if(i===order) el.classList.add('on');
+  });
+}
+function startTimer(){
+  secs=0; $('timer').textContent='0:00'; clearInterval(tHandle);
+  tHandle=setInterval(()=>{secs++;const m=Math.floor(secs/60),s=secs%60;$('timer').textContent=m+':'+String(s).padStart(2,'0');},1000);
+}
+
+function load(){
+  finished=false; firstTry=true; phase='ask';
+  $('prog').textContent=String(idx+1).padStart(2,'0')+' / '+String(PROBLEMS.length).padStart(2,'0');
+  applyStatic(); $('problemText').textContent=PROBLEMS[idx].text[lang];
+  startTimer(); renderPhase();
+}
+
+function renderPhase(){
+  const p=PROBLEMS[idx]; const box=$('play'); setInd();
+  if(phase==='ask'){
+    box.innerHTML='<div class="panel"><div class="q"><span class="num">①</span>'+L().q_ask+'</div><div class="opts" id="o"></div><div class="feed" id="feed"></div></div>';
+    optButtons(shuffle(p.ask), ()=>{phase='tool';renderPhase();}, 'hint_ask');
+  }
+  else if(phase==='tool'){
+    box.innerHTML='<div class="panel"><div class="q"><span class="num">②</span>'+L().q_tool+'</div><div class="opts" id="o"></div><div class="cue" id="cue"></div><div class="feed" id="feed"></div></div>';
+    optButtons(shuffle(p.tool), ()=>{
+      $('cue').textContent=L().cue_prefix+p.cue[lang]; $('cue').classList.add('show');
+      setTimeout(()=>{phase='turns';renderPhase();},1500);
+    }, 'hint_tool');
+  }
+  else if(phase==='turns'){
+    box.innerHTML='<div class="panel"><div class="q"><span class="num">③</span>'+L().q_turns+'</div><div class="turnsrow" id="tr"></div><div class="feed" id="feed"></div></div>';
+    const tr=$('tr');
+    [1,2,3].forEach(n=>{
+      const b=document.createElement('button'); b.className='turnbtn';
+      b.innerHTML=n+'<span class="lab">'+L().turn_lab(n)+'</span>';
+      b.addEventListener('click',()=>{
+        if(n===p.turns){ $('feed').textContent=L().turns_right(p.turns); }
+        else { firstTry=false; $('feed').textContent=L().turns_wrong(p.turns); }
+        [...tr.children].forEach(c=>c.disabled=true);
+        b.style.borderColor=(n===p.turns)?'var(--good)':'var(--bad)';
+        setTimeout(()=>{phase='order';renderPhase();},1100);
+      });
+      tr.appendChild(b);
+    });
+  }
+  else if(phase==='order'){
+    const shuffled=shuffle(p.steps.map((s,i)=>({s,i})));
+    orderState={next:0};
+    box.innerHTML='<div class="panel"><div class="q"><span class="num">③</span>'+L().q_order+'</div><div class="stepcards" id="sc"></div><div class="feed" id="feed"></div></div>';
+    const sc=$('sc');
+    shuffled.forEach(item=>{
+      const d=document.createElement('div'); d.className='scard';
+      d.innerHTML='<span class="badge">·</span><span>'+item.s[lang]+'</span>';
+      d.addEventListener('click',()=>{
+        if(d.classList.contains('locked')) return;
+        if(item.i===orderState.next){
+          orderState.next++; d.classList.add('locked'); d.querySelector('.badge').textContent=orderState.next;
+          if(orderState.next===p.steps.length){ setTimeout(goReveal,450); }
+        } else {
+          firstTry=false; d.classList.add('bad'); setTimeout(()=>d.classList.remove('bad'),350);
+          $('feed').textContent=L().order_bad;
+        }
+      });
+      sc.appendChild(d);
+    });
+  }
+  else if(phase==='reveal'){
+    const p2=PROBLEMS[idx];
+    box.innerHTML='<div class="panel reveal">'+
+      '<div class="q">'+L().reveal_q+'</div>'+
+      '<div class="answer">'+p2.answer[lang]+'</div>'+
+      '<div class="work">'+p2.work[lang].replace(/\n/g,'<br>')+'</div>'+
+      '<div class="turnsline">'+L().turnsline(p2.turns,firstTry)+'</div>'+
+      '<button class="next" id="nx">'+(idx===PROBLEMS.length-1?L().summaryBtn:L().next)+'</button></div>';
+    $('nx').addEventListener('click',()=>{ if(idx===PROBLEMS.length-1) finish(); else { idx++; load(); } });
+  }
+}
+
+function goReveal(){
+  clearInterval(tHandle);
+  if(firstTry) clean++; $('clean').textContent=clean;
+  phase='reveal'; renderPhase();
+}
+
+function optButtons(opts, onRight, hintKey){
+  const box=$('o');
+  opts.forEach(o=>{
+    const b=document.createElement('button'); b.className='opt'; b.textContent=o[lang];
+    b.addEventListener('click',()=>{
+      if(o.correct){ b.classList.add('right'); [...box.children].forEach(c=>{if(c!==b)c.classList.add('dim');}); setTimeout(onRight,500); }
+      else { firstTry=false; b.classList.add('wrong','dim'); if($('feed'))$('feed').textContent=L()[hintKey]; }
+    });
+    box.appendChild(b);
+  });
+}
+
+function finish(){
+  finished=true; clearInterval(tHandle);
+  $('problemBox').style.display='none';
+  document.querySelector('.steps-ind').style.display='none';
+  renderDone();
+}
+function renderDone(){
+  $('play').innerHTML='<div class="done"><h2>'+L().doneH2+'</h2>'+
+    '<p style="color:var(--muted);font-size:15px">'+L().doneP(clean)+'</p>'+
+    '<button class="next" id="again" style="max-width:200px;margin:14px auto 0">'+L().again+'</button></div>';
+  $('again').addEventListener('click',()=>{ idx=0;clean=0;$('clean').textContent=0;$('problemBox').style.display='';document.querySelector('.steps-ind').style.display='flex';load(); });
+}
+
+$('lang').addEventListener('click',()=>{
+  lang = lang==='en' ? 'zh' : 'en';
+  applyStatic();
+  if(finished){ renderDone(); return; }
+  $('problemText').textContent=PROBLEMS[idx].text[lang];
+  renderPhase();   // re-render current phase in new language (resets in-progress taps)
+});
+
+load();
+</script>
+</body>
+</html>

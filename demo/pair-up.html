@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pair Up · 连连看</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F2F3F6;--surface:#fff;--ink:#15171E;--muted:#686D7A;--line:#E4E6EC;--accent:#0F9E8E;--bad:#E8743B}
+  *{box-sizing:border-box}html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Inter",system-ui,sans-serif;min-height:100vh;
+    line-height:1.45;-webkit-font-smoothing:antialiased;-webkit-user-select:none;user-select:none}
+  .wrap{max-width:520px;margin:0 auto;padding:22px 18px 56px}
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:32px;margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+
+  .modes{display:flex;gap:8px;margin-bottom:14px}
+  .mode{font-family:"Space Grotesk";font-weight:700;font-size:13px;padding:8px 14px;border-radius:10px;
+    border:1px solid var(--line);background:var(--surface);color:var(--muted);cursor:pointer}
+  .mode.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  .hud{display:flex;justify-content:space-between;font-family:"Space Grotesk";font-weight:700;margin-bottom:12px}
+  .hud .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-family:"Inter";font-weight:600}
+
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+  .card{min-height:74px;border-radius:12px;background:var(--surface);border:1.5px solid var(--line);
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:9px;cursor:pointer;
+    font-size:13px;line-height:1.25;transition:transform .1s,border-color .15s,box-shadow .15s,opacity .25s,background .15s}
+  .card.word{font-family:"Space Grotesk";font-weight:700;font-size:15px}
+  .card:hover{border-color:var(--accent)}
+  .card:active{transform:scale(.97)}
+  .card.sel{border-color:var(--ink);box-shadow:0 0 0 2px var(--ink);background:#F7F8FA}
+  .card.bad{border-color:var(--bad);background:#FBEDE6;animation:shake .3s}
+  .card.gone{opacity:0;transform:scale(.6);pointer-events:none}
+  @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+
+  .controls{display:flex;gap:10px;margin-top:18px}
+  button{font-family:"Space Grotesk";font-weight:700;font-size:14px;padding:11px 16px;border:none;border-radius:11px;cursor:pointer;flex:1}
+  .btn-primary{background:var(--ink);color:#fff}.btn-ghost{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+  button:active{transform:translateY(1px)}
+  .footnote{margin-top:18px;text-align:center;font-size:12px;color:var(--muted)}
+  .toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%);background:var(--ink);color:#fff;
+    padding:11px 18px;border-radius:999px;font-size:14px;font-weight:600;opacity:0;pointer-events:none;
+    transition:opacity .25s,transform .25s;z-index:30;max-width:88vw;text-align:center}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(-4px)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">连连看 · Pair Up</div>
+  <h1>Pair Up</h1>
+  <p class="sub">Tap a word, then tap its match. Clear every card to win — fewer misses is a better round.</p>
+
+  <div class="modes">
+    <button class="mode on" data-m="def">Word → meaning</button>
+    <button class="mode" data-m="ant">Opposites</button>
+  </div>
+
+  <div class="hud">
+    <div><span class="lab">Pairs left</span> <span id="left">0</span></div>
+    <div><span class="lab">Misses</span> <span id="miss">0</span></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="controls">
+    <button class="btn-ghost" id="new">New board</button>
+  </div>
+  <div class="footnote">Word → meaning pairs each word with its definition. Opposites pairs two words that mean the reverse.</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const DEF = [
+  {word:"candid",     def:"frank and honest"},
+  {word:"prudent",    def:"careful and sensible"},
+  {word:"meticulous", def:"extremely precise"},
+  {word:"tenuous",    def:"weak or flimsy"},
+  {word:"arbitrary",  def:"based on whim, not reason"},
+  {word:"resilient",  def:"quick to recover"},
+  {word:"ambivalent", def:"having mixed feelings"},
+  {word:"mitigate",   def:"to make less severe"}
+];
+const ANT = [
+  ["benevolent","cruel"],
+  ["scarce","plentiful"],
+  ["humble","arrogant"],
+  ["praise","condemn"],
+  ["transparent","opaque"],
+  ["temporary","permanent"],
+  ["expand","shrink"],
+  ["candid","evasive"]
+];
+const PAIRS_PER_BOARD = 6;
+const $=id=>document.getElementById(id);
+let mode="def", cards, sel=null, left, misses, busy=false;
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function build(){
+  busy=false; sel=null; misses=0; $('miss').textContent=0;
+  cards=[];
+  if(mode==="def"){
+    const pick = shuffle([...DEF]).slice(0,PAIRS_PER_BOARD);
+    pick.forEach((p,i)=>{
+      cards.push({id:'w'+i, pair:i, text:p.word, type:'word'});
+      cards.push({id:'d'+i, pair:i, text:p.def,  type:'def'});
+    });
+  } else {
+    const pick = shuffle([...ANT]).slice(0,PAIRS_PER_BOARD);
+    pick.forEach((p,i)=>{
+      cards.push({id:'a'+i, pair:i, text:p[0], type:'word'});
+      cards.push({id:'b'+i, pair:i, text:p[1], type:'word'});
+    });
+  }
+  shuffle(cards);
+  left=PAIRS_PER_BOARD; $('left').textContent=left;
+  render();
+}
+
+function render(){
+  const g=$('grid'); g.innerHTML='';
+  cards.forEach(c=>{
+    const d=document.createElement('div');
+    d.className='card '+(c.type==='word'?'word':'')+(c.gone?' gone':'')+(sel&&sel.id===c.id?' sel':'');
+    d.textContent=c.text; d.dataset.id=c.id;
+    d.addEventListener('click',()=>tap(c));
+    g.appendChild(d);
+  });
+}
+
+function tap(c){
+  if(busy||c.gone) return;
+  if(!sel){ sel=c; render(); return; }
+  if(sel.id===c.id){ sel=null; render(); return; }
+  // evaluate
+  if(sel.pair===c.pair){
+    sel.gone=true; c.gone=true; sel=null;
+    left--; $('left').textContent=left;
+    render();
+    if(left===0) setTimeout(()=>toast('Board cleared with '+misses+' miss'+(misses===1?'':'es')+'!'),250);
+  } else {
+    busy=true;
+    const a=sel, b=c;
+    // flash bad
+    render();
+    const g=$('grid');
+    [...g.children].forEach(el=>{ if(el.dataset.id===a.id||el.dataset.id===b.id) el.classList.add('bad'); });
+    misses++; $('miss').textContent=misses;
+    setTimeout(()=>{ sel=null; busy=false; render(); },380);
+  }
+}
+
+document.querySelectorAll('.mode').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.mode').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on'); mode=btn.dataset.m; build();
+  });
+});
+$('new').addEventListener('click',build);
+
+let toastTimer;
+function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2600);}
+
+build();
+</script>
+</body>
+</html>

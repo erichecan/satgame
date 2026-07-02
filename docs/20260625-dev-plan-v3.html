@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SAT Game · 开发计划（MVP 精简版 v2）</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0E1320; --bg2:#141B2E; --surface:#19213380; --card:#1A2236;
+    --ink:#EAF0FF; --muted:#8B97B5; --line:#2A3552;
+    --accent:#3BE08F; --blue:#5B8DEF; --amber:#E8B14B; --keep:#3BE08F; --cut:#FF6B6B;
+    --purple:#C58FCB;
+  }
+  *{box-sizing:border-box}html,body{margin:0}
+  body{
+    background:radial-gradient(130% 90% at 50% 0%,#16203A 0%,#0E1320 60%) fixed;
+    color:var(--ink);font-family:"Inter",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    min-height:100vh;line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px;margin:0 auto;padding:40px 24px 80px}
+
+  /* header */
+  .eyebrow{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.18em;font-size:11px;color:var(--accent)}
+  h1{font-family:"Space Grotesk";font-weight:700;font-size:40px;line-height:1.05;letter-spacing:-.02em;margin:8px 0 6px}
+  .lede{color:var(--muted);font-size:16px;max-width:680px;margin:0 0 6px}
+  .stamp{font-family:"Space Mono";font-size:12px;color:var(--muted);margin-top:10px}
+  .stamp b{color:var(--ink)}
+
+  /* metric strip */
+  .strip{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 8px}
+  .metric{flex:1;min-width:150px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+  .metric .n{font-family:"Space Grotesk";font-weight:700;font-size:30px;line-height:1}
+  .metric .l{font-size:12px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:.06em}
+  .metric.keep .n{color:var(--keep)} .metric.cut .n{color:var(--cut)} .metric.acc .n{color:var(--blue)}
+
+  /* section */
+  section{margin-top:46px}
+  h2{font-family:"Space Grotesk";font-weight:700;font-size:23px;letter-spacing:-.01em;margin:0 0 4px;display:flex;align-items:center;gap:11px}
+  h2 .idx{font-family:"Space Mono";font-size:13px;color:var(--accent);background:#11321F;border:1px solid #1F5638;border-radius:7px;padding:3px 9px}
+  .lead{color:var(--muted);font-size:14.5px;margin:6px 0 18px}
+
+  /* game cards */
+  .games{display:grid;grid-template-columns:1fr;gap:11px}
+  .game{display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:14px;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 18px;border-left:3px solid var(--keep);
+    text-decoration:none;color:inherit;cursor:pointer;transition:transform .1s,border-color .15s,background .15s,box-shadow .15s}
+  .game:hover{border-color:var(--accent);background:#1E2740;transform:translateY(-1px);box-shadow:0 10px 24px -16px rgba(59,224,143,.5)}
+  .game:active{transform:translateY(0)}
+  .game.cut{border-left-color:var(--cut);opacity:.72}
+  .game.cut:hover{border-color:var(--cut);opacity:.95;box-shadow:0 10px 24px -16px rgba(255,107,107,.45)}
+  .game .rt{display:flex;flex-direction:column;align-items:flex-end;gap:7px}
+  .game .play{font-family:"Space Grotesk";font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--accent);white-space:nowrap}
+  .game.cut .play{color:var(--muted)}
+  .game:hover .play{text-decoration:underline}
+  .game .ico{width:44px;height:44px;border-radius:11px;display:flex;align-items:center;justify-content:center;
+    font-family:"Space Grotesk";font-weight:700;font-size:20px;background:#11321F;color:var(--keep)}
+  .game.cut .ico{background:#3A1E22;color:var(--cut)}
+  .game .body .nm{font-family:"Space Grotesk";font-weight:700;font-size:16px}
+  .game .body .nm .file{font-family:"Space Mono";font-size:11px;color:var(--muted);font-weight:400;margin-left:8px}
+  .game .body .dm{font-size:13px;color:var(--muted);margin-top:2px}
+  .game .tag{font-family:"Space Grotesk";font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+    padding:5px 11px;border-radius:999px;white-space:nowrap}
+  .tag.keep{background:#11321F;color:var(--keep);border:1px solid #1F5638}
+  .tag.cut{background:#3A1E22;color:var(--cut);border:1px solid #5A2A30}
+
+  /* generic table */
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:6px}
+  th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:"Space Grotesk";font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+  td .mono{font-family:"Space Mono";font-size:12px;color:var(--blue)}
+  tr:last-child td{border-bottom:none}
+
+  /* steps timeline */
+  .flow{display:grid;grid-template-columns:1fr;gap:10px}
+  .step{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start;
+    background:var(--card);border:1px solid var(--line);border-radius:13px;padding:14px 16px}
+  .step .num{width:34px;height:34px;border-radius:9px;background:#1B2540;border:1px solid var(--line);
+    display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk";font-weight:700;color:var(--accent)}
+  .step .t{font-family:"Space Grotesk";font-weight:700;font-size:15px}
+  .step .d{font-size:13px;color:var(--muted);margin-top:2px}
+
+  /* migrate 5-pt */
+  .mig{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin-top:6px}
+  .mig .m{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .mig .m .k{font-family:"Space Mono";font-size:12px;color:var(--accent);font-weight:700}
+  .mig .m .v{font-size:13px;color:var(--ink);margin-top:5px}
+  .mig .m .s{font-size:12px;color:var(--muted);margin-top:3px}
+
+  /* chips */
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .chip{font-family:"Space Mono";font-size:12px;background:var(--surface);border:1px solid var(--line);
+    border-radius:8px;padding:6px 11px;color:var(--ink)}
+  .chip b{color:var(--accent)}
+
+  /* callout */
+  .note{background:#11251C;border:1px solid #1F5638;border-left:3px solid var(--accent);
+    border-radius:0 12px 12px 0;padding:14px 18px;font-size:14px;color:#CFEAD9;margin-top:16px}
+  .note b{color:var(--accent)}
+  .warn{background:#2A2114;border-color:#5A4520;border-left-color:var(--amber)}
+  .warn b{color:var(--amber)}
+
+  ul.clean{list-style:none;padding:0;margin:8px 0 0}
+  ul.clean li{position:relative;padding:6px 0 6px 22px;font-size:14px;color:var(--ink);border-bottom:1px solid var(--line)}
+  ul.clean li:last-child{border-bottom:none}
+  ul.clean li::before{content:"›";position:absolute;left:6px;color:var(--accent);font-weight:700}
+  ul.clean li b{color:var(--ink)} ul.clean li span{color:var(--muted)}
+
+  .part{margin:54px 0 10px;padding-bottom:12px;border-bottom:2px solid var(--line)}
+  .part .pk{font-family:"Space Grotesk";font-weight:700;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+  .part .pt{font-family:"Space Grotesk";font-weight:700;font-size:27px;margin-top:5px;letter-spacing:-.01em}
+  .part .pd{color:var(--muted);font-size:14px;margin-top:5px}
+  .idx.s{background:#16233F;border-color:#2E4A7A;color:var(--blue)}
+
+  /* 玩法卡 */
+  .guide{display:flex;flex-direction:column;gap:14px;margin-top:6px}
+  .gd{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:17px 20px;border-left:3px solid var(--keep)}
+  .gd .hd{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .gd .hl{display:flex;align-items:center;gap:12px}
+  .gd .ico{width:42px;height:42px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-family:"Space Grotesk";font-weight:700;font-size:18px;background:#11321F;color:var(--keep);flex:none}
+  .gd .nm{font-family:"Space Grotesk";font-weight:700;font-size:17px}
+  .gd .goal{color:var(--muted);font-size:13.5px;margin-top:1px}
+  .gd .tryl{font-family:"Space Grotesk";font-weight:700;font-size:11px;color:var(--accent);text-decoration:none;white-space:nowrap;border:1px solid #1F5638;border-radius:999px;padding:6px 12px;background:#11321F;flex:none}
+  .gd .tryl:hover{background:#16432A}
+  .gd .hint2{font-family:"Space Grotesk";font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:10px;color:var(--accent);margin:14px 0 7px}
+  .gd ol.steps2{margin:0;padding-left:20px;font-size:14px}
+  .gd ol.steps2 li{margin-bottom:5px;padding-left:3px}
+  .gd ol.steps2 li::marker{color:var(--accent);font-family:"Space Mono";font-weight:700}
+  .gd .rowline{display:flex;gap:9px;font-size:13.5px;margin-top:9px;align-items:baseline}
+  .gd .kk{font-family:"Space Grotesk";font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);flex:none;width:62px;padding-top:2px}
+  .gd .vv{color:var(--ink)}.gd .vv b{color:var(--accent)}
+  .cutplay{margin-top:8px}
+  .cutplay li{font-size:13.5px;padding:7px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+  .cutplay li:last-child{border-bottom:none}
+  .cutplay li b{color:var(--ink);font-family:"Space Grotesk"}
+  .footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);font-family:"Space Mono"}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">SAT Game · 开发计划</div>
+  <h1>MVP 精简版 v2</h1>
+  <p class="lede">本次讨论的完整结论沉淀。<b style="color:var(--ink)">Part I</b> 是产品与 SAT 备考策略判断（为什么这么做），<b style="color:var(--ink)">Part II</b> 是基于 demo/ 下 11 个可玩原型实测的 MVP 开发计划（怎么做）。</p>
+  <div class="stamp">为 <b>Isabella</b>（Grade 9 · 加拿大）打造 · 2026-06-25 · 原 9 游戏旧案见 <b>docs/20260622-DEV-PLAN-full-9games.md</b></div>
+
+  <div class="strip">
+    <div class="metric keep"><div class="n">5</div><div class="l">保留 · MVP 核心</div></div>
+    <div class="metric cut"><div class="n">6</div><div class="l">砍掉 · 重复/低效</div></div>
+    <div class="metric acc"><div class="n">100%</div><div class="l">覆盖 SAT 全 domain</div></div>
+    <div class="metric"><div class="n" style="color:var(--purple)">3</div><div class="l">gamification 机制</div></div>
+  </div>
+
+  <!-- ============ PART I ============ -->
+  <div class="part">
+    <div class="pk">Part I · 为什么这么做</div>
+    <div class="pt">产品与 SAT 备考策略结论</div>
+    <div class="pd">本次讨论沉淀的判断 —— 产品方向 + SAT 应试策略</div>
+  </div>
+
+  <!-- S1 产品评估 -->
+  <section>
+    <h2><span class="idx s">S1</span>产品评估结论</h2>
+    <p class="lead">设计的教育内核是对的，但铺得太开、且高估了代码、低估了内容。</p>
+    <ul class="clean">
+      <li><b>教育内核站得住</b> <span>— 考点维度掌握度 + 迁移练习 + evidence-based 方向，是真懂教育学的决策，最值钱。</span></li>
+      <li><b>风险一 · 范围过大</b> <span>— 9 个游戏给一个人用，ROI 失衡；真正决定提分的就 4-5 个。</span></li>
+      <li><b>风险二 · 内容是瓶颈（不是代码）</b> <span>— 每个游戏要喂进精审内容才有价值，真正的工作量在这。</span></li>
+      <li><b>风险三 · 好玩 ≠ 提分</b> <span>— 2048 / 三消娱乐性 &gt; 教学有效性，易"玩得开心却没练到点子上"。</span></li>
+    </ul>
+    <div class="note"><b>核心建议 · 垂直切片</b>：先做 5 个核心游戏 + streak，让 Isabella 真的每天用起来——验证习惯 &gt; 堆功能。</div>
+  </section>
+
+  <!-- S2 记忆 vs 题型 -->
+  <section>
+    <h2><span class="idx s">S2</span>SAT 题目如何融入：记忆类 vs 题型类</h2>
+    <p class="lead">数字 SAT 几乎不考孤立单词与拼写，考的是 Words in Context（语境中的词义）。你对 Wordle 的判断是对的。</p>
+    <table>
+      <tr><th>游戏</th><th>SAT 相关度</th><th>定位</th></tr>
+      <tr><td>Five（Wordle）</td><td>低 · SAT 不考拼写</td><td>记忆玩具，附属</td></tr>
+      <tr><td>Clusters / 词汇辨析</td><td>中</td><td>词汇巩固</td></tr>
+      <tr><td>Closer（语境填词）</td><td>高 · 几乎 1:1 对应真实题型</td><td>核心提分</td></tr>
+      <tr><td>Gate Run（标点/过渡词）</td><td>高 · 直接对应语法题</td><td>核心提分</td></tr>
+      <tr><td>Read the Green（阅读证据）</td><td>高 · 占比最大题型</td><td>核心提分</td></tr>
+    </table>
+    <div class="note">把游戏分两类：<b>记忆类</b>（Wordle，锦上添花）vs <b>题型类</b>（Closer / Gate Run / Reading，核心提分）。资源压在题型类上。</div>
+  </section>
+
+  <!-- S3 数学形式 -->
+  <section>
+    <h2><span class="idx s">S3</span>数学：除读题外的练习形式</h2>
+    <p class="lead">读题（Dissector）练的是"解题规划"，只是一个维度。其它高价值形式：</p>
+    <ul class="clean">
+      <li><b>陷阱识别</b> <span>— SAT 数学错误选项是精心设计的坑（算到一半的中间值、问长答宽）。专练识别，最贴 SAT。</span></li>
+      <li><b>同型快刷 / 模式识别</b> <span>— 同 archetype 连刷 5 题，练到"看一眼就知道套路"。</span></li>
+      <li><b>估算 / 排除</b> <span>— 全程可用计算器，高分靠快速估算 + 选项排除省时间。</span></li>
+      <li><b>概念配对</b> <span>— 补概念盲点（连连看式，用数学概念）。</span></li>
+    </ul>
+    <div class="note warn"><b>关键事实</b>：数字 SAT 数学是<b style="color:var(--ink)">自适应</b>的——第一模块表现决定第二模块难度。"稳定不犯低级错"比"会做难题"更重要 → <b style="color:var(--ink)">陷阱识别价值最高</b>。</div>
+  </section>
+
+  <!-- S4 内容生成 -->
+  <section>
+    <h2><span class="idx s">S4</span>高频词和数学题能自动生成吗</h2>
+    <p class="lead">能，但词汇和数学的风险完全不同，必须分开处理。</p>
+    <ul class="clean">
+      <li><b>词汇 ✓ 可以且应该</b> <span>— 高频词表是现成的（不用"生成"）；配套内容（释义/例句/同反义/分组）用 LLM 批量生成 + 人工抽审。</span></li>
+      <li><b>数学 ⚠ 别让 LLM 裸生成</b> <span>— 答案可能算错、可能多个选项都对、难度标定不准。</span></li>
+      <li><b>数学安全做法</b> <span>— 参数化模板（题骨架 + 随机数 + 代码算答案，答案永远对，可无限出题）；或 LLM 出题 + 代码验证唯一性。</span></li>
+    </ul>
+    <div class="note">一句话：<b>词汇靠 LLM + 人审，数学靠模板 + 代码验证。</b></div>
+  </section>
+
+  <!-- S5 官方目的 -->
+  <section>
+    <h2><span class="idx s">S5</span>SAT 官方目的与规律</h2>
+    <p class="lead">College Board 官方定位：SAT 测"大学与职业准备度"（college &amp; career readiness），考迁移 / 分析 / 推理，不是知识量。</p>
+    <ul class="clean">
+      <li><b>R&amp;W</b> <span>— 跨学科阅读 + 语言运用，强调 evidence-based（基于证据）；2024 起全面数字化、自适应。</span></li>
+      <li><b>Math</b> <span>— 代数 / 高级数学入门 / 数据分析 / 几何三角，强调"在真实情境中应用"。</span></li>
+      <li><b>总原则</b> <span>— 考的是 reasoning，不是偏题怪题；题目有规律、可预测。</span></li>
+    </ul>
+    <div class="note"><b>对设计的启示</b>：官方既然考"迁移能力"，那么"同一规则换情境反复练" &gt; "背题刷题"——这正印证了你"掌握度记在考点维度 + 即时迁移 / 间隔重现"的设计。<b style="color:var(--accent)">方向对，要坚持。</b></div>
+  </section>
+
+  <!-- S6 1540 -->
+  <section>
+    <h2><span class="idx s">S6</span>如何取得 1540</h2>
+    <p class="lead">1540 / 1600 ≈ 99 百分位，全球前 1%。</p>
+    <ul class="clean">
+      <li><b>分数构成</b> <span>— 典型 R&amp;W ~760 + Math ~780；数学满分容错极小（错 1-2 题掉 20-40 分）。</span></li>
+      <li><b>靠什么</b> <span>— 消灭系统性错误，不是多做题；错题归因比刷新题重要 10 倍。</span></li>
+      <li><b>需要</b> <span>— 词汇语境扎实 + 语法零失误 + 数学无盲点且不粗心，三者同时满足。</span></li>
+      <li><b>Grade 9 优势</b> <span>— 现在起步时间充裕；但 1540 是 1-2 年的积累，不是一个暑假能冲出来的。</span></li>
+    </ul>
+    <div class="note"><b>唯一标准尺</b>：官方 Bluebook app 的全真模考。任何第三方题都只是模拟，分数不算数。</div>
+  </section>
+
+  <!-- S7 暑期计划 -->
+  <section>
+    <h2><span class="idx s">S7</span>如何练 · 暑期计划</h2>
+    <p class="lead">Grade 9 暑假目标不是冲 1540，是<b style="color:var(--ink)">打地基 + 养成每日习惯</b>。</p>
+    <ul class="clean">
+      <li><b>第一步 · 诊断</b> <span>— 先做一套 Bluebook 全真模考，拿到基线分。不知道起点，后面都是瞎练。</span></li>
+      <li><b>每日 30-60 分钟</b> <span>— 词汇（game）/ 语法（Gate Run）/ 数学（Dissector）/ 阅读（Read the Green）。可持续才是关键。</span></li>
+      <li><b>每周一次</b> <span>— 一个模块小模考 + 错题复盘归因（这步最值钱，别跳）。</span></li>
+      <li><b>game 的定位</b> <span>— 每日习惯养成器 + 日常练习场；真题（Bluebook）留作每周/每月检验。两者分工。</span></li>
+    </ul>
+  </section>
+
+  <!-- ============ PART II ============ -->
+  <div class="part">
+    <div class="pk">Part II · 怎么做</div>
+    <div class="pt">MVP 开发计划</div>
+    <div class="pd">基于 demo/ 下 11 个可玩原型实测的落地方案 —— 移植 + 接数据，而非从零重写</div>
+  </div>
+
+  <!-- 1. 取舍 -->
+  <section>
+    <h2><span class="idx">01</span>demo 取舍决策</h2>
+    <p class="lead">11 个原型实为两代设计（高尔夫绿 / 现代灰）。去重 + 按 SAT 相关度筛选后 —— <b style="color:var(--accent)">点任意卡片即可在新标签试玩</b>：</p>
+
+    <div class="games">
+      <a class="game" href="../demo/sat-connections.html" target="_blank" rel="noopener">
+        <div class="ico">CL</div>
+        <div class="body"><div class="nm">Clusters<span class="file">sat-connections.html</span></div>
+          <div class="dm">R&amp;W · 词义辨析（Craft &amp; Structure）— 4×4 归类，黄绿蓝紫难度，One Away 提示</div></div>
+        <div class="rt"><div class="tag keep">保留</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game" href="../demo/closer-sat-vocab.html" target="_blank" rel="noopener">
+        <div class="ico">CO</div>
+        <div class="body"><div class="nm">Closer<span class="file">closer-sat-vocab.html</span></div>
+          <div class="dm">R&amp;W · 词在语境（Words in Context）— 唯一 AI 驱动，语义测距（高尔夫 yards 隐喻）</div></div>
+        <div class="rt"><div class="tag keep">保留</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game" href="../demo/read-the-green.html" target="_blank" rel="noopener">
+        <div class="ico">RG</div>
+        <div class="body"><div class="nm">Read the Green<span class="file">read-the-green.html</span></div>
+          <div class="dm">R&amp;W · 阅读理解/证据/推断（占比最大）— 找证据句 + 陷阱识别。<b style="color:var(--accent)">原 4 游戏方案漏掉的维度</b></div></div>
+        <div class="rt"><div class="tag keep">保留</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game" href="../demo/gate-run.html" target="_blank" rel="noopener">
+        <div class="ico">GR</div>
+        <div class="body"><div class="nm">Gate Run<span class="file">gate-run.html</span></div>
+          <div class="dm">R&amp;W · 标点 + 过渡词 — 跑酷双门，限时 + 连击。已把 break/links 两个 demo 合一</div></div>
+        <div class="rt"><div class="tag keep">保留</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game" href="../demo/math-problem-dissector.html" target="_blank" rel="noopener">
+        <div class="ico">DI</div>
+        <div class="body"><div class="nm">Dissector<span class="file">math-problem-dissector.html</span></div>
+          <div class="dm">Math · 读题 + 题型 + 步骤规划 — 完成度最高，中英双语五步流程</div></div>
+        <div class="rt"><div class="tag keep">保留</div><div class="play">▶ 试玩</div></div>
+      </a>
+
+      <a class="game cut" href="../demo/break-punctuation.html" target="_blank" rel="noopener">
+        <div class="ico">BR</div>
+        <div class="body"><div class="nm">The Break<span class="file">break-punctuation.html</span></div>
+          <div class="dm">考点已被 Gate Run 吸收 → 题目并入 Gate Run 题库</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game cut" href="../demo/links-transitions.html" target="_blank" rel="noopener">
+        <div class="ico">LK</div>
+        <div class="body"><div class="nm">Links<span class="file">links-transitions.html</span></div>
+          <div class="dm">考点已被 Gate Run 吸收 → 题目并入 Gate Run 题库</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game cut" href="../demo/sat-wordle.html" target="_blank" rel="noopener">
+        <div class="ico">FV</div>
+        <div class="body"><div class="nm">Five (Wordle)<span class="file">sat-wordle.html</span></div>
+          <div class="dm">SAT 不考拼写 → 降级为可选「记忆玩具」，不进 MVP</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game cut" href="../demo/word-merge-2048.html" target="_blank" rel="noopener">
+        <div class="ico">ST</div>
+        <div class="body"><div class="nm">Stronger<span class="file">word-merge-2048.html</span></div>
+          <div class="dm">2048 套近义词强弱牵强，娱乐 &gt; 教学</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game cut" href="../demo/word-match-3.html" target="_blank" rel="noopener">
+        <div class="ico">FA</div>
+        <div class="body"><div class="nm">Families<span class="file">word-match-3.html</span></div>
+          <div class="dm">词义归类考点与 Clusters 重叠</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+      <a class="game cut" href="../demo/pair-up.html" target="_blank" rel="noopener">
+        <div class="ico">PU</div>
+        <div class="body"><div class="nm">Pair Up<span class="file">pair-up.html</span></div>
+          <div class="dm">基础配对，价值被 Clusters / Closer 覆盖</div></div>
+        <div class="rt"><div class="tag cut">砍</div><div class="play">▶ 试玩</div></div>
+      </a>
+    </div>
+
+    <div class="note">这 5 个游戏正好<b>完整覆盖数字 SAT 全部 domain</b>：词义辨析 + 词在语境 + 阅读理解证据 + 语法标点过渡 + 数学读题。覆盖面比原方案更完整。</div>
+  </section>
+
+  <!-- 2. 移植性质 -->
+  <section>
+    <h2><span class="idx">02</span>开发的真实性质：移植，而非重写</h2>
+    <p class="lead">每个保留的 demo 已是单文件、可玩、视觉成品级。MVP = 对每个游戏做这 5 件事：</p>
+    <div class="mig">
+      <div class="m"><div class="k">① 移植</div><div class="v">HTML/JS → React 组件</div><div class="s">Next.js + TypeScript</div></div>
+      <div class="m"><div class="k">② 数据外迁</div><div class="v">硬编码题目 → 数据库种子</div><div class="s">题目即内容资产</div></div>
+      <div class="m"><div class="k">③ 接进度</div><div class="v">统一 /api/progress</div><div class="s">SRS + XP + streak + 徽章</div></div>
+      <div class="m"><div class="k">④ Closer 后端化</div><div class="v">前端直调 → 后端代理</div><div class="s">+ 24h 缓存，安全</div></div>
+      <div class="m"><div class="k">⑤ 壳</div><div class="v">首页 / 导航 / 生词本</div><div class="s">成就页</div></div>
+    </div>
+    <div class="note warn"><b>注意</b>：Closer 的 demo 直接在前端调 api.anthropic.com（无 key、不安全），生产必须改为 <b style="color:var(--ink)">/api/semantic-distance</b> 后端代理；无 key 时降级为预设近义词表。</div>
+  </section>
+
+  <!-- 3. 开发顺序 -->
+  <section>
+    <h2><span class="idx">03</span>开发顺序</h2>
+    <p class="lead">7 个模块，按依赖与价值排列：</p>
+    <div class="flow">
+      <div class="step"><div class="num">0</div><div><div class="t">框架 + 首页 + 进度/gamification 骨架</div><div class="d">Next.js 初始化 · Prisma + Neon · /api/progress 唯一写入口（SRS + XP + 徽章统一结算）</div></div></div>
+      <div class="step"><div class="num">1</div><div><div class="t">Clusters</div><div class="d">移植 sat-connections · 3 套题迁库 · One Away 提示</div></div></div>
+      <div class="step"><div class="num">2</div><div><div class="t">Read the Green</div><div class="d">移植 read-the-green · 找证据句 + 陷阱类型解析 · 3 篇迁库（需扩充）</div></div></div>
+      <div class="step"><div class="num">3</div><div><div class="t">Gate Run</div><div class="d">移植 gate-run + 并入 break/links 题目 · 连击 + 计时递减</div></div></div>
+      <div class="step"><div class="num">4</div><div><div class="t">Closer</div><div class="d">移植 closer-sat-vocab + 后端化 · /api/semantic-distance 代理 + 缓存</div></div></div>
+      <div class="step"><div class="num">5</div><div><div class="t">Dissector</div><div class="d">移植 math-problem-dissector · 中英双语三步 + 步骤拖排 · 5 道迁库</div></div></div>
+      <div class="step"><div class="num">6</div><div><div class="t">Gamification 收尾</div><div class="d">Streak · XP/等级 · 徽章解锁页 · 生词本</div></div></div>
+    </div>
+  </section>
+
+  <!-- 4. gamification -->
+  <section>
+    <h2><span class="idx">04</span>Gamification（单用户改造）</h2>
+    <p class="lead">单用户下排行榜无意义，改造为以下三机制：</p>
+    <ul class="clean">
+      <li><b>Streak 连续天数</b> <span>— Duolingo 命脉，单用户最强留存。第一个做。</span></li>
+      <li><b>XP 积分 + 等级</b> <span>— 每答对 / 每「毕业」一个考点给分，进步可量化。</span></li>
+      <li><b>徽章（里程碑）</b> <span>— 掌握 50 词 / 连续 7 天 / 攻克分号规则 / 数学读题满分。</span></li>
+    </ul>
+    <div class="chips">
+      <span class="chip">表 <b>UserStats</b> totalXp · level · currentStreak · longestStreak</span>
+      <span class="chip">表 <b>Achievement</b> code · progress · target · unlockedAt</span>
+      <span class="chip">挂在 <b>/api/progress</b> 顺手结算，无新架构</span>
+    </div>
+  </section>
+
+  <!-- 5. schema + routes -->
+  <section>
+    <h2><span class="idx">05</span>数据模型 &amp; 路由</h2>
+    <p class="lead">与 demo 题目结构对齐，新增 ReadingItem：</p>
+    <table>
+      <tr><th>模型</th><th>用途</th><th>关键字段</th></tr>
+      <tr><td class="mono">ConnectionGroup</td><td>Clusters</td><td>theme · tier(0-3) · words(Json)</td></tr>
+      <tr><td class="mono">ReadingItem</td><td>Read the Green（新增）</td><td>sentences[] · options(Json) · evidenceIndex · trap</td></tr>
+      <tr><td class="mono">GateRunQuestion</td><td>Gate Run（含 break/links）</td><td>before · after · doors[] · kind · why</td></tr>
+      <tr><td class="mono">CloserWord</td><td>Closer</td><td>word · exampleEn(含目标词) · difficulty</td></tr>
+      <tr><td class="mono">MathProblem</td><td>Dissector</td><td>ask · tool · steps · work · answer（均中英）</td></tr>
+      <tr><td class="mono">UserProgress</td><td>SRS 进度（考点维度）</td><td>gameType · skill · masteryScore · nextReview</td></tr>
+      <tr><td class="mono">UserStats / Achievement</td><td>gamification</td><td>streak · xp · 徽章</td></tr>
+    </table>
+    <div class="chips">
+      <span class="chip">/vocab/clusters</span>
+      <span class="chip">/rw/reading</span>
+      <span class="chip">/rw/gaterun</span>
+      <span class="chip">/rw/closer</span>
+      <span class="chip">/math/dissector</span>
+      <span class="chip">/vocab/notebook</span>
+      <span class="chip">/achievements</span>
+    </div>
+  </section>
+
+  <!-- 6. risks -->
+  <section>
+    <h2><span class="idx">06</span>风险点</h2>
+    <ul class="clean">
+      <li><b>视觉统一</b> <span>— 两代 demo 风格不一，需定一套统一设计 token（建议统一到现代 Space Grotesk 主题）。</span></li>
+      <li><b>内容扩充</b> <span>— demo 每游戏仅 3-5 题，够验证体验、不够长期用。后续：词汇/阅读/语法走「LLM 生成 + 人审」，数学走「参数化模板 + 代码验证」。</span></li>
+      <li><b>Closer 依赖 Claude API</b> <span>— 必须后端代理，配 ANTHROPIC_API_KEY，无 key 降级。</span></li>
+      <li><b>单用户</b> <span>— 无注册登录，进度无 userId（未来多用户再加）。</span></li>
+    </ul>
+  </section>
+
+  <!-- 7. stack -->
+  <section>
+    <h2><span class="idx">07</span>技术栈 &amp; 部署</h2>
+    <div class="chips">
+      <span class="chip">Next.js 14 <b>App Router</b></span>
+      <span class="chip">TypeScript</span>
+      <span class="chip">PostgreSQL · <b>Neon</b></span>
+      <span class="chip">Prisma</span>
+      <span class="chip">Tailwind + shadcn/ui</span>
+      <span class="chip">Claude API（Closer 后端代理）</span>
+      <span class="chip">部署 · <b>GCP Cloud Run</b></span>
+    </div>
+    <div class="note">下一步待用户提供：<b>Neon DATABASE_URL</b>（开发即需）· ANTHROPIC_API_KEY（可选）· GCP Project ID 等（部署阶段）。</div>
+  </section>
+
+  <div class="footer">SAT Game · DEV-PLAN v2 · 生成于 2026-06-25 · 配套 markdown 见 DEV-PLAN.md</div>
+
+</div>
+</body>
+</html>

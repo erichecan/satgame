@@ -30,7 +30,7 @@ jobs:
           node-version: 20
 
       - name: Install deps for migration step
-        run: npm ci
+        run: npm install
 
       - name: Run database migrations
         run: |

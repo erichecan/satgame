@@ -7,7 +7,9 @@
 | 页面 | 地址 | 说明 |
 |------|------|------|
 | 登录 | http://localhost:3000/login | 输入访问口令 |
-| 首页看板 | http://localhost:3000/ | XP / 连续打卡 / 待复习 / 徽章 / 5 个游戏入口 |
+| 首页看板 | http://localhost:3000/ | 今日任务卡片（背单词/测验/游戏三项进度） / XP / 连续打卡 / 待复习 / 徽章 / 5 个游戏入口 |
+| 背单词 | http://localhost:3000/study | 每日打卡第一步：逐词翻卡看词义/例句/辨析 |
+| 每日测验 | http://localhost:3000/daily-quiz | 每日打卡第二步：仿真 SAT 短文四选一 |
 | Clusters | http://localhost:3000/vocab/clusters | 词义辨析归类 |
 | Closer | http://localhost:3000/rw/closer | 词在语境猜词 |
 | Read the Green | http://localhost:3000/rw/read-the-green | 阅读理解 + 证据定位 |
@@ -30,6 +32,7 @@
 | Gamification | ✅ 完成 | XP、连续打卡天数、5 个徽章（首答对/3日/7日连续/100XP/500XP）已跑通并在首页展示 |
 | 数据库迁移 | ✅ 完成 | Neon PostgreSQL，`prisma migrate dev` 已应用，`prisma migrate status` 显示 up to date |
 | 种子内容 | ⚠️ 部分完成 | 每个游戏目前只有 demo 原有的样本量（Clusters 3 组、Closer 12 词、Read the Green 3 篇、Gate Run 12 题、Dissector 5 题），**不是你要求的每游戏 200 题**。200 题批量生成需要走"LLM 生成 → 人工审核"流程（见下方"下一步建议"），我不能替你审核内容，所以先用demo原始题量把全链路跑通 |
+| 每日打卡（50词+10题+5游戏） | ✅ 完成 | 新增 `/study`（翻卡背词）+ `/daily-quiz`（仿真 SAT 短文四选一）两个页面，首页新增"今日任务"卡片汇总三项进度；三项全部完成才触发打卡结算（streak+1、`first_checkin` 徽章）。样本内容批量（24 个 sample 词 + 10 道配套 QuizItem）是**测试用 fixture，不是设计文档 §4.4 规划的正式审核过的 1500 词批次**，后续需按原计划分批生成+人工审核后替换 |
 
 ## 安全验证清单
 - [x] 所有 API 路由（除 `/api/auth/login`）无 token 访问返回 401

@@ -247,6 +247,192 @@ const DISSECTOR_ITEMS = [
   },
 ];
 
+// 每日打卡功能的测试样本数据（非正式审核过的完整词库，仅用于验证功能链路）
+const DAILY_SAMPLE_WORDS: {
+  word: string;
+  pos: string;
+  def: string;
+  ex: string;
+  tier: "foundation" | "sat_core";
+  rank: number;
+  synonymGroup?: string;
+}[] = [
+  { word: "indicate", pos: "verb", def: "To point out or show something.", ex: "The data seem to {word} a clear trend.", tier: "foundation", rank: 1, synonymGroup: "show" },
+  { word: "suggest", pos: "verb", def: "To indicate indirectly, without stating outright.", ex: "Her tone seemed to {word} disappointment.", tier: "foundation", rank: 2, synonymGroup: "show" },
+  { word: "demonstrate", pos: "verb", def: "To show clearly through evidence or example.", ex: "The experiment helped {word} the theory.", tier: "foundation", rank: 3, synonymGroup: "show" },
+  { word: "significant", pos: "adjective", def: "Important enough to be worth noting.", ex: "There was a {word} increase in attendance.", tier: "foundation", rank: 4, synonymGroup: "important" },
+  { word: "substantial", pos: "adjective", def: "Considerable in amount or degree.", ex: "They made {word} progress this year.", tier: "foundation", rank: 5, synonymGroup: "important" },
+  { word: "consequently", pos: "adverb", def: "As a result; therefore.", ex: "It rained heavily; {word}, the game was postponed.", tier: "foundation", rank: 6 },
+  { word: "furthermore", pos: "adverb", def: "In addition; moreover.", ex: "The plan is costly; {word}, it is untested.", tier: "foundation", rank: 7 },
+  { word: "assess", pos: "verb", def: "To evaluate or estimate the nature of something.", ex: "Teachers {word} student progress regularly.", tier: "foundation", rank: 8 },
+  { word: "acquire", pos: "verb", def: "To gain possession of something.", ex: "She hopes to {word} new skills this summer.", tier: "foundation", rank: 9 },
+  { word: "component", pos: "noun", def: "A part of a larger whole.", ex: "Trust is a key {word} of any friendship.", tier: "foundation", rank: 10 },
+  { word: "coherent", pos: "adjective", def: "Logical and consistent; easy to follow.", ex: "He gave a {word} explanation of the plan.", tier: "foundation", rank: 11 },
+  { word: "elaborate", pos: "verb", def: "To explain in further detail.", ex: "Could you {word} on that point?", tier: "foundation", rank: 12 },
+  { word: "ambivalent", pos: "adjective", def: "Having mixed or contradictory feelings.", ex: "She felt {word} about the new job offer.", tier: "sat_core", rank: 1, synonymGroup: "unclear-feeling" },
+  { word: "equivocal", pos: "adjective", def: "Open to more than one interpretation; ambiguous.", ex: "His {word} answer left everyone confused.", tier: "sat_core", rank: 2, synonymGroup: "unclear-feeling" },
+  { word: "meticulous", pos: "adjective", def: "Showing great attention to detail.", ex: "Her {word} notes covered every step.", tier: "sat_core", rank: 3 },
+  { word: "pragmatic", pos: "adjective", def: "Practical rather than idealistic.", ex: "They took a {word} approach to the budget.", tier: "sat_core", rank: 4 },
+  { word: "undermine", pos: "verb", def: "To weaken gradually.", ex: "Doubt can {word} even a strong plan.", tier: "sat_core", rank: 5 },
+  { word: "scrutinize", pos: "verb", def: "To examine closely and critically.", ex: "Editors {word} every sentence before publishing.", tier: "sat_core", rank: 6 },
+  { word: "mitigate", pos: "verb", def: "To make less severe.", ex: "New rules helped {word} the risk of injury.", tier: "sat_core", rank: 7 },
+  { word: "arbitrary", pos: "adjective", def: "Based on random choice, not reason.", ex: "The fine felt {word}, with no clear rule behind it.", tier: "sat_core", rank: 8 },
+  { word: "nuanced", pos: "adjective", def: "Marked by subtle distinctions.", ex: "Her {word} reading caught details others missed.", tier: "sat_core", rank: 9 },
+  { word: "tenuous", pos: "adjective", def: "Weak or flimsy; barely valid.", ex: "The link between the two events was {word} at best.", tier: "sat_core", rank: 10 },
+  { word: "candid", pos: "adjective", def: "Truthful and straightforward.", ex: "Her {word} feedback was hard to hear but useful.", tier: "sat_core", rank: 11, synonymGroup: "honest" },
+  { word: "forthright", pos: "adjective", def: "Direct and outspoken.", ex: "He gave a {word} account of what happened.", tier: "sat_core", rank: 12, synonymGroup: "honest" },
+];
+
+const DAILY_SAMPLE_QUIZZES: {
+  passage: string;
+  question: string;
+  options: { t: string; correct?: boolean }[];
+  words: string[]; // Word.word values this quiz is tagged with
+  domain: string;
+  explanation: string;
+}[] = [
+  {
+    passage:
+      "The committee's report did not clearly state whether the project should continue. Its conclusion was so equivocal that both supporters and critics claimed it backed their position.",
+    question: "As used in the passage, \"equivocal\" most nearly means",
+    options: [
+      { t: "ambiguous" },
+      { t: "unambiguous" },
+      { t: "enthusiastic" },
+      { t: "equivocal", correct: true },
+    ],
+    words: ["equivocal"],
+    domain: "words_in_context",
+    explanation: "The sentence explains both sides read the conclusion differently — that's the definition of equivocal (open to more than one interpretation).",
+  },
+  {
+    passage:
+      "Before publishing, the magazine's editors scrutinize every article, checking each fact against at least two independent sources.",
+    question: "The passage indicates that the editors' review process is best described as",
+    options: [
+      { t: "meticulous", correct: true },
+      { t: "arbitrary" },
+      { t: "occasional" },
+      { t: "informal" },
+    ],
+    words: ["scrutinize", "meticulous"],
+    domain: "info_ideas",
+    explanation: "Checking every article against two sources is a close, careful (meticulous) process — the opposite of arbitrary or informal.",
+  },
+  {
+    passage:
+      "New evidence has not fully confirmed the hypothesis, but it has not disproven it either; researchers describe their confidence in the theory as ambivalent.",
+    question: "Which choice best states the main idea of the passage?",
+    options: [
+      { t: "The hypothesis has been conclusively disproven." },
+      { t: "Researchers hold mixed feelings about the theory given incomplete evidence.", correct: true },
+      { t: "The evidence strongly supports the hypothesis." },
+      { t: "Researchers have stopped studying the theory." },
+    ],
+    words: ["ambivalent"],
+    domain: "info_ideas",
+    explanation: "\"Not fully confirmed... not disproven either\" plus \"ambivalent\" directly supports mixed feelings from incomplete evidence.",
+  },
+  {
+    passage:
+      "The mayor's plan was costly and untested. Furthermore, it required approval from three separate agencies before work could begin.",
+    question: "Which choice best describes the function of \"Furthermore\" in the passage?",
+    options: [
+      { t: "It introduces a contrasting idea." },
+      { t: "It adds another drawback to the ones already mentioned.", correct: true },
+      { t: "It signals the passage's conclusion." },
+      { t: "It introduces an example." },
+    ],
+    words: ["furthermore"],
+    domain: "expression_conventions",
+    explanation: "\"Furthermore\" adds a second problem (agency approval) on top of the first (cost, being untested) — addition, not contrast.",
+  },
+  {
+    passage:
+      "Rather than pursue an idealistic redesign, the engineers took a pragmatic approach, reusing existing parts wherever the budget was tight.",
+    question: "As used in the passage, \"pragmatic\" most nearly means",
+    options: [
+      { t: "impractical" },
+      { t: "expensive" },
+      { t: "practical", correct: true },
+      { t: "idealistic" },
+    ],
+    words: ["pragmatic"],
+    domain: "words_in_context",
+    explanation: "The passage sets \"pragmatic\" directly against \"idealistic,\" and reusing parts to save money is a practical choice.",
+  },
+  {
+    passage:
+      "A single skeptical comment, repeated often enough, can undermine even a team that started out confident.",
+    question: "As used in the passage, \"undermine\" most nearly means",
+    options: [
+      { t: "strengthen" },
+      { t: "weaken gradually", correct: true },
+      { t: "ignore" },
+      { t: "celebrate" },
+    ],
+    words: ["undermine"],
+    domain: "words_in_context",
+    explanation: "A repeated skeptical comment eroding a confident team's spirit is a gradual weakening, not a sudden change.",
+  },
+  {
+    passage:
+      "The panel's decision to reject every proposal without explanation struck applicants as arbitrary rather than principled.",
+    question: "Which choice best supports the idea that the applicants distrusted the panel's process?",
+    options: [
+      { t: "\"The panel's decision to reject every proposal\"" },
+      { t: "\"without explanation struck applicants as arbitrary\"", correct: true },
+      { t: "\"rather than principled.\"" },
+      { t: "None of the choices provide support." },
+    ],
+    words: ["arbitrary"],
+    domain: "info_ideas",
+    explanation: "\"Without explanation\" and \"arbitrary\" together are the clause that shows why applicants distrusted the process.",
+  },
+  {
+    passage:
+      "The reviewer's comments were candid to the point of bluntness, but every writer on the team said the feedback made their drafts stronger.",
+    question: "As used in the passage, \"candid\" most nearly means",
+    options: [
+      { t: "vague" },
+      { t: "flattering" },
+      { t: "honest and direct", correct: true },
+      { t: "hesitant" },
+    ],
+    words: ["candid", "forthright"],
+    domain: "words_in_context",
+    explanation: "\"Candid to the point of bluntness\" describes very honest, direct feedback.",
+  },
+  {
+    passage:
+      "The lab's notes were so coherent that a new researcher could follow the entire experiment without asking a single question.",
+    question: "As used in the passage, \"coherent\" most nearly means",
+    options: [
+      { t: "logical and easy to follow", correct: true },
+      { t: "handwritten" },
+      { t: "incomplete" },
+      { t: "brief" },
+    ],
+    words: ["coherent"],
+    domain: "words_in_context",
+    explanation: "Notes that let a newcomer follow the whole experiment without questions are, by definition, coherent — logical and easy to follow.",
+  },
+  {
+    passage:
+      "Sales figures alone cannot demonstrate why the product succeeded; interviews with customers are needed to assess the reasons behind their choices.",
+    question: "The passage suggests that understanding why the product succeeded requires",
+    options: [
+      { t: "only sales figures" },
+      { t: "customer interviews in addition to sales figures", correct: true },
+      { t: "no additional research" },
+      { t: "discontinuing the product" },
+    ],
+    words: ["demonstrate", "assess"],
+    domain: "info_ideas",
+    explanation: "The passage explicitly says sales figures alone are not enough and interviews are needed — i.e., both together.",
+  },
+];
+
 async function main() {
   // Words from Clusters + Closer
   for (const puzzle of CLUSTERS_PUZZLES) {
@@ -333,6 +519,45 @@ async function main() {
         domain: "math",
         difficulty: 2,
         payload: item,
+      },
+    });
+  }
+
+  // Daily-checkin sample content
+  const wordIdByWord = new Map<string, string>();
+  for (const w of DAILY_SAMPLE_WORDS) {
+    const created = await prisma.word.upsert({
+      where: { word: w.word },
+      create: {
+        word: w.word,
+        partOfSpeech: w.pos,
+        definitionEn: w.def,
+        exampleEn: w.ex.replace("{word}", w.word),
+        difficulty: w.tier === "sat_core" ? 2 : 1,
+        tier: w.tier,
+        rank: w.rank,
+        synonymGroup: w.synonymGroup,
+      },
+      update: {
+        tier: w.tier,
+        rank: w.rank,
+        synonymGroup: w.synonymGroup,
+      },
+    });
+    wordIdByWord.set(w.word, created.id);
+  }
+
+  await prisma.quizItem.deleteMany({});
+  for (const q of DAILY_SAMPLE_QUIZZES) {
+    await prisma.quizItem.create({
+      data: {
+        passage: q.passage,
+        question: q.question,
+        options: q.options,
+        wordIds: q.words.map((w) => wordIdByWord.get(w)!),
+        domain: q.domain,
+        difficulty: 2,
+        explanation: q.explanation,
       },
     });
   }

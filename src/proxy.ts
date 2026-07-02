@@ -1,28 +1,11 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { verifyToken } from "@/lib/auth";
 
-const PUBLIC_PATHS = ["/login", "/api/auth/login"];
-
-export async function proxy(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-
-  if (PUBLIC_PATHS.some((p) => pathname === p) || pathname.startsWith("/_next")) {
-    return NextResponse.next();
-  }
-
-  const token = request.cookies.get("token")?.value;
-  const isValid = token ? await verifyToken(token).then(() => true).catch(() => false) : false;
-
-  if (isValid) return NextResponse.next();
-
-  if (pathname.startsWith("/api/")) {
-    return NextResponse.json({ error: true, message: "未授权访问" }, { status: 401 });
-  }
-
-  const loginUrl = new URL("/login", request.url);
-  loginUrl.searchParams.set("next", pathname);
-  return NextResponse.redirect(loginUrl);
+// 鉴权已按项目所有者明确要求关闭（单人个人项目，无需登录门槛）。
+// 登录页面 / JWT 校验逻辑仍保留在代码里，未来需要恢复鉴权时
+// 把下方 return NextResponse.next() 换回原来的 token 校验分支即可。
+export async function proxy(_request: NextRequest) {
+  return NextResponse.next();
 }
 
 export const config = {

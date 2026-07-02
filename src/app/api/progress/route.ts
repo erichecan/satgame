@@ -1,6 +1,7 @@
 import { prisma } from "@/lib/db";
 import { nextSrsState } from "@/lib/srs";
-import { recordActivity } from "@/lib/gamification";
+import { recordXp } from "@/lib/gamification";
+import { markGamePlayed } from "@/lib/daily";
 import { addToReview } from "@/lib/learning";
 
 export async function GET(req: Request) {
@@ -74,7 +75,8 @@ export async function POST(req: Request) {
       await addToReview(wordId, "wrong", gameType);
     }
 
-    const stats = await recordActivity(result);
+    const stats = await recordXp(result);
+    await markGamePlayed(gameType);
 
     return Response.json({ progress, stats });
   } catch (error) {

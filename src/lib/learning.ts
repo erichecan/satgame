@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/db";
 
-export type AddToReviewReason = "wrong" | "asked_hint" | "gave_up" | "manual";
+export type AddToReviewReason = "wrong" | "asked_hint" | "gave_up" | "manual" | "self_reported_unknown";
 
 export async function addToReview(
   wordId: string,

@@ -5,6 +5,7 @@ const XP_INCORRECT = 2;
 
 const BADGE_DEFS = [
   { code: "first_correct", name: "初次答对", description: "答对第一题" },
+  { code: "first_checkin", name: "今日打卡", description: "完成一次完整的每日打卡" },
   { code: "streak_3", name: "三日连击", description: "连续 3 天打卡" },
   { code: "streak_7", name: "一周不断", description: "连续 7 天打卡" },
   { code: "xp_100", name: "百分新手", description: "累计 100 XP" },
@@ -15,8 +16,14 @@ function isSameDay(a: Date, b: Date) {
   return a.toDateString() === b.toDateString();
 }
 
-export async function recordActivity(result: "correct" | "incorrect") {
-  const now = new Date();
+async function awardBadges(codes: string[]) {
+  for (const code of codes) {
+    const def = BADGE_DEFS.find((b) => b.code === code)!;
+    await prisma.badge.upsert({ where: { code }, create: def, update: {} });
+  }
+}
+
+export async function recordXp(result: "correct" | "incorrect") {
   const stats = await prisma.userStats.upsert({
     where: { id: "singleton" },
     create: { id: "singleton", xp: 0, streak: 0 },
@@ -24,6 +31,26 @@ export async function recordActivity(result: "correct" | "incorrect") {
   });
 
   const xpGain = result === "correct" ? XP_CORRECT : XP_INCORRECT;
+  const updated = await prisma.userStats.update({
+    where: { id: "singleton" },
+    data: { xp: stats.xp + xpGain },
+  });
+
+  const newBadges: string[] = [];
+  if (result === "correct") newBadges.push("first_correct");
+  if (updated.xp >= 100) newBadges.push("xp_100");
+  if (updated.xp >= 500) newBadges.push("xp_500");
+  await awardBadges(newBadges);
+
+  return updated;
+}
+
+export async function completeCheckin(now: Date = new Date()) {
+  const stats = await prisma.userStats.upsert({
+    where: { id: "singleton" },
+    create: { id: "singleton", xp: 0, streak: 0 },
+    update: {},
+  });
 
   let streak = stats.streak;
   if (!stats.lastActiveDate) {
@@ -38,24 +65,13 @@ export async function recordActivity(result: "correct" | "incorrect") {
 
   const updated = await prisma.userStats.update({
     where: { id: "singleton" },
-    data: { xp: stats.xp + xpGain, streak, lastActiveDate: now },
+    data: { streak, lastActiveDate: now },
   });
 
-  const newBadges: string[] = [];
-  if (result === "correct") newBadges.push("first_correct");
+  const newBadges: string[] = ["first_checkin"];
   if (streak >= 3) newBadges.push("streak_3");
   if (streak >= 7) newBadges.push("streak_7");
-  if (updated.xp >= 100) newBadges.push("xp_100");
-  if (updated.xp >= 500) newBadges.push("xp_500");
-
-  for (const code of newBadges) {
-    const def = BADGE_DEFS.find((b) => b.code === code)!;
-    await prisma.badge.upsert({
-      where: { code },
-      create: def,
-      update: {},
-    });
-  }
+  await awardBadges(newBadges);
 
   return updated;
 }

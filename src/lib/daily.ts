@@ -1,3 +1,7 @@
+import { prisma } from "@/lib/db";
+import { addToReview } from "@/lib/learning";
+import { completeCheckin } from "@/lib/gamification";
+
 export const GAMES_PER_DAY = ["clusters", "closer", "read_the_green", "gate_run", "dissector"] as const;
 
 export const WORDS_PER_DAY = 50;
@@ -37,4 +41,111 @@ export function isDailyComplete(assignment: {
   const allQuizAnswered = assignment.quizItemIds.every((id) => id in assignment.quizAnswers);
   const allGamesPlayed = GAMES_PER_DAY.every((g) => assignment.gamesPlayed.includes(g));
   return allWordsViewed && allQuizAnswered && allGamesPlayed;
+}
+
+export async function getOrCreateDailyAssignment(now: Date = new Date()) {
+  const date = todayKey(now);
+  const existing = await prisma.dailyAssignment.findUnique({ where: { date } });
+  if (existing) return existing;
+
+  const dueReviewNotes = await prisma.vocabNote.findMany({
+    where: { nextReview: { lte: now } },
+    orderBy: { nextReview: "asc" },
+    take: REVIEW_WORDS_PER_DAY,
+  });
+  const reviewWordIds = dueReviewNotes.map((n) => n.wordId);
+
+  const priorAssignments = await prisma.dailyAssignment.findMany({ select: { wordIds: true } });
+  const seenWordIds = new Set(priorAssignments.flatMap((a) => a.wordIds));
+
+  const newWordCandidates = await prisma.word.findMany({
+    where: { isActive: true, id: { notIn: [...seenWordIds] } },
+    orderBy: [{ tier: "asc" }, { rank: "asc" }],
+    take: NEW_WORDS_PER_DAY,
+  });
+
+  const wordIds = [...new Set([...newWordCandidates.map((w) => w.id), ...reviewWordIds])].slice(
+    0,
+    WORDS_PER_DAY
+  );
+
+  const quizPool = await prisma.quizItem.findMany({
+    where: { isActive: true },
+    select: { id: true, wordIds: true },
+  });
+  const quizItemIds = selectQuizItemIds(quizPool, wordIds, QUIZ_PER_DAY);
+
+  return prisma.dailyAssignment.create({
+    data: { date, wordIds, quizItemIds },
+  });
+}
+
+async function maybeCompleteDaily(assignment: {
+  date: string;
+  wordIds: string[];
+  wordsViewed: string[];
+  quizItemIds: string[];
+  quizAnswers: unknown;
+  gamesPlayed: string[];
+  completedAt: Date | null;
+}) {
+  if (assignment.completedAt) return;
+  const complete = isDailyComplete({
+    wordIds: assignment.wordIds,
+    wordsViewed: assignment.wordsViewed,
+    quizItemIds: assignment.quizItemIds,
+    quizAnswers: assignment.quizAnswers as Record<string, string>,
+    gamesPlayed: assignment.gamesPlayed,
+  });
+  if (!complete) return;
+  await prisma.dailyAssignment.update({
+    where: { date: assignment.date },
+    data: { completedAt: new Date() },
+  });
+  await completeCheckin();
+}
+
+export async function markWordViewed(wordId: string, unknown: boolean, now: Date = new Date()) {
+  const assignment = await getOrCreateDailyAssignment(now);
+  const wordsViewed = assignment.wordsViewed.includes(wordId)
+    ? assignment.wordsViewed
+    : [...assignment.wordsViewed, wordId];
+  const updated = await prisma.dailyAssignment.update({
+    where: { date: assignment.date },
+    data: { wordsViewed },
+  });
+  if (unknown) {
+    await addToReview(wordId, "self_reported_unknown");
+  }
+  await maybeCompleteDaily(updated);
+  return updated;
+}
+
+export async function markQuizAnswered(
+  quizItemId: string,
+  result: "correct" | "incorrect",
+  now: Date = new Date()
+) {
+  const assignment = await getOrCreateDailyAssignment(now);
+  const quizAnswers = {
+    ...(assignment.quizAnswers as Record<string, string>),
+    [quizItemId]: result,
+  };
+  const updated = await prisma.dailyAssignment.update({
+    where: { date: assignment.date },
+    data: { quizAnswers },
+  });
+  await maybeCompleteDaily(updated);
+  return updated;
+}
+
+export async function markGamePlayed(gameType: string, now: Date = new Date()) {
+  const assignment = await getOrCreateDailyAssignment(now);
+  if (assignment.gamesPlayed.includes(gameType)) return assignment;
+  const updated = await prisma.dailyAssignment.update({
+    where: { date: assignment.date },
+    data: { gamesPlayed: [...assignment.gamesPlayed, gameType] },
+  });
+  await maybeCompleteDaily(updated);
+  return updated;
 }

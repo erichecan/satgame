@@ -24,11 +24,11 @@ describe("selectQuizItemIds", () => {
     expect(result).toEqual(["q1", "q4"]);
   });
 
-  it("falls back to items with no overlap when not enough matches exist", () => {
+  it("falls back to items with no overlap when not enough matches exist, preserving pool order on ties", () => {
     const result = selectQuizItemIds(pool, ["w1"], 3);
-    expect(result).toHaveLength(3);
-    expect(result[0]).toBe("q4");
-    expect(result.slice(1)).toEqual(expect.arrayContaining(["q1", "q2", "q3"].filter((id) => id !== "q4")));
+    // q1 and q4 both have overlap 1; q2 and q3 both have overlap 0.
+    // A stable sort keeps each tied group in its original pool order.
+    expect(result).toEqual(["q1", "q4", "q2"]);
   });
 
   it("never returns more than count items", () => {

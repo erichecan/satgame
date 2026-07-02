@@ -29,6 +29,22 @@ export function Nav() {
         <Link href="/" className="font-semibold text-slate-900 shrink-0">
           SAT Game
         </Link>
+        <Link
+          href="/study"
+          className={`shrink-0 rounded-full px-3 py-1 ${
+            pathname === "/study" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
+          }`}
+        >
+          背单词
+        </Link>
+        <Link
+          href="/daily-quiz"
+          className={`shrink-0 rounded-full px-3 py-1 ${
+            pathname === "/daily-quiz" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
+          }`}
+        >
+          测验
+        </Link>
         {GAMES.map((g) => (
           <Link
             key={g.href}

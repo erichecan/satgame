@@ -15,6 +15,9 @@ model Word {
   definitionCn String?
   exampleEn    String?
   difficulty   Int        @default(1)
+  tier          String     @default("sat_core") // "foundation" | "sat_core"
+  rank          Int        @default(9999)        // order within tier for daily new-word selection
+  synonymGroup  String?                           // optional key linking words for discrimination display
   isActive     Boolean    @default(true)
   createdAt    DateTime   @default(now())
   vocabNotes   VocabNote[]
@@ -79,4 +82,33 @@ model Badge {
   name        String
   description String
   earnedAt    DateTime @default(now())
+}
+
+// 每日测验题库：SAT 短文题结构，独立于 GameItem（生命周期和复用逻辑不同）
+model QuizItem {
+  id          String   @id @default(cuid())
+  passage     String
+  question    String
+  options     Json     // [{ t: string, correct?: boolean }], 四选一
+  wordIds     String[] // 关联 Word.id，用于和当天 50 词做交集匹配
+  domain      String   // craft_structure | words_in_context | info_ideas | expression_conventions
+  difficulty  Int      @default(2)
+  explanation String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+
+  @@index([isActive])
+}
+
+// 每日任务快照：一天一行，支持中途退出继续；三项（词/题/游戏）齐了才算打卡完成
+model DailyAssignment {
+  id          String    @id @default(cuid())
+  date        String    @unique // "YYYY-MM-DD"，服务器本地日期
+  wordIds     String[]
+  quizItemIds String[]
+  wordsViewed String[]  @default([])
+  quizAnswers Json      @default("{}") // { [quizItemId]: "correct" | "incorrect" }
+  gamesPlayed String[]  @default([])
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
 }

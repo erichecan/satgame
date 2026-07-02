@@ -1,0 +1,3351 @@
+{
+  "words": [
+    {
+      "word": "demure",
+      "pos": "adjective",
+      "definitionEn": "shy and modest in behavior or appearance",
+      "exampleEn": "The bride gave a demure smile as she walked down the aisle.",
+      "tier": "sat_core",
+      "rank": 101
+    },
+    {
+      "word": "denigrate",
+      "pos": "verb",
+      "definitionEn": "to criticize someone or something unfairly in order to damage their reputation",
+      "exampleEn": "The columnist was known for denigrating rivals instead of debating their ideas.",
+      "tier": "sat_core",
+      "rank": 102
+    },
+    {
+      "word": "deplete",
+      "pos": "verb",
+      "definitionEn": "to use up the supply or resources of something",
+      "exampleEn": "Years of overfishing have depleted the once-abundant salmon population.",
+      "tier": "sat_core",
+      "rank": 103
+    },
+    {
+      "word": "deplore",
+      "pos": "verb",
+      "definitionEn": "to strongly disapprove of something",
+      "exampleEn": "Human rights groups deplored the government's treatment of protesters.",
+      "tier": "sat_core",
+      "rank": 104,
+      "synonymGroup": "criticize-harshly"
+    },
+    {
+      "word": "deride",
+      "pos": "verb",
+      "definitionEn": "to mock or ridicule someone or something",
+      "exampleEn": "Critics derided the film as a shallow imitation of better movies.",
+      "tier": "sat_core",
+      "rank": 105,
+      "synonymGroup": "criticize-harshly"
+    },
+    {
+      "word": "derivative",
+      "pos": "adjective",
+      "definitionEn": "imitative of the work of another artist or writer, and therefore not original",
+      "exampleEn": "The band's debut album felt derivative, echoing several famous groups without adding anything new.",
+      "tier": "sat_core",
+      "rank": 106
+    },
+    {
+      "word": "desiccate",
+      "pos": "verb",
+      "definitionEn": "to remove almost all the moisture from something, drying it thoroughly",
+      "exampleEn": "The scorching desert sun desiccated the fallen leaves within hours.",
+      "tier": "sat_core",
+      "rank": 107
+    },
+    {
+      "word": "despot",
+      "pos": "noun",
+      "definitionEn": "a ruler who has absolute power and often uses it cruelly",
+      "exampleEn": "The despot silenced the free press soon after seizing control of the country.",
+      "tier": "sat_core",
+      "rank": 108
+    },
+    {
+      "word": "deter",
+      "pos": "verb",
+      "definitionEn": "to discourage someone from doing something by making them afraid of the consequences",
+      "exampleEn": "Bright security lights are meant to deter burglars from approaching the house.",
+      "tier": "sat_core",
+      "rank": 109
+    },
+    {
+      "word": "detrimental",
+      "pos": "adjective",
+      "definitionEn": "causing harm or damage",
+      "exampleEn": "Skipping sleep for weeks proved detrimental to her concentration and mood.",
+      "tier": "sat_core",
+      "rank": 110
+    },
+    {
+      "word": "diaphanous",
+      "pos": "adjective",
+      "definitionEn": "light, delicate, and translucent enough to see through",
+      "exampleEn": "The dancer's diaphanous scarf floated behind her like a cloud of mist.",
+      "tier": "sat_core",
+      "rank": 111
+    },
+    {
+      "word": "didactic",
+      "pos": "adjective",
+      "definitionEn": "intended to teach or instruct, often excessively so",
+      "exampleEn": "Some readers found the novel's ending too didactic, as if the author were lecturing them.",
+      "tier": "sat_core",
+      "rank": 112
+    },
+    {
+      "word": "diffident",
+      "pos": "adjective",
+      "definitionEn": "shy and lacking confidence in oneself",
+      "exampleEn": "The new intern was so diffident that he barely spoke during his first meeting.",
+      "tier": "sat_core",
+      "rank": 113
+    },
+    {
+      "word": "digress",
+      "pos": "verb",
+      "definitionEn": "to move away from the main topic temporarily in speaking or writing",
+      "exampleEn": "The professor tends to digress into stories about his college years before returning to the lecture.",
+      "tier": "sat_core",
+      "rank": 114
+    },
+    {
+      "word": "diligent",
+      "pos": "adjective",
+      "definitionEn": "showing careful and persistent effort in one's work",
+      "exampleEn": "The diligent student reviewed her notes every night, even when she was tired.",
+      "tier": "sat_core",
+      "rank": 115
+    },
+    {
+      "word": "diminutive",
+      "pos": "adjective",
+      "definitionEn": "extremely small in size",
+      "exampleEn": "A diminutive robot no bigger than a coin explored the cracks in the wall.",
+      "tier": "sat_core",
+      "rank": 116
+    },
+    {
+      "word": "disconcerting",
+      "pos": "adjective",
+      "definitionEn": "causing someone to feel confused, unsettled, or worried",
+      "exampleEn": "It was disconcerting to hear footsteps in the empty house at midnight.",
+      "tier": "sat_core",
+      "rank": 117
+    },
+    {
+      "word": "discordant",
+      "pos": "adjective",
+      "definitionEn": "not in harmony or agreement; sounding harsh together",
+      "exampleEn": "The orchestra's warm-up produced a discordant mix of notes before the conductor arrived.",
+      "tier": "sat_core",
+      "rank": 118
+    },
+    {
+      "word": "discreet",
+      "pos": "adjective",
+      "definitionEn": "careful to avoid causing embarrassment or attracting notice, especially about sensitive matters",
+      "exampleEn": "She was discreet about her coworker's illness, telling no one without permission.",
+      "tier": "sat_core",
+      "rank": 119
+    },
+    {
+      "word": "discrepancy",
+      "pos": "noun",
+      "definitionEn": "a difference between two things that should match",
+      "exampleEn": "The accountant noticed a discrepancy between the receipts and the reported total.",
+      "tier": "sat_core",
+      "rank": 120
+    },
+    {
+      "word": "disdain",
+      "pos": "noun",
+      "definitionEn": "a feeling that someone or something is beneath consideration or unworthy of respect",
+      "exampleEn": "He treated the beginner's questions with open disdain instead of patience.",
+      "tier": "sat_core",
+      "rank": 121
+    },
+    {
+      "word": "disingenuous",
+      "pos": "adjective",
+      "definitionEn": "not sincere, especially by pretending to know less than one actually does",
+      "exampleEn": "It felt disingenuous when the CEO claimed to be surprised by problems her own emails had warned about.",
+      "tier": "sat_core",
+      "rank": 122
+    },
+    {
+      "word": "disparate",
+      "pos": "adjective",
+      "definitionEn": "very different from each other, so as to seem unrelated",
+      "exampleEn": "The exhibit brought together disparate art forms, from ancient pottery to digital animation.",
+      "tier": "sat_core",
+      "rank": 123
+    },
+    {
+      "word": "dispassionate",
+      "pos": "adjective",
+      "definitionEn": "not influenced by strong emotion, and therefore fair or rational",
+      "exampleEn": "The judge listened to both sides with a dispassionate, even expression.",
+      "tier": "sat_core",
+      "rank": 124
+    },
+    {
+      "word": "disperse",
+      "pos": "verb",
+      "definitionEn": "to scatter or spread out in different directions",
+      "exampleEn": "Police asked the crowd to disperse once the concert ended.",
+      "tier": "sat_core",
+      "rank": 125,
+      "synonymGroup": "spread-apart"
+    },
+    {
+      "word": "disseminate",
+      "pos": "verb",
+      "definitionEn": "to spread information or ideas widely",
+      "exampleEn": "The health department used social media to disseminate updates during the outbreak.",
+      "tier": "sat_core",
+      "rank": 126,
+      "synonymGroup": "spread-apart"
+    },
+    {
+      "word": "dissent",
+      "pos": "noun",
+      "definitionEn": "disagreement with an official opinion or decision",
+      "exampleEn": "The senator's dissent from her party's plan surprised many colleagues.",
+      "tier": "sat_core",
+      "rank": 127
+    },
+    {
+      "word": "dissonance",
+      "pos": "noun",
+      "definitionEn": "a lack of harmony or agreement, especially in sound or ideas",
+      "exampleEn": "The composer used sudden dissonance to create a feeling of unease in the final movement.",
+      "tier": "sat_core",
+      "rank": 128
+    },
+    {
+      "word": "distend",
+      "pos": "verb",
+      "definitionEn": "to swell or cause to swell by pressure from inside",
+      "exampleEn": "The balloon began to distend dangerously as more air was pumped in.",
+      "tier": "sat_core",
+      "rank": 129
+    },
+    {
+      "word": "divergent",
+      "pos": "adjective",
+      "definitionEn": "developing in different directions from a common point; differing from each other or from a standard",
+      "exampleEn": "The twins took divergent paths in life, one becoming a doctor and the other a musician.",
+      "tier": "sat_core",
+      "rank": 130,
+      "synonymGroup": "branching-apart"
+    },
+    {
+      "word": "diverge",
+      "pos": "verb",
+      "definitionEn": "to separate and go in different directions from a common point",
+      "exampleEn": "The trail diverges here, with one path leading to the lake and the other to the summit.",
+      "tier": "sat_core",
+      "rank": 131,
+      "synonymGroup": "branching-apart"
+    },
+    {
+      "word": "dogmatic",
+      "pos": "adjective",
+      "definitionEn": "insisting that one's own beliefs are true without allowing for debate",
+      "exampleEn": "His dogmatic refusal to consider other opinions made group discussions frustrating.",
+      "tier": "sat_core",
+      "rank": 132
+    },
+    {
+      "word": "dubious",
+      "pos": "adjective",
+      "definitionEn": "not clearly true, reliable, or of good quality; doubtful",
+      "exampleEn": "The salesman made dubious claims about the product's health benefits.",
+      "tier": "sat_core",
+      "rank": 133
+    },
+    {
+      "word": "duplicity",
+      "pos": "noun",
+      "definitionEn": "deceitfulness; the act of saying one thing while believing or doing another",
+      "exampleEn": "His duplicity was exposed when investigators found he had been secretly working for a rival company.",
+      "tier": "sat_core",
+      "rank": 134
+    },
+    {
+      "word": "duress",
+      "pos": "noun",
+      "definitionEn": "threats or force used to make someone do something against their will",
+      "exampleEn": "The witness claimed she signed the confession under duress.",
+      "tier": "sat_core",
+      "rank": 135
+    },
+    {
+      "word": "ebullient",
+      "pos": "adjective",
+      "definitionEn": "overflowing with enthusiasm or excitement",
+      "exampleEn": "The ebullient coach could barely contain his joy after the team's championship win.",
+      "tier": "sat_core",
+      "rank": 136,
+      "synonymGroup": "joyful-energy"
+    },
+    {
+      "word": "eccentric",
+      "pos": "adjective",
+      "definitionEn": "unconventional or slightly strange in behavior or appearance",
+      "exampleEn": "The eccentric inventor kept dozens of half-finished gadgets scattered around his workshop.",
+      "tier": "sat_core",
+      "rank": 137
+    },
+    {
+      "word": "eclectic",
+      "pos": "adjective",
+      "definitionEn": "made up of a variety of styles, sources, or ideas",
+      "exampleEn": "Her eclectic music collection ranged from classical symphonies to underground hip-hop.",
+      "tier": "sat_core",
+      "rank": 138
+    },
+    {
+      "word": "edify",
+      "pos": "verb",
+      "definitionEn": "to instruct or improve someone morally or intellectually",
+      "exampleEn": "The lecture series was meant to edify the public on the history of the region.",
+      "tier": "sat_core",
+      "rank": 139
+    },
+    {
+      "word": "efface",
+      "pos": "verb",
+      "definitionEn": "to erase or rub out; to make oneself inconspicuous",
+      "exampleEn": "Time and weather had effaced most of the inscription on the old gravestone.",
+      "tier": "sat_core",
+      "rank": 140
+    },
+    {
+      "word": "effervescent",
+      "pos": "adjective",
+      "definitionEn": "bubbly and lively in a way that suggests high spirits",
+      "exampleEn": "Her effervescent personality made even the dullest meetings feel lively.",
+      "tier": "sat_core",
+      "rank": 141,
+      "synonymGroup": "joyful-energy"
+    },
+    {
+      "word": "effrontery",
+      "pos": "noun",
+      "definitionEn": "bold, disrespectful behavior that shows a shocking lack of shame",
+      "exampleEn": "She had the effrontery to demand a refund after breaking the item herself.",
+      "tier": "sat_core",
+      "rank": 142
+    },
+    {
+      "word": "egalitarian",
+      "pos": "adjective",
+      "definitionEn": "believing in or based on the principle that all people are equal",
+      "exampleEn": "The commune was founded on egalitarian ideals, with no single leader controlling decisions.",
+      "tier": "sat_core",
+      "rank": 143
+    },
+    {
+      "word": "egregious",
+      "pos": "adjective",
+      "definitionEn": "outstandingly bad or shocking in a way that is very noticeable",
+      "exampleEn": "The report cited an egregious error that had gone unnoticed for months.",
+      "tier": "sat_core",
+      "rank": 144
+    },
+    {
+      "word": "elicit",
+      "pos": "verb",
+      "definitionEn": "to draw out a response or reaction from someone",
+      "exampleEn": "The comedian's opening joke elicited nervous laughter from the audience.",
+      "tier": "sat_core",
+      "rank": 145
+    },
+    {
+      "word": "eloquent",
+      "pos": "adjective",
+      "definitionEn": "fluent and persuasive in speaking or writing",
+      "exampleEn": "Her eloquent speech moved even the most skeptical members of the audience.",
+      "tier": "sat_core",
+      "rank": 146
+    },
+    {
+      "word": "elusive",
+      "pos": "adjective",
+      "definitionEn": "difficult to find, catch, or achieve",
+      "exampleEn": "A cure for the disease has remained elusive despite decades of research.",
+      "tier": "sat_core",
+      "rank": 147
+    },
+    {
+      "word": "emaciated",
+      "pos": "adjective",
+      "definitionEn": "abnormally thin or weak, especially from illness or lack of food",
+      "exampleEn": "Rescuers were shocked by how emaciated the stray dog had become.",
+      "tier": "sat_core",
+      "rank": 148
+    },
+    {
+      "word": "embellish",
+      "pos": "verb",
+      "definitionEn": "to make something more attractive by adding decorative details, sometimes exaggerating the truth",
+      "exampleEn": "He tends to embellish his fishing stories, adding a few extra pounds to every catch.",
+      "tier": "sat_core",
+      "rank": 149
+    },
+    {
+      "word": "eminent",
+      "pos": "adjective",
+      "definitionEn": "famous and respected within a particular field",
+      "exampleEn": "An eminent scientist was invited to open the new research center.",
+      "tier": "sat_core",
+      "rank": 150
+    },
+    {
+      "word": "empathy",
+      "pos": "noun",
+      "definitionEn": "the ability to understand and share the feelings of another person",
+      "exampleEn": "The counselor's empathy helped the students feel truly heard.",
+      "tier": "sat_core",
+      "rank": 151
+    },
+    {
+      "word": "empirical",
+      "pos": "adjective",
+      "definitionEn": "based on observation or experiment rather than theory alone",
+      "exampleEn": "The scientist demanded empirical evidence before accepting the new hypothesis.",
+      "tier": "sat_core",
+      "rank": 152
+    },
+    {
+      "word": "emulate",
+      "pos": "verb",
+      "definitionEn": "to try to match or surpass someone by imitating them",
+      "exampleEn": "Young athletes often emulate the training habits of their favorite professionals.",
+      "tier": "sat_core",
+      "rank": 153
+    },
+    {
+      "word": "endemic",
+      "pos": "adjective",
+      "definitionEn": "regularly found in a particular place, people, or field",
+      "exampleEn": "Corruption had become endemic in the agency long before the scandal broke.",
+      "tier": "sat_core",
+      "rank": 154
+    },
+    {
+      "word": "enervate",
+      "pos": "verb",
+      "definitionEn": "to drain someone of energy or vitality",
+      "exampleEn": "The relentless heat enervated the hikers by midafternoon.",
+      "tier": "sat_core",
+      "rank": 155
+    },
+    {
+      "word": "engender",
+      "pos": "verb",
+      "definitionEn": "to cause or give rise to a feeling, situation, or condition",
+      "exampleEn": "The teacher's patience engendered trust among even her most anxious students.",
+      "tier": "sat_core",
+      "rank": 156
+    },
+    {
+      "word": "enigma",
+      "pos": "noun",
+      "definitionEn": "a person or thing that is mysterious or difficult to understand",
+      "exampleEn": "The disappearance of the entire crew remains an enigma to this day.",
+      "tier": "sat_core",
+      "rank": 157
+    },
+    {
+      "word": "enmity",
+      "pos": "noun",
+      "definitionEn": "deep-seated hostility or hatred between people or groups",
+      "exampleEn": "Decades of enmity between the two families finally ended with the wedding.",
+      "tier": "sat_core",
+      "rank": 158
+    },
+    {
+      "word": "epitome",
+      "pos": "noun",
+      "definitionEn": "a perfect example of a particular quality or type",
+      "exampleEn": "The old lighthouse keeper was the epitome of quiet dedication.",
+      "tier": "sat_core",
+      "rank": 159
+    },
+    {
+      "word": "equanimity",
+      "pos": "noun",
+      "definitionEn": "calmness and composure, especially in a difficult situation",
+      "exampleEn": "She faced the diagnosis with remarkable equanimity, never losing her composure.",
+      "tier": "sat_core",
+      "rank": 160
+    },
+    {
+      "word": "equitable",
+      "pos": "adjective",
+      "definitionEn": "fair and impartial, especially in treatment or distribution",
+      "exampleEn": "The new policy aims to create a more equitable distribution of resources among schools.",
+      "tier": "sat_core",
+      "rank": 161
+    },
+    {
+      "word": "eradicate",
+      "pos": "verb",
+      "definitionEn": "to completely destroy or eliminate something",
+      "exampleEn": "Vaccination campaigns helped eradicate smallpox worldwide by 1980.",
+      "tier": "sat_core",
+      "rank": 162
+    },
+    {
+      "word": "erroneous",
+      "pos": "adjective",
+      "definitionEn": "incorrect or based on a mistake",
+      "exampleEn": "The report contained several erroneous statistics that were later corrected.",
+      "tier": "sat_core",
+      "rank": 163
+    },
+    {
+      "word": "erudite",
+      "pos": "adjective",
+      "definitionEn": "having or showing great knowledge gained from reading and study",
+      "exampleEn": "The erudite professor could discuss anything from ancient philosophy to modern physics.",
+      "tier": "sat_core",
+      "rank": 164
+    },
+    {
+      "word": "esoteric",
+      "pos": "adjective",
+      "definitionEn": "understood by only a small number of people with specialized knowledge",
+      "exampleEn": "The seminar covered esoteric mathematical theories few outside the field could follow.",
+      "tier": "sat_core",
+      "rank": 165
+    },
+    {
+      "word": "espouse",
+      "pos": "verb",
+      "definitionEn": "to support or adopt a belief, cause, or way of life",
+      "exampleEn": "The candidate espoused policies that favored small business owners.",
+      "tier": "sat_core",
+      "rank": 166
+    },
+    {
+      "word": "ethereal",
+      "pos": "adjective",
+      "definitionEn": "extremely delicate and light in a way that seems too perfect for this world",
+      "exampleEn": "The singer's ethereal voice seemed to float above the orchestra.",
+      "tier": "sat_core",
+      "rank": 167
+    },
+    {
+      "word": "euphemism",
+      "pos": "noun",
+      "definitionEn": "a mild or indirect word substituted for one considered harsh or blunt",
+      "exampleEn": "\"Passed away\" is a common euphemism for \"died.\"",
+      "tier": "sat_core",
+      "rank": 168
+    },
+    {
+      "word": "euphoria",
+      "pos": "noun",
+      "definitionEn": "a feeling of intense happiness and excitement",
+      "exampleEn": "A wave of euphoria swept through the stadium as the final buzzer sounded.",
+      "tier": "sat_core",
+      "rank": 169
+    },
+    {
+      "word": "evanescent",
+      "pos": "adjective",
+      "definitionEn": "lasting only a very short time; quickly fading",
+      "exampleEn": "The evanescent beauty of the cherry blossoms drew crowds for only a week each spring.",
+      "tier": "sat_core",
+      "rank": 170
+    },
+    {
+      "word": "exacerbate",
+      "pos": "verb",
+      "definitionEn": "to make a problem or situation worse",
+      "exampleEn": "Cutting the funding only exacerbated the hospital's staffing shortage.",
+      "tier": "sat_core",
+      "rank": 171,
+      "synonymGroup": "worsen-irritate"
+    },
+    {
+      "word": "exasperate",
+      "pos": "verb",
+      "definitionEn": "to irritate someone intensely, often through repeated frustration",
+      "exampleEn": "The constant delays exasperated passengers waiting at the gate.",
+      "tier": "sat_core",
+      "rank": 172,
+      "synonymGroup": "worsen-irritate"
+    },
+    {
+      "word": "exemplary",
+      "pos": "adjective",
+      "definitionEn": "serving as a desirable model; outstandingly good",
+      "exampleEn": "The firefighter received an award for exemplary bravery during the rescue.",
+      "tier": "sat_core",
+      "rank": 173
+    },
+    {
+      "word": "exhaustive",
+      "pos": "adjective",
+      "definitionEn": "covering all possible details or aspects; extremely thorough",
+      "exampleEn": "The detective conducted an exhaustive search of the property before leaving.",
+      "tier": "sat_core",
+      "rank": 174
+    },
+    {
+      "word": "exigent",
+      "pos": "adjective",
+      "definitionEn": "requiring immediate action or attention; urgent",
+      "exampleEn": "The nurse addressed the most exigent cases first in the crowded emergency room.",
+      "tier": "sat_core",
+      "rank": 175
+    },
+    {
+      "word": "exonerate",
+      "pos": "verb",
+      "definitionEn": "to officially clear someone of blame or guilt",
+      "exampleEn": "New DNA evidence exonerated the man after twenty years in prison.",
+      "tier": "sat_core",
+      "rank": 176
+    },
+    {
+      "word": "expedient",
+      "pos": "adjective",
+      "definitionEn": "convenient and practical, though sometimes at the cost of being fair or ethical",
+      "exampleEn": "Firing the whole team was an expedient solution, but it ignored the real problem.",
+      "tier": "sat_core",
+      "rank": 177
+    },
+    {
+      "word": "expedite",
+      "pos": "verb",
+      "definitionEn": "to make a process happen more quickly",
+      "exampleEn": "Paying an extra fee can expedite the passport renewal process.",
+      "tier": "sat_core",
+      "rank": 178
+    },
+    {
+      "word": "explicit",
+      "pos": "adjective",
+      "definitionEn": "stated clearly and in detail, leaving no room for confusion",
+      "exampleEn": "The instructions were explicit about which cables to disconnect first.",
+      "tier": "sat_core",
+      "rank": 179
+    },
+    {
+      "word": "exploit",
+      "pos": "verb",
+      "definitionEn": "to use someone or something unfairly for one's own benefit",
+      "exampleEn": "The factory was accused of exploiting workers by paying far below minimum wage.",
+      "tier": "sat_core",
+      "rank": 180
+    },
+    {
+      "word": "extraneous",
+      "pos": "adjective",
+      "definitionEn": "irrelevant or unnecessary to the main subject",
+      "exampleEn": "The editor cut several extraneous details that slowed down the article.",
+      "tier": "sat_core",
+      "rank": 181
+    },
+    {
+      "word": "extrapolate",
+      "pos": "verb",
+      "definitionEn": "to estimate or conclude something by extending known information into an unknown situation",
+      "exampleEn": "Scientists extrapolated future sea levels from decades of measured data.",
+      "tier": "sat_core",
+      "rank": 182
+    },
+    {
+      "word": "exuberant",
+      "pos": "adjective",
+      "definitionEn": "full of energy, excitement, and cheerfulness",
+      "exampleEn": "The exuberant puppy bounded around the yard chasing every falling leaf.",
+      "tier": "sat_core",
+      "rank": 183
+    },
+    {
+      "word": "facetious",
+      "pos": "adjective",
+      "definitionEn": "treating a serious matter with inappropriate humor or lack of seriousness",
+      "exampleEn": "His facetious remarks during the safety briefing annoyed the instructor.",
+      "tier": "sat_core",
+      "rank": 184
+    },
+    {
+      "word": "fallacious",
+      "pos": "adjective",
+      "definitionEn": "based on a mistaken belief or flawed reasoning",
+      "exampleEn": "The debater's argument was fallacious, resting on a comparison that didn't hold up.",
+      "tier": "sat_core",
+      "rank": 185
+    },
+    {
+      "word": "fastidious",
+      "pos": "adjective",
+      "definitionEn": "very attentive to detail and hard to please; excessively careful",
+      "exampleEn": "The fastidious editor checked every footnote twice before approving the manuscript.",
+      "tier": "sat_core",
+      "rank": 186
+    },
+    {
+      "word": "fatuous",
+      "pos": "adjective",
+      "definitionEn": "silly and pointless in a way that shows a lack of thought",
+      "exampleEn": "He made a fatuous comment about the crisis that only made things worse.",
+      "tier": "sat_core",
+      "rank": 187
+    },
+    {
+      "word": "fauna",
+      "pos": "noun",
+      "definitionEn": "the animals of a particular region, habitat, or period",
+      "exampleEn": "The rainforest's diverse fauna includes thousands of insect species still unnamed by scientists.",
+      "tier": "sat_core",
+      "rank": 188
+    },
+    {
+      "word": "fecund",
+      "pos": "adjective",
+      "definitionEn": "highly fertile or productive, capable of generating abundant growth or ideas",
+      "exampleEn": "The fecund soil along the river produced three harvests a year.",
+      "tier": "sat_core",
+      "rank": 189
+    },
+    {
+      "word": "feign",
+      "pos": "verb",
+      "definitionEn": "to pretend to feel or experience something",
+      "exampleEn": "She feigned interest in the meeting while secretly checking the clock.",
+      "tier": "sat_core",
+      "rank": 190
+    },
+    {
+      "word": "fervent",
+      "pos": "adjective",
+      "definitionEn": "showing intense and passionate feeling",
+      "exampleEn": "The fervent supporters cheered long after the team had left the field.",
+      "tier": "sat_core",
+      "rank": 191,
+      "synonymGroup": "passionate-feeling"
+    },
+    {
+      "word": "fervor",
+      "pos": "noun",
+      "definitionEn": "intense and passionate feeling or enthusiasm",
+      "exampleEn": "She spoke about climate policy with a fervor that energized the whole room.",
+      "tier": "sat_core",
+      "rank": 192,
+      "synonymGroup": "passionate-feeling"
+    },
+    {
+      "word": "fickle",
+      "pos": "adjective",
+      "definitionEn": "changing frequently, especially in loyalty or affection",
+      "exampleEn": "The fickle weather ruined three separate picnic plans in one week.",
+      "tier": "sat_core",
+      "rank": 193
+    },
+    {
+      "word": "finesse",
+      "pos": "noun",
+      "definitionEn": "skillful and delicate handling of a situation",
+      "exampleEn": "The negotiator handled the tense standoff with impressive finesse.",
+      "tier": "sat_core",
+      "rank": 194
+    },
+    {
+      "word": "flagrant",
+      "pos": "adjective",
+      "definitionEn": "conspicuously and shockingly obvious, especially in wrongdoing",
+      "exampleEn": "The referee called a flagrant foul after the shocking tackle.",
+      "tier": "sat_core",
+      "rank": 195
+    },
+    {
+      "word": "flippant",
+      "pos": "adjective",
+      "definitionEn": "not showing proper seriousness or respect toward something important",
+      "exampleEn": "His flippant answer to the judge's question nearly cost him the case.",
+      "tier": "sat_core",
+      "rank": 196
+    },
+    {
+      "word": "florid",
+      "pos": "adjective",
+      "definitionEn": "elaborately or excessively ornate, especially in style; also, reddish in complexion",
+      "exampleEn": "The critic mocked the novel's florid prose, full of unnecessary adjectives.",
+      "tier": "sat_core",
+      "rank": 197
+    },
+    {
+      "word": "flout",
+      "pos": "verb",
+      "definitionEn": "to openly disregard a rule or convention",
+      "exampleEn": "The company flouted safety regulations for years before inspectors intervened.",
+      "tier": "sat_core",
+      "rank": 198
+    },
+    {
+      "word": "foment",
+      "pos": "verb",
+      "definitionEn": "to stir up or instigate trouble or conflict",
+      "exampleEn": "The propaganda was designed to foment unrest among the workers.",
+      "tier": "sat_core",
+      "rank": 199
+    },
+    {
+      "word": "foreboding",
+      "pos": "noun",
+      "definitionEn": "a feeling that something bad is about to happen",
+      "exampleEn": "A sense of foreboding settled over the town as the storm clouds gathered.",
+      "tier": "sat_core",
+      "rank": 200
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "At the gallery opening, the young artist stood in a corner, offering only quiet nods when praised. Her demure manner surprised critics who had expected the flamboyant persona suggested by her bold canvases.",
+      "question": "As used in the passage, 'demure' most nearly means",
+      "options": [
+        {
+          "t": "shy and modest",
+          "correct": true
+        },
+        {
+          "t": "loud and boastful"
+        },
+        {
+          "t": "angry and defensive"
+        },
+        {
+          "t": "confused and lost"
+        }
+      ],
+      "words": [
+        "demure"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts her quiet nods and surprise at her behavior with an expected 'flamboyant persona,' showing 'demure' means shy and modest."
+    },
+    {
+      "passage": "Rather than debate the merits of the policy, the pundit spent his column denigrating the bill's sponsor, calling her naive and incompetent without addressing a single provision of the legislation itself.",
+      "question": "As used in the passage, 'denigrating' most nearly means",
+      "options": [
+        {
+          "t": "unfairly criticizing",
+          "correct": true
+        },
+        {
+          "t": "warmly praising"
+        },
+        {
+          "t": "carefully analyzing"
+        },
+        {
+          "t": "politely questioning"
+        }
+      ],
+      "words": [
+        "denigrate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The pundit calls the sponsor names instead of engaging with her ideas, which matches 'denigrating' meaning to unfairly attack someone's reputation."
+    },
+    {
+      "passage": "The well had supplied the village for generations, but three years of drought had depleted the aquifer beneath it. Residents now hauled water from a river nearly five miles away.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Residents are moving away from the village permanently."
+        },
+        {
+          "t": "The village has always relied on a distant river for its water needs."
+        },
+        {
+          "t": "A drought has exhausted the village's water supply, forcing residents to travel far for water.",
+          "correct": true
+        },
+        {
+          "t": "The well was poorly built and never worked properly."
+        }
+      ],
+      "words": [
+        "deplete"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage explains that drought depleted the aquifer, so the well no longer works and people must travel far for water."
+    },
+    {
+      "passage": "Historians largely deplore the destruction of the ancient library, viewing it as an irreversible loss of human knowledge rather than a mere historical footnote. Scholars still mourn what could never be recovered or rebuilt.",
+      "question": "As used in the passage, 'deplore' most nearly means",
+      "options": [
+        {
+          "t": "quietly celebrate"
+        },
+        {
+          "t": "casually mention"
+        },
+        {
+          "t": "strongly disapprove of",
+          "correct": true
+        },
+        {
+          "t": "carefully study"
+        }
+      ],
+      "words": [
+        "deplore"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Calling the loss 'irreversible' and framing it as more than a footnote signals strong disapproval, matching 'deplore.'"
+    },
+    {
+      "passage": "When the rookie fumbled the ball twice in his first game, veteran fans in the stands did not offer encouragement; instead, they derided him with boos and mocking chants that echoed through the stadium.",
+      "question": "As used in the passage, 'derided' most nearly means",
+      "options": [
+        {
+          "t": "comforted"
+        },
+        {
+          "t": "ignored"
+        },
+        {
+          "t": "praised"
+        },
+        {
+          "t": "mocked",
+          "correct": true
+        }
+      ],
+      "words": [
+        "deride"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The boos and mocking chants directly illustrate the meaning of 'derided' as mocked or ridiculed."
+    },
+    {
+      "passage": "Critics called the young composer's symphony derivative, noting its uncanny resemblance to a famous work from a century earlier, right down to the melody's structure.",
+      "question": "As used in the passage, 'derivative' most nearly means",
+      "options": [
+        {
+          "t": "unoriginal, closely imitating another work",
+          "correct": true
+        },
+        {
+          "t": "highly innovative and unprecedented"
+        },
+        {
+          "t": "poorly composed and disorganized"
+        },
+        {
+          "t": "widely popular among audiences"
+        }
+      ],
+      "words": [
+        "derivative"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The 'uncanny resemblance' to an earlier work shows the symphony was imitative rather than original, matching 'derivative.'"
+    },
+    {
+      "passage": "Left in the sun for a week, the once-plump grapes had desiccated into wrinkled raisins, their moisture entirely gone. What had once been juicy fruit now crackled like paper at the slightest touch.",
+      "question": "As used in the passage, 'desiccated' most nearly means",
+      "options": [
+        {
+          "t": "become sweeter"
+        },
+        {
+          "t": "grown larger"
+        },
+        {
+          "t": "turned moldy"
+        },
+        {
+          "t": "dried out",
+          "correct": true
+        }
+      ],
+      "words": [
+        "desiccate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The grapes losing all moisture and shriveling into raisins shows 'desiccated' means dried out."
+    },
+    {
+      "passage": "The despot ruled for three decades, crushing dissent, jailing journalists, and rewriting the constitution to eliminate any check on his power. Neighboring nations watched nervously, unsure how long the regime could last.",
+      "question": "As used in the passage, 'despot' most nearly means",
+      "options": [
+        {
+          "t": "a military general without political authority"
+        },
+        {
+          "t": "a ruler with unchecked, often cruel power",
+          "correct": true
+        },
+        {
+          "t": "an elected official serving a limited term"
+        },
+        {
+          "t": "a judge who interprets the law"
+        }
+      ],
+      "words": [
+        "despot"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Crushing dissent and eliminating checks on power describe the absolute, often cruel rule of a despot."
+    },
+    {
+      "passage": "The city installed motion-sensor lights in the alley, hoping the sudden brightness would deter anyone considering a break-in. Within a month, reported burglaries on the block had dropped noticeably.",
+      "question": "As used in the passage, 'deter' most nearly means",
+      "options": [
+        {
+          "t": "ignore"
+        },
+        {
+          "t": "discourage",
+          "correct": true
+        },
+        {
+          "t": "invite"
+        },
+        {
+          "t": "reward"
+        }
+      ],
+      "words": [
+        "deter"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Lights meant to stop break-ins before they happen illustrate 'deter,' meaning to discourage through fear of consequences."
+    },
+    {
+      "passage": "Excessive screen time before bed can be detrimental to sleep quality, disrupting the body's natural signals that it is time to rest. Doctors now recommend turning off devices at least an hour before bed.",
+      "question": "As used in the passage, 'detrimental' most nearly means",
+      "options": [
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "beneficial"
+        },
+        {
+          "t": "harmful",
+          "correct": true
+        },
+        {
+          "t": "irrelevant"
+        }
+      ],
+      "words": [
+        "detrimental"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Disrupting sleep signals is described as a negative effect, so 'detrimental' means harmful."
+    },
+    {
+      "passage": "The bride's diaphanous veil caught the afternoon light, so sheer that the outline of her face remained visible even as she walked down the aisle.",
+      "question": "As used in the passage, 'diaphanous' most nearly means",
+      "options": [
+        {
+          "t": "thick and opaque"
+        },
+        {
+          "t": "light and translucent",
+          "correct": true
+        },
+        {
+          "t": "heavily embroidered"
+        },
+        {
+          "t": "dark and shadowy"
+        }
+      ],
+      "words": [
+        "diaphanous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The veil being sheer enough to see her face through shows 'diaphanous' means light and see-through."
+    },
+    {
+      "passage": "Some reviewers praised the children's book for its didactic value, noting that each chapter gently taught a lesson about honesty or kindness alongside the story.",
+      "question": "As used in the passage, 'didactic' most nearly means",
+      "options": [
+        {
+          "t": "purely entertaining"
+        },
+        {
+          "t": "intended to teach",
+          "correct": true
+        },
+        {
+          "t": "difficult to read"
+        },
+        {
+          "t": "poorly illustrated"
+        }
+      ],
+      "words": [
+        "didactic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Each chapter teaching a lesson directly reflects the instructional purpose captured by 'didactic.'"
+    },
+    {
+      "passage": "Though brilliant in private tutoring sessions, the graduate student became diffident in front of large lecture halls, his voice shrinking to a near whisper whenever all eyes turned to him.",
+      "question": "As used in the passage, 'diffident' most nearly means",
+      "options": [
+        {
+          "t": "lacking self-confidence",
+          "correct": true
+        },
+        {
+          "t": "extremely arrogant"
+        },
+        {
+          "t": "highly aggressive"
+        },
+        {
+          "t": "completely indifferent"
+        }
+      ],
+      "words": [
+        "diffident"
+      ],
+      "domain": "words_in_context",
+      "explanation": "His voice shrinking to a whisper under attention shows a lack of confidence, the meaning of 'diffident.'"
+    },
+    {
+      "passage": "The tour guide would often digress from the museum's history to share personal anecdotes about her childhood, leaving visitors unsure when the actual tour would resume.",
+      "question": "As used in the passage, 'digress' most nearly means",
+      "options": [
+        {
+          "t": "repeat the same information"
+        },
+        {
+          "t": "wander away from the main topic",
+          "correct": true
+        },
+        {
+          "t": "stay strictly on schedule"
+        },
+        {
+          "t": "speak too quietly to be heard"
+        }
+      ],
+      "words": [
+        "digress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sharing unrelated personal stories instead of museum history illustrates 'digress,' meaning to move away from the main subject."
+    },
+    {
+      "passage": "The diligent lab assistant arrived an hour early each day, double-checked every measurement, and stayed late to ensure no data point was recorded incorrectly. Her supervisor came to rely on her more than anyone else on the team.",
+      "question": "As used in the passage, 'diligent' most nearly means",
+      "options": [
+        {
+          "t": "resistant to instruction"
+        },
+        {
+          "t": "showing careful, persistent effort",
+          "correct": true
+        },
+        {
+          "t": "careless and rushed"
+        },
+        {
+          "t": "easily distracted"
+        }
+      ],
+      "words": [
+        "diligent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Arriving early and double-checking every measurement shows persistent, careful effort, the meaning of 'diligent.'"
+    },
+    {
+      "passage": "Beside the towering oak, the diminutive sapling looked almost invisible, its thin stem barely reaching a visitor's knee. Even so, the gardener insisted it would eventually tower over the yard.",
+      "question": "As used in the passage, 'diminutive' most nearly means",
+      "options": [
+        {
+          "t": "very small",
+          "correct": true
+        },
+        {
+          "t": "unusually colorful"
+        },
+        {
+          "t": "extremely old"
+        },
+        {
+          "t": "surprisingly sturdy"
+        }
+      ],
+      "words": [
+        "diminutive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The sapling barely reaching a visitor's knee next to a towering oak shows 'diminutive' means very small."
+    },
+    {
+      "passage": "It was disconcerting to find the office exactly as we had left it the night before, computers still running, coffee still warm, yet not a single person in sight.",
+      "question": "As used in the passage, 'disconcerting' most nearly means",
+      "options": [
+        {
+          "t": "amusing"
+        },
+        {
+          "t": "unsettling",
+          "correct": true
+        },
+        {
+          "t": "comforting"
+        },
+        {
+          "t": "predictable"
+        }
+      ],
+      "words": [
+        "disconcerting"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An eerily abandoned but still-running office creates unease, matching 'disconcerting.'"
+    },
+    {
+      "passage": "As the orchestra tuned their instruments, a discordant jumble of notes filled the hall, each musician playing a slightly different pitch until the conductor raised his baton.",
+      "question": "As used in the passage, 'discordant' most nearly means",
+      "options": [
+        {
+          "t": "rhythmically precise"
+        },
+        {
+          "t": "perfectly synchronized"
+        },
+        {
+          "t": "lacking harmony",
+          "correct": true
+        },
+        {
+          "t": "unusually quiet"
+        }
+      ],
+      "words": [
+        "discordant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Musicians playing different pitches before tuning produces sound lacking harmony, the meaning of 'discordant.'"
+    },
+    {
+      "passage": "When a coworker confided her plans to resign, Maya was discreet, mentioning it to no one and letting her colleague make the announcement in her own time.",
+      "question": "As used in the passage, 'discreet' most nearly means",
+      "options": [
+        {
+          "t": "eager to spread gossip"
+        },
+        {
+          "t": "openly critical"
+        },
+        {
+          "t": "careful not to reveal private information",
+          "correct": true
+        },
+        {
+          "t": "publicly announced"
+        }
+      ],
+      "words": [
+        "discreet"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Maya telling no one about the private plan shows she was discreet, meaning careful with sensitive information."
+    },
+    {
+      "passage": "Auditors flagged a discrepancy of nearly ten thousand dollars between the store's recorded sales and the amount actually deposited in the bank. The manager could not explain where the missing money had gone.",
+      "question": "As used in the passage, 'discrepancy' most nearly means",
+      "options": [
+        {
+          "t": "a scheduled financial report"
+        },
+        {
+          "t": "a routine bank transaction"
+        },
+        {
+          "t": "an exact agreement between two figures"
+        },
+        {
+          "t": "a mismatch between two figures",
+          "correct": true
+        }
+      ],
+      "words": [
+        "discrepancy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A ten-thousand-dollar gap between records and deposits is a mismatch, which is what 'discrepancy' means."
+    },
+    {
+      "passage": "The veteran chef could not hide his disdain for the amateur cooking show, rolling his eyes at every shortcut the host suggested. His colleagues eventually stopped inviting him to watch the show together.",
+      "question": "As used in the passage, 'disdain' most nearly means",
+      "options": [
+        {
+          "t": "sympathy"
+        },
+        {
+          "t": "contempt",
+          "correct": true
+        },
+        {
+          "t": "admiration"
+        },
+        {
+          "t": "curiosity"
+        }
+      ],
+      "words": [
+        "disdain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Rolling his eyes at every shortcut shows contempt, matching the meaning of 'disdain.'"
+    },
+    {
+      "passage": "The spokesperson's disingenuous apology, which blamed 'miscommunication' rather than acknowledging the company's own decision, fooled almost no one. Employees who had watched the decision unfold in meetings knew better.",
+      "question": "As used in the passage, 'disingenuous' most nearly means",
+      "options": [
+        {
+          "t": "not sincere",
+          "correct": true
+        },
+        {
+          "t": "completely honest"
+        },
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "deeply emotional"
+        }
+      ],
+      "words": [
+        "disingenuous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Shifting blame instead of admitting the truth, in a way that fooled no one, shows insincerity, the meaning of 'disingenuous.'"
+    },
+    {
+      "passage": "The anthology gathered disparate voices — a farmer, a physicist, a poet, and a refugee — whose only shared trait was that each had once crossed the same river.",
+      "question": "As used in the passage, 'disparate' most nearly means",
+      "options": [
+        {
+          "t": "fundamentally different from one another",
+          "correct": true
+        },
+        {
+          "t": "closely related by family"
+        },
+        {
+          "t": "professionally trained writers"
+        },
+        {
+          "t": "identical in background"
+        }
+      ],
+      "words": [
+        "disparate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A farmer, physicist, poet, and refugee are clearly different kinds of people, matching 'disparate.'"
+    },
+    {
+      "passage": "Rather than react with anger, the mediator maintained a dispassionate tone throughout the heated custody dispute, weighing each parent's claims without visible bias. Both parents later admitted her fairness had helped them reach an agreement.",
+      "question": "As used in the passage, 'dispassionate' most nearly means",
+      "options": [
+        {
+          "t": "not influenced by emotion",
+          "correct": true
+        },
+        {
+          "t": "easily angered"
+        },
+        {
+          "t": "openly biased"
+        },
+        {
+          "t": "highly emotional"
+        }
+      ],
+      "words": [
+        "dispassionate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Weighing claims without visible bias during a heated dispute shows an unemotional, fair approach, the meaning of 'dispassionate.'"
+    },
+    {
+      "passage": "As soon as the fire alarm blared, the crowd began to disperse, students and staff moving quickly toward the exits in every direction. Within minutes the parking lot outside was completely empty.",
+      "question": "As used in the passage, 'disperse' most nearly means",
+      "options": [
+        {
+          "t": "scatter in different directions",
+          "correct": true
+        },
+        {
+          "t": "gather closer together"
+        },
+        {
+          "t": "remain perfectly still"
+        },
+        {
+          "t": "form an orderly line"
+        }
+      ],
+      "words": [
+        "disperse"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The crowd moving in every direction toward exits illustrates 'disperse,' meaning to scatter."
+    },
+    {
+      "passage": "The nonprofit used radio broadcasts to disseminate vital health information to remote villages that lacked internet access. Illiteracy and distance had made printed pamphlets nearly useless there.",
+      "question": "As used in the passage, 'disseminate' most nearly means",
+      "options": [
+        {
+          "t": "spread widely",
+          "correct": true
+        },
+        {
+          "t": "keep secret"
+        },
+        {
+          "t": "translate literally"
+        },
+        {
+          "t": "collect and store"
+        }
+      ],
+      "words": [
+        "disseminate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Using radio broadcasts to reach remote villages is a method of spreading information widely, the meaning of 'disseminate.'"
+    },
+    {
+      "passage": "Two board members registered their dissent in writing, arguing that the merger would harm smaller shareholders even as the majority voted in favor. The board ultimately proceeded with the deal despite the objections.",
+      "question": "As used in the passage, 'dissent' most nearly means",
+      "options": [
+        {
+          "t": "unanimous approval"
+        },
+        {
+          "t": "formal resignation"
+        },
+        {
+          "t": "financial investment"
+        },
+        {
+          "t": "disagreement with a decision",
+          "correct": true
+        }
+      ],
+      "words": [
+        "dissent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Registering objection in writing while the majority voted the opposite way is an act of 'dissent,' meaning disagreement."
+    },
+    {
+      "passage": "The film's soundtrack relied on jarring dissonance during the villain's scenes, the clashing notes making audiences uneasy before anything frightening even appeared on screen. Audiences later said the music alone had made the scenes unforgettable.",
+      "question": "Which choice best describes the function of 'dissonance' in the passage?",
+      "options": [
+        {
+          "t": "It describes the director's preference for silent film scenes."
+        },
+        {
+          "t": "It explains why the villain has no musical theme at all."
+        },
+        {
+          "t": "It shows how clashing musical sound builds unease before visual scares occur.",
+          "correct": true
+        },
+        {
+          "t": "It shows how pleasant harmony calms the audience during tense scenes."
+        }
+      ],
+      "words": [
+        "dissonance"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage uses 'dissonance,' or clashing sound, to explain how the soundtrack creates unease ahead of visual scares."
+    },
+    {
+      "passage": "After swallowing too much air, the puppy's stomach began to distend visibly, prompting a worried trip to the veterinarian. Fortunately, the swelling went down within an hour of arriving at the clinic.",
+      "question": "As used in the passage, 'distend' most nearly means",
+      "options": [
+        {
+          "t": "shrink inward"
+        },
+        {
+          "t": "swell outward",
+          "correct": true
+        },
+        {
+          "t": "remain unchanged"
+        },
+        {
+          "t": "become discolored"
+        }
+      ],
+      "words": [
+        "distend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The stomach visibly swelling after swallowing air shows 'distend' means to swell."
+    },
+    {
+      "passage": "The two researchers began their careers studying the same species, but over the decades their interests diverged: one turned to genetics, the other to animal behavior in the wild.",
+      "question": "As used in the passage, 'diverged' most nearly means",
+      "options": [
+        {
+          "t": "were published simultaneously"
+        },
+        {
+          "t": "remained exactly the same"
+        },
+        {
+          "t": "split off in different directions",
+          "correct": true
+        },
+        {
+          "t": "merged into a single focus"
+        }
+      ],
+      "words": [
+        "diverge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "One researcher moving to genetics and the other to animal behavior shows their paths splitting apart, the meaning of 'diverged.'"
+    },
+    {
+      "passage": "Committee members held divergent views on the budget, some favoring immediate cuts and others insisting that spending should increase to spur growth. No consensus emerged even after hours of heated discussion.",
+      "question": "As used in the passage, 'divergent' most nearly means",
+      "options": [
+        {
+          "t": "differing from one another",
+          "correct": true
+        },
+        {
+          "t": "publicly popular"
+        },
+        {
+          "t": "perfectly aligned"
+        },
+        {
+          "t": "officially recorded"
+        }
+      ],
+      "words": [
+        "divergent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Some favoring cuts while others want increased spending shows opposing, or divergent, views."
+    },
+    {
+      "passage": "The professor was famously dogmatic, dismissing any student's alternative interpretation of the text as simply wrong rather than engaging with the reasoning behind it. Several students eventually stopped raising their hands altogether.",
+      "question": "As used in the passage, 'dogmatic' most nearly means",
+      "options": [
+        {
+          "t": "uncertain and hesitant"
+        },
+        {
+          "t": "playful and lighthearted"
+        },
+        {
+          "t": "rigidly certain one's own view is correct",
+          "correct": true
+        },
+        {
+          "t": "open to changing one's mind"
+        }
+      ],
+      "words": [
+        "dogmatic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Dismissing other interpretations without engaging with their reasoning shows rigid insistence on one's own view, matching 'dogmatic.'"
+    },
+    {
+      "passage": "Given the seller's history of unreliable claims, buyers viewed the 'like new' description with dubious skepticism, opting to inspect the car thoroughly before purchase. Their caution proved wise once a mechanic found hidden engine damage.",
+      "question": "As used in the passage, 'dubious' most nearly means",
+      "options": [
+        {
+          "t": "doubtful",
+          "correct": true
+        },
+        {
+          "t": "enthusiastic"
+        },
+        {
+          "t": "official"
+        },
+        {
+          "t": "certain"
+        }
+      ],
+      "words": [
+        "dubious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Buyers doubting the claim and inspecting the car first shows skepticism, matching 'dubious.'"
+    },
+    {
+      "passage": "The scandal revealed years of duplicity: the manager had told employees the company was thriving while secretly negotiating its sale behind closed doors. Investors later demanded an independent review of every past transaction.",
+      "question": "As used in the passage, 'duplicity' most nearly means",
+      "options": [
+        {
+          "t": "generosity"
+        },
+        {
+          "t": "deceitfulness",
+          "correct": true
+        },
+        {
+          "t": "transparency"
+        },
+        {
+          "t": "efficiency"
+        }
+      ],
+      "words": [
+        "duplicity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Telling employees one thing while secretly doing another reveals deceit, matching 'duplicity.'"
+    },
+    {
+      "passage": "The hostage later testified that she signed the document under duress, with an armed guard standing over her the entire time. Prosecutors later dropped the charges once the coercion came to light.",
+      "question": "As used in the passage, 'duress' most nearly means",
+      "options": [
+        {
+          "t": "threat or coercion",
+          "correct": true
+        },
+        {
+          "t": "financial compensation"
+        },
+        {
+          "t": "careful legal advice"
+        },
+        {
+          "t": "free and willing consent"
+        }
+      ],
+      "words": [
+        "duress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Signing while an armed guard stood over her shows the coercion described by 'duress.'"
+    },
+    {
+      "passage": "The ebullient crowd erupted into cheers, hugging strangers and dancing in the streets the moment the results were announced. Even strangers who had no connection to the team found themselves swept up in the celebration.",
+      "question": "As used in the passage, 'ebullient' most nearly means",
+      "options": [
+        {
+          "t": "deeply suspicious"
+        },
+        {
+          "t": "visibly exhausted"
+        },
+        {
+          "t": "overflowing with excitement",
+          "correct": true
+        },
+        {
+          "t": "quietly reserved"
+        }
+      ],
+      "words": [
+        "ebullient"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cheering, hugging strangers, and dancing in the streets illustrate overflowing excitement, the meaning of 'ebullient.'"
+    },
+    {
+      "passage": "Neighbors considered the old man eccentric, noting his habit of painting his fence a different color every month and talking loudly to his tomato plants.",
+      "question": "As used in the passage, 'eccentric' most nearly means",
+      "options": [
+        {
+          "t": "socially withdrawn"
+        },
+        {
+          "t": "dishonest and untrustworthy"
+        },
+        {
+          "t": "unconventional and odd",
+          "correct": true
+        },
+        {
+          "t": "extremely conventional"
+        }
+      ],
+      "words": [
+        "eccentric"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Repainting a fence monthly and talking to plants are odd, unconventional habits, matching 'eccentric.'"
+    },
+    {
+      "passage": "The chef's eclectic menu paired traditional French techniques with Korean spices and Mexican street-food influences, all on the same small plate. Regulars praised the combination as bold rather than confusing.",
+      "question": "As used in the passage, 'eclectic' most nearly means",
+      "options": [
+        {
+          "t": "strictly limited to one tradition"
+        },
+        {
+          "t": "unusually bland"
+        },
+        {
+          "t": "focused entirely on dessert"
+        },
+        {
+          "t": "drawing from a wide variety of sources",
+          "correct": true
+        }
+      ],
+      "words": [
+        "eclectic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Combining French, Korean, and Mexican influences on one plate shows a mix of varied sources, the meaning of 'eclectic.'"
+    },
+    {
+      "passage": "The museum's new program aims to edify visitors, pairing every artifact with detailed context so that a casual stroll becomes a genuine lesson in history.",
+      "question": "As used in the passage, 'edify' most nearly means",
+      "options": [
+        {
+          "t": "confuse deliberately"
+        },
+        {
+          "t": "entertain without teaching"
+        },
+        {
+          "t": "charge an entrance fee"
+        },
+        {
+          "t": "instruct and enlighten",
+          "correct": true
+        }
+      ],
+      "words": [
+        "edify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Pairing artifacts with context so a stroll becomes a lesson shows the intent to instruct, the meaning of 'edify.'"
+    },
+    {
+      "passage": "Decades of wind and rain had begun to efface the carvings on the monument, leaving only faint outlines where sharp letters once stood. Historians now rely on old photographs to guess at the missing words.",
+      "question": "As used in the passage, 'efface' most nearly means",
+      "options": [
+        {
+          "t": "photograph for a record"
+        },
+        {
+          "t": "sharpen and deepen"
+        },
+        {
+          "t": "wear away or erase",
+          "correct": true
+        },
+        {
+          "t": "repaint in bright colors"
+        }
+      ],
+      "words": [
+        "efface"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Wind and rain reducing sharp letters to faint outlines shows a gradual erasing, the meaning of 'efface.'"
+    },
+    {
+      "passage": "Her effervescent energy at the reunion made it seem as though she had never left, bubbling with stories and laughter within minutes of arriving. Coworkers who had known her for years said nothing had changed at all.",
+      "question": "As used in the passage, 'effervescent' most nearly means",
+      "options": [
+        {
+          "t": "sullen and withdrawn"
+        },
+        {
+          "t": "bubbly and full of life",
+          "correct": true
+        },
+        {
+          "t": "hesitant and nervous"
+        },
+        {
+          "t": "calm and expressionless"
+        }
+      ],
+      "words": [
+        "effervescent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Bubbling with stories and laughter directly reflects the lively, bubbly quality of 'effervescent.'"
+    },
+    {
+      "passage": "Reporters were stunned by the effrontery of the executive, who demanded a bonus the same week his company laid off a thousand workers. Union representatives called for his immediate resignation the following week.",
+      "question": "As used in the passage, 'effrontery' most nearly means",
+      "options": [
+        {
+          "t": "quiet humility"
+        },
+        {
+          "t": "shameless boldness",
+          "correct": true
+        },
+        {
+          "t": "careful diplomacy"
+        },
+        {
+          "t": "generous compassion"
+        }
+      ],
+      "words": [
+        "effrontery"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Demanding a bonus right after mass layoffs is shockingly bold and shameless, matching 'effrontery.'"
+    },
+    {
+      "passage": "The founders envisioned an egalitarian workplace where the janitor and the CEO ate lunch at the same table and earned a say in major decisions.",
+      "question": "As used in the passage, 'egalitarian' most nearly means",
+      "options": [
+        {
+          "t": "based on strict hierarchy"
+        },
+        {
+          "t": "focused only on profit"
+        },
+        {
+          "t": "based on equality among people",
+          "correct": true
+        },
+        {
+          "t": "limited to senior staff"
+        }
+      ],
+      "words": [
+        "egalitarian"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The janitor and CEO sharing equal standing describes a workplace built on equality, matching 'egalitarian.'"
+    },
+    {
+      "passage": "The audit uncovered an egregious violation: millions in public funds had been diverted to a private account with no oversight whatsoever. Prosecutors promised a full investigation into how it went unnoticed for so long.",
+      "question": "As used in the passage, 'egregious' most nearly means",
+      "options": [
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "barely noticeable"
+        },
+        {
+          "t": "shockingly bad",
+          "correct": true
+        },
+        {
+          "t": "fully expected"
+        }
+      ],
+      "words": [
+        "egregious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Millions diverted with no oversight is a shocking violation, matching the meaning of 'egregious.'"
+    },
+    {
+      "passage": "The interviewer's gentle follow-up question elicited a detail the witness had not planned to share, revealing a crucial piece of the timeline. Detectives later confirmed the detail matched evidence found at the scene.",
+      "question": "As used in the passage, 'elicited' most nearly means",
+      "options": [
+        {
+          "t": "suppressed"
+        },
+        {
+          "t": "drew out",
+          "correct": true
+        },
+        {
+          "t": "ignored"
+        },
+        {
+          "t": "invented"
+        }
+      ],
+      "words": [
+        "elicit"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The question causing an unplanned revelation shows it drew out information, the meaning of 'elicited.'"
+    },
+    {
+      "passage": "The valedictorian's eloquent speech wove humor, history, and hope into a farewell address that left classmates and parents both laughing and in tears. Teachers in the audience said it was the best speech they had heard in years.",
+      "question": "As used in the passage, 'eloquent' most nearly means",
+      "options": [
+        {
+          "t": "written entirely by someone else"
+        },
+        {
+          "t": "brief and unremarkable"
+        },
+        {
+          "t": "fluent and persuasive in expression",
+          "correct": true
+        },
+        {
+          "t": "confusing and disorganized"
+        }
+      ],
+      "words": [
+        "eloquent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Weaving humor, history, and hope to move the audience shows skillful, persuasive speech, the meaning of 'eloquent.'"
+    },
+    {
+      "passage": "Despite years of searching, a cure for the rare disease has remained elusive, slipping just out of reach with every promising trial. Researchers remain hopeful that a breakthrough is only a few years away.",
+      "question": "As used in the passage, 'elusive' most nearly means",
+      "options": [
+        {
+          "t": "financially cheap"
+        },
+        {
+          "t": "widely available"
+        },
+        {
+          "t": "difficult to attain",
+          "correct": true
+        },
+        {
+          "t": "easily achieved"
+        }
+      ],
+      "words": [
+        "elusive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A cure that keeps slipping out of reach despite years of trials is described as elusive, meaning hard to obtain."
+    },
+    {
+      "passage": "The rescued horse arrived emaciated, its ribs visible beneath a dull coat, after months of neglect on the abandoned farm. Veterinarians say it will take months of careful feeding before it fully recovers.",
+      "question": "As used in the passage, 'emaciated' most nearly means",
+      "options": [
+        {
+          "t": "abnormally thin from lack of nourishment",
+          "correct": true
+        },
+        {
+          "t": "aggressive toward handlers"
+        },
+        {
+          "t": "unusually strong and muscular"
+        },
+        {
+          "t": "freshly groomed and healthy"
+        }
+      ],
+      "words": [
+        "emaciated"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Visible ribs after months of neglect show extreme thinness, matching 'emaciated.'"
+    },
+    {
+      "passage": "Every time he retold the story of catching the fish, the size grew a little more, until his coworkers suspected he had begun to embellish it beyond recognition.",
+      "question": "As used in the passage, 'embellish' most nearly means",
+      "options": [
+        {
+          "t": "exaggerate with added details",
+          "correct": true
+        },
+        {
+          "t": "forget entirely"
+        },
+        {
+          "t": "state without any detail"
+        },
+        {
+          "t": "record accurately"
+        }
+      ],
+      "words": [
+        "embellish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The fish's size growing with each retelling shows he was adding exaggerated details, the meaning of 'embellish.'"
+    },
+    {
+      "passage": "An eminent economist was called to testify before Congress, her decades of research on trade policy making her one of the most respected voices in the field.",
+      "question": "As used in the passage, 'eminent' most nearly means",
+      "options": [
+        {
+          "t": "widely respected in a field",
+          "correct": true
+        },
+        {
+          "t": "recently graduated"
+        },
+        {
+          "t": "controversial and distrusted"
+        },
+        {
+          "t": "unqualified for the role"
+        }
+      ],
+      "words": [
+        "eminent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being one of the most respected voices due to decades of research shows the meaning of 'eminent.'"
+    },
+    {
+      "passage": "The volunteer's empathy for the shelter residents came through in small gestures — remembering names, sitting quietly with those who wanted company, never rushing a conversation.",
+      "question": "As used in the passage, 'empathy' most nearly means",
+      "options": [
+        {
+          "t": "a preference for solitude"
+        },
+        {
+          "t": "the ability to understand and share others' feelings",
+          "correct": true
+        },
+        {
+          "t": "a talent for public speaking"
+        },
+        {
+          "t": "a strict adherence to rules"
+        }
+      ],
+      "words": [
+        "empathy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Remembering names and sitting with residents without rushing shows an understanding of their feelings, the meaning of 'empathy.'"
+    },
+    {
+      "passage": "The committee rejected the theory for lacking empirical support, noting that its claims had never been tested through controlled observation or experiment. Reviewers asked the authors to gather real data before resubmitting.",
+      "question": "As used in the passage, 'empirical' most nearly means",
+      "options": [
+        {
+          "t": "based purely on tradition"
+        },
+        {
+          "t": "based on observation or experiment",
+          "correct": true
+        },
+        {
+          "t": "based on personal opinion"
+        },
+        {
+          "t": "based on popular vote"
+        }
+      ],
+      "words": [
+        "empirical"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the theory with claims tested through observation or experiment, defining 'empirical.'"
+    },
+    {
+      "passage": "The apprentice studied every brushstroke of the master painter, hoping to emulate a technique that had taken decades to perfect. Years later, critics said his brushwork had become nearly indistinguishable from his teacher.",
+      "question": "As used in the passage, 'emulate' most nearly means",
+      "options": [
+        {
+          "t": "sell for profit"
+        },
+        {
+          "t": "ignore completely"
+        },
+        {
+          "t": "imitate in an effort to match",
+          "correct": true
+        },
+        {
+          "t": "criticize harshly"
+        }
+      ],
+      "words": [
+        "emulate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Studying brushstrokes to match a technique shows an effort to imitate, the meaning of 'emulate.'"
+    },
+    {
+      "passage": "Malaria remains endemic in parts of the region, with new cases appearing every rainy season despite decades of prevention campaigns. Health workers distribute nets and medication each year before the season begins.",
+      "question": "As used in the passage, 'endemic' most nearly means",
+      "options": [
+        {
+          "t": "regularly occurring within a particular area",
+          "correct": true
+        },
+        {
+          "t": "completely eliminated"
+        },
+        {
+          "t": "recently discovered and rare"
+        },
+        {
+          "t": "found only in laboratories"
+        }
+      ],
+      "words": [
+        "endemic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "New cases appearing every rainy season despite prevention shows the disease is regularly present in the area, matching 'endemic.'"
+    },
+    {
+      "passage": "The grueling march through the desert enervated even the strongest soldiers, who staggered into camp barely able to lift their packs. Only a short rest and extra water allowed them to continue the next morning.",
+      "question": "As used in the passage, 'enervated' most nearly means",
+      "options": [
+        {
+          "t": "left unaffected"
+        },
+        {
+          "t": "made more alert"
+        },
+        {
+          "t": "filled with energy"
+        },
+        {
+          "t": "drained of energy",
+          "correct": true
+        }
+      ],
+      "words": [
+        "enervate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Soldiers staggering into camp, barely able to lift their packs, shows they were drained of energy, matching 'enervated.'"
+    },
+    {
+      "passage": "The teacher's willingness to admit her own mistakes engendered a classroom culture where students felt safe taking risks and being wrong. Parents later said their children seemed more willing to try new things at home too.",
+      "question": "As used in the passage, 'engendered' most nearly means",
+      "options": [
+        {
+          "t": "gave rise to",
+          "correct": true
+        },
+        {
+          "t": "destroyed"
+        },
+        {
+          "t": "postponed"
+        },
+        {
+          "t": "hid from view"
+        }
+      ],
+      "words": [
+        "engender"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Admitting mistakes leading to a culture of safety shows the teacher's behavior gave rise to that culture, matching 'engendered.'"
+    },
+    {
+      "passage": "The abandoned ship, found drifting with no crew and a fully stocked galley, remains an enigma that historians have debated for over a century. Theories range from mutiny to a sudden storm, but no proof has ever surfaced.",
+      "question": "As used in the passage, 'enigma' most nearly means",
+      "options": [
+        {
+          "t": "a mystery",
+          "correct": true
+        },
+        {
+          "t": "a common occurrence"
+        },
+        {
+          "t": "a well-documented fact"
+        },
+        {
+          "t": "a legal contract"
+        }
+      ],
+      "words": [
+        "enigma"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A ship debated for a century with no clear explanation is described as an enigma, meaning a mystery."
+    },
+    {
+      "passage": "Generations of enmity between the two clans meant that even a chance meeting at the market could end in shouting matches. Elders on both sides tried for years to broker a lasting peace.",
+      "question": "As used in the passage, 'enmity' most nearly means",
+      "options": [
+        {
+          "t": "mutual indifference"
+        },
+        {
+          "t": "deep hostility",
+          "correct": true
+        },
+        {
+          "t": "warm friendship"
+        },
+        {
+          "t": "shared celebration"
+        }
+      ],
+      "words": [
+        "enmity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Chance meetings ending in shouting matches across generations show deep hostility, matching 'enmity.'"
+    },
+    {
+      "passage": "Colleagues considered her the epitome of professionalism, always prepared, always courteous, and never once late to a meeting in fifteen years. Younger employees often cited her as the person they most wanted to become.",
+      "question": "As used in the passage, 'epitome' most nearly means",
+      "options": [
+        {
+          "t": "a minor detail"
+        },
+        {
+          "t": "a rare exception"
+        },
+        {
+          "t": "a perfect example",
+          "correct": true
+        },
+        {
+          "t": "an occasional failure"
+        }
+      ],
+      "words": [
+        "epitome"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being always prepared, courteous, and punctual for fifteen years makes her a perfect example of professionalism, matching 'epitome.'"
+    },
+    {
+      "passage": "Even after losing the case she had spent years preparing, the lawyer maintained a striking equanimity, thanking the jury calmly before leaving the courtroom. Reporters outside the courthouse remarked on how composed she appeared.",
+      "question": "As used in the passage, 'equanimity' most nearly means",
+      "options": [
+        {
+          "t": "visible panic"
+        },
+        {
+          "t": "uncontrollable anger"
+        },
+        {
+          "t": "calm composure",
+          "correct": true
+        },
+        {
+          "t": "loud celebration"
+        }
+      ],
+      "words": [
+        "equanimity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Thanking the jury calmly after a painful loss demonstrates calm composure, the meaning of 'equanimity.'"
+    },
+    {
+      "passage": "The new funding formula was designed to be more equitable, directing extra resources to schools that had historically received far less per student. Wealthier districts objected, arguing the change would reduce their own funding.",
+      "question": "As used in the passage, 'equitable' most nearly means",
+      "options": [
+        {
+          "t": "equal in every single case"
+        },
+        {
+          "t": "fair in distribution",
+          "correct": true
+        },
+        {
+          "t": "focused only on wealthy schools"
+        },
+        {
+          "t": "based on random selection"
+        }
+      ],
+      "words": [
+        "equitable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Directing extra resources to historically underfunded schools aims for fairness, the meaning of 'equitable' (not identical treatment, but fair outcomes)."
+    },
+    {
+      "passage": "Public health officials worked for decades to eradicate the disease, and their campaign finally succeeded when the last known case was recorded in 1977. Public health experts still call it one of medicine's greatest achievements.",
+      "question": "As used in the passage, 'eradicate' most nearly means",
+      "options": [
+        {
+          "t": "partially reduce"
+        },
+        {
+          "t": "financially support"
+        },
+        {
+          "t": "temporarily delay"
+        },
+        {
+          "t": "completely eliminate",
+          "correct": true
+        }
+      ],
+      "words": [
+        "eradicate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The last case being recorded shows the disease was completely eliminated, matching 'eradicate.'"
+    },
+    {
+      "passage": "The initial report contained erroneous figures that overstated the company's profits by nearly forty percent before auditors caught the mistake. The company was forced to issue a public correction soon after.",
+      "question": "As used in the passage, 'erroneous' most nearly means",
+      "options": [
+        {
+          "t": "incorrect",
+          "correct": true
+        },
+        {
+          "t": "outdated"
+        },
+        {
+          "t": "accurate"
+        },
+        {
+          "t": "classified"
+        }
+      ],
+      "words": [
+        "erroneous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Figures that overstated profits and were later caught as a mistake are described as erroneous, meaning incorrect."
+    },
+    {
+      "passage": "The erudite librarian could trace the origin of nearly any phrase, drawing on a lifetime of reading in six languages. Visitors often left the reading room having learned something entirely unexpected.",
+      "question": "As used in the passage, 'erudite' most nearly means",
+      "options": [
+        {
+          "t": "reluctant to share knowledge"
+        },
+        {
+          "t": "newly trained and inexperienced"
+        },
+        {
+          "t": "careless with facts"
+        },
+        {
+          "t": "possessing extensive learning",
+          "correct": true
+        }
+      ],
+      "words": [
+        "erudite"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A lifetime of reading in six languages and tracing obscure phrases shows extensive learning, matching 'erudite.'"
+    },
+    {
+      "passage": "The seminar delved into esoteric debates about medieval manuscript conventions, a subject so specialized that even fellow historians sometimes struggled to follow. Attendance dropped sharply after the first two sessions.",
+      "question": "As used in the passage, 'esoteric' most nearly means",
+      "options": [
+        {
+          "t": "outdated and no longer studied"
+        },
+        {
+          "t": "understood by only a specialized few",
+          "correct": true
+        },
+        {
+          "t": "widely known to the general public"
+        },
+        {
+          "t": "simple and easy to grasp"
+        }
+      ],
+      "words": [
+        "esoteric"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A subject so specialized that even historians struggled to follow it is described as esoteric, meaning known to only a few."
+    },
+    {
+      "passage": "The senator publicly espoused term limits for years, then quietly abandoned the position once she had served long enough to benefit from staying in office.",
+      "question": "As used in the passage, 'espoused' most nearly means",
+      "options": [
+        {
+          "t": "officially banned"
+        },
+        {
+          "t": "publicly supported",
+          "correct": true
+        },
+        {
+          "t": "never mentioned"
+        },
+        {
+          "t": "secretly opposed"
+        }
+      ],
+      "words": [
+        "espouse"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Publicly backing term limits before abandoning the position shows she had espoused, or supported, that view."
+    },
+    {
+      "passage": "As dawn light filtered through the fog, the valley took on an ethereal quality, as though it belonged more to a dream than to the physical world.",
+      "question": "As used in the passage, 'ethereal' most nearly means",
+      "options": [
+        {
+          "t": "ordinary and unremarkable"
+        },
+        {
+          "t": "heavy and solid"
+        },
+        {
+          "t": "loud and chaotic"
+        },
+        {
+          "t": "delicately otherworldly",
+          "correct": true
+        }
+      ],
+      "words": [
+        "ethereal"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A valley that seems to belong to a dream rather than the physical world captures the delicate, otherworldly sense of 'ethereal.'"
+    },
+    {
+      "passage": "Instead of saying the project had failed, the manager used the euphemism 'learning opportunity' in her report to the board. Employees who had lost their jobs found the phrase difficult to accept.",
+      "question": "As used in the passage, 'euphemism' most nearly means",
+      "options": [
+        {
+          "t": "a technical scientific term"
+        },
+        {
+          "t": "a milder substitute for a blunt term",
+          "correct": true
+        },
+        {
+          "t": "a foreign loanword"
+        },
+        {
+          "t": "a legal contract clause"
+        }
+      ],
+      "words": [
+        "euphemism"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Replacing 'failed' with 'learning opportunity' is a softer substitute, exactly what 'euphemism' describes."
+    },
+    {
+      "passage": "The moment the final whistle blew, euphoria swept through the arena, fans hugging strangers and chanting long into the night. Strangers embraced in the aisles as fireworks lit up the night sky.",
+      "question": "As used in the passage, 'euphoria' most nearly means",
+      "options": [
+        {
+          "t": "intense joy",
+          "correct": true
+        },
+        {
+          "t": "mild confusion"
+        },
+        {
+          "t": "quiet boredom"
+        },
+        {
+          "t": "deep sorrow"
+        }
+      ],
+      "words": [
+        "euphoria"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Fans hugging strangers and chanting into the night shows overwhelming happiness, matching 'euphoria.'"
+    },
+    {
+      "passage": "The desert bloom is evanescent, carpeting the sand in wildflowers for barely two weeks before the heat returns and the blossoms vanish. Photographers travel from across the country hoping to catch it before it fades.",
+      "question": "As used in the passage, 'evanescent' most nearly means",
+      "options": [
+        {
+          "t": "permanent"
+        },
+        {
+          "t": "fleeting",
+          "correct": true
+        },
+        {
+          "t": "predictable"
+        },
+        {
+          "t": "colorless"
+        }
+      ],
+      "words": [
+        "evanescent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Wildflowers lasting only two weeks before vanishing describes something fleeting, the meaning of 'evanescent.'"
+    },
+    {
+      "passage": "Cutting the counseling budget only exacerbated the school's discipline problems, as students who once had support now had nowhere to turn. Teachers reported a sharp rise in conflicts within a single semester.",
+      "question": "As used in the passage, 'exacerbated' most nearly means",
+      "options": [
+        {
+          "t": "made worse",
+          "correct": true
+        },
+        {
+          "t": "prevented"
+        },
+        {
+          "t": "resolved"
+        },
+        {
+          "t": "measured"
+        }
+      ],
+      "words": [
+        "exacerbate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cutting support and worsening discipline problems is exactly what 'exacerbated' means."
+    },
+    {
+      "passage": "Hours of delayed flights and vague announcements exasperated passengers, some of whom began shouting at gate agents who had no new information to offer. Several travelers demanded refunds before the night was over.",
+      "question": "As used in the passage, 'exasperated' most nearly means",
+      "options": [
+        {
+          "t": "greatly irritated",
+          "correct": true
+        },
+        {
+          "t": "quietly amused"
+        },
+        {
+          "t": "calmly reassured"
+        },
+        {
+          "t": "pleasantly surprised"
+        }
+      ],
+      "words": [
+        "exasperate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Passengers shouting at agents after hours of delay shows intense irritation, matching 'exasperated.'"
+    },
+    {
+      "passage": "The intern's exemplary handling of the crisis — calm, organized, and quick — impressed executives who had expected far less from someone so new. Senior staff later cited her performance as a model for future trainees.",
+      "question": "As used in the passage, 'exemplary' most nearly means",
+      "options": [
+        {
+          "t": "barely adequate"
+        },
+        {
+          "t": "serving as an outstanding model",
+          "correct": true
+        },
+        {
+          "t": "completely unnoticed"
+        },
+        {
+          "t": "typical and average"
+        }
+      ],
+      "words": [
+        "exemplary"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Impressing executives who expected far less shows outstanding performance, matching 'exemplary.'"
+    },
+    {
+      "passage": "The exhaustive report examined every possible cause of the bridge collapse, from material fatigue to weather patterns to decades-old design flaws. Engineers said the findings would reshape safety codes nationwide.",
+      "question": "As used in the passage, 'exhaustive' most nearly means",
+      "options": [
+        {
+          "t": "limited to one cause"
+        },
+        {
+          "t": "quick and superficial"
+        },
+        {
+          "t": "based on guesswork"
+        },
+        {
+          "t": "extremely thorough",
+          "correct": true
+        }
+      ],
+      "words": [
+        "exhaustive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Examining every possible cause, from materials to weather to design, shows extreme thoroughness, matching 'exhaustive.'"
+    },
+    {
+      "passage": "In an exigent situation like a building fire, rescue teams cannot wait for perfect information; they must act on the best available data within seconds.",
+      "question": "As used in the passage, 'exigent' most nearly means",
+      "options": [
+        {
+          "t": "financially costly"
+        },
+        {
+          "t": "requiring immediate action",
+          "correct": true
+        },
+        {
+          "t": "allowing unlimited time"
+        },
+        {
+          "t": "purely hypothetical"
+        }
+      ],
+      "words": [
+        "exigent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A situation demanding action within seconds, without waiting for perfect information, is exigent, meaning urgent."
+    },
+    {
+      "passage": "New forensic evidence finally exonerated the man who had spent fifteen years in prison for a crime he did not commit. His family had never stopped fighting for his release.",
+      "question": "As used in the passage, 'exonerated' most nearly means",
+      "options": [
+        {
+          "t": "cleared of guilt",
+          "correct": true
+        },
+        {
+          "t": "found guilty"
+        },
+        {
+          "t": "kept under investigation"
+        },
+        {
+          "t": "sentenced again"
+        }
+      ],
+      "words": [
+        "exonerate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "New evidence proving he did not commit the crime is what clears, or exonerates, someone of guilt."
+    },
+    {
+      "passage": "Firing the entire department seemed expedient in the short term, but it left the company without the institutional knowledge needed to fix the underlying problem.",
+      "question": "As used in the passage, 'expedient' most nearly means",
+      "options": [
+        {
+          "t": "universally praised"
+        },
+        {
+          "t": "carefully planned for the long term"
+        },
+        {
+          "t": "legally mandated"
+        },
+        {
+          "t": "convenient in the short term, though not necessarily wise",
+          "correct": true
+        }
+      ],
+      "words": [
+        "expedient"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being a quick fix that ignores deeper problems is the meaning of 'expedient' — convenient but not necessarily wise."
+    },
+    {
+      "passage": "To expedite the refugee applications, the agency hired additional staff and streamlined the paperwork process, cutting wait times from months to weeks. Families who had waited over a year finally received approval within days.",
+      "question": "As used in the passage, 'expedite' most nearly means",
+      "options": [
+        {
+          "t": "complicate further"
+        },
+        {
+          "t": "cancel entirely"
+        },
+        {
+          "t": "speed up",
+          "correct": true
+        },
+        {
+          "t": "slow down"
+        }
+      ],
+      "words": [
+        "expedite"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cutting wait times from months to weeks shows the process was sped up, the meaning of 'expedite.'"
+    },
+    {
+      "passage": "The contract's explicit terms left no room for interpretation, spelling out exactly which party would cover repair costs under every possible scenario. Neither party could later claim they misunderstood their obligations.",
+      "question": "As used in the passage, 'explicit' most nearly means",
+      "options": [
+        {
+          "t": "clearly and precisely stated",
+          "correct": true
+        },
+        {
+          "t": "vague and open to interpretation"
+        },
+        {
+          "t": "informal and unwritten"
+        },
+        {
+          "t": "translated from another language"
+        }
+      ],
+      "words": [
+        "explicit"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Spelling out every scenario with no room for interpretation shows clear, precise language, matching 'explicit.'"
+    },
+    {
+      "passage": "Investigators found that the company had exploited a loophole in labor law, classifying full-time workers as contractors to avoid paying benefits. Regulators fined the company heavily once the scheme was uncovered.",
+      "question": "As used in the passage, 'exploited' most nearly means",
+      "options": [
+        {
+          "t": "unfairly took advantage of",
+          "correct": true
+        },
+        {
+          "t": "legally reported"
+        },
+        {
+          "t": "generously supported"
+        },
+        {
+          "t": "accidentally overlooked"
+        }
+      ],
+      "words": [
+        "exploit"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Misclassifying workers to dodge paying benefits is an unfair use of a loophole, matching 'exploited.'"
+    },
+    {
+      "passage": "The editor trimmed the essay by cutting extraneous details about the author's childhood that had nothing to do with the central argument. The final draft was nearly half the length of the original.",
+      "question": "As used in the passage, 'extraneous' most nearly means",
+      "options": [
+        {
+          "t": "factually incorrect"
+        },
+        {
+          "t": "essential to the argument"
+        },
+        {
+          "t": "recently added"
+        },
+        {
+          "t": "irrelevant to the main point",
+          "correct": true
+        }
+      ],
+      "words": [
+        "extraneous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Details unrelated to the central argument were cut, showing 'extraneous' means irrelevant."
+    },
+    {
+      "passage": "Using twenty years of temperature records, scientists extrapolated future warming trends, projecting how conditions might change over the next fifty years. Policymakers used the projections to justify new coastal building codes.",
+      "question": "As used in the passage, 'extrapolated' most nearly means",
+      "options": [
+        {
+          "t": "disregarded past evidence entirely"
+        },
+        {
+          "t": "translated data into another format"
+        },
+        {
+          "t": "estimated beyond known data based on existing trends",
+          "correct": true
+        },
+        {
+          "t": "measured directly with new instruments"
+        }
+      ],
+      "words": [
+        "extrapolate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Projecting future trends from twenty years of past data is exactly what 'extrapolated' describes."
+    },
+    {
+      "passage": "The exuberant toddler sprinted across the yard, arms flapping, shrieking with delight at every butterfly that crossed her path. Her mother could barely keep up, laughing at the sheer joy on display.",
+      "question": "As used in the passage, 'exuberant' most nearly means",
+      "options": [
+        {
+          "t": "quiet and withdrawn"
+        },
+        {
+          "t": "tired and sluggish"
+        },
+        {
+          "t": "full of energetic enthusiasm",
+          "correct": true
+        },
+        {
+          "t": "cautious and hesitant"
+        }
+      ],
+      "words": [
+        "exuberant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sprinting, flapping arms, and shrieking with delight show energetic enthusiasm, matching 'exuberant.'"
+    },
+    {
+      "passage": "His facetious suggestion to solve the budget crisis by 'selling the moon' drew laughs, but it did nothing to move the serious negotiations forward. Colleagues later said they wished he had taken the meeting more seriously.",
+      "question": "As used in the passage, 'facetious' most nearly means",
+      "options": [
+        {
+          "t": "deeply serious and thoughtful"
+        },
+        {
+          "t": "joking in a way inappropriate for the situation",
+          "correct": true
+        },
+        {
+          "t": "angry and confrontational"
+        },
+        {
+          "t": "quiet and reserved"
+        }
+      ],
+      "words": [
+        "facetious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A joke about 'selling the moon' during serious budget talks that doesn't help matters shows inappropriate humor, matching 'facetious.'"
+    },
+    {
+      "passage": "The lawyer dismantled the witness's fallacious argument by pointing out that just because two events happened together did not mean one caused the other. Jurors nodded as the flawed logic was laid out point by point.",
+      "question": "As used in the passage, 'fallacious' most nearly means",
+      "options": [
+        {
+          "t": "legally binding"
+        },
+        {
+          "t": "based on solid evidence"
+        },
+        {
+          "t": "based on flawed reasoning",
+          "correct": true
+        },
+        {
+          "t": "widely accepted as true"
+        }
+      ],
+      "words": [
+        "fallacious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Confusing correlation with causation is a reasoning error, exactly what 'fallacious' describes."
+    },
+    {
+      "passage": "The fastidious tailor refused to let a single stitch pass without inspection, ripping out seams that were even a millimeter off. Clients trusted him precisely because nothing ever left his shop imperfect.",
+      "question": "As used in the passage, 'fastidious' most nearly means",
+      "options": [
+        {
+          "t": "indifferent to quality"
+        },
+        {
+          "t": "careless and hurried"
+        },
+        {
+          "t": "generous with praise"
+        },
+        {
+          "t": "extremely attentive to detail",
+          "correct": true
+        }
+      ],
+      "words": [
+        "fastidious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Ripping out seams off by a millimeter shows extreme attention to detail, matching 'fastidious.'"
+    },
+    {
+      "passage": "Critics dismissed the politician's fatuous remark, made without any grasp of the economic data he was supposedly discussing. It suggested he had not read a single briefing before the debate.",
+      "question": "As used in the passage, 'fatuous' most nearly means",
+      "options": [
+        {
+          "t": "sharply insightful"
+        },
+        {
+          "t": "politically neutral"
+        },
+        {
+          "t": "foolish and lacking substance",
+          "correct": true
+        },
+        {
+          "t": "carefully researched"
+        }
+      ],
+      "words": [
+        "fatuous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A remark made with no grasp of the relevant data is foolish and shallow, matching 'fatuous.'"
+    },
+    {
+      "passage": "The nature reserve protects a wide range of fauna, from the smallest tree frogs to the region's last remaining wild elephants. Researchers add new species to the list nearly every field season.",
+      "question": "As used in the passage, 'fauna' most nearly means",
+      "options": [
+        {
+          "t": "the plant life of a region"
+        },
+        {
+          "t": "the weather patterns of a region"
+        },
+        {
+          "t": "the animal life of a region",
+          "correct": true
+        },
+        {
+          "t": "the mineral resources of a region"
+        }
+      ],
+      "words": [
+        "fauna"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Tree frogs and elephants are animals, showing that 'fauna' refers to a region's animal life."
+    },
+    {
+      "passage": "The fecund delta soil, replenished each year by flooding, allowed farmers to harvest crops far more abundant than those grown on the drier plains nearby.",
+      "question": "As used in the passage, 'fecund' most nearly means",
+      "options": [
+        {
+          "t": "completely barren"
+        },
+        {
+          "t": "highly fertile",
+          "correct": true
+        },
+        {
+          "t": "artificially treated"
+        },
+        {
+          "t": "rocky and uneven"
+        }
+      ],
+      "words": [
+        "fecund"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Soil producing far more abundant crops than nearby drier land shows high fertility, matching 'fecund.'"
+    },
+    {
+      "passage": "Though exhausted, she feigned enthusiasm for the surprise party, forcing a smile so her friends wouldn't feel their effort had gone unappreciated. Only her closest friend noticed how tired she truly was.",
+      "question": "As used in the passage, 'feigned' most nearly means",
+      "options": [
+        {
+          "t": "pretended",
+          "correct": true
+        },
+        {
+          "t": "loudly announced"
+        },
+        {
+          "t": "genuinely felt"
+        },
+        {
+          "t": "openly refused"
+        }
+      ],
+      "words": [
+        "feign"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Forcing a smile despite being exhausted shows the enthusiasm was fake, matching 'feigned.'"
+    },
+    {
+      "passage": "The fervent activists camped outside the courthouse for weeks, unwavering in their passionate commitment to seeing the case through. Local businesses grew frustrated, but the activists refused to leave until charges were dropped.",
+      "question": "As used in the passage, 'fervent' most nearly means",
+      "options": [
+        {
+          "t": "showing intense passion",
+          "correct": true
+        },
+        {
+          "t": "showing mild interest"
+        },
+        {
+          "t": "showing total indifference"
+        },
+        {
+          "t": "showing quiet doubt"
+        }
+      ],
+      "words": [
+        "fervent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Camping for weeks with unwavering commitment shows intense passion, matching 'fervent.'"
+    },
+    {
+      "passage": "She defended the proposal with a fervor that surprised even her closest colleagues, who had rarely seen her raise her voice in a meeting. Several colleagues later admitted the passion had changed their own minds.",
+      "question": "As used in the passage, 'fervor' most nearly means",
+      "options": [
+        {
+          "t": "complete apathy"
+        },
+        {
+          "t": "formal politeness"
+        },
+        {
+          "t": "quiet resignation"
+        },
+        {
+          "t": "intense enthusiasm",
+          "correct": true
+        }
+      ],
+      "words": [
+        "fervor"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Raising her voice with unusual intensity to defend the proposal reflects strong passion, matching 'fervor.'"
+    },
+    {
+      "passage": "The fickle sponsor backed three different candidates in as many months, switching allegiance the moment polls shifted even slightly. Campaign staffers struggled to plan events around a donor who could vanish overnight.",
+      "question": "As used in the passage, 'fickle' most nearly means",
+      "options": [
+        {
+          "t": "politically inexperienced"
+        },
+        {
+          "t": "prone to sudden changes in loyalty",
+          "correct": true
+        },
+        {
+          "t": "financially generous"
+        },
+        {
+          "t": "extremely loyal and consistent"
+        }
+      ],
+      "words": [
+        "fickle"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Switching allegiance three times in three months shows inconsistent loyalty, matching 'fickle.'"
+    },
+    {
+      "passage": "The diplomat handled the tense hostage negotiation with such finesse that both sides later credited her, rather than force, with ending the standoff peacefully. Journalists praised her approach as a model for future negotiations.",
+      "question": "As used in the passage, 'finesse' most nearly means",
+      "options": [
+        {
+          "t": "public and aggressive confrontation"
+        },
+        {
+          "t": "blunt and forceful action"
+        },
+        {
+          "t": "random and unplanned response"
+        },
+        {
+          "t": "skillful and delicate handling",
+          "correct": true
+        }
+      ],
+      "words": [
+        "finesse"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Ending a tense standoff peacefully rather than through force shows skillful, delicate handling, the meaning of 'finesse.'"
+    },
+    {
+      "passage": "The referee ejected the player for a flagrant violation, a hit so obviously dangerous that even teammates did not protest the call. League officials later suspended him for several additional games.",
+      "question": "As used in the passage, 'flagrant' most nearly means",
+      "options": [
+        {
+          "t": "accidental and minor"
+        },
+        {
+          "t": "barely noticeable"
+        },
+        {
+          "t": "officially approved"
+        },
+        {
+          "t": "glaringly obvious, especially in wrongdoing",
+          "correct": true
+        }
+      ],
+      "words": [
+        "flagrant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A violation so obvious that teammates didn't protest shows it was glaringly clear, matching 'flagrant.'"
+    },
+    {
+      "passage": "His flippant response to the safety inspector — 'it's probably fine' — suggested he did not grasp how serious the violation actually was. The inspector filed a report recommending immediate disciplinary action.",
+      "question": "As used in the passage, 'flippant' most nearly means",
+      "options": [
+        {
+          "t": "legally precise"
+        },
+        {
+          "t": "carefully considered"
+        },
+        {
+          "t": "deeply respectful"
+        },
+        {
+          "t": "lacking appropriate seriousness",
+          "correct": true
+        }
+      ],
+      "words": [
+        "flippant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Brushing off a serious safety violation with a careless remark shows a lack of proper seriousness, matching 'flippant.'"
+    },
+    {
+      "passage": "Reviewers criticized the novel's florid descriptions, arguing that page-long passages about a single sunset weighed down the plot. Readers skimmed past entire chapters just to reach the next plot development.",
+      "question": "As used in the passage, 'florid' most nearly means",
+      "options": [
+        {
+          "t": "grammatically incorrect"
+        },
+        {
+          "t": "sparse and minimal"
+        },
+        {
+          "t": "scientifically precise"
+        },
+        {
+          "t": "excessively ornate",
+          "correct": true
+        }
+      ],
+      "words": [
+        "florid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Page-long passages describing a single sunset show excessive ornamentation, matching 'florid.'"
+    },
+    {
+      "passage": "The factory continued to flout environmental regulations for years, dumping waste into the river long after inspectors issued repeated warnings. Local fishermen eventually organized protests demanding stronger enforcement.",
+      "question": "As used in the passage, 'flout' most nearly means",
+      "options": [
+        {
+          "t": "carefully review"
+        },
+        {
+          "t": "openly disregard",
+          "correct": true
+        },
+        {
+          "t": "strictly obey"
+        },
+        {
+          "t": "quietly report"
+        }
+      ],
+      "words": [
+        "flout"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Continuing to dump waste despite repeated warnings shows open disregard for the rules, matching 'flout.'"
+    },
+    {
+      "passage": "Investigators believe foreign agents used fake social media accounts to foment division ahead of the election, amplifying minor disagreements into full-blown conflicts. Analysts later traced the accounts back to a single coordinated campaign.",
+      "question": "As used in the passage, 'foment' most nearly means",
+      "options": [
+        {
+          "t": "calm and resolve"
+        },
+        {
+          "t": "accidentally cause"
+        },
+        {
+          "t": "publicly deny"
+        },
+        {
+          "t": "stir up or provoke",
+          "correct": true
+        }
+      ],
+      "words": [
+        "foment"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Amplifying minor disagreements into conflicts through fake accounts is an act of stirring up trouble, matching 'foment.'"
+    },
+    {
+      "passage": "A sense of foreboding crept over the crew as the barometer dropped and the sky turned an unnatural shade of green. By nightfall, even the captain admitted he shared the same unease.",
+      "question": "As used in the passage, 'foreboding' most nearly means",
+      "options": [
+        {
+          "t": "a feeling of pride"
+        },
+        {
+          "t": "a feeling of relief"
+        },
+        {
+          "t": "a feeling that something bad will happen",
+          "correct": true
+        },
+        {
+          "t": "a feeling of boredom"
+        }
+      ],
+      "words": [
+        "foreboding"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A dropping barometer and eerie sky causing unease about what's coming reflects 'foreboding,' meaning dread of impending trouble."
+    },
+    {
+      "passage": "The two rival critics, known for their disdain of each other's reviews, surprised everyone when they co-wrote an eloquent tribute to the retiring director, setting aside their enmity for a single afternoon.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Two critics who usually dislike each other's work temporarily set aside their rivalry to jointly honor someone they both respected.",
+          "correct": true
+        },
+        {
+          "t": "Two critics permanently reconciled after years of professional conflict."
+        },
+        {
+          "t": "The critics' rivalry intensified after a failed collaboration."
+        },
+        {
+          "t": "A director wrote a tribute to two feuding critics."
+        }
+      ],
+      "words": [
+        "disdain",
+        "eloquent",
+        "enmity"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes rival critics briefly setting aside disdain and enmity to eloquently honor a shared respected figure."
+    },
+    {
+      "passage": "The startup's pitch was disingenuous from the start: founders claimed empirical data supported their product, but the 'study' was really just anecdotes from friends, and any dissent from employees who noticed the discrepancy was quickly silenced.",
+      "question": "Which choice best supports the claim that the startup misrepresented its evidence?",
+      "options": [
+        {
+          "t": "The product later succeeded in the marketplace."
+        },
+        {
+          "t": "The 'study' was actually just anecdotes from friends rather than empirical research.",
+          "correct": true
+        },
+        {
+          "t": "Employees openly praised the strength of the data."
+        },
+        {
+          "t": "The founders were transparent about their limited testing methods."
+        }
+      ],
+      "words": [
+        "disingenuous",
+        "empirical",
+        "dissent",
+        "discrepancy"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The detail that the claimed 'study' was merely anecdotes, despite being presented as empirical, directly supports the claim of misrepresentation."
+    },
+    {
+      "passage": "Long considered elusive, the snow leopard is now the epitome of successful conservation in the region: rangers who once could not confirm a single sighting in a decade now track a slowly growing, fecund population through camera traps.",
+      "question": "Which choice best describes the function of the reference to camera traps in the passage?",
+      "options": [
+        {
+          "t": "It suggests the species has gone extinct in the wild."
+        },
+        {
+          "t": "It provides evidence that the once-elusive species is now being successfully monitored and is reproducing.",
+          "correct": true
+        },
+        {
+          "t": "It argues that camera traps have replaced the need for conservation."
+        },
+        {
+          "t": "It shows that rangers have given up trying to track the species."
+        }
+      ],
+      "words": [
+        "elusive",
+        "epitome",
+        "fecund"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage shows camera traps providing evidence that a once-untrackable species is now recovering and reproducing, which supports the idea of successful conservation."
+    },
+    {
+      "passage": "The professor's lectures diverged sharply from the assigned textbook, which some students found disconcerting at first but ultimately edifying, since the eclectic mix of case studies made abstract theories feel concrete.",
+      "question": "As used in the passage, 'eclectic' most nearly means",
+      "options": [
+        {
+          "t": "limited to a single example"
+        },
+        {
+          "t": "outdated and irrelevant"
+        },
+        {
+          "t": "drawn from diverse sources",
+          "correct": true
+        },
+        {
+          "t": "purely theoretical"
+        }
+      ],
+      "words": [
+        "diverge",
+        "disconcerting",
+        "edify",
+        "eclectic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A 'mix of case studies' that made theories concrete describes material drawn from varied sources, matching 'eclectic.'"
+    },
+    {
+      "passage": "Despite the despot's efforts to efface all record of the uprising, an erudite historian eventually uncovered diaries that disseminated the true story decades later. The discovery reshaped how the entire region remembered that era.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The uprising was successfully hidden from history forever."
+        },
+        {
+          "t": "A historian invented false diaries to discredit a ruler."
+        },
+        {
+          "t": "A ruler's attempt to erase history of a rebellion ultimately failed when a scholar's research revealed the truth years later.",
+          "correct": true
+        },
+        {
+          "t": "The despot personally wrote the diaries that were later found."
+        }
+      ],
+      "words": [
+        "despot",
+        "efface",
+        "erudite",
+        "disseminate"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage shows the despot's cover-up failing because a scholar later found and spread the true story."
+    }
+  ]
+}

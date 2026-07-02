@@ -1,0 +1,1856 @@
+{
+  "words": [
+    {
+      "word": "infer",
+      "pos": "verb",
+      "definitionEn": "to figure out something is true based on evidence and reasoning, rather than being told directly.",
+      "exampleEn": "From her tired eyes and yawns, I could infer that she had stayed up late studying.",
+      "tier": "foundation",
+      "rank": 201,
+      "synonymGroup": "reasoning-verbs"
+    },
+    {
+      "word": "deduce",
+      "pos": "verb",
+      "definitionEn": "to work out an answer by careful logical reasoning from known facts.",
+      "exampleEn": "The detective deduced the thief's identity from a single muddy footprint.",
+      "tier": "foundation",
+      "rank": 202,
+      "synonymGroup": "reasoning-verbs"
+    },
+    {
+      "word": "conclude",
+      "pos": "verb",
+      "definitionEn": "to decide something is true after considering all the facts.",
+      "exampleEn": "After reviewing the data, the scientists concluded that the drug was effective.",
+      "tier": "foundation",
+      "rank": 203,
+      "synonymGroup": "reasoning-verbs"
+    },
+    {
+      "word": "presume",
+      "pos": "verb",
+      "definitionEn": "to suppose that something is true without proof, often based on likelihood.",
+      "exampleEn": "Since the lights were off, I presumed no one was home.",
+      "tier": "foundation",
+      "rank": 204,
+      "synonymGroup": "assume-group"
+    },
+    {
+      "word": "assume",
+      "pos": "verb",
+      "definitionEn": "to accept something as true without checking or proving it.",
+      "exampleEn": "Don't assume the store is open; call first to check.",
+      "tier": "foundation",
+      "rank": 205,
+      "synonymGroup": "assume-group"
+    },
+    {
+      "word": "speculate",
+      "pos": "verb",
+      "definitionEn": "to form a guess or opinion about something without firm evidence.",
+      "exampleEn": "Reporters speculated about the reasons behind the sudden resignation.",
+      "tier": "foundation",
+      "rank": 206,
+      "synonymGroup": "assume-group"
+    },
+    {
+      "word": "predict",
+      "pos": "verb",
+      "definitionEn": "to say what will happen in the future based on knowledge or evidence.",
+      "exampleEn": "Meteorologists predict heavy rain for the weekend.",
+      "tier": "foundation",
+      "rank": 207,
+      "synonymGroup": "future-verbs"
+    },
+    {
+      "word": "forecast",
+      "pos": "verb",
+      "definitionEn": "to estimate or calculate what will happen in advance, especially with data.",
+      "exampleEn": "Analysts forecast a rise in fuel prices next quarter.",
+      "tier": "foundation",
+      "rank": 208,
+      "synonymGroup": "future-verbs"
+    },
+    {
+      "word": "anticipate",
+      "pos": "verb",
+      "definitionEn": "to expect something and prepare for it in advance.",
+      "exampleEn": "The team anticipated tough questions and rehearsed their answers.",
+      "tier": "foundation",
+      "rank": 209,
+      "synonymGroup": "future-verbs"
+    },
+    {
+      "word": "expect",
+      "pos": "verb",
+      "definitionEn": "to believe that something will happen.",
+      "exampleEn": "We expect the package to arrive by Friday.",
+      "tier": "foundation",
+      "rank": 210,
+      "synonymGroup": "future-verbs"
+    },
+    {
+      "word": "consider",
+      "pos": "verb",
+      "definitionEn": "to think carefully about something before making a decision.",
+      "exampleEn": "She considered several job offers before choosing one.",
+      "tier": "foundation",
+      "rank": 211,
+      "synonymGroup": "think-verbs"
+    },
+    {
+      "word": "contemplate",
+      "pos": "verb",
+      "definitionEn": "to think about something deeply and for a long time.",
+      "exampleEn": "He sat by the lake, contemplating his future plans.",
+      "tier": "foundation",
+      "rank": 212,
+      "synonymGroup": "think-verbs"
+    },
+    {
+      "word": "reflect",
+      "pos": "verb",
+      "definitionEn": "to think seriously about past experiences or ideas.",
+      "exampleEn": "The teacher asked students to reflect on what they had learned that year.",
+      "tier": "foundation",
+      "rank": 213,
+      "synonymGroup": "think-verbs"
+    },
+    {
+      "word": "ponder",
+      "pos": "verb",
+      "definitionEn": "to think about something carefully, often for a while, before deciding.",
+      "exampleEn": "She pondered the question before giving a thoughtful answer.",
+      "tier": "foundation",
+      "rank": 214,
+      "synonymGroup": "think-verbs"
+    },
+    {
+      "word": "deliberate",
+      "pos": "verb",
+      "definitionEn": "to discuss or consider something carefully, especially in a group, before deciding.",
+      "exampleEn": "The jury deliberated for six hours before reaching a verdict.",
+      "tier": "foundation",
+      "rank": 215,
+      "synonymGroup": "think-verbs"
+    },
+    {
+      "word": "address",
+      "pos": "verb",
+      "definitionEn": "to deal with or give attention to a problem or issue.",
+      "exampleEn": "The mayor promised to address the city's traffic problems.",
+      "tier": "foundation",
+      "rank": 216,
+      "synonymGroup": "deal-with-verbs"
+    },
+    {
+      "word": "confront",
+      "pos": "verb",
+      "definitionEn": "to face a difficult situation or person directly, often boldly.",
+      "exampleEn": "She decided to confront her fear of public speaking head-on.",
+      "tier": "foundation",
+      "rank": 217,
+      "synonymGroup": "deal-with-verbs"
+    },
+    {
+      "word": "tackle",
+      "pos": "verb",
+      "definitionEn": "to make a determined effort to deal with a difficult problem.",
+      "exampleEn": "The new committee was formed to tackle rising unemployment.",
+      "tier": "foundation",
+      "rank": 218,
+      "synonymGroup": "deal-with-verbs"
+    },
+    {
+      "word": "resolve",
+      "pos": "verb",
+      "definitionEn": "to find a satisfactory solution to a problem or conflict.",
+      "exampleEn": "The two neighbors finally resolved their dispute over the fence.",
+      "tier": "foundation",
+      "rank": 219,
+      "synonymGroup": "deal-with-verbs"
+    },
+    {
+      "word": "settle",
+      "pos": "verb",
+      "definitionEn": "to reach a final agreement or decision that ends a disagreement.",
+      "exampleEn": "The two companies settled the lawsuit out of court.",
+      "tier": "foundation",
+      "rank": 220,
+      "synonymGroup": "deal-with-verbs"
+    },
+    {
+      "word": "reduce",
+      "pos": "verb",
+      "definitionEn": "to make something smaller in size, amount, or degree.",
+      "exampleEn": "The company reduced its prices to attract more customers.",
+      "tier": "foundation",
+      "rank": 221,
+      "synonymGroup": "decrease-verbs"
+    },
+    {
+      "word": "diminish",
+      "pos": "verb",
+      "definitionEn": "to become or make something smaller, weaker, or less important.",
+      "exampleEn": "His influence in the company diminished after the merger.",
+      "tier": "foundation",
+      "rank": 222,
+      "synonymGroup": "decrease-verbs"
+    },
+    {
+      "word": "decrease",
+      "pos": "verb",
+      "definitionEn": "to become smaller in size, number, or amount.",
+      "exampleEn": "Crime rates decreased steadily over the past decade.",
+      "tier": "foundation",
+      "rank": 223,
+      "synonymGroup": "decrease-verbs"
+    },
+    {
+      "word": "minimize",
+      "pos": "verb",
+      "definitionEn": "to reduce something to the smallest possible amount or degree.",
+      "exampleEn": "Workers wore masks to minimize their exposure to dust.",
+      "tier": "foundation",
+      "rank": 224,
+      "synonymGroup": "decrease-verbs"
+    },
+    {
+      "word": "increase",
+      "pos": "verb",
+      "definitionEn": "to become or make something larger in size, number, or amount.",
+      "exampleEn": "The population of the city increased rapidly after the factory opened.",
+      "tier": "foundation",
+      "rank": 225,
+      "synonymGroup": "grow-verbs"
+    },
+    {
+      "word": "expand",
+      "pos": "verb",
+      "definitionEn": "to become or make something larger in size, scope, or volume.",
+      "exampleEn": "The bakery plans to expand into three new neighborhoods next year.",
+      "tier": "foundation",
+      "rank": 226,
+      "synonymGroup": "grow-verbs"
+    },
+    {
+      "word": "extend",
+      "pos": "verb",
+      "definitionEn": "to make something longer, larger, or to continue it for more time.",
+      "exampleEn": "The library extended its hours during final exam week.",
+      "tier": "foundation",
+      "rank": 227,
+      "synonymGroup": "grow-verbs"
+    },
+    {
+      "word": "broaden",
+      "pos": "verb",
+      "definitionEn": "to make something wider in range or scope.",
+      "exampleEn": "Studying abroad helped broaden her understanding of other cultures.",
+      "tier": "foundation",
+      "rank": 228,
+      "synonymGroup": "widen-verbs"
+    },
+    {
+      "word": "widen",
+      "pos": "verb",
+      "definitionEn": "to make something wider or broader.",
+      "exampleEn": "The city widened the road to ease traffic congestion.",
+      "tier": "foundation",
+      "rank": 229,
+      "synonymGroup": "widen-verbs"
+    },
+    {
+      "word": "narrow",
+      "pos": "verb",
+      "definitionEn": "to make something smaller in range or width.",
+      "exampleEn": "The committee narrowed the list of candidates down to three finalists.",
+      "tier": "foundation",
+      "rank": 230
+    },
+    {
+      "word": "restrict",
+      "pos": "verb",
+      "definitionEn": "to limit the size, amount, or range of something.",
+      "exampleEn": "The new policy restricts the amount of sugar allowed in school lunches.",
+      "tier": "foundation",
+      "rank": 231,
+      "synonymGroup": "limit-verbs"
+    },
+    {
+      "word": "limit",
+      "pos": "verb",
+      "definitionEn": "to set a maximum boundary on the amount or extent of something.",
+      "exampleEn": "The doctor advised him to limit his intake of salt.",
+      "tier": "foundation",
+      "rank": 232,
+      "synonymGroup": "limit-verbs"
+    },
+    {
+      "word": "constrain",
+      "pos": "verb",
+      "definitionEn": "to severely restrict the scope or freedom of something.",
+      "exampleEn": "A tight budget constrained the choices available to the filmmakers.",
+      "tier": "foundation",
+      "rank": 233,
+      "synonymGroup": "limit-verbs"
+    },
+    {
+      "word": "preserve",
+      "pos": "verb",
+      "definitionEn": "to keep something safe and unchanged, especially from damage or loss.",
+      "exampleEn": "The organization works to preserve historic buildings in the city.",
+      "tier": "foundation",
+      "rank": 234,
+      "synonymGroup": "keep-verbs"
+    },
+    {
+      "word": "retain",
+      "pos": "verb",
+      "definitionEn": "to continue to have or keep something.",
+      "exampleEn": "Despite the changes, the company retained most of its loyal customers.",
+      "tier": "foundation",
+      "rank": 235,
+      "synonymGroup": "keep-verbs"
+    },
+    {
+      "word": "uphold",
+      "pos": "verb",
+      "definitionEn": "to support or maintain a principle, law, or decision.",
+      "exampleEn": "The court upheld the earlier ruling on appeal.",
+      "tier": "foundation",
+      "rank": 236,
+      "synonymGroup": "keep-verbs"
+    },
+    {
+      "word": "alter",
+      "pos": "verb",
+      "definitionEn": "to change something, usually slightly.",
+      "exampleEn": "The tailor altered the suit to fit him better.",
+      "tier": "foundation",
+      "rank": 237,
+      "synonymGroup": "change-verbs"
+    },
+    {
+      "word": "modify",
+      "pos": "verb",
+      "definitionEn": "to make small changes to something in order to improve it.",
+      "exampleEn": "The engineers modified the design to reduce its weight.",
+      "tier": "foundation",
+      "rank": 238,
+      "synonymGroup": "change-verbs"
+    },
+    {
+      "word": "adjust",
+      "pos": "verb",
+      "definitionEn": "to change something slightly to make it more accurate or suitable.",
+      "exampleEn": "She adjusted the thermostat to make the room warmer.",
+      "tier": "foundation",
+      "rank": 239,
+      "synonymGroup": "change-verbs"
+    },
+    {
+      "word": "adapt",
+      "pos": "verb",
+      "definitionEn": "to change in order to suit new conditions or a new purpose.",
+      "exampleEn": "Animals in the desert have adapted to survive with little water.",
+      "tier": "foundation",
+      "rank": 240,
+      "synonymGroup": "change-verbs"
+    },
+    {
+      "word": "revise",
+      "pos": "verb",
+      "definitionEn": "to change something, especially a piece of writing or a plan, to improve or correct it.",
+      "exampleEn": "The author revised the manuscript three times before publishing it.",
+      "tier": "foundation",
+      "rank": 241,
+      "synonymGroup": "change-verbs"
+    },
+    {
+      "word": "transform",
+      "pos": "verb",
+      "definitionEn": "to change something completely, often into something very different.",
+      "exampleEn": "New technology transformed the way people communicate.",
+      "tier": "foundation",
+      "rank": 242
+    },
+    {
+      "word": "shift",
+      "pos": "verb",
+      "definitionEn": "to move or change from one position, direction, or state to another.",
+      "exampleEn": "Public opinion has shifted in favor of renewable energy.",
+      "tier": "foundation",
+      "rank": 243
+    },
+    {
+      "word": "change",
+      "pos": "verb",
+      "definitionEn": "to make or become different.",
+      "exampleEn": "The weather can change quickly in the mountains.",
+      "tier": "foundation",
+      "rank": 244
+    },
+    {
+      "word": "fluctuate",
+      "pos": "verb",
+      "definitionEn": "to change irregularly, rising and falling in an unpredictable way.",
+      "exampleEn": "Stock prices fluctuated wildly throughout the trading day.",
+      "tier": "foundation",
+      "rank": 245
+    },
+    {
+      "word": "evolve",
+      "pos": "verb",
+      "definitionEn": "to develop gradually over time, often becoming more complex.",
+      "exampleEn": "The company's mission evolved as new markets opened up.",
+      "tier": "foundation",
+      "rank": 246,
+      "synonymGroup": "arise-verbs"
+    },
+    {
+      "word": "emerge",
+      "pos": "verb",
+      "definitionEn": "to appear or come into view, especially after being hidden.",
+      "exampleEn": "New evidence emerged that changed the course of the trial.",
+      "tier": "foundation",
+      "rank": 247,
+      "synonymGroup": "arise-verbs"
+    },
+    {
+      "word": "arise",
+      "pos": "verb",
+      "definitionEn": "to begin to happen or come into existence.",
+      "exampleEn": "Problems arose during construction due to unstable soil.",
+      "tier": "foundation",
+      "rank": 248,
+      "synonymGroup": "arise-verbs"
+    },
+    {
+      "word": "stem",
+      "pos": "verb",
+      "definitionEn": "to originate or result from a particular cause or source.",
+      "exampleEn": "Her fear of dogs stems from a bad experience as a child.",
+      "tier": "foundation",
+      "rank": 249,
+      "synonymGroup": "arise-verbs"
+    },
+    {
+      "word": "originate",
+      "pos": "verb",
+      "definitionEn": "to begin or come from a particular place, situation, or thing.",
+      "exampleEn": "The tradition of fireworks originated in ancient China.",
+      "tier": "foundation",
+      "rank": 250,
+      "synonymGroup": "arise-verbs"
+    },
+    {
+      "word": "result",
+      "pos": "verb",
+      "definitionEn": "to happen or exist because of something else that came before it.",
+      "exampleEn": "The accident resulted from a combination of ice and speed.",
+      "tier": "foundation",
+      "rank": 251
+    },
+    {
+      "word": "contribute",
+      "pos": "verb",
+      "definitionEn": "to give something, especially help, money, or ideas, in order to achieve a result.",
+      "exampleEn": "Poor diet and lack of sleep both contribute to fatigue.",
+      "tier": "foundation",
+      "rank": 252
+    },
+    {
+      "word": "lead",
+      "pos": "verb",
+      "definitionEn": "to result in or bring about a particular outcome.",
+      "exampleEn": "Skipping meals can lead to poor concentration later in the day.",
+      "tier": "foundation",
+      "rank": 253
+    },
+    {
+      "word": "prompt",
+      "pos": "verb",
+      "definitionEn": "to cause someone to do something or make something happen.",
+      "exampleEn": "The power outage prompted the school to close early.",
+      "tier": "foundation",
+      "rank": 254,
+      "synonymGroup": "cause-verbs"
+    },
+    {
+      "word": "trigger",
+      "pos": "verb",
+      "definitionEn": "to cause an event or situation to happen suddenly.",
+      "exampleEn": "A small spark triggered the massive wildfire.",
+      "tier": "foundation",
+      "rank": 255,
+      "synonymGroup": "cause-verbs"
+    },
+    {
+      "word": "provoke",
+      "pos": "verb",
+      "definitionEn": "to cause a strong reaction, especially anger or another intense feeling.",
+      "exampleEn": "The controversial speech provoked outrage among the audience.",
+      "tier": "foundation",
+      "rank": 256,
+      "synonymGroup": "cause-verbs"
+    },
+    {
+      "word": "induce",
+      "pos": "verb",
+      "definitionEn": "to cause or bring about a particular condition or state.",
+      "exampleEn": "The medication is designed to induce sleep quickly.",
+      "tier": "foundation",
+      "rank": 257,
+      "synonymGroup": "cause-verbs"
+    },
+    {
+      "word": "stimulate",
+      "pos": "verb",
+      "definitionEn": "to encourage activity, growth, or interest in something.",
+      "exampleEn": "Lower interest rates are meant to stimulate economic growth.",
+      "tier": "foundation",
+      "rank": 258,
+      "synonymGroup": "motivate-verbs"
+    },
+    {
+      "word": "motivate",
+      "pos": "verb",
+      "definitionEn": "to give someone a reason or desire to do something.",
+      "exampleEn": "The coach's speech motivated the team to play harder.",
+      "tier": "foundation",
+      "rank": 259,
+      "synonymGroup": "motivate-verbs"
+    },
+    {
+      "word": "inspire",
+      "pos": "verb",
+      "definitionEn": "to fill someone with the desire or confidence to do something creative or ambitious.",
+      "exampleEn": "Her courage inspired others to speak up as well.",
+      "tier": "foundation",
+      "rank": 260,
+      "synonymGroup": "motivate-verbs"
+    },
+    {
+      "word": "encourage",
+      "pos": "verb",
+      "definitionEn": "to give someone support, confidence, or hope to do something.",
+      "exampleEn": "Teachers should encourage students to ask questions in class.",
+      "tier": "foundation",
+      "rank": 261,
+      "synonymGroup": "motivate-verbs"
+    },
+    {
+      "word": "discourage",
+      "pos": "verb",
+      "definitionEn": "to make someone less confident or enthusiastic about doing something.",
+      "exampleEn": "The high cost of tuition discouraged many students from applying.",
+      "tier": "foundation",
+      "rank": 262
+    },
+    {
+      "word": "prevent",
+      "pos": "verb",
+      "definitionEn": "to stop something from happening.",
+      "exampleEn": "Regular exercise can help prevent heart disease.",
+      "tier": "foundation",
+      "rank": 263,
+      "synonymGroup": "block-verbs"
+    },
+    {
+      "word": "hinder",
+      "pos": "verb",
+      "definitionEn": "to make progress or action difficult; to get in the way.",
+      "exampleEn": "Heavy snow hindered the rescue team's efforts to reach the hikers.",
+      "tier": "foundation",
+      "rank": 264,
+      "synonymGroup": "block-verbs"
+    },
+    {
+      "word": "impede",
+      "pos": "verb",
+      "definitionEn": "to slow down or block the progress of something.",
+      "exampleEn": "Fallen trees impeded traffic along the mountain road.",
+      "tier": "foundation",
+      "rank": 265,
+      "synonymGroup": "block-verbs"
+    },
+    {
+      "word": "obstruct",
+      "pos": "verb",
+      "definitionEn": "to block a path, view, or process so it cannot continue easily.",
+      "exampleEn": "The parked truck obstructed the entrance to the garage.",
+      "tier": "foundation",
+      "rank": 266,
+      "synonymGroup": "block-verbs"
+    },
+    {
+      "word": "inhibit",
+      "pos": "verb",
+      "definitionEn": "to hold back or restrain a process, action, or feeling.",
+      "exampleEn": "Cold temperatures inhibit the growth of most bacteria.",
+      "tier": "foundation",
+      "rank": 267,
+      "synonymGroup": "block-verbs"
+    },
+    {
+      "word": "enable",
+      "pos": "verb",
+      "definitionEn": "to give someone the ability, means, or opportunity to do something.",
+      "exampleEn": "The scholarship enabled her to attend college without debt.",
+      "tier": "foundation",
+      "rank": 268,
+      "synonymGroup": "permit-verbs"
+    },
+    {
+      "word": "permit",
+      "pos": "verb",
+      "definitionEn": "to allow something to happen or someone to do something.",
+      "exampleEn": "The rules permit visitors to stay until 8 p.m.",
+      "tier": "foundation",
+      "rank": 269,
+      "synonymGroup": "permit-verbs"
+    },
+    {
+      "word": "allow",
+      "pos": "verb",
+      "definitionEn": "to let someone do something or let something happen.",
+      "exampleEn": "The teacher allowed students to use calculators on the test.",
+      "tier": "foundation",
+      "rank": 270,
+      "synonymGroup": "permit-verbs"
+    },
+    {
+      "word": "authorize",
+      "pos": "verb",
+      "definitionEn": "to give official permission for something to happen.",
+      "exampleEn": "The board authorized the construction of a new science wing.",
+      "tier": "foundation",
+      "rank": 271,
+      "synonymGroup": "permit-verbs"
+    },
+    {
+      "word": "prohibit",
+      "pos": "verb",
+      "definitionEn": "to formally forbid something, usually by law or rule.",
+      "exampleEn": "The new law prohibits smoking in all public parks.",
+      "tier": "foundation",
+      "rank": 272,
+      "synonymGroup": "forbid-verbs"
+    },
+    {
+      "word": "forbid",
+      "pos": "verb",
+      "definitionEn": "to order someone not to do something.",
+      "exampleEn": "Her parents forbade her from staying out past midnight.",
+      "tier": "foundation",
+      "rank": 273,
+      "synonymGroup": "forbid-verbs"
+    },
+    {
+      "word": "ban",
+      "pos": "verb",
+      "definitionEn": "to officially or legally forbid something.",
+      "exampleEn": "The city banned plastic bags to reduce pollution.",
+      "tier": "foundation",
+      "rank": 274,
+      "synonymGroup": "forbid-verbs"
+    },
+    {
+      "word": "exclude",
+      "pos": "verb",
+      "definitionEn": "to leave someone or something out; to not include.",
+      "exampleEn": "The insurance policy excludes damage caused by flooding.",
+      "tier": "foundation",
+      "rank": 275
+    },
+    {
+      "word": "include",
+      "pos": "verb",
+      "definitionEn": "to contain something as part of a whole.",
+      "exampleEn": "The price includes breakfast and Wi-Fi.",
+      "tier": "foundation",
+      "rank": 276,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "involve",
+      "pos": "verb",
+      "definitionEn": "to include something as a necessary part or result.",
+      "exampleEn": "The job involves a lot of travel and long hours.",
+      "tier": "foundation",
+      "rank": 277,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "entail",
+      "pos": "verb",
+      "definitionEn": "to involve something as a necessary consequence.",
+      "exampleEn": "Starting a business entails significant financial risk.",
+      "tier": "foundation",
+      "rank": 278,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "comprise",
+      "pos": "verb",
+      "definitionEn": "to consist of or be made up of particular parts.",
+      "exampleEn": "The committee comprises five teachers and two parents.",
+      "tier": "foundation",
+      "rank": 279,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "consist",
+      "pos": "verb",
+      "definitionEn": "to be made up or composed of specific parts or elements.",
+      "exampleEn": "The exam consists of three sections: reading, writing, and math.",
+      "tier": "foundation",
+      "rank": 280,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "constitute",
+      "pos": "verb",
+      "definitionEn": "to be a part of a whole, or to form or make up something.",
+      "exampleEn": "Women constitute more than half of the university's graduates.",
+      "tier": "foundation",
+      "rank": 281,
+      "synonymGroup": "contain-verbs"
+    },
+    {
+      "word": "denote",
+      "pos": "verb",
+      "definitionEn": "to be a sign of, or to mean something specific directly.",
+      "exampleEn": "In this context, the symbol denotes a chemical element.",
+      "tier": "foundation",
+      "rank": 282,
+      "synonymGroup": "meaning-verbs"
+    },
+    {
+      "word": "connote",
+      "pos": "verb",
+      "definitionEn": "to suggest an additional meaning or feeling beyond the literal one.",
+      "exampleEn": "The word 'home' connotes warmth and comfort, not just a building.",
+      "tier": "foundation",
+      "rank": 283,
+      "synonymGroup": "meaning-verbs"
+    },
+    {
+      "word": "essential",
+      "pos": "adjective",
+      "definitionEn": "absolutely necessary; extremely important.",
+      "exampleEn": "Clean water is essential for human survival.",
+      "tier": "foundation",
+      "rank": 284,
+      "synonymGroup": "important-adj"
+    },
+    {
+      "word": "crucial",
+      "pos": "adjective",
+      "definitionEn": "extremely important, especially because it affects the outcome of something.",
+      "exampleEn": "The next few days will be crucial in deciding the election.",
+      "tier": "foundation",
+      "rank": 285,
+      "synonymGroup": "important-adj"
+    },
+    {
+      "word": "vital",
+      "pos": "adjective",
+      "definitionEn": "absolutely necessary for something to succeed or survive.",
+      "exampleEn": "Sleep is vital for maintaining good health.",
+      "tier": "foundation",
+      "rank": 286,
+      "synonymGroup": "important-adj"
+    },
+    {
+      "word": "critical",
+      "pos": "adjective",
+      "definitionEn": "extremely important, especially because a decision must be made quickly.",
+      "exampleEn": "The next ten minutes are critical for the patient's survival.",
+      "tier": "foundation",
+      "rank": 287,
+      "synonymGroup": "important-adj"
+    },
+    {
+      "word": "fundamental",
+      "pos": "adjective",
+      "definitionEn": "forming a necessary base or core part of something.",
+      "exampleEn": "Honesty is a fundamental value in any relationship.",
+      "tier": "foundation",
+      "rank": 288,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "primary",
+      "pos": "adjective",
+      "definitionEn": "main or most important; coming first in order or importance.",
+      "exampleEn": "The primary goal of the meeting was to set next year's budget.",
+      "tier": "foundation",
+      "rank": 289,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "principal",
+      "pos": "adjective",
+      "definitionEn": "most important or main.",
+      "exampleEn": "The principal reason for the delay was bad weather.",
+      "tier": "foundation",
+      "rank": 290,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "central",
+      "pos": "adjective",
+      "definitionEn": "of the greatest importance; forming the main part of something.",
+      "exampleEn": "Trust is central to any successful partnership.",
+      "tier": "foundation",
+      "rank": 291,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "core",
+      "pos": "adjective",
+      "definitionEn": "the most basic and essential part of something.",
+      "exampleEn": "Respect for others is a core principle at this school.",
+      "tier": "foundation",
+      "rank": 292,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "key",
+      "pos": "adjective",
+      "definitionEn": "extremely important or essential to a particular purpose.",
+      "exampleEn": "Communication is a key skill for any team leader.",
+      "tier": "foundation",
+      "rank": 293,
+      "synonymGroup": "core-adj"
+    },
+    {
+      "word": "secondary",
+      "pos": "adjective",
+      "definitionEn": "less important than something else; coming after the main thing.",
+      "exampleEn": "Winning is nice, but for the coach it's a secondary concern to player safety.",
+      "tier": "foundation",
+      "rank": 294,
+      "synonymGroup": "minor-adj"
+    },
+    {
+      "word": "minor",
+      "pos": "adjective",
+      "definitionEn": "small in size, importance, or seriousness.",
+      "exampleEn": "The car suffered only minor damage in the accident.",
+      "tier": "foundation",
+      "rank": 295,
+      "synonymGroup": "minor-adj"
+    },
+    {
+      "word": "marginal",
+      "pos": "adjective",
+      "definitionEn": "small and not very important; barely noticeable.",
+      "exampleEn": "The new policy had only a marginal effect on sales.",
+      "tier": "foundation",
+      "rank": 296,
+      "synonymGroup": "minor-adj"
+    },
+    {
+      "word": "relevant",
+      "pos": "adjective",
+      "definitionEn": "closely connected to the matter being discussed or considered.",
+      "exampleEn": "Please include only information that is relevant to the topic.",
+      "tier": "foundation",
+      "rank": 297,
+      "synonymGroup": "relevant-adj"
+    },
+    {
+      "word": "pertinent",
+      "pos": "adjective",
+      "definitionEn": "directly relevant to the matter at hand.",
+      "exampleEn": "The lawyer asked only pertinent questions to save the court's time.",
+      "tier": "foundation",
+      "rank": 298,
+      "synonymGroup": "relevant-adj"
+    },
+    {
+      "word": "applicable",
+      "pos": "adjective",
+      "definitionEn": "relevant or appropriate to a particular situation.",
+      "exampleEn": "This rule is applicable to all students, not just seniors.",
+      "tier": "foundation",
+      "rank": 299,
+      "synonymGroup": "relevant-adj"
+    },
+    {
+      "word": "appropriate",
+      "pos": "adjective",
+      "definitionEn": "suitable or fitting for a particular situation.",
+      "exampleEn": "She wore appropriate clothing for the formal interview.",
+      "tier": "foundation",
+      "rank": 300,
+      "synonymGroup": "relevant-adj"
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "Marine biologists studying the coral reef noticed that fish populations near the shipwreck were unusually dense. From the pattern of feeding activity and shelter-seeking behavior, they could infer that the wreck's rusted hull had become an artificial reef, offering both food sources and protection from larger predators.",
+      "question": "As used in the passage, 'infer' most nearly means",
+      "options": [
+        {
+          "t": "to state as an unquestionable fact"
+        },
+        {
+          "t": "to ignore available data"
+        },
+        {
+          "t": "to measure precisely with instruments"
+        },
+        {
+          "t": "to conclude from indirect evidence",
+          "correct": true
+        }
+      ],
+      "words": [
+        "infer"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The biologists did not directly observe why fish gathered there; they reasoned from behavioral clues, which matches 'infer' meaning to conclude from indirect evidence."
+    },
+    {
+      "passage": "The chemistry teacher presented students with a mystery: a beaker of clear liquid that changed color instantly when a second substance was added. Rather than testing the liquid directly, students were asked to deduce its identity using only the reaction's color, speed, and heat output as clues.",
+      "question": "As used in the passage, 'deduce' most nearly means",
+      "options": [
+        {
+          "t": "to memorize a textbook definition"
+        },
+        {
+          "t": "to measure with a scale"
+        },
+        {
+          "t": "to reason out logically from given evidence",
+          "correct": true
+        },
+        {
+          "t": "to guess randomly without reasoning"
+        }
+      ],
+      "words": [
+        "deduce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage emphasizes using clues and logical reasoning rather than direct testing, which is the meaning of 'deduce.'"
+    },
+    {
+      "passage": "After three separate audits found the same accounting discrepancy in the company's records, the board had little choice but to conclude that the errors were not accidental but the result of deliberate manipulation.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The board suspected the audits themselves were flawed."
+        },
+        {
+          "t": "The company decided to stop conducting audits."
+        },
+        {
+          "t": "The board dismissed the accounting discrepancy as unimportant."
+        },
+        {
+          "t": "Repeated evidence led the board to determine the errors were intentional.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "conclude"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage shows the board reasoning from repeated evidence to a firm judgment that the errors were deliberate."
+    },
+    {
+      "passage": "Because the museum's front doors were locked and no lights were on inside, tourists walking by simply presumed it was closed for the day, when in fact a private event was underway in the back gallery.",
+      "question": "As used in the passage, 'presumed' most nearly means",
+      "options": [
+        {
+          "t": "supposed without checking",
+          "correct": true
+        },
+        {
+          "t": "proved with certainty"
+        },
+        {
+          "t": "denied outright"
+        },
+        {
+          "t": "announced officially"
+        }
+      ],
+      "words": [
+        "presume"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The tourists formed a belief based on appearances alone, without verifying, which is the sense of 'presumed' here — and the belief turned out to be wrong."
+    },
+    {
+      "passage": "Many students assume that studying longer automatically leads to better grades, but research shows that the quality and structure of study sessions matter more than total hours spent.",
+      "question": "Which choice best describes the function of the phrase 'Many students assume' in the passage?",
+      "options": [
+        {
+          "t": "It presents a common but mistaken belief that the passage goes on to challenge.",
+          "correct": true
+        },
+        {
+          "t": "It states a scientifically proven fact."
+        },
+        {
+          "t": "It summarizes the passage's conclusion."
+        },
+        {
+          "t": "It introduces the author's personal opinion as fact."
+        }
+      ],
+      "words": [
+        "assume"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The sentence sets up a widely held but unverified belief, which the rest of the passage then corrects with research findings."
+    },
+    {
+      "passage": "With no official statement from the company, industry analysts began to speculate that the sudden drop in stock price was linked to an unannounced product recall.",
+      "question": "As used in the passage, 'speculate' most nearly means",
+      "options": [
+        {
+          "t": "to calculate precisely"
+        },
+        {
+          "t": "to guess based on incomplete information",
+          "correct": true
+        },
+        {
+          "t": "to confirm with documentation"
+        },
+        {
+          "t": "to dismiss as false"
+        }
+      ],
+      "words": [
+        "speculate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Without an official statement, analysts could only form an educated guess, which is what 'speculate' means."
+    },
+    {
+      "passage": "Based on decades of migration data, scientists predict that the annual arrival of monarch butterflies will shift two weeks earlier by the end of the century as temperatures continue to rise.",
+      "question": "Which choice best supports the claim that scientists' predictions are grounded in evidence?",
+      "options": [
+        {
+          "t": "\"will shift two weeks earlier\""
+        },
+        {
+          "t": "\"as temperatures continue to rise\""
+        },
+        {
+          "t": "\"scientists predict\""
+        },
+        {
+          "t": "\"Based on decades of migration data\"",
+          "correct": true
+        }
+      ],
+      "words": [
+        "predict"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The phrase 'Based on decades of migration data' shows the prediction rests on long-term evidence rather than a guess."
+    },
+    {
+      "passage": "The national weather service used satellite imagery and ocean temperature readings to forecast an active hurricane season, warning coastal communities to prepare early.",
+      "question": "As used in the passage, 'forecast' most nearly means",
+      "options": [
+        {
+          "t": "to estimate in advance using data",
+          "correct": true
+        },
+        {
+          "t": "to cancel"
+        },
+        {
+          "t": "to celebrate"
+        },
+        {
+          "t": "to ignore"
+        }
+      ],
+      "words": [
+        "forecast"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Using satellite and temperature data to project the season's activity is a data-based estimate, matching 'forecast.'"
+    },
+    {
+      "passage": "Knowing that the negotiations would be tense, the diplomat anticipated objections from every delegation and prepared counterarguments for each one before the meeting even began.",
+      "question": "As used in the passage, 'anticipated' most nearly means",
+      "options": [
+        {
+          "t": "was surprised by"
+        },
+        {
+          "t": "refused to consider"
+        },
+        {
+          "t": "expected in advance and prepared for",
+          "correct": true
+        },
+        {
+          "t": "forgot about"
+        }
+      ],
+      "words": [
+        "anticipate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The diplomat foresaw the objections and readied responses beforehand, which is the meaning of 'anticipated.'"
+    },
+    {
+      "passage": "The city council will address the ongoing water shortage at its next meeting, proposing new restrictions on lawn watering and encouraging residents to adopt drought-resistant landscaping.",
+      "question": "As used in the passage, 'address' most nearly means",
+      "options": [
+        {
+          "t": "to relocate"
+        },
+        {
+          "t": "to formally deal with",
+          "correct": true
+        },
+        {
+          "t": "to celebrate"
+        },
+        {
+          "t": "to ignore"
+        }
+      ],
+      "words": [
+        "address"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The council is planning to take action on the water shortage, which is the sense of 'address' as dealing with a problem."
+    },
+    {
+      "passage": "Rather than avoiding the rumors circulating about her, the senator chose to confront them directly in a televised interview, answering every question without hesitation.",
+      "question": "As used in the passage, 'confront' most nearly means",
+      "options": [
+        {
+          "t": "to face directly",
+          "correct": true
+        },
+        {
+          "t": "to apologize for"
+        },
+        {
+          "t": "to spread further"
+        },
+        {
+          "t": "to avoid"
+        }
+      ],
+      "words": [
+        "confront"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The senator directly faced the rumors rather than avoiding them, matching the meaning of 'confront.'"
+    },
+    {
+      "passage": "Engineers were brought in to tackle the recurring flooding problem in the subway tunnels, designing a new drainage system capable of handling record rainfall.",
+      "question": "As used in the passage, 'tackle' most nearly means",
+      "options": [
+        {
+          "t": "to postpone indefinitely"
+        },
+        {
+          "t": "to worsen"
+        },
+        {
+          "t": "to make a determined effort to solve",
+          "correct": true
+        },
+        {
+          "t": "to ignore completely"
+        }
+      ],
+      "words": [
+        "tackle"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The engineers actively worked to solve the flooding problem, which is the meaning of 'tackle' in this context."
+    },
+    {
+      "passage": "After weeks of mediation, the two companies finally resolved their patent dispute, agreeing to share licensing rights instead of continuing an expensive legal battle.",
+      "question": "As used in the passage, 'resolved' most nearly means",
+      "options": [
+        {
+          "t": "denied"
+        },
+        {
+          "t": "escalated"
+        },
+        {
+          "t": "found a solution to",
+          "correct": true
+        },
+        {
+          "t": "publicized"
+        }
+      ],
+      "words": [
+        "resolve"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The companies reached a solution to their dispute rather than continuing to fight, matching 'resolved.'"
+    },
+    {
+      "passage": "To reduce food waste, the cafeteria switched to smaller plates, a simple change that led students to take only what they could actually eat.",
+      "question": "As used in the passage, 'reduce' most nearly means",
+      "options": [
+        {
+          "t": "to relocate"
+        },
+        {
+          "t": "to increase in amount"
+        },
+        {
+          "t": "to advertise"
+        },
+        {
+          "t": "to decrease in amount",
+          "correct": true
+        }
+      ],
+      "words": [
+        "reduce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Smaller plates were meant to decrease the amount of food wasted, which is the meaning of 'reduce.'"
+    },
+    {
+      "passage": "As glaciers melt at accelerating rates, the habitat available to polar bears continues to diminish, forcing them to travel farther in search of food.",
+      "question": "As used in the passage, 'diminish' most nearly means",
+      "options": [
+        {
+          "t": "to relocate entirely"
+        },
+        {
+          "t": "to become smaller",
+          "correct": true
+        },
+        {
+          "t": "to grow larger"
+        },
+        {
+          "t": "to remain unchanged"
+        }
+      ],
+      "words": [
+        "diminish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The habitat is shrinking as glaciers melt, which matches 'diminish' meaning to become smaller."
+    },
+    {
+      "passage": "The startup hopes to expand its operations into international markets within the next two years, hiring local teams in each new country to guide the process.",
+      "question": "As used in the passage, 'expand' most nearly means",
+      "options": [
+        {
+          "t": "to grow larger in scope",
+          "correct": true
+        },
+        {
+          "t": "to shrink"
+        },
+        {
+          "t": "to dissolve"
+        },
+        {
+          "t": "to relocate headquarters only"
+        }
+      ],
+      "words": [
+        "expand"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The startup plans to grow its reach into new markets, which is the meaning of 'expand.'"
+    },
+    {
+      "passage": "The library extended its borrowing period from two weeks to a full month, giving students more time to finish research projects without incurring late fees.",
+      "question": "As used in the passage, 'extended' most nearly means",
+      "options": [
+        {
+          "t": "canceled"
+        },
+        {
+          "t": "advertised"
+        },
+        {
+          "t": "lengthened",
+          "correct": true
+        },
+        {
+          "t": "shortened"
+        }
+      ],
+      "words": [
+        "extend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The borrowing period was made longer, matching the meaning of 'extended.'"
+    },
+    {
+      "passage": "Traveling through Southeast Asia broadened her perspective on food, family, and community in ways that no classroom lecture ever could.",
+      "question": "As used in the passage, 'broadened' most nearly means",
+      "options": [
+        {
+          "t": "confused"
+        },
+        {
+          "t": "ended"
+        },
+        {
+          "t": "widened or expanded",
+          "correct": true
+        },
+        {
+          "t": "narrowed"
+        }
+      ],
+      "words": [
+        "broaden"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Her perspective grew wider through travel, which is the sense of 'broadened.'"
+    },
+    {
+      "passage": "City officials voted to restrict vehicle access to the downtown core during weekends, hoping to reduce noise and encourage foot traffic among local shops.",
+      "question": "As used in the passage, 'restrict' most nearly means",
+      "options": [
+        {
+          "t": "to advertise"
+        },
+        {
+          "t": "to expand"
+        },
+        {
+          "t": "to reward"
+        },
+        {
+          "t": "to limit",
+          "correct": true
+        }
+      ],
+      "words": [
+        "restrict"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The officials are limiting vehicle access, which matches the meaning of 'restrict.'"
+    },
+    {
+      "passage": "A tight production schedule constrained the director's choices, forcing her to film several key scenes in a single location rather than the multiple settings she had originally envisioned.",
+      "question": "As used in the passage, 'constrained' most nearly means",
+      "options": [
+        {
+          "t": "publicized widely"
+        },
+        {
+          "t": "severely limited",
+          "correct": true
+        },
+        {
+          "t": "financed generously"
+        },
+        {
+          "t": "expanded freely"
+        }
+      ],
+      "words": [
+        "constrain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The tight schedule limited the director's options, which is the meaning of 'constrained.'"
+    },
+    {
+      "passage": "Volunteers work year-round to preserve the wetlands, removing invasive plants and monitoring water quality so that future generations can still enjoy the ecosystem.",
+      "question": "As used in the passage, 'preserve' most nearly means",
+      "options": [
+        {
+          "t": "to destroy gradually"
+        },
+        {
+          "t": "to protect and maintain",
+          "correct": true
+        },
+        {
+          "t": "to relocate"
+        },
+        {
+          "t": "to sell"
+        }
+      ],
+      "words": [
+        "preserve"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Volunteers are working to keep the wetlands intact for the future, which matches 'preserve.'"
+    },
+    {
+      "passage": "Even after switching to a plant-based diet, she retained her love of cooking elaborate meals, simply adapting her favorite recipes to use new ingredients.",
+      "question": "As used in the passage, 'retained' most nearly means",
+      "options": [
+        {
+          "t": "abandoned"
+        },
+        {
+          "t": "continued to have",
+          "correct": true
+        },
+        {
+          "t": "forgot"
+        },
+        {
+          "t": "sold"
+        }
+      ],
+      "words": [
+        "retain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "She kept her love of cooking even after the dietary change, which is the meaning of 'retained.'"
+    },
+    {
+      "passage": "The appellate court upheld the lower court's decision, ruling that the original verdict had been reached fairly and with sufficient evidence.",
+      "question": "As used in the passage, 'upheld' most nearly means",
+      "options": [
+        {
+          "t": "postponed"
+        },
+        {
+          "t": "ignored"
+        },
+        {
+          "t": "overturned"
+        },
+        {
+          "t": "supported or confirmed",
+          "correct": true
+        }
+      ],
+      "words": [
+        "uphold"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The appellate court confirmed the earlier decision rather than overturning it, matching 'upheld.'"
+    },
+    {
+      "passage": "The tailor altered the jacket slightly, taking in the waist and shortening the sleeves so it would fit the customer perfectly.",
+      "question": "As used in the passage, 'altered' most nearly means",
+      "options": [
+        {
+          "t": "duplicated"
+        },
+        {
+          "t": "sold"
+        },
+        {
+          "t": "destroyed"
+        },
+        {
+          "t": "changed slightly",
+          "correct": true
+        }
+      ],
+      "words": [
+        "alter"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The tailor made small changes to the jacket's fit, which is the meaning of 'altered.'"
+    },
+    {
+      "passage": "Engineers modified the bridge's original design after wind tunnel tests revealed it would sway dangerously in strong gusts.",
+      "question": "As used in the passage, 'modified' most nearly means",
+      "options": [
+        {
+          "t": "changed to improve",
+          "correct": true
+        },
+        {
+          "t": "copied exactly"
+        },
+        {
+          "t": "publicized"
+        },
+        {
+          "t": "abandoned entirely"
+        }
+      ],
+      "words": [
+        "modify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The engineers made changes to fix a flaw revealed by testing, matching 'modified.'"
+    },
+    {
+      "passage": "Desert plants have adapted over thousands of years to conserve water, developing thick, waxy leaves that reduce evaporation in the intense heat.",
+      "question": "As used in the passage, 'adapted' most nearly means",
+      "options": [
+        {
+          "t": "become suited to new conditions",
+          "correct": true
+        },
+        {
+          "t": "disappeared"
+        },
+        {
+          "t": "migrated"
+        },
+        {
+          "t": "resisted all change"
+        }
+      ],
+      "words": [
+        "adapt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The plants changed over time to survive their environment, which is the meaning of 'adapted.'"
+    },
+    {
+      "passage": "The novelist revised the ending of her book four times, feeling that each earlier version failed to give the main character a satisfying resolution.",
+      "question": "As used in the passage, 'revised' most nearly means",
+      "options": [
+        {
+          "t": "deleted permanently"
+        },
+        {
+          "t": "changed to improve",
+          "correct": true
+        },
+        {
+          "t": "published"
+        },
+        {
+          "t": "translated"
+        }
+      ],
+      "words": [
+        "revise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The novelist reworked the ending multiple times to make it better, matching 'revised.'"
+    },
+    {
+      "passage": "The invention of the smartphone transformed daily life, merging communication, entertainment, and navigation into a single device that fits in a pocket.",
+      "question": "As used in the passage, 'transformed' most nearly means",
+      "options": [
+        {
+          "t": "destroyed"
+        },
+        {
+          "t": "changed completely",
+          "correct": true
+        },
+        {
+          "t": "ignored"
+        },
+        {
+          "t": "slightly adjusted"
+        }
+      ],
+      "words": [
+        "transform"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The smartphone caused a dramatic, thorough change in daily life, matching 'transformed.'"
+    },
+    {
+      "passage": "Public attitudes toward remote work shifted dramatically after the pandemic, with many employees now preferring flexible schedules over traditional office hours.",
+      "question": "As used in the passage, 'shifted' most nearly means",
+      "options": [
+        {
+          "t": "were forgotten"
+        },
+        {
+          "t": "moved or changed",
+          "correct": true
+        },
+        {
+          "t": "stayed exactly the same"
+        },
+        {
+          "t": "disappeared"
+        }
+      ],
+      "words": [
+        "shift"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Attitudes changed from one state to another after the pandemic, which is the meaning of 'shifted.'"
+    },
+    {
+      "passage": "Currency exchange rates fluctuate constantly, rising and falling based on interest rates, political events, and investor confidence, making long-term predictions difficult.",
+      "question": "As used in the passage, 'fluctuate' most nearly means",
+      "options": [
+        {
+          "t": "decrease steadily"
+        },
+        {
+          "t": "increase steadily"
+        },
+        {
+          "t": "change irregularly",
+          "correct": true
+        },
+        {
+          "t": "remain perfectly stable"
+        }
+      ],
+      "words": [
+        "fluctuate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes rates rising and falling unpredictably, which matches 'fluctuate.'"
+    },
+    {
+      "passage": "Language naturally evolves over generations, as new slang emerges, old words fall out of use, and pronunciation gradually shifts across regions.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Language remains fixed once it is established."
+        },
+        {
+          "t": "Pronunciation is the only part of language that changes."
+        },
+        {
+          "t": "Slang is more important than formal vocabulary."
+        },
+        {
+          "t": "Language changes gradually over time through several ongoing processes.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "evolve"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage lists several ways language shifts over generations, supporting the idea that language evolves gradually."
+    },
+    {
+      "passage": "A new leader emerged from within the grassroots movement, someone who had spent years organizing quietly before stepping into the public spotlight.",
+      "question": "As used in the passage, 'emerged' most nearly means",
+      "options": [
+        {
+          "t": "was defeated"
+        },
+        {
+          "t": "came into prominence",
+          "correct": true
+        },
+        {
+          "t": "retired"
+        },
+        {
+          "t": "disappeared"
+        }
+      ],
+      "words": [
+        "emerge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The leader became visible and prominent after years of quiet work, matching 'emerged.'"
+    },
+    {
+      "passage": "Disagreements often arise when team members have not clearly communicated their expectations from the start of a project.",
+      "question": "As used in the passage, 'arise' most nearly means",
+      "options": [
+        {
+          "t": "to be resolved"
+        },
+        {
+          "t": "to disappear"
+        },
+        {
+          "t": "to come into existence",
+          "correct": true
+        },
+        {
+          "t": "to be ignored"
+        }
+      ],
+      "words": [
+        "arise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes disagreements beginning to happen due to poor communication, matching 'arise.'"
+    },
+    {
+      "passage": "Her distrust of large crowds stems from a chaotic evacuation she experienced as a child, an event she still remembers vividly decades later.",
+      "question": "As used in the passage, 'stems from' most nearly means",
+      "options": [
+        {
+          "t": "contradicts"
+        },
+        {
+          "t": "is cured by"
+        },
+        {
+          "t": "originates from",
+          "correct": true
+        },
+        {
+          "t": "is unrelated to"
+        }
+      ],
+      "words": [
+        "stem"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Her distrust has its root cause in a childhood experience, which is the meaning of 'stems from.'"
+    },
+    {
+      "passage": "The custom of exchanging rings during a wedding ceremony is believed to have originated in ancient Egypt, where circles symbolized eternity.",
+      "question": "As used in the passage, 'originated' most nearly means",
+      "options": [
+        {
+          "t": "was forgotten"
+        },
+        {
+          "t": "was banned"
+        },
+        {
+          "t": "ended"
+        },
+        {
+          "t": "began",
+          "correct": true
+        }
+      ],
+      "words": [
+        "originate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The custom is believed to have started in ancient Egypt, matching the meaning of 'originated.'"
+    },
+    {
+      "passage": "The bridge collapse resulted from decades of deferred maintenance combined with a sudden increase in traffic load that the aging structure could no longer support.",
+      "question": "As used in the passage, 'resulted from' most nearly means",
+      "options": [
+        {
+          "t": "prevented"
+        },
+        {
+          "t": "was unrelated to"
+        },
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "was caused by",
+          "correct": true
+        }
+      ],
+      "words": [
+        "result"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The collapse happened because of maintenance neglect and traffic load, matching 'resulted from.'"
+    },
+    {
+      "passage": "Several factors contribute to urban heat islands, including dark pavement that absorbs sunlight, a lack of trees for shade, and heat released by vehicles and buildings.",
+      "question": "As used in the passage, 'contribute' most nearly means",
+      "options": [
+        {
+          "t": "help bring about a result",
+          "correct": true
+        },
+        {
+          "t": "measure precisely"
+        },
+        {
+          "t": "prevent from happening"
+        },
+        {
+          "t": "eliminate entirely"
+        }
+      ],
+      "words": [
+        "contribute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The listed factors help cause urban heat islands, which matches the meaning of 'contribute.'"
+    },
+    {
+      "passage": "Skipping breakfast can lead to a drop in blood sugar by midmorning, often causing irritability and difficulty concentrating in class.",
+      "question": "As used in the passage, 'lead to' most nearly means",
+      "options": [
+        {
+          "t": "result in",
+          "correct": true
+        },
+        {
+          "t": "prevent"
+        },
+        {
+          "t": "disguise"
+        },
+        {
+          "t": "replace"
+        }
+      ],
+      "words": [
+        "lead"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Skipping breakfast causes a later outcome, matching 'lead to' as resulting in something."
+    },
+    {
+      "passage": "A sudden drop in temperature prompted the farmers to cover their crops overnight, protecting the young plants from an unexpected frost.",
+      "question": "As used in the passage, 'prompted' most nearly means",
+      "options": [
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "caused someone to act",
+          "correct": true
+        },
+        {
+          "t": "forbade"
+        },
+        {
+          "t": "prevented"
+        }
+      ],
+      "words": [
+        "prompt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The temperature drop caused the farmers to take action, matching the meaning of 'prompted.'"
+    },
+    {
+      "passage": "A single offhand comment on social media triggered a wave of public criticism that the company struggled to control for weeks afterward.",
+      "question": "As used in the passage, 'triggered' most nearly means",
+      "options": [
+        {
+          "t": "resolved"
+        },
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "prevented"
+        },
+        {
+          "t": "set off suddenly",
+          "correct": true
+        }
+      ],
+      "words": [
+        "trigger"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The comment caused a sudden wave of criticism, which matches 'triggered.'"
+    }
+  ]
+}

@@ -1,0 +1,1836 @@
+{
+  "words": [
+    {
+      "word": "however",
+      "pos": "conjunction",
+      "definitionEn": "used to introduce a statement that contrasts with or seems to disagree with something said before",
+      "exampleEn": "The bridge was closed for repairs; however, a shuttle bus took travelers across the river.",
+      "tier": "foundation",
+      "rank": 1,
+      "synonymGroup": "contrast_connectors"
+    },
+    {
+      "word": "therefore",
+      "pos": "adverb",
+      "definitionEn": "for that reason; as a result",
+      "exampleEn": "The lake had frozen solid; therefore, the children were allowed to skate on it.",
+      "tier": "foundation",
+      "rank": 2,
+      "synonymGroup": "result_connectors"
+    },
+    {
+      "word": "moreover",
+      "pos": "adverb",
+      "definitionEn": "used to add a further point to something already said, often a stronger one",
+      "exampleEn": "The plan would cost too much; moreover, it would take at least three years to complete.",
+      "tier": "foundation",
+      "rank": 3
+    },
+    {
+      "word": "although",
+      "pos": "conjunction",
+      "definitionEn": "in spite of the fact that; used to introduce a contrast",
+      "exampleEn": "Although it rained all morning, the outdoor concert went on as scheduled.",
+      "tier": "foundation",
+      "rank": 4,
+      "synonymGroup": "contrast_connectors"
+    },
+    {
+      "word": "despite",
+      "pos": "preposition",
+      "definitionEn": "without being affected by a particular fact or thing; in spite of",
+      "exampleEn": "Despite losing the first two games, the team went on to win the championship.",
+      "tier": "foundation",
+      "rank": 5,
+      "synonymGroup": "contrast_connectors"
+    },
+    {
+      "word": "whereas",
+      "pos": "conjunction",
+      "definitionEn": "used to compare two facts or situations that are different from each other",
+      "exampleEn": "City apartments tend to be small, whereas houses in the suburbs often have several bedrooms.",
+      "tier": "foundation",
+      "rank": 6,
+      "synonymGroup": "contrast_connectors"
+    },
+    {
+      "word": "nevertheless",
+      "pos": "adverb",
+      "definitionEn": "in spite of what has just been said; even so",
+      "exampleEn": "The hikers were exhausted and the trail was steep; nevertheless, they pushed on to the summit.",
+      "tier": "foundation",
+      "rank": 7,
+      "synonymGroup": "contrast_connectors"
+    },
+    {
+      "word": "similarly",
+      "pos": "adverb",
+      "definitionEn": "in a way that is alike or the same as something already mentioned",
+      "exampleEn": "Wolves hunt in coordinated packs; similarly, dolphins often work together to herd fish.",
+      "tier": "foundation",
+      "rank": 8
+    },
+    {
+      "word": "conversely",
+      "pos": "adverb",
+      "definitionEn": "introducing a fact or idea that is the reverse or opposite of one already mentioned",
+      "exampleEn": "Prices tend to rise when supply is low; conversely, prices fall when supply is abundant.",
+      "tier": "foundation",
+      "rank": 9
+    },
+    {
+      "word": "ultimately",
+      "pos": "adverb",
+      "definitionEn": "finally, after a series of events or a chain of reasoning",
+      "exampleEn": "The negotiations dragged on for months, but the two companies ultimately reached an agreement.",
+      "tier": "foundation",
+      "rank": 10
+    },
+    {
+      "word": "primarily",
+      "pos": "adverb",
+      "definitionEn": "mainly; for the most part",
+      "exampleEn": "The museum's collection is primarily made up of paintings from the nineteenth century.",
+      "tier": "foundation",
+      "rank": 11,
+      "synonymGroup": "extent_degree"
+    },
+    {
+      "word": "particularly",
+      "pos": "adverb",
+      "definitionEn": "to a higher degree than usual or than others; especially",
+      "exampleEn": "The exam was difficult for most students, particularly those who had missed the review session.",
+      "tier": "foundation",
+      "rank": 12
+    },
+    {
+      "word": "essentially",
+      "pos": "adverb",
+      "definitionEn": "in the most important respects; basically",
+      "exampleEn": "The two proposals use different wording, but they are essentially the same plan.",
+      "tier": "foundation",
+      "rank": 13
+    },
+    {
+      "word": "generally",
+      "pos": "adverb",
+      "definitionEn": "in most cases; without regard to specific exceptions",
+      "exampleEn": "Older buildings in the city are generally shorter than the glass towers built after 2000.",
+      "tier": "foundation",
+      "rank": 14,
+      "synonymGroup": "frequency"
+    },
+    {
+      "word": "typically",
+      "pos": "adverb",
+      "definitionEn": "in most cases; in a way that shows the usual characteristics of a group",
+      "exampleEn": "Local farmers markets typically open at sunrise and close by early afternoon.",
+      "tier": "foundation",
+      "rank": 15,
+      "synonymGroup": "frequency"
+    },
+    {
+      "word": "frequently",
+      "pos": "adverb",
+      "definitionEn": "happening often or at short intervals",
+      "exampleEn": "Because the printer jams so frequently, the office keeps a spare machine on hand.",
+      "tier": "foundation",
+      "rank": 16,
+      "synonymGroup": "frequency"
+    },
+    {
+      "word": "occasionally",
+      "pos": "adverb",
+      "definitionEn": "sometimes but not often",
+      "exampleEn": "The old radio still works, though it occasionally crackles with static during storms.",
+      "tier": "foundation",
+      "rank": 17,
+      "synonymGroup": "frequency"
+    },
+    {
+      "word": "rarely",
+      "pos": "adverb",
+      "definitionEn": "not often; seldom",
+      "exampleEn": "Snow rarely falls in the coastal valley, so the children were thrilled by the flurries.",
+      "tier": "foundation",
+      "rank": 18,
+      "synonymGroup": "frequency"
+    },
+    {
+      "word": "gradually",
+      "pos": "adverb",
+      "definitionEn": "happening slowly over a period of time rather than suddenly",
+      "exampleEn": "The sky gradually brightened as the sun rose over the hills.",
+      "tier": "foundation",
+      "rank": 19,
+      "synonymGroup": "change_rate"
+    },
+    {
+      "word": "increasingly",
+      "pos": "adverb",
+      "definitionEn": "more and more as time passes",
+      "exampleEn": "Solar panels have become increasingly common on rooftops in the neighborhood.",
+      "tier": "foundation",
+      "rank": 20,
+      "synonymGroup": "change_rate"
+    },
+    {
+      "word": "notably",
+      "pos": "adverb",
+      "definitionEn": "especially; used to draw attention to something worth noticing",
+      "exampleEn": "Several students improved their scores, most notably a boy who had failed the first test.",
+      "tier": "foundation",
+      "rank": 21
+    },
+    {
+      "word": "arguably",
+      "pos": "adverb",
+      "definitionEn": "used to say that something can be reasonably argued or claimed, though it is debatable",
+      "exampleEn": "The final chapter is arguably the strongest part of the novel, though some critics disagree.",
+      "tier": "foundation",
+      "rank": 22
+    },
+    {
+      "word": "presumably",
+      "pos": "adverb",
+      "definitionEn": "used to say what one assumes or supposes to be true, without being certain",
+      "exampleEn": "The lights were off and the car was gone, so presumably the family was away on vacation.",
+      "tier": "foundation",
+      "rank": 23,
+      "synonymGroup": "seeming"
+    },
+    {
+      "word": "apparently",
+      "pos": "adverb",
+      "definitionEn": "as far as one knows or can tell from what is visible or has been reported",
+      "exampleEn": "Apparently the train was delayed, because none of the passengers on the platform had boarded yet.",
+      "tier": "foundation",
+      "rank": 24,
+      "synonymGroup": "seeming"
+    },
+    {
+      "word": "seemingly",
+      "pos": "adverb",
+      "definitionEn": "based on what appears to be true, though it may not actually be so",
+      "exampleEn": "The puzzle looked seemingly impossible until she noticed a simple pattern in the numbers.",
+      "tier": "foundation",
+      "rank": 25,
+      "synonymGroup": "seeming"
+    },
+    {
+      "word": "ostensibly",
+      "pos": "adverb",
+      "definitionEn": "apparently or claimed to be true, though possibly not so in reality",
+      "exampleEn": "The meeting was ostensibly about budget planning, but everyone knew layoffs would be discussed.",
+      "tier": "foundation",
+      "rank": 26,
+      "synonymGroup": "seeming"
+    },
+    {
+      "word": "inevitably",
+      "pos": "adverb",
+      "definitionEn": "in a way that is certain to happen and cannot be avoided",
+      "exampleEn": "When the two rivers merged, flooding inevitably followed after the heavy spring rains.",
+      "tier": "foundation",
+      "rank": 27
+    },
+    {
+      "word": "inherently",
+      "pos": "adverb",
+      "definitionEn": "in a way that is a permanent, essential part of something, not added from outside",
+      "exampleEn": "Climbing a mountain without ropes is inherently dangerous, no matter how skilled the climber is.",
+      "tier": "foundation",
+      "rank": 28
+    },
+    {
+      "word": "fundamentally",
+      "pos": "adverb",
+      "definitionEn": "in a basic and important way, affecting the most central part of something",
+      "exampleEn": "The new law fundamentally changed how the city collected and recycled its waste.",
+      "tier": "foundation",
+      "rank": 29
+    },
+    {
+      "word": "predominantly",
+      "pos": "adverb",
+      "definitionEn": "mainly; more than anything else",
+      "exampleEn": "The orchard's trees are predominantly apple, with just a few rows of pear and cherry.",
+      "tier": "foundation",
+      "rank": 30,
+      "synonymGroup": "extent_degree"
+    },
+    {
+      "word": "relatively",
+      "pos": "adverb",
+      "definitionEn": "to a fairly noticeable degree, especially when compared with something else",
+      "exampleEn": "The new phone is relatively cheap compared to last year's model, though it lacks a few features.",
+      "tier": "foundation",
+      "rank": 31
+    },
+    {
+      "word": "approximately",
+      "pos": "adverb",
+      "definitionEn": "used to show that a number or amount is close to correct but not exact",
+      "exampleEn": "The stadium holds approximately forty thousand spectators when filled to capacity.",
+      "tier": "foundation",
+      "rank": 32,
+      "synonymGroup": "estimation"
+    },
+    {
+      "word": "roughly",
+      "pos": "adverb",
+      "definitionEn": "approximately; not precisely but close to a stated amount",
+      "exampleEn": "The trip takes roughly three hours, depending on traffic near the bridge.",
+      "tier": "foundation",
+      "rank": 33,
+      "synonymGroup": "estimation"
+    },
+    {
+      "word": "considerably",
+      "pos": "adverb",
+      "definitionEn": "by a large amount; to a noticeably great degree",
+      "exampleEn": "Ticket sales rose considerably after the band announced a surprise reunion tour.",
+      "tier": "foundation",
+      "rank": 34,
+      "synonymGroup": "magnitude"
+    },
+    {
+      "word": "markedly",
+      "pos": "adverb",
+      "definitionEn": "clearly and noticeably; to an obvious degree",
+      "exampleEn": "Her handwriting improved markedly after months of practice with the new pen grip.",
+      "tier": "foundation",
+      "rank": 35,
+      "synonymGroup": "magnitude"
+    },
+    {
+      "word": "dramatically",
+      "pos": "adverb",
+      "definitionEn": "in a sudden and striking way that is easy to notice",
+      "exampleEn": "Sales of umbrellas rose dramatically the moment the storm warnings were announced.",
+      "tier": "foundation",
+      "rank": 36,
+      "synonymGroup": "magnitude"
+    },
+    {
+      "word": "substantially",
+      "pos": "adverb",
+      "definitionEn": "to a large or important extent",
+      "exampleEn": "The renovated factory produces substantially more furniture per week than the old one did.",
+      "tier": "foundation",
+      "rank": 37,
+      "synonymGroup": "magnitude"
+    },
+    {
+      "word": "concept",
+      "pos": "noun",
+      "definitionEn": "an abstract idea or general notion",
+      "exampleEn": "Before building the app, the team sketched out the basic concept on a whiteboard.",
+      "tier": "foundation",
+      "rank": 38
+    },
+    {
+      "word": "context",
+      "pos": "noun",
+      "definitionEn": "the circumstances or background that help explain an event, statement, or idea",
+      "exampleEn": "Without knowing the historical context, the poem's references to war are hard to understand.",
+      "tier": "foundation",
+      "rank": 39
+    },
+    {
+      "word": "contrast",
+      "pos": "noun",
+      "definitionEn": "a clear difference between two or more things when compared",
+      "exampleEn": "The contrast between the crowded city streets and the quiet countryside surprised the visitor.",
+      "tier": "foundation",
+      "rank": 40,
+      "synonymGroup": "comparison_nouns"
+    },
+    {
+      "word": "comparison",
+      "pos": "noun",
+      "definitionEn": "an act of examining how two or more things are similar or different",
+      "exampleEn": "A comparison of the two essays showed that both writers used similar evidence.",
+      "tier": "foundation",
+      "rank": 41,
+      "synonymGroup": "comparison_nouns"
+    },
+    {
+      "word": "correlation",
+      "pos": "noun",
+      "definitionEn": "a relationship in which two things tend to change or occur together",
+      "exampleEn": "Researchers found a correlation between hours of sleep and test performance among the students.",
+      "tier": "foundation",
+      "rank": 42
+    },
+    {
+      "word": "contradiction",
+      "pos": "noun",
+      "definitionEn": "a statement or fact that is the opposite of, or inconsistent with, another",
+      "exampleEn": "The witness's testimony contained a contradiction, since she first said she was home and later said she was not.",
+      "tier": "foundation",
+      "rank": 43,
+      "synonymGroup": "comparison_nouns"
+    },
+    {
+      "word": "distinction",
+      "pos": "noun",
+      "definitionEn": "a clear difference or division between two similar things",
+      "exampleEn": "The teacher explained the distinction between a simile and a metaphor using two examples.",
+      "tier": "foundation",
+      "rank": 44,
+      "synonymGroup": "comparison_nouns"
+    },
+    {
+      "word": "implication",
+      "pos": "noun",
+      "definitionEn": "something that is suggested or implied without being stated directly",
+      "exampleEn": "The mayor's silence carried the implication that the budget cuts were already decided.",
+      "tier": "foundation",
+      "rank": 45
+    },
+    {
+      "word": "interpretation",
+      "pos": "noun",
+      "definitionEn": "a particular way of explaining or understanding the meaning of something",
+      "exampleEn": "Different readers offered different interpretations of the ending, since the author left it unresolved.",
+      "tier": "foundation",
+      "rank": 46
+    },
+    {
+      "word": "perspective",
+      "pos": "noun",
+      "definitionEn": "a particular way of viewing or thinking about a situation",
+      "exampleEn": "Traveling abroad gave her a new perspective on how other cultures handle daily life.",
+      "tier": "foundation",
+      "rank": 47
+    },
+    {
+      "word": "assumption",
+      "pos": "noun",
+      "definitionEn": "something accepted as true without proof",
+      "exampleEn": "The plan rested on the assumption that ticket sales would double every year.",
+      "tier": "foundation",
+      "rank": 48
+    },
+    {
+      "word": "conclusion",
+      "pos": "noun",
+      "definitionEn": "a final judgment or decision reached after considering evidence",
+      "exampleEn": "After reviewing the data twice, the scientists reached the conclusion that the drug was effective.",
+      "tier": "foundation",
+      "rank": 49
+    },
+    {
+      "word": "evidence",
+      "pos": "noun",
+      "definitionEn": "facts or information that show whether something is true or valid",
+      "exampleEn": "The lawyer presented photographs and receipts as evidence that her client was elsewhere that night.",
+      "tier": "foundation",
+      "rank": 50
+    },
+    {
+      "word": "argument",
+      "pos": "noun",
+      "definitionEn": "a set of reasons given to support or oppose an idea",
+      "exampleEn": "His argument for shorter school days relied heavily on studies about student fatigue.",
+      "tier": "foundation",
+      "rank": 51
+    },
+    {
+      "word": "analysis",
+      "pos": "noun",
+      "definitionEn": "a detailed examination of something in order to understand it better",
+      "exampleEn": "Her analysis of the sales figures revealed that most customers shopped on weekends.",
+      "tier": "foundation",
+      "rank": 52,
+      "synonymGroup": "inquiry_nouns"
+    },
+    {
+      "word": "synthesis",
+      "pos": "noun",
+      "definitionEn": "the combining of separate ideas or elements to form a coherent whole",
+      "exampleEn": "The final report was a synthesis of three separate research teams' findings.",
+      "tier": "foundation",
+      "rank": 53
+    },
+    {
+      "word": "evaluation",
+      "pos": "noun",
+      "definitionEn": "a careful judgment of the quality, value, or importance of something",
+      "exampleEn": "The teacher's evaluation of the essay praised its structure but criticized its weak conclusion.",
+      "tier": "foundation",
+      "rank": 54,
+      "synonymGroup": "inquiry_nouns"
+    },
+    {
+      "word": "observation",
+      "pos": "noun",
+      "definitionEn": "the act of watching something carefully, or a comment based on such watching",
+      "exampleEn": "Years of careful observation allowed the astronomer to predict the comet's return.",
+      "tier": "foundation",
+      "rank": 55,
+      "synonymGroup": "inquiry_nouns"
+    },
+    {
+      "word": "phenomenon",
+      "pos": "noun",
+      "definitionEn": "a fact, event, or situation that is observed to exist or happen, often unusual",
+      "exampleEn": "The northern lights are a natural phenomenon caused by charged particles from the sun.",
+      "tier": "foundation",
+      "rank": 56
+    },
+    {
+      "word": "methodology",
+      "pos": "noun",
+      "definitionEn": "a system of methods used in a particular field of study or activity",
+      "exampleEn": "The two studies reached different results partly because they used a different methodology for collecting data.",
+      "tier": "foundation",
+      "rank": 57
+    },
+    {
+      "word": "hypothesis",
+      "pos": "noun",
+      "definitionEn": "a proposed explanation made on the basis of limited evidence, to be tested further",
+      "exampleEn": "Her hypothesis was that plants grow faster under blue light, so she designed an experiment to test it.",
+      "tier": "foundation",
+      "rank": 58
+    },
+    {
+      "word": "theory",
+      "pos": "noun",
+      "definitionEn": "a well-supported explanation of some aspect of the world, based on evidence and testing",
+      "exampleEn": "The theory of plate tectonics explains why earthquakes cluster along certain lines on the map.",
+      "tier": "foundation",
+      "rank": 59
+    },
+    {
+      "word": "principle",
+      "pos": "noun",
+      "definitionEn": "a fundamental rule or belief that guides behavior or reasoning",
+      "exampleEn": "The company operates on the principle that customers should never be misled by advertising.",
+      "tier": "foundation",
+      "rank": 60
+    },
+    {
+      "word": "framework",
+      "pos": "noun",
+      "definitionEn": "a basic structure of ideas or rules that supports a plan or system",
+      "exampleEn": "The city adopted a new framework for evaluating which streets need repair first.",
+      "tier": "foundation",
+      "rank": 61
+    },
+    {
+      "word": "paradigm",
+      "pos": "noun",
+      "definitionEn": "a typical example or pattern of something; a widely accepted model of thinking",
+      "exampleEn": "The invention of the internet created a new paradigm for how people share information.",
+      "tier": "foundation",
+      "rank": 62
+    },
+    {
+      "word": "factor",
+      "pos": "noun",
+      "definitionEn": "one of several things that influences or causes a result",
+      "exampleEn": "Rainfall was the biggest factor in the farmer's decision to plant later than usual.",
+      "tier": "foundation",
+      "rank": 63
+    },
+    {
+      "word": "variable",
+      "pos": "noun",
+      "definitionEn": "an element, feature, or factor that is liable to change",
+      "exampleEn": "In the experiment, the only variable the scientists changed was the amount of sunlight each plant received.",
+      "tier": "foundation",
+      "rank": 64
+    },
+    {
+      "word": "outcome",
+      "pos": "noun",
+      "definitionEn": "the result or effect of an action or event",
+      "exampleEn": "The outcome of the election surprised pollsters, who had predicted a much closer race.",
+      "tier": "foundation",
+      "rank": 65,
+      "synonymGroup": "result_nouns"
+    },
+    {
+      "word": "consequence",
+      "pos": "noun",
+      "definitionEn": "a result or effect, often a serious one, of an action or condition",
+      "exampleEn": "Missing the deadline had serious consequences for the team's chances of winning the contract.",
+      "tier": "foundation",
+      "rank": 66,
+      "synonymGroup": "result_nouns"
+    },
+    {
+      "word": "impact",
+      "pos": "noun",
+      "definitionEn": "a strong effect or influence that one thing has on another",
+      "exampleEn": "The new highway had a major impact on the small town's traffic and local businesses.",
+      "tier": "foundation",
+      "rank": 67,
+      "synonymGroup": "influence_nouns"
+    },
+    {
+      "word": "influence",
+      "pos": "noun",
+      "definitionEn": "the power to affect someone's or something's development, behavior, or character",
+      "exampleEn": "Her grandmother's cooking had a lasting influence on the recipes she developed as a chef.",
+      "tier": "foundation",
+      "rank": 68,
+      "synonymGroup": "influence_nouns"
+    },
+    {
+      "word": "effect",
+      "pos": "noun",
+      "definitionEn": "a change that results directly from an action or cause",
+      "exampleEn": "The medicine's main effect was to reduce the fever within a few hours.",
+      "tier": "foundation",
+      "rank": 69,
+      "synonymGroup": "result_nouns"
+    },
+    {
+      "word": "cause",
+      "pos": "noun",
+      "definitionEn": "a person, thing, or event that produces an effect or result",
+      "exampleEn": "Investigators determined that a faulty wire was the cause of the warehouse fire.",
+      "tier": "foundation",
+      "rank": 70
+    },
+    {
+      "word": "mechanism",
+      "pos": "noun",
+      "definitionEn": "a system of parts working together, or a process by which something happens",
+      "exampleEn": "Scientists are still studying the exact mechanism by which the vaccine triggers immunity.",
+      "tier": "foundation",
+      "rank": 71
+    },
+    {
+      "word": "process",
+      "pos": "noun",
+      "definitionEn": "a series of actions or steps taken to achieve a particular result",
+      "exampleEn": "Applying for the scholarship involves a long process of essays, interviews, and recommendation letters.",
+      "tier": "foundation",
+      "rank": 72,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "procedure",
+      "pos": "noun",
+      "definitionEn": "an established or official way of doing something, usually with a series of steps",
+      "exampleEn": "The nurse followed the hospital's standard procedure for checking a patient's blood pressure.",
+      "tier": "foundation",
+      "rank": 73,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "strategy",
+      "pos": "noun",
+      "definitionEn": "a plan of action designed to achieve a long-term goal",
+      "exampleEn": "The coach's strategy for the final game relied on tiring out the opposing team's fastest players.",
+      "tier": "foundation",
+      "rank": 74,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "approach",
+      "pos": "noun",
+      "definitionEn": "a way of dealing with or thinking about a problem or task",
+      "exampleEn": "The new teacher's approach to grammar involved games instead of worksheets.",
+      "tier": "foundation",
+      "rank": 75,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "technique",
+      "pos": "noun",
+      "definitionEn": "a particular way of carrying out a task, especially one requiring skill",
+      "exampleEn": "The sculptor used a special technique to carve fine details into the marble.",
+      "tier": "foundation",
+      "rank": 76,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "method",
+      "pos": "noun",
+      "definitionEn": "a particular procedure for accomplishing something",
+      "exampleEn": "Boiling water is the simplest method for making it safe to drink.",
+      "tier": "foundation",
+      "rank": 77,
+      "synonymGroup": "method_nouns"
+    },
+    {
+      "word": "function",
+      "pos": "noun",
+      "definitionEn": "the natural or intended purpose of something; what it is meant to do",
+      "exampleEn": "The main function of the heart is to pump blood throughout the body.",
+      "tier": "foundation",
+      "rank": 78,
+      "synonymGroup": "purpose_nouns"
+    },
+    {
+      "word": "role",
+      "pos": "noun",
+      "definitionEn": "the part someone or something plays in a particular situation or process",
+      "exampleEn": "Bees play a crucial role in pollinating the crops that feed much of the world.",
+      "tier": "foundation",
+      "rank": 79
+    },
+    {
+      "word": "purpose",
+      "pos": "noun",
+      "definitionEn": "the reason for which something is done or exists",
+      "exampleEn": "The purpose of the meeting was to decide how to spend the club's remaining budget.",
+      "tier": "foundation",
+      "rank": 80,
+      "synonymGroup": "purpose_nouns"
+    },
+    {
+      "word": "structure",
+      "pos": "noun",
+      "definitionEn": "the arrangement of and relations between the parts of something",
+      "exampleEn": "The structure of the novel alternates between chapters set in the past and the present.",
+      "tier": "foundation",
+      "rank": 81
+    },
+    {
+      "word": "pattern",
+      "pos": "noun",
+      "definitionEn": "a regular and repeated way in which something happens or is arranged",
+      "exampleEn": "The detective noticed a pattern in the thefts: they always happened on rainy nights.",
+      "tier": "foundation",
+      "rank": 82,
+      "synonymGroup": "regularity_nouns"
+    },
+    {
+      "word": "trend",
+      "pos": "noun",
+      "definitionEn": "a general direction in which something is developing or changing over time",
+      "exampleEn": "There has been a growing trend toward remote work since more companies adopted video calls.",
+      "tier": "foundation",
+      "rank": 83,
+      "synonymGroup": "regularity_nouns"
+    },
+    {
+      "word": "tendency",
+      "pos": "noun",
+      "definitionEn": "a habitual inclination to think or act in a particular way",
+      "exampleEn": "He has a tendency to arrive late, so his friends always tell him an earlier time.",
+      "tier": "foundation",
+      "rank": 84,
+      "synonymGroup": "regularity_nouns"
+    },
+    {
+      "word": "characteristic",
+      "pos": "noun",
+      "definitionEn": "a feature or quality typical of a person, place, or thing",
+      "exampleEn": "Bright orange feathers are a defining characteristic of the male cardinal.",
+      "tier": "foundation",
+      "rank": 85,
+      "synonymGroup": "trait_nouns"
+    },
+    {
+      "word": "feature",
+      "pos": "noun",
+      "definitionEn": "a distinctive attribute or aspect of something",
+      "exampleEn": "One notable feature of the new phone is its unusually long battery life.",
+      "tier": "foundation",
+      "rank": 86,
+      "synonymGroup": "trait_nouns"
+    },
+    {
+      "word": "quality",
+      "pos": "noun",
+      "definitionEn": "a distinctive characteristic or attribute that something possesses",
+      "exampleEn": "Patience is a quality every good teacher needs when working with young children.",
+      "tier": "foundation",
+      "rank": 87,
+      "synonymGroup": "trait_nouns"
+    },
+    {
+      "word": "trait",
+      "pos": "noun",
+      "definitionEn": "a particular characteristic, especially of someone's personality",
+      "exampleEn": "Curiosity is a common trait among successful scientists.",
+      "tier": "foundation",
+      "rank": 88,
+      "synonymGroup": "trait_nouns"
+    },
+    {
+      "word": "aspect",
+      "pos": "noun",
+      "definitionEn": "one particular part or feature of a situation, idea, or problem",
+      "exampleEn": "The report examined every aspect of the company's spending, from salaries to office supplies.",
+      "tier": "foundation",
+      "rank": 89
+    },
+    {
+      "word": "element",
+      "pos": "noun",
+      "definitionEn": "one part of something that combines with other parts to form a whole",
+      "exampleEn": "Surprise is a key element of a good mystery novel.",
+      "tier": "foundation",
+      "rank": 90
+    },
+    {
+      "word": "dimension",
+      "pos": "noun",
+      "definitionEn": "an aspect or feature of a situation, especially one adding complexity",
+      "exampleEn": "The scandal added a new dimension to the election that reporters had not expected.",
+      "tier": "foundation",
+      "rank": 91
+    },
+    {
+      "word": "category",
+      "pos": "noun",
+      "definitionEn": "a group of things that share particular features and are classified together",
+      "exampleEn": "The librarian sorted the new books into categories such as history, fiction, and science.",
+      "tier": "foundation",
+      "rank": 92
+    },
+    {
+      "word": "classification",
+      "pos": "noun",
+      "definitionEn": "the act of arranging things into groups based on shared characteristics",
+      "exampleEn": "The scientist's classification of the insects was based on the shape of their wings.",
+      "tier": "foundation",
+      "rank": 93
+    },
+    {
+      "word": "identity",
+      "pos": "noun",
+      "definitionEn": "the qualities and characteristics that make a person or thing who or what it is",
+      "exampleEn": "The city's murals have become a central part of its cultural identity.",
+      "tier": "foundation",
+      "rank": 94
+    },
+    {
+      "word": "clarity",
+      "pos": "noun",
+      "definitionEn": "the quality of being clear and easy to understand",
+      "exampleEn": "The professor was praised for the clarity of her explanations, even on difficult topics.",
+      "tier": "foundation",
+      "rank": 95,
+      "synonymGroup": "precision_nouns"
+    },
+    {
+      "word": "accuracy",
+      "pos": "noun",
+      "definitionEn": "the quality of being correct or precise",
+      "exampleEn": "The weather forecast's accuracy has improved greatly thanks to better satellite data.",
+      "tier": "foundation",
+      "rank": 96,
+      "synonymGroup": "precision_nouns"
+    },
+    {
+      "word": "precision",
+      "pos": "noun",
+      "definitionEn": "the quality of being exact and accurate",
+      "exampleEn": "The surgeon worked with great precision, careful not to damage the surrounding tissue.",
+      "tier": "foundation",
+      "rank": 97,
+      "synonymGroup": "precision_nouns"
+    },
+    {
+      "word": "consistency",
+      "pos": "noun",
+      "definitionEn": "the quality of always behaving or performing in the same way over time",
+      "exampleEn": "The runner's consistency, not just her speed, is what impressed the coaches most.",
+      "tier": "foundation",
+      "rank": 98,
+      "synonymGroup": "dependability_nouns"
+    },
+    {
+      "word": "validity",
+      "pos": "noun",
+      "definitionEn": "the quality of being logically or factually sound; well-grounded",
+      "exampleEn": "Critics questioned the validity of the survey because so few people had responded.",
+      "tier": "foundation",
+      "rank": 99,
+      "synonymGroup": "dependability_nouns"
+    },
+    {
+      "word": "reliability",
+      "pos": "noun",
+      "definitionEn": "the quality of being trustworthy or performing consistently well",
+      "exampleEn": "The old truck was known for its reliability, starting on even the coldest mornings.",
+      "tier": "foundation",
+      "rank": 100,
+      "synonymGroup": "dependability_nouns"
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "The city council promised that the new stadium would revitalize downtown businesses. However, three years after its construction, many of the surrounding shops have closed rather than thrived.",
+      "question": "As used in the passage, \"however\" most nearly means",
+      "options": [
+        {
+          "t": "in contrast to what was expected",
+          "correct": true
+        },
+        {
+          "t": "in addition to what was said"
+        },
+        {
+          "t": "for that reason"
+        },
+        {
+          "t": "in the same way"
+        }
+      ],
+      "words": [
+        "however"
+      ],
+      "domain": "expression_conventions",
+      "explanation": "The passage sets up a contrast between the promise of revitalization and the closed shops, so \"however\" signals that contrast."
+    },
+    {
+      "passage": "The lake had been frozen solid for over a week, with ice thick enough to support a truck. Therefore, the town officially opened the ice rink for public skating on Saturday.",
+      "question": "As used in the passage, \"therefore\" most nearly means",
+      "options": [
+        {
+          "t": "in spite of the fact just stated"
+        },
+        {
+          "t": "at the same time as the fact just stated"
+        },
+        {
+          "t": "as a result of the fact just stated",
+          "correct": true
+        },
+        {
+          "t": "as an alternative to the fact just stated"
+        }
+      ],
+      "words": [
+        "therefore"
+      ],
+      "domain": "expression_conventions",
+      "explanation": "The thick ice is the reason the rink could open, and \"therefore\" introduces that logical result."
+    },
+    {
+      "passage": "The proposed factory would create hundreds of jobs. Moreover, it would fund a new water treatment plant that the town desperately needs. Residents who once opposed the project are reconsidering.",
+      "question": "Which choice best describes the function of \"Moreover\" in the passage?",
+      "options": [
+        {
+          "t": "It introduces an additional, stronger reason in favor of the factory.",
+          "correct": true
+        },
+        {
+          "t": "It signals that the writer is about to contradict the first sentence."
+        },
+        {
+          "t": "It introduces a reason to oppose the factory."
+        },
+        {
+          "t": "It restates the first sentence in different words."
+        }
+      ],
+      "words": [
+        "moreover"
+      ],
+      "domain": "craft_structure",
+      "explanation": "\"Moreover\" adds a second, weightier benefit (the water treatment plant) on top of the jobs already mentioned, strengthening the case for the factory."
+    },
+    {
+      "passage": "Although the violinist had practiced for only two months, she performed the difficult concerto with remarkable confidence, surprising even her own teacher.",
+      "question": "As used in the passage, \"Although\" most nearly means",
+      "options": [
+        {
+          "t": "in the same way that"
+        },
+        {
+          "t": "despite the fact that",
+          "correct": true
+        },
+        {
+          "t": "as soon as"
+        },
+        {
+          "t": "because"
+        }
+      ],
+      "words": [
+        "although"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The sentence contrasts limited practice time with an impressively confident performance, which is the relationship \"although\" expresses."
+    },
+    {
+      "passage": "Despite years of drought, the ancient olive grove continued to produce fruit, its deep roots reaching water that newer, shallow-rooted trees could not find.",
+      "question": "As used in the passage, \"Despite\" most nearly means",
+      "options": [
+        {
+          "t": "in comparison with"
+        },
+        {
+          "t": "at the same time as"
+        },
+        {
+          "t": "not being prevented by",
+          "correct": true
+        },
+        {
+          "t": "as a direct result of"
+        }
+      ],
+      "words": [
+        "despite"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The grove kept producing fruit even though there was a drought, so \"despite\" shows the drought did not prevent the outcome."
+    },
+    {
+      "passage": "Coastal cities generally have mild winters, whereas cities in the interior of the continent often experience extreme cold, since they lack the ocean's moderating effect on temperature.",
+      "question": "As used in the passage, \"whereas\" most nearly means",
+      "options": [
+        {
+          "t": "in contrast with the fact that",
+          "correct": true
+        },
+        {
+          "t": "as an example of the fact that"
+        },
+        {
+          "t": "in support of the fact that"
+        },
+        {
+          "t": "immediately after the fact that"
+        }
+      ],
+      "words": [
+        "whereas"
+      ],
+      "domain": "expression_conventions",
+      "explanation": "The sentence draws a contrast between mild coastal winters and extreme interior cold, which is exactly the relationship \"whereas\" signals."
+    },
+    {
+      "passage": "The climbers had lost their map and their water supply was running low. Nevertheless, they refused to turn back, certain that the summit was only a few hours away.",
+      "question": "Which choice best describes the function of \"Nevertheless\" in the passage?",
+      "options": [
+        {
+          "t": "It signals that the climbers persisted despite difficult circumstances.",
+          "correct": true
+        },
+        {
+          "t": "It signals that the climbers gave up because of difficult circumstances."
+        },
+        {
+          "t": "It explains why the climbers lost their map."
+        },
+        {
+          "t": "It introduces a new, unrelated difficulty the climbers faced."
+        }
+      ],
+      "words": [
+        "nevertheless"
+      ],
+      "domain": "craft_structure",
+      "explanation": "\"Nevertheless\" connects the climbers' hardships to their decision to continue anyway, showing persistence in spite of the obstacles."
+    },
+    {
+      "passage": "Migratory birds rely on the position of the sun to navigate long distances. Similarly, some species of moths use the moon as a fixed point of reference when flying at night.",
+      "question": "As used in the passage, \"Similarly\" most nearly means",
+      "options": [
+        {
+          "t": "in an opposing manner"
+        },
+        {
+          "t": "as a final result"
+        },
+        {
+          "t": "in a comparable manner",
+          "correct": true
+        },
+        {
+          "t": "for an unrelated reason"
+        }
+      ],
+      "words": [
+        "similarly"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage compares how birds and moths both use celestial bodies to navigate, so \"similarly\" points to that likeness."
+    },
+    {
+      "passage": "When interest rates fall, businesses tend to borrow more money to expand. Conversely, when interest rates climb, businesses often delay expansion plans until borrowing becomes less costly.",
+      "question": "As used in the passage, \"Conversely\" most nearly means",
+      "options": [
+        {
+          "t": "expressing the same situation again"
+        },
+        {
+          "t": "expressing the reverse situation",
+          "correct": true
+        },
+        {
+          "t": "expressing the cause of the situation"
+        },
+        {
+          "t": "expressing an unrelated situation"
+        }
+      ],
+      "words": [
+        "conversely"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage flips the scenario from falling rates to rising rates and the opposite business behavior, which \"conversely\" signals."
+    },
+    {
+      "passage": "The startup faced setbacks, lawsuits, and a departing co-founder in its first two years. Ultimately, though, it secured enough funding to survive and later became profitable.",
+      "question": "As used in the passage, \"Ultimately\" most nearly means",
+      "options": [
+        {
+          "t": "unexpectedly and only once"
+        },
+        {
+          "t": "from the very beginning"
+        },
+        {
+          "t": "in the end, after everything else",
+          "correct": true
+        },
+        {
+          "t": "occasionally"
+        }
+      ],
+      "words": [
+        "ultimately"
+      ],
+      "domain": "words_in_context",
+      "explanation": "\"Ultimately\" points to the final outcome after a series of setbacks, meaning the company survived in the end."
+    },
+    {
+      "passage": "The museum's new wing is primarily devoted to modern sculpture, though a small side gallery also displays photography from the 1960s.",
+      "question": "As used in the passage, \"primarily\" most nearly means",
+      "options": [
+        {
+          "t": "occasionally"
+        },
+        {
+          "t": "briefly"
+        },
+        {
+          "t": "mainly",
+          "correct": true
+        },
+        {
+          "t": "surprisingly"
+        }
+      ],
+      "words": [
+        "primarily"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The wing is mostly for sculpture, with only a small side gallery for something else, matching the meaning of \"mainly.\""
+    },
+    {
+      "passage": "Over the course of several decades, the glacier gradually retreated up the valley, leaving behind ridges of rock and gravel that mark its former path.",
+      "question": "As used in the passage, \"gradually\" most nearly means",
+      "options": [
+        {
+          "t": "predictably, on a fixed schedule"
+        },
+        {
+          "t": "slowly, over time",
+          "correct": true
+        },
+        {
+          "t": "rarely"
+        },
+        {
+          "t": "suddenly, all at once"
+        }
+      ],
+      "words": [
+        "gradually"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The retreat happened across decades, not in a single moment, which is the meaning of \"gradually.\""
+    },
+    {
+      "passage": "Several team members contributed valuable ideas during the brainstorming session, most notably the intern, whose suggestion became the basis of the final campaign.",
+      "question": "As used in the passage, \"notably\" most nearly means",
+      "options": [
+        {
+          "t": "rarely seen"
+        },
+        {
+          "t": "briefly and without detail"
+        },
+        {
+          "t": "especially worth mentioning",
+          "correct": true
+        },
+        {
+          "t": "somewhat doubtfully"
+        }
+      ],
+      "words": [
+        "notably"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The intern's contribution is singled out as particularly significant, which fits the meaning of \"notably.\""
+    },
+    {
+      "passage": "The store's shelves were empty and the lights were off; presumably, the owners had closed early because of the storm warning.",
+      "question": "As used in the passage, \"presumably\" most nearly means",
+      "options": [
+        {
+          "t": "for an entirely unrelated reason"
+        },
+        {
+          "t": "in complete contradiction"
+        },
+        {
+          "t": "as one would reasonably assume",
+          "correct": true
+        },
+        {
+          "t": "as has been proven with certainty"
+        }
+      ],
+      "words": [
+        "presumably"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The narrator is guessing at a reason based on the visible evidence, which is exactly what \"presumably\" signals."
+    },
+    {
+      "passage": "Once the dam's foundation began to crack, engineers knew that a costly repair was inevitably going to be necessary, regardless of how the town's budget looked.",
+      "question": "As used in the passage, \"inevitably\" most nearly means",
+      "options": [
+        {
+          "t": "in a way that is optional"
+        },
+        {
+          "t": "in a way that is temporary"
+        },
+        {
+          "t": "in a way that cannot be avoided",
+          "correct": true
+        },
+        {
+          "t": "in a way that is unlikely"
+        }
+      ],
+      "words": [
+        "inevitably"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The cracking foundation makes the repair certain regardless of other factors, matching the meaning of \"inevitably.\""
+    },
+    {
+      "passage": "The reform did not just adjust a few rules; it fundamentally reshaped how the entire agency reviewed and approved applications.",
+      "question": "As used in the passage, \"fundamentally\" most nearly means",
+      "options": [
+        {
+          "t": "unpredictably"
+        },
+        {
+          "t": "at the most basic and important level",
+          "correct": true
+        },
+        {
+          "t": "temporarily"
+        },
+        {
+          "t": "only slightly"
+        }
+      ],
+      "words": [
+        "fundamentally"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage emphasizes deep, central change rather than minor adjustment, matching \"fundamentally.\""
+    },
+    {
+      "passage": "After years of speech therapy, his stutter improved markedly, and teachers who had known him before could hardly believe the difference.",
+      "question": "As used in the passage, \"markedly\" most nearly means",
+      "options": [
+        {
+          "t": "temporarily"
+        },
+        {
+          "t": "noticeably",
+          "correct": true
+        },
+        {
+          "t": "barely"
+        },
+        {
+          "t": "unpredictably"
+        }
+      ],
+      "words": [
+        "markedly"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Teachers being unable to believe the difference shows the improvement was obvious, matching \"markedly.\""
+    },
+    {
+      "passage": "The clinic's new scheduling software substantially reduced patient wait times, cutting the average visit from ninety minutes to just thirty.",
+      "question": "As used in the passage, \"substantially\" most nearly means",
+      "options": [
+        {
+          "t": "temporarily"
+        },
+        {
+          "t": "to a minor extent"
+        },
+        {
+          "t": "unclearly"
+        },
+        {
+          "t": "to a large extent",
+          "correct": true
+        }
+      ],
+      "words": [
+        "substantially"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The reduction from ninety minutes to thirty is significant, matching the meaning of \"substantially.\""
+    },
+    {
+      "passage": "To understand why the treaty was signed, historians argue that readers must consider the full context: the recent war, the failing economy, and the leaders' desire for peace.",
+      "question": "As used in the passage, \"context\" most nearly means",
+      "options": [
+        {
+          "t": "a person's personal opinion"
+        },
+        {
+          "t": "a formal written agreement"
+        },
+        {
+          "t": "the surrounding circumstances that explain an event",
+          "correct": true
+        },
+        {
+          "t": "the exact date an event occurred"
+        }
+      ],
+      "words": [
+        "context"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage lists background circumstances needed to understand the treaty, which is the meaning of \"context.\""
+    },
+    {
+      "passage": "The contrast between the bustling market at dawn and its empty silence by midnight struck every visitor who stayed the full day.",
+      "question": "As used in the passage, \"contrast\" most nearly means",
+      "options": [
+        {
+          "t": "a close similarity between two things"
+        },
+        {
+          "t": "an agreement between two people"
+        },
+        {
+          "t": "a gradual change over time"
+        },
+        {
+          "t": "a striking difference between two things",
+          "correct": true
+        }
+      ],
+      "words": [
+        "contrast",
+        "comparison"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage highlights the striking difference between the market at dawn and at midnight, which is the meaning of \"contrast.\""
+    },
+    {
+      "passage": "Researchers observed a correlation between the amount of screen time before bed and how long it took children to fall asleep, though they were careful not to claim one directly caused the other.",
+      "question": "Which choice best supports the claim that the researchers were cautious in their conclusions?",
+      "options": [
+        {
+          "t": "\"how long it took children to fall asleep\""
+        },
+        {
+          "t": "\"they were careful not to claim one directly caused the other\"",
+          "correct": true
+        },
+        {
+          "t": "\"Researchers observed a correlation\""
+        },
+        {
+          "t": "\"the amount of screen time before bed\""
+        }
+      ],
+      "words": [
+        "correlation"
+      ],
+      "domain": "info_ideas",
+      "explanation": "This phrase explicitly shows the researchers avoided overstating their findings by not claiming causation, directly supporting the claim of caution."
+    },
+    {
+      "passage": "The witness's statement contained a clear contradiction: she told police she had been home all evening, yet a security camera placed her at the store two blocks away.",
+      "question": "As used in the passage, \"contradiction\" most nearly means",
+      "options": [
+        {
+          "t": "a formal legal accusation"
+        },
+        {
+          "t": "a detailed explanation of events"
+        },
+        {
+          "t": "a statement that confirms other evidence"
+        },
+        {
+          "t": "a statement that conflicts with other evidence",
+          "correct": true
+        }
+      ],
+      "words": [
+        "contradiction"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The security footage directly conflicts with her claim of being home, which is what \"contradiction\" describes."
+    },
+    {
+      "passage": "The teacher emphasized the distinction between a hypothesis, which is merely a proposed explanation, and a theory, which has been tested and supported extensively.",
+      "question": "As used in the passage, \"distinction\" most nearly means",
+      "options": [
+        {
+          "t": "a close resemblance"
+        },
+        {
+          "t": "a shared characteristic"
+        },
+        {
+          "t": "a meaningful difference",
+          "correct": true
+        },
+        {
+          "t": "a formal award"
+        }
+      ],
+      "words": [
+        "distinction",
+        "hypothesis",
+        "theory"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage explains how a hypothesis and a theory differ, which is the meaning of \"distinction.\""
+    },
+    {
+      "passage": "The entire marketing plan rested on the assumption that younger customers would prefer the app's new design, but early feedback suggested otherwise.",
+      "question": "As used in the passage, \"assumption\" most nearly means",
+      "options": [
+        {
+          "t": "a scientific law proven by experiment"
+        },
+        {
+          "t": "a well-tested conclusion"
+        },
+        {
+          "t": "an idea accepted as true without proof",
+          "correct": true
+        },
+        {
+          "t": "a formal legal requirement"
+        }
+      ],
+      "words": [
+        "assumption"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The plan assumed customer preference without confirming it, and the feedback challenges that unproven belief, matching \"assumption.\""
+    },
+    {
+      "passage": "The prosecutor presented fingerprints, security footage, and phone records as evidence linking the defendant to the scene of the crime.",
+      "question": "As used in the passage, \"evidence\" most nearly means",
+      "options": [
+        {
+          "t": "a formal apology"
+        },
+        {
+          "t": "a legal punishment"
+        },
+        {
+          "t": "a personal opinion"
+        },
+        {
+          "t": "facts used to support a claim",
+          "correct": true
+        }
+      ],
+      "words": [
+        "evidence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The fingerprints, footage, and records are facts supporting the claim of guilt, which is the meaning of \"evidence.\""
+    },
+    {
+      "passage": "A careful analysis of the company's spending revealed that most of the budget went toward marketing rather than product development.",
+      "question": "As used in the passage, \"analysis\" most nearly means",
+      "options": [
+        {
+          "t": "a formal complaint"
+        },
+        {
+          "t": "a detailed examination",
+          "correct": true
+        },
+        {
+          "t": "a brief guess"
+        },
+        {
+          "t": "a public announcement"
+        }
+      ],
+      "words": [
+        "analysis"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes a careful examination of spending that reveals a pattern, matching the meaning of \"analysis.\""
+    },
+    {
+      "passage": "The teacher's evaluation of the essay praised its clear structure but noted that the concluding paragraph needed more supporting detail.",
+      "question": "As used in the passage, \"evaluation\" most nearly means",
+      "options": [
+        {
+          "t": "a strict punishment"
+        },
+        {
+          "t": "a word-for-word copy"
+        },
+        {
+          "t": "a public reading"
+        },
+        {
+          "t": "a judgment of quality",
+          "correct": true
+        }
+      ],
+      "words": [
+        "evaluation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The teacher is judging the essay's strengths and weaknesses, which is the meaning of \"evaluation.\""
+    },
+    {
+      "passage": "The nonprofit operates on the principle that no family should be turned away from receiving food assistance, regardless of income or documentation status.",
+      "question": "As used in the passage, \"principle\" most nearly means",
+      "options": [
+        {
+          "t": "a fundamental guiding rule or belief",
+          "correct": true
+        },
+        {
+          "t": "a legal punishment"
+        },
+        {
+          "t": "a temporary exception"
+        },
+        {
+          "t": "a financial cost"
+        }
+      ],
+      "words": [
+        "principle"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The nonprofit's core belief guides all of its decisions, which is the meaning of \"principle.\""
+    },
+    {
+      "passage": "City planners adopted a new framework for deciding which roads needed repair first, weighing traffic volume, accident history, and public complaints together.",
+      "question": "As used in the passage, \"framework\" most nearly means",
+      "options": [
+        {
+          "t": "a structure of ideas or rules guiding decisions",
+          "correct": true
+        },
+        {
+          "t": "a single unchangeable rule"
+        },
+        {
+          "t": "a physical building"
+        },
+        {
+          "t": "a temporary delay"
+        }
+      ],
+      "words": [
+        "framework"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The planners use a structured system combining several factors to guide their decisions, matching the meaning of \"framework.\""
+    },
+    {
+      "passage": "The main function of the kidneys is to filter waste products out of the blood and regulate the body's fluid balance.",
+      "question": "As used in the passage, \"function\" most nearly means",
+      "options": [
+        {
+          "t": "a mathematical error"
+        },
+        {
+          "t": "the intended purpose or role of something",
+          "correct": true
+        },
+        {
+          "t": "a temporary malfunction"
+        },
+        {
+          "t": "a scheduled social event"
+        }
+      ],
+      "words": [
+        "function"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The sentence describes what the kidneys are meant to do in the body, matching the meaning of \"function.\""
+    },
+    {
+      "passage": "The structure of the report follows a clear pattern: each chapter opens with a case study, moves into data analysis, and closes with policy recommendations.",
+      "question": "As used in the passage, \"structure\" most nearly means",
+      "options": [
+        {
+          "t": "a single sentence"
+        },
+        {
+          "t": "the arrangement of parts within something",
+          "correct": true
+        },
+        {
+          "t": "the total cost of production"
+        },
+        {
+          "t": "an unexpected error"
+        }
+      ],
+      "words": [
+        "structure",
+        "pattern"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes how the report's sections are organized and ordered, matching the meaning of \"structure.\""
+    },
+    {
+      "passage": "Bright orange feathers on its wings are a defining characteristic of the male cardinal, making it easy to spot even from a distance.",
+      "question": "As used in the passage, \"characteristic\" most nearly means",
+      "options": [
+        {
+          "t": "a temporary illness"
+        },
+        {
+          "t": "a legal requirement"
+        },
+        {
+          "t": "a rare exception"
+        },
+        {
+          "t": "a typical, identifying feature",
+          "correct": true
+        }
+      ],
+      "words": [
+        "characteristic",
+        "feature",
+        "trait"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The orange feathers are described as a typical identifying trait of male cardinals, matching \"characteristic.\""
+    },
+    {
+      "passage": "Improvements in satellite imaging have greatly increased the accuracy of weather forecasts, allowing meteorologists to predict storms with far less error than decades ago.",
+      "question": "As used in the passage, \"accuracy\" most nearly means",
+      "options": [
+        {
+          "t": "the quality of being expensive"
+        },
+        {
+          "t": "the quality of being entertaining"
+        },
+        {
+          "t": "the quality of being correct or precise",
+          "correct": true
+        },
+        {
+          "t": "the quality of being outdated"
+        }
+      ],
+      "words": [
+        "accuracy",
+        "precision"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage links satellite imaging to fewer forecasting errors, matching the meaning of \"accuracy.\""
+    },
+    {
+      "passage": "Critics questioned the validity of the survey's results after learning that fewer than fifty people out of a planned two thousand had actually responded.",
+      "question": "Which choice best supports the claim that critics doubted the survey's results?",
+      "options": [
+        {
+          "t": "\"Critics questioned the validity of the survey's results\""
+        },
+        {
+          "t": "\"fewer than fifty people out of a planned two thousand had actually responded\"",
+          "correct": true
+        },
+        {
+          "t": "\"after learning\""
+        },
+        {
+          "t": "\"the survey's results\""
+        }
+      ],
+      "words": [
+        "validity"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The extremely low response rate is the specific detail that explains and supports why critics doubted the survey's validity."
+    },
+    {
+      "passage": "Despite being decades old, the truck was known throughout the town for its reliability, starting on even the coldest winter mornings without fail.",
+      "question": "As used in the passage, \"reliability\" most nearly means",
+      "options": [
+        {
+          "t": "the quality of consistently performing as expected",
+          "correct": true
+        },
+        {
+          "t": "the quality of being visually attractive"
+        },
+        {
+          "t": "the quality of being expensive to maintain"
+        },
+        {
+          "t": "the quality of being newly built"
+        }
+      ],
+      "words": [
+        "reliability"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The truck's dependable starting record every winter, despite its age, is direct evidence of its reliability."
+    },
+    {
+      "passage": "Urban planners point to a clear correlation between the number of public parks in a neighborhood and residents' reported levels of well-being, though they caution that other factors, such as income, may also play a role.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Urban planners have stopped studying the effects of public parks."
+        },
+        {
+          "t": "Income has no effect on residents' well-being."
+        },
+        {
+          "t": "A link exists between parks and well-being, but other factors may also matter.",
+          "correct": true
+        },
+        {
+          "t": "Parks are the sole cause of higher well-being in every neighborhood."
+        }
+      ],
+      "words": [
+        "correlation",
+        "factor"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage presents a correlation while explicitly cautioning that other factors could be involved, which the correct choice reflects without overstating certainty."
+    },
+    {
+      "passage": "A single loose bolt turned out to be the cause of the entire assembly line's shutdown, a consequence far larger than the tiny part's size would suggest.",
+      "question": "As used in the passage, \"consequence\" most nearly means",
+      "options": [
+        {
+          "t": "the original source of a problem"
+        },
+        {
+          "t": "a planned improvement"
+        },
+        {
+          "t": "a result or effect of something",
+          "correct": true
+        },
+        {
+          "t": "a financial reward"
+        }
+      ],
+      "words": [
+        "consequence",
+        "cause"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The shutdown is described as the effect stemming from the loose bolt, matching the meaning of \"consequence.\""
+    },
+    {
+      "passage": "The new highway had a major impact on the small town, bringing more traffic but also new customers to shops that had struggled for years.",
+      "question": "As used in the passage, \"impact\" most nearly means",
+      "options": [
+        {
+          "t": "a small, unnoticed change"
+        },
+        {
+          "t": "a temporary closure"
+        },
+        {
+          "t": "a significant effect on something",
+          "correct": true
+        },
+        {
+          "t": "a legal restriction"
+        }
+      ],
+      "words": [
+        "impact",
+        "influence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The highway clearly changed traffic and business conditions in the town, matching the meaning of \"impact.\""
+    },
+    {
+      "passage": "The sculptor developed a unique technique for carving marble that allowed her to create incredibly fine details without cracking the stone.",
+      "question": "As used in the passage, \"technique\" most nearly means",
+      "options": [
+        {
+          "t": "a piece of finished artwork"
+        },
+        {
+          "t": "a natural talent present from birth"
+        },
+        {
+          "t": "a skillful method for accomplishing a task",
+          "correct": true
+        },
+        {
+          "t": "a type of raw material"
+        }
+      ],
+      "words": [
+        "technique",
+        "method"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The sculptor's specific skilled way of carving is described, matching the meaning of \"technique.\""
+    },
+    {
+      "passage": "The librarian's classification system sorted new arrivals not just by subject but also by reading level, making it easier for young readers to find appropriate books.",
+      "question": "As used in the passage, \"classification\" most nearly means",
+      "options": [
+        {
+          "t": "a single random selection"
+        },
+        {
+          "t": "a system for arranging things into groups",
+          "correct": true
+        },
+        {
+          "t": "a public complaint"
+        },
+        {
+          "t": "a printed catalog for sale"
+        }
+      ],
+      "words": [
+        "classification",
+        "category"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The librarian organizes books into groups based on shared traits, matching the meaning of \"classification.\""
+    }
+  ]
+}

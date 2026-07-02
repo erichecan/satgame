@@ -1,0 +1,1732 @@
+{
+  "words": [
+    {
+      "word": "retract",
+      "pos": "verb",
+      "definitionEn": "to withdraw a statement, offer, or claim, especially because it was wrong",
+      "exampleEn": "The newspaper was forced to retract its story after the facts turned out to be false.",
+      "tier": "sat_core",
+      "rank": 401
+    },
+    {
+      "word": "reverent",
+      "pos": "adjective",
+      "definitionEn": "showing deep respect or awe",
+      "exampleEn": "Visitors spoke in reverent whispers as they walked through the ancient cathedral.",
+      "tier": "sat_core",
+      "rank": 402
+    },
+    {
+      "word": "rhetoric",
+      "pos": "noun",
+      "definitionEn": "the art of persuasive speaking or writing, sometimes used to mean language that sounds impressive but lacks real substance",
+      "exampleEn": "The politician's speech was full of rhetoric but offered no concrete plans.",
+      "tier": "sat_core",
+      "rank": 403
+    },
+    {
+      "word": "ribald",
+      "pos": "adjective",
+      "definitionEn": "referring to humor that is crude or rude about sex in a joking way",
+      "exampleEn": "The sailors traded ribald jokes as they worked on deck.",
+      "tier": "sat_core",
+      "rank": 404
+    },
+    {
+      "word": "rife",
+      "pos": "adjective",
+      "definitionEn": "very common or widespread, usually referring to something bad",
+      "exampleEn": "The old building was rife with mold and structural problems.",
+      "tier": "sat_core",
+      "rank": 405
+    },
+    {
+      "word": "rigor",
+      "pos": "noun",
+      "definitionEn": "strictness, thoroughness, or the harshness of conditions",
+      "exampleEn": "The scientific method demands rigor in testing every hypothesis.",
+      "tier": "sat_core",
+      "rank": 406
+    },
+    {
+      "word": "sagacious",
+      "pos": "adjective",
+      "definitionEn": "showing good judgment and deep understanding, wise",
+      "exampleEn": "The sagacious old teacher always seemed to know exactly what advice a student needed.",
+      "tier": "sat_core",
+      "rank": 407,
+      "synonymGroup": "wise-judgment"
+    },
+    {
+      "word": "salient",
+      "pos": "adjective",
+      "definitionEn": "most noticeable or important",
+      "exampleEn": "The report highlighted the salient points of the budget proposal in the first paragraph.",
+      "tier": "sat_core",
+      "rank": 408
+    },
+    {
+      "word": "salutary",
+      "pos": "adjective",
+      "definitionEn": "producing good or beneficial effects, especially after a difficult experience",
+      "exampleEn": "Losing the championship game had a salutary effect on the team's work ethic.",
+      "tier": "sat_core",
+      "rank": 409
+    },
+    {
+      "word": "sanction",
+      "pos": "verb/noun",
+      "definitionEn": "to officially approve something, or an official penalty for breaking a rule",
+      "exampleEn": "The council refused to sanction the new construction project until safety concerns were addressed.",
+      "tier": "sat_core",
+      "rank": 410
+    },
+    {
+      "word": "sardonic",
+      "pos": "adjective",
+      "definitionEn": "mocking or scornful in a bitter, sarcastic way",
+      "exampleEn": "He gave a sardonic smile when asked if he believed the excuse.",
+      "tier": "sat_core",
+      "rank": 411
+    },
+    {
+      "word": "satiate",
+      "pos": "verb",
+      "definitionEn": "to satisfy a desire or appetite fully, often to excess",
+      "exampleEn": "No amount of praise seemed to satiate his need for attention.",
+      "tier": "sat_core",
+      "rank": 412,
+      "synonymGroup": "fill-to-excess"
+    },
+    {
+      "word": "saturate",
+      "pos": "verb",
+      "definitionEn": "to fill something completely so that no more can be absorbed",
+      "exampleEn": "Heavy rain saturated the soil until water began pooling on the surface.",
+      "tier": "sat_core",
+      "rank": 413,
+      "synonymGroup": "fill-to-excess"
+    },
+    {
+      "word": "savor",
+      "pos": "verb",
+      "definitionEn": "to enjoy something slowly and fully",
+      "exampleEn": "She closed her eyes to savor the first bite of the meal.",
+      "tier": "sat_core",
+      "rank": 414
+    },
+    {
+      "word": "scathing",
+      "pos": "adjective",
+      "definitionEn": "severely critical in a harsh, cutting way",
+      "exampleEn": "The critic wrote a scathing review that called the film a waste of talent.",
+      "tier": "sat_core",
+      "rank": 415
+    },
+    {
+      "word": "schism",
+      "pos": "noun",
+      "definitionEn": "a split or division between groups that once belonged together, often over beliefs",
+      "exampleEn": "A schism divided the church into two rival factions.",
+      "tier": "sat_core",
+      "rank": 416
+    },
+    {
+      "word": "seclusion",
+      "pos": "noun",
+      "definitionEn": "the state of being isolated or kept apart from others",
+      "exampleEn": "The writer moved to a cabin in seclusion to finish her novel without distractions.",
+      "tier": "sat_core",
+      "rank": 417
+    },
+    {
+      "word": "sedentary",
+      "pos": "adjective",
+      "definitionEn": "involving a lot of sitting and little physical activity",
+      "exampleEn": "Doctors warn that a sedentary lifestyle increases the risk of heart disease.",
+      "tier": "sat_core",
+      "rank": 418
+    },
+    {
+      "word": "sedulous",
+      "pos": "adjective",
+      "definitionEn": "showing careful, diligent, and persistent effort",
+      "exampleEn": "Her sedulous attention to detail meant she checked every figure in the report twice.",
+      "tier": "sat_core",
+      "rank": 419
+    },
+    {
+      "word": "serendipity",
+      "pos": "noun",
+      "definitionEn": "the occurrence of finding something valuable or pleasant by chance",
+      "exampleEn": "It was pure serendipity that the two old friends sat next to each other on the flight.",
+      "tier": "sat_core",
+      "rank": 420
+    },
+    {
+      "word": "servile",
+      "pos": "adjective",
+      "definitionEn": "excessively willing to serve or please others, submissive to an unhealthy degree",
+      "exampleEn": "The assistant's servile behavior toward the manager made his coworkers uncomfortable.",
+      "tier": "sat_core",
+      "rank": 421,
+      "synonymGroup": "submissive-behavior"
+    },
+    {
+      "word": "skeptic",
+      "pos": "noun",
+      "definitionEn": "a person who doubts claims that are generally accepted",
+      "exampleEn": "As a skeptic, she demanded solid evidence before accepting the salesman's claims.",
+      "tier": "sat_core",
+      "rank": 422
+    },
+    {
+      "word": "sober",
+      "pos": "adjective",
+      "definitionEn": "serious, calm, and not exaggerated; also, not drunk",
+      "exampleEn": "The mayor gave a sober assessment of the city's financial troubles.",
+      "tier": "sat_core",
+      "rank": 423
+    },
+    {
+      "word": "sobriety",
+      "pos": "noun",
+      "definitionEn": "the state of being serious, calm, and self-controlled; also, the state of not being drunk",
+      "exampleEn": "The judge praised the young man for maintaining his sobriety for over a year.",
+      "tier": "sat_core",
+      "rank": 424
+    },
+    {
+      "word": "solace",
+      "pos": "noun",
+      "definitionEn": "comfort during a time of sadness or distress",
+      "exampleEn": "She found solace in music after her grandmother passed away.",
+      "tier": "sat_core",
+      "rank": 425
+    },
+    {
+      "word": "solemn",
+      "pos": "adjective",
+      "definitionEn": "formal and serious in manner or tone",
+      "exampleEn": "The soldiers stood in solemn silence during the memorial ceremony.",
+      "tier": "sat_core",
+      "rank": 426
+    },
+    {
+      "word": "solicitous",
+      "pos": "adjective",
+      "definitionEn": "showing great concern or attentiveness toward someone's wellbeing",
+      "exampleEn": "The solicitous waiter checked on our table every few minutes to make sure everything was perfect.",
+      "tier": "sat_core",
+      "rank": 427
+    },
+    {
+      "word": "solvent",
+      "pos": "adjective",
+      "definitionEn": "having enough money to pay all one's debts",
+      "exampleEn": "After years of careful budgeting, the small business finally became solvent.",
+      "tier": "sat_core",
+      "rank": 428
+    },
+    {
+      "word": "somber",
+      "pos": "adjective",
+      "definitionEn": "dark, gloomy, or serious in mood",
+      "exampleEn": "A somber mood settled over the town after the factory announced its closure.",
+      "tier": "sat_core",
+      "rank": 429
+    },
+    {
+      "word": "soporific",
+      "pos": "adjective",
+      "definitionEn": "causing sleepiness or drowsiness",
+      "exampleEn": "The professor's soporific lecture had several students fighting to keep their eyes open.",
+      "tier": "sat_core",
+      "rank": 430
+    },
+    {
+      "word": "sparse",
+      "pos": "adjective",
+      "definitionEn": "thinly spread out or scarce in amount",
+      "exampleEn": "Only sparse vegetation survives in the dry, rocky desert.",
+      "tier": "sat_core",
+      "rank": 431
+    },
+    {
+      "word": "spendthrift",
+      "pos": "noun",
+      "definitionEn": "a person who spends money in a wasteful or careless way",
+      "exampleEn": "His parents worried he was becoming a spendthrift after seeing his credit card bills.",
+      "tier": "sat_core",
+      "rank": 432
+    },
+    {
+      "word": "sporadic",
+      "pos": "adjective",
+      "definitionEn": "occurring occasionally and without a regular pattern",
+      "exampleEn": "Sporadic bursts of applause interrupted the speech throughout the evening.",
+      "tier": "sat_core",
+      "rank": 433
+    },
+    {
+      "word": "spurious",
+      "pos": "adjective",
+      "definitionEn": "false or fake, though appearing to be genuine",
+      "exampleEn": "The lawyer dismissed the claim as spurious, unsupported by any real evidence.",
+      "tier": "sat_core",
+      "rank": 434
+    },
+    {
+      "word": "squander",
+      "pos": "verb",
+      "definitionEn": "to waste money, time, or resources carelessly",
+      "exampleEn": "He squandered his inheritance on gambling within just a few years.",
+      "tier": "sat_core",
+      "rank": 435
+    },
+    {
+      "word": "staid",
+      "pos": "adjective",
+      "definitionEn": "serious, respectable, and unadventurous in a somewhat dull way",
+      "exampleEn": "The staid old bank seemed an unlikely place for such a bold new investment strategy.",
+      "tier": "sat_core",
+      "rank": 436
+    },
+    {
+      "word": "stagnant",
+      "pos": "adjective",
+      "definitionEn": "not moving, flowing, or developing; showing no activity or growth",
+      "exampleEn": "The pond's stagnant water bred mosquitoes all summer long.",
+      "tier": "sat_core",
+      "rank": 437
+    },
+    {
+      "word": "stoic",
+      "pos": "adjective",
+      "definitionEn": "enduring pain or hardship without showing feelings or complaining",
+      "exampleEn": "She remained stoic throughout the surgery, never once complaining about the pain.",
+      "tier": "sat_core",
+      "rank": 438,
+      "synonymGroup": "stoic-endurance"
+    },
+    {
+      "word": "stoicism",
+      "pos": "noun",
+      "definitionEn": "the quality of enduring hardship without complaint or visible emotion",
+      "exampleEn": "His stoicism during the crisis reassured the rest of the team.",
+      "tier": "sat_core",
+      "rank": 439,
+      "synonymGroup": "stoic-endurance"
+    },
+    {
+      "word": "stringent",
+      "pos": "adjective",
+      "definitionEn": "very strict and demanding, especially about rules or standards",
+      "exampleEn": "The lab enforces stringent safety rules to prevent any chemical accidents.",
+      "tier": "sat_core",
+      "rank": 440
+    },
+    {
+      "word": "stymie",
+      "pos": "verb",
+      "definitionEn": "to block or prevent progress on something",
+      "exampleEn": "A lack of funding stymied the research team's plans for a follow-up study.",
+      "tier": "sat_core",
+      "rank": 441
+    },
+    {
+      "word": "subjective",
+      "pos": "adjective",
+      "definitionEn": "based on personal feelings or opinions rather than objective facts",
+      "exampleEn": "Judging art is inherently subjective, since taste differs from person to person.",
+      "tier": "sat_core",
+      "rank": 442
+    },
+    {
+      "word": "sublime",
+      "pos": "adjective",
+      "definitionEn": "of such excellence, beauty, or greatness as to inspire awe",
+      "exampleEn": "The view from the mountain summit was simply sublime.",
+      "tier": "sat_core",
+      "rank": 443
+    },
+    {
+      "word": "submissive",
+      "pos": "adjective",
+      "definitionEn": "willing to obey others without resistance",
+      "exampleEn": "The dog's submissive posture showed it was no threat to the older animal.",
+      "tier": "sat_core",
+      "rank": 444,
+      "synonymGroup": "submissive-behavior"
+    },
+    {
+      "word": "subsequent",
+      "pos": "adjective",
+      "definitionEn": "coming after something else in time",
+      "exampleEn": "The first meeting went poorly, but subsequent discussions were far more productive.",
+      "tier": "sat_core",
+      "rank": 445
+    },
+    {
+      "word": "substantiate",
+      "pos": "verb",
+      "definitionEn": "to provide evidence to support or prove a claim",
+      "exampleEn": "The scientist could not substantiate her theory without further experiments.",
+      "tier": "sat_core",
+      "rank": 446
+    },
+    {
+      "word": "subtle",
+      "pos": "adjective",
+      "definitionEn": "so delicate or precise as to be difficult to notice or analyze",
+      "exampleEn": "There was a subtle change in her tone that only close friends would notice.",
+      "tier": "sat_core",
+      "rank": 447
+    },
+    {
+      "word": "succinct",
+      "pos": "adjective",
+      "definitionEn": "expressed clearly and briefly, without extra words",
+      "exampleEn": "The manager asked for a succinct summary of the project, not a lengthy report.",
+      "tier": "sat_core",
+      "rank": 448,
+      "synonymGroup": "brief-speech"
+    },
+    {
+      "word": "superficial",
+      "pos": "adjective",
+      "definitionEn": "existing or occurring only at the surface, lacking depth or thoroughness",
+      "exampleEn": "His knowledge of the subject turned out to be superficial when questioned in detail.",
+      "tier": "sat_core",
+      "rank": 449
+    },
+    {
+      "word": "superfluous",
+      "pos": "adjective",
+      "definitionEn": "more than what is needed or wanted, unnecessary",
+      "exampleEn": "The editor cut every superfluous word from the essay to tighten the writing.",
+      "tier": "sat_core",
+      "rank": 450
+    },
+    {
+      "word": "supplant",
+      "pos": "verb",
+      "definitionEn": "to take the place of something or someone, especially by force or scheming",
+      "exampleEn": "The new software quickly supplanted the outdated system used for decades.",
+      "tier": "sat_core",
+      "rank": 451
+    },
+    {
+      "word": "surreptitious",
+      "pos": "adjective",
+      "definitionEn": "done secretly, often because it is not allowed",
+      "exampleEn": "He took a surreptitious glance at his phone during the meeting.",
+      "tier": "sat_core",
+      "rank": 452
+    },
+    {
+      "word": "sycophant",
+      "pos": "noun",
+      "definitionEn": "a person who flatters others excessively to gain favor",
+      "exampleEn": "The king surrounded himself with sycophants who agreed with everything he said.",
+      "tier": "sat_core",
+      "rank": 453
+    },
+    {
+      "word": "taciturn",
+      "pos": "adjective",
+      "definitionEn": "tending to say very little, reserved in speech",
+      "exampleEn": "The taciturn farmer answered questions with only a nod or a single word.",
+      "tier": "sat_core",
+      "rank": 454,
+      "synonymGroup": "brief-speech"
+    },
+    {
+      "word": "tactful",
+      "pos": "adjective",
+      "definitionEn": "careful and skillful in dealing with others without causing offense",
+      "exampleEn": "She gave a tactful response that criticized the plan without upsetting its creator.",
+      "tier": "sat_core",
+      "rank": 455
+    },
+    {
+      "word": "tangential",
+      "pos": "adjective",
+      "definitionEn": "only loosely related to the main subject",
+      "exampleEn": "The author's tangential remarks about his childhood distracted from the book's main argument.",
+      "tier": "sat_core",
+      "rank": 456
+    },
+    {
+      "word": "tangible",
+      "pos": "adjective",
+      "definitionEn": "able to be touched or clearly perceived as real, not abstract",
+      "exampleEn": "The new policy produced tangible improvements in the neighborhood within a year.",
+      "tier": "sat_core",
+      "rank": 457
+    },
+    {
+      "word": "tantamount",
+      "pos": "adjective",
+      "definitionEn": "equivalent in effect or value to something, usually something negative",
+      "exampleEn": "Ignoring the warning signs was tantamount to admitting the plan had failed.",
+      "tier": "sat_core",
+      "rank": 458
+    },
+    {
+      "word": "tedious",
+      "pos": "adjective",
+      "definitionEn": "tiresomely long or dull",
+      "exampleEn": "Filling out the same form five times felt like a tedious waste of time.",
+      "tier": "sat_core",
+      "rank": 459
+    },
+    {
+      "word": "temperate",
+      "pos": "adjective",
+      "definitionEn": "moderate, self-restrained, or mild in nature",
+      "exampleEn": "The region enjoys a temperate climate, never too hot or too cold.",
+      "tier": "sat_core",
+      "rank": 460
+    },
+    {
+      "word": "tenacious",
+      "pos": "adjective",
+      "definitionEn": "holding firmly to something, persistent and determined",
+      "exampleEn": "Her tenacious pursuit of the scholarship eventually paid off after three attempts.",
+      "tier": "sat_core",
+      "rank": 461
+    },
+    {
+      "word": "tenet",
+      "pos": "noun",
+      "definitionEn": "a core belief or principle held by a group or person",
+      "exampleEn": "Equality before the law is a central tenet of the country's constitution.",
+      "tier": "sat_core",
+      "rank": 462
+    },
+    {
+      "word": "terse",
+      "pos": "adjective",
+      "definitionEn": "brief and to the point, sometimes to the point of seeming rude",
+      "exampleEn": "His terse reply of \"no\" ended the conversation abruptly.",
+      "tier": "sat_core",
+      "rank": 463,
+      "synonymGroup": "brief-speech"
+    },
+    {
+      "word": "timorous",
+      "pos": "adjective",
+      "definitionEn": "showing fear or timidity, lacking confidence",
+      "exampleEn": "The timorous new intern barely spoke during her first staff meeting.",
+      "tier": "sat_core",
+      "rank": 464
+    },
+    {
+      "word": "torpid",
+      "pos": "adjective",
+      "definitionEn": "mentally or physically sluggish, lacking energy",
+      "exampleEn": "The heat left the whole town feeling torpid and unwilling to move.",
+      "tier": "sat_core",
+      "rank": 465
+    },
+    {
+      "word": "tortuous",
+      "pos": "adjective",
+      "definitionEn": "full of twists and turns, or excessively complicated",
+      "exampleEn": "The tortuous mountain road made even experienced drivers nervous.",
+      "tier": "sat_core",
+      "rank": 466
+    },
+    {
+      "word": "tractable",
+      "pos": "adjective",
+      "definitionEn": "easy to manage, control, or teach",
+      "exampleEn": "The young horse proved surprisingly tractable during its first training session.",
+      "tier": "sat_core",
+      "rank": 467
+    },
+    {
+      "word": "transgress",
+      "pos": "verb",
+      "definitionEn": "to violate a law, rule, or moral code",
+      "exampleEn": "The novel's protagonist transgresses social norms by questioning the village's oldest traditions.",
+      "tier": "sat_core",
+      "rank": 468
+    },
+    {
+      "word": "trepidation",
+      "pos": "noun",
+      "definitionEn": "a feeling of fear or anxiety about something that may happen",
+      "exampleEn": "She approached the interview with trepidation, unsure of what to expect.",
+      "tier": "sat_core",
+      "rank": 469
+    },
+    {
+      "word": "trivial",
+      "pos": "adjective",
+      "definitionEn": "of little value or importance",
+      "exampleEn": "They argued over a trivial detail that had no real effect on the outcome.",
+      "tier": "sat_core",
+      "rank": 470
+    },
+    {
+      "word": "truculent",
+      "pos": "adjective",
+      "definitionEn": "eager to argue or fight, fiercely aggressive",
+      "exampleEn": "The truculent customer shouted at the clerk over a minor mistake.",
+      "tier": "sat_core",
+      "rank": 471
+    },
+    {
+      "word": "turbulent",
+      "pos": "adjective",
+      "definitionEn": "characterized by conflict, disorder, or violent movement",
+      "exampleEn": "The country endured a turbulent decade of political unrest and economic crisis.",
+      "tier": "sat_core",
+      "rank": 472
+    },
+    {
+      "word": "ubiquitous",
+      "pos": "adjective",
+      "definitionEn": "present or found everywhere",
+      "exampleEn": "Smartphones have become ubiquitous, even in remote villages.",
+      "tier": "sat_core",
+      "rank": 473
+    },
+    {
+      "word": "unassuming",
+      "pos": "adjective",
+      "definitionEn": "modest and not seeking attention",
+      "exampleEn": "Despite his fame, the actor remained unassuming and preferred quiet evenings at home.",
+      "tier": "sat_core",
+      "rank": 474
+    },
+    {
+      "word": "unctuous",
+      "pos": "adjective",
+      "definitionEn": "excessively flattering or ingratiating in a way that seems insincere",
+      "exampleEn": "The salesman's unctuous compliments made the customers uneasy rather than pleased.",
+      "tier": "sat_core",
+      "rank": 475
+    },
+    {
+      "word": "unequivocal",
+      "pos": "adjective",
+      "definitionEn": "leaving no doubt, completely clear",
+      "exampleEn": "The coach gave an unequivocal answer: the player would not be returning to the team.",
+      "tier": "sat_core",
+      "rank": 476
+    },
+    {
+      "word": "unfeigned",
+      "pos": "adjective",
+      "definitionEn": "genuine, not pretended",
+      "exampleEn": "Her unfeigned joy at winning the award was obvious to everyone in the room.",
+      "tier": "sat_core",
+      "rank": 477
+    },
+    {
+      "word": "uniform",
+      "pos": "adjective",
+      "definitionEn": "the same throughout, not varying",
+      "exampleEn": "The bricks were cut to a uniform size so they would fit together perfectly.",
+      "tier": "sat_core",
+      "rank": 478
+    },
+    {
+      "word": "unprecedented",
+      "pos": "adjective",
+      "definitionEn": "never having happened or existed before",
+      "exampleEn": "The company reported unprecedented growth after launching its new product line.",
+      "tier": "sat_core",
+      "rank": 479
+    },
+    {
+      "word": "unscrupulous",
+      "pos": "adjective",
+      "definitionEn": "lacking moral principles, willing to act dishonestly",
+      "exampleEn": "The unscrupulous landlord charged tenants for repairs he never actually made.",
+      "tier": "sat_core",
+      "rank": 480
+    },
+    {
+      "word": "unwarranted",
+      "pos": "adjective",
+      "definitionEn": "not justified or authorized, lacking sufficient grounds",
+      "exampleEn": "The critics called the harsh punishment unwarranted given the minor nature of the offense.",
+      "tier": "sat_core",
+      "rank": 481
+    },
+    {
+      "word": "upbraid",
+      "pos": "verb",
+      "definitionEn": "to criticize or scold someone severely",
+      "exampleEn": "The coach upbraided the team for their lack of effort in the second half.",
+      "tier": "sat_core",
+      "rank": 482
+    },
+    {
+      "word": "urbane",
+      "pos": "adjective",
+      "definitionEn": "sophisticated, polished, and courteous in manner",
+      "exampleEn": "The urbane diplomat handled the tense negotiation with effortless charm.",
+      "tier": "sat_core",
+      "rank": 483
+    },
+    {
+      "word": "utilitarian",
+      "pos": "adjective",
+      "definitionEn": "designed to be useful or practical rather than attractive",
+      "exampleEn": "The building's utilitarian design prioritized function over beauty.",
+      "tier": "sat_core",
+      "rank": 484
+    },
+    {
+      "word": "vacillate",
+      "pos": "verb",
+      "definitionEn": "to waver between different opinions or actions, unable to decide",
+      "exampleEn": "He vacillated for weeks before finally choosing which college to attend.",
+      "tier": "sat_core",
+      "rank": 485
+    },
+    {
+      "word": "vacuous",
+      "pos": "adjective",
+      "definitionEn": "lacking thought or intelligence, empty of substance",
+      "exampleEn": "Critics dismissed the film's dialogue as vacuous and forgettable.",
+      "tier": "sat_core",
+      "rank": 486,
+      "synonymGroup": "empty-of-substance"
+    },
+    {
+      "word": "vagrant",
+      "pos": "noun",
+      "definitionEn": "a person without a permanent home who moves from place to place",
+      "exampleEn": "The old law made it illegal to be a vagrant within city limits.",
+      "tier": "sat_core",
+      "rank": 487
+    },
+    {
+      "word": "vapid",
+      "pos": "adjective",
+      "definitionEn": "dull, boring, and lacking substance or liveliness",
+      "exampleEn": "The reviewer called the sequel a vapid retread of the original film's plot.",
+      "tier": "sat_core",
+      "rank": 488,
+      "synonymGroup": "empty-of-substance"
+    },
+    {
+      "word": "variegated",
+      "pos": "adjective",
+      "definitionEn": "marked with different colors or patterns, diverse in appearance",
+      "exampleEn": "The garden was filled with variegated leaves in shades of green and cream.",
+      "tier": "sat_core",
+      "rank": 489
+    },
+    {
+      "word": "vehement",
+      "pos": "adjective",
+      "definitionEn": "showing strong, forceful feeling or conviction",
+      "exampleEn": "She offered a vehement denial of the accusations against her.",
+      "tier": "sat_core",
+      "rank": 490
+    },
+    {
+      "word": "venerable",
+      "pos": "adjective",
+      "definitionEn": "deserving great respect because of age, wisdom, or achievement",
+      "exampleEn": "The venerable professor had taught at the university for over forty years.",
+      "tier": "sat_core",
+      "rank": 491
+    },
+    {
+      "word": "veracity",
+      "pos": "noun",
+      "definitionEn": "truthfulness or accuracy",
+      "exampleEn": "Reporters questioned the veracity of the official statement.",
+      "tier": "sat_core",
+      "rank": 492
+    },
+    {
+      "word": "verbose",
+      "pos": "adjective",
+      "definitionEn": "using more words than necessary, wordy",
+      "exampleEn": "The verbose instructions confused readers who just wanted a simple answer.",
+      "tier": "sat_core",
+      "rank": 493
+    },
+    {
+      "word": "vestige",
+      "pos": "noun",
+      "definitionEn": "a small remaining trace of something that once existed",
+      "exampleEn": "A single stone wall was the only vestige of the ancient fortress.",
+      "tier": "sat_core",
+      "rank": 494
+    },
+    {
+      "word": "vex",
+      "pos": "verb",
+      "definitionEn": "to annoy or worry someone",
+      "exampleEn": "The constant noise from construction vexed the residents nearby.",
+      "tier": "sat_core",
+      "rank": 495
+    },
+    {
+      "word": "viable",
+      "pos": "adjective",
+      "definitionEn": "capable of working successfully, feasible",
+      "exampleEn": "The team searched for a viable solution before the deadline arrived.",
+      "tier": "sat_core",
+      "rank": 496
+    },
+    {
+      "word": "vicarious",
+      "pos": "adjective",
+      "definitionEn": "experienced through the actions or feelings of another person, indirectly",
+      "exampleEn": "He felt a vicarious thrill watching his daughter accept the award he never won himself.",
+      "tier": "sat_core",
+      "rank": 497
+    },
+    {
+      "word": "vigilant",
+      "pos": "adjective",
+      "definitionEn": "keeping careful watch for danger or trouble",
+      "exampleEn": "The lifeguard remained vigilant, scanning the water even during quiet afternoons.",
+      "tier": "sat_core",
+      "rank": 498
+    },
+    {
+      "word": "vilify",
+      "pos": "verb",
+      "definitionEn": "to speak or write about someone in a harshly critical way",
+      "exampleEn": "The press vilified the executive after the scandal became public.",
+      "tier": "sat_core",
+      "rank": 499
+    },
+    {
+      "word": "vindicate",
+      "pos": "verb",
+      "definitionEn": "to clear someone of blame or prove them right after doubt",
+      "exampleEn": "New evidence eventually vindicated the man who had spent years in prison.",
+      "tier": "sat_core",
+      "rank": 500
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "The candidate's speech was praised by supporters for its passion, but critics noted that behind the soaring phrases and dramatic pauses lay almost no discussion of actual policy. It was, one commentator wrote, rhetoric without substance.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The candidate's speech impressed everyone equally."
+        },
+        {
+          "t": "The speech focused entirely on economic plans."
+        },
+        {
+          "t": "The speech relied on persuasive language rather than concrete policy detail.",
+          "correct": true
+        },
+        {
+          "t": "Critics misunderstood the candidate's intentions."
+        }
+      ],
+      "words": [
+        "rhetoric"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage contrasts passionate language with a lack of real policy content, which is the main idea."
+    },
+    {
+      "passage": "The director's film received a scathing review that called it 'an insult to anyone who paid for a ticket,' language far harsher than the mild criticism most films receive.",
+      "question": "Which choice best describes the function of 'scathing' in the passage?",
+      "options": [
+        {
+          "t": "It softens the impact of the quoted review."
+        },
+        {
+          "t": "It suggests the review was primarily positive."
+        },
+        {
+          "t": "It signals that the criticism was unusually harsh compared to typical reviews.",
+          "correct": true
+        },
+        {
+          "t": "It indicates the review was written anonymously."
+        }
+      ],
+      "words": [
+        "scathing"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage explicitly contrasts the harsh quoted language with 'mild criticism,' and 'scathing' signals that unusual harshness."
+    },
+    {
+      "passage": "Doctors increasingly warn that a sedentary lifestyle—hours spent sitting at desks or in front of screens—poses risks comparable to smoking, prompting some offices to install standing desks.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Standing desks have replaced sitting desks in most offices."
+        },
+        {
+          "t": "Smoking is no longer considered a major health risk."
+        },
+        {
+          "t": "Doctors disagree about the dangers of screen time."
+        },
+        {
+          "t": "Excessive sitting carries serious health risks that are prompting workplace changes.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "sedentary"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage's main point is that a sitting-heavy lifestyle is risky, which is why offices are adapting."
+    },
+    {
+      "passage": "Ancient philosophers who practiced stoicism believed that enduring hardship without complaint led to true freedom, a philosophy the injured climber seemed to embody as she calmly described her ordeal without a trace of self-pity.",
+      "question": "Which choice best supports the claim that the climber embodied stoicism?",
+      "options": [
+        {
+          "t": "She was an ancient philosopher."
+        },
+        {
+          "t": "She refused to discuss the climb at all."
+        },
+        {
+          "t": "She complained loudly about her injuries."
+        },
+        {
+          "t": "She calmly described her ordeal without a trace of self-pity.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "stoicism",
+        "stoic"
+      ],
+      "domain": "info_ideas",
+      "explanation": "Calm description without self-pity directly demonstrates the endurance-without-complaint quality of stoicism."
+    },
+    {
+      "passage": "Wise counsel, careful judgment, and deep understanding of people are the marks of a sagacious leader—qualities that separated the elder statesman from younger, more impulsive rivals.",
+      "question": "Which choice best describes the function of the phrase 'wise counsel, careful judgment, and deep understanding of people' in the passage?",
+      "options": [
+        {
+          "t": "It contradicts the claim that the statesman was sagacious."
+        },
+        {
+          "t": "It lists qualities associated with being sagacious, supporting the description of the statesman.",
+          "correct": true
+        },
+        {
+          "t": "It is unrelated to the meaning of sagacious."
+        },
+        {
+          "t": "It describes qualities of the statesman's younger rivals."
+        }
+      ],
+      "words": [
+        "sagacious"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The listed qualities directly illustrate what it means to be sagacious, reinforcing the description of the statesman."
+    },
+    {
+      "passage": "Some employees flattered the boss with excessive, unctuous compliments, while others behaved in a servile way, agreeing with every decision without question—both groups hoping to win favor rather than express honest opinions.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Employees were required to flatter the boss by company policy."
+        },
+        {
+          "t": "All employees disagreed openly with the boss."
+        },
+        {
+          "t": "Some employees sought favor through flattery and submissiveness rather than honesty.",
+          "correct": true
+        },
+        {
+          "t": "The boss punished employees who disagreed."
+        }
+      ],
+      "words": [
+        "unctuous",
+        "servile"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes two related behaviors—flattery and submissiveness—both aimed at winning favor instead of being honest."
+    },
+    {
+      "passage": "The board's decision was unequivocal: the merger was canceled, with no room left for further negotiation or appeal.",
+      "question": "As used in the passage, 'unequivocal' most nearly means",
+      "options": [
+        {
+          "t": "completely clear",
+          "correct": true
+        },
+        {
+          "t": "open to interpretation"
+        },
+        {
+          "t": "secretive"
+        },
+        {
+          "t": "delayed"
+        }
+      ],
+      "words": [
+        "unequivocal"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A decision with no room for negotiation or appeal is completely clear, or unequivocal."
+    },
+    {
+      "passage": "The midday heat left the entire village torpid, with even the market vendors too sluggish to call out to passersby as they normally would.",
+      "question": "As used in the passage, 'torpid' most nearly means",
+      "options": [
+        {
+          "t": "energetic"
+        },
+        {
+          "t": "sluggish",
+          "correct": true
+        },
+        {
+          "t": "noisy"
+        },
+        {
+          "t": "organized"
+        }
+      ],
+      "words": [
+        "torpid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Vendors being too sluggish to call out describes a torpid, low-energy state."
+    },
+    {
+      "passage": "After a rocky start, the rescued dog proved surprisingly tractable, quickly learning basic commands and adjusting easily to its new home.",
+      "question": "As used in the passage, 'tractable' most nearly means",
+      "options": [
+        {
+          "t": "stubborn"
+        },
+        {
+          "t": "unpredictable"
+        },
+        {
+          "t": "aggressive"
+        },
+        {
+          "t": "easy to manage",
+          "correct": true
+        }
+      ],
+      "words": [
+        "tractable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Quickly learning commands and adjusting easily shows the dog was easy to manage, or tractable."
+    },
+    {
+      "passage": "By publicly questioning the elders' authority, the young reformer chose to transgress boundaries that had gone unchallenged in the village for generations.",
+      "question": "As used in the passage, 'transgress' most nearly means",
+      "options": [
+        {
+          "t": "reinforce"
+        },
+        {
+          "t": "respect"
+        },
+        {
+          "t": "violate",
+          "correct": true
+        },
+        {
+          "t": "ignore silently"
+        }
+      ],
+      "words": [
+        "transgress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Challenging unchallenged authority describes violating, or transgressing, established boundaries."
+    },
+    {
+      "passage": "Once a booming factory town, the local economy had grown stagnant, with the same few businesses operating unchanged for over a decade and almost no new jobs created.",
+      "question": "As used in the passage, 'stagnant' most nearly means",
+      "options": [
+        {
+          "t": "not developing or changing",
+          "correct": true
+        },
+        {
+          "t": "recently reformed"
+        },
+        {
+          "t": "growing rapidly"
+        },
+        {
+          "t": "highly competitive"
+        }
+      ],
+      "words": [
+        "stagnant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An economy unchanged for a decade with no new jobs is stagnant."
+    },
+    {
+      "passage": "The professor's monotone voice and endless slides on tax law proved so soporific that half the lecture hall was struggling to stay awake by the thirty-minute mark.",
+      "question": "As used in the passage, 'soporific' most nearly means",
+      "options": [
+        {
+          "t": "controversial"
+        },
+        {
+          "t": "brief"
+        },
+        {
+          "t": "sleep-inducing",
+          "correct": true
+        },
+        {
+          "t": "exciting"
+        }
+      ],
+      "words": [
+        "soporific"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A voice and lecture that make students struggle to stay awake is sleep-inducing, or soporific."
+    },
+    {
+      "passage": "Pilgrims removed their shoes before entering the temple, lowering their voices to a hush as they approached the altar. Even visitors unfamiliar with the religion found themselves adopting the same reverent silence.",
+      "question": "As used in the passage, 'reverent' most nearly means",
+      "options": [
+        {
+          "t": "indifferent"
+        },
+        {
+          "t": "showing deep respect",
+          "correct": true
+        },
+        {
+          "t": "confused"
+        },
+        {
+          "t": "impatient"
+        }
+      ],
+      "words": [
+        "reverent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The description of hushed voices and careful behavior around a sacred space indicates deep respect."
+    },
+    {
+      "passage": "Once found only in research labs, cameras small enough to fit in a phone are now ubiquitous, present in nearly every pocket around the world.",
+      "question": "As used in the passage, 'ubiquitous' most nearly means",
+      "options": [
+        {
+          "t": "rare"
+        },
+        {
+          "t": "outdated"
+        },
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "present everywhere",
+          "correct": true
+        }
+      ],
+      "words": [
+        "ubiquitous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being present in nearly every pocket worldwide means the cameras are ubiquitous."
+    },
+    {
+      "passage": "Through sedulous nightly practice, the young violinist transformed from the weakest player in the youth orchestra into its concertmaster within two years.",
+      "question": "As used in the passage, 'sedulous' most nearly means",
+      "options": [
+        {
+          "t": "diligent",
+          "correct": true
+        },
+        {
+          "t": "occasional"
+        },
+        {
+          "t": "careless"
+        },
+        {
+          "t": "reluctant"
+        }
+      ],
+      "words": [
+        "sedulous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Nightly practice that produces dramatic improvement reflects diligent, persistent effort."
+    },
+    {
+      "passage": "The tortuous mountain pass, with its endless hairpin turns, took drivers nearly three hours to cross even though it measured barely twenty miles.",
+      "question": "As used in the passage, 'tortuous' most nearly means",
+      "options": [
+        {
+          "t": "paved recently"
+        },
+        {
+          "t": "full of twists and turns",
+          "correct": true
+        },
+        {
+          "t": "short"
+        },
+        {
+          "t": "straight"
+        }
+      ],
+      "words": [
+        "tortuous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Endless hairpin turns that slow travel describe a tortuous, winding route."
+    },
+    {
+      "passage": "Despite the chaos around her, the pilot gave a sober account of the engine failure to air traffic control, listing altitude, speed, and remaining fuel without a hint of panic.",
+      "question": "As used in the passage, 'sober' most nearly means",
+      "options": [
+        {
+          "t": "serious and calm",
+          "correct": true
+        },
+        {
+          "t": "exaggerated"
+        },
+        {
+          "t": "humorous"
+        },
+        {
+          "t": "confused"
+        }
+      ],
+      "words": [
+        "sober"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Listing precise facts without panic during a crisis reflects a serious, calm, and measured account."
+    },
+    {
+      "passage": "After weeks of dieting, the guests at the banquet ate as though determined to satiate a hunger that had been building for a month, piling their plates twice before dessert was even served.",
+      "question": "As used in the passage, 'satiate' most nearly means",
+      "options": [
+        {
+          "t": "ignore"
+        },
+        {
+          "t": "fully satisfy",
+          "correct": true
+        },
+        {
+          "t": "delay"
+        },
+        {
+          "t": "measure"
+        }
+      ],
+      "words": [
+        "satiate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Piling plates to fill a long-building hunger describes fully satisfying an appetite."
+    },
+    {
+      "passage": "Refusing to answer the committee's questions was, in the senator's own words, tantamount to admitting guilt, since an innocent person would have nothing to hide.",
+      "question": "As used in the passage, 'tantamount' most nearly means",
+      "options": [
+        {
+          "t": "opposite of"
+        },
+        {
+          "t": "equivalent to",
+          "correct": true
+        },
+        {
+          "t": "more serious than"
+        },
+        {
+          "t": "unrelated to"
+        }
+      ],
+      "words": [
+        "tantamount"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to answer being treated as the same as admitting guilt shows 'tantamount' means equivalent to."
+    },
+    {
+      "passage": "The company posted unprecedented quarterly profits, figures so far beyond any previous year that analysts struggled to explain the sudden surge.",
+      "question": "As used in the passage, 'unprecedented' most nearly means",
+      "options": [
+        {
+          "t": "disappointing"
+        },
+        {
+          "t": "expected"
+        },
+        {
+          "t": "typical"
+        },
+        {
+          "t": "never seen before",
+          "correct": true
+        }
+      ],
+      "words": [
+        "unprecedented"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Figures beyond any previous year, leaving analysts struggling to explain them, describes something never seen before."
+    },
+    {
+      "passage": "After months of proposals with no results, the board wanted tangible progress—a finished prototype, not another slideshow of ideas.",
+      "question": "As used in the passage, 'tangible' most nearly means",
+      "options": [
+        {
+          "t": "theoretical"
+        },
+        {
+          "t": "concrete and real",
+          "correct": true
+        },
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "abstract"
+        }
+      ],
+      "words": [
+        "tangible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Wanting a finished prototype instead of ideas shows a desire for something concrete, or tangible."
+    },
+    {
+      "passage": "A crumbling wall was the only vestige of the fortress that once guarded the entire valley, the rest having been lost to time and weather.",
+      "question": "As used in the passage, 'vestige' most nearly means",
+      "options": [
+        {
+          "t": "a modern reconstruction"
+        },
+        {
+          "t": "a remaining trace",
+          "correct": true
+        },
+        {
+          "t": "a legal document"
+        },
+        {
+          "t": "a complete replica"
+        }
+      ],
+      "words": [
+        "vestige"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A single crumbling wall left from a lost fortress is a remaining trace, or vestige."
+    },
+    {
+      "passage": "Rather than bluntly reject the proposal, the manager offered a tactful response that acknowledged its strengths while gently steering the team toward a better alternative.",
+      "question": "As used in the passage, 'tactful' most nearly means",
+      "options": [
+        {
+          "t": "dishonest"
+        },
+        {
+          "t": "indecisive"
+        },
+        {
+          "t": "harsh and blunt"
+        },
+        {
+          "t": "careful not to offend",
+          "correct": true
+        }
+      ],
+      "words": [
+        "tactful"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Acknowledging strengths while gently redirecting shows care not to offend, which is tactful."
+    },
+    {
+      "passage": "Only a subtle shift in her expression—a slight tightening around the eyes—revealed that the negotiator was displeased with the offer.",
+      "question": "As used in the passage, 'subtle' most nearly means",
+      "options": [
+        {
+          "t": "dramatic"
+        },
+        {
+          "t": "obvious"
+        },
+        {
+          "t": "repeated"
+        },
+        {
+          "t": "barely noticeable",
+          "correct": true
+        }
+      ],
+      "words": [
+        "subtle"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A slight, easily missed change in expression is described as subtle."
+    },
+    {
+      "passage": "The coach upbraided the players in the locker room, his voice rising as he listed every missed assignment from the game.",
+      "question": "As used in the passage, 'upbraid' most nearly means",
+      "options": [
+        {
+          "t": "ignore"
+        },
+        {
+          "t": "praise"
+        },
+        {
+          "t": "reward"
+        },
+        {
+          "t": "scold",
+          "correct": true
+        }
+      ],
+      "words": [
+        "upbraid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Raising his voice while listing every mistake describes scolding, or upbraiding, the players."
+    },
+    {
+      "passage": "The investigation concluded that the whistleblower's most dramatic claims were spurious, invented to attract media attention rather than grounded in any real evidence.",
+      "question": "As used in the passage, 'spurious' most nearly means",
+      "options": [
+        {
+          "t": "well-documented"
+        },
+        {
+          "t": "confidential"
+        },
+        {
+          "t": "false",
+          "correct": true
+        },
+        {
+          "t": "outdated"
+        }
+      ],
+      "words": [
+        "spurious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Claims invented for attention rather than based on evidence are described as false, or spurious."
+    },
+    {
+      "passage": "Rejected by twelve publishers, the tenacious author kept revising and submitting her manuscript until the thirteenth finally accepted it.",
+      "question": "As used in the passage, 'tenacious' most nearly means",
+      "options": [
+        {
+          "t": "careless"
+        },
+        {
+          "t": "easily discouraged"
+        },
+        {
+          "t": "persistently determined",
+          "correct": true
+        },
+        {
+          "t": "wealthy"
+        }
+      ],
+      "words": [
+        "tenacious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Continuing to revise and submit after twelve rejections shows persistent determination."
+    },
+    {
+      "passage": "Investigators discovered that the unscrupulous contractor had been billing clients for materials he never actually purchased, pocketing the difference for years.",
+      "question": "As used in the passage, 'unscrupulous' most nearly means",
+      "options": [
+        {
+          "t": "honest"
+        },
+        {
+          "t": "inexperienced"
+        },
+        {
+          "t": "generous"
+        },
+        {
+          "t": "dishonest and unethical",
+          "correct": true
+        }
+      ],
+      "words": [
+        "unscrupulous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Billing for materials never purchased is dishonest, unethical behavior, or being unscrupulous."
+    },
+    {
+      "passage": "Digital streaming quickly supplanted DVD rentals, and within a few years the once-dominant rental chains had all but disappeared.",
+      "question": "As used in the passage, 'supplant' most nearly means",
+      "options": [
+        {
+          "t": "support"
+        },
+        {
+          "t": "revive"
+        },
+        {
+          "t": "advertise"
+        },
+        {
+          "t": "replace",
+          "correct": true
+        }
+      ],
+      "words": [
+        "supplant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Streaming taking over and causing rental chains to disappear describes replacing, or supplanting, them."
+    },
+    {
+      "passage": "The staid old law firm, known for its dark suits and unchanging traditions, seemed an unlikely place to pioneer new courtroom technology.",
+      "question": "As used in the passage, 'staid' most nearly means",
+      "options": [
+        {
+          "t": "newly founded"
+        },
+        {
+          "t": "innovative"
+        },
+        {
+          "t": "conventionally serious and unadventurous",
+          "correct": true
+        },
+        {
+          "t": "struggling financially"
+        }
+      ],
+      "words": [
+        "staid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A firm known for unchanging traditions and dark suits is described as staid, or conventionally serious."
+    },
+    {
+      "passage": "For weeks he vacillated between the two job offers, changing his mind almost daily until the deadline forced him to finally commit to one.",
+      "question": "As used in the passage, 'vacillate' most nearly means",
+      "options": [
+        {
+          "t": "decide instantly"
+        },
+        {
+          "t": "negotiate calmly"
+        },
+        {
+          "t": "celebrate"
+        },
+        {
+          "t": "waver indecisively",
+          "correct": true
+        }
+      ],
+      "words": [
+        "vacillate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Changing his mind almost daily for weeks describes wavering indecisively, or vacillating."
+    },
+    {
+      "passage": "The nation endured a turbulent decade marked by coups, protests, and rapidly changing leadership before finally achieving political stability.",
+      "question": "As used in the passage, 'turbulent' most nearly means",
+      "options": [
+        {
+          "t": "marked by upheaval",
+          "correct": true
+        },
+        {
+          "t": "peaceful"
+        },
+        {
+          "t": "prosperous"
+        },
+        {
+          "t": "predictable"
+        }
+      ],
+      "words": [
+        "turbulent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A decade of coups and changing leadership describes turbulence, or upheaval."
+    },
+    {
+      "passage": "After running the numbers twice, the engineers concluded the design was viable, capable of supporting the bridge's full expected load without modification.",
+      "question": "As used in the passage, 'viable' most nearly means",
+      "options": [
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "impossible"
+        },
+        {
+          "t": "workable",
+          "correct": true
+        }
+      ],
+      "words": [
+        "viable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A design confirmed capable of supporting the full load without changes is workable, or viable."
+    },
+    {
+      "passage": "City officials refused to sanction the unlicensed street festival, citing safety concerns about the large crowds expected in a space with only one exit.",
+      "question": "As used in the passage, 'sanction' most nearly means",
+      "options": [
+        {
+          "t": "advertise"
+        },
+        {
+          "t": "attend"
+        },
+        {
+          "t": "cancel entirely"
+        },
+        {
+          "t": "officially approve",
+          "correct": true
+        }
+      ],
+      "words": [
+        "sanction"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to 'sanction' the festival means refusing to give it official approval."
+    },
+    {
+      "passage": "Climbers who reach the summit at dawn often describe the sight as sublime, a beauty so overwhelming that words fail to capture it.",
+      "question": "As used in the passage, 'sublime' most nearly means",
+      "options": [
+        {
+          "t": "awe-inspiring",
+          "correct": true
+        },
+        {
+          "t": "dangerous"
+        },
+        {
+          "t": "brief"
+        },
+        {
+          "t": "ordinary"
+        }
+      ],
+      "words": [
+        "sublime"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A beauty so overwhelming that words fail describes something awe-inspiring, or sublime."
+    },
+    {
+      "passage": "The garden's variegated leaves, streaked with cream, pink, and deep green, made even the plants without flowers a visual centerpiece.",
+      "question": "As used in the passage, 'variegated' most nearly means",
+      "options": [
+        {
+          "t": "withered"
+        },
+        {
+          "t": "artificial"
+        },
+        {
+          "t": "marked with varied colors",
+          "correct": true
+        },
+        {
+          "t": "uniformly colored"
+        }
+      ],
+      "words": [
+        "variegated"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Leaves streaked with multiple colors describe variegated foliage."
+    },
+    {
+      "passage": "The shelter's furniture was strictly utilitarian—metal frames and plain cushions chosen for durability rather than any concern for appearance.",
+      "question": "As used in the passage, 'utilitarian' most nearly means",
+      "options": [
+        {
+          "t": "antique"
+        },
+        {
+          "t": "decorative"
+        },
+        {
+          "t": "practical rather than attractive",
+          "correct": true
+        },
+        {
+          "t": "expensive"
+        }
+      ],
+      "words": [
+        "utilitarian"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Furniture chosen for durability over appearance is practical, or utilitarian, in design."
+    },
+    {
+      "passage": "The new manager quickly realized that one employee was a sycophant, praising every decision in meetings but privately complaining to coworkers the moment the manager left the room.",
+      "question": "As used in the passage, 'sycophant' most nearly means",
+      "options": [
+        {
+          "t": "a quiet observer"
+        },
+        {
+          "t": "a talented performer"
+        },
+        {
+          "t": "someone who flatters insincerely",
+          "correct": true
+        },
+        {
+          "t": "an honest critic"
+        }
+      ],
+      "words": [
+        "sycophant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Publicly praising every decision while privately disagreeing is the behavior of a sycophant."
+    }
+  ]
+}

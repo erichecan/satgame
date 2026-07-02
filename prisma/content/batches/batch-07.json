@@ -1,0 +1,1731 @@
+{
+  "words": [
+    {
+      "word": "abate",
+      "pos": "verb",
+      "definitionEn": "to become less strong or intense",
+      "exampleEn": "The storm's fierce winds began to abate by midnight, and the streets grew calm again.",
+      "tier": "sat_core",
+      "rank": 1
+    },
+    {
+      "word": "abscond",
+      "pos": "verb",
+      "definitionEn": "to leave suddenly and secretly, often to avoid punishment",
+      "exampleEn": "The treasurer absconded with the club's funds the night before the audit.",
+      "tier": "sat_core",
+      "rank": 2
+    },
+    {
+      "word": "abridge",
+      "pos": "verb",
+      "definitionEn": "to shorten a piece of writing while keeping its main content",
+      "exampleEn": "The publisher decided to abridge the 900-page novel into a 300-page version for younger readers.",
+      "tier": "sat_core",
+      "rank": 3
+    },
+    {
+      "word": "abstain",
+      "pos": "verb",
+      "definitionEn": "to choose not to do or have something, especially by self-restraint",
+      "exampleEn": "Two senators chose to abstain from the vote rather than support either side.",
+      "tier": "sat_core",
+      "rank": 4
+    },
+    {
+      "word": "accolade",
+      "pos": "noun",
+      "definitionEn": "an award or expression of praise for an achievement",
+      "exampleEn": "Winning the national science fair was just one of many accolades she received that year.",
+      "tier": "sat_core",
+      "rank": 5
+    },
+    {
+      "word": "acquiesce",
+      "pos": "verb",
+      "definitionEn": "to accept something reluctantly but without protest",
+      "exampleEn": "After hours of debate, the committee finally acquiesced to the mayor's proposal.",
+      "tier": "sat_core",
+      "rank": 6,
+      "synonymGroup": "yield"
+    },
+    {
+      "word": "acrimony",
+      "pos": "noun",
+      "definitionEn": "bitterness or harshness in speech or manner",
+      "exampleEn": "The custody battle was marked by such acrimony that the two former partners refused to sit in the same room.",
+      "tier": "sat_core",
+      "rank": 7
+    },
+    {
+      "word": "adroit",
+      "pos": "adjective",
+      "definitionEn": "clever and skillful, especially in using the hands or mind",
+      "exampleEn": "The adroit negotiator managed to satisfy both angry parties within a single afternoon.",
+      "tier": "sat_core",
+      "rank": 8,
+      "synonymGroup": "skillful"
+    },
+    {
+      "word": "adulation",
+      "pos": "noun",
+      "definitionEn": "excessive or extreme admiration or praise",
+      "exampleEn": "The pop star seemed uncomfortable with the constant adulation of fans who followed her every move.",
+      "tier": "sat_core",
+      "rank": 9
+    },
+    {
+      "word": "aesthetic",
+      "pos": "adjective",
+      "definitionEn": "concerned with beauty or the appreciation of beauty",
+      "exampleEn": "The architect valued aesthetic appeal as much as structural safety when designing the museum.",
+      "tier": "sat_core",
+      "rank": 10
+    },
+    {
+      "word": "affable",
+      "pos": "adjective",
+      "definitionEn": "friendly, pleasant, and easy to talk to",
+      "exampleEn": "The new teacher's affable manner put even the shyest students at ease on the first day.",
+      "tier": "sat_core",
+      "rank": 11,
+      "synonymGroup": "friendly"
+    },
+    {
+      "word": "affluent",
+      "pos": "adjective",
+      "definitionEn": "having a great deal of money or wealth",
+      "exampleEn": "The affluent neighborhood was lined with large houses and expensive imported cars.",
+      "tier": "sat_core",
+      "rank": 12
+    },
+    {
+      "word": "aggregate",
+      "pos": "noun",
+      "definitionEn": "a total formed by combining several separate elements",
+      "exampleEn": "The company's aggregate sales across all its stores rose sharply in December.",
+      "tier": "sat_core",
+      "rank": 13
+    },
+    {
+      "word": "alacrity",
+      "pos": "noun",
+      "definitionEn": "brisk, eager readiness or willingness",
+      "exampleEn": "She accepted the challenging assignment with such alacrity that her manager was pleasantly surprised.",
+      "tier": "sat_core",
+      "rank": 14
+    },
+    {
+      "word": "allocate",
+      "pos": "verb",
+      "definitionEn": "to distribute resources or duties for a particular purpose",
+      "exampleEn": "The city council voted to allocate more funding to public parks this year.",
+      "tier": "sat_core",
+      "rank": 15
+    },
+    {
+      "word": "amass",
+      "pos": "verb",
+      "definitionEn": "to gather together a large quantity of something over time",
+      "exampleEn": "The collector spent decades trying to amass a complete set of rare coins.",
+      "tier": "sat_core",
+      "rank": 16
+    },
+    {
+      "word": "amiable",
+      "pos": "adjective",
+      "definitionEn": "having a friendly and pleasant manner",
+      "exampleEn": "Despite losing the match, the amiable coach shook every player's hand and smiled.",
+      "tier": "sat_core",
+      "rank": 17,
+      "synonymGroup": "friendly"
+    },
+    {
+      "word": "amorphous",
+      "pos": "adjective",
+      "definitionEn": "having no clear shape or fixed form",
+      "exampleEn": "The amorphous blob of clay hadn't yet been shaped into a bowl or vase.",
+      "tier": "sat_core",
+      "rank": 18
+    },
+    {
+      "word": "anachronism",
+      "pos": "noun",
+      "definitionEn": "something placed in the wrong time period, or something outdated",
+      "exampleEn": "A wristwatch appearing in a movie about ancient Rome would be an obvious anachronism.",
+      "tier": "sat_core",
+      "rank": 19
+    },
+    {
+      "word": "analogous",
+      "pos": "adjective",
+      "definitionEn": "similar in a way that allows a comparison to be made",
+      "exampleEn": "The human heart's function is analogous to that of a pump, moving fluid through a system of pipes.",
+      "tier": "sat_core",
+      "rank": 20
+    },
+    {
+      "word": "anarchy",
+      "pos": "noun",
+      "definitionEn": "a state of disorder due to absence of authority or government",
+      "exampleEn": "When the government collapsed overnight, the capital descended into anarchy, with no police to keep order.",
+      "tier": "sat_core",
+      "rank": 21
+    },
+    {
+      "word": "anecdote",
+      "pos": "noun",
+      "definitionEn": "a short, amusing or interesting story about a real incident or person",
+      "exampleEn": "The professor opened her lecture with a funny anecdote about her first day teaching.",
+      "tier": "sat_core",
+      "rank": 22
+    },
+    {
+      "word": "animosity",
+      "pos": "noun",
+      "definitionEn": "strong hostility or dislike",
+      "exampleEn": "Years after the business partnership dissolved, the two founders still felt deep animosity toward each other.",
+      "tier": "sat_core",
+      "rank": 23
+    },
+    {
+      "word": "antagonist",
+      "pos": "noun",
+      "definitionEn": "a person who actively opposes or is hostile to someone, often the main opponent in a story",
+      "exampleEn": "In the novel, the antagonist spends every chapter scheming to ruin the hero's plans.",
+      "tier": "sat_core",
+      "rank": 24
+    },
+    {
+      "word": "antipathy",
+      "pos": "noun",
+      "definitionEn": "a deep-seated feeling of dislike or aversion",
+      "exampleEn": "His antipathy toward crowded parties was well known, so his friends never invited him to large gatherings.",
+      "tier": "sat_core",
+      "rank": 25
+    },
+    {
+      "word": "antiquated",
+      "pos": "adjective",
+      "definitionEn": "old-fashioned or outdated and no longer suitable for modern use",
+      "exampleEn": "The factory still relied on antiquated machines that broke down almost every week.",
+      "tier": "sat_core",
+      "rank": 26
+    },
+    {
+      "word": "apathy",
+      "pos": "noun",
+      "definitionEn": "lack of interest, enthusiasm, or concern",
+      "exampleEn": "Voter apathy was so high that only a fifth of eligible citizens showed up at the polls.",
+      "tier": "sat_core",
+      "rank": 27
+    },
+    {
+      "word": "appease",
+      "pos": "verb",
+      "definitionEn": "to calm or satisfy someone by giving in to their demands",
+      "exampleEn": "The manager offered a free meal to appease the customer who had complained loudly about the wait.",
+      "tier": "sat_core",
+      "rank": 28
+    },
+    {
+      "word": "apprehensive",
+      "pos": "adjective",
+      "definitionEn": "anxious or fearful about something that may happen",
+      "exampleEn": "She felt apprehensive walking into the interview, unsure if she had prepared enough.",
+      "tier": "sat_core",
+      "rank": 29
+    },
+    {
+      "word": "arduous",
+      "pos": "adjective",
+      "definitionEn": "involving great effort or difficulty; strenuous",
+      "exampleEn": "The arduous hike up the mountain took nearly ten hours and left the climbers exhausted.",
+      "tier": "sat_core",
+      "rank": 30
+    },
+    {
+      "word": "articulate",
+      "pos": "adjective",
+      "definitionEn": "able to express ideas clearly and effectively in speech",
+      "exampleEn": "Even as a young student, he was remarkably articulate when defending his opinions in class debates.",
+      "tier": "sat_core",
+      "rank": 31
+    },
+    {
+      "word": "ascertain",
+      "pos": "verb",
+      "definitionEn": "to find out something for certain through investigation",
+      "exampleEn": "Investigators worked for weeks to ascertain the exact cause of the bridge collapse.",
+      "tier": "sat_core",
+      "rank": 32
+    },
+    {
+      "word": "assiduous",
+      "pos": "adjective",
+      "definitionEn": "showing great care, effort, and persistence in work",
+      "exampleEn": "The assiduous student reviewed her notes every single night, never missing a session.",
+      "tier": "sat_core",
+      "rank": 33
+    },
+    {
+      "word": "austere",
+      "pos": "adjective",
+      "definitionEn": "plain and simple, without luxury or decoration",
+      "exampleEn": "The monk's austere room contained nothing but a bed, a chair, and a candle.",
+      "tier": "sat_core",
+      "rank": 34
+    },
+    {
+      "word": "authoritarian",
+      "pos": "adjective",
+      "definitionEn": "favoring strict obedience to authority at the expense of personal freedom",
+      "exampleEn": "The authoritarian principal punished even the smallest rule violations with harsh detentions.",
+      "tier": "sat_core",
+      "rank": 35
+    },
+    {
+      "word": "autonomous",
+      "pos": "adjective",
+      "definitionEn": "able to act independently, without outside control",
+      "exampleEn": "The region became autonomous after the treaty, free to make its own local laws.",
+      "tier": "sat_core",
+      "rank": 36
+    },
+    {
+      "word": "avarice",
+      "pos": "noun",
+      "definitionEn": "extreme greed for wealth or material gain",
+      "exampleEn": "The old miser's avarice drove him to hoard coins even as his family went hungry.",
+      "tier": "sat_core",
+      "rank": 37
+    },
+    {
+      "word": "aversion",
+      "pos": "noun",
+      "definitionEn": "a strong dislike or unwillingness toward something",
+      "exampleEn": "His aversion to public speaking made the mandatory presentation feel like torture.",
+      "tier": "sat_core",
+      "rank": 38
+    },
+    {
+      "word": "banal",
+      "pos": "adjective",
+      "definitionEn": "so ordinary and unoriginal that it is boring",
+      "exampleEn": "Critics called the film's dialogue banal, full of lines they had heard in a hundred other movies.",
+      "tier": "sat_core",
+      "rank": 39
+    },
+    {
+      "word": "belie",
+      "pos": "verb",
+      "definitionEn": "to give a false impression of something",
+      "exampleEn": "Her calm expression belied the panic she actually felt as the deadline approached.",
+      "tier": "sat_core",
+      "rank": 40
+    },
+    {
+      "word": "belligerent",
+      "pos": "adjective",
+      "definitionEn": "hostile and aggressive, ready to fight",
+      "exampleEn": "The belligerent customer shouted at the cashier over a minor pricing mistake.",
+      "tier": "sat_core",
+      "rank": 41
+    },
+    {
+      "word": "bombastic",
+      "pos": "adjective",
+      "definitionEn": "using high-sounding but empty or exaggerated language",
+      "exampleEn": "The politician's bombastic speech was full of grand promises but offered no real plan.",
+      "tier": "sat_core",
+      "rank": 42
+    },
+    {
+      "word": "boorish",
+      "pos": "adjective",
+      "definitionEn": "rude, crude, and lacking good manners",
+      "exampleEn": "His boorish habit of interrupting others made him unwelcome at dinner parties.",
+      "tier": "sat_core",
+      "rank": 43
+    },
+    {
+      "word": "brazen",
+      "pos": "adjective",
+      "definitionEn": "bold and shameless, without any embarrassment",
+      "exampleEn": "In a brazen move, the thief walked out of the store carrying the stolen television in plain sight.",
+      "tier": "sat_core",
+      "rank": 44
+    },
+    {
+      "word": "brevity",
+      "pos": "noun",
+      "definitionEn": "the quality of being short and to the point",
+      "exampleEn": "The editor praised the brevity of the report, which covered everything in just two pages.",
+      "tier": "sat_core",
+      "rank": 45
+    },
+    {
+      "word": "buoyant",
+      "pos": "adjective",
+      "definitionEn": "cheerful and optimistic; also able to float",
+      "exampleEn": "Despite the setback, her buoyant mood lifted the spirits of the whole team.",
+      "tier": "sat_core",
+      "rank": 46
+    },
+    {
+      "word": "burgeon",
+      "pos": "verb",
+      "definitionEn": "to grow or increase rapidly",
+      "exampleEn": "The small startup's customer base began to burgeon after the app went viral online.",
+      "tier": "sat_core",
+      "rank": 47
+    },
+    {
+      "word": "burnish",
+      "pos": "verb",
+      "definitionEn": "to polish something until it shines; to improve a reputation",
+      "exampleEn": "The award helped burnish the young chef's reputation among the city's top critics.",
+      "tier": "sat_core",
+      "rank": 48
+    },
+    {
+      "word": "cacophony",
+      "pos": "noun",
+      "definitionEn": "a harsh, jarring mixture of sounds",
+      "exampleEn": "The cacophony of car horns and shouting made it impossible to hear the phone call.",
+      "tier": "sat_core",
+      "rank": 49
+    },
+    {
+      "word": "cajole",
+      "pos": "verb",
+      "definitionEn": "to persuade someone gently through flattery or gentle urging",
+      "exampleEn": "She managed to cajole her little brother into sharing his dessert with kind words and a smile.",
+      "tier": "sat_core",
+      "rank": 50
+    },
+    {
+      "word": "callous",
+      "pos": "adjective",
+      "definitionEn": "showing no sympathy or concern for others' feelings",
+      "exampleEn": "His callous remark about her injury showed he had no interest in how she felt.",
+      "tier": "sat_core",
+      "rank": 51
+    },
+    {
+      "word": "candor",
+      "pos": "noun",
+      "definitionEn": "the quality of being honest and straightforward",
+      "exampleEn": "The coach's candor about the team's weaknesses surprised reporters used to vague answers.",
+      "tier": "sat_core",
+      "rank": 52,
+      "synonymGroup": "honest"
+    },
+    {
+      "word": "capitulate",
+      "pos": "verb",
+      "definitionEn": "to stop resisting and accept an opponent's demands",
+      "exampleEn": "After a long siege, the fortress finally capitulated to the invading army.",
+      "tier": "sat_core",
+      "rank": 53,
+      "synonymGroup": "yield"
+    },
+    {
+      "word": "capricious",
+      "pos": "adjective",
+      "definitionEn": "changing mood or behavior suddenly and unpredictably",
+      "exampleEn": "The capricious weather went from sunny to stormy within a single hour.",
+      "tier": "sat_core",
+      "rank": 54
+    },
+    {
+      "word": "castigate",
+      "pos": "verb",
+      "definitionEn": "to criticize or punish someone severely",
+      "exampleEn": "The coach castigated the team in the locker room after their careless mistakes cost them the game.",
+      "tier": "sat_core",
+      "rank": 55,
+      "synonymGroup": "scold"
+    },
+    {
+      "word": "catalyst",
+      "pos": "noun",
+      "definitionEn": "a person or thing that causes an important change or event",
+      "exampleEn": "The factory closure became the catalyst for a wave of protests across the town.",
+      "tier": "sat_core",
+      "rank": 56
+    },
+    {
+      "word": "caustic",
+      "pos": "adjective",
+      "definitionEn": "sharply critical or bitter in tone; also chemically corrosive",
+      "exampleEn": "The critic's caustic review left the young playwright in tears backstage.",
+      "tier": "sat_core",
+      "rank": 57
+    },
+    {
+      "word": "charlatan",
+      "pos": "noun",
+      "definitionEn": "a person who falsely claims to have special knowledge or skill",
+      "exampleEn": "The so-called doctor turned out to be a charlatan selling fake cures out of his car trunk.",
+      "tier": "sat_core",
+      "rank": 58
+    },
+    {
+      "word": "chastise",
+      "pos": "verb",
+      "definitionEn": "to scold or reprimand someone severely",
+      "exampleEn": "The teacher chastised the students for talking loudly during the fire drill.",
+      "tier": "sat_core",
+      "rank": 59,
+      "synonymGroup": "scold"
+    },
+    {
+      "word": "chicanery",
+      "pos": "noun",
+      "definitionEn": "the use of trickery or deception to achieve a goal",
+      "exampleEn": "Investigators uncovered years of financial chicanery hidden behind the company's fake accounts.",
+      "tier": "sat_core",
+      "rank": 60
+    },
+    {
+      "word": "circuitous",
+      "pos": "adjective",
+      "definitionEn": "longer and less direct than a straight path",
+      "exampleEn": "We took a circuitous route through back roads to avoid the traffic on the highway.",
+      "tier": "sat_core",
+      "rank": 61
+    },
+    {
+      "word": "clairvoyant",
+      "pos": "adjective",
+      "definitionEn": "having the supposed ability to perceive things beyond normal senses",
+      "exampleEn": "The fortune teller claimed to be clairvoyant, able to see events before they happened.",
+      "tier": "sat_core",
+      "rank": 62
+    },
+    {
+      "word": "clandestine",
+      "pos": "adjective",
+      "definitionEn": "done secretly, often because it is illegal or disapproved of",
+      "exampleEn": "The spies held a clandestine meeting in an abandoned warehouse at midnight.",
+      "tier": "sat_core",
+      "rank": 63
+    },
+    {
+      "word": "coalesce",
+      "pos": "verb",
+      "definitionEn": "to come together to form one whole",
+      "exampleEn": "Small droplets of water on the window began to coalesce into larger streams.",
+      "tier": "sat_core",
+      "rank": 64
+    },
+    {
+      "word": "cogent",
+      "pos": "adjective",
+      "definitionEn": "clear, logical, and convincing",
+      "exampleEn": "Her cogent argument left no doubt in the judges' minds about who should win the debate.",
+      "tier": "sat_core",
+      "rank": 65
+    },
+    {
+      "word": "colloquial",
+      "pos": "adjective",
+      "definitionEn": "used in ordinary or familiar conversation rather than formal speech or writing",
+      "exampleEn": "The professor asked students to avoid colloquial expressions like 'gonna' in their formal essays.",
+      "tier": "sat_core",
+      "rank": 66
+    },
+    {
+      "word": "commensurate",
+      "pos": "adjective",
+      "definitionEn": "matching in size, degree, or amount with something else",
+      "exampleEn": "Her salary was finally commensurate with her years of experience and responsibility.",
+      "tier": "sat_core",
+      "rank": 67
+    },
+    {
+      "word": "complacent",
+      "pos": "adjective",
+      "definitionEn": "showing excessive satisfaction with oneself, unaware of possible problems",
+      "exampleEn": "After winning three games in a row, the team grew complacent and lost focus in practice.",
+      "tier": "sat_core",
+      "rank": 68
+    },
+    {
+      "word": "compliant",
+      "pos": "adjective",
+      "definitionEn": "tending to agree with others or obey rules without objection",
+      "exampleEn": "The new hire was compliant with every company policy, never once questioning the rules.",
+      "tier": "sat_core",
+      "rank": 69
+    },
+    {
+      "word": "compunction",
+      "pos": "noun",
+      "definitionEn": "a feeling of guilt or unease about doing something wrong",
+      "exampleEn": "He felt no compunction about cutting in line, even as others glared at him.",
+      "tier": "sat_core",
+      "rank": 70
+    },
+    {
+      "word": "concede",
+      "pos": "verb",
+      "definitionEn": "to admit that something is true after first denying it; to give up or yield",
+      "exampleEn": "After reviewing the evidence, the scientist had to concede that her original theory was wrong.",
+      "tier": "sat_core",
+      "rank": 71,
+      "synonymGroup": "yield"
+    },
+    {
+      "word": "conciliatory",
+      "pos": "adjective",
+      "definitionEn": "intended to end a disagreement and make peace",
+      "exampleEn": "He offered a conciliatory apology, hoping to repair the friendship after their argument.",
+      "tier": "sat_core",
+      "rank": 72
+    },
+    {
+      "word": "concur",
+      "pos": "verb",
+      "definitionEn": "to agree with an opinion or decision",
+      "exampleEn": "All three judges concurred that the young violinist deserved first prize.",
+      "tier": "sat_core",
+      "rank": 73
+    },
+    {
+      "word": "condone",
+      "pos": "verb",
+      "definitionEn": "to accept or approve of behavior that is considered wrong",
+      "exampleEn": "The school made clear it would not condone bullying of any kind.",
+      "tier": "sat_core",
+      "rank": 74
+    },
+    {
+      "word": "conflagration",
+      "pos": "noun",
+      "definitionEn": "a large, destructive fire",
+      "exampleEn": "The conflagration destroyed dozens of homes before firefighters finally brought it under control.",
+      "tier": "sat_core",
+      "rank": 75
+    },
+    {
+      "word": "congenial",
+      "pos": "adjective",
+      "definitionEn": "pleasant and friendly, suited to one's needs or nature",
+      "exampleEn": "The office had a congenial atmosphere where coworkers happily helped one another.",
+      "tier": "sat_core",
+      "rank": 76,
+      "synonymGroup": "friendly"
+    },
+    {
+      "word": "connoisseur",
+      "pos": "noun",
+      "definitionEn": "a person with expert knowledge and refined taste in a particular field",
+      "exampleEn": "As a connoisseur of fine tea, she could identify the region a leaf came from just by its aroma.",
+      "tier": "sat_core",
+      "rank": 77
+    },
+    {
+      "word": "consensus",
+      "pos": "noun",
+      "definitionEn": "general agreement among a group of people",
+      "exampleEn": "After hours of discussion, the committee finally reached a consensus on the new policy.",
+      "tier": "sat_core",
+      "rank": 78
+    },
+    {
+      "word": "consolidate",
+      "pos": "verb",
+      "definitionEn": "to combine separate parts into a single, stronger whole",
+      "exampleEn": "The two small banks decided to consolidate into one larger institution to cut costs.",
+      "tier": "sat_core",
+      "rank": 79
+    },
+    {
+      "word": "conspicuous",
+      "pos": "adjective",
+      "definitionEn": "standing out so as to be easily seen or noticed",
+      "exampleEn": "Her bright red coat made her conspicuous in the crowd of gray winter jackets.",
+      "tier": "sat_core",
+      "rank": 80
+    },
+    {
+      "word": "contentious",
+      "pos": "adjective",
+      "definitionEn": "causing or likely to cause an argument; controversial",
+      "exampleEn": "The proposed new highway became the most contentious issue at the town meeting.",
+      "tier": "sat_core",
+      "rank": 81
+    },
+    {
+      "word": "contrite",
+      "pos": "adjective",
+      "definitionEn": "feeling or showing sincere regret for wrongdoing",
+      "exampleEn": "The contrite student apologized to his teacher and promised never to cheat again.",
+      "tier": "sat_core",
+      "rank": 82
+    },
+    {
+      "word": "conundrum",
+      "pos": "noun",
+      "definitionEn": "a confusing and difficult problem or question",
+      "exampleEn": "Choosing between two excellent job offers became a real conundrum for the graduate.",
+      "tier": "sat_core",
+      "rank": 83
+    },
+    {
+      "word": "convivial",
+      "pos": "adjective",
+      "definitionEn": "friendly, lively, and enjoyable, especially in a social setting",
+      "exampleEn": "The convivial atmosphere at the reunion had everyone laughing and swapping old stories.",
+      "tier": "sat_core",
+      "rank": 84,
+      "synonymGroup": "friendly"
+    },
+    {
+      "word": "copious",
+      "pos": "adjective",
+      "definitionEn": "abundant or plentiful in supply",
+      "exampleEn": "She took copious notes during the lecture, filling three notebooks by the end of the semester.",
+      "tier": "sat_core",
+      "rank": 85
+    },
+    {
+      "word": "corroborate",
+      "pos": "verb",
+      "definitionEn": "to confirm or support a statement or theory with evidence",
+      "exampleEn": "Two independent witnesses corroborated the driver's account of the accident.",
+      "tier": "sat_core",
+      "rank": 86
+    },
+    {
+      "word": "cosmopolitan",
+      "pos": "adjective",
+      "definitionEn": "familiar with and comfortable in many different countries and cultures",
+      "exampleEn": "Having grown up in five different countries, she had a truly cosmopolitan outlook on life.",
+      "tier": "sat_core",
+      "rank": 87
+    },
+    {
+      "word": "credulous",
+      "pos": "adjective",
+      "definitionEn": "too ready to believe things without enough evidence",
+      "exampleEn": "The credulous investor handed over his savings after hearing just one glowing sales pitch.",
+      "tier": "sat_core",
+      "rank": 88
+    },
+    {
+      "word": "cryptic",
+      "pos": "adjective",
+      "definitionEn": "having a meaning that is mysterious or not easily understood",
+      "exampleEn": "His cryptic text message left his friends guessing what he actually meant.",
+      "tier": "sat_core",
+      "rank": 89
+    },
+    {
+      "word": "culminate",
+      "pos": "verb",
+      "definitionEn": "to reach a final, climactic point after a series of events",
+      "exampleEn": "Months of rehearsal culminated in a single, spectacular opening night performance.",
+      "tier": "sat_core",
+      "rank": 90
+    },
+    {
+      "word": "cupidity",
+      "pos": "noun",
+      "definitionEn": "greed for money or possessions",
+      "exampleEn": "The businessman's cupidity led him to cut corners that eventually ruined his company's reputation.",
+      "tier": "sat_core",
+      "rank": 91
+    },
+    {
+      "word": "cursory",
+      "pos": "adjective",
+      "definitionEn": "done quickly and without attention to detail",
+      "exampleEn": "A cursory glance at the report missed the error that a careful reading would have caught.",
+      "tier": "sat_core",
+      "rank": 92
+    },
+    {
+      "word": "curtail",
+      "pos": "verb",
+      "definitionEn": "to reduce or limit something",
+      "exampleEn": "The school decided to curtail the field trip schedule due to a shrinking budget.",
+      "tier": "sat_core",
+      "rank": 93
+    },
+    {
+      "word": "dearth",
+      "pos": "noun",
+      "definitionEn": "a scarcity or lack of something",
+      "exampleEn": "The rural clinic faced a dearth of trained doctors willing to work so far from the city.",
+      "tier": "sat_core",
+      "rank": 94
+    },
+    {
+      "word": "debacle",
+      "pos": "noun",
+      "definitionEn": "a sudden, complete failure or disaster",
+      "exampleEn": "The product launch turned into a debacle when the website crashed within minutes.",
+      "tier": "sat_core",
+      "rank": 95
+    },
+    {
+      "word": "debilitate",
+      "pos": "verb",
+      "definitionEn": "to make someone or something weak",
+      "exampleEn": "The long illness debilitated him so severely that he could barely climb the stairs.",
+      "tier": "sat_core",
+      "rank": 96
+    },
+    {
+      "word": "decorous",
+      "pos": "adjective",
+      "definitionEn": "behaving in a way that is proper and socially appropriate",
+      "exampleEn": "The guests remained decorous throughout the formal dinner, careful not to offend the hosts.",
+      "tier": "sat_core",
+      "rank": 97
+    },
+    {
+      "word": "deference",
+      "pos": "noun",
+      "definitionEn": "respectful submission to the wishes or judgment of another",
+      "exampleEn": "The junior officers showed deference to the general, never questioning his orders in public.",
+      "tier": "sat_core",
+      "rank": 98
+    },
+    {
+      "word": "deleterious",
+      "pos": "adjective",
+      "definitionEn": "causing harm or damage",
+      "exampleEn": "Scientists warned that the chemical had a deleterious effect on the river's fish population.",
+      "tier": "sat_core",
+      "rank": 99
+    },
+    {
+      "word": "demagogue",
+      "pos": "noun",
+      "definitionEn": "a political leader who seeks support by appealing to popular emotions and prejudices",
+      "exampleEn": "Historians describe the fallen dictator as a demagogue who rose to power on fear and false promises.",
+      "tier": "sat_core",
+      "rank": 100
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "As the medication took effect, the patient's fever began to abate, and by morning her temperature had returned to normal.",
+      "question": "As used in the passage, 'abate' most nearly means",
+      "options": [
+        {
+          "t": "to lessen in intensity",
+          "correct": true
+        },
+        {
+          "t": "to remain unchanged"
+        },
+        {
+          "t": "to disappear instantly"
+        },
+        {
+          "t": "to spread rapidly"
+        }
+      ],
+      "words": [
+        "abate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The fever gradually decreasing until it returned to normal shows 'abate' means to lessen in intensity, not disappear instantly."
+    },
+    {
+      "passage": "To fit within the school's reading period, the teacher chose to abridge the classic novel, cutting several subplots while preserving the main storyline for her sixth-grade class.",
+      "question": "As used in the passage, 'abridge' most nearly means",
+      "options": [
+        {
+          "t": "to shorten while keeping the core content",
+          "correct": true
+        },
+        {
+          "t": "to translate into another language"
+        },
+        {
+          "t": "to rewrite in modern slang"
+        },
+        {
+          "t": "to illustrate with new pictures"
+        }
+      ],
+      "words": [
+        "abridge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cutting subplots but preserving the main storyline is exactly what 'abridge' describes: shortening while keeping the essential content."
+    },
+    {
+      "passage": "The young chef had already collected several accolades by age twenty-five, including a national cooking award and a glowing profile in a major food magazine.",
+      "question": "As used in the passage, 'accolades' most nearly means",
+      "options": [
+        {
+          "t": "expressions of praise or honors received",
+          "correct": true
+        },
+        {
+          "t": "recipes invented for a competition"
+        },
+        {
+          "t": "complaints filed by dissatisfied customers"
+        },
+        {
+          "t": "debts owed to business partners"
+        }
+      ],
+      "words": [
+        "accolade"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An award and a glowing magazine profile are both forms of praise, matching the meaning of 'accolades.'"
+    },
+    {
+      "passage": "Once business partners and close friends, the two men now spoke to each other only through lawyers, their conversations dripping with acrimony after the failed merger.",
+      "question": "As used in the passage, 'acrimony' most nearly means",
+      "options": [
+        {
+          "t": "bitterness and hostility",
+          "correct": true
+        },
+        {
+          "t": "warm affection"
+        },
+        {
+          "t": "calm indifference"
+        },
+        {
+          "t": "quiet sadness"
+        }
+      ],
+      "words": [
+        "acrimony"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Former friends now speaking only through lawyers with dripping hostility signals 'acrimony,' meaning bitterness."
+    },
+    {
+      "passage": "The gallery's minimalist design prioritized aesthetic harmony, arranging each painting so that color and light guided the visitor's eye naturally from one piece to the next.",
+      "question": "As used in the passage, 'aesthetic' most nearly means",
+      "options": [
+        {
+          "t": "relating to financial cost"
+        },
+        {
+          "t": "relating to beauty and visual appeal",
+          "correct": true
+        },
+        {
+          "t": "relating to safety regulations"
+        },
+        {
+          "t": "relating to historical accuracy"
+        }
+      ],
+      "words": [
+        "aesthetic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage discusses color, light, and visual harmony, all concerns of beauty, which is what 'aesthetic' refers to."
+    },
+    {
+      "passage": "The neighborhood, once modest and working-class, had become remarkably affluent, its narrow streets now lined with luxury cars and newly renovated mansions.",
+      "question": "Which choice best supports the claim that the neighborhood changed economically?",
+      "options": [
+        {
+          "t": "The neighborhood, once modest"
+        },
+        {
+          "t": "its narrow streets now lined with luxury cars and newly renovated mansions",
+          "correct": true
+        },
+        {
+          "t": "had become remarkably affluent"
+        },
+        {
+          "t": "the neighborhood, once modest and working-class"
+        }
+      ],
+      "words": [
+        "affluent"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The detail about luxury cars and renovated mansions provides concrete evidence of the neighborhood's new wealth, supporting the claim it became affluent."
+    },
+    {
+      "passage": "When the fire alarm rang, the intern responded with such alacrity that she had already guided two coworkers to the exit before the rest of the office even looked up.",
+      "question": "As used in the passage, 'alacrity' most nearly means",
+      "options": [
+        {
+          "t": "eager and prompt readiness",
+          "correct": true
+        },
+        {
+          "t": "careless disregard"
+        },
+        {
+          "t": "quiet resentment"
+        },
+        {
+          "t": "confused hesitation"
+        }
+      ],
+      "words": [
+        "alacrity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Acting immediately to help coworkers before others even reacted shows eager readiness, matching 'alacrity.'"
+    },
+    {
+      "passage": "Over three decades, the retired librarian managed to amass a personal collection of over ten thousand rare postcards from every continent.",
+      "question": "As used in the passage, 'amass' most nearly means",
+      "options": [
+        {
+          "t": "to lose track of"
+        },
+        {
+          "t": "to donate to a museum"
+        },
+        {
+          "t": "to gather gradually in large quantity",
+          "correct": true
+        },
+        {
+          "t": "to sell off quickly"
+        }
+      ],
+      "words": [
+        "amass"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Building a collection of ten thousand postcards over thirty years describes gradually gathering a large amount, the meaning of 'amass.'"
+    },
+    {
+      "passage": "Critics pointed out the film's glaring anachronism: a character in a story set in 1850 casually checks the time on a digital wristwatch.",
+      "question": "As used in the passage, 'anachronism' most nearly means",
+      "options": [
+        {
+          "t": "a scene filmed in poor lighting"
+        },
+        {
+          "t": "something out of its correct time period",
+          "correct": true
+        },
+        {
+          "t": "an actor's memorable performance"
+        },
+        {
+          "t": "a plot twist that surprises viewers"
+        }
+      ],
+      "words": [
+        "anachronism"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A digital wristwatch appearing in a story set in 1850 is an object from the wrong time period, exactly what 'anachronism' describes."
+    },
+    {
+      "passage": "With no police, no courts, and no functioning government, the abandoned mining town fell into total anarchy, and looters roamed the streets freely.",
+      "question": "As used in the passage, 'anarchy' most nearly means",
+      "options": [
+        {
+          "t": "a state of lawlessness and disorder",
+          "correct": true
+        },
+        {
+          "t": "a period of strict military rule"
+        },
+        {
+          "t": "an era of peaceful cooperation"
+        },
+        {
+          "t": "a temporary economic boom"
+        }
+      ],
+      "words": [
+        "anarchy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "No police, no courts, and looters roaming freely describe a total lack of order, the meaning of 'anarchy.'"
+    },
+    {
+      "passage": "Rather than reciting dry statistics, the speaker opened with a personal anecdote about getting lost on her first day of college, which immediately drew laughter from the audience.",
+      "question": "Which choice best describes the function of the anecdote in the passage?",
+      "options": [
+        {
+          "t": "It criticizes the audience for their lack of attention."
+        },
+        {
+          "t": "It engages the audience through a relatable, personal story rather than dry facts.",
+          "correct": true
+        },
+        {
+          "t": "It summarizes the speaker's entire academic career."
+        },
+        {
+          "t": "It provides statistical evidence for the speaker's main argument."
+        }
+      ],
+      "words": [
+        "anecdote"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage contrasts the anecdote with 'dry statistics,' showing its function is to engage listeners emotionally rather than present data."
+    },
+    {
+      "passage": "Even decades after the lawsuit was settled, the former business partners still exchanged icy glares whenever they crossed paths, their old animosity clearly unresolved.",
+      "question": "As used in the passage, 'animosity' most nearly means",
+      "options": [
+        {
+          "t": "shared excitement"
+        },
+        {
+          "t": "mutual respect"
+        },
+        {
+          "t": "casual indifference"
+        },
+        {
+          "t": "deep hostility or resentment",
+          "correct": true
+        }
+      ],
+      "words": [
+        "animosity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Exchanging icy glares decades later shows unresolved hostility, the meaning of 'animosity.'"
+    },
+    {
+      "passage": "Ever since childhood, he had felt an inexplicable antipathy toward crowded elevators, avoiding them even when it meant climbing twenty flights of stairs.",
+      "question": "As used in the passage, 'antipathy' most nearly means",
+      "options": [
+        {
+          "t": "a professional obligation"
+        },
+        {
+          "t": "a mild curiosity"
+        },
+        {
+          "t": "a fond memory"
+        },
+        {
+          "t": "a strong dislike or aversion",
+          "correct": true
+        }
+      ],
+      "words": [
+        "antipathy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Climbing twenty flights of stairs to avoid elevators shows a strong dislike, the meaning of 'antipathy.'"
+    },
+    {
+      "passage": "Turnout at the town hall meeting was dismal, a sign of the general apathy residents felt toward local politics after years of unfulfilled promises.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Residents' lack of interest in local politics, caused by broken promises, led to poor meeting attendance.",
+          "correct": true
+        },
+        {
+          "t": "Residents strongly support their local government's decisions."
+        },
+        {
+          "t": "The town hall building was too small to hold all interested residents."
+        },
+        {
+          "t": "Local politicians always fulfill their campaign promises."
+        }
+      ],
+      "words": [
+        "apathy"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage links low turnout directly to apathy caused by unfulfilled promises, which is the main idea."
+    },
+    {
+      "passage": "Though she had studied for weeks, she still felt apprehensive the morning of the exam, her hands trembling slightly as she opened the test booklet.",
+      "question": "As used in the passage, 'apprehensive' most nearly means",
+      "options": [
+        {
+          "t": "completely confident"
+        },
+        {
+          "t": "angry and frustrated"
+        },
+        {
+          "t": "anxious about a future event",
+          "correct": true
+        },
+        {
+          "t": "bored and indifferent"
+        }
+      ],
+      "words": [
+        "apprehensive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Trembling hands despite weeks of studying show anxiety about the upcoming exam, the meaning of 'apprehensive.'"
+    },
+    {
+      "passage": "Detectives spent months trying to ascertain who had access to the vault on the night of the robbery, cross-checking security logs against employee schedules.",
+      "question": "As used in the passage, 'ascertain' most nearly means",
+      "options": [
+        {
+          "t": "to determine with certainty through investigation",
+          "correct": true
+        },
+        {
+          "t": "to accuse falsely"
+        },
+        {
+          "t": "to guess without evidence"
+        },
+        {
+          "t": "to conceal from the public"
+        }
+      ],
+      "words": [
+        "ascertain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cross-checking logs and schedules over months to find out who had access describes careful investigation to determine facts, the meaning of 'ascertain.'"
+    },
+    {
+      "passage": "The monastery's austere interior held nothing beyond a wooden bench and a single candle, reflecting the monks' rejection of material comfort.",
+      "question": "As used in the passage, 'austere' most nearly means",
+      "options": [
+        {
+          "t": "plain and without luxury",
+          "correct": true
+        },
+        {
+          "t": "brightly decorated"
+        },
+        {
+          "t": "spacious and modern"
+        },
+        {
+          "t": "warm and inviting"
+        }
+      ],
+      "words": [
+        "austere"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A room with only a bench and a candle, reflecting rejection of material comfort, illustrates 'austere,' meaning plain and unadorned."
+    },
+    {
+      "passage": "After years under central rule, the island province finally became autonomous, gaining the power to write its own laws and manage its own budget.",
+      "question": "As used in the passage, 'autonomous' most nearly means",
+      "options": [
+        {
+          "t": "self-governing and independent",
+          "correct": true
+        },
+        {
+          "t": "militarily occupied"
+        },
+        {
+          "t": "financially bankrupt"
+        },
+        {
+          "t": "heavily controlled by outsiders"
+        }
+      ],
+      "words": [
+        "autonomous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Gaining power to write its own laws and manage its own budget describes self-governance, the meaning of 'autonomous.'"
+    },
+    {
+      "passage": "Her aversion to seafood was so strong that she left the dinner table the moment the smell of shrimp reached her nose.",
+      "question": "As used in the passage, 'aversion' most nearly means",
+      "options": [
+        {
+          "t": "a pleasant memory"
+        },
+        {
+          "t": "a professional skill"
+        },
+        {
+          "t": "a mild preference"
+        },
+        {
+          "t": "a strong dislike",
+          "correct": true
+        }
+      ],
+      "words": [
+        "aversion"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Leaving the table at the mere smell of shrimp demonstrates a strong dislike, the meaning of 'aversion.'"
+    },
+    {
+      "passage": "His confident tone belied the fact that he had no idea how to answer the question and was simply improvising in front of the class.",
+      "question": "As used in the passage, 'belied' most nearly means",
+      "options": [
+        {
+          "t": "accurately revealed"
+        },
+        {
+          "t": "loudly announced"
+        },
+        {
+          "t": "gave a false impression of",
+          "correct": true
+        },
+        {
+          "t": "completely ignored"
+        }
+      ],
+      "words": [
+        "belie"
+      ],
+      "domain": "words_in_context",
+      "explanation": "His confident tone masked the fact he was improvising with no real answer, meaning it gave a false impression, the definition of 'belied.'"
+    },
+    {
+      "passage": "The CEO's bombastic keynote was full of phrases like 'revolutionary' and 'unprecedented,' yet contained not a single concrete detail about the product itself.",
+      "question": "As used in the passage, 'bombastic' most nearly means",
+      "options": [
+        {
+          "t": "using technical jargon accurately"
+        },
+        {
+          "t": "using grand but empty language",
+          "correct": true
+        },
+        {
+          "t": "using simple, clear language"
+        },
+        {
+          "t": "using quiet, understated language"
+        }
+      ],
+      "words": [
+        "bombastic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Grand words like 'revolutionary' with no concrete details describe language that sounds impressive but is empty, the meaning of 'bombastic.'"
+    },
+    {
+      "passage": "The negotiations broke down when the two rival companies could not overcome years of built-up acrimony, each side too contentious to compromise on even minor terms.",
+      "question": "As used in the passage, 'contentious' most nearly means",
+      "options": [
+        {
+          "t": "financially generous"
+        },
+        {
+          "t": "eager to cooperate"
+        },
+        {
+          "t": "legally bound"
+        },
+        {
+          "t": "prone to disagreement and conflict",
+          "correct": true
+        }
+      ],
+      "words": [
+        "contentious",
+        "acrimony"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being too combative to compromise even on minor terms shows a tendency toward conflict, the meaning of 'contentious.'"
+    },
+    {
+      "passage": "After being caught cheating, the contrite student wrote a heartfelt letter of apology to his teacher and volunteered to redo the assignment honestly.",
+      "question": "As used in the passage, 'contrite' most nearly means",
+      "options": [
+        {
+          "t": "openly amused"
+        },
+        {
+          "t": "completely indifferent"
+        },
+        {
+          "t": "sincerely regretful",
+          "correct": true
+        },
+        {
+          "t": "proudly defiant"
+        }
+      ],
+      "words": [
+        "contrite"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Writing a heartfelt apology and volunteering to redo the work honestly shows sincere regret, the meaning of 'contrite.'"
+    },
+    {
+      "passage": "The credulous shopper believed the salesman's claim that the watch could survive a fall from an airplane, handing over her credit card without a second thought.",
+      "question": "As used in the passage, 'credulous' most nearly means",
+      "options": [
+        {
+          "t": "professionally trained"
+        },
+        {
+          "t": "deeply suspicious of claims"
+        },
+        {
+          "t": "too willing to believe without proof",
+          "correct": true
+        },
+        {
+          "t": "financially cautious"
+        }
+      ],
+      "words": [
+        "credulous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Believing an outlandish claim without question and paying immediately shows excessive willingness to believe, the meaning of 'credulous.'"
+    },
+    {
+      "passage": "Because of a dearth of affordable housing in the city, many young families were forced to move to distant suburbs despite working downtown.",
+      "question": "As used in the passage, 'dearth' most nearly means",
+      "options": [
+        {
+          "t": "a scarcity or shortage",
+          "correct": true
+        },
+        {
+          "t": "a fair distribution"
+        },
+        {
+          "t": "a temporary discount"
+        },
+        {
+          "t": "an excessive surplus"
+        }
+      ],
+      "words": [
+        "dearth"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Families forced to move due to a lack of affordable housing points to a shortage, the meaning of 'dearth.'"
+    },
+    {
+      "passage": "The product launch turned into a complete debacle: the app crashed within minutes, the servers overloaded, and the company's stock dropped ten percent by noon.",
+      "question": "Which choice best supports the claim that the launch was a disaster?",
+      "options": [
+        {
+          "t": "the company's stock dropped ten percent"
+        },
+        {
+          "t": "the app crashed within minutes"
+        },
+        {
+          "t": "The product launch turned into a complete debacle"
+        },
+        {
+          "t": "the app crashed within minutes, the servers overloaded, and the company's stock dropped ten percent by noon",
+          "correct": true
+        }
+      ],
+      "words": [
+        "debacle"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The specific chain of failures—crash, server overload, and stock drop—provides the concrete evidence supporting the claim that the launch was a debacle."
+    },
+    {
+      "passage": "The lingering illness had debilitated him so much that climbing a single flight of stairs left him gasping for breath.",
+      "question": "As used in the passage, 'debilitated' most nearly means",
+      "options": [
+        {
+          "t": "made unusually energetic"
+        },
+        {
+          "t": "made emotionally happy"
+        },
+        {
+          "t": "made physically weak",
+          "correct": true
+        },
+        {
+          "t": "made financially wealthy"
+        }
+      ],
+      "words": [
+        "debilitate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being left gasping after climbing one flight of stairs shows extreme weakness caused by the illness, the meaning of 'debilitated.'"
+    },
+    {
+      "passage": "Researchers found that prolonged exposure to the pesticide had a deleterious effect on local bee populations, cutting their numbers nearly in half within two years.",
+      "question": "As used in the passage, 'deleterious' most nearly means",
+      "options": [
+        {
+          "t": "harmful or damaging",
+          "correct": true
+        },
+        {
+          "t": "temporary and reversible"
+        },
+        {
+          "t": "insignificant and minor"
+        },
+        {
+          "t": "beneficial and helpful"
+        }
+      ],
+      "words": [
+        "deleterious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Bee populations cut nearly in half shows the pesticide caused harm, matching the meaning of 'deleterious.'"
+    },
+    {
+      "passage": "The old professor's caustic comments during peer review left many young researchers too discouraged to submit their work to his journal again.",
+      "question": "As used in the passage, 'caustic' most nearly means",
+      "options": [
+        {
+          "t": "vague and unclear"
+        },
+        {
+          "t": "warmly encouraging"
+        },
+        {
+          "t": "brief and formal"
+        },
+        {
+          "t": "harshly critical and biting",
+          "correct": true
+        }
+      ],
+      "words": [
+        "caustic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Comments so harsh that researchers avoid the journal afterward indicate a biting, critical tone, the meaning of 'caustic.'"
+    },
+    {
+      "passage": "The financial chicanery behind the company's collapse involved forged invoices, hidden shell accounts, and years of falsified earnings reports.",
+      "question": "As used in the passage, 'chicanery' most nearly means",
+      "options": [
+        {
+          "t": "government regulation"
+        },
+        {
+          "t": "deceptive trickery",
+          "correct": true
+        },
+        {
+          "t": "honest bookkeeping"
+        },
+        {
+          "t": "public transparency"
+        }
+      ],
+      "words": [
+        "chicanery"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Forged invoices and falsified reports describe deliberate deception, the meaning of 'chicanery.'"
+    },
+    {
+      "passage": "Under cover of darkness, the two nations' representatives held a clandestine meeting far from the press, hoping to negotiate a truce without public pressure.",
+      "question": "As used in the passage, 'clandestine' most nearly means",
+      "options": [
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "conducted secretly",
+          "correct": true
+        },
+        {
+          "t": "widely advertised"
+        },
+        {
+          "t": "broadcast publicly"
+        }
+      ],
+      "words": [
+        "clandestine"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A meeting held under cover of darkness and away from the press is secret, the meaning of 'clandestine.'"
+    },
+    {
+      "passage": "The defense attorney presented a cogent case, laying out the timeline so clearly and logically that even skeptical jurors nodded along.",
+      "question": "As used in the passage, 'cogent' most nearly means",
+      "options": [
+        {
+          "t": "brief and incomplete"
+        },
+        {
+          "t": "clear and convincingly logical",
+          "correct": true
+        },
+        {
+          "t": "confusing and disorganized"
+        },
+        {
+          "t": "emotional and exaggerated"
+        }
+      ],
+      "words": [
+        "cogent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A timeline laid out clearly and logically enough to convince skeptical jurors demonstrates a cogent, or convincingly logical, argument."
+    },
+    {
+      "passage": "After winning the championship three years running, the once-hungry team grew complacent, skipping practices and assuming victory would come easily again.",
+      "question": "As used in the passage, 'complacent' most nearly means",
+      "options": [
+        {
+          "t": "confused about team strategy"
+        },
+        {
+          "t": "energetic and highly motivated"
+        },
+        {
+          "t": "overly satisfied and careless about future risks",
+          "correct": true
+        },
+        {
+          "t": "anxious and overly cautious"
+        }
+      ],
+      "words": [
+        "complacent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Skipping practices and assuming easy victory after past wins shows excessive self-satisfaction, the meaning of 'complacent.'"
+    },
+    {
+      "passage": "He felt not the slightest compunction about breaking his promise, shrugging it off as though it had never mattered at all.",
+      "question": "As used in the passage, 'compunction' most nearly means",
+      "options": [
+        {
+          "t": "a feeling of joy"
+        },
+        {
+          "t": "a feeling of surprise"
+        },
+        {
+          "t": "a feeling of guilt",
+          "correct": true
+        },
+        {
+          "t": "a feeling of pride"
+        }
+      ],
+      "words": [
+        "compunction"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Shrugging off a broken promise as if it never mattered shows a total absence of guilt, which is what 'compunction' means."
+    },
+    {
+      "passage": "After the heated argument, she sent a conciliatory text, apologizing for her tone and suggesting they talk things over calmly instead.",
+      "question": "As used in the passage, 'conciliatory' most nearly means",
+      "options": [
+        {
+          "t": "intended to end a friendship"
+        },
+        {
+          "t": "intended to reduce conflict and make peace",
+          "correct": true
+        },
+        {
+          "t": "intended to demand an apology"
+        },
+        {
+          "t": "intended to provoke further anger"
+        }
+      ],
+      "words": [
+        "conciliatory"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Apologizing and suggesting a calm talk after an argument shows an attempt to make peace, the meaning of 'conciliatory.'"
+    },
+    {
+      "passage": "The school board made clear it would not condone any form of harassment, promising swift disciplinary action against violators.",
+      "question": "As used in the passage, 'condone' most nearly means",
+      "options": [
+        {
+          "t": "to actively punish"
+        },
+        {
+          "t": "to approve of or overlook wrongdoing",
+          "correct": true
+        },
+        {
+          "t": "to formally investigate"
+        },
+        {
+          "t": "to publicly praise"
+        }
+      ],
+      "words": [
+        "condone"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to condone harassment while promising discipline shows the board will not tolerate or overlook the behavior, clarifying the meaning of 'condone.'"
+    },
+    {
+      "passage": "Guests described the wedding reception as wonderfully convivial, with music, laughter, and dancing that lasted well past midnight.",
+      "question": "As used in the passage, 'convivial' most nearly means",
+      "options": [
+        {
+          "t": "expensive and exclusive"
+        },
+        {
+          "t": "tense and awkward"
+        },
+        {
+          "t": "quiet and formal"
+        },
+        {
+          "t": "cheerful and sociable",
+          "correct": true
+        }
+      ],
+      "words": [
+        "convivial"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Music, laughter, and dancing until midnight describe a lively, sociable atmosphere, the meaning of 'convivial.'"
+    },
+    {
+      "passage": "The mayor's decision to consolidate two departments and curtail overtime pay was framed as a way to make government more commensurate with the city's shrinking tax revenue.",
+      "question": "As used in the passage, 'commensurate' most nearly means",
+      "options": [
+        {
+          "t": "proportional or matching in degree",
+          "correct": true
+        },
+        {
+          "t": "completely unrelated"
+        },
+        {
+          "t": "excessively generous"
+        },
+        {
+          "t": "legally forbidden"
+        }
+      ],
+      "words": [
+        "commensurate",
+        "curtail"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Making spending match the city's shrinking revenue describes proportional adjustment, the meaning of 'commensurate.'"
+    }
+  ]
+}

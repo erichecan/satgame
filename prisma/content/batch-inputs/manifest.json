@@ -1,0 +1,92 @@
+[
+  {
+    "batch": 1,
+    "tier": "foundation",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-01-foundation.json"
+  },
+  {
+    "batch": 2,
+    "tier": "foundation",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-02-foundation.json"
+  },
+  {
+    "batch": 3,
+    "tier": "foundation",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-03-foundation.json"
+  },
+  {
+    "batch": 4,
+    "tier": "foundation",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-04-foundation.json"
+  },
+  {
+    "batch": 5,
+    "tier": "foundation",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-05-foundation.json"
+  },
+  {
+    "batch": 6,
+    "tier": "foundation",
+    "count": 98,
+    "file": "prisma/content/batch-inputs/batch-06-foundation.json"
+  },
+  {
+    "batch": 7,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-07-sat_core.json"
+  },
+  {
+    "batch": 8,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-08-sat_core.json"
+  },
+  {
+    "batch": 9,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-09-sat_core.json"
+  },
+  {
+    "batch": 10,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-10-sat_core.json"
+  },
+  {
+    "batch": 11,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-11-sat_core.json"
+  },
+  {
+    "batch": 12,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-12-sat_core.json"
+  },
+  {
+    "batch": 13,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-13-sat_core.json"
+  },
+  {
+    "batch": 14,
+    "tier": "sat_core",
+    "count": 100,
+    "file": "prisma/content/batch-inputs/batch-14-sat_core.json"
+  },
+  {
+    "batch": 15,
+    "tier": "sat_core",
+    "count": 75,
+    "file": "prisma/content/batch-inputs/batch-15-sat_core.json"
+  }
+]

@@ -1,0 +1,1726 @@
+{
+  "words": [
+    {
+      "word": "carnage",
+      "pos": "noun",
+      "definitionEn": "widespread and violent killing or destruction",
+      "exampleEn": "The battlefield reporter struggled to describe the carnage left after the siege.",
+      "tier": "sat_core",
+      "rank": 601
+    },
+    {
+      "word": "castigation",
+      "pos": "noun",
+      "definitionEn": "severe criticism or punishment",
+      "exampleEn": "The coach's harsh castigation of the team left several players in tears.",
+      "tier": "sat_core",
+      "rank": 602,
+      "synonymGroup": "harsh-criticism"
+    },
+    {
+      "word": "catholic",
+      "pos": "adjective",
+      "definitionEn": "including a wide variety of things; broad in range or interest",
+      "exampleEn": "Her catholic taste in music ranged from opera to punk rock.",
+      "tier": "sat_core",
+      "rank": 603
+    },
+    {
+      "word": "censor",
+      "pos": "verb",
+      "definitionEn": "to examine and remove unacceptable parts of a book, film, or message",
+      "exampleEn": "The editor censored the article's most controversial lines before publication.",
+      "tier": "sat_core",
+      "rank": 604
+    },
+    {
+      "word": "censorious",
+      "pos": "adjective",
+      "definitionEn": "severely critical of others",
+      "exampleEn": "His censorious remarks about every essay made students dread his feedback.",
+      "tier": "sat_core",
+      "rank": 605,
+      "synonymGroup": "harsh-criticism"
+    },
+    {
+      "word": "chagrin",
+      "pos": "noun",
+      "definitionEn": "a feeling of annoyance or embarrassment caused by failure or disappointment",
+      "exampleEn": "To her chagrin, she realized she had sent the email to the wrong person.",
+      "tier": "sat_core",
+      "rank": 606
+    },
+    {
+      "word": "champion",
+      "pos": "verb",
+      "definitionEn": "to support or defend a cause or person publicly",
+      "exampleEn": "The senator championed the new clean-water bill for years before it passed.",
+      "tier": "sat_core",
+      "rank": 607
+    },
+    {
+      "word": "chasten",
+      "pos": "verb",
+      "definitionEn": "to correct someone by punishment or criticism in order to improve them",
+      "exampleEn": "The failed experiment chastened the young scientist into being more careful.",
+      "tier": "sat_core",
+      "rank": 608
+    },
+    {
+      "word": "chastity",
+      "pos": "noun",
+      "definitionEn": "the state of not engaging in sexual activity; moral purity",
+      "exampleEn": "The monk's vow of chastity was one part of his broader commitment to simplicity.",
+      "tier": "sat_core",
+      "rank": 609
+    },
+    {
+      "word": "chivalrous",
+      "pos": "adjective",
+      "definitionEn": "showing courtesy and respect, especially toward others in a noble or gallant way",
+      "exampleEn": "He held the door and offered his coat in a chivalrous gesture.",
+      "tier": "sat_core",
+      "rank": 610
+    },
+    {
+      "word": "churlish",
+      "pos": "adjective",
+      "definitionEn": "rude or bad-tempered",
+      "exampleEn": "The waiter's churlish reply to a simple question annoyed the entire table.",
+      "tier": "sat_core",
+      "rank": 611
+    },
+    {
+      "word": "circumlocution",
+      "pos": "noun",
+      "definitionEn": "the use of many words to say something that could be said more directly",
+      "exampleEn": "His circumlocution made a simple request take five confusing minutes to explain.",
+      "tier": "sat_core",
+      "rank": 612
+    },
+    {
+      "word": "cite",
+      "pos": "verb",
+      "definitionEn": "to quote or refer to a source as evidence",
+      "exampleEn": "The lawyer cited three earlier cases to support her argument.",
+      "tier": "sat_core",
+      "rank": 613
+    },
+    {
+      "word": "civility",
+      "pos": "noun",
+      "definitionEn": "polite and courteous behavior",
+      "exampleEn": "Despite their disagreement, the two debaters treated each other with civility.",
+      "tier": "sat_core",
+      "rank": 614
+    },
+    {
+      "word": "clamor",
+      "pos": "noun",
+      "definitionEn": "a loud and confused noise, often from shouting",
+      "exampleEn": "The clamor of the crowd grew louder as the final goal was scored.",
+      "tier": "sat_core",
+      "rank": 615
+    },
+    {
+      "word": "clemency",
+      "pos": "noun",
+      "definitionEn": "mercy shown toward someone who could be treated harshly",
+      "exampleEn": "The judge granted clemency to the first-time offender.",
+      "tier": "sat_core",
+      "rank": 616
+    },
+    {
+      "word": "cliche",
+      "pos": "noun",
+      "definitionEn": "an overused expression or idea that has lost its original impact",
+      "exampleEn": "Calling love 'a battlefield' has become such a cliche that it barely means anything.",
+      "tier": "sat_core",
+      "rank": 617
+    },
+    {
+      "word": "clientele",
+      "pos": "noun",
+      "definitionEn": "the customers of a business, considered as a group",
+      "exampleEn": "The new cafe quickly built a loyal clientele of local students.",
+      "tier": "sat_core",
+      "rank": 618
+    },
+    {
+      "word": "cloister",
+      "pos": "noun",
+      "definitionEn": "a place of religious seclusion, such as a monastery or convent",
+      "exampleEn": "The nuns spent decades within the quiet walls of the cloister.",
+      "tier": "sat_core",
+      "rank": 619
+    },
+    {
+      "word": "coax",
+      "pos": "verb",
+      "definitionEn": "to gently persuade someone to do something",
+      "exampleEn": "She coaxed the frightened kitten out from under the porch with a bit of tuna.",
+      "tier": "sat_core",
+      "rank": 620,
+      "synonymGroup": "persuade-pressure"
+    },
+    {
+      "word": "coerce",
+      "pos": "verb",
+      "definitionEn": "to force someone to do something through threats or pressure",
+      "exampleEn": "The gang tried to coerce the shop owner into paying for 'protection.'",
+      "tier": "sat_core",
+      "rank": 621,
+      "synonymGroup": "persuade-pressure"
+    },
+    {
+      "word": "cognizant",
+      "pos": "adjective",
+      "definitionEn": "aware of or having knowledge of something",
+      "exampleEn": "Employees must be cognizant of the new safety rules before entering the lab.",
+      "tier": "sat_core",
+      "rank": 622
+    },
+    {
+      "word": "coherence",
+      "pos": "noun",
+      "definitionEn": "the quality of being logical and consistent; forming a unified whole",
+      "exampleEn": "The essay lost coherence when the writer jumped between unrelated ideas.",
+      "tier": "sat_core",
+      "rank": 623
+    },
+    {
+      "word": "collate",
+      "pos": "verb",
+      "definitionEn": "to collect and combine information or documents in proper order",
+      "exampleEn": "The intern spent the afternoon collating survey results into a single report.",
+      "tier": "sat_core",
+      "rank": 624
+    },
+    {
+      "word": "collateral",
+      "pos": "noun",
+      "definitionEn": "property or assets pledged as security for a loan",
+      "exampleEn": "The bank required his car as collateral before approving the loan.",
+      "tier": "sat_core",
+      "rank": 625
+    },
+    {
+      "word": "collusion",
+      "pos": "noun",
+      "definitionEn": "secret cooperation, especially for an illegal or dishonest purpose",
+      "exampleEn": "Investigators suspected collusion between the two companies to fix prices.",
+      "tier": "sat_core",
+      "rank": 626
+    },
+    {
+      "word": "comely",
+      "pos": "adjective",
+      "definitionEn": "pleasant to look at; attractive",
+      "exampleEn": "The old portrait showed a comely young woman in a blue dress.",
+      "tier": "sat_core",
+      "rank": 627
+    },
+    {
+      "word": "commiserate",
+      "pos": "verb",
+      "definitionEn": "to express sympathy for someone's misfortune",
+      "exampleEn": "Friends gathered to commiserate with her after she lost the championship match.",
+      "tier": "sat_core",
+      "rank": 628
+    },
+    {
+      "word": "compendium",
+      "pos": "noun",
+      "definitionEn": "a concise collection of information on a particular subject",
+      "exampleEn": "The textbook serves as a compendium of essential biology concepts.",
+      "tier": "sat_core",
+      "rank": 629
+    },
+    {
+      "word": "complement",
+      "pos": "verb",
+      "definitionEn": "to complete or enhance something by adding something else",
+      "exampleEn": "The spicy sauce perfectly complemented the mild flavor of the fish.",
+      "tier": "sat_core",
+      "rank": 630
+    },
+    {
+      "word": "compliance",
+      "pos": "noun",
+      "definitionEn": "the act of obeying a rule, law, or request",
+      "exampleEn": "The factory underwent an inspection to ensure compliance with safety regulations.",
+      "tier": "sat_core",
+      "rank": 631
+    },
+    {
+      "word": "comprehend",
+      "pos": "verb",
+      "definitionEn": "to understand something fully",
+      "exampleEn": "It took her a moment to comprehend the complicated instructions.",
+      "tier": "sat_core",
+      "rank": 632
+    },
+    {
+      "word": "compress",
+      "pos": "verb",
+      "definitionEn": "to press or squeeze something into a smaller space",
+      "exampleEn": "The software can compress large video files without losing much quality.",
+      "tier": "sat_core",
+      "rank": 633
+    },
+    {
+      "word": "compromise",
+      "pos": "noun",
+      "definitionEn": "an agreement reached by each side making concessions",
+      "exampleEn": "After hours of debate, the two sides finally reached a compromise.",
+      "tier": "sat_core",
+      "rank": 634
+    },
+    {
+      "word": "conception",
+      "pos": "noun",
+      "definitionEn": "the forming of an idea or plan in the mind",
+      "exampleEn": "The novel's conception came to her during a long train ride.",
+      "tier": "sat_core",
+      "rank": 635
+    },
+    {
+      "word": "concerted",
+      "pos": "adjective",
+      "definitionEn": "done jointly or with coordinated effort",
+      "exampleEn": "It took a concerted effort from the whole team to finish the project on time.",
+      "tier": "sat_core",
+      "rank": 636
+    },
+    {
+      "word": "conciliate",
+      "pos": "verb",
+      "definitionEn": "to calm the anger of someone; to reconcile",
+      "exampleEn": "The manager tried to conciliate the two feuding employees before the meeting.",
+      "tier": "sat_core",
+      "rank": 637
+    },
+    {
+      "word": "concise",
+      "pos": "adjective",
+      "definitionEn": "giving information clearly in few words",
+      "exampleEn": "Her concise summary covered the main points in under a minute.",
+      "tier": "sat_core",
+      "rank": 638
+    },
+    {
+      "word": "conclusive",
+      "pos": "adjective",
+      "definitionEn": "serving to prove something or put an end to doubt",
+      "exampleEn": "The DNA test provided conclusive evidence of his innocence.",
+      "tier": "sat_core",
+      "rank": 639
+    },
+    {
+      "word": "concoct",
+      "pos": "verb",
+      "definitionEn": "to create something, especially a story or plan, using skill or imagination",
+      "exampleEn": "The children concocted an elaborate excuse for being late to dinner.",
+      "tier": "sat_core",
+      "rank": 640
+    },
+    {
+      "word": "concurrent",
+      "pos": "adjective",
+      "definitionEn": "happening or existing at the same time",
+      "exampleEn": "The two trials were held concurrent with one another in different courtrooms.",
+      "tier": "sat_core",
+      "rank": 641
+    },
+    {
+      "word": "condemn",
+      "pos": "verb",
+      "definitionEn": "to express strong disapproval of something; to sentence to punishment",
+      "exampleEn": "World leaders quickly condemned the attack on the embassy.",
+      "tier": "sat_core",
+      "rank": 642
+    },
+    {
+      "word": "condescend",
+      "pos": "verb",
+      "definitionEn": "to act as though one is superior to others",
+      "exampleEn": "He condescended to explain the simple math as if she were a small child.",
+      "tier": "sat_core",
+      "rank": 643
+    },
+    {
+      "word": "confer",
+      "pos": "verb",
+      "definitionEn": "to discuss something in order to reach a decision; to grant a title or benefit",
+      "exampleEn": "The lawyers conferred privately before returning to the courtroom.",
+      "tier": "sat_core",
+      "rank": 644
+    },
+    {
+      "word": "confide",
+      "pos": "verb",
+      "definitionEn": "to tell someone a secret while trusting them not to reveal it",
+      "exampleEn": "She confided her fears about the exam to her best friend.",
+      "tier": "sat_core",
+      "rank": 645
+    },
+    {
+      "word": "confine",
+      "pos": "verb",
+      "definitionEn": "to keep someone or something within limits",
+      "exampleEn": "The injured hiker was confined to the cabin until help arrived.",
+      "tier": "sat_core",
+      "rank": 646
+    },
+    {
+      "word": "confiscate",
+      "pos": "verb",
+      "definitionEn": "to take away someone's property, often as a penalty",
+      "exampleEn": "The teacher confiscated the phone after it rang during the test.",
+      "tier": "sat_core",
+      "rank": 647
+    },
+    {
+      "word": "conform",
+      "pos": "verb",
+      "definitionEn": "to comply with rules, standards, or expectations",
+      "exampleEn": "New employees are expected to conform to the company's dress code.",
+      "tier": "sat_core",
+      "rank": 648
+    },
+    {
+      "word": "confound",
+      "pos": "verb",
+      "definitionEn": "to confuse or puzzle someone",
+      "exampleEn": "The riddle confounded even the smartest students in the class.",
+      "tier": "sat_core",
+      "rank": 649
+    },
+    {
+      "word": "congregate",
+      "pos": "verb",
+      "definitionEn": "to gather together in a crowd or mass",
+      "exampleEn": "Students congregated outside the auditorium waiting for the doors to open.",
+      "tier": "sat_core",
+      "rank": 650
+    },
+    {
+      "word": "conjecture",
+      "pos": "noun",
+      "definitionEn": "a conclusion formed without complete evidence; a guess",
+      "exampleEn": "Without more data, the scientist's theory remained mere conjecture.",
+      "tier": "sat_core",
+      "rank": 651
+    },
+    {
+      "word": "connive",
+      "pos": "verb",
+      "definitionEn": "to secretly cooperate to do something illegal or harmful",
+      "exampleEn": "The two clerks connived to steal from the register unnoticed.",
+      "tier": "sat_core",
+      "rank": 652
+    },
+    {
+      "word": "consecrate",
+      "pos": "verb",
+      "definitionEn": "to declare something sacred or dedicate it to a special purpose",
+      "exampleEn": "The bishop consecrated the new chapel in a solemn ceremony.",
+      "tier": "sat_core",
+      "rank": 653
+    },
+    {
+      "word": "consign",
+      "pos": "verb",
+      "definitionEn": "to hand over or commit something to a particular fate or place",
+      "exampleEn": "The old furniture was consigned to the attic and forgotten for years.",
+      "tier": "sat_core",
+      "rank": 654
+    },
+    {
+      "word": "console",
+      "pos": "verb",
+      "definitionEn": "to comfort someone who is upset or disappointed",
+      "exampleEn": "He tried to console his sister after she failed the driving test.",
+      "tier": "sat_core",
+      "rank": 655
+    },
+    {
+      "word": "consternation",
+      "pos": "noun",
+      "definitionEn": "a feeling of anxiety or dismay, often at something unexpected",
+      "exampleEn": "The sudden power outage caused consternation among the surgical team.",
+      "tier": "sat_core",
+      "rank": 656
+    },
+    {
+      "word": "constituent",
+      "pos": "noun",
+      "definitionEn": "a component part of something; a voter represented by an elected official",
+      "exampleEn": "The senator held a town hall to hear concerns from her constituents.",
+      "tier": "sat_core",
+      "rank": 657
+    },
+    {
+      "word": "constrict",
+      "pos": "verb",
+      "definitionEn": "to make something narrower by squeezing or pressure",
+      "exampleEn": "The tight collar constricted his neck and made breathing uncomfortable.",
+      "tier": "sat_core",
+      "rank": 658
+    },
+    {
+      "word": "construe",
+      "pos": "verb",
+      "definitionEn": "to interpret the meaning of words or actions in a particular way",
+      "exampleEn": "Her silence was construed as agreement, though she meant nothing of the sort.",
+      "tier": "sat_core",
+      "rank": 659
+    },
+    {
+      "word": "contemplative",
+      "pos": "adjective",
+      "definitionEn": "involving deep, quiet thought or reflection",
+      "exampleEn": "He spent a contemplative hour walking alone through the garden.",
+      "tier": "sat_core",
+      "rank": 660
+    },
+    {
+      "word": "contempt",
+      "pos": "noun",
+      "definitionEn": "a feeling that someone or something deserves no respect",
+      "exampleEn": "She viewed the dishonest politician with open contempt.",
+      "tier": "sat_core",
+      "rank": 661
+    },
+    {
+      "word": "contend",
+      "pos": "verb",
+      "definitionEn": "to argue or assert something; to struggle or compete",
+      "exampleEn": "The scientist contends that the data supports a different conclusion entirely.",
+      "tier": "sat_core",
+      "rank": 662
+    },
+    {
+      "word": "contentment",
+      "pos": "noun",
+      "definitionEn": "a state of peaceful satisfaction",
+      "exampleEn": "A quiet sense of contentment settled over the family after the harvest.",
+      "tier": "sat_core",
+      "rank": 663
+    },
+    {
+      "word": "contract",
+      "pos": "verb",
+      "definitionEn": "to become smaller or shorter; to catch an illness; to enter a formal agreement",
+      "exampleEn": "Metal tends to contract as the temperature drops.",
+      "tier": "sat_core",
+      "rank": 664
+    },
+    {
+      "word": "contravene",
+      "pos": "verb",
+      "definitionEn": "to act in a way that violates a law or rule",
+      "exampleEn": "The company's dumping of waste contravened several environmental regulations.",
+      "tier": "sat_core",
+      "rank": 665
+    },
+    {
+      "word": "contrive",
+      "pos": "verb",
+      "definitionEn": "to plan or create something skillfully or cleverly, often deceptively",
+      "exampleEn": "The prisoners contrived an elaborate plan to escape at midnight.",
+      "tier": "sat_core",
+      "rank": 666
+    },
+    {
+      "word": "contumacious",
+      "pos": "adjective",
+      "definitionEn": "stubbornly disobedient to authority",
+      "exampleEn": "The contumacious witness refused to answer the court's questions despite repeated warnings.",
+      "tier": "sat_core",
+      "rank": 667
+    },
+    {
+      "word": "convention",
+      "pos": "noun",
+      "definitionEn": "a widely accepted way of behaving or doing something; a formal meeting",
+      "exampleEn": "It is convention to shake hands when meeting someone for the first time.",
+      "tier": "sat_core",
+      "rank": 668
+    },
+    {
+      "word": "conventional",
+      "pos": "adjective",
+      "definitionEn": "based on what is generally done or believed; ordinary",
+      "exampleEn": "She rejected conventional wisdom and pursued an unusual career path.",
+      "tier": "sat_core",
+      "rank": 669
+    },
+    {
+      "word": "converge",
+      "pos": "verb",
+      "definitionEn": "to come together from different directions toward one point",
+      "exampleEn": "Several major highways converge near the center of the city.",
+      "tier": "sat_core",
+      "rank": 670
+    },
+    {
+      "word": "convert",
+      "pos": "verb",
+      "definitionEn": "to change something from one form, use, or belief to another",
+      "exampleEn": "The old warehouse was converted into modern apartments.",
+      "tier": "sat_core",
+      "rank": 671
+    },
+    {
+      "word": "convey",
+      "pos": "verb",
+      "definitionEn": "to communicate or make an idea or feeling known",
+      "exampleEn": "Her letter conveyed a deep sense of gratitude to her mentor.",
+      "tier": "sat_core",
+      "rank": 672
+    },
+    {
+      "word": "conviction",
+      "pos": "noun",
+      "definitionEn": "a firmly held belief; the formal declaration of guilt in a court",
+      "exampleEn": "He spoke with such conviction that the audience believed every word.",
+      "tier": "sat_core",
+      "rank": 673
+    },
+    {
+      "word": "cornerstone",
+      "pos": "noun",
+      "definitionEn": "a fundamental part on which something depends or is built",
+      "exampleEn": "Trust is the cornerstone of any lasting friendship.",
+      "tier": "sat_core",
+      "rank": 674
+    },
+    {
+      "word": "corollary",
+      "pos": "noun",
+      "definitionEn": "a natural or direct consequence of something else",
+      "exampleEn": "Higher unemployment is often a corollary of a shrinking economy.",
+      "tier": "sat_core",
+      "rank": 675
+    },
+    {
+      "word": "cosmic",
+      "pos": "adjective",
+      "definitionEn": "relating to the universe, especially in its vastness",
+      "exampleEn": "Staring at the night sky gave her a sense of cosmic wonder.",
+      "tier": "sat_core",
+      "rank": 676
+    },
+    {
+      "word": "countenance",
+      "pos": "noun",
+      "definitionEn": "a person's face or facial expression",
+      "exampleEn": "His calm countenance gave no hint of the panic he felt inside.",
+      "tier": "sat_core",
+      "rank": 677
+    },
+    {
+      "word": "covert",
+      "pos": "adjective",
+      "definitionEn": "not openly acknowledged or displayed; secret",
+      "exampleEn": "The agency ran a covert operation to gather intelligence.",
+      "tier": "sat_core",
+      "rank": 678
+    },
+    {
+      "word": "covetous",
+      "pos": "adjective",
+      "definitionEn": "having a strong desire to possess something that belongs to another",
+      "exampleEn": "He cast a covetous glance at his neighbor's new car.",
+      "tier": "sat_core",
+      "rank": 679
+    },
+    {
+      "word": "credence",
+      "pos": "noun",
+      "definitionEn": "acceptance of something as true or valid",
+      "exampleEn": "The new evidence lent credence to her original theory.",
+      "tier": "sat_core",
+      "rank": 680,
+      "synonymGroup": "belief-trust"
+    },
+    {
+      "word": "credibility",
+      "pos": "noun",
+      "definitionEn": "the quality of being trusted or believed",
+      "exampleEn": "The witness lost credibility after his story kept changing.",
+      "tier": "sat_core",
+      "rank": 681,
+      "synonymGroup": "belief-trust"
+    },
+    {
+      "word": "credulity",
+      "pos": "noun",
+      "definitionEn": "a tendency to believe things too readily, without enough evidence",
+      "exampleEn": "The con artist relied on the credulity of his victims.",
+      "tier": "sat_core",
+      "rank": 682,
+      "synonymGroup": "belief-trust"
+    },
+    {
+      "word": "crescendo",
+      "pos": "noun",
+      "definitionEn": "a gradual increase in intensity, loudness, or force",
+      "exampleEn": "The symphony built to a thunderous crescendo before falling silent.",
+      "tier": "sat_core",
+      "rank": 683
+    },
+    {
+      "word": "crestfallen",
+      "pos": "adjective",
+      "definitionEn": "sad and disappointed",
+      "exampleEn": "The crestfallen team walked off the field after losing the final match.",
+      "tier": "sat_core",
+      "rank": 684
+    },
+    {
+      "word": "criteria",
+      "pos": "noun",
+      "definitionEn": "standards or principles used to judge or decide something",
+      "exampleEn": "The judges evaluated each project using three clear criteria.",
+      "tier": "sat_core",
+      "rank": 685
+    },
+    {
+      "word": "culpable",
+      "pos": "adjective",
+      "definitionEn": "deserving blame for a wrongful act",
+      "exampleEn": "The investigation found the manager culpable for ignoring the safety warnings.",
+      "tier": "sat_core",
+      "rank": 686
+    },
+    {
+      "word": "cumbersome",
+      "pos": "adjective",
+      "definitionEn": "large or heavy and therefore difficult to carry or use",
+      "exampleEn": "The cumbersome old printer took up half the desk.",
+      "tier": "sat_core",
+      "rank": 687
+    },
+    {
+      "word": "cynic",
+      "pos": "noun",
+      "definitionEn": "a person who believes people are motivated only by self-interest",
+      "exampleEn": "As a cynic, he assumed the charity event was really just good publicity.",
+      "tier": "sat_core",
+      "rank": 688
+    },
+    {
+      "word": "cynicism",
+      "pos": "noun",
+      "definitionEn": "a distrustful attitude that doubts people's sincerity or good intentions",
+      "exampleEn": "Years of broken promises had filled her with quiet cynicism.",
+      "tier": "sat_core",
+      "rank": 689
+    },
+    {
+      "word": "abnegate",
+      "pos": "verb",
+      "definitionEn": "to give up or deny oneself something, especially a right or belief",
+      "exampleEn": "The monk chose to abnegate all personal comforts for a simpler life.",
+      "tier": "sat_core",
+      "rank": 690
+    },
+    {
+      "word": "abscission",
+      "pos": "noun",
+      "definitionEn": "the natural separation or cutting off of a part, such as a leaf from a plant",
+      "exampleEn": "Abscission causes leaves to detach from trees before winter arrives.",
+      "tier": "sat_core",
+      "rank": 691
+    },
+    {
+      "word": "abstemious",
+      "pos": "adjective",
+      "definitionEn": "practicing moderation, especially in eating and drinking",
+      "exampleEn": "His abstemious diet of plain rice and vegetables surprised his coworkers.",
+      "tier": "sat_core",
+      "rank": 692
+    },
+    {
+      "word": "acclimate",
+      "pos": "verb",
+      "definitionEn": "to become accustomed to a new climate, situation, or environment",
+      "exampleEn": "It took the hikers a few days to acclimate to the thin mountain air.",
+      "tier": "sat_core",
+      "rank": 693
+    },
+    {
+      "word": "acrid",
+      "pos": "adjective",
+      "definitionEn": "having an unpleasantly sharp, bitter smell or taste",
+      "exampleEn": "An acrid smell of burning rubber filled the garage.",
+      "tier": "sat_core",
+      "rank": 694
+    },
+    {
+      "word": "adamantine",
+      "pos": "adjective",
+      "definitionEn": "extremely hard and unyielding, like a diamond",
+      "exampleEn": "His adamantine resolve never wavered, no matter how many times he failed.",
+      "tier": "sat_core",
+      "rank": 695
+    },
+    {
+      "word": "admonition",
+      "pos": "noun",
+      "definitionEn": "a gentle but firm warning or piece of advice",
+      "exampleEn": "The coach's admonition to stay hydrated went unheeded during the heat wave.",
+      "tier": "sat_core",
+      "rank": 696
+    },
+    {
+      "word": "adroitness",
+      "pos": "noun",
+      "definitionEn": "skillfulness and cleverness, especially in physical or mental tasks",
+      "exampleEn": "The surgeon's adroitness allowed her to complete the delicate operation quickly.",
+      "tier": "sat_core",
+      "rank": 697
+    },
+    {
+      "word": "adulate",
+      "pos": "verb",
+      "definitionEn": "to praise someone excessively",
+      "exampleEn": "Fans adulated the young singer the moment she stepped on stage.",
+      "tier": "sat_core",
+      "rank": 698
+    },
+    {
+      "word": "advocacy",
+      "pos": "noun",
+      "definitionEn": "public support for a particular cause or policy",
+      "exampleEn": "Her advocacy for disability rights led to real changes in local law.",
+      "tier": "sat_core",
+      "rank": 699
+    },
+    {
+      "word": "affinity",
+      "pos": "noun",
+      "definitionEn": "a natural liking or attraction for someone or something",
+      "exampleEn": "He has always had a strong affinity for old jazz records.",
+      "tier": "sat_core",
+      "rank": 700
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "The contumacious defendant refused to rise when the judge entered the courtroom, ignoring repeated warnings that his behavior would result in contempt charges. His attorney later admitted privately that such stubbornness had done real harm to the case.",
+      "question": "As used in the passage, 'contumacious' most nearly means",
+      "options": [
+        {
+          "t": "apologetic"
+        },
+        {
+          "t": "nervous"
+        },
+        {
+          "t": "respectful"
+        },
+        {
+          "t": "stubbornly disobedient",
+          "correct": true
+        }
+      ],
+      "words": [
+        "contumacious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to rise and ignoring repeated warnings shows stubborn disobedience, the meaning of 'contumacious.'"
+    },
+    {
+      "passage": "The two department heads conferred for nearly an hour before agreeing on a final budget proposal to present to the board. Only then did they feel ready to present the numbers to the full board.",
+      "question": "As used in the passage, 'conferred' most nearly means",
+      "options": [
+        {
+          "t": "voted secretly"
+        },
+        {
+          "t": "argued violently"
+        },
+        {
+          "t": "resigned"
+        },
+        {
+          "t": "discussed to reach a decision",
+          "correct": true
+        }
+      ],
+      "words": [
+        "confer"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Talking for an hour before reaching agreement is discussing to reach a decision, or 'conferring.'"
+    },
+    {
+      "passage": "The screenwriter avoided every cliche she could think of, refusing to let her hero deliver a dramatic speech in the rain or fall in love at first sight.",
+      "question": "As used in the passage, 'cliche' most nearly means",
+      "options": [
+        {
+          "t": "a brand-new concept"
+        },
+        {
+          "t": "a musical score"
+        },
+        {
+          "t": "an overused, unoriginal idea",
+          "correct": true
+        },
+        {
+          "t": "a factual error"
+        }
+      ],
+      "words": [
+        "cliche"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The examples given, like a speech in the rain, are famously overused ideas, which is what 'cliche' means."
+    },
+    {
+      "passage": "Despite the shopkeeper's warm greeting, the customer responded with a churlish grunt and walked off without so much as a thank you. Other customers nearby noticed the exchange and exchanged uneasy glances.",
+      "question": "As used in the passage, 'churlish' most nearly means",
+      "options": [
+        {
+          "t": "shy"
+        },
+        {
+          "t": "grateful"
+        },
+        {
+          "t": "rude",
+          "correct": true
+        },
+        {
+          "t": "cheerful"
+        }
+      ],
+      "words": [
+        "churlish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Responding with a grunt and no thanks despite a warm greeting shows rude behavior, matching 'churlish.'"
+    },
+    {
+      "passage": "From childhood, she felt a strange affinity for the ocean, spending every free hour near the shore even though her family lived far inland. Even her closest friends found the pull she felt toward the water hard to fully explain.",
+      "question": "As used in the passage, 'affinity' most nearly means",
+      "options": [
+        {
+          "t": "natural attraction",
+          "correct": true
+        },
+        {
+          "t": "obligation"
+        },
+        {
+          "t": "confusion"
+        },
+        {
+          "t": "fear"
+        }
+      ],
+      "words": [
+        "affinity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Spending every free hour near the shore despite living inland shows a natural attraction, or 'affinity,' for the ocean."
+    },
+    {
+      "passage": "Sitting by the lake at dawn, she fell into a contemplative silence, turning over the events of the past year in her mind without any hurry to move on.",
+      "question": "As used in the passage, 'contemplative' most nearly means",
+      "options": [
+        {
+          "t": "panicked"
+        },
+        {
+          "t": "reflective",
+          "correct": true
+        },
+        {
+          "t": "forgetful"
+        },
+        {
+          "t": "loud"
+        }
+      ],
+      "words": [
+        "contemplative"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Turning over the year's events slowly in her mind describes a reflective, or 'contemplative,' state."
+    },
+    {
+      "passage": "The critic's review was less a critique than a castigation: sentence after sentence attacked the director's choices, mocking the film's every scene with biting scorn.",
+      "question": "As used in the passage, 'castigation' most nearly means",
+      "options": [
+        {
+          "t": "warm praise"
+        },
+        {
+          "t": "neutral summary"
+        },
+        {
+          "t": "gentle suggestion"
+        },
+        {
+          "t": "harsh condemnation",
+          "correct": true
+        }
+      ],
+      "words": [
+        "castigation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes sentence after sentence attacking the director, which fits 'harsh condemnation.'"
+    },
+    {
+      "passage": "If the theory about declining bee populations is correct, a natural corollary would be reduced crop yields in the regions most dependent on pollination. Farmers in those regions were already bracing for the possibility.",
+      "question": "As used in the passage, 'corollary' most nearly means",
+      "options": [
+        {
+          "t": "an unrelated event"
+        },
+        {
+          "t": "a scientific method"
+        },
+        {
+          "t": "a direct consequence",
+          "correct": true
+        },
+        {
+          "t": "a historical record"
+        }
+      ],
+      "words": [
+        "corollary"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Reduced crop yields following from declining bees describes a direct consequence, or 'corollary.'"
+    },
+    {
+      "passage": "Known for his abstemious habits, the monk ate only plain rice once a day and never touched wine, even at festive gatherings. Even during festive gatherings, he stuck firmly to this simple routine.",
+      "question": "As used in the passage, 'abstemious' most nearly means",
+      "options": [
+        {
+          "t": "moderate in eating and drinking",
+          "correct": true
+        },
+        {
+          "t": "excessive in indulgence"
+        },
+        {
+          "t": "wasteful"
+        },
+        {
+          "t": "generous with food"
+        }
+      ],
+      "words": [
+        "abstemious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Eating only plain rice and avoiding wine describes moderation in consumption, or being 'abstemious.'"
+    },
+    {
+      "passage": "Rather than issue a direct order, the general chose circumlocution when addressing the reporters, hoping vague language would avoid revealing the operation's covert nature. Reporters later noted how carefully each word had been chosen.",
+      "question": "Which choice best describes the function of 'circumlocution' in the passage?",
+      "options": [
+        {
+          "t": "It describes a formal written report."
+        },
+        {
+          "t": "It refers to a type of military weapon."
+        },
+        {
+          "t": "It reflects the general's use of indirect language to avoid revealing secret information.",
+          "correct": true
+        },
+        {
+          "t": "It shows the general speaking with unusual clarity."
+        }
+      ],
+      "words": [
+        "circumlocution",
+        "covert"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage explains the general used vague, roundabout language specifically to protect the covert operation, which is the function of circumlocution here."
+    },
+    {
+      "passage": "After being caught fabricating quotes twice, the journalist's credibility was so damaged that few editors would publish his work again. Even loyal readers began to question whether his earlier stories could be trusted at all.",
+      "question": "As used in the passage, 'credibility' most nearly means",
+      "options": [
+        {
+          "t": "trustworthiness",
+          "correct": true
+        },
+        {
+          "t": "creativity"
+        },
+        {
+          "t": "income"
+        },
+        {
+          "t": "popularity"
+        }
+      ],
+      "words": [
+        "credibility"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being caught fabricating quotes destroys trust in a journalist's work, damaging their 'credibility,' or trustworthiness."
+    },
+    {
+      "passage": "For months, the agency ran a covert investigation into the smuggling ring, keeping its agents' identities and methods completely hidden from the public. Only a handful of senior officials even knew the operation existed.",
+      "question": "As used in the passage, 'covert' most nearly means",
+      "options": [
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "hidden and secret",
+          "correct": true
+        },
+        {
+          "t": "openly announced"
+        },
+        {
+          "t": "poorly funded"
+        }
+      ],
+      "words": [
+        "covert"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Keeping identities and methods hidden from the public describes an investigation that is 'covert,' or secret."
+    },
+    {
+      "passage": "Rather than simply saying no, the manager buried his refusal in circumlocution, wandering through vague policies and hypothetical scenarios for ten minutes before the employee understood the answer was no.",
+      "question": "As used in the passage, 'circumlocution' most nearly means",
+      "options": [
+        {
+          "t": "silent agreement"
+        },
+        {
+          "t": "a direct order"
+        },
+        {
+          "t": "a brief written note"
+        },
+        {
+          "t": "indirect, wordy speech",
+          "correct": true
+        }
+      ],
+      "words": [
+        "circumlocution"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Wandering through vague talk for ten minutes instead of a direct answer illustrates 'circumlocution,' indirect wordy speech."
+    },
+    {
+      "passage": "Rather than simply explain the concept, the tutor condescended to his student, sighing loudly at each mistake as though the material were beneath discussing. Classmates later said the tone made the lesson far harder to sit through than it needed to be.",
+      "question": "As used in the passage, 'condescended' most nearly means",
+      "options": [
+        {
+          "t": "listened carefully"
+        },
+        {
+          "t": "acted as though superior",
+          "correct": true
+        },
+        {
+          "t": "apologized sincerely"
+        },
+        {
+          "t": "encouraged warmly"
+        }
+      ],
+      "words": [
+        "condescend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sighing at mistakes as though the material is beneath him shows the tutor acting as though superior, or 'condescending.'"
+    },
+    {
+      "passage": "Rather than follow the conventional path of medical school, she pursued an unusual combination of art and biology that eventually led to a career in medical illustration.",
+      "question": "As used in the passage, 'conventional' most nearly means",
+      "options": [
+        {
+          "t": "unusual"
+        },
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "illegal"
+        },
+        {
+          "t": "standard or expected",
+          "correct": true
+        }
+      ],
+      "words": [
+        "conventional"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts her unusual path with what most people expect, meaning 'conventional' is the standard or expected path."
+    },
+    {
+      "passage": "By convention, guests at the ceremony remove their shoes before entering the temple, a custom followed for centuries without ever being written into formal law.",
+      "question": "As used in the passage, 'convention' most nearly means",
+      "options": [
+        {
+          "t": "a scientific theory"
+        },
+        {
+          "t": "a legal requirement"
+        },
+        {
+          "t": "an accepted social custom",
+          "correct": true
+        },
+        {
+          "t": "a punishment"
+        }
+      ],
+      "words": [
+        "convention"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A practice followed for centuries without being written into law is an accepted social custom, or 'convention.'"
+    },
+    {
+      "passage": "Once the merger was finalized, the smaller company's records were consigned to a dusty basement archive, rarely opened again by anyone. No one thought to look for them again after that.",
+      "question": "As used in the passage, 'consigned' most nearly means",
+      "options": [
+        {
+          "t": "published widely"
+        },
+        {
+          "t": "celebrated"
+        },
+        {
+          "t": "digitized"
+        },
+        {
+          "t": "handed over to a fate or place",
+          "correct": true
+        }
+      ],
+      "words": [
+        "consign"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being placed in a basement archive and forgotten is being handed over to a fate or place, meaning 'consigned.'"
+    },
+    {
+      "passage": "Fear can constrict the blood vessels, causing the sudden coldness in the hands that many people feel during a stressful moment. Doctors say this reflex response happens within seconds of a stressful trigger.",
+      "question": "As used in the passage, 'constrict' most nearly means",
+      "options": [
+        {
+          "t": "strengthen"
+        },
+        {
+          "t": "warm"
+        },
+        {
+          "t": "narrow",
+          "correct": true
+        },
+        {
+          "t": "widen"
+        }
+      ],
+      "words": [
+        "constrict"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Blood vessels narrowing is what causes the coldness described, matching 'constrict' with 'narrow.'"
+    },
+    {
+      "passage": "The architect's original conception of the building involved sweeping glass walls and an open, sunlit lobby, though the final design changed considerably during construction. Budget constraints and site conditions forced several major revisions along the way.",
+      "question": "As used in the passage, 'conception' most nearly means",
+      "options": [
+        {
+          "t": "a legal contract"
+        },
+        {
+          "t": "an initial idea or plan",
+          "correct": true
+        },
+        {
+          "t": "a finished structure"
+        },
+        {
+          "t": "a budget report"
+        }
+      ],
+      "words": [
+        "conception"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The 'original conception' refers to the architect's first idea for the building, before changes were made."
+    },
+    {
+      "passage": "It took the foreign student several months to fully comprehend the layers of humor in the professor's lectures, since so many jokes relied on cultural references she had never encountered.",
+      "question": "As used in the passage, 'comprehend' most nearly means",
+      "options": [
+        {
+          "t": "dismiss"
+        },
+        {
+          "t": "translate literally"
+        },
+        {
+          "t": "record"
+        },
+        {
+          "t": "understand",
+          "correct": true
+        }
+      ],
+      "words": [
+        "comprehend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Needing months to grasp the humor's meaning is a matter of understanding, or 'comprehending,' it."
+    },
+    {
+      "passage": "Several major rivers converge near the delta, combining their currents into one wide channel before finally reaching the sea. From there, the combined current moves steadily toward the open sea.",
+      "question": "As used in the passage, 'converge' most nearly means",
+      "options": [
+        {
+          "t": "evaporate"
+        },
+        {
+          "t": "come together",
+          "correct": true
+        },
+        {
+          "t": "split apart"
+        },
+        {
+          "t": "freeze"
+        }
+      ],
+      "words": [
+        "converge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Multiple rivers combining into one channel describes coming together, or 'converging.'"
+    },
+    {
+      "passage": "The researcher contends that the extinction was caused primarily by volcanic activity, not the asteroid impact that most textbooks describe. Many colleagues remain skeptical, pointing to decades of research supporting the older theory.",
+      "question": "As used in the passage, 'contends' most nearly means",
+      "options": [
+        {
+          "t": "asserts",
+          "correct": true
+        },
+        {
+          "t": "forgets"
+        },
+        {
+          "t": "denies"
+        },
+        {
+          "t": "photographs"
+        }
+      ],
+      "words": [
+        "contend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Putting forward a claim that challenges the textbooks is asserting, or 'contending,' a position."
+    },
+    {
+      "passage": "Honest communication has always been the cornerstone of their thirty-year marriage, the one principle they never compromised on even during hard times. They often said that everything else in the marriage grew from that single principle.",
+      "question": "As used in the passage, 'cornerstone' most nearly means",
+      "options": [
+        {
+          "t": "a temporary fix"
+        },
+        {
+          "t": "a minor detail"
+        },
+        {
+          "t": "a source of conflict"
+        },
+        {
+          "t": "a fundamental foundation",
+          "correct": true
+        }
+      ],
+      "words": [
+        "cornerstone"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being the one principle never compromised on marks honest communication as the fundamental foundation, or 'cornerstone.'"
+    },
+    {
+      "passage": "When her friend's dog passed away, she called immediately to commiserate, sharing her own memories of loss and letting her friend know she wasn't alone.",
+      "question": "As used in the passage, 'commiserate' most nearly means",
+      "options": [
+        {
+          "t": "argue"
+        },
+        {
+          "t": "express sympathy",
+          "correct": true
+        },
+        {
+          "t": "celebrate"
+        },
+        {
+          "t": "compete"
+        }
+      ],
+      "words": [
+        "commiserate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sharing memories of loss to comfort a grieving friend is expressing sympathy, or 'commiserating.'"
+    },
+    {
+      "passage": "Once she learned he had lied about donating the money, she could only regard him with contempt, refusing even to look him in the eye.",
+      "question": "As used in the passage, 'contempt' most nearly means",
+      "options": [
+        {
+          "t": "sympathy"
+        },
+        {
+          "t": "admiration"
+        },
+        {
+          "t": "scorn",
+          "correct": true
+        },
+        {
+          "t": "curiosity"
+        }
+      ],
+      "words": [
+        "contempt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing even to look at someone after learning they lied shows scorn, or 'contempt.'"
+    },
+    {
+      "passage": "Sir Gawain's chivalrous behavior toward the wounded stranger, offering his own horse and refusing any reward, embodied the knightly code of honor he had sworn to uphold.",
+      "question": "As used in the passage, 'chivalrous' most nearly means",
+      "options": [
+        {
+          "t": "greedy"
+        },
+        {
+          "t": "cowardly"
+        },
+        {
+          "t": "careless"
+        },
+        {
+          "t": "courteous and honorable",
+          "correct": true
+        }
+      ],
+      "words": [
+        "chivalrous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Offering help and refusing reward reflects courteous, honorable behavior, the meaning of 'chivalrous.'"
+    },
+    {
+      "passage": "The essay lacked coherence: one paragraph discussed climate policy, the next jumped to a childhood memory, and the reader was left unable to trace any connecting thread.",
+      "question": "Which choice best describes the function of 'coherence' in the passage?",
+      "options": [
+        {
+          "t": "It refers to the essay's grammar rules."
+        },
+        {
+          "t": "It refers to the logical connection between ideas that the essay was missing.",
+          "correct": true
+        },
+        {
+          "t": "It names a musical technique."
+        },
+        {
+          "t": "It describes the essay's length."
+        }
+      ],
+      "words": [
+        "coherence"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage explains that the essay jumped between unrelated topics, showing 'coherence' refers to logical connection between ideas."
+    },
+    {
+      "passage": "By dumping untreated waste into the river, the factory clearly contravened the environmental protection law it had agreed to follow. Regulators fined the company heavily once the violation came to light.",
+      "question": "As used in the passage, 'contravened' most nearly means",
+      "options": [
+        {
+          "t": "supported"
+        },
+        {
+          "t": "renewed"
+        },
+        {
+          "t": "violated",
+          "correct": true
+        },
+        {
+          "t": "improved"
+        }
+      ],
+      "words": [
+        "contravene"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Dumping waste against the law's requirements is violating, or 'contravening,' the law."
+    },
+    {
+      "passage": "Neither side got everything it wanted, but after weeks of negotiation, both unions and management accepted a compromise that raised wages modestly while preserving flexible scheduling.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The union won every demand it made."
+        },
+        {
+          "t": "Both sides reached a mutually acceptable middle-ground agreement.",
+          "correct": true
+        },
+        {
+          "t": "Management refused to negotiate at all."
+        },
+        {
+          "t": "The negotiations collapsed without resolution."
+        }
+      ],
+      "words": [
+        "compromise"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes both sides making concessions to reach an agreement, which is the main idea of a compromise."
+    },
+    {
+      "passage": "The scholarship committee established three clear criteria for selecting winners: academic achievement, financial need, and community service. Applicants were notified of the decision within a week of the deadline.",
+      "question": "As used in the passage, 'criteria' most nearly means",
+      "options": [
+        {
+          "t": "applicants' names"
+        },
+        {
+          "t": "deadlines"
+        },
+        {
+          "t": "standards used for judging",
+          "correct": true
+        },
+        {
+          "t": "prizes awarded"
+        }
+      ],
+      "words": [
+        "criteria"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The three listed factors used to select winners are the standards, or 'criteria,' for judging."
+    },
+    {
+      "passage": "The fingerprint match, combined with security footage and a signed confession, gave investigators conclusive proof of the suspect's involvement. The defense had little room left to argue otherwise.",
+      "question": "As used in the passage, 'conclusive' most nearly means",
+      "options": [
+        {
+          "t": "leaving room for doubt"
+        },
+        {
+          "t": "anonymous"
+        },
+        {
+          "t": "putting an end to doubt",
+          "correct": true
+        },
+        {
+          "t": "circumstantial"
+        }
+      ],
+      "words": [
+        "conclusive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Fingerprints, footage, and a confession together remove doubt, making the proof 'conclusive.'"
+    },
+    {
+      "passage": "After the injury, the doctor confined the athlete to bed rest for two full weeks, forbidding any physical activity. He spent the time reading and resting instead of training.",
+      "question": "As used in the passage, 'confined' most nearly means",
+      "options": [
+        {
+          "t": "trained intensely"
+        },
+        {
+          "t": "restricted within limits",
+          "correct": true
+        },
+        {
+          "t": "released freely"
+        },
+        {
+          "t": "rewarded"
+        }
+      ],
+      "words": [
+        "confine"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Forbidding activity and requiring bed rest is restricting someone within limits, the meaning of 'confined.'"
+    },
+    {
+      "passage": "The crestfallen students filed out of the classroom in silence after learning the field trip had been canceled at the last minute. Teachers tried to lift their spirits, but the mood stayed somber for the rest of the day.",
+      "question": "As used in the passage, 'crestfallen' most nearly means",
+      "options": [
+        {
+          "t": "indifferent"
+        },
+        {
+          "t": "excited"
+        },
+        {
+          "t": "curious"
+        },
+        {
+          "t": "sad and disappointed",
+          "correct": true
+        }
+      ],
+      "words": [
+        "crestfallen"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Filing out in silence after disappointing news shows the students were sad and disappointed, or 'crestfallen.'"
+    },
+    {
+      "passage": "Fans adulated the rookie pitcher after his perfect game, chanting his name for minutes and treating him as though he could do no wrong. Local news crews covered the celebration late into the evening.",
+      "question": "As used in the passage, 'adulated' most nearly means",
+      "options": [
+        {
+          "t": "interviewed briefly"
+        },
+        {
+          "t": "praised excessively",
+          "correct": true
+        },
+        {
+          "t": "ignored completely"
+        },
+        {
+          "t": "criticized harshly"
+        }
+      ],
+      "words": [
+        "adulate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Chanting his name and treating him as flawless shows fans praising him excessively, or 'adulating' him."
+    },
+    {
+      "passage": "Investigators later discovered that the accountant had connived with a supplier to inflate invoices, quietly splitting the extra money between them for years. The scheme finally unraveled when a routine audit flagged the pattern.",
+      "question": "As used in the passage, 'connived' most nearly means",
+      "options": [
+        {
+          "t": "refused"
+        },
+        {
+          "t": "publicly announced"
+        },
+        {
+          "t": "secretly conspired",
+          "correct": true
+        },
+        {
+          "t": "reported"
+        }
+      ],
+      "words": [
+        "connive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Quietly splitting inflated invoice money describes secretly conspiring, or 'conniving,' with the supplier."
+    },
+    {
+      "passage": "Metal rails contract slightly in cold weather, which is why engineers leave small gaps between sections of railroad track. Without the gaps, the tracks could buckle dangerously during winter.",
+      "question": "As used in the passage, 'contract' most nearly means",
+      "options": [
+        {
+          "t": "shatter"
+        },
+        {
+          "t": "shrink",
+          "correct": true
+        },
+        {
+          "t": "expand"
+        },
+        {
+          "t": "rust"
+        }
+      ],
+      "words": [
+        "contract"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The gaps exist because the metal shrinks in the cold, which is what 'contract' means here."
+    },
+    {
+      "passage": "Airport security confiscated the oversized bottle of shampoo, explaining that liquids over the allowed limit could not pass through the checkpoint. Passengers were reminded to check carry-on limits before arriving at security next time.",
+      "question": "As used in the passage, 'confiscated' most nearly means",
+      "options": [
+        {
+          "t": "cleaned"
+        },
+        {
+          "t": "recommended"
+        },
+        {
+          "t": "seized as a penalty",
+          "correct": true
+        },
+        {
+          "t": "sold"
+        }
+      ],
+      "words": [
+        "confiscate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Taking the shampoo because it exceeded the limit is seizing it as a penalty, which is 'confiscating' it."
+    },
+    {
+      "passage": "Without any hard evidence, the reporter's claim about the company's finances remained pure conjecture, though he presented it as though it were established fact. Editors nonetheless ran the story without further verification.",
+      "question": "As used in the passage, 'conjecture' most nearly means",
+      "options": [
+        {
+          "t": "a guess lacking evidence",
+          "correct": true
+        },
+        {
+          "t": "a public apology"
+        },
+        {
+          "t": "a confirmed fact"
+        },
+        {
+          "t": "a legal ruling"
+        }
+      ],
+      "words": [
+        "conjecture"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage stresses there was no hard evidence, showing the claim is a guess lacking evidence, or 'conjecture.'"
+    }
+  ]
+}

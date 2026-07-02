@@ -1,0 +1,2469 @@
+{
+  "words": [
+    {
+      "word": "balanced",
+      "pos": "adjective",
+      "definitionEn": "fairly presenting different sides or elements in equal proportion",
+      "exampleEn": "The editor praised the article for offering a balanced view of both political candidates.",
+      "tier": "foundation",
+      "rank": 501
+    },
+    {
+      "word": "extreme",
+      "pos": "adjective",
+      "definitionEn": "very great in degree, or far from the usual or moderate",
+      "exampleEn": "The desert's extreme temperatures can swing from freezing at night to scorching by noon.",
+      "tier": "foundation",
+      "rank": 502,
+      "synonymGroup": "excess-degree"
+    },
+    {
+      "word": "radical",
+      "pos": "adjective",
+      "definitionEn": "relating to a fundamental or extreme change from what is usual",
+      "exampleEn": "The new mayor proposed a radical plan to redesign the entire transportation system.",
+      "tier": "foundation",
+      "rank": 503,
+      "synonymGroup": "excess-degree"
+    },
+    {
+      "word": "drastic",
+      "pos": "adjective",
+      "definitionEn": "likely to have a strong or far-reaching effect; severe",
+      "exampleEn": "Facing a budget crisis, the school board took drastic measures and cut half its programs.",
+      "tier": "foundation",
+      "rank": 504,
+      "synonymGroup": "excess-degree"
+    },
+    {
+      "word": "moderate",
+      "pos": "adjective",
+      "definitionEn": "average in amount, intensity, or degree; not extreme",
+      "exampleEn": "She prefers a moderate amount of exercise each day rather than intense workouts.",
+      "tier": "foundation",
+      "rank": 505
+    },
+    {
+      "word": "excessive",
+      "pos": "adjective",
+      "definitionEn": "more than what is necessary, normal, or reasonable",
+      "exampleEn": "The coach warned that excessive practice without rest could lead to injury.",
+      "tier": "foundation",
+      "rank": 506,
+      "synonymGroup": "too-much"
+    },
+    {
+      "word": "immoderate",
+      "pos": "adjective",
+      "definitionEn": "lacking restraint; exceeding reasonable limits",
+      "exampleEn": "His immoderate spending during the holidays left him with no savings by January.",
+      "tier": "foundation",
+      "rank": 507,
+      "synonymGroup": "too-much"
+    },
+    {
+      "word": "minimal",
+      "pos": "adjective",
+      "definitionEn": "of the smallest possible amount or degree",
+      "exampleEn": "The new software update requires only minimal changes to the existing system.",
+      "tier": "foundation",
+      "rank": 508,
+      "synonymGroup": "small-amount"
+    },
+    {
+      "word": "negligible",
+      "pos": "adjective",
+      "definitionEn": "so small or unimportant that it is not worth considering",
+      "exampleEn": "The difference in price between the two brands was negligible, so she bought whichever was closer.",
+      "tier": "foundation",
+      "rank": 509,
+      "synonymGroup": "small-amount"
+    },
+    {
+      "word": "slight",
+      "pos": "adjective",
+      "definitionEn": "small in degree or amount",
+      "exampleEn": "There was only a slight chance of rain, so the picnic went ahead as planned.",
+      "tier": "foundation",
+      "rank": 510,
+      "synonymGroup": "small-amount"
+    },
+    {
+      "word": "considerable",
+      "pos": "adjective",
+      "definitionEn": "large enough to be important or have a significant effect",
+      "exampleEn": "The company invested a considerable sum in developing the new product line.",
+      "tier": "foundation",
+      "rank": 511
+    },
+    {
+      "word": "insignificant",
+      "pos": "adjective",
+      "definitionEn": "too small or unimportant to be worth considering",
+      "exampleEn": "Compared to the total budget, the printing costs were insignificant.",
+      "tier": "foundation",
+      "rank": 512,
+      "synonymGroup": "small-amount"
+    },
+    {
+      "word": "narrative",
+      "pos": "noun",
+      "definitionEn": "a spoken or written account of connected events; a story",
+      "exampleEn": "The documentary weaves a compelling narrative about the town's recovery after the flood.",
+      "tier": "foundation",
+      "rank": 513
+    },
+    {
+      "word": "discourse",
+      "pos": "noun",
+      "definitionEn": "written or spoken communication or debate about a topic",
+      "exampleEn": "Public discourse about climate policy has grown more urgent in recent years.",
+      "tier": "foundation",
+      "rank": 514
+    },
+    {
+      "word": "syntax",
+      "pos": "noun",
+      "definitionEn": "the arrangement of words and phrases to form correct sentences",
+      "exampleEn": "The essay's confusing syntax made it hard for readers to follow the argument.",
+      "tier": "foundation",
+      "rank": 515
+    },
+    {
+      "word": "diction",
+      "pos": "noun",
+      "definitionEn": "the choice and use of words in speech or writing",
+      "exampleEn": "The poet's formal diction gave the simple poem a solemn, dignified tone.",
+      "tier": "foundation",
+      "rank": 516
+    },
+    {
+      "word": "tone",
+      "pos": "noun",
+      "definitionEn": "the general attitude or feeling expressed by a piece of writing",
+      "exampleEn": "The letter's tone shifted from polite to angry as the writer described her complaint.",
+      "tier": "foundation",
+      "rank": 517,
+      "synonymGroup": "atmosphere"
+    },
+    {
+      "word": "mood",
+      "pos": "noun",
+      "definitionEn": "the emotional atmosphere created by a piece of writing",
+      "exampleEn": "Dim lighting and slow music helped set a somber mood for the final scene.",
+      "tier": "foundation",
+      "rank": 518,
+      "synonymGroup": "atmosphere"
+    },
+    {
+      "word": "theme",
+      "pos": "noun",
+      "definitionEn": "a central idea or message explored throughout a work",
+      "exampleEn": "Loss and resilience are recurring themes throughout the author's collection of short stories.",
+      "tier": "foundation",
+      "rank": 519
+    },
+    {
+      "word": "motif",
+      "pos": "noun",
+      "definitionEn": "a recurring image, idea, or element in a work of literature or art",
+      "exampleEn": "The image of a caged bird appears repeatedly as a motif throughout the novel.",
+      "tier": "foundation",
+      "rank": 520
+    },
+    {
+      "word": "symbolism",
+      "pos": "noun",
+      "definitionEn": "the use of symbols to represent ideas or qualities",
+      "exampleEn": "The white dove in the painting is a common piece of symbolism representing peace.",
+      "tier": "foundation",
+      "rank": 521
+    },
+    {
+      "word": "allegory",
+      "pos": "noun",
+      "definitionEn": "a story in which characters and events represent a deeper moral or political meaning",
+      "exampleEn": "Many readers interpret the novel as an allegory for the rise of totalitarian government.",
+      "tier": "foundation",
+      "rank": 522
+    },
+    {
+      "word": "irony",
+      "pos": "noun",
+      "definitionEn": "a contrast between what is expected and what actually happens or is said",
+      "exampleEn": "It was pure irony that the fire station burned down due to a wiring error.",
+      "tier": "foundation",
+      "rank": 523
+    },
+    {
+      "word": "satire",
+      "pos": "noun",
+      "definitionEn": "the use of humor or exaggeration to criticize people's foolishness or vices",
+      "exampleEn": "The late-night show relies on satire to mock politicians' broken campaign promises.",
+      "tier": "foundation",
+      "rank": 524
+    },
+    {
+      "word": "metaphor",
+      "pos": "noun",
+      "definitionEn": "a figure of speech that describes something by calling it another thing to suggest a comparison",
+      "exampleEn": "Calling the exam 'a marathon' is a metaphor for how long and exhausting it felt.",
+      "tier": "foundation",
+      "rank": 525,
+      "synonymGroup": "comparison-devices"
+    },
+    {
+      "word": "simile",
+      "pos": "noun",
+      "definitionEn": "a figure of speech that compares two things using 'like' or 'as'",
+      "exampleEn": "The poet wrote that her heart was 'as heavy as stone' to describe her grief.",
+      "tier": "foundation",
+      "rank": 526,
+      "synonymGroup": "comparison-devices"
+    },
+    {
+      "word": "allusion",
+      "pos": "noun",
+      "definitionEn": "an indirect reference to a person, event, or work outside the text",
+      "exampleEn": "The speech included an allusion to Icarus to warn against reckless ambition.",
+      "tier": "foundation",
+      "rank": 527
+    },
+    {
+      "word": "imagery",
+      "pos": "noun",
+      "definitionEn": "descriptive language that appeals to the senses",
+      "exampleEn": "The author's vivid imagery let readers almost smell the salty sea air.",
+      "tier": "foundation",
+      "rank": 528
+    },
+    {
+      "word": "connotation",
+      "pos": "noun",
+      "definitionEn": "an idea or feeling a word invokes beyond its literal meaning",
+      "exampleEn": "The word 'childish' has a negative connotation, while 'youthful' sounds more positive.",
+      "tier": "foundation",
+      "rank": 529,
+      "synonymGroup": "word-meaning"
+    },
+    {
+      "word": "denotation",
+      "pos": "noun",
+      "definitionEn": "the literal, dictionary meaning of a word",
+      "exampleEn": "The denotation of 'home' is simply a place where someone lives, without any emotional weight.",
+      "tier": "foundation",
+      "rank": 530,
+      "synonymGroup": "word-meaning"
+    },
+    {
+      "word": "genre",
+      "pos": "noun",
+      "definitionEn": "a category of artistic work characterized by a particular style or subject",
+      "exampleEn": "Science fiction is her favorite genre because she loves imagining future worlds.",
+      "tier": "foundation",
+      "rank": 531
+    },
+    {
+      "word": "audience",
+      "pos": "noun",
+      "definitionEn": "the group of people who read, watch, or listen to a work",
+      "exampleEn": "The speaker adjusted her vocabulary to suit a younger audience.",
+      "tier": "foundation",
+      "rank": 532
+    },
+    {
+      "word": "thesis",
+      "pos": "noun",
+      "definitionEn": "a statement or claim that a piece of writing sets out to support",
+      "exampleEn": "Her thesis argued that social media has weakened, not strengthened, community ties.",
+      "tier": "foundation",
+      "rank": 533
+    },
+    {
+      "word": "premise",
+      "pos": "noun",
+      "definitionEn": "a statement or idea assumed to be true and used as the basis for an argument",
+      "exampleEn": "The debate rested on the premise that all students deserve equal access to technology.",
+      "tier": "foundation",
+      "rank": 534
+    },
+    {
+      "word": "counterargument",
+      "pos": "noun",
+      "definitionEn": "an argument made in opposition to another argument",
+      "exampleEn": "A strong essay anticipates the reader's counterargument and addresses it directly.",
+      "tier": "foundation",
+      "rank": 535
+    },
+    {
+      "word": "rebuttal",
+      "pos": "noun",
+      "definitionEn": "a response that argues against a previous claim or argument",
+      "exampleEn": "In her rebuttal, the lawyer pointed out flaws in the witness's timeline.",
+      "tier": "foundation",
+      "rank": 536
+    },
+    {
+      "word": "citation",
+      "pos": "noun",
+      "definitionEn": "a reference to a source used as evidence in writing",
+      "exampleEn": "The professor deducted points because the paper lacked proper citations for its statistics.",
+      "tier": "foundation",
+      "rank": 537,
+      "synonymGroup": "source-material"
+    },
+    {
+      "word": "source",
+      "pos": "noun",
+      "definitionEn": "a person, document, or record that provides information",
+      "exampleEn": "The journalist refused to reveal her source for the leaked documents.",
+      "tier": "foundation",
+      "rank": 538,
+      "synonymGroup": "source-material"
+    },
+    {
+      "word": "reference",
+      "pos": "noun",
+      "definitionEn": "a mention of or direction to a source of information",
+      "exampleEn": "The footnote contains a reference to the original 1918 study.",
+      "tier": "foundation",
+      "rank": 539,
+      "synonymGroup": "source-material"
+    },
+    {
+      "word": "bibliography",
+      "pos": "noun",
+      "definitionEn": "a list of sources used or referred to in a piece of writing",
+      "exampleEn": "Her research paper included a bibliography of over forty scholarly articles.",
+      "tier": "foundation",
+      "rank": 540
+    },
+    {
+      "word": "paraphrase",
+      "pos": "verb",
+      "definitionEn": "to express someone else's words or ideas using different words",
+      "exampleEn": "Instead of quoting the report directly, the student chose to paraphrase its main findings.",
+      "tier": "foundation",
+      "rank": 541
+    },
+    {
+      "word": "quotation",
+      "pos": "noun",
+      "definitionEn": "a group of words taken exactly from a text or speech and repeated by someone else",
+      "exampleEn": "She opened her essay with a famous quotation from Martin Luther King Jr.",
+      "tier": "foundation",
+      "rank": 542
+    },
+    {
+      "word": "summary",
+      "pos": "noun",
+      "definitionEn": "a brief statement of the main points of something",
+      "exampleEn": "The teacher asked each student to write a one-paragraph summary of the chapter.",
+      "tier": "foundation",
+      "rank": 543,
+      "synonymGroup": "condensed-text"
+    },
+    {
+      "word": "abstract",
+      "pos": "noun",
+      "definitionEn": "a short summary of a longer academic or scientific paper",
+      "exampleEn": "Researchers often read only the abstract before deciding whether to read the full study.",
+      "tier": "foundation",
+      "rank": 544,
+      "synonymGroup": "condensed-text"
+    },
+    {
+      "word": "excerpt",
+      "pos": "noun",
+      "definitionEn": "a short extract taken from a larger text",
+      "exampleEn": "The textbook includes an excerpt from the novel's opening chapter.",
+      "tier": "foundation",
+      "rank": 545,
+      "synonymGroup": "condensed-text"
+    },
+    {
+      "word": "passage",
+      "pos": "noun",
+      "definitionEn": "a short section of text from a longer piece of writing",
+      "exampleEn": "Read the following passage carefully before answering the questions about it.",
+      "tier": "foundation",
+      "rank": 546,
+      "synonymGroup": "condensed-text"
+    },
+    {
+      "word": "chronological",
+      "pos": "adjective",
+      "definitionEn": "arranged in the order in which events occurred",
+      "exampleEn": "The museum exhibit presents the artist's paintings in chronological order, from earliest to latest.",
+      "tier": "foundation",
+      "rank": 547,
+      "synonymGroup": "order-of-events"
+    },
+    {
+      "word": "sequential",
+      "pos": "adjective",
+      "definitionEn": "following a particular order, one after another",
+      "exampleEn": "The instructions must be followed in sequential order or the machine will not assemble correctly.",
+      "tier": "foundation",
+      "rank": 548,
+      "synonymGroup": "order-of-events"
+    },
+    {
+      "word": "linear",
+      "pos": "adjective",
+      "definitionEn": "following a straight, progressive path or sequence",
+      "exampleEn": "Unlike most films, this one does not follow a linear plot; it jumps between past and present.",
+      "tier": "foundation",
+      "rank": 549,
+      "synonymGroup": "order-of-events"
+    },
+    {
+      "word": "cyclical",
+      "pos": "adjective",
+      "definitionEn": "occurring in repeating cycles rather than a straight line",
+      "exampleEn": "Economists describe recessions and recoveries as part of a cyclical pattern in the economy.",
+      "tier": "foundation",
+      "rank": 550
+    },
+    {
+      "word": "periodic",
+      "pos": "adjective",
+      "definitionEn": "occurring at regular intervals",
+      "exampleEn": "The factory undergoes periodic inspections to ensure it meets safety standards.",
+      "tier": "foundation",
+      "rank": 551
+    },
+    {
+      "word": "simultaneous",
+      "pos": "adjective",
+      "definitionEn": "happening or existing at the same time",
+      "exampleEn": "The two announcements were simultaneous, which confused reporters trying to cover both.",
+      "tier": "foundation",
+      "rank": 552
+    },
+    {
+      "word": "statistic",
+      "pos": "noun",
+      "definitionEn": "a numerical fact collected and used to summarize information",
+      "exampleEn": "The report opened with a startling statistic about teenage screen time.",
+      "tier": "foundation",
+      "rank": 553
+    },
+    {
+      "word": "data",
+      "pos": "noun",
+      "definitionEn": "facts and information, especially numbers, collected for analysis",
+      "exampleEn": "The scientists gathered years of data before drawing conclusions about the climate trend.",
+      "tier": "foundation",
+      "rank": 554
+    },
+    {
+      "word": "sample",
+      "pos": "noun",
+      "definitionEn": "a small part of something intended to represent the whole",
+      "exampleEn": "Researchers surveyed a sample of 500 students to estimate opinions across the entire school.",
+      "tier": "foundation",
+      "rank": 555,
+      "synonymGroup": "research-groups"
+    },
+    {
+      "word": "population",
+      "pos": "noun",
+      "definitionEn": "the entire group of individuals or items being studied",
+      "exampleEn": "The study focused on the population of adults over sixty living in rural areas.",
+      "tier": "foundation",
+      "rank": 556,
+      "synonymGroup": "research-groups"
+    },
+    {
+      "word": "survey",
+      "pos": "noun",
+      "definitionEn": "a method of gathering information by asking people questions",
+      "exampleEn": "The city conducted a survey to find out how residents felt about the new park.",
+      "tier": "foundation",
+      "rank": 557,
+      "synonymGroup": "research-methods"
+    },
+    {
+      "word": "questionnaire",
+      "pos": "noun",
+      "definitionEn": "a set of written questions used to collect information from people",
+      "exampleEn": "Every patient fills out a questionnaire about their medical history before the appointment.",
+      "tier": "foundation",
+      "rank": 558,
+      "synonymGroup": "research-methods"
+    },
+    {
+      "word": "census",
+      "pos": "noun",
+      "definitionEn": "an official count or survey of a population",
+      "exampleEn": "The national census showed that the city's population had grown by ten percent.",
+      "tier": "foundation",
+      "rank": 559,
+      "synonymGroup": "research-methods"
+    },
+    {
+      "word": "demographic",
+      "pos": "adjective",
+      "definitionEn": "relating to the structure of populations, such as age, income, or ethnicity",
+      "exampleEn": "Advertisers study demographic trends to decide which products to market to which groups.",
+      "tier": "foundation",
+      "rank": 560
+    },
+    {
+      "word": "economic",
+      "pos": "adjective",
+      "definitionEn": "relating to the production, trade, and management of money and resources",
+      "exampleEn": "The new tariffs are expected to have a significant economic impact on farmers.",
+      "tier": "foundation",
+      "rank": 561
+    },
+    {
+      "word": "political",
+      "pos": "adjective",
+      "definitionEn": "relating to government, public affairs, or the exercise of power",
+      "exampleEn": "The debate quickly turned into a political argument about tax policy.",
+      "tier": "foundation",
+      "rank": 562
+    },
+    {
+      "word": "social",
+      "pos": "adjective",
+      "definitionEn": "relating to society, human interaction, or living together in communities",
+      "exampleEn": "The pandemic caused major social changes in how people work and communicate.",
+      "tier": "foundation",
+      "rank": 563
+    },
+    {
+      "word": "cultural",
+      "pos": "adjective",
+      "definitionEn": "relating to the customs, arts, and social behavior of a society",
+      "exampleEn": "The festival celebrates the cultural traditions of immigrant communities in the city.",
+      "tier": "foundation",
+      "rank": 564
+    },
+    {
+      "word": "historical",
+      "pos": "adjective",
+      "definitionEn": "relating to past events or the study of history",
+      "exampleEn": "The novel is based on historical events from the French Revolution.",
+      "tier": "foundation",
+      "rank": 565
+    },
+    {
+      "word": "geographic",
+      "pos": "adjective",
+      "definitionEn": "relating to the physical features and location of places",
+      "exampleEn": "The country's geographic isolation made trade with neighboring nations difficult.",
+      "tier": "foundation",
+      "rank": 566
+    },
+    {
+      "word": "institution",
+      "pos": "noun",
+      "definitionEn": "an established organization founded for a particular purpose, such as education or religion",
+      "exampleEn": "The university is one of the oldest educational institutions in the country.",
+      "tier": "foundation",
+      "rank": 567,
+      "synonymGroup": "organized-bodies"
+    },
+    {
+      "word": "organization",
+      "pos": "noun",
+      "definitionEn": "a group of people working together for a shared purpose",
+      "exampleEn": "The nonprofit organization raises money to build schools in rural areas.",
+      "tier": "foundation",
+      "rank": 568,
+      "synonymGroup": "organized-bodies"
+    },
+    {
+      "word": "corporation",
+      "pos": "noun",
+      "definitionEn": "a large company or group of companies recognized as a single legal entity",
+      "exampleEn": "The corporation reported record profits despite the economic downturn.",
+      "tier": "foundation",
+      "rank": 569,
+      "synonymGroup": "business-entities"
+    },
+    {
+      "word": "enterprise",
+      "pos": "noun",
+      "definitionEn": "a business or company, or a bold and ambitious project",
+      "exampleEn": "She left her job to launch a small enterprise selling handmade furniture.",
+      "tier": "foundation",
+      "rank": 570,
+      "synonymGroup": "business-entities"
+    },
+    {
+      "word": "industry",
+      "pos": "noun",
+      "definitionEn": "economic activity concerned with the production of goods or services",
+      "exampleEn": "The automobile industry has shifted rapidly toward electric vehicle production.",
+      "tier": "foundation",
+      "rank": 571
+    },
+    {
+      "word": "sector",
+      "pos": "noun",
+      "definitionEn": "a distinct part of an economy or area of activity",
+      "exampleEn": "Employment in the technology sector has grown steadily over the past decade.",
+      "tier": "foundation",
+      "rank": 572
+    },
+    {
+      "word": "regulation",
+      "pos": "noun",
+      "definitionEn": "an official rule made and enforced by an authority",
+      "exampleEn": "New environmental regulations require factories to reduce their carbon emissions.",
+      "tier": "foundation",
+      "rank": 573,
+      "synonymGroup": "official-rules"
+    },
+    {
+      "word": "legislation",
+      "pos": "noun",
+      "definitionEn": "laws formally made by a governing body",
+      "exampleEn": "Congress passed legislation aimed at lowering prescription drug prices.",
+      "tier": "foundation",
+      "rank": 574,
+      "synonymGroup": "official-rules"
+    },
+    {
+      "word": "policy",
+      "pos": "noun",
+      "definitionEn": "a course of action adopted by a government or organization",
+      "exampleEn": "The school introduced a new policy requiring students to turn in phones during exams.",
+      "tier": "foundation",
+      "rank": 575
+    },
+    {
+      "word": "mandate",
+      "pos": "noun",
+      "definitionEn": "an official order or authorization to do something",
+      "exampleEn": "The city issued a mandate requiring all new buildings to include solar panels.",
+      "tier": "foundation",
+      "rank": 576,
+      "synonymGroup": "official-orders"
+    },
+    {
+      "word": "directive",
+      "pos": "noun",
+      "definitionEn": "an official instruction issued by an authority",
+      "exampleEn": "The company sent a directive to all employees about the updated safety procedures.",
+      "tier": "foundation",
+      "rank": 577,
+      "synonymGroup": "official-orders"
+    },
+    {
+      "word": "statute",
+      "pos": "noun",
+      "definitionEn": "a written law passed by a legislative body",
+      "exampleEn": "Under the state statute, drivers must carry proof of insurance at all times.",
+      "tier": "foundation",
+      "rank": 578,
+      "synonymGroup": "official-rules"
+    },
+    {
+      "word": "ordinance",
+      "pos": "noun",
+      "definitionEn": "a local law or regulation made by a city or town authority",
+      "exampleEn": "The town passed an ordinance banning fireworks within city limits.",
+      "tier": "foundation",
+      "rank": 579,
+      "synonymGroup": "official-rules"
+    },
+    {
+      "word": "jurisdiction",
+      "pos": "noun",
+      "definitionEn": "the official power to make legal decisions over a certain area or matter",
+      "exampleEn": "The case was moved to federal court because it fell outside the local court's jurisdiction.",
+      "tier": "foundation",
+      "rank": 580
+    },
+    {
+      "word": "authority",
+      "pos": "noun",
+      "definitionEn": "the power or right to give orders and enforce obedience",
+      "exampleEn": "The principal has the authority to suspend students who violate the code of conduct.",
+      "tier": "foundation",
+      "rank": 581
+    },
+    {
+      "word": "governance",
+      "pos": "noun",
+      "definitionEn": "the process or system of governing an organization or country",
+      "exampleEn": "The report criticized the company's poor governance and lack of oversight.",
+      "tier": "foundation",
+      "rank": 582
+    },
+    {
+      "word": "administration",
+      "pos": "noun",
+      "definitionEn": "the management of a government, organization, or institution",
+      "exampleEn": "The new administration promised to reform the outdated tax system.",
+      "tier": "foundation",
+      "rank": 583
+    },
+    {
+      "word": "bureaucracy",
+      "pos": "noun",
+      "definitionEn": "a system of government or organization marked by many officials and rigid procedures",
+      "exampleEn": "Getting a simple permit required navigating layers of confusing bureaucracy.",
+      "tier": "foundation",
+      "rank": 584
+    },
+    {
+      "word": "citizen",
+      "pos": "noun",
+      "definitionEn": "a legally recognized member of a state or nation with rights and duties",
+      "exampleEn": "Every citizen over eighteen has the right to vote in national elections.",
+      "tier": "foundation",
+      "rank": 585,
+      "synonymGroup": "people-in-society"
+    },
+    {
+      "word": "civilian",
+      "pos": "noun",
+      "definitionEn": "a person who is not a member of the armed forces or police",
+      "exampleEn": "The ceasefire agreement aimed to protect civilians from further harm during the conflict.",
+      "tier": "foundation",
+      "rank": 586,
+      "synonymGroup": "people-in-society"
+    },
+    {
+      "word": "resident",
+      "pos": "noun",
+      "definitionEn": "a person who lives permanently in a particular place",
+      "exampleEn": "Local residents attended the meeting to voice concerns about the new highway.",
+      "tier": "foundation",
+      "rank": 587,
+      "synonymGroup": "people-in-society"
+    },
+    {
+      "word": "inhabitant",
+      "pos": "noun",
+      "definitionEn": "a person or animal that lives in a particular place",
+      "exampleEn": "The island's inhabitants rely heavily on fishing for their livelihood.",
+      "tier": "foundation",
+      "rank": 588,
+      "synonymGroup": "people-in-society"
+    },
+    {
+      "word": "electorate",
+      "pos": "noun",
+      "definitionEn": "all the people in a country or area entitled to vote in an election",
+      "exampleEn": "The candidate tailored her message to appeal to a broad electorate.",
+      "tier": "foundation",
+      "rank": 589
+    },
+    {
+      "word": "democracy",
+      "pos": "noun",
+      "definitionEn": "a system of government in which citizens vote to elect their leaders",
+      "exampleEn": "In a healthy democracy, citizens can freely criticize their government without fear.",
+      "tier": "foundation",
+      "rank": 590,
+      "synonymGroup": "government-systems"
+    },
+    {
+      "word": "republic",
+      "pos": "noun",
+      "definitionEn": "a state in which power is held by elected representatives rather than a monarch",
+      "exampleEn": "The country became a republic after abolishing its monarchy in the 1950s.",
+      "tier": "foundation",
+      "rank": 591,
+      "synonymGroup": "government-systems"
+    },
+    {
+      "word": "monarchy",
+      "pos": "noun",
+      "definitionEn": "a form of government headed by a king or queen",
+      "exampleEn": "The nation remains a monarchy, though the king now holds mostly ceremonial power.",
+      "tier": "foundation",
+      "rank": 592,
+      "synonymGroup": "government-systems"
+    },
+    {
+      "word": "autocracy",
+      "pos": "noun",
+      "definitionEn": "a system of government in which one person holds absolute power",
+      "exampleEn": "Under the autocracy, all major decisions were made by a single ruler without debate.",
+      "tier": "foundation",
+      "rank": 593,
+      "synonymGroup": "government-systems"
+    },
+    {
+      "word": "oligarchy",
+      "pos": "noun",
+      "definitionEn": "a system of government controlled by a small group of powerful people",
+      "exampleEn": "Critics argued the nation had become an oligarchy run by a handful of wealthy families.",
+      "tier": "foundation",
+      "rank": 594,
+      "synonymGroup": "government-systems"
+    },
+    {
+      "word": "totalitarian",
+      "pos": "adjective",
+      "definitionEn": "relating to a government that demands complete control over public and private life",
+      "exampleEn": "The novel depicts a totalitarian regime that monitors every citizen's actions.",
+      "tier": "foundation",
+      "rank": 595
+    },
+    {
+      "word": "liberty",
+      "pos": "noun",
+      "definitionEn": "the state of being free from oppressive restrictions on behavior or beliefs",
+      "exampleEn": "The statue has long symbolized liberty and welcomed immigrants to the country.",
+      "tier": "foundation",
+      "rank": 596,
+      "synonymGroup": "personal-freedom"
+    },
+    {
+      "word": "freedom",
+      "pos": "noun",
+      "definitionEn": "the power to act, speak, or think without unnecessary restraint",
+      "exampleEn": "The new constitution guaranteed freedom of speech and freedom of the press.",
+      "tier": "foundation",
+      "rank": 597,
+      "synonymGroup": "personal-freedom"
+    },
+    {
+      "word": "autonomy",
+      "pos": "noun",
+      "definitionEn": "the right or condition of self-governance or independence",
+      "exampleEn": "The region was granted autonomy to manage its own schools and local taxes.",
+      "tier": "foundation",
+      "rank": 598,
+      "synonymGroup": "personal-freedom"
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "Rather than swinging to either extreme, the new city budget struck a balanced approach, funding both police and public housing initiatives without favoring one over the other. Council members from opposing parties praised the compromise for treating competing needs fairly.",
+      "question": "As used in the passage, \"balanced\" most nearly means",
+      "options": [
+        {
+          "t": "financially unstable"
+        },
+        {
+          "t": "delayed until further review"
+        },
+        {
+          "t": "evenly weighted between competing interests",
+          "correct": true
+        },
+        {
+          "t": "heavily favoring one side"
+        }
+      ],
+      "words": [
+        "balanced"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes a budget that funds both sides fairly without favoring one, so \"balanced\" means evenly weighted."
+    },
+    {
+      "question": "Which pair of words are near opposites in meaning?",
+      "passage": "In discussing political reform, commentators often distinguish between moderate proposals, which adjust existing systems gradually, and radical proposals, which seek to overturn those systems entirely and rebuild from scratch.",
+      "options": [
+        {
+          "t": "moderate and radical"
+        },
+        {
+          "t": "narrative and discourse",
+          "correct": true
+        },
+        {
+          "t": "citizen and resident"
+        },
+        {
+          "t": "tone and mood"
+        }
+      ],
+      "words": [
+        "moderate",
+        "radical"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts gradual, moderate change with radical, wholesale change, marking them as near opposites."
+    },
+    {
+      "question": "As used in the passage, \"drastic\" most nearly means",
+      "passage": "After the reservoir dropped to a third of its normal level, officials imposed drastic water restrictions, banning lawn watering entirely and fining residents who washed their cars at home.",
+      "options": [
+        {
+          "t": "severe and far-reaching"
+        },
+        {
+          "t": "gradual and barely noticeable",
+          "correct": true
+        },
+        {
+          "t": "optional and lightly enforced"
+        },
+        {
+          "t": "temporary and reversible"
+        }
+      ],
+      "words": [
+        "drastic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Banning lawn watering entirely and fining residents shows the restrictions were severe, matching \"drastic.\""
+    },
+    {
+      "question": "As used in the passage, \"excessive\" most nearly means",
+      "passage": "The auditor flagged the department's spending as excessive, noting that its printing costs alone were triple what similar offices spent, far beyond what any reasonable operation required.",
+      "options": [
+        {
+          "t": "carefully controlled",
+          "correct": true
+        },
+        {
+          "t": "beyond what is reasonable or necessary"
+        },
+        {
+          "t": "consistent with past years"
+        },
+        {
+          "t": "difficult to calculate"
+        }
+      ],
+      "words": [
+        "excessive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Spending triple what similar offices spent, described as beyond reasonable operation, defines \"excessive.\""
+    },
+    {
+      "question": "Which choice best states the main idea of the passage?",
+      "passage": "While some critics dismiss the senator's proposals as immoderate, her supporters argue that only sweeping, uncompromising action can address a crisis this severe. They contend that half-measures have already failed for a decade.",
+      "options": [
+        {
+          "t": "Half-measures are the only realistic solution to the crisis."
+        },
+        {
+          "t": "Critics and supporters agree that the senator's plan is too extreme."
+        },
+        {
+          "t": "Supporters believe bold action, not restraint, is needed to solve a severe, long-standing crisis.",
+          "correct": true
+        },
+        {
+          "t": "The senator's proposals have been in effect for over a decade."
+        }
+      ],
+      "words": [
+        "immoderate"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage centers on supporters defending bold, immoderate action as necessary given the failure of half-measures."
+    },
+    {
+      "question": "As used in the passage, \"minimal\" most nearly means",
+      "passage": "The new packaging design uses minimal plastic, just enough to keep the product sealed, in contrast to the excessive wrapping found in most competitors' products.",
+      "options": [
+        {
+          "t": "expensive to produce"
+        },
+        {
+          "t": "recyclable",
+          "correct": true
+        },
+        {
+          "t": "brightly colored"
+        },
+        {
+          "t": "the smallest amount necessary"
+        }
+      ],
+      "words": [
+        "minimal",
+        "excessive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts \"just enough\" plastic with excessive wrapping, showing \"minimal\" means the smallest necessary amount."
+    },
+    {
+      "question": "As used in the passage, \"negligible\" most nearly means",
+      "passage": "Engineers determined that the crack's effect on the bridge's structural strength was negligible, so small that it posed no measurable risk to drivers.",
+      "options": [
+        {
+          "t": "unpredictable"
+        },
+        {
+          "t": "catastrophic",
+          "correct": true
+        },
+        {
+          "t": "too minor to matter"
+        },
+        {
+          "t": "impossible to detect"
+        }
+      ],
+      "words": [
+        "negligible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage explicitly states the effect was \"so small\" it posed no measurable risk, meaning \"negligible.\""
+    },
+    {
+      "question": "As used in the passage, \"considerable\" most nearly means",
+      "passage": "Although the startup began with a single employee, it now commands a considerable share of the market, controlling nearly a third of all sales in its industry.",
+      "options": [
+        {
+          "t": "uncertain"
+        },
+        {
+          "t": "sizable enough to matter"
+        },
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "declining",
+          "correct": true
+        }
+      ],
+      "words": [
+        "considerable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Controlling nearly a third of all sales shows a large, significant share, matching \"considerable.\""
+    },
+    {
+      "question": "Which choice best describes the function of the second sentence in the passage?",
+      "passage": "Some argue the typo in the headline was a serious error. In reality, it was an insignificant slip that no reader even noticed, buried in a single word among thousands.",
+      "options": [
+        {
+          "t": "It introduces a new topic unrelated to the first sentence.",
+          "correct": true
+        },
+        {
+          "t": "It provides statistical evidence to support the first sentence."
+        },
+        {
+          "t": "It undermines the claim in the first sentence by minimizing the error's importance."
+        },
+        {
+          "t": "It restates the claim in the first sentence using different words."
+        }
+      ],
+      "words": [
+        "insignificant"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The second sentence pushes back on the first by calling the error \"insignificant\" and unnoticed, undercutting the claim of seriousness."
+    },
+    {
+      "question": "As used in the passage, \"narrative\" most nearly means",
+      "passage": "The memoir does not follow a strict timeline; instead, its narrative jumps between the author's childhood and her adult reflections, weaving the two into a single account.",
+      "options": [
+        {
+          "t": "the story or account being told",
+          "correct": true
+        },
+        {
+          "t": "a legal contract"
+        },
+        {
+          "t": "a musical composition"
+        },
+        {
+          "t": "a factual statistic"
+        }
+      ],
+      "words": [
+        "narrative"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes how the memoir's story, or narrative, weaves together different time periods."
+    },
+    {
+      "question": "As used in the passage, \"discourse\" most nearly means",
+      "passage": "Public discourse about artificial intelligence has grown increasingly heated, with debates spilling from academic journals into everyday conversation and social media.",
+      "options": [
+        {
+          "t": "formal punishment"
+        },
+        {
+          "t": "financial investment"
+        },
+        {
+          "t": "silence",
+          "correct": true
+        },
+        {
+          "t": "public conversation and debate"
+        }
+      ],
+      "words": [
+        "discourse"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes debates spreading into everyday conversation, matching \"discourse\" as public conversation and debate."
+    },
+    {
+      "question": "As used in the passage, \"diction\" most nearly means",
+      "passage": "The politician's casual diction, full of slang and short sentences, helped her connect with young voters who found more formal speakers distant and cold.",
+      "options": [
+        {
+          "t": "physical appearance"
+        },
+        {
+          "t": "word choice and style of speech",
+          "correct": true
+        },
+        {
+          "t": "voting record"
+        },
+        {
+          "t": "campaign budget"
+        }
+      ],
+      "words": [
+        "diction"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes her word choice, slang, and sentence style, all elements of \"diction.\""
+    },
+    {
+      "question": "Which choice best distinguishes \"tone\" from \"mood\" as used in literary analysis?",
+      "passage": "Critics note that the author's tone toward her characters is often mocking, even as the story's mood remains gently nostalgic, wrapping the reader in warm memories despite the narrator's sarcasm.",
+      "options": [
+        {
+          "t": "Tone refers to the setting; mood refers to the plot.",
+          "correct": true
+        },
+        {
+          "t": "Tone is the author's attitude; mood is the emotional atmosphere felt by the reader."
+        },
+        {
+          "t": "Tone refers to word count; mood refers to sentence length."
+        },
+        {
+          "t": "Tone and mood are identical in every context."
+        }
+      ],
+      "words": [
+        "tone",
+        "mood"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage separates the narrator's mocking attitude (tone) from the story's nostalgic emotional atmosphere (mood)."
+    },
+    {
+      "question": "As used in the passage, \"theme\" most nearly means",
+      "passage": "Though set in different centuries, all three novels share a common theme: the tension between individual freedom and social duty that each protagonist must confront.",
+      "options": [
+        {
+          "t": "a printing error",
+          "correct": true
+        },
+        {
+          "t": "a minor character"
+        },
+        {
+          "t": "a central idea explored across the works"
+        },
+        {
+          "t": "a publishing deadline"
+        }
+      ],
+      "words": [
+        "theme"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage identifies a central idea, the tension between freedom and duty, that runs through all three novels, matching \"theme.\""
+    },
+    {
+      "question": "As used in the passage, \"motif\" most nearly means",
+      "passage": "Mirrors appear again and again in the film, a visual motif that reminds viewers of the protagonist's obsession with self-image every time the camera lingers on a reflection.",
+      "options": [
+        {
+          "t": "a casting decision"
+        },
+        {
+          "t": "a recurring image with symbolic weight"
+        },
+        {
+          "t": "a one-time plot twist",
+          "correct": true
+        },
+        {
+          "t": "a piece of background music"
+        }
+      ],
+      "words": [
+        "motif"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Mirrors appearing \"again and again\" as a symbolic device is the definition of a recurring \"motif.\""
+    },
+    {
+      "question": "As used in the passage, \"allegory\" most nearly means",
+      "passage": "Scholars read the fable of the farm animals overthrowing their owner as an allegory for revolutionary politics, with each character standing in for a real historical figure or movement.",
+      "options": [
+        {
+          "t": "a story that represents a deeper political or moral meaning",
+          "correct": true
+        },
+        {
+          "t": "a musical genre"
+        },
+        {
+          "t": "a scientific experiment"
+        },
+        {
+          "t": "a legal document"
+        }
+      ],
+      "words": [
+        "allegory"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Characters standing in for real historical figures is the hallmark of an \"allegory.\""
+    },
+    {
+      "question": "Which choice best illustrates \"irony\" as used in the passage?",
+      "passage": "The fire department's own building lacked working smoke detectors for months, an irony that embarrassed officials once local reporters discovered the oversight.",
+      "options": [
+        {
+          "t": "The building that should model fire safety instead failed at it."
+        },
+        {
+          "t": "The fire department responded quickly to every call.",
+          "correct": true
+        },
+        {
+          "t": "Reporters praised the fire department's efficiency."
+        },
+        {
+          "t": "The smoke detectors were replaced immediately upon installation."
+        }
+      ],
+      "words": [
+        "irony"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The contrast between what is expected of a fire department and its actual failure captures the passage's irony."
+    },
+    {
+      "question": "As used in the passage, \"satire\" most nearly means",
+      "passage": "The cartoon uses satire to mock corporate greed, exaggerating executives into cartoonish villains who cackle while cutting workers' wages to buy a third yacht.",
+      "options": [
+        {
+          "t": "a factual news report",
+          "correct": true
+        },
+        {
+          "t": "a technical manual"
+        },
+        {
+          "t": "a formal apology"
+        },
+        {
+          "t": "exaggerated humor used to criticize a target"
+        }
+      ],
+      "words": [
+        "satire"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Exaggerating executives into villains to mock greed is a clear example of \"satire.\""
+    },
+    {
+      "question": "Which choice best identifies the metaphor in the passage?",
+      "passage": "\"Her mind was a locked vault,\" the biographer wrote, describing how the scientist guarded her unfinished theories from even her closest colleagues.",
+      "options": [
+        {
+          "t": "\"the biographer wrote\"",
+          "correct": true
+        },
+        {
+          "t": "\"Her mind was a locked vault\""
+        },
+        {
+          "t": "\"her closest colleagues\""
+        },
+        {
+          "t": "\"unfinished theories\""
+        }
+      ],
+      "words": [
+        "metaphor"
+      ],
+      "domain": "craft_structure",
+      "explanation": "Calling her mind \"a locked vault\" directly equates two unlike things without using \"like\" or \"as,\" making it a metaphor."
+    },
+    {
+      "question": "As used in the passage, \"simile\" most nearly means",
+      "passage": "The author described the crowd's roar as loud as a passing train, a simile meant to convey the overwhelming noise of the stadium.",
+      "options": [
+        {
+          "t": "a spoken apology"
+        },
+        {
+          "t": "a direct comparison using \"like\" or \"as\"",
+          "correct": true
+        },
+        {
+          "t": "an unrelated tangent"
+        },
+        {
+          "t": "a factual measurement"
+        }
+      ],
+      "words": [
+        "simile"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Comparing the roar to a train using \"as\" is explicitly labeled a simile in the passage."
+    },
+    {
+      "question": "As used in the passage, \"allusion\" most nearly means",
+      "passage": "By describing the CEO's downfall as \"a modern Icarus story,\" the columnist made an allusion that required readers to recall the Greek myth of a boy who flew too close to the sun.",
+      "options": [
+        {
+          "t": "a direct quotation from the CEO"
+        },
+        {
+          "t": "an indirect reference to another well-known story",
+          "correct": true
+        },
+        {
+          "t": "a statistical chart"
+        },
+        {
+          "t": "a legal citation"
+        }
+      ],
+      "words": [
+        "allusion"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Referencing the Icarus myth without fully explaining it is a classic literary allusion."
+    },
+    {
+      "question": "As used in the passage, \"imagery\" most nearly means",
+      "passage": "Through rich imagery—the cracked earth, the metallic taste of dust, the distant hum of cicadas—the author lets readers feel the drought as if they stood in the field themselves.",
+      "options": [
+        {
+          "t": "descriptive language appealing to the senses",
+          "correct": true
+        },
+        {
+          "t": "a historical timeline"
+        },
+        {
+          "t": "a legal argument"
+        },
+        {
+          "t": "a mathematical proof"
+        }
+      ],
+      "words": [
+        "imagery"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Describing sights, tastes, and sounds so vividly that readers feel present is the function of \"imagery.\""
+    },
+    {
+      "question": "Which choice best explains the difference between \"connotation\" and \"denotation\"?",
+      "passage": "The denotation of \"stubborn\" and \"determined\" is nearly identical—both describe someone who refuses to change course—yet their connotation differs sharply, since \"determined\" sounds admirable while \"stubborn\" sounds like a flaw.",
+      "options": [
+        {
+          "t": "Denotation is the literal meaning; connotation is the emotional association a word carries."
+        },
+        {
+          "t": "The two terms mean exactly the same thing."
+        },
+        {
+          "t": "Connotation is the literal dictionary meaning; denotation is the emotional association."
+        },
+        {
+          "t": "Denotation is the emotional feeling a word carries; connotation is its dictionary meaning.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "connotation",
+        "denotation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage shows the words share a literal meaning (denotation) but differ in emotional coloring (connotation)."
+    },
+    {
+      "question": "As used in the passage, \"genre\" most nearly means",
+      "passage": "Bookstores often struggle to shelve her novels, since they blend mystery and science fiction so thoroughly that no single genre fully captures what she writes.",
+      "options": [
+        {
+          "t": "a category defined by style or subject"
+        },
+        {
+          "t": "a book's price"
+        },
+        {
+          "t": "a printing format",
+          "correct": true
+        },
+        {
+          "t": "a translation"
+        }
+      ],
+      "words": [
+        "genre"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage discusses categories like mystery and science fiction, which are literary genres."
+    },
+    {
+      "question": "As used in the passage, \"audience\" most nearly means",
+      "passage": "Knowing her audience was mostly beginners, the instructor avoided technical jargon and explained each concept with simple, everyday examples.",
+      "options": [
+        {
+          "t": "a government agency"
+        },
+        {
+          "t": "a musical instrument"
+        },
+        {
+          "t": "the people receiving or experiencing a work",
+          "correct": true
+        },
+        {
+          "t": "a written contract"
+        }
+      ],
+      "words": [
+        "audience"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The instructor adjusts her teaching for the people listening to her, her \"audience.\""
+    },
+    {
+      "question": "Which choice best states the thesis of the passage?",
+      "passage": "This essay contends that standardized testing, despite its flaws, remains the fairest tool available for comparing student achievement across vastly different schools and districts. Critics who call for its abolition rarely propose a workable alternative.",
+      "options": [
+        {
+          "t": "Critics of standardized testing have proposed excellent alternatives."
+        },
+        {
+          "t": "Standardized testing, though imperfect, is currently the fairest comparison tool available."
+        },
+        {
+          "t": "Standardized testing should be abolished immediately.",
+          "correct": true
+        },
+        {
+          "t": "All schools should adopt identical curricula."
+        }
+      ],
+      "words": [
+        "thesis"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage's central claim, or thesis, is that testing remains the fairest available tool despite its flaws."
+    },
+    {
+      "question": "As used in the passage, \"premise\" most nearly means",
+      "passage": "The entire argument rests on the premise that all voters have equal access to reliable information, an assumption that recent studies increasingly call into question.",
+      "options": [
+        {
+          "t": "a final conclusion"
+        },
+        {
+          "t": "a proven scientific law",
+          "correct": true
+        },
+        {
+          "t": "an assumed starting point for an argument"
+        },
+        {
+          "t": "a legal penalty"
+        }
+      ],
+      "words": [
+        "premise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes an assumption the argument is built on, which is the meaning of \"premise.\""
+    },
+    {
+      "question": "Which choice best describes the function of \"counterargument\" and \"rebuttal\" in an argumentative essay?",
+      "passage": "A strong argumentative essay does not ignore opposition. It presents a counterargument fairly, then offers a rebuttal that directly addresses the opposition's strongest point rather than a weaker, easier target.",
+      "options": [
+        {
+          "t": "A counterargument presents the opposing view; a rebuttal responds to and challenges it."
+        },
+        {
+          "t": "A counterargument is a citation; a rebuttal is a bibliography entry."
+        },
+        {
+          "t": "Both terms refer to the same paragraph in an essay."
+        },
+        {
+          "t": "A counterargument summarizes the essay's own thesis; a rebuttal restates it.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "counterargument",
+        "rebuttal"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage defines the counterargument as the opposing view presented fairly, and the rebuttal as the direct response to it."
+    },
+    {
+      "question": "Which choice best supports the claim that the report was carefully documented?",
+      "passage": "The investigative report drew fierce criticism, yet every claim was backed by a citation, and the appendix listed each source in a thorough bibliography spanning twelve pages.",
+      "options": [
+        {
+          "t": "\"yet\""
+        },
+        {
+          "t": "\"drew fierce criticism\"",
+          "correct": true
+        },
+        {
+          "t": "\"every claim was backed by a citation\" and \"a thorough bibliography spanning twelve pages\""
+        },
+        {
+          "t": "\"the investigative report\""
+        }
+      ],
+      "words": [
+        "citation",
+        "bibliography"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The citations and the extensive bibliography are the specific evidence showing the report was carefully documented."
+    },
+    {
+      "question": "As used in the passage, \"paraphrase\" most nearly means",
+      "passage": "Rather than quoting the dense legal text word for word, the reporter chose to paraphrase the ruling in plain language so ordinary readers could understand it.",
+      "options": [
+        {
+          "t": "to translate into a foreign language",
+          "correct": true
+        },
+        {
+          "t": "to restate someone's meaning in different words"
+        },
+        {
+          "t": "to publish without editing"
+        },
+        {
+          "t": "to delete entirely"
+        }
+      ],
+      "words": [
+        "paraphrase"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Restating the ruling in plain language instead of quoting it directly is the definition of \"paraphrase.\""
+    },
+    {
+      "question": "Which choice best distinguishes a \"summary\" from an \"abstract\" as used in academic writing?",
+      "passage": "Students are often confused: a summary can appear anywhere and condense any text, while an abstract specifically precedes a research paper, briefly previewing its methods and findings for potential readers.",
+      "options": [
+        {
+          "t": "A summary is any condensed account; an abstract is specifically the preview at the start of a research paper."
+        },
+        {
+          "t": "A summary is always longer than the original text."
+        },
+        {
+          "t": "The two terms are used interchangeably with no distinction."
+        },
+        {
+          "t": "An abstract is a general term; a summary only applies to research papers.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "summary",
+        "abstract"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage clarifies that a summary is general while an abstract specifically previews a research paper's methods and findings."
+    },
+    {
+      "question": "As used in the passage, \"excerpt\" most nearly means",
+      "passage": "The anthology includes only a short excerpt from the 600-page novel, just enough to give readers a taste of the author's style.",
+      "options": [
+        {
+          "t": "a critical review"
+        },
+        {
+          "t": "a publisher's note"
+        },
+        {
+          "t": "a full translation",
+          "correct": true
+        },
+        {
+          "t": "a short extract from a longer work"
+        }
+      ],
+      "words": [
+        "excerpt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A short piece taken from the 600-page novel to represent it is an \"excerpt.\""
+    },
+    {
+      "question": "As used in the passage, \"passage\" most nearly means",
+      "passage": "Students were asked to read the passage twice before answering, since the dense opening paragraph often needs a second look to fully understand.",
+      "options": [
+        {
+          "t": "a hallway",
+          "correct": true
+        },
+        {
+          "t": "a musical performance"
+        },
+        {
+          "t": "a legal ruling"
+        },
+        {
+          "t": "a short section of text"
+        }
+      ],
+      "words": [
+        "passage"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The context of reading and answering questions shows \"passage\" refers to a section of text."
+    },
+    {
+      "question": "As used in the passage, \"chronological\" most nearly means",
+      "passage": "The biography unfolds in strict chronological order, beginning with the subject's birth and ending, decade by decade, with her death at ninety-one.",
+      "options": [
+        {
+          "t": "arranged randomly"
+        },
+        {
+          "t": "arranged by the order events occurred",
+          "correct": true
+        },
+        {
+          "t": "arranged alphabetically"
+        },
+        {
+          "t": "arranged by importance"
+        }
+      ],
+      "words": [
+        "chronological"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Moving from birth to death decade by decade shows the order follows the timeline of events, which is \"chronological.\""
+    },
+    {
+      "question": "Which choice best describes the relationship between \"linear\" and \"cyclical\" as used in the passage?",
+      "passage": "Western storytelling often favors a linear structure moving steadily from beginning to end, whereas many traditional folktales follow a cyclical structure, returning again and again to the same starting point.",
+      "options": [
+        {
+          "t": "Linear refers to length; cyclical refers to tone."
+        },
+        {
+          "t": "They describe the same narrative structure using different words.",
+          "correct": true
+        },
+        {
+          "t": "Cyclical structures always have more characters than linear ones."
+        },
+        {
+          "t": "Linear describes a straight progression; cyclical describes a repeating, circular pattern."
+        }
+      ],
+      "words": [
+        "linear",
+        "cyclical"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts a straight, steady structure (linear) with one that repeats and returns to its start (cyclical)."
+    },
+    {
+      "question": "As used in the passage, \"periodic\" most nearly means",
+      "passage": "The satellite sends periodic updates every six hours, allowing scientists to track the storm's movement without constant, real-time monitoring.",
+      "options": [
+        {
+          "t": "occurring continuously"
+        },
+        {
+          "t": "occurring unpredictably"
+        },
+        {
+          "t": "occurring at regular intervals",
+          "correct": true
+        },
+        {
+          "t": "occurring only once"
+        }
+      ],
+      "words": [
+        "periodic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sending updates every six hours describes a regular interval, matching \"periodic.\""
+    },
+    {
+      "question": "As used in the passage, \"simultaneous\" most nearly means",
+      "passage": "The two press conferences were simultaneous, forced reporters to choose which one to attend since both began at exactly 3 p.m.",
+      "options": [
+        {
+          "t": "occurring at the same time",
+          "correct": true
+        },
+        {
+          "t": "occurring years apart"
+        },
+        {
+          "t": "canceled"
+        },
+        {
+          "t": "rescheduled"
+        }
+      ],
+      "words": [
+        "simultaneous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Both conferences beginning at exactly 3 p.m. shows they happened at the same time, or \"simultaneously.\""
+    },
+    {
+      "question": "Which choice best supports the claim that the study relied on a small subset of the total group?",
+      "passage": "Rather than surveying the entire population of the city, researchers selected a sample of 1,200 residents, chosen randomly to represent the broader group of over two million people.",
+      "options": [
+        {
+          "t": "\"the entire population of the city\""
+        },
+        {
+          "t": "\"researchers selected a sample of 1,200 residents\"",
+          "correct": true
+        },
+        {
+          "t": "\"chosen randomly\""
+        },
+        {
+          "t": "\"broader group\""
+        }
+      ],
+      "words": [
+        "sample",
+        "population"
+      ],
+      "domain": "info_ideas",
+      "explanation": "Selecting 1,200 residents out of a population of over two million is the direct evidence of a small representative sample."
+    },
+    {
+      "question": "Which choice best distinguishes a \"survey\" from a \"census\"?",
+      "passage": "Unlike a survey, which questions only a sample of people, a census attempts to count and gather data from every single person in a population, no matter how large.",
+      "options": [
+        {
+          "t": "A census only occurs online; a survey occurs in person."
+        },
+        {
+          "t": "A survey questions a sample; a census attempts to count the entire population.",
+          "correct": true
+        },
+        {
+          "t": "A survey is always more accurate than a census."
+        },
+        {
+          "t": "The two terms describe identical research methods."
+        }
+      ],
+      "words": [
+        "survey",
+        "census"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage explicitly contrasts a survey's sample-based approach with a census's attempt to count everyone."
+    },
+    {
+      "question": "As used in the passage, \"questionnaire\" most nearly means",
+      "passage": "Before the therapy session began, each patient filled out a questionnaire asking about sleep habits, stress levels, and family medical history.",
+      "options": [
+        {
+          "t": "a set of written questions used to gather information"
+        },
+        {
+          "t": "a medical diagnosis"
+        },
+        {
+          "t": "a legal contract",
+          "correct": true
+        },
+        {
+          "t": "a prescription"
+        }
+      ],
+      "words": [
+        "questionnaire"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A written set of questions about sleep, stress, and history is a \"questionnaire.\""
+    },
+    {
+      "question": "As used in the passage, \"demographic\" most nearly means",
+      "passage": "Marketing teams study demographic data—age, income, education—to figure out which neighborhoods are most likely to buy their new product.",
+      "options": [
+        {
+          "t": "relating to weather patterns",
+          "correct": true
+        },
+        {
+          "t": "relating to legal disputes"
+        },
+        {
+          "t": "relating to population characteristics"
+        },
+        {
+          "t": "relating to musical taste only"
+        }
+      ],
+      "words": [
+        "demographic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Age, income, and education are population characteristics, which is what \"demographic\" describes."
+    },
+    {
+      "question": "Which choice best supports the idea that the crisis affected multiple areas of life?",
+      "passage": "The drought's consequences were not merely economic, draining farmers' incomes, but also social, straining relationships in tightly connected rural communities, and even political, as leaders clashed over water rights.",
+      "options": [
+        {
+          "t": "\"the drought's consequences\""
+        },
+        {
+          "t": "\"economic, draining farmers' incomes,\" \"social, straining relationships,\" and \"political, as leaders clashed\""
+        },
+        {
+          "t": "\"not merely economic\"",
+          "correct": true
+        },
+        {
+          "t": "\"rural communities\""
+        }
+      ],
+      "words": [
+        "economic",
+        "social",
+        "political"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage lists economic, social, and political effects as distinct evidence that the drought touched multiple areas of life."
+    },
+    {
+      "question": "As used in the passage, \"institution\" most nearly means",
+      "passage": "The hospital, founded over a century ago, has become such a respected institution that generations of the same families have been treated there.",
+      "options": [
+        {
+          "t": "a temporary shelter",
+          "correct": true
+        },
+        {
+          "t": "an established organization serving a lasting purpose"
+        },
+        {
+          "t": "a legal penalty"
+        },
+        {
+          "t": "a private residence"
+        }
+      ],
+      "words": [
+        "institution"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A hospital respected across generations for over a century fits the meaning of a lasting \"institution.\""
+    },
+    {
+      "question": "Which choice best distinguishes \"corporation\" from \"enterprise\" as used in the passage?",
+      "passage": "What began as a scrappy one-person enterprise selling soap at farmers markets eventually grew into a multinational corporation with thousands of employees and shareholders across the globe.",
+      "options": [
+        {
+          "t": "The two terms are entirely unrelated to business."
+        },
+        {
+          "t": "A corporation refers only to nonprofit organizations."
+        },
+        {
+          "t": "An enterprise is always larger than a corporation.",
+          "correct": true
+        },
+        {
+          "t": "An enterprise can describe a small venture, while a corporation implies a large, formally structured company."
+        }
+      ],
+      "words": [
+        "corporation",
+        "enterprise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage traces growth from a small enterprise to a large, formally structured corporation with shareholders."
+    },
+    {
+      "question": "As used in the passage, \"sector\" most nearly means",
+      "passage": "Job growth in the healthcare sector has outpaced nearly every other part of the economy over the past five years.",
+      "options": [
+        {
+          "t": "a distinct area or branch of economic activity",
+          "correct": true
+        },
+        {
+          "t": "a government building"
+        },
+        {
+          "t": "a type of currency"
+        },
+        {
+          "t": "a legal contract"
+        }
+      ],
+      "words": [
+        "sector"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Healthcare is described as a branch of the economy experiencing job growth, matching \"sector.\""
+    },
+    {
+      "question": "Which choice best distinguishes \"regulation\" from \"legislation\"?",
+      "passage": "Congress passed legislation creating the agency, and that agency then wrote detailed regulations specifying exactly how factories must limit pollution under the new law.",
+      "options": [
+        {
+          "t": "Regulation always precedes legislation."
+        },
+        {
+          "t": "Legislation is a law passed by a legislature; regulation is a detailed rule created to implement that law.",
+          "correct": true
+        },
+        {
+          "t": "The two words describe identical government actions."
+        },
+        {
+          "t": "Legislation applies only to factories."
+        }
+      ],
+      "words": [
+        "regulation",
+        "legislation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage shows legislation as the law from Congress, and regulation as the detailed rules the agency later created to enforce it."
+    },
+    {
+      "question": "As used in the passage, \"mandate\" most nearly means",
+      "passage": "The health department issued a mandate requiring all restaurant workers to complete food safety training before returning to work.",
+      "options": [
+        {
+          "t": "a financial reward"
+        },
+        {
+          "t": "an official order requiring action",
+          "correct": true
+        },
+        {
+          "t": "a friendly suggestion"
+        },
+        {
+          "t": "an optional workshop"
+        }
+      ],
+      "words": [
+        "mandate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Requiring workers to complete training before returning is an official order, matching \"mandate.\""
+    },
+    {
+      "question": "As used in the passage, \"directive\" most nearly means",
+      "passage": "Employees received a directive from headquarters instructing them to shut down all remote servers by midnight due to a security breach.",
+      "options": [
+        {
+          "t": "a customer complaint"
+        },
+        {
+          "t": "a product advertisement"
+        },
+        {
+          "t": "an official instruction from an authority",
+          "correct": true
+        },
+        {
+          "t": "a casual rumor"
+        }
+      ],
+      "words": [
+        "directive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Headquarters instructing employees to shut down servers is an official instruction, or \"directive.\""
+    },
+    {
+      "question": "As used in the passage, \"statute\" most nearly means",
+      "passage": "Under a statute passed decades ago, it remains illegal to sell certain fireworks within city limits, even though the law is rarely enforced today.",
+      "options": [
+        {
+          "t": "a scientific hypothesis"
+        },
+        {
+          "t": "a marketing slogan"
+        },
+        {
+          "t": "a personal opinion"
+        },
+        {
+          "t": "a written law passed by a legislative body",
+          "correct": true
+        }
+      ],
+      "words": [
+        "statute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A law passed decades ago that remains illegal to violate describes a \"statute.\""
+    },
+    {
+      "question": "As used in the passage, \"ordinance\" most nearly means",
+      "passage": "The city council approved a local ordinance limiting the height of new buildings downtown to preserve views of the harbor.",
+      "options": [
+        {
+          "t": "a local law enacted by a municipal authority",
+          "correct": true
+        },
+        {
+          "t": "a federal court ruling"
+        },
+        {
+          "t": "an architectural award"
+        },
+        {
+          "t": "a private agreement between two neighbors"
+        }
+      ],
+      "words": [
+        "ordinance"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A rule passed by the city council limiting building height is a local \"ordinance.\""
+    },
+    {
+      "question": "As used in the passage, \"jurisdiction\" most nearly means",
+      "passage": "Because the crime occurred on federal land, local police lacked jurisdiction, and the case was handed over to federal investigators instead.",
+      "options": [
+        {
+          "t": "a type of criminal charge"
+        },
+        {
+          "t": "a prison sentence"
+        },
+        {
+          "t": "the legal authority to act over a matter",
+          "correct": true
+        },
+        {
+          "t": "a witness statement"
+        }
+      ],
+      "words": [
+        "jurisdiction"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Local police being unable to act because the crime occurred on federal land shows they lacked legal authority, or \"jurisdiction.\""
+    },
+    {
+      "question": "As used in the passage, \"authority\" most nearly means",
+      "passage": "As team captain, she had the authority to bench any player who missed practice without a valid excuse.",
+      "options": [
+        {
+          "t": "a physical location"
+        },
+        {
+          "t": "a financial penalty"
+        },
+        {
+          "t": "a scheduled event"
+        },
+        {
+          "t": "the right or power to act",
+          "correct": true
+        }
+      ],
+      "words": [
+        "authority"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Having the power to bench players describes the captain's \"authority.\""
+    },
+    {
+      "question": "As used in the passage, \"governance\" most nearly means",
+      "passage": "Investors grew wary of the company after reports of poor governance surfaced, including a board that rarely questioned the CEO's decisions.",
+      "options": [
+        {
+          "t": "a hiring process"
+        },
+        {
+          "t": "the system by which an organization is managed and overseen",
+          "correct": true
+        },
+        {
+          "t": "a type of stock certificate"
+        },
+        {
+          "t": "a customer service policy"
+        }
+      ],
+      "words": [
+        "governance"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A board failing to oversee the CEO properly is an example of poor \"governance,\" the system of management and oversight."
+    },
+    {
+      "question": "As used in the passage, \"administration\" most nearly means",
+      "passage": "The school's administration announced a new dress code policy that will take effect at the start of next semester.",
+      "options": [
+        {
+          "t": "a graduation ceremony"
+        },
+        {
+          "t": "the group managing an organization",
+          "correct": true
+        },
+        {
+          "t": "a sports team"
+        },
+        {
+          "t": "a group of students"
+        }
+      ],
+      "words": [
+        "administration"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The group announcing school policy is the school's \"administration,\" its managing body."
+    },
+    {
+      "question": "As used in the passage, \"bureaucracy\" most nearly means",
+      "passage": "To get a simple building permit approved, the contractor had to navigate a maze of forms, offices, and signatures—a bureaucracy so slow that the project was delayed by six months.",
+      "options": [
+        {
+          "t": "a system of many officials and rigid procedures",
+          "correct": true
+        },
+        {
+          "t": "a single decision-maker"
+        },
+        {
+          "t": "a construction technique"
+        },
+        {
+          "t": "a financial loan"
+        }
+      ],
+      "words": [
+        "bureaucracy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Navigating a maze of forms and offices describes a slow, complex system, matching \"bureaucracy.\""
+    },
+    {
+      "question": "Which choice best distinguishes \"citizen\" from \"resident\" as used in the passage?",
+      "passage": "Not every resident of the town can vote in national elections; only those who hold citizenship qualify, even though many long-term residents have lived there for decades without becoming citizens.",
+      "options": [
+        {
+          "t": "A resident is legally recognized with voting rights; a citizen simply lives in a place.",
+          "correct": true
+        },
+        {
+          "t": "The two terms are used interchangeably in the passage."
+        },
+        {
+          "t": "A citizen holds legal membership and voting rights in a nation; a resident simply lives in a place."
+        },
+        {
+          "t": "Only citizens are allowed to live in a town."
+        }
+      ],
+      "words": [
+        "citizen",
+        "resident"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage distinguishes residents, who simply live there, from citizens, who hold the legal status required to vote."
+    },
+    {
+      "question": "As used in the passage, \"civilian\" most nearly means",
+      "passage": "After leaving the army, he struggled to adjust to civilian life, where no one followed strict daily orders or wore uniforms.",
+      "options": [
+        {
+          "t": "military",
+          "correct": true
+        },
+        {
+          "t": "royal"
+        },
+        {
+          "t": "religious"
+        },
+        {
+          "t": "not connected to the armed forces"
+        }
+      ],
+      "words": [
+        "civilian"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Life without military orders or uniforms describes \"civilian\" life, outside the armed forces."
+    },
+    {
+      "question": "As used in the passage, \"inhabitant\" most nearly means",
+      "passage": "Fewer than two hundred inhabitants remain on the remote island, most of them descendants of the original fishing families who settled there a century ago.",
+      "options": [
+        {
+          "t": "a visitor",
+          "correct": true
+        },
+        {
+          "t": "a person who lives permanently in a place"
+        },
+        {
+          "t": "a tourist guide"
+        },
+        {
+          "t": "a government official"
+        }
+      ],
+      "words": [
+        "inhabitant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "People descended from families who settled and live on the island are its \"inhabitants.\""
+    },
+    {
+      "question": "As used in the passage, \"electorate\" most nearly means",
+      "passage": "Candidates spent millions trying to persuade the electorate before election day, knowing that even a small shift in voter opinion could decide the outcome.",
+      "options": [
+        {
+          "t": "a group of campaign donors"
+        },
+        {
+          "t": "a panel of judges",
+          "correct": true
+        },
+        {
+          "t": "a legislative committee"
+        },
+        {
+          "t": "the body of people eligible to vote"
+        }
+      ],
+      "words": [
+        "electorate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Candidates persuading voters before an election refers to influencing the \"electorate,\" those eligible to vote."
+    },
+    {
+      "question": "Which choice best supports the claim that power is distributed differently across various forms of government?",
+      "passage": "In a democracy, citizens elect representatives; in a monarchy, a king or queen inherits power; and in an oligarchy, a small group of wealthy elites makes the key decisions for everyone else.",
+      "options": [
+        {
+          "t": "\"for everyone else\""
+        },
+        {
+          "t": "\"citizens elect representatives,\" \"a king or queen inherits power,\" and \"a small group of wealthy elites makes the key decisions\"",
+          "correct": true
+        },
+        {
+          "t": "\"a monarchy\""
+        },
+        {
+          "t": "\"In a democracy\""
+        }
+      ],
+      "words": [
+        "democracy",
+        "monarchy",
+        "oligarchy"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The three clauses directly show how power is held differently in a democracy, monarchy, and oligarchy."
+    },
+    {
+      "question": "As used in the passage, \"republic\" most nearly means",
+      "passage": "After centuries of rule by kings, the nation became a republic, with citizens now electing a president and representatives instead of inheriting a throne.",
+      "options": [
+        {
+          "t": "a state governed by elected representatives rather than a monarch",
+          "correct": true
+        },
+        {
+          "t": "a military alliance"
+        },
+        {
+          "t": "a religious order"
+        },
+        {
+          "t": "a private company"
+        }
+      ],
+      "words": [
+        "republic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Citizens electing a president instead of inheriting a throne describes the shift to a \"republic.\""
+    },
+    {
+      "question": "As used in the passage, \"autocracy\" most nearly means",
+      "passage": "Under the autocracy, no elections were held, and every major law was decided solely by the ruler, without input from courts, legislators, or citizens.",
+      "options": [
+        {
+          "t": "a system based on rotating leadership"
+        },
+        {
+          "t": "a system governed by courts alone"
+        },
+        {
+          "t": "a system in which one person holds absolute power",
+          "correct": true
+        },
+        {
+          "t": "a system with multiple elected leaders"
+        }
+      ],
+      "words": [
+        "autocracy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "One ruler deciding every law without input from anyone else describes an \"autocracy.\""
+    },
+    {
+      "question": "As used in the passage, \"totalitarian\" most nearly means",
+      "passage": "The totalitarian government controlled not only the media and the economy but also the smallest details of citizens' daily lives, from what they could read to whom they could marry.",
+      "options": [
+        {
+          "t": "relating to a government elected every four years"
+        },
+        {
+          "t": "relating to a temporary, caretaker government"
+        },
+        {
+          "t": "relating to a government demanding complete control over public and private life"
+        },
+        {
+          "t": "relating to a government with limited, narrow powers",
+          "correct": true
+        }
+      ],
+      "words": [
+        "totalitarian"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Controlling everything from media to whom citizens marry describes total control over public and private life, or \"totalitarian\" rule."
+    },
+    {
+      "question": "Which choice best distinguishes \"liberty\" from \"autonomy\" as used in the passage?",
+      "passage": "The revolution was fought in the name of liberty, the broad freedom of individuals from oppression, while the newly formed territory separately negotiated for autonomy, the specific right to govern its own local affairs.",
+      "options": [
+        {
+          "t": "Liberty applies only to territories, not individuals."
+        },
+        {
+          "t": "Autonomy always refers to national independence, never local self-rule."
+        },
+        {
+          "t": "The two terms mean exactly the same thing in this context."
+        },
+        {
+          "t": "Liberty refers to a general freedom from oppression, while autonomy refers to the specific right to self-govern.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "liberty",
+        "autonomy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage separates liberty as broad individual freedom from autonomy as the specific right to self-governance."
+    },
+    {
+      "question": "As used in the passage, \"freedom\" most nearly means",
+      "passage": "The new constitution guaranteed freedom of the press, allowing journalists to criticize the government without fear of arrest.",
+      "options": [
+        {
+          "t": "a financial subsidy"
+        },
+        {
+          "t": "a printing technique"
+        },
+        {
+          "t": "the power to act or speak without unnecessary restraint",
+          "correct": true
+        },
+        {
+          "t": "a court order"
+        }
+      ],
+      "words": [
+        "freedom"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Journalists being able to criticize the government without fear of arrest illustrates \"freedom\" of the press."
+    },
+    {
+      "question": "Which choice best supports the claim that the essay's structure moves from broad claim to specific evidence?",
+      "passage": "The essay opens with a sweeping thesis about declining civic participation, then narrows to cite a single statistic: voter turnout among young adults fell twelve percent over the last decade.",
+      "options": [
+        {
+          "t": "\"The essay opens\""
+        },
+        {
+          "t": "\"the last decade\""
+        },
+        {
+          "t": "\"civic participation\""
+        },
+        {
+          "t": "\"a sweeping thesis about declining civic participation\" followed by \"a single statistic: voter turnout among young adults fell twelve percent\"",
+          "correct": true
+        }
+      ],
+      "words": [
+        "thesis",
+        "statistic"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage moves from a broad thesis to a specific supporting statistic, showing the structural shift from general to specific."
+    },
+    {
+      "question": "As used in the passage, \"data\" most nearly means",
+      "passage": "Before publishing their conclusions, the team spent two years collecting data on rainfall patterns across the region.",
+      "options": [
+        {
+          "t": "artistic illustrations"
+        },
+        {
+          "t": "opinions expressed in interviews",
+          "correct": true
+        },
+        {
+          "t": "legal contracts"
+        },
+        {
+          "t": "facts and information collected for analysis"
+        }
+      ],
+      "words": [
+        "data"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Information collected over two years on rainfall patterns is described as \"data.\""
+    }
+  ]
+}

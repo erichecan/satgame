@@ -1,0 +1,1737 @@
+{
+  "words": [
+    {
+      "word": "vindictive",
+      "pos": "adjective",
+      "definitionEn": "having or showing a strong desire for revenge",
+      "exampleEn": "The fired employee left a vindictive review, hoping to damage the company's reputation.",
+      "tier": "sat_core",
+      "rank": 501,
+      "synonymGroup": "vengeful-temper"
+    },
+    {
+      "word": "virtuoso",
+      "pos": "noun",
+      "definitionEn": "a person highly skilled in a particular art, especially music",
+      "exampleEn": "The young violinist played with the precision of a virtuoso.",
+      "tier": "sat_core",
+      "rank": 502
+    },
+    {
+      "word": "visceral",
+      "pos": "adjective",
+      "definitionEn": "relating to deep inward feelings rather than reason",
+      "exampleEn": "Her visceral fear of heights made the glass elevator unbearable.",
+      "tier": "sat_core",
+      "rank": 503
+    },
+    {
+      "word": "vitriolic",
+      "pos": "adjective",
+      "definitionEn": "filled with bitter criticism or malice",
+      "exampleEn": "The senator's vitriolic speech attacked his opponent's character rather than his policies.",
+      "tier": "sat_core",
+      "rank": 504,
+      "synonymGroup": "vengeful-temper"
+    },
+    {
+      "word": "vociferous",
+      "pos": "adjective",
+      "definitionEn": "loud and forceful in expressing opinions",
+      "exampleEn": "A vociferous crowd of protesters chanted outside the courthouse.",
+      "tier": "sat_core",
+      "rank": 505
+    },
+    {
+      "word": "volatile",
+      "pos": "adjective",
+      "definitionEn": "likely to change suddenly and unpredictably, especially for the worse",
+      "exampleEn": "The volatile stock market swung wildly after the announcement.",
+      "tier": "sat_core",
+      "rank": 506
+    },
+    {
+      "word": "voracious",
+      "pos": "adjective",
+      "definitionEn": "having a very eager approach to an activity, especially eating",
+      "exampleEn": "A voracious reader, she finished three novels in a single week.",
+      "tier": "sat_core",
+      "rank": 507
+    },
+    {
+      "word": "wanton",
+      "pos": "adjective",
+      "definitionEn": "deliberate and unprovoked, showing no regard for consequences",
+      "exampleEn": "The court condemned the wanton destruction of the ancient monument.",
+      "tier": "sat_core",
+      "rank": 508
+    },
+    {
+      "word": "whimsical",
+      "pos": "adjective",
+      "definitionEn": "playfully quaint or fanciful, especially in an unpredictable way",
+      "exampleEn": "The children's book featured whimsical illustrations of talking animals.",
+      "tier": "sat_core",
+      "rank": 509
+    },
+    {
+      "word": "wistful",
+      "pos": "adjective",
+      "definitionEn": "having a feeling of vague or regretful longing",
+      "exampleEn": "She gave a wistful smile as she recalled her childhood summers.",
+      "tier": "sat_core",
+      "rank": 510
+    },
+    {
+      "word": "zealous",
+      "pos": "adjective",
+      "definitionEn": "showing great energy or enthusiasm for a cause",
+      "exampleEn": "The zealous volunteers spent every weekend rebuilding the shelter.",
+      "tier": "sat_core",
+      "rank": 511,
+      "synonymGroup": "eager-enthusiasm"
+    },
+    {
+      "word": "zenith",
+      "pos": "noun",
+      "definitionEn": "the highest point or peak of something",
+      "exampleEn": "The empire reached its zenith before slowly declining over centuries.",
+      "tier": "sat_core",
+      "rank": 512
+    },
+    {
+      "word": "abhor",
+      "pos": "verb",
+      "definitionEn": "to regard with disgust and hatred",
+      "exampleEn": "Most citizens abhor corruption, even when it seems common.",
+      "tier": "sat_core",
+      "rank": 513
+    },
+    {
+      "word": "abject",
+      "pos": "adjective",
+      "definitionEn": "experienced or present to the maximum degree, usually of something bad",
+      "exampleEn": "The refugees lived in abject poverty after fleeing the war.",
+      "tier": "sat_core",
+      "rank": 514
+    },
+    {
+      "word": "abnegation",
+      "pos": "noun",
+      "definitionEn": "the act of giving up one's own desires or rights",
+      "exampleEn": "The monk's life of abnegation left no room for personal comfort.",
+      "tier": "sat_core",
+      "rank": 515
+    },
+    {
+      "word": "abridgment",
+      "pos": "noun",
+      "definitionEn": "a shortened version of a text keeping the main content",
+      "exampleEn": "Students often read the abridgment instead of the full 800-page novel.",
+      "tier": "sat_core",
+      "rank": 516
+    },
+    {
+      "word": "abrogate",
+      "pos": "verb",
+      "definitionEn": "to formally cancel or end a law, agreement, or right",
+      "exampleEn": "The new government moved to abrogate the unpopular treaty.",
+      "tier": "sat_core",
+      "rank": 517
+    },
+    {
+      "word": "abstruse",
+      "pos": "adjective",
+      "definitionEn": "difficult to understand, obscure",
+      "exampleEn": "The professor's abstruse lecture on quantum theory left most students confused.",
+      "tier": "sat_core",
+      "rank": 518
+    },
+    {
+      "word": "accede",
+      "pos": "verb",
+      "definitionEn": "to agree to a demand or request",
+      "exampleEn": "After hours of negotiation, the union finally acceded to management's terms.",
+      "tier": "sat_core",
+      "rank": 519
+    },
+    {
+      "word": "accentuate",
+      "pos": "verb",
+      "definitionEn": "to make more noticeable or prominent",
+      "exampleEn": "The dim lighting only accentuated the shadows on the old walls.",
+      "tier": "sat_core",
+      "rank": 520,
+      "synonymGroup": "emphasis-boost"
+    },
+    {
+      "word": "acerbic",
+      "pos": "adjective",
+      "definitionEn": "sharp, harsh, and forthright in speech or manner",
+      "exampleEn": "The critic was known for her acerbic reviews of new restaurants.",
+      "tier": "sat_core",
+      "rank": 521,
+      "synonymGroup": "vengeful-temper"
+    },
+    {
+      "word": "acumen",
+      "pos": "noun",
+      "definitionEn": "the ability to make good judgments quickly, especially in a particular field",
+      "exampleEn": "Her business acumen helped the small shop grow into a national chain.",
+      "tier": "sat_core",
+      "rank": 522
+    },
+    {
+      "word": "admonish",
+      "pos": "verb",
+      "definitionEn": "to warn or scold someone firmly",
+      "exampleEn": "The coach admonished the players for skipping practice.",
+      "tier": "sat_core",
+      "rank": 523
+    },
+    {
+      "word": "adverse",
+      "pos": "adjective",
+      "definitionEn": "harmful or unfavorable",
+      "exampleEn": "The drug can cause adverse side effects in a small number of patients.",
+      "tier": "sat_core",
+      "rank": 524
+    },
+    {
+      "word": "advocate",
+      "pos": "verb",
+      "definitionEn": "to publicly recommend or support a cause or policy",
+      "exampleEn": "The doctor continues to advocate for better access to rural health care.",
+      "tier": "sat_core",
+      "rank": 525
+    },
+    {
+      "word": "aggrandize",
+      "pos": "verb",
+      "definitionEn": "to increase the power, status, or reputation of, often excessively",
+      "exampleEn": "The general used the victory to aggrandize his own political image.",
+      "tier": "sat_core",
+      "rank": 526
+    },
+    {
+      "word": "agile",
+      "pos": "adjective",
+      "definitionEn": "able to move quickly and easily",
+      "exampleEn": "The agile gymnast twisted through the air with ease.",
+      "tier": "sat_core",
+      "rank": 527
+    },
+    {
+      "word": "alacritous",
+      "pos": "adjective",
+      "definitionEn": "showing brisk, cheerful readiness",
+      "exampleEn": "She gave an alacritous response to the invitation, eager to help.",
+      "tier": "sat_core",
+      "rank": 528,
+      "synonymGroup": "eager-enthusiasm"
+    },
+    {
+      "word": "alienate",
+      "pos": "verb",
+      "definitionEn": "to cause someone to feel isolated or estranged",
+      "exampleEn": "His constant criticism began to alienate even his closest friends.",
+      "tier": "sat_core",
+      "rank": 529
+    },
+    {
+      "word": "allay",
+      "pos": "verb",
+      "definitionEn": "to reduce the intensity of a fear or concern",
+      "exampleEn": "The mayor's calm statement helped allay public fears about the water supply.",
+      "tier": "sat_core",
+      "rank": 530,
+      "synonymGroup": "ease-relieve"
+    },
+    {
+      "word": "allege",
+      "pos": "verb",
+      "definitionEn": "to claim something is true without proof yet",
+      "exampleEn": "Prosecutors allege that the company falsified its financial records.",
+      "tier": "sat_core",
+      "rank": 531
+    },
+    {
+      "word": "alleviate",
+      "pos": "verb",
+      "definitionEn": "to make suffering or a problem less severe",
+      "exampleEn": "The new medication helped alleviate her chronic back pain.",
+      "tier": "sat_core",
+      "rank": 532,
+      "synonymGroup": "ease-relieve"
+    },
+    {
+      "word": "allure",
+      "pos": "noun",
+      "definitionEn": "the quality of being powerfully attractive",
+      "exampleEn": "The allure of the remote island drew thousands of tourists each year.",
+      "tier": "sat_core",
+      "rank": 533
+    },
+    {
+      "word": "aloof",
+      "pos": "adjective",
+      "definitionEn": "distant or reserved, not friendly or forthcoming",
+      "exampleEn": "The new student seemed aloof, eating lunch alone every day.",
+      "tier": "sat_core",
+      "rank": 534
+    },
+    {
+      "word": "altercation",
+      "pos": "noun",
+      "definitionEn": "a noisy or heated argument",
+      "exampleEn": "An altercation broke out between two drivers after the minor collision.",
+      "tier": "sat_core",
+      "rank": 535
+    },
+    {
+      "word": "ambivalence",
+      "pos": "noun",
+      "definitionEn": "the state of having mixed or contradictory feelings about something",
+      "exampleEn": "She felt ambivalence about the job offer, torn between security and adventure.",
+      "tier": "sat_core",
+      "rank": 536
+    },
+    {
+      "word": "amend",
+      "pos": "verb",
+      "definitionEn": "to make small changes to a text or law to improve it",
+      "exampleEn": "Lawmakers voted to amend the bill before final approval.",
+      "tier": "sat_core",
+      "rank": 537
+    },
+    {
+      "word": "amiability",
+      "pos": "noun",
+      "definitionEn": "friendliness and pleasantness in manner",
+      "exampleEn": "The host's amiability made every guest feel instantly welcome.",
+      "tier": "sat_core",
+      "rank": 538
+    },
+    {
+      "word": "amorous",
+      "pos": "adjective",
+      "definitionEn": "showing or feeling romantic or sexual love",
+      "exampleEn": "The novel's amorous protagonist writes passionate letters to his beloved.",
+      "tier": "sat_core",
+      "rank": 539
+    },
+    {
+      "word": "amplify",
+      "pos": "verb",
+      "definitionEn": "to increase the strength or intensity of something",
+      "exampleEn": "Social media can amplify a small local story into global news.",
+      "tier": "sat_core",
+      "rank": 540,
+      "synonymGroup": "emphasis-boost"
+    },
+    {
+      "word": "anarchic",
+      "pos": "adjective",
+      "definitionEn": "without order or control, lacking authority",
+      "exampleEn": "The blackout plunged the city into an anarchic scramble for supplies.",
+      "tier": "sat_core",
+      "rank": 541
+    },
+    {
+      "word": "anguish",
+      "pos": "noun",
+      "definitionEn": "severe mental or physical pain or suffering",
+      "exampleEn": "The family sat in anguish waiting for news from the hospital.",
+      "tier": "sat_core",
+      "rank": 542
+    },
+    {
+      "word": "animate",
+      "pos": "verb",
+      "definitionEn": "to bring liveliness and energy to something",
+      "exampleEn": "Her enthusiasm seemed to animate the entire meeting.",
+      "tier": "sat_core",
+      "rank": 543
+    },
+    {
+      "word": "annex",
+      "pos": "verb",
+      "definitionEn": "to add territory to a state or region, often by force",
+      "exampleEn": "The empire moved to annex the neighboring province after the war.",
+      "tier": "sat_core",
+      "rank": 544
+    },
+    {
+      "word": "anomaly",
+      "pos": "noun",
+      "definitionEn": "something that deviates from what is standard or expected",
+      "exampleEn": "The scientist noticed an anomaly in the data that contradicted the theory.",
+      "tier": "sat_core",
+      "rank": 545
+    },
+    {
+      "word": "antipathetic",
+      "pos": "adjective",
+      "definitionEn": "having a strong feeling of dislike or opposition",
+      "exampleEn": "The two rival scientists remained antipathetic toward each other for decades.",
+      "tier": "sat_core",
+      "rank": 546,
+      "synonymGroup": "indifference-dislike"
+    },
+    {
+      "word": "apathetic",
+      "pos": "adjective",
+      "definitionEn": "showing little interest, enthusiasm, or concern",
+      "exampleEn": "Many voters seemed apathetic about the local election.",
+      "tier": "sat_core",
+      "rank": 547,
+      "synonymGroup": "indifference-dislike"
+    },
+    {
+      "word": "aplomb",
+      "pos": "noun",
+      "definitionEn": "confident and composed self-assurance",
+      "exampleEn": "She handled the difficult interview questions with remarkable aplomb.",
+      "tier": "sat_core",
+      "rank": 548
+    },
+    {
+      "word": "apocryphal",
+      "pos": "adjective",
+      "definitionEn": "of doubtful authenticity, although widely circulated as true",
+      "exampleEn": "The story about the founder's midnight escape is probably apocryphal.",
+      "tier": "sat_core",
+      "rank": 549
+    },
+    {
+      "word": "apposite",
+      "pos": "adjective",
+      "definitionEn": "appropriate or relevant in a particular situation",
+      "exampleEn": "The lawyer offered an apposite example that clarified the entire case.",
+      "tier": "sat_core",
+      "rank": 550,
+      "synonymGroup": "fitting-relevant"
+    },
+    {
+      "word": "appraise",
+      "pos": "verb",
+      "definitionEn": "to assess the value or quality of something",
+      "exampleEn": "An expert was called in to appraise the painting before the auction.",
+      "tier": "sat_core",
+      "rank": 551
+    },
+    {
+      "word": "apropos",
+      "pos": "adjective",
+      "definitionEn": "very appropriate to a particular situation",
+      "exampleEn": "Her apropos comment ended the debate with everyone nodding in agreement.",
+      "tier": "sat_core",
+      "rank": 552,
+      "synonymGroup": "fitting-relevant"
+    },
+    {
+      "word": "aptitude",
+      "pos": "noun",
+      "definitionEn": "a natural ability to do something well",
+      "exampleEn": "He showed an early aptitude for mathematics that impressed his teachers.",
+      "tier": "sat_core",
+      "rank": 553
+    },
+    {
+      "word": "arbiter",
+      "pos": "noun",
+      "definitionEn": "a person who settles a dispute or has ultimate authority in a matter",
+      "exampleEn": "The committee acted as the final arbiter in the contract dispute.",
+      "tier": "sat_core",
+      "rank": 554
+    },
+    {
+      "word": "archaic",
+      "pos": "adjective",
+      "definitionEn": "very old or old-fashioned, no longer in common use",
+      "exampleEn": "The document was written in archaic English that few could easily read.",
+      "tier": "sat_core",
+      "rank": 555
+    },
+    {
+      "word": "ardent",
+      "pos": "adjective",
+      "definitionEn": "very enthusiastic or passionate",
+      "exampleEn": "He remained an ardent supporter of the team through every losing season.",
+      "tier": "sat_core",
+      "rank": 556,
+      "synonymGroup": "eager-enthusiasm"
+    },
+    {
+      "word": "arrogant",
+      "pos": "adjective",
+      "definitionEn": "having an exaggerated sense of one's own importance",
+      "exampleEn": "The arrogant executive refused to consider any advice from his team.",
+      "tier": "sat_core",
+      "rank": 557
+    },
+    {
+      "word": "articulation",
+      "pos": "noun",
+      "definitionEn": "the clear and effective expression of ideas or sounds in speech",
+      "exampleEn": "Her articulation of the plan convinced even the skeptical board members.",
+      "tier": "sat_core",
+      "rank": 558
+    },
+    {
+      "word": "ascend",
+      "pos": "verb",
+      "definitionEn": "to rise or climb upward",
+      "exampleEn": "The hikers watched the sun ascend slowly over the ridge.",
+      "tier": "sat_core",
+      "rank": 559
+    },
+    {
+      "word": "ascribe",
+      "pos": "verb",
+      "definitionEn": "to attribute something to a cause or source",
+      "exampleEn": "Historians ascribe the empire's decline to years of economic mismanagement.",
+      "tier": "sat_core",
+      "rank": 560
+    },
+    {
+      "word": "aspersion",
+      "pos": "noun",
+      "definitionEn": "a false or misleading claim meant to damage someone's reputation",
+      "exampleEn": "The politician cast aspersions on his rival's honesty during the debate.",
+      "tier": "sat_core",
+      "rank": 561
+    },
+    {
+      "word": "assail",
+      "pos": "verb",
+      "definitionEn": "to attack someone or something forcefully, physically or verbally",
+      "exampleEn": "Critics assailed the mayor's budget plan as reckless and shortsighted.",
+      "tier": "sat_core",
+      "rank": 562
+    },
+    {
+      "word": "assert",
+      "pos": "verb",
+      "definitionEn": "to state a fact or belief confidently and forcefully",
+      "exampleEn": "The witness continued to assert that she had seen nothing unusual.",
+      "tier": "sat_core",
+      "rank": 563
+    },
+    {
+      "word": "assiduity",
+      "pos": "noun",
+      "definitionEn": "constant, careful attention or diligence in doing something",
+      "exampleEn": "The researcher's assiduity was clear in her meticulously kept lab notes.",
+      "tier": "sat_core",
+      "rank": 564
+    },
+    {
+      "word": "assuage",
+      "pos": "verb",
+      "definitionEn": "to make an unpleasant feeling less intense",
+      "exampleEn": "The captain's steady voice helped assuage the passengers' panic during turbulence.",
+      "tier": "sat_core",
+      "rank": 565,
+      "synonymGroup": "ease-relieve"
+    },
+    {
+      "word": "astute",
+      "pos": "adjective",
+      "definitionEn": "having sharp judgment and quick understanding",
+      "exampleEn": "Her astute observation revealed a flaw no one else had noticed.",
+      "tier": "sat_core",
+      "rank": 566
+    },
+    {
+      "word": "atrophy",
+      "pos": "verb",
+      "definitionEn": "to waste away or weaken from lack of use",
+      "exampleEn": "Muscles can atrophy quickly after weeks of being in a cast.",
+      "tier": "sat_core",
+      "rank": 567
+    },
+    {
+      "word": "attest",
+      "pos": "verb",
+      "definitionEn": "to provide evidence or proof that something is true",
+      "exampleEn": "The old photographs attest to the town's once-thriving industry.",
+      "tier": "sat_core",
+      "rank": 568
+    },
+    {
+      "word": "attribute",
+      "pos": "verb",
+      "definitionEn": "to regard something as being caused by a particular source",
+      "exampleEn": "She attributes her success to years of persistent practice.",
+      "tier": "sat_core",
+      "rank": 569
+    },
+    {
+      "word": "augment",
+      "pos": "verb",
+      "definitionEn": "to make something greater by adding to it",
+      "exampleEn": "The company hired freelancers to augment its small design team.",
+      "tier": "sat_core",
+      "rank": 570,
+      "synonymGroup": "emphasis-boost"
+    },
+    {
+      "word": "auspicious",
+      "pos": "adjective",
+      "definitionEn": "showing signs of future success; favorable",
+      "exampleEn": "The clear skies on opening day seemed like an auspicious start to the festival.",
+      "tier": "sat_core",
+      "rank": 571
+    },
+    {
+      "word": "avaricious",
+      "pos": "adjective",
+      "definitionEn": "having extreme greed for wealth or material gain",
+      "exampleEn": "The avaricious landlord raised rents even as tenants struggled to pay.",
+      "tier": "sat_core",
+      "rank": 572
+    },
+    {
+      "word": "avert",
+      "pos": "verb",
+      "definitionEn": "to prevent an undesirable event from happening",
+      "exampleEn": "Quick action by the crew helped avert a serious accident.",
+      "tier": "sat_core",
+      "rank": 573
+    },
+    {
+      "word": "baleful",
+      "pos": "adjective",
+      "definitionEn": "threatening harm; menacing",
+      "exampleEn": "The old house had a baleful appearance that kept children away at night.",
+      "tier": "sat_core",
+      "rank": 574
+    },
+    {
+      "word": "banish",
+      "pos": "verb",
+      "definitionEn": "to send someone away from a place, especially as punishment",
+      "exampleEn": "The king ordered the traitor to be banished from the kingdom forever.",
+      "tier": "sat_core",
+      "rank": 575
+    },
+    {
+      "word": "barrage",
+      "pos": "noun",
+      "definitionEn": "a large, concentrated outpouring of something, such as questions or attacks",
+      "exampleEn": "The spokesperson faced a barrage of questions after the announcement.",
+      "tier": "sat_core",
+      "rank": 576
+    },
+    {
+      "word": "barren",
+      "pos": "adjective",
+      "definitionEn": "too poor to produce plants or crops; lacking something",
+      "exampleEn": "The explorers crossed miles of barren desert without seeing a single tree.",
+      "tier": "sat_core",
+      "rank": 577
+    },
+    {
+      "word": "beguile",
+      "pos": "verb",
+      "definitionEn": "to charm someone, often in a deceptive way",
+      "exampleEn": "The salesman's smooth manner beguiled even the most cautious customers.",
+      "tier": "sat_core",
+      "rank": 578
+    },
+    {
+      "word": "belabor",
+      "pos": "verb",
+      "definitionEn": "to argue or discuss a point in excessive detail",
+      "exampleEn": "The lawyer belabored a minor detail long after the jury had understood it.",
+      "tier": "sat_core",
+      "rank": 579
+    },
+    {
+      "word": "beleaguer",
+      "pos": "verb",
+      "definitionEn": "to trouble persistently, or to surround with problems",
+      "exampleEn": "The beleaguered company faced lawsuits, debt, and falling sales all at once.",
+      "tier": "sat_core",
+      "rank": 580
+    },
+    {
+      "word": "benign",
+      "pos": "adjective",
+      "definitionEn": "gentle, kindly, or not harmful",
+      "exampleEn": "The tumor turned out to be benign, much to the family's relief.",
+      "tier": "sat_core",
+      "rank": 581
+    },
+    {
+      "word": "beset",
+      "pos": "verb",
+      "definitionEn": "to trouble or harass persistently",
+      "exampleEn": "The expedition was beset by storms and equipment failures.",
+      "tier": "sat_core",
+      "rank": 582
+    },
+    {
+      "word": "bestow",
+      "pos": "verb",
+      "definitionEn": "to give something as an honor or gift",
+      "exampleEn": "The university chose to bestow an honorary degree on the retired scientist.",
+      "tier": "sat_core",
+      "rank": 583
+    },
+    {
+      "word": "bewilder",
+      "pos": "verb",
+      "definitionEn": "to confuse someone greatly",
+      "exampleEn": "The maze of hallways bewildered every new employee for the first week.",
+      "tier": "sat_core",
+      "rank": 584
+    },
+    {
+      "word": "bicker",
+      "pos": "verb",
+      "definitionEn": "to argue about small, unimportant matters",
+      "exampleEn": "The siblings bickered over who would sit in the front seat.",
+      "tier": "sat_core",
+      "rank": 585
+    },
+    {
+      "word": "blasphemy",
+      "pos": "noun",
+      "definitionEn": "irreverent speech or action concerning sacred things",
+      "exampleEn": "In the strict village, questioning the priest's authority was considered blasphemy.",
+      "tier": "sat_core",
+      "rank": 586
+    },
+    {
+      "word": "blithe",
+      "pos": "adjective",
+      "definitionEn": "showing a casual, carefree lack of concern",
+      "exampleEn": "Her blithe attitude toward the looming deadline worried her coworkers.",
+      "tier": "sat_core",
+      "rank": 587
+    },
+    {
+      "word": "bolster",
+      "pos": "verb",
+      "definitionEn": "to support or strengthen something",
+      "exampleEn": "New evidence helped bolster the prosecution's case.",
+      "tier": "sat_core",
+      "rank": 588,
+      "synonymGroup": "emphasis-boost"
+    },
+    {
+      "word": "bombard",
+      "pos": "verb",
+      "definitionEn": "to attack persistently with questions, criticism, or projectiles",
+      "exampleEn": "Reporters bombarded the actor with questions about the scandal.",
+      "tier": "sat_core",
+      "rank": 589
+    },
+    {
+      "word": "bountiful",
+      "pos": "adjective",
+      "definitionEn": "abundant or generously plentiful",
+      "exampleEn": "The farmers celebrated a bountiful harvest after the rainy summer.",
+      "tier": "sat_core",
+      "rank": 590
+    },
+    {
+      "word": "brash",
+      "pos": "adjective",
+      "definitionEn": "self-assured in a bold or overconfident way",
+      "exampleEn": "The brash rookie promised to win the championship in his first season.",
+      "tier": "sat_core",
+      "rank": 591
+    },
+    {
+      "word": "bravado",
+      "pos": "noun",
+      "definitionEn": "a bold manner intended to impress or intimidate",
+      "exampleEn": "Behind his bravado, the young boxer was quietly terrified of losing.",
+      "tier": "sat_core",
+      "rank": 592
+    },
+    {
+      "word": "brusque",
+      "pos": "adjective",
+      "definitionEn": "abrupt or blunt in manner or speech",
+      "exampleEn": "The doctor's brusque reply left the nervous patient with more questions than answers.",
+      "tier": "sat_core",
+      "rank": 593
+    },
+    {
+      "word": "bureaucratic",
+      "pos": "adjective",
+      "definitionEn": "relating to excessive official rules and procedures",
+      "exampleEn": "The bureaucratic process delayed approval of the permit for months.",
+      "tier": "sat_core",
+      "rank": 594
+    },
+    {
+      "word": "cadence",
+      "pos": "noun",
+      "definitionEn": "a rhythmic flow of sound or movement",
+      "exampleEn": "The speaker's steady cadence made even complex ideas easy to follow.",
+      "tier": "sat_core",
+      "rank": 595
+    },
+    {
+      "word": "calamity",
+      "pos": "noun",
+      "definitionEn": "an event causing great and often sudden damage or distress",
+      "exampleEn": "The flood was the worst calamity the town had faced in a century.",
+      "tier": "sat_core",
+      "rank": 596
+    },
+    {
+      "word": "calculating",
+      "pos": "adjective",
+      "definitionEn": "cleverly and often selfishly planning to gain an advantage",
+      "exampleEn": "The calculating investor waited patiently for the smaller firms to fail.",
+      "tier": "sat_core",
+      "rank": 597
+    },
+    {
+      "word": "callow",
+      "pos": "adjective",
+      "definitionEn": "inexperienced and immature",
+      "exampleEn": "The callow intern made several mistakes before learning the job.",
+      "tier": "sat_core",
+      "rank": 598
+    },
+    {
+      "word": "capacious",
+      "pos": "adjective",
+      "definitionEn": "having a large storage or seating capacity; roomy",
+      "exampleEn": "The capacious trunk of the old car held all their camping gear.",
+      "tier": "sat_core",
+      "rank": 599
+    },
+    {
+      "word": "captivate",
+      "pos": "verb",
+      "definitionEn": "to attract and hold the interest of someone",
+      "exampleEn": "The storyteller managed to captivate the entire audience for an hour.",
+      "tier": "sat_core",
+      "rank": 600
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "Ticket holders who had waited outside for hours became vociferous when the concert was abruptly canceled, shouting demands for refunds at the confused staff.",
+      "question": "Which choice best describes the function of 'vociferous' in the passage?",
+      "options": [
+        {
+          "t": "It shows the staff were the ones shouting."
+        },
+        {
+          "t": "It shows the crowd was silently accepting the news."
+        },
+        {
+          "t": "It shows the crowd left the venue calmly."
+        },
+        {
+          "t": "It shows the crowd expressed anger loudly and forcefully.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "vociferous"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The word describes the crowd shouting demands, showing a loud, forceful reaction."
+    },
+    {
+      "passage": "Colleagues found her aloof, rarely joining lunch conversations and answering questions with only a nod, though she was simply shy rather than unkind.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Her reserved manner was mistaken for unfriendliness rather than shyness.",
+          "correct": true
+        },
+        {
+          "t": "The colleagues disliked her intensely."
+        },
+        {
+          "t": "She refused to work with her colleagues."
+        },
+        {
+          "t": "She was recently promoted above her colleagues."
+        }
+      ],
+      "words": [
+        "aloof"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage explains that her distant behavior, though it seemed aloof, was actually shyness rather than unkindness."
+    },
+    {
+      "passage": "Two neighboring shops on Main Street took very different approaches to a slow winter season. The first, run by an avaricious owner, raised prices on staple goods, squeezing extra profit from loyal customers who had nowhere else to shop. The second owner, known for her amiability, instead offered small discounts and free coffee, hoping to keep spirits high until spring. By March, the first shop had alienated much of its customer base, while the second had built a loyalty that outlasted the season.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Greedy pricing drove customers away, while a friendly approach built lasting loyalty.",
+          "correct": true
+        },
+        {
+          "t": "Neither shop survived the winter season."
+        },
+        {
+          "t": "Customers preferred the shop with the lowest prices regardless of treatment."
+        },
+        {
+          "t": "Both shop owners used identical strategies to survive winter."
+        }
+      ],
+      "words": [
+        "avaricious",
+        "amiability",
+        "alienate"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage contrasts a greedy, alienating strategy with a friendly one that built loyalty, supporting this as the main idea."
+    },
+    {
+      "passage": "The negotiation had dragged on for hours, and tempers were fraying. The union's usually vociferous spokesperson had grown unexpectedly quiet, letting silence do what shouting could not.",
+      "question": "Which choice best describes the function of the second sentence in the passage?",
+      "options": [
+        {
+          "t": "It shows the spokesperson abandoning his usual approach for a new tactic.",
+          "correct": true
+        },
+        {
+          "t": "It explains why the union walked out of the room."
+        },
+        {
+          "t": "It proves the negotiation had already failed."
+        },
+        {
+          "t": "It describes the union's official written statement."
+        }
+      ],
+      "words": [
+        "vociferous"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The sentence highlights a shift from the spokesperson's normally loud style to silence, marking a change in tactic."
+    },
+    {
+      "passage": "The report noted a bureaucratic delay in permit approval, but city officials countered that the process, while slow, ensured every application received equal scrutiny.",
+      "question": "Which choice best supports the claim that the city defended its permitting process?",
+      "options": [
+        {
+          "t": "the general mention of a report"
+        },
+        {
+          "t": "no part of the passage supports this claim"
+        },
+        {
+          "t": "\"The report noted a bureaucratic delay in permit approval\""
+        },
+        {
+          "t": "\"city officials countered that the process, while slow, ensured every application received equal scrutiny\"",
+          "correct": true
+        }
+      ],
+      "words": [
+        "bureaucratic"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The quoted clause directly shows officials defending the slow process as fair, supporting the claim."
+    },
+    {
+      "passage": "The debate coach reminded her students not to belabor a single weak point, since dwelling on it too long would bore the judges and dilute their strongest arguments.",
+      "question": "Which choice best describes the function of 'belabor' in the passage?",
+      "options": [
+        {
+          "t": "It shows the coach encouraging students to speak faster."
+        },
+        {
+          "t": "It describes the risk of over-explaining a minor point at the expense of stronger ones.",
+          "correct": true
+        },
+        {
+          "t": "It shows the coach discouraging any mention of weak points."
+        },
+        {
+          "t": "It refers to a scoring rule used by judges."
+        }
+      ],
+      "words": [
+        "belabor"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage uses 'belabor' to warn against dwelling too long on a weak point, which would dilute the argument."
+    },
+    {
+      "passage": "New witness testimony helped bolster the defense's argument, giving jurors a reason to doubt the prosecution's timeline.",
+      "question": "As used in the passage, 'bolster' most nearly means",
+      "options": [
+        {
+          "t": "to conceal"
+        },
+        {
+          "t": "to strengthen",
+          "correct": true
+        },
+        {
+          "t": "to weaken"
+        },
+        {
+          "t": "to summarize"
+        }
+      ],
+      "words": [
+        "bolster"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Giving jurors more reason to doubt the prosecution strengthens, or bolsters, the defense's case."
+    },
+    {
+      "passage": "Editorial writers assailed the new zoning law almost immediately, calling it shortsighted and harmful to small businesses.",
+      "question": "As used in the passage, 'assailed' most nearly means",
+      "options": [
+        {
+          "t": "attacked verbally",
+          "correct": true
+        },
+        {
+          "t": "ignored"
+        },
+        {
+          "t": "praised"
+        },
+        {
+          "t": "proposed"
+        }
+      ],
+      "words": [
+        "assail"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Immediately criticizing the law as shortsighted and harmful is verbally attacking, or assailing, it."
+    },
+    {
+      "passage": "The nurse's gentle explanation helped assuage the child's fear of the injection, and he sat still without crying.",
+      "question": "As used in the passage, 'assuage' most nearly means",
+      "options": [
+        {
+          "t": "to intensify"
+        },
+        {
+          "t": "to ease",
+          "correct": true
+        },
+        {
+          "t": "to create"
+        },
+        {
+          "t": "to publicize"
+        }
+      ],
+      "words": [
+        "assuage"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Helping the child sit still without crying shows the fear was eased, or assuaged."
+    },
+    {
+      "passage": "The new recruits were zealous, arriving an hour early each day and volunteering for every extra assignment the sergeant offered.",
+      "question": "As used in the passage, 'zealous' most nearly means",
+      "options": [
+        {
+          "t": "quietly reluctant"
+        },
+        {
+          "t": "intensely enthusiastic",
+          "correct": true
+        },
+        {
+          "t": "physically exhausted"
+        },
+        {
+          "t": "openly rebellious"
+        }
+      ],
+      "words": [
+        "zealous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Arriving early and volunteering for extra work shows intense enthusiasm."
+    },
+    {
+      "passage": "She felt a deep ambivalence about the promotion: thrilled by the higher salary but dreading the loss of her flexible schedule.",
+      "question": "As used in the passage, 'ambivalence' most nearly means",
+      "options": [
+        {
+          "t": "mixed feelings",
+          "correct": true
+        },
+        {
+          "t": "certainty"
+        },
+        {
+          "t": "indifference"
+        },
+        {
+          "t": "excitement"
+        }
+      ],
+      "words": [
+        "ambivalence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Feeling both thrilled and dreading are contradictory emotions, which is ambivalence."
+    },
+    {
+      "passage": "When asked to help move the furniture, she gave an alacritous 'yes' and was already lifting a box before anyone finished explaining the plan.",
+      "question": "As used in the passage, 'alacritous' most nearly means",
+      "options": [
+        {
+          "t": "confused"
+        },
+        {
+          "t": "resentful"
+        },
+        {
+          "t": "hesitant"
+        },
+        {
+          "t": "briskly eager",
+          "correct": true
+        }
+      ],
+      "words": [
+        "alacritous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Agreeing instantly and starting before instructions finish shows brisk eagerness."
+    },
+    {
+      "passage": "At only nineteen, the pianist performed Rachmaninoff's most demanding concerto from memory, drawing gasps from an audience that had expected a competent student, not a virtuoso.",
+      "question": "As used in the passage, 'virtuoso' most nearly means",
+      "options": [
+        {
+          "t": "a shy amateur"
+        },
+        {
+          "t": "a beginner still learning basics"
+        },
+        {
+          "t": "an exceptionally skilled performer",
+          "correct": true
+        },
+        {
+          "t": "a distracted performer"
+        }
+      ],
+      "words": [
+        "virtuoso"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the audience's low expectations with an astonishing, highly skilled performance, defining 'virtuoso.'"
+    },
+    {
+      "passage": "The clear skies and record ticket sales seemed like an auspicious sign for the festival's opening night.",
+      "question": "As used in the passage, 'auspicious' most nearly means",
+      "options": [
+        {
+          "t": "typical"
+        },
+        {
+          "t": "confusing"
+        },
+        {
+          "t": "favorable",
+          "correct": true
+        },
+        {
+          "t": "threatening"
+        }
+      ],
+      "words": [
+        "auspicious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Clear skies and strong sales are positive signs, making them auspicious."
+    },
+    {
+      "passage": "The new parliament voted to abrogate the decades-old trade agreement, arguing it no longer served the nation's economic interests.",
+      "question": "As used in the passage, 'abrogate' most nearly means",
+      "options": [
+        {
+          "t": "to celebrate"
+        },
+        {
+          "t": "to formally cancel",
+          "correct": true
+        },
+        {
+          "t": "to translate"
+        },
+        {
+          "t": "to quietly extend"
+        }
+      ],
+      "words": [
+        "abrogate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Voting to end an agreement because it no longer serves interests is to formally cancel it."
+    },
+    {
+      "passage": "Despite conflicting evidence, the witness continued to assert that the car had been silver, not blue, as other testimonies claimed.",
+      "question": "As used in the passage, 'assert' most nearly means",
+      "options": [
+        {
+          "t": "to retract"
+        },
+        {
+          "t": "to forget"
+        },
+        {
+          "t": "to state firmly",
+          "correct": true
+        },
+        {
+          "t": "to question"
+        }
+      ],
+      "words": [
+        "assert"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Continuing to insist on a claim despite conflicting evidence is stating it firmly, or asserting it."
+    },
+    {
+      "passage": "The astute analyst noticed a small pattern in the sales data that everyone else had overlooked, predicting the downturn months in advance.",
+      "question": "As used in the passage, 'astute' most nearly means",
+      "options": [
+        {
+          "t": "perceptive",
+          "correct": true
+        },
+        {
+          "t": "loud"
+        },
+        {
+          "t": "careless"
+        },
+        {
+          "t": "unqualified"
+        }
+      ],
+      "words": [
+        "astute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Noticing what everyone else overlooked and predicting a downturn shows sharp perception, or astuteness."
+    },
+    {
+      "passage": "By 200 CE, the empire had reached its zenith, controlling trade routes across three continents; within a century, internal conflict would begin its slow collapse.",
+      "question": "As used in the passage, 'zenith' most nearly means",
+      "options": [
+        {
+          "t": "collapse"
+        },
+        {
+          "t": "peak",
+          "correct": true
+        },
+        {
+          "t": "boundary"
+        },
+        {
+          "t": "origin"
+        }
+      ],
+      "words": [
+        "zenith"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the empire's height of power with its later decline, so 'zenith' means peak."
+    },
+    {
+      "passage": "The contract was written in archaic legal language, full of terms like 'heretofore' and 'witnesseth' that modern readers rarely encounter.",
+      "question": "As used in the passage, 'archaic' most nearly means",
+      "options": [
+        {
+          "t": "translated"
+        },
+        {
+          "t": "simplified"
+        },
+        {
+          "t": "outdated",
+          "correct": true
+        },
+        {
+          "t": "modern"
+        }
+      ],
+      "words": [
+        "archaic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Terms rarely encountered by modern readers, like 'heretofore,' describe archaic, or old-fashioned, language."
+    },
+    {
+      "passage": "For miles, the explorers saw nothing but barren rock and sand, with no sign of water or vegetation.",
+      "question": "As used in the passage, 'barren' most nearly means",
+      "options": [
+        {
+          "t": "unproductive",
+          "correct": true
+        },
+        {
+          "t": "populated"
+        },
+        {
+          "t": "fertile"
+        },
+        {
+          "t": "lush"
+        }
+      ],
+      "words": [
+        "barren"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Land with no water or vegetation is unproductive, or barren."
+    },
+    {
+      "passage": "When the two departments could not agree on the budget, the CFO stepped in as arbiter, reviewing both proposals before making a final, binding decision.",
+      "question": "As used in the passage, 'arbiter' most nearly means",
+      "options": [
+        {
+          "t": "a person who causes conflict"
+        },
+        {
+          "t": "an outside consultant"
+        },
+        {
+          "t": "a person who resolves a dispute",
+          "correct": true
+        },
+        {
+          "t": "a silent observer"
+        }
+      ],
+      "words": [
+        "arbiter"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Making a final, binding decision between two disputing departments is the role of an arbiter."
+    },
+    {
+      "passage": "The manager's brusque reply — 'No, next question' — left the new employee unsure whether he had done something wrong.",
+      "question": "As used in the passage, 'brusque' most nearly means",
+      "options": [
+        {
+          "t": "apologetic"
+        },
+        {
+          "t": "warm and detailed"
+        },
+        {
+          "t": "abrupt and curt",
+          "correct": true
+        },
+        {
+          "t": "cheerful"
+        }
+      ],
+      "words": [
+        "brusque"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A short, dismissive reply leaving the employee confused is a brusque, or curt, response."
+    },
+    {
+      "passage": "Her apropos remark about patience arrived just as the group's frustration was peaking, instantly shifting the mood of the meeting.",
+      "question": "As used in the passage, 'apropos' most nearly means",
+      "options": [
+        {
+          "t": "accidental"
+        },
+        {
+          "t": "poorly timed"
+        },
+        {
+          "t": "rude"
+        },
+        {
+          "t": "well-suited to the moment",
+          "correct": true
+        }
+      ],
+      "words": [
+        "apropos"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A remark that shifts the mood at exactly the right moment is apropos, or fitting."
+    },
+    {
+      "passage": "After the brief war, the victorious nation moved to annex the disputed border region, incorporating it as a new province.",
+      "question": "As used in the passage, 'annex' most nearly means",
+      "options": [
+        {
+          "t": "to incorporate by force",
+          "correct": true
+        },
+        {
+          "t": "to lease temporarily"
+        },
+        {
+          "t": "to negotiate peace with"
+        },
+        {
+          "t": "to abandon"
+        }
+      ],
+      "words": [
+        "annex"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Incorporating the border region as a new province after a war is annexing it."
+    },
+    {
+      "passage": "The faded ledgers and rusted tools in the museum attest to a time when the town depended entirely on its textile mills.",
+      "question": "As used in the passage, 'attest' most nearly means",
+      "options": [
+        {
+          "t": "to sell"
+        },
+        {
+          "t": "to destroy"
+        },
+        {
+          "t": "to serve as evidence",
+          "correct": true
+        },
+        {
+          "t": "to disprove"
+        }
+      ],
+      "words": [
+        "attest"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The ledgers and tools serving as proof of the town's past is what 'attest' means."
+    },
+    {
+      "passage": "New irrigation methods helped alleviate the drought's worst effects, allowing at least some crops to survive the dry season.",
+      "question": "As used in the passage, 'alleviate' most nearly means",
+      "options": [
+        {
+          "t": "to intensify"
+        },
+        {
+          "t": "to lessen",
+          "correct": true
+        },
+        {
+          "t": "to hide"
+        },
+        {
+          "t": "to cause"
+        }
+      ],
+      "words": [
+        "alleviate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Helping crops survive despite drought shows the drought's effects were lessened, or alleviated."
+    },
+    {
+      "passage": "Her articulation of the plan was so clear that even skeptical board members left the meeting fully convinced.",
+      "question": "As used in the passage, 'articulation' most nearly means",
+      "options": [
+        {
+          "t": "written contract"
+        },
+        {
+          "t": "clear expression",
+          "correct": true
+        },
+        {
+          "t": "vague summary"
+        },
+        {
+          "t": "delayed response"
+        }
+      ],
+      "words": [
+        "articulation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Explaining a plan so clearly that skeptics are convinced is a strong articulation, or expression, of ideas."
+    },
+    {
+      "passage": "For his role in the rebellion, the young noble was banished from the kingdom, forbidden ever to return.",
+      "question": "As used in the passage, 'banished' most nearly means",
+      "options": [
+        {
+          "t": "hired"
+        },
+        {
+          "t": "forgiven"
+        },
+        {
+          "t": "promoted"
+        },
+        {
+          "t": "exiled",
+          "correct": true
+        }
+      ],
+      "words": [
+        "banish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being forbidden to ever return to the kingdom describes being exiled, or banished."
+    },
+    {
+      "passage": "Even after the microphone failed mid-speech, the CEO handled the mishap with aplomb, joking with the audience until it was fixed.",
+      "question": "As used in the passage, 'aplomb' most nearly means",
+      "options": [
+        {
+          "t": "resentment"
+        },
+        {
+          "t": "confusion"
+        },
+        {
+          "t": "composed self-assurance",
+          "correct": true
+        },
+        {
+          "t": "panic"
+        }
+      ],
+      "words": [
+        "aplomb"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Joking calmly through a technical failure demonstrates composure, or aplomb."
+    },
+    {
+      "passage": "A minor traffic bump escalated into a loud altercation, with both drivers shouting and gesturing until a police officer arrived to separate them.",
+      "question": "As used in the passage, 'altercation' most nearly means",
+      "options": [
+        {
+          "t": "a quiet conversation"
+        },
+        {
+          "t": "a heated argument",
+          "correct": true
+        },
+        {
+          "t": "a friendly greeting"
+        },
+        {
+          "t": "a formal agreement"
+        }
+      ],
+      "words": [
+        "altercation"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Shouting and gesturing between drivers describes a heated argument, or altercation."
+    },
+    {
+      "passage": "From the opening scene, the film managed to captivate the audience, who sat in complete silence until the credits rolled.",
+      "question": "As used in the passage, 'captivate' most nearly means",
+      "options": [
+        {
+          "t": "to offend"
+        },
+        {
+          "t": "to confuse"
+        },
+        {
+          "t": "to bore"
+        },
+        {
+          "t": "to fascinate completely",
+          "correct": true
+        }
+      ],
+      "words": [
+        "captivate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An audience sitting in complete silence until the end shows they were fascinated, or captivated."
+    },
+    {
+      "passage": "To meet the surge in orders, the bakery hired two more staff members to augment its usual weekend crew.",
+      "question": "As used in the passage, 'augment' most nearly means",
+      "options": [
+        {
+          "t": "to delay"
+        },
+        {
+          "t": "to replace"
+        },
+        {
+          "t": "to reduce"
+        },
+        {
+          "t": "to increase",
+          "correct": true
+        }
+      ],
+      "words": [
+        "augment"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Hiring more staff to handle the surge is increasing, or augmenting, the crew."
+    },
+    {
+      "passage": "The poet's steady cadence, with its repeating rhythm, made the long verse easy to recite from memory.",
+      "question": "As used in the passage, 'cadence' most nearly means",
+      "options": [
+        {
+          "t": "rhythmic pattern",
+          "correct": true
+        },
+        {
+          "t": "written meaning"
+        },
+        {
+          "t": "historical context"
+        },
+        {
+          "t": "visual image"
+        }
+      ],
+      "words": [
+        "cadence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A repeating rhythm that aids memorization describes the poem's cadence."
+    },
+    {
+      "passage": "Looking through the old photographs, she felt wistful, missing the noisy family dinners of her childhood even though she was happy with her life now.",
+      "question": "As used in the passage, 'wistful' most nearly means",
+      "options": [
+        {
+          "t": "angrily resentful"
+        },
+        {
+          "t": "gently longing for the past",
+          "correct": true
+        },
+        {
+          "t": "confidently optimistic"
+        },
+        {
+          "t": "completely indifferent"
+        }
+      ],
+      "words": [
+        "wistful"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Missing the past while still being content in the present is the essence of 'wistful.'"
+    },
+    {
+      "passage": "A single viral post can amplify a niche opinion into a nationwide controversy within hours.",
+      "question": "As used in the passage, 'amplify' most nearly means",
+      "options": [
+        {
+          "t": "to disprove"
+        },
+        {
+          "t": "to record"
+        },
+        {
+          "t": "to magnify",
+          "correct": true
+        },
+        {
+          "t": "to silence"
+        }
+      ],
+      "words": [
+        "amplify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Turning a small opinion into a nationwide controversy is magnifying, or amplifying, it."
+    },
+    {
+      "passage": "The lawyer belabored the witness's minor slip of the tongue for nearly ten minutes, long after the jury had clearly understood the point.",
+      "question": "As used in the passage, 'belabored' most nearly means",
+      "options": [
+        {
+          "t": "accurately summarized"
+        },
+        {
+          "t": "quickly dismissed"
+        },
+        {
+          "t": "politely ignored"
+        },
+        {
+          "t": "dwelt on excessively",
+          "correct": true
+        }
+      ],
+      "words": [
+        "belabor"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Continuing to discuss a minor point for ten minutes after it was understood is belaboring it."
+    },
+    {
+      "passage": "In recognition of her decades of service, the university chose to bestow its highest honor upon the retiring librarian.",
+      "question": "As used in the passage, 'bestow' most nearly means",
+      "options": [
+        {
+          "t": "to sell"
+        },
+        {
+          "t": "to grant",
+          "correct": true
+        },
+        {
+          "t": "to withhold"
+        },
+        {
+          "t": "to postpone"
+        }
+      ],
+      "words": [
+        "bestow"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Giving an honor in recognition of service is granting, or bestowing, it."
+    },
+    {
+      "passage": "The professor's apposite example — comparing supply chains to a row of dominoes — made the abstract economic concept suddenly click for the class.",
+      "question": "As used in the passage, 'apposite' most nearly means",
+      "options": [
+        {
+          "t": "fitting and relevant",
+          "correct": true
+        },
+        {
+          "t": "confusing"
+        },
+        {
+          "t": "outdated"
+        },
+        {
+          "t": "overly technical"
+        }
+      ],
+      "words": [
+        "apposite"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An example that makes a concept suddenly clear is well-suited, or apposite."
+    }
+  ]
+}

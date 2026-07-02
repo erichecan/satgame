@@ -1,0 +1,1340 @@
+{
+  "words": [
+    {
+      "word": "delineate",
+      "pos": "verb",
+      "definitionEn": "to describe or mark out something clearly and precisely",
+      "exampleEn": "The contract delineates the exact responsibilities of each partner so there is no confusion later.",
+      "tier": "sat_core",
+      "rank": 801
+    },
+    {
+      "word": "demur",
+      "pos": "verb",
+      "definitionEn": "to raise objections or show reluctance about something",
+      "exampleEn": "When asked to work through the weekend, she demurred, saying she needed time to rest.",
+      "tier": "sat_core",
+      "rank": 802
+    },
+    {
+      "word": "deprecate",
+      "pos": "verb",
+      "definitionEn": "to express disapproval of something, or to phase out something as outdated",
+      "exampleEn": "The engineers decided to deprecate the old software feature since almost no one used it anymore.",
+      "tier": "sat_core",
+      "rank": 803
+    },
+    {
+      "word": "derisive",
+      "pos": "adjective",
+      "definitionEn": "showing scorn or mockery",
+      "exampleEn": "The critic's derisive laugh made it clear he thought the film was ridiculous.",
+      "tier": "sat_core",
+      "rank": 804
+    },
+    {
+      "word": "despoil",
+      "pos": "verb",
+      "definitionEn": "to plunder or destroy the beauty and value of a place",
+      "exampleEn": "The mining company despoiled the once-pristine valley, leaving behind bare rock and polluted streams.",
+      "tier": "sat_core",
+      "rank": 805,
+      "synonymGroup": "tyranny"
+    },
+    {
+      "word": "despotic",
+      "pos": "adjective",
+      "definitionEn": "ruling with absolute and often cruel power",
+      "exampleEn": "The despotic king executed anyone who dared to question his decisions.",
+      "tier": "sat_core",
+      "rank": 806,
+      "synonymGroup": "tyranny"
+    },
+    {
+      "word": "dexterous",
+      "pos": "adjective",
+      "definitionEn": "skillful in using one's hands or mind",
+      "exampleEn": "The surgeon's dexterous fingers made the delicate operation look effortless.",
+      "tier": "sat_core",
+      "rank": 807
+    },
+    {
+      "word": "diatribe",
+      "pos": "noun",
+      "definitionEn": "a long, angry speech or piece of writing criticizing someone or something",
+      "exampleEn": "The senator launched into a diatribe against the new tax policy, speaking for nearly an hour.",
+      "tier": "sat_core",
+      "rank": 808
+    },
+    {
+      "word": "dichotomy",
+      "pos": "noun",
+      "definitionEn": "a division between two things that are sharply different or opposite",
+      "exampleEn": "There is a strange dichotomy between how confident she appears in public and how anxious she feels privately.",
+      "tier": "sat_core",
+      "rank": 809
+    },
+    {
+      "word": "diffidence",
+      "pos": "noun",
+      "definitionEn": "shyness or lack of self-confidence",
+      "exampleEn": "His diffidence kept him from raising his hand even when he knew the answer.",
+      "tier": "sat_core",
+      "rank": 810,
+      "synonymGroup": "hesitation"
+    },
+    {
+      "word": "dilatory",
+      "pos": "adjective",
+      "definitionEn": "tending to delay or waste time",
+      "exampleEn": "The dilatory contractor kept postponing the project until the client finally hired someone else.",
+      "tier": "sat_core",
+      "rank": 811
+    },
+    {
+      "word": "diminution",
+      "pos": "noun",
+      "definitionEn": "a reduction in size, importance, or intensity",
+      "exampleEn": "The report noted a steady diminution of the region's forest cover over the past decade.",
+      "tier": "sat_core",
+      "rank": 812
+    },
+    {
+      "word": "disaffected",
+      "pos": "adjective",
+      "definitionEn": "no longer loyal or satisfied, especially with an authority or system",
+      "exampleEn": "Disaffected voters stayed home on election day, feeling that neither candidate represented their interests.",
+      "tier": "sat_core",
+      "rank": 813,
+      "synonymGroup": "discontent"
+    },
+    {
+      "word": "disavow",
+      "pos": "verb",
+      "definitionEn": "to deny responsibility for or connection with something",
+      "exampleEn": "The company quickly disavowed the offensive advertisement, claiming it had never approved the final version.",
+      "tier": "sat_core",
+      "rank": 814
+    },
+    {
+      "word": "discern",
+      "pos": "verb",
+      "definitionEn": "to perceive or recognize something clearly, especially something not obvious",
+      "exampleEn": "Through the fog, the sailors could barely discern the outline of the lighthouse.",
+      "tier": "sat_core",
+      "rank": 815
+    },
+    {
+      "word": "discomfit",
+      "pos": "verb",
+      "definitionEn": "to make someone feel embarrassed or uneasy",
+      "exampleEn": "The unexpected question about her past discomfited the candidate during the live interview.",
+      "tier": "sat_core",
+      "rank": 816
+    },
+    {
+      "word": "disconsolate",
+      "pos": "adjective",
+      "definitionEn": "extremely unhappy and unable to be comforted",
+      "exampleEn": "The disconsolate child cried for hours after losing his favorite toy at the park.",
+      "tier": "sat_core",
+      "rank": 817
+    },
+    {
+      "word": "discretion",
+      "pos": "noun",
+      "definitionEn": "the freedom to make careful judgments and decisions, or tact in behavior",
+      "exampleEn": "The manager used her discretion to decide which complaints needed immediate attention.",
+      "tier": "sat_core",
+      "rank": 818
+    },
+    {
+      "word": "disgruntled",
+      "pos": "adjective",
+      "definitionEn": "annoyed or dissatisfied",
+      "exampleEn": "Disgruntled customers filled the store's review page with complaints about the slow service.",
+      "tier": "sat_core",
+      "rank": 819,
+      "synonymGroup": "discontent"
+    },
+    {
+      "word": "disheveled",
+      "pos": "adjective",
+      "definitionEn": "untidy, messy, especially in appearance",
+      "exampleEn": "He arrived at the meeting disheveled, his hair uncombed and shirt wrinkled after running to catch the bus.",
+      "tier": "sat_core",
+      "rank": 820
+    },
+    {
+      "word": "disillusion",
+      "pos": "verb",
+      "definitionEn": "to cause someone to realize an unpleasant truth that shatters their belief",
+      "exampleEn": "Learning about the scandal disillusioned many fans who had once admired the politician.",
+      "tier": "sat_core",
+      "rank": 821
+    },
+    {
+      "word": "disinclination",
+      "pos": "noun",
+      "definitionEn": "a reluctance or unwillingness to do something",
+      "exampleEn": "Her disinclination to speak in front of large crowds made public presentations especially stressful.",
+      "tier": "sat_core",
+      "rank": 822,
+      "synonymGroup": "hesitation"
+    },
+    {
+      "word": "disjointed",
+      "pos": "adjective",
+      "definitionEn": "lacking order or coherent connection between parts",
+      "exampleEn": "The essay felt disjointed, jumping from one idea to another without clear transitions.",
+      "tier": "sat_core",
+      "rank": 823
+    },
+    {
+      "word": "dismissive",
+      "pos": "adjective",
+      "definitionEn": "showing that one does not think something is worth serious attention",
+      "exampleEn": "The professor's dismissive tone made the student reluctant to ask any more questions.",
+      "tier": "sat_core",
+      "rank": 824,
+      "synonymGroup": "scorn"
+    },
+    {
+      "word": "disparaging",
+      "pos": "adjective",
+      "definitionEn": "expressing a negative or critical opinion of someone or something",
+      "exampleEn": "The coach avoided making disparaging remarks about his players even after a difficult loss.",
+      "tier": "sat_core",
+      "rank": 825,
+      "synonymGroup": "scorn"
+    },
+    {
+      "word": "dispel",
+      "pos": "verb",
+      "definitionEn": "to make a feeling, belief, or rumor disappear",
+      "exampleEn": "The teacher's clear explanation helped dispel the students' confusion about the assignment.",
+      "tier": "sat_core",
+      "rank": 826
+    },
+    {
+      "word": "disquiet",
+      "pos": "noun",
+      "definitionEn": "a feeling of anxiety or worry",
+      "exampleEn": "A sense of disquiet spread through the office after rumors of layoffs began circulating.",
+      "tier": "sat_core",
+      "rank": 827,
+      "synonymGroup": "unease"
+    },
+    {
+      "word": "disquietude",
+      "pos": "noun",
+      "definitionEn": "a state of uneasiness or restlessness",
+      "exampleEn": "The strange silence in the house filled her with a quiet disquietude she could not explain.",
+      "tier": "sat_core",
+      "rank": 828,
+      "synonymGroup": "unease"
+    },
+    {
+      "word": "dissemble",
+      "pos": "verb",
+      "definitionEn": "to hide one's true feelings or intentions by pretending",
+      "exampleEn": "He dissembled his disappointment and smiled politely when he heard the bad news.",
+      "tier": "sat_core",
+      "rank": 829
+    },
+    {
+      "word": "dissolute",
+      "pos": "adjective",
+      "definitionEn": "lacking moral restraint, especially in pursuing pleasure",
+      "exampleEn": "The novel follows a dissolute young nobleman who wastes his fortune on parties and gambling.",
+      "tier": "sat_core",
+      "rank": 830
+    },
+    {
+      "word": "distrait",
+      "pos": "adjective",
+      "definitionEn": "absent-minded or preoccupied with one's thoughts",
+      "exampleEn": "The distrait professor wandered into the wrong classroom, still thinking about his research problem.",
+      "tier": "sat_core",
+      "rank": 831
+    },
+    {
+      "word": "divest",
+      "pos": "verb",
+      "definitionEn": "to get rid of or sell off something one owns",
+      "exampleEn": "The university decided to divest its holdings in fossil fuel companies after years of student protest.",
+      "tier": "sat_core",
+      "rank": 832
+    },
+    {
+      "word": "doctrinaire",
+      "pos": "adjective",
+      "definitionEn": "rigidly following a theory or set of beliefs without considering practical reality",
+      "exampleEn": "The doctrinaire committee member rejected every compromise, insisting on strict adherence to party principles.",
+      "tier": "sat_core",
+      "rank": 833,
+      "synonymGroup": "rigid"
+    },
+    {
+      "word": "dogmatism",
+      "pos": "noun",
+      "definitionEn": "the tendency to assert opinions as unquestionably true without evidence",
+      "exampleEn": "His dogmatism made it impossible to have a real debate, since he refused to consider any opposing evidence.",
+      "tier": "sat_core",
+      "rank": 834,
+      "synonymGroup": "rigid"
+    },
+    {
+      "word": "dolorous",
+      "pos": "adjective",
+      "definitionEn": "feeling or expressing great sorrow",
+      "exampleEn": "The dolorous melody of the funeral hymn brought many mourners to tears.",
+      "tier": "sat_core",
+      "rank": 835
+    },
+    {
+      "word": "domineering",
+      "pos": "adjective",
+      "definitionEn": "tending to control others in an overbearing way",
+      "exampleEn": "Her domineering boss insisted on approving every small decision, leaving no room for independent judgment.",
+      "tier": "sat_core",
+      "rank": 836
+    },
+    {
+      "word": "dormant",
+      "pos": "adjective",
+      "definitionEn": "temporarily inactive but capable of becoming active later",
+      "exampleEn": "The volcano had been dormant for centuries before it suddenly erupted last year.",
+      "tier": "sat_core",
+      "rank": 837
+    },
+    {
+      "word": "dubiety",
+      "pos": "noun",
+      "definitionEn": "a feeling of doubt or uncertainty",
+      "exampleEn": "The scientist's dubiety about the surprising results led her to repeat the experiment three more times.",
+      "tier": "sat_core",
+      "rank": 838
+    },
+    {
+      "word": "duplicitous",
+      "pos": "adjective",
+      "definitionEn": "deceitful, saying one thing while doing or believing another",
+      "exampleEn": "The duplicitous salesman promised a full refund while secretly planning to keep the money.",
+      "tier": "sat_core",
+      "rank": 839
+    },
+    {
+      "word": "ebullience",
+      "pos": "noun",
+      "definitionEn": "cheerful and lively enthusiasm",
+      "exampleEn": "The new coach's ebullience energized the entire team during the first practice.",
+      "tier": "sat_core",
+      "rank": 840
+    },
+    {
+      "word": "eclipse",
+      "pos": "verb",
+      "definitionEn": "to surpass or overshadow someone or something in importance",
+      "exampleEn": "The young gymnast's stunning performance eclipsed every other competitor's routine that day.",
+      "tier": "sat_core",
+      "rank": 841
+    },
+    {
+      "word": "edacious",
+      "pos": "adjective",
+      "definitionEn": "having a huge appetite; eager to consume",
+      "exampleEn": "The edacious teenager finished an entire pizza before anyone else had taken a second slice.",
+      "tier": "sat_core",
+      "rank": 842
+    },
+    {
+      "word": "effacement",
+      "pos": "noun",
+      "definitionEn": "the act of erasing or making oneself inconspicuous",
+      "exampleEn": "Years of erosion led to the effacement of the inscriptions once carved into the ancient monument.",
+      "tier": "sat_core",
+      "rank": 843
+    },
+    {
+      "word": "efficacious",
+      "pos": "adjective",
+      "definitionEn": "effective at producing the desired result",
+      "exampleEn": "The new vaccine proved highly efficacious, sharply reducing infection rates within months.",
+      "tier": "sat_core",
+      "rank": 844
+    },
+    {
+      "word": "egotism",
+      "pos": "noun",
+      "definitionEn": "excessive focus on oneself and one's own importance",
+      "exampleEn": "His egotism showed whenever he turned every conversation back to his own achievements.",
+      "tier": "sat_core",
+      "rank": 845
+    },
+    {
+      "word": "elegy",
+      "pos": "noun",
+      "definitionEn": "a poem or song expressing sorrow, especially for someone who has died",
+      "exampleEn": "The poet wrote an elegy for her grandmother, filled with memories of their time together.",
+      "tier": "sat_core",
+      "rank": 846,
+      "synonymGroup": "mourning"
+    },
+    {
+      "word": "elicitation",
+      "pos": "noun",
+      "definitionEn": "the act of drawing out a response or information from someone",
+      "exampleEn": "The interviewer's gentle elicitation of details helped the witness recall the events clearly.",
+      "tier": "sat_core",
+      "rank": 847
+    },
+    {
+      "word": "elucidate",
+      "pos": "verb",
+      "definitionEn": "to make something clear by explaining it in detail",
+      "exampleEn": "The professor used a simple diagram to elucidate the complicated chemical reaction.",
+      "tier": "sat_core",
+      "rank": 848
+    },
+    {
+      "word": "emollient",
+      "pos": "adjective",
+      "definitionEn": "softening or soothing, especially to the skin or to tension",
+      "exampleEn": "She used an emollient lotion to soothe her dry, cracked hands after the long winter.",
+      "tier": "sat_core",
+      "rank": 849
+    },
+    {
+      "word": "enclave",
+      "pos": "noun",
+      "definitionEn": "a distinct area or group enclosed within a larger one",
+      "exampleEn": "The neighborhood remained a small immigrant enclave, preserving its own language and traditions for generations.",
+      "tier": "sat_core",
+      "rank": 850
+    },
+    {
+      "word": "encomium",
+      "pos": "noun",
+      "definitionEn": "a formal expression of high praise",
+      "exampleEn": "The retiring teacher received an encomium from the principal, praising thirty years of dedicated service.",
+      "tier": "sat_core",
+      "rank": 851
+    },
+    {
+      "word": "endorse",
+      "pos": "verb",
+      "definitionEn": "to publicly express approval or support for someone or something",
+      "exampleEn": "The famous athlete agreed to endorse the new sports drink in a national ad campaign.",
+      "tier": "sat_core",
+      "rank": 852
+    },
+    {
+      "word": "enervating",
+      "pos": "adjective",
+      "definitionEn": "causing a feeling of weakness or drained energy",
+      "exampleEn": "The enervating heat of the afternoon left the hikers too exhausted to continue.",
+      "tier": "sat_core",
+      "rank": 853
+    },
+    {
+      "word": "enigmatic",
+      "pos": "adjective",
+      "definitionEn": "mysterious and difficult to understand",
+      "exampleEn": "The enigmatic smile on the painting has puzzled viewers for centuries.",
+      "tier": "sat_core",
+      "rank": 854
+    },
+    {
+      "word": "ennui",
+      "pos": "noun",
+      "definitionEn": "a feeling of listlessness and boredom",
+      "exampleEn": "A deep ennui settled over the town during the long, uneventful winter months.",
+      "tier": "sat_core",
+      "rank": 855
+    },
+    {
+      "word": "enthrall",
+      "pos": "verb",
+      "definitionEn": "to captivate someone's attention completely",
+      "exampleEn": "The storyteller enthralled the children, who sat in silence hanging on every word.",
+      "tier": "sat_core",
+      "rank": 856
+    },
+    {
+      "word": "entreat",
+      "pos": "verb",
+      "definitionEn": "to ask someone earnestly or desperately for something",
+      "exampleEn": "She entreated the judge for one more chance to prove her innocence.",
+      "tier": "sat_core",
+      "rank": 857
+    },
+    {
+      "word": "enunciate",
+      "pos": "verb",
+      "definitionEn": "to pronounce words clearly and distinctly",
+      "exampleEn": "The news anchor was trained to enunciate every syllable so viewers could easily understand her.",
+      "tier": "sat_core",
+      "rank": 858
+    },
+    {
+      "word": "ephemera",
+      "pos": "noun",
+      "definitionEn": "things that are used or enjoyed only briefly before being discarded",
+      "exampleEn": "The museum's collection of ephemera included old ticket stubs, flyers, and postcards from the 1920s.",
+      "tier": "sat_core",
+      "rank": 859
+    },
+    {
+      "word": "epicure",
+      "pos": "noun",
+      "definitionEn": "a person with refined taste in food and drink",
+      "exampleEn": "As an epicure, he could identify the exact region a wine came from just by tasting it.",
+      "tier": "sat_core",
+      "rank": 860
+    },
+    {
+      "word": "epigram",
+      "pos": "noun",
+      "definitionEn": "a short, witty saying that expresses an idea cleverly",
+      "exampleEn": "The author was famous for his epigrams, brief lines that captured entire philosophies in a single sentence.",
+      "tier": "sat_core",
+      "rank": 861
+    },
+    {
+      "word": "equanimous",
+      "pos": "adjective",
+      "definitionEn": "showing calmness and composure, especially in difficult situations",
+      "exampleEn": "The pilot remained equanimous even as the storm shook the small plane violently.",
+      "tier": "sat_core",
+      "rank": 862
+    },
+    {
+      "word": "equivocation",
+      "pos": "noun",
+      "definitionEn": "the use of vague or ambiguous language to avoid committing to a clear statement",
+      "exampleEn": "The senator's equivocation on the issue frustrated reporters who wanted a direct yes-or-no answer.",
+      "tier": "sat_core",
+      "rank": 863
+    },
+    {
+      "word": "erudition",
+      "pos": "noun",
+      "definitionEn": "extensive knowledge gained from study and reading",
+      "exampleEn": "The professor's erudition was obvious from the way he casually referenced texts from a dozen different fields.",
+      "tier": "sat_core",
+      "rank": 864
+    },
+    {
+      "word": "eschew",
+      "pos": "verb",
+      "definitionEn": "to deliberately avoid doing or using something",
+      "exampleEn": "The athlete eschewed sugary snacks entirely while training for the championship.",
+      "tier": "sat_core",
+      "rank": 865
+    },
+    {
+      "word": "espousal",
+      "pos": "noun",
+      "definitionEn": "the act of supporting or adopting a cause or belief",
+      "exampleEn": "Her public espousal of renewable energy policies won her many supporters among young voters.",
+      "tier": "sat_core",
+      "rank": 866
+    },
+    {
+      "word": "eulogy",
+      "pos": "noun",
+      "definitionEn": "a speech or piece of writing praising someone, often given after their death",
+      "exampleEn": "His best friend delivered a moving eulogy at the funeral, recalling their decades of friendship.",
+      "tier": "sat_core",
+      "rank": 867,
+      "synonymGroup": "mourning"
+    },
+    {
+      "word": "euphonious",
+      "pos": "adjective",
+      "definitionEn": "pleasant sounding, especially to the ear",
+      "exampleEn": "The poet chose euphonious words that made the verse flow smoothly when read aloud.",
+      "tier": "sat_core",
+      "rank": 868
+    },
+    {
+      "word": "evanescence",
+      "pos": "noun",
+      "definitionEn": "the quality of fading away quickly",
+      "exampleEn": "The evanescence of the morning fog reminded her how quickly beautiful moments can disappear.",
+      "tier": "sat_core",
+      "rank": 869
+    },
+    {
+      "word": "exacting",
+      "pos": "adjective",
+      "definitionEn": "demanding great care, precision, or effort",
+      "exampleEn": "The exacting editor rejected the draft three times before accepting a single comma placement.",
+      "tier": "sat_core",
+      "rank": 870
+    },
+    {
+      "word": "exasperation",
+      "pos": "noun",
+      "definitionEn": "a feeling of intense irritation or frustration",
+      "exampleEn": "With a sigh of exasperation, the teacher repeated the instructions for the fourth time.",
+      "tier": "sat_core",
+      "rank": 871
+    },
+    {
+      "word": "excoriate",
+      "pos": "verb",
+      "definitionEn": "to criticize someone severely and harshly",
+      "exampleEn": "The newspaper editorial excoriated the mayor for ignoring the city's crumbling infrastructure.",
+      "tier": "sat_core",
+      "rank": 872
+    },
+    {
+      "word": "execrable",
+      "pos": "adjective",
+      "definitionEn": "extremely bad or unpleasant",
+      "exampleEn": "The critics called the film execrable, citing its incoherent plot and wooden acting.",
+      "tier": "sat_core",
+      "rank": 873
+    },
+    {
+      "word": "exhort",
+      "pos": "verb",
+      "definitionEn": "to strongly urge or encourage someone to do something",
+      "exampleEn": "The coach exhorted her players to give their full effort in the final minutes of the game.",
+      "tier": "sat_core",
+      "rank": 874
+    },
+    {
+      "word": "exorbitant",
+      "pos": "adjective",
+      "definitionEn": "unreasonably high, especially in price",
+      "exampleEn": "Tourists were shocked by the exorbitant prices charged for bottled water near the famous landmark.",
+      "tier": "sat_core",
+      "rank": 875
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "The city council's new zoning proposal attempts to delineate exactly which neighborhoods can be used for commercial development and which must remain residential. Supporters say the precise boundaries will prevent future disputes between homeowners and business owners.",
+      "question": "As used in the passage, \"delineate\" most nearly means",
+      "options": [
+        {
+          "t": "to eliminate entirely"
+        },
+        {
+          "t": "to describe or mark out clearly",
+          "correct": true
+        },
+        {
+          "t": "to argue against"
+        },
+        {
+          "t": "to postpone indefinitely"
+        }
+      ],
+      "words": [
+        "delineate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes the proposal as marking out exact boundaries between neighborhood types, matching the definition of \"delineate\" as to describe or mark out clearly."
+    },
+    {
+      "passage": "Asked to sign the new contract on the spot, the freelance designer demurred, explaining that she wanted her lawyer to review the terms first. Her caution ultimately saved her from an unfavorable clause buried in the fine print.",
+      "question": "As used in the passage, \"demurred\" most nearly means",
+      "options": [
+        {
+          "t": "objected or showed reluctance",
+          "correct": true
+        },
+        {
+          "t": "signed quickly"
+        },
+        {
+          "t": "laughed loudly"
+        },
+        {
+          "t": "agreed enthusiastically"
+        }
+      ],
+      "words": [
+        "demur"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The designer's hesitation to sign without legal review, and her request for more time, shows she demurred, meaning she objected or showed reluctance."
+    },
+    {
+      "passage": "For decades, unregulated logging companies despoiled the rainforest, clear-cutting vast stretches of ancient trees and leaving the soil eroded and lifeless. Only recently have conservation laws begun to slow the destruction.",
+      "question": "As used in the passage, \"despoiled\" most nearly means",
+      "options": [
+        {
+          "t": "gradually expanded"
+        },
+        {
+          "t": "carefully preserved"
+        },
+        {
+          "t": "plundered and ruined",
+          "correct": true
+        },
+        {
+          "t": "quietly studied"
+        }
+      ],
+      "words": [
+        "despoil"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The description of clear-cutting trees and leaving eroded, lifeless soil shows the logging companies plundered and ruined the rainforest, the meaning of \"despoiled.\""
+    },
+    {
+      "passage": "The despotic emperor tolerated no dissent, executing advisors who dared question his decrees. Historians now view his reign as a warning about the dangers of concentrating power in a single ruler with no checks on authority.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The emperor's advisors frequently disagreed with him in public."
+        },
+        {
+          "t": "The emperor was admired by historians for his strong leadership."
+        },
+        {
+          "t": "Historians disagree about whether the emperor was truly powerful."
+        },
+        {
+          "t": "The emperor's unchecked, tyrannical rule is now seen as a cautionary example of concentrated power.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "despotic"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes a despotic ruler who silenced dissent and is now viewed as a warning against concentrated, unchecked power, which is the main idea."
+    },
+    {
+      "passage": "Despite having only a few tools and no formal training, the young woodworker proved remarkably dexterous, carving intricate patterns into the wood with a steadiness that impressed even veteran craftsmen.",
+      "question": "As used in the passage, \"dexterous\" most nearly means",
+      "options": [
+        {
+          "t": "loud and boastful"
+        },
+        {
+          "t": "skillful with one's hands",
+          "correct": true
+        },
+        {
+          "t": "hesitant and slow"
+        },
+        {
+          "t": "careless and messy"
+        }
+      ],
+      "words": [
+        "dexterous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Carving intricate patterns with impressive steadiness demonstrates skill with one's hands, the meaning of \"dexterous.\""
+    },
+    {
+      "passage": "Rather than offering constructive feedback, the reviewer delivered a diatribe against the entire genre of young adult fiction, dismissing it as shallow without engaging with any specific book's merits.",
+      "question": "As used in the passage, \"diatribe\" most nearly means",
+      "options": [
+        {
+          "t": "a brief compliment"
+        },
+        {
+          "t": "a long, harshly critical speech",
+          "correct": true
+        },
+        {
+          "t": "a quiet apology"
+        },
+        {
+          "t": "a balanced analysis"
+        }
+      ],
+      "words": [
+        "diatribe"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The reviewer's harsh, sweeping dismissal without specific engagement is described as a diatribe, meaning a long, angry critical speech."
+    },
+    {
+      "passage": "There is a curious dichotomy in how the athlete is perceived: fans see a fierce competitor who never backs down, while teammates describe a quiet, generous person who avoids conflict off the field.",
+      "question": "As used in the passage, \"dichotomy\" most nearly means",
+      "options": [
+        {
+          "t": "a sharp division between two contrasting things",
+          "correct": true
+        },
+        {
+          "t": "a gradual improvement over time"
+        },
+        {
+          "t": "a minor detail"
+        },
+        {
+          "t": "a complete agreement"
+        }
+      ],
+      "words": [
+        "dichotomy"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the fierce public image with the quiet private personality, illustrating a dichotomy, or sharp division between two things."
+    },
+    {
+      "passage": "Even after years of public speaking training, the actor still felt a flash of diffidence before every audition, his hands trembling slightly as he waited to be called into the room.",
+      "question": "As used in the passage, \"diffidence\" most nearly means",
+      "options": [
+        {
+          "t": "fierce determination"
+        },
+        {
+          "t": "shyness or lack of confidence",
+          "correct": true
+        },
+        {
+          "t": "complete indifference"
+        },
+        {
+          "t": "overwhelming excitement"
+        }
+      ],
+      "words": [
+        "diffidence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Trembling hands and nervousness before an audition, despite training, reflect diffidence, meaning shyness or lack of confidence."
+    },
+    {
+      "passage": "The dilatory shipping company routinely missed its delivery deadlines, offering vague excuses each time, until frustrated customers finally switched to a competitor known for prompt service.",
+      "question": "As used in the passage, \"dilatory\" most nearly means",
+      "options": [
+        {
+          "t": "highly efficient"
+        },
+        {
+          "t": "extremely expensive"
+        },
+        {
+          "t": "tending to delay",
+          "correct": true
+        },
+        {
+          "t": "well organized"
+        }
+      ],
+      "words": [
+        "dilatory"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Routinely missing deadlines and offering excuses shows the company's tendency to delay, matching \"dilatory.\""
+    },
+    {
+      "passage": "Employees who felt disaffected after the merger began quietly job-hunting, no longer trusting the new management's promises about job security and career growth.",
+      "question": "As used in the passage, \"disaffected\" most nearly means",
+      "options": [
+        {
+          "t": "newly promoted"
+        },
+        {
+          "t": "financially secure"
+        },
+        {
+          "t": "no longer loyal or satisfied",
+          "correct": true
+        },
+        {
+          "t": "publicly celebrated"
+        }
+      ],
+      "words": [
+        "disaffected"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Employees losing trust and quietly job-hunting after the merger shows they became disaffected, meaning no longer loyal or satisfied."
+    },
+    {
+      "passage": "When the scandal broke, the executive quickly disavowed any knowledge of the fraudulent accounting, insisting he had trusted his subordinates to handle the finances honestly.",
+      "question": "As used in the passage, \"disavowed\" most nearly means",
+      "options": [
+        {
+          "t": "denied responsibility for",
+          "correct": true
+        },
+        {
+          "t": "publicly admitted to"
+        },
+        {
+          "t": "carefully investigated"
+        },
+        {
+          "t": "proudly announced"
+        }
+      ],
+      "words": [
+        "disavow"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Insisting he had no knowledge and blaming subordinates shows the executive denied responsibility, the meaning of \"disavowed.\""
+    },
+    {
+      "passage": "From the mountaintop, the guide could discern the faint outline of the village far below, a detail invisible to the tourists who had not yet trained their eyes for such distances.",
+      "question": "As used in the passage, \"discern\" most nearly means",
+      "options": [
+        {
+          "t": "to perceive clearly",
+          "correct": true
+        },
+        {
+          "t": "to completely ignore"
+        },
+        {
+          "t": "to loudly announce"
+        },
+        {
+          "t": "to physically build"
+        }
+      ],
+      "words": [
+        "discern"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The guide being able to see the outline that tourists could not shows the ability to perceive clearly, matching \"discern.\""
+    },
+    {
+      "passage": "The disheveled hiker stumbled into the ranger station, his jacket torn and hair matted with leaves, clearly having spent a rough night lost in the woods.",
+      "question": "Which choice best supports the idea that the hiker had a difficult night outdoors?",
+      "options": [
+        {
+          "t": "He mentioned he had planned to camp overnight."
+        },
+        {
+          "t": "He asked the ranger for directions politely."
+        },
+        {
+          "t": "He walked calmly into the ranger station."
+        },
+        {
+          "t": "His jacket was torn and his hair was matted with leaves.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "disheveled"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The torn jacket and leaf-matted hair are the specific details that support the claim of a rough night outdoors, consistent with being disheveled."
+    },
+    {
+      "passage": "The manager exercised discretion when deciding how to handle the minor policy violation, choosing a quiet conversation over a formal written warning that would have gone into the employee's permanent record.",
+      "question": "As used in the passage, \"discretion\" most nearly means",
+      "options": [
+        {
+          "t": "complete indifference"
+        },
+        {
+          "t": "public announcement"
+        },
+        {
+          "t": "strict, unbending rule-following"
+        },
+        {
+          "t": "careful judgment in decision-making",
+          "correct": true
+        }
+      ],
+      "words": [
+        "discretion"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Choosing a milder response based on the situation reflects careful judgment, the meaning of \"discretion.\""
+    },
+    {
+      "passage": "Disgruntled after being passed over for promotion a third time, the accountant began quietly updating his resume, no longer willing to wait patiently for recognition he felt he deserved.",
+      "question": "As used in the passage, \"Disgruntled\" most nearly means",
+      "options": [
+        {
+          "t": "joyfully surprised"
+        },
+        {
+          "t": "completely indifferent"
+        },
+        {
+          "t": "annoyed and dissatisfied",
+          "correct": true
+        },
+        {
+          "t": "deeply confused"
+        }
+      ],
+      "words": [
+        "disgruntled"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being passed over repeatedly and updating his resume out of frustration shows the accountant is disgruntled, meaning annoyed and dissatisfied."
+    },
+    {
+      "passage": "The scandal disillusioned many young activists who had once viewed the senator as an incorruptible reformer; discovering his secret dealings with lobbyists shattered the image they had built up over years.",
+      "question": "As used in the passage, \"disillusioned\" most nearly means",
+      "options": [
+        {
+          "t": "made more hopeful"
+        },
+        {
+          "t": "physically exhausted"
+        },
+        {
+          "t": "caused to lose a positive belief",
+          "correct": true
+        },
+        {
+          "t": "financially rewarded"
+        }
+      ],
+      "words": [
+        "disillusion"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Discovering the secret dealings shattered the activists' positive image of the senator, meaning they were disillusioned."
+    },
+    {
+      "passage": "Her disinclination to travel by air meant that every family vacation required days of train travel instead, a compromise her children eventually grew to enjoy.",
+      "question": "As used in the passage, \"disinclination\" most nearly means",
+      "options": [
+        {
+          "t": "an unwillingness to do something",
+          "correct": true
+        },
+        {
+          "t": "a strong enthusiasm for something"
+        },
+        {
+          "t": "a financial limitation"
+        },
+        {
+          "t": "a legal requirement"
+        }
+      ],
+      "words": [
+        "disinclination"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Her avoidance of air travel, requiring alternative arrangements, reflects an unwillingness, the meaning of \"disinclination.\""
+    },
+    {
+      "passage": "The rough draft felt disjointed, with paragraphs about the character's childhood suddenly interrupted by unrelated descriptions of the weather, leaving readers unsure how the ideas connected.",
+      "question": "As used in the passage, \"disjointed\" most nearly means",
+      "options": [
+        {
+          "t": "lacking clear connection between parts",
+          "correct": true
+        },
+        {
+          "t": "smoothly organized"
+        },
+        {
+          "t": "grammatically perfect"
+        },
+        {
+          "t": "overly detailed"
+        }
+      ],
+      "words": [
+        "disjointed"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The abrupt, unconnected shifts between topics show the draft lacked clear connection, matching \"disjointed.\""
+    },
+    {
+      "passage": "The professor's dismissive wave of the hand whenever a student raised a counterargument discouraged the class from participating, and soon discussions became one-sided lectures rather than genuine debates.",
+      "question": "Which choice best describes the function of \"dismissive\" in the passage?",
+      "options": [
+        {
+          "t": "It shows the professor's behavior discouraged open classroom debate.",
+          "correct": true
+        },
+        {
+          "t": "It shows the professor rewarded students for disagreeing."
+        },
+        {
+          "t": "It shows the students were uninterested in the material."
+        },
+        {
+          "t": "It shows the professor carefully considered every student argument."
+        }
+      ],
+      "words": [
+        "dismissive"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The word \"dismissive\" characterizes the professor's behavior as the cause of the class becoming one-sided, supporting the claim that it discouraged debate."
+    },
+    {
+      "passage": "Rather than offer specific criticism, the disparaging comment simply called the proposal 'amateurish,' leaving the team with no clear sense of what to actually fix.",
+      "question": "As used in the passage, \"disparaging\" most nearly means",
+      "options": [
+        {
+          "t": "expressing strong approval"
+        },
+        {
+          "t": "remaining completely neutral"
+        },
+        {
+          "t": "offering detailed instructions"
+        },
+        {
+          "t": "expressing a critical, belittling opinion",
+          "correct": true
+        }
+      ],
+      "words": [
+        "disparaging"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Calling the proposal \"amateurish\" without useful detail is a critical, belittling remark, the meaning of \"disparaging.\""
+    },
+    {
+      "passage": "The company's official statement was meant to dispel rumors of an impending shutdown, reassuring employees with detailed financial data showing the business remained profitable.",
+      "question": "As used in the passage, \"dispel\" most nearly means",
+      "options": [
+        {
+          "t": "to publicly celebrate"
+        },
+        {
+          "t": "to postpone indefinitely"
+        },
+        {
+          "t": "to confirm and support"
+        },
+        {
+          "t": "to make disappear or eliminate",
+          "correct": true
+        }
+      ],
+      "words": [
+        "dispel"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Reassuring employees with data to counter rumors shows the statement was meant to eliminate the rumors, the meaning of \"dispel.\""
+    },
+    {
+      "passage": "A sense of disquiet spread through the small coastal town as scientists reported unusual tremors offshore, though officials insisted there was no immediate danger.",
+      "question": "As used in the passage, \"disquiet\" most nearly means",
+      "options": [
+        {
+          "t": "a state of complete calm"
+        },
+        {
+          "t": "a burst of curiosity"
+        },
+        {
+          "t": "a feeling of celebration"
+        },
+        {
+          "t": "a feeling of anxiety or unease",
+          "correct": true
+        }
+      ],
+      "words": [
+        "disquiet"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The spreading concern among townspeople despite official reassurance reflects disquiet, meaning anxiety or unease."
+    },
+    {
+      "passage": "The witness dissembled throughout the trial, giving vague, shifting answers that made it clear to the jury she was hiding something about the night in question.",
+      "question": "As used in the passage, \"dissembled\" most nearly means",
+      "options": [
+        {
+          "t": "remained silent throughout"
+        },
+        {
+          "t": "concealed true feelings or facts through pretense",
+          "correct": true
+        },
+        {
+          "t": "confessed openly to a crime"
+        },
+        {
+          "t": "spoke with complete honesty"
+        }
+      ],
+      "words": [
+        "dissemble"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Giving vague, shifting answers to hide something is the behavior described by \"dissembled,\" meaning to conceal the truth through pretense."
+    },
+    {
+      "passage": "Historians describe the young heir as dissolute, squandering his family's fortune on endless parties and gambling debts rather than managing the estate responsibly.",
+      "question": "As used in the passage, \"dissolute\" most nearly means",
+      "options": [
+        {
+          "t": "lacking moral restraint, especially in seeking pleasure",
+          "correct": true
+        },
+        {
+          "t": "generous and charitable"
+        },
+        {
+          "t": "quiet and reserved"
+        },
+        {
+          "t": "extremely disciplined and frugal"
+        }
+      ],
+      "words": [
+        "dissolute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Squandering a fortune on parties and gambling rather than responsible management shows a lack of moral restraint, the meaning of \"dissolute.\""
+    },
+    {
+      "passage": "During the meeting, she appeared distrait, staring out the window and missing several questions directed at her, her mind clearly elsewhere.",
+      "question": "As used in the passage, \"distrait\" most nearly means",
+      "options": [
+        {
+          "t": "openly hostile"
+        },
+        {
+          "t": "extremely talkative"
+        },
+        {
+          "t": "absent-minded or preoccupied",
+          "correct": true
+        },
+        {
+          "t": "fully attentive and engaged"
+        }
+      ],
+      "words": [
+        "distrait"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Staring out the window and missing questions shows she was absent-minded, matching \"distrait.\""
+    },
+    {
+      "passage": "Facing pressure from environmental groups, the pension fund agreed to divest its shares in coal companies, redirecting billions of dollars toward renewable energy investments instead.",
+      "question": "As used in the passage, \"divest\" most nearly means",
+      "options": [
+        {
+          "t": "to purchase additional shares of"
+        },
+        {
+          "t": "to secretly hide"
+        },
+        {
+          "t": "to sell off or get rid of",
+          "correct": true
+        },
+        {
+          "t": "to publicly praise"
+        }
+      ],
+      "words": [
+        "divest"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Redirecting billions away from coal shares shows the fund sold off its holdings, meaning to divest."
+    },
+    {
+      "passage": "The doctrinaire economist refused to adjust his theories even when real-world data contradicted them, insisting the models were correct and reality would eventually catch up.",
+      "question": "As used in the passage, \"doctrinaire\" most nearly means",
+      "options": [
+        {
+          "t": "focused on empirical testing"
+        },
+        {
+          "t": "uncertain and hesitant"
+        },
+        {
+          "t": "open-minded and flexible"
+        },
+        {
+          "t": "rigidly adhering to theory over practical evidence",
+          "correct": true
+        }
+      ],
+      "words": [
+        "doctrinaire"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to adjust theories despite contradicting data shows rigid adherence to a belief system, the meaning of \"doctrinaire.\""
+    },
+    {
+      "passage": "The panel's dogmatism made genuine scientific debate impossible, as any researcher who questioned the established model was dismissed rather than engaged with seriously.",
+      "question": "As used in the passage, \"dogmatism\" most nearly means",
+      "options": [
+        {
+          "t": "careful, balanced analysis"
+        },
+        {
+          "t": "friendly encouragement of debate"
+        },
+        {
+          "t": "rigid insistence on unquestioned beliefs",
+          "correct": true
+        },
+        {
+          "t": "willingness to consider new evidence"
+        }
+      ],
+      "words": [
+        "dogmatism"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Dismissing questioning researchers instead of engaging with them shows rigid, unquestioning belief, the meaning of \"dogmatism.\""
+    },
+    {
+      "passage": "The volcano, dormant for over three hundred years, showed no signs of activity until seismographs suddenly detected tremors last spring, alarming geologists who had long considered it harmless.",
+      "question": "As used in the passage, \"dormant\" most nearly means",
+      "options": [
+        {
+          "t": "constantly erupting"
+        },
+        {
+          "t": "permanently destroyed"
+        },
+        {
+          "t": "recently formed"
+        },
+        {
+          "t": "temporarily inactive",
+          "correct": true
+        }
+      ],
+      "words": [
+        "dormant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being inactive for three hundred years before suddenly showing tremors matches \"dormant,\" meaning temporarily inactive."
+    },
+    {
+      "passage": "The duplicitous business partner told investors the company was thriving while secretly transferring funds into a personal account, a betrayal that unraveled once auditors examined the books.",
+      "question": "As used in the passage, \"duplicitous\" most nearly means",
+      "options": [
+        {
+          "t": "deceitful, saying one thing while doing another",
+          "correct": true
+        },
+        {
+          "t": "generous and self-sacrificing"
+        },
+        {
+          "t": "cautious and hesitant"
+        },
+        {
+          "t": "completely honest and transparent"
+        }
+      ],
+      "words": [
+        "duplicitous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Claiming the company was thriving while secretly stealing funds is deceitful behavior, the meaning of \"duplicitous.\""
+    }
+  ]
+}

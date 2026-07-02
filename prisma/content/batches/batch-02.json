@@ -1,0 +1,3099 @@
+{
+  "words": [
+    {
+      "word": "efficiency",
+      "pos": "noun",
+      "definitionEn": "the ability to do something well without wasting time, energy, or resources",
+      "exampleEn": "The new factory layout improved efficiency, cutting production time by twenty percent.",
+      "tier": "foundation",
+      "rank": 101,
+      "synonymGroup": "output-ability"
+    },
+    {
+      "word": "productivity",
+      "pos": "noun",
+      "definitionEn": "the rate at which a person or system produces useful output",
+      "exampleEn": "Remote work boosted employee productivity for tasks that required deep focus.",
+      "tier": "foundation",
+      "rank": 102,
+      "synonymGroup": "output-ability"
+    },
+    {
+      "word": "capacity",
+      "pos": "noun",
+      "definitionEn": "the maximum amount that something can hold, produce, or achieve",
+      "exampleEn": "The stadium's seating capacity was increased to accommodate more fans.",
+      "tier": "foundation",
+      "rank": 103,
+      "synonymGroup": "output-ability"
+    },
+    {
+      "word": "capability",
+      "pos": "noun",
+      "definitionEn": "the power or skill needed to do a particular thing",
+      "exampleEn": "The robot's capability to navigate rough terrain made it useful for search and rescue.",
+      "tier": "foundation",
+      "rank": 104,
+      "synonymGroup": "skill-cluster"
+    },
+    {
+      "word": "potential",
+      "pos": "noun/adj",
+      "definitionEn": "a capacity that has not yet been fully developed or used",
+      "exampleEn": "The coach saw great potential in the young athlete's natural speed.",
+      "tier": "foundation",
+      "rank": 105
+    },
+    {
+      "word": "proficiency",
+      "pos": "noun",
+      "definitionEn": "a high degree of skill or competence in a specific area",
+      "exampleEn": "Her proficiency in three languages made her a valuable translator.",
+      "tier": "foundation",
+      "rank": 106,
+      "synonymGroup": "skill-cluster"
+    },
+    {
+      "word": "competence",
+      "pos": "noun",
+      "definitionEn": "the ability to do something successfully or efficiently",
+      "exampleEn": "The new manager quickly proved her competence by solving several long-standing problems.",
+      "tier": "foundation",
+      "rank": 107,
+      "synonymGroup": "skill-cluster"
+    },
+    {
+      "word": "expertise",
+      "pos": "noun",
+      "definitionEn": "expert skill or knowledge in a particular field",
+      "exampleEn": "The company hired a consultant with deep expertise in cybersecurity.",
+      "tier": "foundation",
+      "rank": 108,
+      "synonymGroup": "skill-cluster"
+    },
+    {
+      "word": "mastery",
+      "pos": "noun",
+      "definitionEn": "comprehensive knowledge or skill in a subject or activity",
+      "exampleEn": "Years of practice gave the violinist true mastery of her instrument.",
+      "tier": "foundation",
+      "rank": 109,
+      "synonymGroup": "skill-cluster"
+    },
+    {
+      "word": "skill",
+      "pos": "noun",
+      "definitionEn": "the ability to do something well, usually gained through training or practice",
+      "exampleEn": "Cooking is a skill that improves the more you practice it.",
+      "tier": "foundation",
+      "rank": 110
+    },
+    {
+      "word": "ability",
+      "pos": "noun",
+      "definitionEn": "the possession of the means or qualities needed to do something",
+      "exampleEn": "Her ability to stay calm under pressure made her an excellent surgeon.",
+      "tier": "foundation",
+      "rank": 111
+    },
+    {
+      "word": "establish",
+      "pos": "verb",
+      "definitionEn": "to set up or create something on a firm or permanent basis",
+      "exampleEn": "The founders worked for years to establish the charity's reputation.",
+      "tier": "foundation",
+      "rank": 112
+    },
+    {
+      "word": "maintain",
+      "pos": "verb",
+      "definitionEn": "to keep something in an existing state or continue it without change",
+      "exampleEn": "The team worked hard to maintain their lead through the second half.",
+      "tier": "foundation",
+      "rank": 113,
+      "synonymGroup": "keep-strong"
+    },
+    {
+      "word": "sustain",
+      "pos": "verb",
+      "definitionEn": "to keep something going over time, especially under difficult conditions",
+      "exampleEn": "The farmers found new irrigation methods to sustain crops during the drought.",
+      "tier": "foundation",
+      "rank": 114,
+      "synonymGroup": "keep-strong"
+    },
+    {
+      "word": "enhance",
+      "pos": "verb",
+      "definitionEn": "to improve the quality, value, or attractiveness of something",
+      "exampleEn": "The new lighting was added to enhance the museum's paintings.",
+      "tier": "foundation",
+      "rank": 115,
+      "synonymGroup": "improve-cluster"
+    },
+    {
+      "word": "improve",
+      "pos": "verb",
+      "definitionEn": "to make or become better",
+      "exampleEn": "Daily practice helped her improve her chess strategy quickly.",
+      "tier": "foundation",
+      "rank": 116,
+      "synonymGroup": "improve-cluster"
+    },
+    {
+      "word": "strengthen",
+      "pos": "verb",
+      "definitionEn": "to make something stronger or more secure",
+      "exampleEn": "The engineers added steel beams to strengthen the aging bridge.",
+      "tier": "foundation",
+      "rank": 117,
+      "synonymGroup": "improve-cluster"
+    },
+    {
+      "word": "reinforce",
+      "pos": "verb",
+      "definitionEn": "to strengthen or support something, especially with additional material or evidence",
+      "exampleEn": "The new data reinforced the scientist's original hypothesis.",
+      "tier": "foundation",
+      "rank": 118,
+      "synonymGroup": "improve-cluster"
+    },
+    {
+      "word": "facilitate",
+      "pos": "verb",
+      "definitionEn": "to make an action or process easier",
+      "exampleEn": "The moderator's questions helped facilitate a productive discussion among the panelists.",
+      "tier": "foundation",
+      "rank": 119
+    },
+    {
+      "word": "generate",
+      "pos": "verb",
+      "definitionEn": "to produce or create something",
+      "exampleEn": "Solar panels generate electricity from sunlight.",
+      "tier": "foundation",
+      "rank": 120,
+      "synonymGroup": "make-cluster"
+    },
+    {
+      "word": "produce",
+      "pos": "verb",
+      "definitionEn": "to make or create something through effort or a process",
+      "exampleEn": "The factory can produce thousands of bottles in a single day.",
+      "tier": "foundation",
+      "rank": 121,
+      "synonymGroup": "make-cluster"
+    },
+    {
+      "word": "create",
+      "pos": "verb",
+      "definitionEn": "to bring something new into existence",
+      "exampleEn": "The artist used scraps of metal to create a striking sculpture.",
+      "tier": "foundation",
+      "rank": 122,
+      "synonymGroup": "make-cluster"
+    },
+    {
+      "word": "construct",
+      "pos": "verb",
+      "definitionEn": "to build or put together something using parts or materials",
+      "exampleEn": "Workers used steel and glass to construct the new office tower.",
+      "tier": "foundation",
+      "rank": 123,
+      "synonymGroup": "make-cluster"
+    },
+    {
+      "word": "develop",
+      "pos": "verb",
+      "definitionEn": "to grow or cause to grow and become more advanced",
+      "exampleEn": "The startup spent two years working to develop its first product.",
+      "tier": "foundation",
+      "rank": 124
+    },
+    {
+      "word": "formulate",
+      "pos": "verb",
+      "definitionEn": "to create or devise a plan, method, or idea carefully",
+      "exampleEn": "The committee met for weeks to formulate a new policy on recycling.",
+      "tier": "foundation",
+      "rank": 125
+    },
+    {
+      "word": "implement",
+      "pos": "verb",
+      "definitionEn": "to put a plan or decision into effect",
+      "exampleEn": "The school decided to implement a new grading system next semester.",
+      "tier": "foundation",
+      "rank": 126,
+      "synonymGroup": "do-cluster"
+    },
+    {
+      "word": "execute",
+      "pos": "verb",
+      "definitionEn": "to carry out or put into effect a plan or task",
+      "exampleEn": "The pilot executed a smooth landing despite the strong crosswinds.",
+      "tier": "foundation",
+      "rank": 127,
+      "synonymGroup": "do-cluster"
+    },
+    {
+      "word": "conduct",
+      "pos": "verb",
+      "definitionEn": "to organize and carry out a particular activity",
+      "exampleEn": "Researchers plan to conduct a survey of local water quality.",
+      "tier": "foundation",
+      "rank": 128,
+      "synonymGroup": "do-cluster"
+    },
+    {
+      "word": "perform",
+      "pos": "verb",
+      "definitionEn": "to carry out an action, task, or function",
+      "exampleEn": "The surgical team had to perform the operation under extreme time pressure.",
+      "tier": "foundation",
+      "rank": 129,
+      "synonymGroup": "do-cluster"
+    },
+    {
+      "word": "accomplish",
+      "pos": "verb",
+      "definitionEn": "to succeed in completing something, especially something difficult",
+      "exampleEn": "The small team managed to accomplish the project ahead of schedule.",
+      "tier": "foundation",
+      "rank": 130,
+      "synonymGroup": "achieve-cluster"
+    },
+    {
+      "word": "achieve",
+      "pos": "verb",
+      "definitionEn": "to successfully reach a desired goal or result through effort",
+      "exampleEn": "She trained for years to achieve her dream of competing in the Olympics.",
+      "tier": "foundation",
+      "rank": 131,
+      "synonymGroup": "achieve-cluster"
+    },
+    {
+      "word": "attain",
+      "pos": "verb",
+      "definitionEn": "to succeed in achieving something, often after effort",
+      "exampleEn": "It took the climber a decade to attain his goal of summiting Everest.",
+      "tier": "foundation",
+      "rank": 132,
+      "synonymGroup": "achieve-cluster"
+    },
+    {
+      "word": "obtain",
+      "pos": "verb",
+      "definitionEn": "to get or acquire something, usually through effort",
+      "exampleEn": "Students must obtain permission from a teacher before leaving campus.",
+      "tier": "foundation",
+      "rank": 133,
+      "synonymGroup": "get-cluster"
+    },
+    {
+      "word": "gain",
+      "pos": "verb",
+      "definitionEn": "to obtain or acquire something desired or beneficial",
+      "exampleEn": "The company hoped to gain new customers with its advertising campaign.",
+      "tier": "foundation",
+      "rank": 134,
+      "synonymGroup": "get-cluster"
+    },
+    {
+      "word": "secure",
+      "pos": "verb",
+      "definitionEn": "to obtain something, often with effort or certainty",
+      "exampleEn": "The lawyer worked hard to secure a fair settlement for her client.",
+      "tier": "foundation",
+      "rank": 135,
+      "synonymGroup": "get-cluster"
+    },
+    {
+      "word": "derive",
+      "pos": "verb",
+      "definitionEn": "to obtain something from a particular source",
+      "exampleEn": "Many English words derive from Latin roots.",
+      "tier": "foundation",
+      "rank": 136
+    },
+    {
+      "word": "extract",
+      "pos": "verb",
+      "definitionEn": "to remove or take out something, often with effort",
+      "exampleEn": "Scientists worked carefully to extract DNA samples from the ancient bones.",
+      "tier": "foundation",
+      "rank": 137
+    },
+    {
+      "word": "determine",
+      "pos": "verb",
+      "definitionEn": "to establish something precisely, especially by investigation or reasoning",
+      "exampleEn": "The detective needed more evidence to determine the cause of the fire.",
+      "tier": "foundation",
+      "rank": 138,
+      "synonymGroup": "identify-cluster"
+    },
+    {
+      "word": "identify",
+      "pos": "verb",
+      "definitionEn": "to recognize or establish exactly what or who something is",
+      "exampleEn": "Witnesses helped police identify the driver of the getaway car.",
+      "tier": "foundation",
+      "rank": 139,
+      "synonymGroup": "identify-cluster"
+    },
+    {
+      "word": "recognize",
+      "pos": "verb",
+      "definitionEn": "to identify someone or something from previous knowledge or experience",
+      "exampleEn": "She could recognize her grandmother's handwriting from across the room.",
+      "tier": "foundation",
+      "rank": 140,
+      "synonymGroup": "identify-cluster"
+    },
+    {
+      "word": "distinguish",
+      "pos": "verb",
+      "definitionEn": "to recognize a difference between two or more things",
+      "exampleEn": "A trained sommelier can distinguish subtle differences between similar wines.",
+      "tier": "foundation",
+      "rank": 141,
+      "synonymGroup": "differ-cluster"
+    },
+    {
+      "word": "differentiate",
+      "pos": "verb",
+      "definitionEn": "to recognize or show what makes one thing different from another",
+      "exampleEn": "The report aims to differentiate the company's products from its competitors.",
+      "tier": "foundation",
+      "rank": 142,
+      "synonymGroup": "differ-cluster"
+    },
+    {
+      "word": "classify",
+      "pos": "verb",
+      "definitionEn": "to arrange things into groups based on shared characteristics",
+      "exampleEn": "Biologists classify animals into categories based on their physical traits.",
+      "tier": "foundation",
+      "rank": 143,
+      "synonymGroup": "sort-cluster"
+    },
+    {
+      "word": "categorize",
+      "pos": "verb",
+      "definitionEn": "to place things into particular groups based on similarities",
+      "exampleEn": "The librarian had to categorize hundreds of new books by subject.",
+      "tier": "foundation",
+      "rank": 144,
+      "synonymGroup": "sort-cluster"
+    },
+    {
+      "word": "organize",
+      "pos": "verb",
+      "definitionEn": "to arrange things systematically or into a coherent structure",
+      "exampleEn": "It took the volunteers an entire weekend to organize the donated clothes.",
+      "tier": "foundation",
+      "rank": 145,
+      "synonymGroup": "sort-cluster"
+    },
+    {
+      "word": "arrange",
+      "pos": "verb",
+      "definitionEn": "to put things in a particular order or position",
+      "exampleEn": "She likes to arrange her books alphabetically by author.",
+      "tier": "foundation",
+      "rank": 146,
+      "synonymGroup": "sort-cluster"
+    },
+    {
+      "word": "coordinate",
+      "pos": "verb",
+      "definitionEn": "to organize different elements so they work together effectively",
+      "exampleEn": "The event planner had to coordinate the caterers, musicians, and decorators.",
+      "tier": "foundation",
+      "rank": 147
+    },
+    {
+      "word": "integrate",
+      "pos": "verb",
+      "definitionEn": "to combine parts into a unified, functioning whole",
+      "exampleEn": "The new software was designed to integrate smoothly with existing systems.",
+      "tier": "foundation",
+      "rank": 148,
+      "synonymGroup": "combine-cluster"
+    },
+    {
+      "word": "incorporate",
+      "pos": "verb",
+      "definitionEn": "to include something as part of a larger whole",
+      "exampleEn": "The architect chose to incorporate solar panels into the building's design.",
+      "tier": "foundation",
+      "rank": 149,
+      "synonymGroup": "combine-cluster"
+    },
+    {
+      "word": "combine",
+      "pos": "verb",
+      "definitionEn": "to join or merge two or more things together",
+      "exampleEn": "The recipe asks you to combine flour, sugar, and eggs in one bowl.",
+      "tier": "foundation",
+      "rank": 150,
+      "synonymGroup": "combine-cluster"
+    },
+    {
+      "word": "merge",
+      "pos": "verb",
+      "definitionEn": "to combine or blend two or more things into one",
+      "exampleEn": "The two small companies decided to merge into a single corporation.",
+      "tier": "foundation",
+      "rank": 151,
+      "synonymGroup": "combine-cluster"
+    },
+    {
+      "word": "unify",
+      "pos": "verb",
+      "definitionEn": "to bring separate parts together into a single whole",
+      "exampleEn": "The new leader hoped to unify the divided political parties.",
+      "tier": "foundation",
+      "rank": 152,
+      "synonymGroup": "combine-cluster"
+    },
+    {
+      "word": "compile",
+      "pos": "verb",
+      "definitionEn": "to gather information or items from different sources into one collection",
+      "exampleEn": "The journalist spent months compiling interviews for her final report.",
+      "tier": "foundation",
+      "rank": 153,
+      "synonymGroup": "gather-cluster"
+    },
+    {
+      "word": "assemble",
+      "pos": "verb",
+      "definitionEn": "to gather or fit together parts to form a whole",
+      "exampleEn": "It took an hour to assemble the bookshelf using the included instructions.",
+      "tier": "foundation",
+      "rank": 154,
+      "synonymGroup": "gather-cluster"
+    },
+    {
+      "word": "gather",
+      "pos": "verb",
+      "definitionEn": "to bring together or collect things or people in one place",
+      "exampleEn": "Volunteers gathered supplies for families affected by the storm.",
+      "tier": "foundation",
+      "rank": 155,
+      "synonymGroup": "gather-cluster"
+    },
+    {
+      "word": "collect",
+      "pos": "verb",
+      "definitionEn": "to bring together items from different places, often systematically",
+      "exampleEn": "The researchers collected samples from twelve different lakes.",
+      "tier": "foundation",
+      "rank": 156,
+      "synonymGroup": "gather-cluster"
+    },
+    {
+      "word": "accumulate",
+      "pos": "verb",
+      "definitionEn": "to gradually gather or build up over time",
+      "exampleEn": "Dust had begun to accumulate on the shelves of the abandoned house.",
+      "tier": "foundation",
+      "rank": 157,
+      "synonymGroup": "gather-cluster"
+    },
+    {
+      "word": "analyze",
+      "pos": "verb",
+      "definitionEn": "to examine something in detail to understand its parts or meaning",
+      "exampleEn": "Economists analyze market trends to predict future prices.",
+      "tier": "foundation",
+      "rank": 158,
+      "synonymGroup": "examine-cluster"
+    },
+    {
+      "word": "examine",
+      "pos": "verb",
+      "definitionEn": "to inspect or study something carefully and in detail",
+      "exampleEn": "The doctor examined the X-ray for any signs of a fracture.",
+      "tier": "foundation",
+      "rank": 159,
+      "synonymGroup": "examine-cluster"
+    },
+    {
+      "word": "investigate",
+      "pos": "verb",
+      "definitionEn": "to carry out research or a systematic inquiry into something",
+      "exampleEn": "Detectives were assigned to investigate the mysterious disappearance.",
+      "tier": "foundation",
+      "rank": 160,
+      "synonymGroup": "examine-cluster"
+    },
+    {
+      "word": "explore",
+      "pos": "verb",
+      "definitionEn": "to examine or investigate a subject or place thoroughly",
+      "exampleEn": "The documentary explores the causes of the coral reef's decline.",
+      "tier": "foundation",
+      "rank": 161,
+      "synonymGroup": "examine-cluster"
+    },
+    {
+      "word": "inspect",
+      "pos": "verb",
+      "definitionEn": "to look at something closely, often to check its condition or quality",
+      "exampleEn": "The inspector arrived to inspect the building for safety violations.",
+      "tier": "foundation",
+      "rank": 162,
+      "synonymGroup": "examine-cluster"
+    },
+    {
+      "word": "evaluate",
+      "pos": "verb",
+      "definitionEn": "to judge or assess the value, quality, or significance of something",
+      "exampleEn": "Teachers evaluate student essays based on clarity and argument.",
+      "tier": "foundation",
+      "rank": 163,
+      "synonymGroup": "assess-cluster"
+    },
+    {
+      "word": "review",
+      "pos": "verb",
+      "definitionEn": "to examine or assess something again with the possibility of change",
+      "exampleEn": "The editor asked the writer to review the article before publication.",
+      "tier": "foundation",
+      "rank": 164,
+      "synonymGroup": "assess-cluster"
+    },
+    {
+      "word": "critique",
+      "pos": "verb",
+      "definitionEn": "to give a detailed analysis and assessment, often noting strengths and weaknesses",
+      "exampleEn": "The professor asked students to critique each other's essays in class.",
+      "tier": "foundation",
+      "rank": 165,
+      "synonymGroup": "assess-cluster"
+    },
+    {
+      "word": "interpret",
+      "pos": "verb",
+      "definitionEn": "to explain the meaning of something, especially something unclear",
+      "exampleEn": "Historians continue to interpret the ancient text in different ways.",
+      "tier": "foundation",
+      "rank": 166
+    },
+    {
+      "word": "clarify",
+      "pos": "verb",
+      "definitionEn": "to make an idea or statement clearer or easier to understand",
+      "exampleEn": "The teacher paused to clarify a confusing point in the lecture.",
+      "tier": "foundation",
+      "rank": 167
+    },
+    {
+      "word": "illustrate",
+      "pos": "verb",
+      "definitionEn": "to explain or make something clear by using examples or pictures",
+      "exampleEn": "The professor used a simple diagram to illustrate how the engine works.",
+      "tier": "foundation",
+      "rank": 168,
+      "synonymGroup": "show-cluster"
+    },
+    {
+      "word": "exemplify",
+      "pos": "verb",
+      "definitionEn": "to be a typical example of something, or to illustrate by example",
+      "exampleEn": "Her quick decision under pressure exemplifies great leadership.",
+      "tier": "foundation",
+      "rank": 169,
+      "synonymGroup": "show-cluster"
+    },
+    {
+      "word": "represent",
+      "pos": "verb",
+      "definitionEn": "to stand for, symbolize, or serve as an example of something",
+      "exampleEn": "The dove is often used to represent peace.",
+      "tier": "foundation",
+      "rank": 170,
+      "synonymGroup": "show-cluster"
+    },
+    {
+      "word": "depict",
+      "pos": "verb",
+      "definitionEn": "to show or represent something in a picture or in words",
+      "exampleEn": "The mural depicts the town's history from its founding to today.",
+      "tier": "foundation",
+      "rank": 171,
+      "synonymGroup": "show-cluster"
+    },
+    {
+      "word": "portray",
+      "pos": "verb",
+      "definitionEn": "to describe or represent someone or something in a particular way",
+      "exampleEn": "The film portrays the scientist as a misunderstood genius.",
+      "tier": "foundation",
+      "rank": 172,
+      "synonymGroup": "show-cluster"
+    },
+    {
+      "word": "describe",
+      "pos": "verb",
+      "definitionEn": "to give an account in words of what something is like",
+      "exampleEn": "She struggled to describe the strange sound she had heard at night.",
+      "tier": "foundation",
+      "rank": 173
+    },
+    {
+      "word": "summarize",
+      "pos": "verb",
+      "definitionEn": "to give a brief statement of the main points of something",
+      "exampleEn": "The student was asked to summarize the novel in a single paragraph.",
+      "tier": "foundation",
+      "rank": 174,
+      "synonymGroup": "summary-cluster"
+    },
+    {
+      "word": "outline",
+      "pos": "verb",
+      "definitionEn": "to give the main features or general plan of something",
+      "exampleEn": "The professor outlined the semester's topics on the first day of class.",
+      "tier": "foundation",
+      "rank": 175,
+      "synonymGroup": "summary-cluster"
+    },
+    {
+      "word": "highlight",
+      "pos": "verb",
+      "definitionEn": "to draw attention to something important or noteworthy",
+      "exampleEn": "The report highlighted several risks that investors should consider.",
+      "tier": "foundation",
+      "rank": 176,
+      "synonymGroup": "emphasize-cluster"
+    },
+    {
+      "word": "emphasize",
+      "pos": "verb",
+      "definitionEn": "to give special importance or attention to something",
+      "exampleEn": "The coach emphasized the importance of teamwork before the final game.",
+      "tier": "foundation",
+      "rank": 177,
+      "synonymGroup": "emphasize-cluster"
+    },
+    {
+      "word": "underscore",
+      "pos": "verb",
+      "definitionEn": "to emphasize or draw attention to the importance of something",
+      "exampleEn": "The sudden power outage underscored the need for backup generators.",
+      "tier": "foundation",
+      "rank": 178,
+      "synonymGroup": "emphasize-cluster"
+    },
+    {
+      "word": "stress",
+      "pos": "verb",
+      "definitionEn": "to give particular emphasis or importance to something",
+      "exampleEn": "The nurse stressed the importance of taking the medication on schedule.",
+      "tier": "foundation",
+      "rank": 179,
+      "synonymGroup": "emphasize-cluster"
+    },
+    {
+      "word": "communicate",
+      "pos": "verb",
+      "definitionEn": "to share or exchange information, ideas, or feelings",
+      "exampleEn": "Good leaders communicate their expectations clearly to their teams.",
+      "tier": "foundation",
+      "rank": 180
+    },
+    {
+      "word": "express",
+      "pos": "verb",
+      "definitionEn": "to convey a thought or feeling in words or actions",
+      "exampleEn": "The poem allowed her to express emotions she found hard to say aloud.",
+      "tier": "foundation",
+      "rank": 181
+    },
+    {
+      "word": "state",
+      "pos": "verb",
+      "definitionEn": "to express something clearly and definitely in speech or writing",
+      "exampleEn": "The witness stated that she had seen the car run the red light.",
+      "tier": "foundation",
+      "rank": 182,
+      "synonymGroup": "claim-cluster"
+    },
+    {
+      "word": "claim",
+      "pos": "verb",
+      "definitionEn": "to assert that something is true, often without proof",
+      "exampleEn": "The company claims that its product can reduce energy costs by half.",
+      "tier": "foundation",
+      "rank": 183,
+      "synonymGroup": "claim-cluster"
+    },
+    {
+      "word": "argue",
+      "pos": "verb",
+      "definitionEn": "to give reasons to support or oppose an idea",
+      "exampleEn": "The lawyer argued that the new evidence proved her client's innocence.",
+      "tier": "foundation",
+      "rank": 184,
+      "synonymGroup": "claim-cluster"
+    },
+    {
+      "word": "reason",
+      "pos": "verb",
+      "definitionEn": "to think about something logically in order to reach a conclusion",
+      "exampleEn": "She reasoned that the delay must have been caused by the storm.",
+      "tier": "foundation",
+      "rank": 185
+    },
+    {
+      "word": "justify",
+      "pos": "verb",
+      "definitionEn": "to show or prove that something is right or reasonable",
+      "exampleEn": "The manager had to justify the budget cuts to the entire staff.",
+      "tier": "foundation",
+      "rank": 186,
+      "synonymGroup": "defend-cluster"
+    },
+    {
+      "word": "defend",
+      "pos": "verb",
+      "definitionEn": "to support or argue in favor of something being challenged",
+      "exampleEn": "The scientist had to defend her findings against harsh criticism.",
+      "tier": "foundation",
+      "rank": 187,
+      "synonymGroup": "defend-cluster"
+    },
+    {
+      "word": "support",
+      "pos": "verb",
+      "definitionEn": "to provide evidence or reasons that back up a claim or idea",
+      "exampleEn": "The data supports the theory that the medicine reduces symptoms.",
+      "tier": "foundation",
+      "rank": 188,
+      "synonymGroup": "defend-cluster"
+    },
+    {
+      "word": "oppose",
+      "pos": "verb",
+      "definitionEn": "to disagree with or resist a plan, idea, or action",
+      "exampleEn": "Many residents oppose the plan to build a highway through the park.",
+      "tier": "foundation",
+      "rank": 189,
+      "synonymGroup": "resist-cluster"
+    },
+    {
+      "word": "challenge",
+      "pos": "verb",
+      "definitionEn": "to question whether something is true, right, or legal",
+      "exampleEn": "The senator challenged the accuracy of the report's statistics.",
+      "tier": "foundation",
+      "rank": 190,
+      "synonymGroup": "resist-cluster"
+    },
+    {
+      "word": "dispute",
+      "pos": "verb",
+      "definitionEn": "to argue about or express disagreement with something",
+      "exampleEn": "The two neighbors disputed the exact location of the property line.",
+      "tier": "foundation",
+      "rank": 191,
+      "synonymGroup": "resist-cluster"
+    },
+    {
+      "word": "question",
+      "pos": "verb",
+      "definitionEn": "to express doubt about or ask for clarification of something",
+      "exampleEn": "Reporters began to question the official explanation for the delay.",
+      "tier": "foundation",
+      "rank": 192,
+      "synonymGroup": "resist-cluster"
+    },
+    {
+      "word": "doubt",
+      "pos": "verb",
+      "definitionEn": "to feel uncertain about something or be inclined to disbelieve it",
+      "exampleEn": "Some scientists doubted the results until the experiment was repeated.",
+      "tier": "foundation",
+      "rank": 193
+    },
+    {
+      "word": "reject",
+      "pos": "verb",
+      "definitionEn": "to refuse to accept, believe, or agree with something",
+      "exampleEn": "The committee rejected the proposal for lacking sufficient evidence.",
+      "tier": "foundation",
+      "rank": 194
+    },
+    {
+      "word": "reveal",
+      "pos": "verb",
+      "definitionEn": "to make previously unknown or secret information known",
+      "exampleEn": "The investigation revealed that the company had hidden its losses for years.",
+      "tier": "foundation",
+      "rank": 195,
+      "synonymGroup": "reveal-cluster"
+    },
+    {
+      "word": "expose",
+      "pos": "verb",
+      "definitionEn": "to make something visible or known, especially something hidden or wrongful",
+      "exampleEn": "The journalist's report exposed corruption within the city government.",
+      "tier": "foundation",
+      "rank": 196,
+      "synonymGroup": "reveal-cluster"
+    },
+    {
+      "word": "disclose",
+      "pos": "verb",
+      "definitionEn": "to make secret or private information known, often formally",
+      "exampleEn": "The company was required to disclose its financial losses to shareholders.",
+      "tier": "foundation",
+      "rank": 197,
+      "synonymGroup": "reveal-cluster"
+    },
+    {
+      "word": "divulge",
+      "pos": "verb",
+      "definitionEn": "to reveal private or sensitive information, sometimes reluctantly",
+      "exampleEn": "The source refused to divulge the identity of the anonymous donor.",
+      "tier": "foundation",
+      "rank": 198,
+      "synonymGroup": "reveal-cluster"
+    },
+    {
+      "word": "signify",
+      "pos": "verb",
+      "definitionEn": "to be a sign or indication of something",
+      "exampleEn": "A red flag on the beach signifies dangerous swimming conditions.",
+      "tier": "foundation",
+      "rank": 199
+    },
+    {
+      "word": "imply",
+      "pos": "verb",
+      "definitionEn": "to suggest something without stating it directly",
+      "exampleEn": "Her hesitant tone seemed to imply that she disagreed with the plan.",
+      "tier": "foundation",
+      "rank": 200
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "After the assembly line was redesigned, workers completed the same number of orders in half the time, using less raw material along the way. Managers praised the change not because output increased, but because so little time and material were wasted in the process.",
+      "question": "As used in the passage, \"efficiency\" most nearly means",
+      "options": [
+        {
+          "t": "the ability to produce results with minimal waste of time or resources",
+          "correct": true
+        },
+        {
+          "t": "the cost of raw materials used"
+        },
+        {
+          "t": "the willingness of workers to cooperate"
+        },
+        {
+          "t": "the total quantity of goods manufactured"
+        }
+      ],
+      "words": [
+        "efficiency"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage emphasizes doing the same work with less time and material, which is the definition of efficiency."
+    },
+    {
+      "passage": "The new software tracked how many units each employee completed per hour. Managers used this data to identify which teams were producing the most work, and adjusted staffing to boost overall output.",
+      "question": "As used in the passage, \"productivity\" most nearly means",
+      "options": [
+        {
+          "t": "the friendliness of the office environment"
+        },
+        {
+          "t": "the rate at which workers produce output",
+          "correct": true
+        },
+        {
+          "t": "the number of employees hired"
+        },
+        {
+          "t": "the price of the software used"
+        }
+      ],
+      "words": [
+        "productivity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes measuring how much work employees complete, which reflects productivity."
+    },
+    {
+      "passage": "The reservoir was built to hold up to two million gallons of water, but during the drought it never filled beyond a third of that amount.",
+      "question": "As used in the passage, \"capacity\" most nearly means",
+      "options": [
+        {
+          "t": "the cost of building a reservoir"
+        },
+        {
+          "t": "the location of a structure"
+        },
+        {
+          "t": "the maximum amount something can contain",
+          "correct": true
+        },
+        {
+          "t": "the material used in construction"
+        }
+      ],
+      "words": [
+        "capacity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage refers to the maximum amount of water the reservoir can hold, which is its capacity."
+    },
+    {
+      "passage": "Long before the mission launched, engineers questioned whether the small satellite had the capability to survive the extreme temperatures of deep space. Extensive testing eventually proved that its design could withstand the harsh conditions.",
+      "question": "As used in the passage, \"capability\" most nearly means",
+      "options": [
+        {
+          "t": "the total cost of a mission"
+        },
+        {
+          "t": "the physical size of an object"
+        },
+        {
+          "t": "the power or skill needed to accomplish something",
+          "correct": true
+        },
+        {
+          "t": "a scheduled date for launch"
+        }
+      ],
+      "words": [
+        "capability"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage discusses whether the satellite had the ability to withstand conditions, which is its capability."
+    },
+    {
+      "passage": "The coach noticed that the freshman had never played competitively before, yet his footwork and reflexes suggested he could become a star if given proper training. Nobody could say for certain how good he might eventually be.",
+      "question": "As used in the passage, \"potential\" most nearly means",
+      "options": [
+        {
+          "t": "an ability not yet fully developed",
+          "correct": true
+        },
+        {
+          "t": "a formal award or title"
+        },
+        {
+          "t": "a documented statistic"
+        },
+        {
+          "t": "a skill already mastered"
+        }
+      ],
+      "words": [
+        "potential"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes an ability that has not yet been developed, matching the meaning of potential."
+    },
+    {
+      "passage": "After years of formal training and daily practice sessions, the pianist could sight-read even the most difficult scores with ease, impressing audiences with her command of complex pieces.",
+      "question": "As used in the passage, \"proficiency\" most nearly means",
+      "options": [
+        {
+          "t": "a high level of skill developed through training",
+          "correct": true
+        },
+        {
+          "t": "an interest in a subject"
+        },
+        {
+          "t": "a natural, untrained talent"
+        },
+        {
+          "t": "a piece of written music"
+        }
+      ],
+      "words": [
+        "proficiency"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes a high skill level achieved through training and practice, which defines proficiency."
+    },
+    {
+      "passage": "Despite having only recently joined the firm, the new accountant handled every client's complicated tax situation without a single error, quickly earning the trust of her supervisors.",
+      "question": "Which choice best supports the claim that the accountant was skilled at her job?",
+      "options": [
+        {
+          "t": "She had recently joined the firm"
+        },
+        {
+          "t": "She handled complicated situations without a single error",
+          "correct": true
+        },
+        {
+          "t": "She worked as an accountant"
+        },
+        {
+          "t": "She earned the trust of her supervisors"
+        }
+      ],
+      "words": [
+        "competence"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The detail about handling complex work without errors is the strongest evidence of her competence."
+    },
+    {
+      "passage": "When the bridge began to show unusual cracks, the city called in a structural engineer whose decades of specialized experience with aging infrastructure made her uniquely qualified to assess the danger.",
+      "question": "As used in the passage, \"expertise\" (implied by \"specialized experience\") most nearly means",
+      "options": [
+        {
+          "t": "advanced knowledge and skill in a particular field",
+          "correct": true
+        },
+        {
+          "t": "a physical tool used for repairs"
+        },
+        {
+          "t": "a general curiosity about many subjects"
+        },
+        {
+          "t": "a formal license to practice"
+        }
+      ],
+      "words": [
+        "expertise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes deep, specialized experience in a field, which is the definition of expertise."
+    },
+    {
+      "passage": "It took the calligrapher thirty years of daily brushwork before critics agreed that her control of ink and line had reached a level rarely seen outside museums.",
+      "question": "As used in the passage, \"mastery\" most nearly means",
+      "options": [
+        {
+          "t": "comprehensive skill developed over a long period",
+          "correct": true
+        },
+        {
+          "t": "a formal teaching certificate"
+        },
+        {
+          "t": "a beginner's understanding of a craft"
+        },
+        {
+          "t": "ownership of valuable tools"
+        }
+      ],
+      "words": [
+        "mastery"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes an extremely high, comprehensive level of skill, which is mastery."
+    },
+    {
+      "passage": "City officials worked for three years to establish a public library in the neighborhood, securing funding, selecting a site, and hiring staff before the doors finally opened.",
+      "question": "As used in the passage, \"establish\" most nearly means",
+      "options": [
+        {
+          "t": "to close down an operation"
+        },
+        {
+          "t": "to set up something on a lasting basis",
+          "correct": true
+        },
+        {
+          "t": "to criticize a plan"
+        },
+        {
+          "t": "to temporarily borrow something"
+        }
+      ],
+      "words": [
+        "establish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes the long process of setting up a permanent institution, which matches establish."
+    },
+    {
+      "passage": "Even after the star player was injured, the team found ways to maintain their winning streak by relying on strong defense and disciplined teamwork.",
+      "question": "As used in the passage, \"maintain\" most nearly means",
+      "options": [
+        {
+          "t": "to begin something for the first time"
+        },
+        {
+          "t": "to celebrate an achievement"
+        },
+        {
+          "t": "to abandon a previous effort"
+        },
+        {
+          "t": "to keep something going without interruption",
+          "correct": true
+        }
+      ],
+      "words": [
+        "maintain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The team kept their streak continuing despite a setback, which is the meaning of maintain."
+    },
+    {
+      "passage": "Wildlife biologists released additional fish into the lake each spring in order to sustain the population through years when natural reproduction rates were low.",
+      "question": "As used in the passage, \"sustain\" most nearly means",
+      "options": [
+        {
+          "t": "to relocate a group entirely"
+        },
+        {
+          "t": "to permanently increase in size"
+        },
+        {
+          "t": "to study something scientifically"
+        },
+        {
+          "t": "to keep something alive or ongoing despite difficulty",
+          "correct": true
+        }
+      ],
+      "words": [
+        "sustain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The biologists acted to keep the fish population going despite low natural reproduction, which is sustain."
+    },
+    {
+      "passage": "The museum added interactive touchscreens beside each painting, allowing visitors to zoom into brushstrokes and read artist commentary, which enriched what had once been a purely visual experience.",
+      "question": "Which choice best describes the function of the touchscreens in the passage?",
+      "options": [
+        {
+          "t": "They reduce the cost of museum admission"
+        },
+        {
+          "t": "They restrict access to certain exhibits"
+        },
+        {
+          "t": "They enhance visitors' understanding and experience of the art",
+          "correct": true
+        },
+        {
+          "t": "They replace the original paintings entirely"
+        }
+      ],
+      "words": [
+        "enhance"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The touchscreens add depth to the viewing experience, functioning to enhance it, as stated directly in the passage."
+    },
+    {
+      "passage": "Determined to strengthen the old barn before winter storms arrived, the farmer replaced rotted beams with new timber and added metal braces to the corners.",
+      "question": "As used in the passage, \"strengthen\" most nearly means",
+      "options": [
+        {
+          "t": "to decorate something for appearance"
+        },
+        {
+          "t": "to relocate a structure"
+        },
+        {
+          "t": "to make something more structurally sound",
+          "correct": true
+        },
+        {
+          "t": "to sell something at a lower price"
+        }
+      ],
+      "words": [
+        "strengthen"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Replacing rotted beams and adding braces are actions that make the barn stronger, matching strengthen."
+    },
+    {
+      "passage": "The professor's closing remarks did not introduce new material; instead, they reinforced the central argument she had built throughout the lecture by restating the key evidence one final time.",
+      "question": "As used in the passage, \"reinforced\" most nearly means",
+      "options": [
+        {
+          "t": "contradicted with new information"
+        },
+        {
+          "t": "replaced entirely with a different topic"
+        },
+        {
+          "t": "strengthened by repeating supporting evidence",
+          "correct": true
+        },
+        {
+          "t": "shortened for the sake of time"
+        }
+      ],
+      "words": [
+        "reinforce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Restating key evidence to support an argument already made is what it means to reinforce a claim."
+    },
+    {
+      "passage": "By providing translators, extended deadlines, and clear written instructions, the organizers hoped to facilitate participation from immigrant families who might otherwise struggle to join the program.",
+      "question": "As used in the passage, \"facilitate\" most nearly means",
+      "options": [
+        {
+          "t": "to make a process easier",
+          "correct": true
+        },
+        {
+          "t": "to formally evaluate a program"
+        },
+        {
+          "t": "to advertise an event widely"
+        },
+        {
+          "t": "to prevent something from happening"
+        }
+      ],
+      "words": [
+        "facilitate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Providing translators and clear instructions removes obstacles, making participation easier, which is to facilitate."
+    },
+    {
+      "passage": "Wind turbines spin as air moves across their blades, and the resulting motion turns a generator that can generate enough electricity to power thousands of homes.",
+      "question": "As used in the passage, \"generate\" most nearly means",
+      "options": [
+        {
+          "t": "to measure the output of a device"
+        },
+        {
+          "t": "to produce or create something, especially energy",
+          "correct": true
+        },
+        {
+          "t": "to reduce the demand for a resource"
+        },
+        {
+          "t": "to store something for later use"
+        }
+      ],
+      "words": [
+        "generate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The turbine creates electricity, which is the meaning of generate in this context."
+    },
+    {
+      "passage": "The playwright didn't merely copy earlier stories; she used old folktales as raw material to construct an entirely original narrative with new characters and unexpected twists.",
+      "question": "As used in the passage, \"construct\" most nearly means",
+      "options": [
+        {
+          "t": "to erase previous work completely"
+        },
+        {
+          "t": "to translate a text into another language"
+        },
+        {
+          "t": "to memorize a story exactly"
+        },
+        {
+          "t": "to build something by putting parts together",
+          "correct": true
+        }
+      ],
+      "words": [
+        "construct"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The playwright assembled elements from folktales to build something new, matching the meaning of construct."
+    },
+    {
+      "passage": "After months of user interviews and prototype testing, the team was finally ready to formulate a clear plan for redesigning the app's confusing checkout process.",
+      "question": "As used in the passage, \"formulate\" most nearly means",
+      "options": [
+        {
+          "t": "to carefully devise a plan or method",
+          "correct": true
+        },
+        {
+          "t": "to advertise a finished product"
+        },
+        {
+          "t": "to abandon an existing idea"
+        },
+        {
+          "t": "to copy a competitor's design"
+        }
+      ],
+      "words": [
+        "formulate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The team is shown carefully developing a plan after research, which is what it means to formulate."
+    },
+    {
+      "passage": "Rather than simply approving the policy on paper, the district worked closely with each school to implement it, training staff and adjusting schedules to make the new rules a daily reality.",
+      "question": "As used in the passage, \"implement\" most nearly means",
+      "options": [
+        {
+          "t": "to write a description of a policy"
+        },
+        {
+          "t": "to postpone a decision indefinitely"
+        },
+        {
+          "t": "to put a plan into actual practice",
+          "correct": true
+        },
+        {
+          "t": "to reject a proposed idea"
+        }
+      ],
+      "words": [
+        "implement"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The district is shown putting the policy into real, daily use, which is the meaning of implement."
+    },
+    {
+      "passage": "The gymnast rehearsed her routine hundreds of times, and on the day of the competition, she was able to execute every movement with precision, without a single visible mistake.",
+      "question": "As used in the passage, \"execute\" most nearly means",
+      "options": [
+        {
+          "t": "to critique someone's technique"
+        },
+        {
+          "t": "to design a new routine"
+        },
+        {
+          "t": "to carry out an action skillfully",
+          "correct": true
+        },
+        {
+          "t": "to postpone a performance"
+        }
+      ],
+      "words": [
+        "execute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The gymnast performed her routine precisely, matching the meaning of execute as carrying out an action."
+    },
+    {
+      "passage": "The nonprofit's small staff managed to accomplish something few thought possible: building forty new homes in a single year with a fraction of the typical budget.",
+      "question": "As used in the passage, \"accomplish\" most nearly means",
+      "options": [
+        {
+          "t": "to request additional funding"
+        },
+        {
+          "t": "to succeed in completing something difficult",
+          "correct": true
+        },
+        {
+          "t": "to delay a project's completion"
+        },
+        {
+          "t": "to plan something in advance"
+        }
+      ],
+      "words": [
+        "accomplish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Completing a difficult task (building homes with limited resources) is the meaning of accomplish."
+    },
+    {
+      "passage": "It took the young violinist over a decade of relentless practice, countless failed auditions, and unwavering discipline before she was finally able to achieve her lifelong dream of joining a major orchestra.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The violinist never auditioned for an orchestra"
+        },
+        {
+          "t": "Talent alone is enough to succeed in music"
+        },
+        {
+          "t": "Orchestras rarely accept new musicians"
+        },
+        {
+          "t": "Long-term persistence eventually led to the violinist's success",
+          "correct": true
+        }
+      ],
+      "words": [
+        "achieve"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage centers on sustained effort over many years finally leading to success, which is the main idea."
+    },
+    {
+      "passage": "Before she could obtain a permit to open her food truck, the entrepreneur had to complete health inspections, submit tax documents, and pay several licensing fees.",
+      "question": "As used in the passage, \"obtain\" most nearly means",
+      "options": [
+        {
+          "t": "to design a new product"
+        },
+        {
+          "t": "to lose something unexpectedly"
+        },
+        {
+          "t": "to acquire something through effort or process",
+          "correct": true
+        },
+        {
+          "t": "to advertise a business"
+        }
+      ],
+      "words": [
+        "obtain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The entrepreneur goes through several steps to acquire a permit, which is the meaning of obtain."
+    },
+    {
+      "passage": "The negotiators worked through the night, determined to secure an agreement before the deadline expired, knowing that failure would mean returning to months of stalled talks.",
+      "question": "As used in the passage, \"secure\" most nearly means",
+      "options": [
+        {
+          "t": "to postpone a meeting"
+        },
+        {
+          "t": "to reject an offer entirely"
+        },
+        {
+          "t": "to make something physically safe from danger"
+        },
+        {
+          "t": "to obtain or ensure something through effort",
+          "correct": true
+        }
+      ],
+      "words": [
+        "secure"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The negotiators are working to obtain an agreement, which matches this sense of secure."
+    },
+    {
+      "passage": "Linguists have shown that the modern word \"salary\" derives from the Latin term for salt, since Roman soldiers were once partly paid in that valuable seasoning.",
+      "question": "As used in the passage, \"derives\" most nearly means",
+      "options": [
+        {
+          "t": "translates directly into another language"
+        },
+        {
+          "t": "disappears from common usage"
+        },
+        {
+          "t": "originates or comes from a particular source",
+          "correct": true
+        },
+        {
+          "t": "contradicts an earlier definition"
+        }
+      ],
+      "words": [
+        "derive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The word's origin is traced to Latin, which is the meaning of derive."
+    },
+    {
+      "passage": "Using a fine needle, the archaeologist carefully worked to extract pollen grains trapped inside the ancient pottery, hoping the samples would reveal what crops the vessel once held.",
+      "question": "As used in the passage, \"extract\" most nearly means",
+      "options": [
+        {
+          "t": "to seal something permanently inside a container"
+        },
+        {
+          "t": "to remove something carefully from within",
+          "correct": true
+        },
+        {
+          "t": "to donate an artifact to a museum"
+        },
+        {
+          "t": "to photograph an object in detail"
+        }
+      ],
+      "words": [
+        "extract"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The archaeologist is removing pollen grains from inside the pottery, which is to extract."
+    },
+    {
+      "passage": "After reviewing the ship's logs, the maintenance records, and the weather reports from that night, investigators were finally able to determine that a faulty valve, not the storm, had caused the engine failure.",
+      "question": "As used in the passage, \"determine\" most nearly means",
+      "options": [
+        {
+          "t": "to repair mechanical damage"
+        },
+        {
+          "t": "to establish a fact through investigation",
+          "correct": true
+        },
+        {
+          "t": "to publish a report to the press"
+        },
+        {
+          "t": "to guess without evidence"
+        }
+      ],
+      "words": [
+        "determine"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Investigators used evidence to establish the true cause, which is the meaning of determine."
+    },
+    {
+      "passage": "Trained customs officers can often identify counterfeit currency within seconds, relying on subtle differences in texture and ink that are invisible to the average person.",
+      "question": "As used in the passage, \"identify\" most nearly means",
+      "options": [
+        {
+          "t": "to destroy fraudulent material"
+        },
+        {
+          "t": "to manufacture a duplicate item"
+        },
+        {
+          "t": "to legally punish a criminal"
+        },
+        {
+          "t": "to recognize or pinpoint exactly what something is",
+          "correct": true
+        }
+      ],
+      "words": [
+        "identify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The officers recognize counterfeit money by its features, which is the meaning of identify."
+    },
+    {
+      "passage": "Although the twins looked nearly identical, their grandmother could always distinguish them by the small mole near one twin's left ear.",
+      "question": "As used in the passage, \"distinguish\" most nearly means",
+      "options": [
+        {
+          "t": "to photograph someone clearly"
+        },
+        {
+          "t": "to praise someone publicly"
+        },
+        {
+          "t": "to tell apart based on a difference",
+          "correct": true
+        },
+        {
+          "t": "to introduce two people to each other"
+        }
+      ],
+      "words": [
+        "distinguish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The grandmother tells the twins apart using a physical difference, which is to distinguish."
+    },
+    {
+      "passage": "The study asked participants to differentiate between genuine smiles and posed ones, a task that turned out to be far harder than most people expected.",
+      "question": "As used in the passage, \"differentiate\" most nearly means",
+      "options": [
+        {
+          "t": "to memorize a list of items"
+        },
+        {
+          "t": "to recognize what makes two things different",
+          "correct": true
+        },
+        {
+          "t": "to combine two categories into one"
+        },
+        {
+          "t": "to photograph facial expressions"
+        }
+      ],
+      "words": [
+        "differentiate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Participants had to tell genuine and posed smiles apart, which is the meaning of differentiate."
+    },
+    {
+      "passage": "Botanists classify plants not by their color or size but by shared reproductive structures, grouping species according to features invisible at first glance.",
+      "question": "As used in the passage, \"classify\" most nearly means",
+      "options": [
+        {
+          "t": "to remove a plant from its natural habitat"
+        },
+        {
+          "t": "to grow plants in a controlled environment"
+        },
+        {
+          "t": "to name a newly discovered species"
+        },
+        {
+          "t": "to arrange into groups based on shared traits",
+          "correct": true
+        }
+      ],
+      "words": [
+        "classify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Botanists group plants by shared features, which is the meaning of classify."
+    },
+    {
+      "passage": "Before the sale, employees spent an entire weekend working to organize the warehouse, arranging boxes by product type and labeling every shelf for easy access.",
+      "question": "Which choice best describes what the employees did to the warehouse?",
+      "options": [
+        {
+          "t": "They expanded its total size"
+        },
+        {
+          "t": "They sold off unwanted inventory"
+        },
+        {
+          "t": "They relocated it to a new building"
+        },
+        {
+          "t": "They arranged its contents into a clear, systematic order",
+          "correct": true
+        }
+      ],
+      "words": [
+        "organize",
+        "arrange"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes sorting and labeling the warehouse's contents, which is organizing and arranging."
+    },
+    {
+      "passage": "Running a citywide festival required someone to coordinate dozens of separate teams, from vendors and musicians to security and cleanup crews, so that every part of the event ran on schedule.",
+      "question": "As used in the passage, \"coordinate\" most nearly means",
+      "options": [
+        {
+          "t": "to cancel an event due to weather"
+        },
+        {
+          "t": "to fund an event through donations"
+        },
+        {
+          "t": "to organize different groups so they function together",
+          "correct": true
+        },
+        {
+          "t": "to design promotional materials"
+        }
+      ],
+      "words": [
+        "coordinate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Managing multiple teams so they work together smoothly is the meaning of coordinate."
+    },
+    {
+      "passage": "The updated app was built to integrate seamlessly with users' calendars, contacts, and email, so that all their information appeared in one unified interface.",
+      "question": "As used in the passage, \"integrate\" most nearly means",
+      "options": [
+        {
+          "t": "to advertise a new feature"
+        },
+        {
+          "t": "to test software for bugs"
+        },
+        {
+          "t": "to delete outdated information"
+        },
+        {
+          "t": "to combine separate systems into one working whole",
+          "correct": true
+        }
+      ],
+      "words": [
+        "integrate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The app combines separate services into a single unified system, which is to integrate."
+    },
+    {
+      "passage": "The chef decided to incorporate local, seasonal vegetables into the restaurant's classic recipes, giving familiar dishes a distinctly regional twist.",
+      "question": "As used in the passage, \"incorporate\" most nearly means",
+      "options": [
+        {
+          "t": "to copy a recipe exactly"
+        },
+        {
+          "t": "to open a new restaurant location"
+        },
+        {
+          "t": "to remove an ingredient entirely"
+        },
+        {
+          "t": "to include something as part of a larger whole",
+          "correct": true
+        }
+      ],
+      "words": [
+        "incorporate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The chef adds new ingredients into existing recipes, which is the meaning of incorporate."
+    },
+    {
+      "passage": "Two rival companies that once competed fiercely for the same customers announced plans to merge, combining their factories, brands, and employees into a single corporation.",
+      "question": "As used in the passage, \"merge\" most nearly means",
+      "options": [
+        {
+          "t": "to compete more aggressively"
+        },
+        {
+          "t": "to expand into a new country"
+        },
+        {
+          "t": "to combine two separate entities into one",
+          "correct": true
+        },
+        {
+          "t": "to file for bankruptcy"
+        }
+      ],
+      "words": [
+        "merge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Two companies combining into a single corporation is the meaning of merge."
+    },
+    {
+      "passage": "For her final project, the student had to compile years of rainfall data from dozens of weather stations into a single, organized spreadsheet before she could begin her analysis.",
+      "question": "As used in the passage, \"compile\" most nearly means",
+      "options": [
+        {
+          "t": "to delete outdated records"
+        },
+        {
+          "t": "to gather information from various sources into one place",
+          "correct": true
+        },
+        {
+          "t": "to publish findings in a journal"
+        },
+        {
+          "t": "to invent new data through experimentation"
+        }
+      ],
+      "words": [
+        "compile"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The student gathers scattered data into one organized document, which is the meaning of compile."
+    },
+    {
+      "passage": "The instructions included over two hundred small pieces, and it took the hobbyist nearly six hours to assemble the model airplane without a single leftover part.",
+      "question": "As used in the passage, \"assemble\" most nearly means",
+      "options": [
+        {
+          "t": "to purchase parts from a store"
+        },
+        {
+          "t": "to put pieces together to form a whole",
+          "correct": true
+        },
+        {
+          "t": "to disassemble a finished product"
+        },
+        {
+          "t": "to paint a completed model"
+        }
+      ],
+      "words": [
+        "assemble"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Putting many small pieces together to build the airplane is the meaning of assemble."
+    },
+    {
+      "passage": "Each autumn, volunteers gather along the riverbank to collect litter before the winter floods carry it downstream, and over the years the amount of trash removed has steadily grown.",
+      "question": "As used in the passage, \"gather\" most nearly means",
+      "options": [
+        {
+          "t": "to separate into smaller groups"
+        },
+        {
+          "t": "to donate money to a cause"
+        },
+        {
+          "t": "to come together in one place for a purpose",
+          "correct": true
+        },
+        {
+          "t": "to measure water pollution levels"
+        }
+      ],
+      "words": [
+        "gather",
+        "collect"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Volunteers come together along the riverbank, which is the meaning of gather."
+    },
+    {
+      "passage": "Because the family never threw anything away, old newspapers, boxes, and furniture had begun to accumulate in the attic, filling every corner over the course of thirty years.",
+      "question": "As used in the passage, \"accumulate\" most nearly means",
+      "options": [
+        {
+          "t": "to disappear suddenly"
+        },
+        {
+          "t": "to be sold at auction"
+        },
+        {
+          "t": "to be organized neatly"
+        },
+        {
+          "t": "to gradually build up over time",
+          "correct": true
+        }
+      ],
+      "words": [
+        "accumulate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Items building up slowly over thirty years is the meaning of accumulate."
+    },
+    {
+      "passage": "Rather than simply reporting the raw numbers, the economist chose to analyze the data closely, searching for patterns that might explain why unemployment had risen so sharply in a single region.",
+      "question": "As used in the passage, \"analyze\" most nearly means",
+      "options": [
+        {
+          "t": "to summarize a report briefly"
+        },
+        {
+          "t": "to publish results without review"
+        },
+        {
+          "t": "to examine something in detail to find meaning",
+          "correct": true
+        },
+        {
+          "t": "to collect new data from a survey"
+        }
+      ],
+      "words": [
+        "analyze"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The economist studies the data closely to find patterns, which is the meaning of analyze."
+    },
+    {
+      "passage": "Before signing off on the building, the inspector had to examine every wire, pipe, and support beam, checking each one against the city's strict safety codes.",
+      "question": "As used in the passage, \"examine\" most nearly means",
+      "options": [
+        {
+          "t": "to approve something without question"
+        },
+        {
+          "t": "to look at something carefully and in detail",
+          "correct": true
+        },
+        {
+          "t": "to construct a new building"
+        },
+        {
+          "t": "to interview witnesses"
+        }
+      ],
+      "words": [
+        "examine",
+        "inspect"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The inspector checks each component carefully, which is the meaning of examine."
+    },
+    {
+      "passage": "After several ships vanished in the same stretch of ocean without explanation, a team of researchers was sent to investigate the unusual currents and magnetic readings in the area.",
+      "question": "As used in the passage, \"investigate\" most nearly means",
+      "options": [
+        {
+          "t": "to carry out a systematic inquiry into something",
+          "correct": true
+        },
+        {
+          "t": "to celebrate a scientific discovery"
+        },
+        {
+          "t": "to sail through a dangerous region"
+        },
+        {
+          "t": "to publish a final conclusion"
+        }
+      ],
+      "words": [
+        "investigate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The researchers conduct a systematic inquiry into the mystery, which is the meaning of investigate."
+    },
+    {
+      "passage": "The novel invites readers to explore questions of memory and identity, following a narrator who is never quite sure which of her recollections are true.",
+      "question": "As used in the passage, \"explore\" most nearly means",
+      "options": [
+        {
+          "t": "to resolve a conflict completely"
+        },
+        {
+          "t": "to summarize a plot briefly"
+        },
+        {
+          "t": "to travel to an unfamiliar location"
+        },
+        {
+          "t": "to examine or consider a topic thoroughly",
+          "correct": true
+        }
+      ],
+      "words": [
+        "explore"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The novel thoroughly considers themes of memory, which is the meaning of explore in this figurative sense."
+    },
+    {
+      "passage": "Before approving the used car for sale, the mechanic had to inspect the brakes, engine, and tires, noting any wear that might pose a danger to future drivers.",
+      "question": "As used in the passage, \"inspect\" most nearly means",
+      "options": [
+        {
+          "t": "to advertise a vehicle for sale"
+        },
+        {
+          "t": "to repair a broken part"
+        },
+        {
+          "t": "to examine closely for condition or safety",
+          "correct": true
+        },
+        {
+          "t": "to negotiate a lower price"
+        }
+      ],
+      "words": [
+        "inspect"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The mechanic closely examines the car's condition, which is the meaning of inspect."
+    },
+    {
+      "passage": "Judges were asked to evaluate each dish not only on taste but also on presentation and creativity, assigning scores that would determine the competition's winner.",
+      "question": "As used in the passage, \"evaluate\" most nearly means",
+      "options": [
+        {
+          "t": "to advertise a restaurant"
+        },
+        {
+          "t": "to record a recipe in writing"
+        },
+        {
+          "t": "to judge the quality or value of something",
+          "correct": true
+        },
+        {
+          "t": "to prepare a dish for serving"
+        }
+      ],
+      "words": [
+        "evaluate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The judges assess quality and assign scores, which is the meaning of evaluate."
+    },
+    {
+      "passage": "Before the article went to print, the senior editor took time to review every paragraph, checking facts and tightening the language for clarity.",
+      "question": "As used in the passage, \"review\" most nearly means",
+      "options": [
+        {
+          "t": "to reject a submission outright"
+        },
+        {
+          "t": "to write an entirely new article"
+        },
+        {
+          "t": "to examine something again for accuracy or improvement",
+          "correct": true
+        },
+        {
+          "t": "to interview the original author"
+        }
+      ],
+      "words": [
+        "review"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The editor examines the article again to check and improve it, which is the meaning of review."
+    },
+    {
+      "passage": "In her final paper, the student did not simply summarize the film's plot; she chose to critique its pacing and character development, pointing out both its strengths and its flaws.",
+      "question": "As used in the passage, \"critique\" most nearly means",
+      "options": [
+        {
+          "t": "to praise something without reservation"
+        },
+        {
+          "t": "to retell a story from memory"
+        },
+        {
+          "t": "to translate a script into another language"
+        },
+        {
+          "t": "to give a detailed assessment of strengths and weaknesses",
+          "correct": true
+        }
+      ],
+      "words": [
+        "critique"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The student analyzes strengths and flaws in detail, which is the meaning of critique."
+    },
+    {
+      "passage": "Scholars have long debated how to interpret the ancient inscription, since the same set of symbols could plausibly be read as either a prayer or a historical record.",
+      "question": "As used in the passage, \"interpret\" most nearly means",
+      "options": [
+        {
+          "t": "to discover a new archaeological site"
+        },
+        {
+          "t": "to translate a document word for word"
+        },
+        {
+          "t": "to physically preserve an artifact"
+        },
+        {
+          "t": "to explain the meaning of something unclear",
+          "correct": true
+        }
+      ],
+      "words": [
+        "interpret"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Scholars are trying to explain the unclear meaning of the inscription, which is to interpret."
+    },
+    {
+      "passage": "Confused by the professor's explanation, a student raised her hand and asked him to clarify what he meant by the term \"opportunity cost.\"",
+      "question": "As used in the passage, \"clarify\" most nearly means",
+      "options": [
+        {
+          "t": "to grade a student's assignment"
+        },
+        {
+          "t": "to make something clearer or easier to understand",
+          "correct": true
+        },
+        {
+          "t": "to memorize a technical term"
+        },
+        {
+          "t": "to argue against a definition"
+        }
+      ],
+      "words": [
+        "clarify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The student wants the confusing term explained more clearly, which is the meaning of clarify."
+    },
+    {
+      "passage": "To illustrate how compound interest works, the teacher drew a simple chart showing how a small deposit could grow dramatically over several decades.",
+      "question": "As used in the passage, \"illustrate\" most nearly means",
+      "options": [
+        {
+          "t": "to make an idea clear through an example",
+          "correct": true
+        },
+        {
+          "t": "to grade a set of homework"
+        },
+        {
+          "t": "to disprove a mathematical theory"
+        },
+        {
+          "t": "to collect financial data"
+        }
+      ],
+      "words": [
+        "illustrate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The teacher uses a chart as an example to explain the concept, which is to illustrate."
+    },
+    {
+      "passage": "The volunteer firefighter who ran back into the burning building to save a stranger's pet seemed to exemplify the very courage the department had always claimed to value.",
+      "question": "As used in the passage, \"exemplify\" most nearly means",
+      "options": [
+        {
+          "t": "to criticize a lack of courage"
+        },
+        {
+          "t": "to serve as a clear example of a quality",
+          "correct": true
+        },
+        {
+          "t": "to document an incident in writing"
+        },
+        {
+          "t": "to train new firefighters"
+        }
+      ],
+      "words": [
+        "exemplify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The firefighter's action serves as a perfect example of courage, which is the meaning of exemplify."
+    },
+    {
+      "passage": "In many cultures, the color white is used to represent purity or new beginnings, while in others it is more closely associated with mourning.",
+      "question": "As used in the passage, \"represent\" most nearly means",
+      "options": [
+        {
+          "t": "to replace an older tradition"
+        },
+        {
+          "t": "to physically resemble an object"
+        },
+        {
+          "t": "to symbolize or stand for an idea",
+          "correct": true
+        },
+        {
+          "t": "to advertise a product"
+        }
+      ],
+      "words": [
+        "represent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The color stands as a symbol for an idea, which is the meaning of represent."
+    },
+    {
+      "passage": "The mural's artist chose to depict the neighborhood not as it currently looks, but as residents remembered it decades earlier, filled with small shops and tree-lined streets.",
+      "question": "As used in the passage, \"depict\" most nearly means",
+      "options": [
+        {
+          "t": "to interview local residents"
+        },
+        {
+          "t": "to erase an existing artwork"
+        },
+        {
+          "t": "to represent something visually",
+          "correct": true
+        },
+        {
+          "t": "to physically rebuild a structure"
+        }
+      ],
+      "words": [
+        "depict"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The mural visually shows the neighborhood as it once was, which is the meaning of depict."
+    },
+    {
+      "passage": "Critics argued that the biopic chose to portray the inventor as a flawless genius, glossing over the many failures and setbacks that defined much of his real career.",
+      "question": "As used in the passage, \"portray\" most nearly means",
+      "options": [
+        {
+          "t": "to translate a biography"
+        },
+        {
+          "t": "to financially support a film"
+        },
+        {
+          "t": "to interview a subject directly"
+        },
+        {
+          "t": "to represent someone in a particular way",
+          "correct": true
+        }
+      ],
+      "words": [
+        "portray"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The film represents the inventor in a specific, flattering way, which is the meaning of portray."
+    },
+    {
+      "passage": "Witnesses struggled to describe the vehicle involved in the accident, offering conflicting details about its color and size to the responding officers.",
+      "question": "As used in the passage, \"describe\" most nearly means",
+      "options": [
+        {
+          "t": "to arrest a suspect"
+        },
+        {
+          "t": "to photograph a scene in detail"
+        },
+        {
+          "t": "to give an account in words of what something is like",
+          "correct": true
+        },
+        {
+          "t": "to repair a damaged object"
+        }
+      ],
+      "words": [
+        "describe"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Witnesses attempt to give a verbal account of the vehicle, which is the meaning of describe."
+    },
+    {
+      "passage": "Rather than reading the entire four-hundred-page report, the busy executive asked her assistant to summarize its key findings in a single page.",
+      "question": "As used in the passage, \"summarize\" most nearly means",
+      "options": [
+        {
+          "t": "to translate a document into another language"
+        },
+        {
+          "t": "to give a brief statement of the main points",
+          "correct": true
+        },
+        {
+          "t": "to expand a short report into a longer one"
+        },
+        {
+          "t": "to fact-check a document's sources"
+        }
+      ],
+      "words": [
+        "summarize"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Condensing the report into its key findings is the meaning of summarize."
+    },
+    {
+      "passage": "On the first day of the course, the professor handed out a syllabus that would outline every topic, assignment, and exam date for the entire semester.",
+      "question": "As used in the passage, \"outline\" most nearly means",
+      "options": [
+        {
+          "t": "to recommend a textbook"
+        },
+        {
+          "t": "to cancel a scheduled class"
+        },
+        {
+          "t": "to grade completed assignments"
+        },
+        {
+          "t": "to give the main features or plan of something",
+          "correct": true
+        }
+      ],
+      "words": [
+        "outline"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The syllabus presents the general plan for the course, which is the meaning of outline."
+    },
+    {
+      "passage": "The annual report chose to highlight the company's environmental initiatives on its cover page, even though those programs made up only a small fraction of its total spending.",
+      "question": "Which choice best describes the function of highlighting the environmental initiatives?",
+      "options": [
+        {
+          "t": "It shows that the company plans to end all other programs"
+        },
+        {
+          "t": "It proves the initiatives were the company's most expensive projects"
+        },
+        {
+          "t": "It confirms that the report contains no other information"
+        },
+        {
+          "t": "It draws special attention to a chosen detail despite its small scale",
+          "correct": true
+        }
+      ],
+      "words": [
+        "highlight"
+      ],
+      "domain": "craft_structure",
+      "explanation": "Highlighting draws special attention to a detail, even one that is proportionally small, as the passage shows."
+    },
+    {
+      "passage": "In her speech, the CEO chose to emphasize employee safety above all other company priorities, repeating the phrase \"safety first\" three separate times.",
+      "question": "As used in the passage, \"emphasize\" most nearly means",
+      "options": [
+        {
+          "t": "to apologize for a past mistake"
+        },
+        {
+          "t": "to question the value of an idea"
+        },
+        {
+          "t": "to briefly mention something in passing"
+        },
+        {
+          "t": "to give special importance to something",
+          "correct": true
+        }
+      ],
+      "words": [
+        "emphasize",
+        "stress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Repeating a phrase to give it special importance is the meaning of emphasize."
+    },
+    {
+      "passage": "The auditor's final report did not simply list the errors; it underscored how a single accounting mistake had led to years of inaccurate financial statements.",
+      "question": "As used in the passage, \"underscored\" most nearly means",
+      "options": [
+        {
+          "t": "corrected an error automatically"
+        },
+        {
+          "t": "summarized a report briefly"
+        },
+        {
+          "t": "hid the seriousness of a problem"
+        },
+        {
+          "t": "emphasized the importance or seriousness of something",
+          "correct": true
+        }
+      ],
+      "words": [
+        "underscore"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The report draws strong attention to how serious the mistake's consequences were, which is to underscore."
+    },
+    {
+      "passage": "The nutritionist repeatedly stressed the importance of drinking enough water, warning her clients that mild dehydration is often mistaken for hunger or fatigue.",
+      "question": "As used in the passage, \"stressed\" most nearly means",
+      "options": [
+        {
+          "t": "physically strained"
+        },
+        {
+          "t": "briefly mentioned"
+        },
+        {
+          "t": "emphasized as important",
+          "correct": true
+        },
+        {
+          "t": "felt anxious about"
+        }
+      ],
+      "words": [
+        "stress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The nutritionist gives special emphasis to hydration's importance, which is the meaning of stress here."
+    },
+    {
+      "passage": "Deaf since birth, the artist found that sign language allowed her to communicate complex emotions just as fully as any spoken language could.",
+      "question": "As used in the passage, \"communicate\" most nearly means",
+      "options": [
+        {
+          "t": "to memorize a set of gestures"
+        },
+        {
+          "t": "to share or convey information and feelings",
+          "correct": true
+        },
+        {
+          "t": "to perform on a stage"
+        },
+        {
+          "t": "to translate written text"
+        }
+      ],
+      "words": [
+        "communicate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sign language lets her convey feelings to others, which is the meaning of communicate."
+    },
+    {
+      "passage": "Unable to find the right words, the grieving man used music instead, composing a quiet piece that seemed to express sorrow more honestly than any speech could.",
+      "question": "As used in the passage, \"express\" most nearly means",
+      "options": [
+        {
+          "t": "to convey a feeling through words or actions",
+          "correct": true
+        },
+        {
+          "t": "to perform in front of an audience"
+        },
+        {
+          "t": "to compose music for profit"
+        },
+        {
+          "t": "to hide an emotion completely"
+        }
+      ],
+      "words": [
+        "express"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The music conveys his grief, which is the meaning of express."
+    },
+    {
+      "passage": "In her testimony, the witness stated plainly that she had seen the defendant leave the building minutes before the fire alarm sounded.",
+      "question": "As used in the passage, \"stated\" most nearly means",
+      "options": [
+        {
+          "t": "questioned uncertainly"
+        },
+        {
+          "t": "whispered privately"
+        },
+        {
+          "t": "denied completely"
+        },
+        {
+          "t": "expressed clearly and directly",
+          "correct": true
+        }
+      ],
+      "words": [
+        "state"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The witness expresses her account clearly and directly, which is the meaning of state."
+    },
+    {
+      "passage": "The advertisement claims that the supplement can improve memory within a week, though no independent study has yet confirmed this assertion.",
+      "question": "As used in the passage, \"claims\" most nearly means",
+      "options": [
+        {
+          "t": "proves something with scientific data"
+        },
+        {
+          "t": "asserts something as true without proof",
+          "correct": true
+        },
+        {
+          "t": "advertises a product's price"
+        },
+        {
+          "t": "denies a previous statement"
+        }
+      ],
+      "words": [
+        "claim"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The advertisement asserts a benefit without independent proof, which is the meaning of claim."
+    },
+    {
+      "passage": "The defense attorney argued that her client could not have committed the crime, since phone records placed him in another city at the time.",
+      "question": "As used in the passage, \"argued\" most nearly means",
+      "options": [
+        {
+          "t": "presented reasons to support a position",
+          "correct": true
+        },
+        {
+          "t": "requested a delay in the trial"
+        },
+        {
+          "t": "admitted a client's guilt"
+        },
+        {
+          "t": "quarreled loudly with another person"
+        }
+      ],
+      "words": [
+        "argue"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The attorney presents evidence-based reasons for a position, which is the meaning of argue."
+    },
+    {
+      "passage": "Seeing the muddy footprints leading away from the broken window, the detective reasoned that the intruder must have entered through the garden.",
+      "question": "As used in the passage, \"reasoned\" most nearly means",
+      "options": [
+        {
+          "t": "argued loudly with a colleague"
+        },
+        {
+          "t": "recorded evidence in a notebook"
+        },
+        {
+          "t": "guessed randomly without evidence"
+        },
+        {
+          "t": "thought through logically to reach a conclusion",
+          "correct": true
+        }
+      ],
+      "words": [
+        "reason"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The detective uses logical thinking based on evidence, which is the meaning of reason."
+    },
+    {
+      "passage": "The principal had to justify the decision to cut the art program, explaining to angry parents that the funds were urgently needed for basic building repairs.",
+      "question": "As used in the passage, \"justify\" most nearly means",
+      "options": [
+        {
+          "t": "to ignore public criticism"
+        },
+        {
+          "t": "to reverse an unpopular decision"
+        },
+        {
+          "t": "to show that a decision is reasonable",
+          "correct": true
+        },
+        {
+          "t": "to apologize without explanation"
+        }
+      ],
+      "words": [
+        "justify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The principal gives reasons to show the decision was reasonable, which is the meaning of justify."
+    },
+    {
+      "passage": "When critics attacked her research methods, the scientist calmly defended her conclusions, pointing to years of consistent data collected under controlled conditions.",
+      "question": "As used in the passage, \"defended\" most nearly means",
+      "options": [
+        {
+          "t": "abandoned a previous claim"
+        },
+        {
+          "t": "conducted a new experiment"
+        },
+        {
+          "t": "apologized for a mistake"
+        },
+        {
+          "t": "argued in support of something being challenged",
+          "correct": true
+        }
+      ],
+      "words": [
+        "defend"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The scientist argues in favor of her conclusions against criticism, which is the meaning of defend."
+    },
+    {
+      "passage": "Every graph in the report seemed to support the researchers' central claim, showing the same downward trend in bee populations across a dozen independent studies.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The researchers relied on a single flawed study"
+        },
+        {
+          "t": "Bee populations have remained stable for years"
+        },
+        {
+          "t": "The report contains no visual data"
+        },
+        {
+          "t": "Multiple independent studies back up the researchers' conclusion",
+          "correct": true
+        }
+      ],
+      "words": [
+        "support"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage explains how consistent data across many studies backs up the researchers' claim, which is the main idea."
+    },
+    {
+      "passage": "Local residents began to oppose the new shopping center, arguing that it would increase traffic and destroy one of the last green spaces in the neighborhood.",
+      "question": "As used in the passage, \"oppose\" most nearly means",
+      "options": [
+        {
+          "t": "to design a construction plan"
+        },
+        {
+          "t": "to relocate to a new neighborhood"
+        },
+        {
+          "t": "to resist or disagree with a plan",
+          "correct": true
+        },
+        {
+          "t": "to financially support a project"
+        }
+      ],
+      "words": [
+        "oppose"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Residents resist the shopping center plan, which is the meaning of oppose."
+    },
+    {
+      "passage": "The young researcher was praised for her willingness to challenge a widely accepted theory, even though doing so meant risking criticism from senior scientists in her field.",
+      "question": "As used in the passage, \"challenge\" most nearly means",
+      "options": [
+        {
+          "t": "to question whether something is correct",
+          "correct": true
+        },
+        {
+          "t": "to fully accept without doubt"
+        },
+        {
+          "t": "to publish a scientific paper"
+        },
+        {
+          "t": "to receive an award"
+        }
+      ],
+      "words": [
+        "challenge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The researcher questions the accuracy of an accepted theory, which is the meaning of challenge."
+    },
+    {
+      "passage": "The two countries continued to dispute the exact location of the border for decades, with each side presenting old maps to support its own claim.",
+      "question": "As used in the passage, \"dispute\" most nearly means",
+      "options": [
+        {
+          "t": "to abandon a territorial claim"
+        },
+        {
+          "t": "to agree upon a shared boundary"
+        },
+        {
+          "t": "to combine two nations into one"
+        },
+        {
+          "t": "to argue about or disagree over something",
+          "correct": true
+        }
+      ],
+      "words": [
+        "dispute"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The countries argue over the border's location, which is the meaning of dispute."
+    },
+    {
+      "passage": "When the official results seemed inconsistent with exit polls, several analysts began to question whether the vote count had been conducted accurately.",
+      "question": "As used in the passage, \"question\" most nearly means",
+      "options": [
+        {
+          "t": "to express doubt about something",
+          "correct": true
+        },
+        {
+          "t": "to celebrate an outcome"
+        },
+        {
+          "t": "to confirm a result with confidence"
+        },
+        {
+          "t": "to formally announce a result"
+        }
+      ],
+      "words": [
+        "question"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The analysts express doubt about the accuracy of the count, which is the meaning of question."
+    },
+    {
+      "passage": "Investigators initially doubted the eyewitness account, since the description of the suspect changed slightly each time she was interviewed.",
+      "question": "As used in the passage, \"doubted\" most nearly means",
+      "options": [
+        {
+          "t": "felt uncertain about the truth of something",
+          "correct": true
+        },
+        {
+          "t": "ignored completely"
+        },
+        {
+          "t": "recorded formally for the case file"
+        },
+        {
+          "t": "fully believed without hesitation"
+        }
+      ],
+      "words": [
+        "doubt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Investigators are uncertain about the reliability of the account, which is the meaning of doubt."
+    },
+    {
+      "passage": "After reviewing the incomplete application, the scholarship committee decided to reject it, noting that several required documents were missing entirely.",
+      "question": "As used in the passage, \"reject\" most nearly means",
+      "options": [
+        {
+          "t": "to request additional documents"
+        },
+        {
+          "t": "to refuse to accept something",
+          "correct": true
+        },
+        {
+          "t": "to approve something with conditions"
+        },
+        {
+          "t": "to postpone a decision"
+        }
+      ],
+      "words": [
+        "reject"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The committee refuses to accept the incomplete application, which is the meaning of reject."
+    },
+    {
+      "passage": "A routine audit unexpectedly revealed that the company's finance department had been misreporting expenses for nearly five years without anyone noticing.",
+      "question": "As used in the passage, \"revealed\" most nearly means",
+      "options": [
+        {
+          "t": "made known something previously hidden",
+          "correct": true
+        },
+        {
+          "t": "concealed information from investigators"
+        },
+        {
+          "t": "praised a department's performance"
+        },
+        {
+          "t": "corrected an error automatically"
+        }
+      ],
+      "words": [
+        "reveal"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The audit brings hidden information to light, which is the meaning of reveal."
+    },
+    {
+      "passage": "The undercover reporter spent two years gaining the trust of the smuggling ring, all in order to expose the network's operations to the public.",
+      "question": "As used in the passage, \"expose\" most nearly means",
+      "options": [
+        {
+          "t": "to protect someone's identity"
+        },
+        {
+          "t": "to make known something hidden, especially wrongdoing",
+          "correct": true
+        },
+        {
+          "t": "to publish a work of fiction"
+        },
+        {
+          "t": "to join a criminal organization"
+        }
+      ],
+      "words": [
+        "expose"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The reporter's goal is to reveal hidden wrongdoing to the public, which is the meaning of expose."
+    },
+    {
+      "passage": "Under the new regulation, banks must disclose all hidden fees to customers before they sign a loan agreement, ensuring no surprise charges appear later.",
+      "question": "As used in the passage, \"disclose\" most nearly means",
+      "options": [
+        {
+          "t": "to increase interest rates"
+        },
+        {
+          "t": "to advertise a new loan product"
+        },
+        {
+          "t": "to make information known, especially formally",
+          "correct": true
+        },
+        {
+          "t": "to eliminate fees entirely"
+        }
+      ],
+      "words": [
+        "disclose"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Banks must formally make fee information known to customers, which is the meaning of disclose."
+    },
+    {
+      "passage": "Despite repeated questioning, the whistleblower refused to divulge the names of other employees involved, fearing they would lose their jobs if identified.",
+      "question": "As used in the passage, \"divulge\" most nearly means",
+      "options": [
+        {
+          "t": "to record information officially"
+        },
+        {
+          "t": "to confirm information publicly and proudly"
+        },
+        {
+          "t": "to reveal sensitive information, often reluctantly",
+          "correct": true
+        },
+        {
+          "t": "to forget details over time"
+        }
+      ],
+      "words": [
+        "divulge"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The whistleblower refuses to reveal sensitive names, which is the meaning of divulge."
+    },
+    {
+      "passage": "In many traditions, a ring worn on a particular finger is thought to signify a person's marital status without a single word being spoken.",
+      "question": "As used in the passage, \"signify\" most nearly means",
+      "options": [
+        {
+          "t": "to physically decorate an object"
+        },
+        {
+          "t": "to serve as a sign or indication of something",
+          "correct": true
+        },
+        {
+          "t": "to celebrate a special occasion"
+        },
+        {
+          "t": "to purchase an item of jewelry"
+        }
+      ],
+      "words": [
+        "signify"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The ring acts as a symbol indicating marital status, which is the meaning of signify."
+    },
+    {
+      "passage": "Although the manager never said the project was doomed, her long pauses and reluctant tone seemed to imply that she had serious doubts about its success.",
+      "question": "As used in the passage, \"imply\" most nearly means",
+      "options": [
+        {
+          "t": "to state something plainly and directly"
+        },
+        {
+          "t": "to suggest something without saying it directly",
+          "correct": true
+        },
+        {
+          "t": "to praise a project's progress"
+        },
+        {
+          "t": "to formally cancel a plan"
+        }
+      ],
+      "words": [
+        "imply"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The manager's tone suggests doubt without stating it outright, which is the meaning of imply."
+    },
+    {
+      "passage": "The two consultants were hired for very different reasons: one for her deep technical expertise in software architecture, and the other for his broad mastery of client relationships built over thirty years in the industry.",
+      "question": "Which choice best describes the function of this sentence in a passage about hiring specialists?",
+      "options": [
+        {
+          "t": "It contrasts two distinct forms of professional skill valued by the firm",
+          "correct": true
+        },
+        {
+          "t": "It suggests the firm made a hiring mistake"
+        },
+        {
+          "t": "It argues that only technical skill matters in consulting"
+        },
+        {
+          "t": "It proves that client relationships are more valuable than expertise"
+        }
+      ],
+      "words": [
+        "expertise",
+        "mastery"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The sentence sets up a contrast between two different kinds of valuable skill, expertise and mastery, that the firm sought."
+    },
+    {
+      "passage": "The startup's engineers were told to produce a working prototype within six weeks, so they focused on the minimum features needed to create something they could actually test with users.",
+      "question": "As used in the passage, \"produce\" most nearly means",
+      "options": [
+        {
+          "t": "to sell a product to investors"
+        },
+        {
+          "t": "to make or bring something into existence",
+          "correct": true
+        },
+        {
+          "t": "to advertise a finished product"
+        },
+        {
+          "t": "to test a product's safety"
+        }
+      ],
+      "words": [
+        "produce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The engineers are making a prototype exist, which is the meaning of produce."
+    },
+    {
+      "passage": "The sculptor didn't just repair the broken statue; she used the fragments to create something entirely new, a piece that transformed damage into unexpected beauty.",
+      "question": "As used in the passage, \"create\" most nearly means",
+      "options": [
+        {
+          "t": "to copy an existing design"
+        },
+        {
+          "t": "to destroy an existing object"
+        },
+        {
+          "t": "to bring something new into existence",
+          "correct": true
+        },
+        {
+          "t": "to sell an artwork at auction"
+        }
+      ],
+      "words": [
+        "create"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The sculptor brings a new artwork into existence from fragments, which is the meaning of create."
+    },
+    {
+      "passage": "It took the small nonprofit nearly a decade to develop a reliable water filtration system that villages with no electricity could build and maintain themselves.",
+      "question": "As used in the passage, \"develop\" most nearly means",
+      "options": [
+        {
+          "t": "to gradually create and improve something over time",
+          "correct": true
+        },
+        {
+          "t": "to abandon an unsuccessful project"
+        },
+        {
+          "t": "to sell a finished product immediately"
+        },
+        {
+          "t": "to translate instructions into another language"
+        }
+      ],
+      "words": [
+        "develop"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The nonprofit works over years to create and refine the system, which is the meaning of develop."
+    },
+    {
+      "passage": "The head chef would conduct a taste test before every dinner service, sampling each sauce personally to ensure nothing left the kitchen below her standards.",
+      "question": "As used in the passage, \"conduct\" most nearly means",
+      "options": [
+        {
+          "t": "to lead an orchestra"
+        },
+        {
+          "t": "to train new staff"
+        },
+        {
+          "t": "to purchase ingredients"
+        },
+        {
+          "t": "to organize and carry out an activity",
+          "correct": true
+        }
+      ],
+      "words": [
+        "conduct"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The chef carries out the activity of tasting before service, which is the meaning of conduct."
+    },
+    {
+      "passage": "The surgeon had performed the same delicate operation more than a thousand times, and her steady hands rarely hesitated, even during unexpected complications.",
+      "question": "As used in the passage, \"performed\" most nearly means",
+      "options": [
+        {
+          "t": "trained a new colleague"
+        },
+        {
+          "t": "canceled a scheduled procedure"
+        },
+        {
+          "t": "watched an action without participating"
+        },
+        {
+          "t": "carried out a task or action",
+          "correct": true
+        }
+      ],
+      "words": [
+        "perform"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The surgeon carries out the operation, which is the meaning of perform."
+    },
+    {
+      "passage": "The scholarship required applicants to attain a minimum grade point average, a bar that eliminated nearly half of the students who initially applied.",
+      "question": "As used in the passage, \"attain\" most nearly means",
+      "options": [
+        {
+          "t": "to reach or achieve a required standard",
+          "correct": true
+        },
+        {
+          "t": "to apply for financial assistance"
+        },
+        {
+          "t": "to fall below a minimum requirement"
+        },
+        {
+          "t": "to graduate from a program"
+        }
+      ],
+      "words": [
+        "attain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Applicants must reach the required GPA, which is the meaning of attain."
+    },
+    {
+      "passage": "The company hoped the new marketing campaign would help it gain a foothold in a market where three larger competitors already dominated sales.",
+      "question": "As used in the passage, \"gain\" most nearly means",
+      "options": [
+        {
+          "t": "to shut down a business"
+        },
+        {
+          "t": "to obtain or acquire something desired",
+          "correct": true
+        },
+        {
+          "t": "to lose market share"
+        },
+        {
+          "t": "to merge with a competitor"
+        }
+      ],
+      "words": [
+        "gain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The company seeks to acquire a foothold in the market, which is the meaning of gain."
+    }
+  ]
+}

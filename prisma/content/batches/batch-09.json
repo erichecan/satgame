@@ -1,0 +1,1729 @@
+{
+  "words": [
+    {
+      "word": "formidable",
+      "pos": "adjective",
+      "definitionEn": "inspiring fear, respect, or awe because of great strength, size, or ability",
+      "exampleEn": "The chess champion was a formidable opponent who had not lost a match in three years.",
+      "tier": "sat_core",
+      "rank": 201
+    },
+    {
+      "word": "fortuitous",
+      "pos": "adjective",
+      "definitionEn": "happening by lucky chance rather than design",
+      "exampleEn": "Their meeting on the train turned out to be fortuitous, since he later hired her.",
+      "tier": "sat_core",
+      "rank": 202
+    },
+    {
+      "word": "fractious",
+      "pos": "adjective",
+      "definitionEn": "irritable and difficult to control",
+      "exampleEn": "The fractious committee could not agree on even the simplest agenda item.",
+      "tier": "sat_core",
+      "rank": 203
+    },
+    {
+      "word": "frivolous",
+      "pos": "adjective",
+      "definitionEn": "not having any serious purpose or value; silly",
+      "exampleEn": "The judge dismissed the lawsuit as frivolous, wasting the court's time.",
+      "tier": "sat_core",
+      "rank": 204,
+      "synonymGroup": "trivial-matters"
+    },
+    {
+      "word": "furtive",
+      "pos": "adjective",
+      "definitionEn": "attempting to avoid notice or attention, typically because of guilt or a desire to keep something secret",
+      "exampleEn": "She cast a furtive glance at the door before slipping the note into her pocket.",
+      "tier": "sat_core",
+      "rank": 205
+    },
+    {
+      "word": "futile",
+      "pos": "adjective",
+      "definitionEn": "incapable of producing any useful result; pointless",
+      "exampleEn": "His attempts to fix the ancient printer proved futile, so he bought a new one.",
+      "tier": "sat_core",
+      "rank": 206
+    },
+    {
+      "word": "garrulous",
+      "pos": "adjective",
+      "definitionEn": "excessively talkative, especially about trivial matters",
+      "exampleEn": "The garrulous cab driver talked for the entire forty-minute ride without pausing for breath.",
+      "tier": "sat_core",
+      "rank": 207,
+      "synonymGroup": "talkative-types"
+    },
+    {
+      "word": "genial",
+      "pos": "adjective",
+      "definitionEn": "friendly and warm in manner",
+      "exampleEn": "The genial host made every guest feel welcome from the moment they arrived.",
+      "tier": "sat_core",
+      "rank": 208
+    },
+    {
+      "word": "germane",
+      "pos": "adjective",
+      "definitionEn": "relevant to a subject under consideration",
+      "exampleEn": "The lawyer objected that the witness's comment was not germane to the case.",
+      "tier": "sat_core",
+      "rank": 209
+    },
+    {
+      "word": "gluttonous",
+      "pos": "adjective",
+      "definitionEn": "eating or consuming excessive amounts of food or resources",
+      "exampleEn": "The gluttonous raccoon devoured the entire bag of trail mix in minutes.",
+      "tier": "sat_core",
+      "rank": 210
+    },
+    {
+      "word": "grandiose",
+      "pos": "adjective",
+      "definitionEn": "impressively large or ambitious, often in an exaggerated or unrealistic way",
+      "exampleEn": "His grandiose plan to build a floating city struck investors as pure fantasy.",
+      "tier": "sat_core",
+      "rank": 211
+    },
+    {
+      "word": "gratuitous",
+      "pos": "adjective",
+      "definitionEn": "given or done without good reason; uncalled for",
+      "exampleEn": "Critics complained that the film's violence was gratuitous and added nothing to the story.",
+      "tier": "sat_core",
+      "rank": 212
+    },
+    {
+      "word": "gregarious",
+      "pos": "adjective",
+      "definitionEn": "fond of company; sociable",
+      "exampleEn": "Her gregarious personality made her the center of every party she attended.",
+      "tier": "sat_core",
+      "rank": 213
+    },
+    {
+      "word": "guile",
+      "pos": "noun",
+      "definitionEn": "clever or cunning deception used to trick someone",
+      "exampleEn": "The con artist used guile to convince the couple to sign away their savings.",
+      "tier": "sat_core",
+      "rank": 214
+    },
+    {
+      "word": "hackneyed",
+      "pos": "adjective",
+      "definitionEn": "overused and lacking originality due to too much repetition",
+      "exampleEn": "The screenwriter relied on hackneyed phrases like 'it was a dark and stormy night.'",
+      "tier": "sat_core",
+      "rank": 215
+    },
+    {
+      "word": "hapless",
+      "pos": "adjective",
+      "definitionEn": "unlucky; unfortunate",
+      "exampleEn": "The hapless intern spilled coffee on the CEO during his very first week.",
+      "tier": "sat_core",
+      "rank": 216
+    },
+    {
+      "word": "haughty",
+      "pos": "adjective",
+      "definitionEn": "arrogantly superior and disdainful toward others",
+      "exampleEn": "The haughty duchess refused to speak to anyone she considered beneath her rank.",
+      "tier": "sat_core",
+      "rank": 217,
+      "synonymGroup": "arrogant-attitude"
+    },
+    {
+      "word": "hedonist",
+      "pos": "noun",
+      "definitionEn": "a person who believes that pleasure is the most important thing in life and pursues it",
+      "exampleEn": "As a committed hedonist, he planned every vacation around fine dining and luxury spas.",
+      "tier": "sat_core",
+      "rank": 218
+    },
+    {
+      "word": "heretical",
+      "pos": "adjective",
+      "definitionEn": "contrary to widely accepted beliefs or established doctrine",
+      "exampleEn": "The scientist's heretical theory contradicted decades of accepted research.",
+      "tier": "sat_core",
+      "rank": 219
+    },
+    {
+      "word": "hierarchy",
+      "pos": "noun",
+      "definitionEn": "a system in which people or things are ranked one above another according to status or authority",
+      "exampleEn": "New employees quickly learned the company's strict hierarchy of approval before making any decision.",
+      "tier": "sat_core",
+      "rank": 220
+    },
+    {
+      "word": "homogeneous",
+      "pos": "adjective",
+      "definitionEn": "consisting of parts or elements that are all the same type",
+      "exampleEn": "The classroom was surprisingly homogeneous, with students sharing nearly identical backgrounds.",
+      "tier": "sat_core",
+      "rank": 221
+    },
+    {
+      "word": "hubris",
+      "pos": "noun",
+      "definitionEn": "excessive pride or self-confidence that leads to one's downfall",
+      "exampleEn": "The general's hubris led him to ignore warnings and march his army into a trap.",
+      "tier": "sat_core",
+      "rank": 222
+    },
+    {
+      "word": "humdrum",
+      "pos": "adjective",
+      "definitionEn": "lacking excitement or variety; dull and monotonous",
+      "exampleEn": "She longed to escape her humdrum routine of commuting, working, and sleeping.",
+      "tier": "sat_core",
+      "rank": 223
+    },
+    {
+      "word": "hyperbole",
+      "pos": "noun",
+      "definitionEn": "exaggerated statements not meant to be taken literally",
+      "exampleEn": "Saying he was 'starving to death' was pure hyperbole; he had eaten just an hour earlier.",
+      "tier": "sat_core",
+      "rank": 224
+    },
+    {
+      "word": "iconoclast",
+      "pos": "noun",
+      "definitionEn": "a person who attacks or challenges cherished beliefs or traditional institutions",
+      "exampleEn": "The artist was known as an iconoclast who rejected every convention of classical painting.",
+      "tier": "sat_core",
+      "rank": 225
+    },
+    {
+      "word": "idiosyncrasy",
+      "pos": "noun",
+      "definitionEn": "a peculiar or distinctive habit or trait belonging to a particular person",
+      "exampleEn": "One of his idiosyncrasies was refusing to eat food that touched other food on his plate.",
+      "tier": "sat_core",
+      "rank": 226
+    },
+    {
+      "word": "ignominious",
+      "pos": "adjective",
+      "definitionEn": "deserving or causing public shame or disgrace",
+      "exampleEn": "The team suffered an ignominious defeat, losing by fifty points at home.",
+      "tier": "sat_core",
+      "rank": 227
+    },
+    {
+      "word": "illicit",
+      "pos": "adjective",
+      "definitionEn": "forbidden by law, rules, or custom",
+      "exampleEn": "Police raided the warehouse where illicit goods were being stored and sold.",
+      "tier": "sat_core",
+      "rank": 228
+    },
+    {
+      "word": "immutable",
+      "pos": "adjective",
+      "definitionEn": "unchanging over time or unable to be changed",
+      "exampleEn": "The scientists treated the law of gravity as an immutable fact of the universe.",
+      "tier": "sat_core",
+      "rank": 229
+    },
+    {
+      "word": "impartial",
+      "pos": "adjective",
+      "definitionEn": "treating all sides or parties equally; not biased",
+      "exampleEn": "The judge remained impartial throughout the trial, favoring neither side.",
+      "tier": "sat_core",
+      "rank": 230
+    },
+    {
+      "word": "impassive",
+      "pos": "adjective",
+      "definitionEn": "not feeling or showing emotion",
+      "exampleEn": "He kept an impassive face even as the verdict was read aloud.",
+      "tier": "sat_core",
+      "rank": 231
+    },
+    {
+      "word": "impeccable",
+      "pos": "adjective",
+      "definitionEn": "in accordance with the highest standards; flawless",
+      "exampleEn": "Her impeccable manners impressed everyone at the formal dinner.",
+      "tier": "sat_core",
+      "rank": 232
+    },
+    {
+      "word": "imperious",
+      "pos": "adjective",
+      "definitionEn": "assuming power or authority without justification; domineering",
+      "exampleEn": "The imperious manager barked orders at employees without ever saying please.",
+      "tier": "sat_core",
+      "rank": 233,
+      "synonymGroup": "arrogant-attitude"
+    },
+    {
+      "word": "impertinent",
+      "pos": "adjective",
+      "definitionEn": "not showing proper respect; rude",
+      "exampleEn": "The teacher scolded the student for his impertinent remarks during the lecture.",
+      "tier": "sat_core",
+      "rank": 234
+    },
+    {
+      "word": "impervious",
+      "pos": "adjective",
+      "definitionEn": "unable to be affected or influenced by something",
+      "exampleEn": "The coating made the fabric impervious to water and stains.",
+      "tier": "sat_core",
+      "rank": 235
+    },
+    {
+      "word": "implacable",
+      "pos": "adjective",
+      "definitionEn": "unable to be appeased or satisfied; relentless",
+      "exampleEn": "The detective became an implacable pursuer, never giving up on the case.",
+      "tier": "sat_core",
+      "rank": 236
+    },
+    {
+      "word": "impudent",
+      "pos": "adjective",
+      "definitionEn": "not showing due respect for another person; impertinently bold",
+      "exampleEn": "The impudent child stuck out his tongue at the principal.",
+      "tier": "sat_core",
+      "rank": 237
+    },
+    {
+      "word": "impulsive",
+      "pos": "adjective",
+      "definitionEn": "acting or done without forethought",
+      "exampleEn": "Her impulsive decision to quit her job left her scrambling to pay rent.",
+      "tier": "sat_core",
+      "rank": 238
+    },
+    {
+      "word": "inadvertent",
+      "pos": "adjective",
+      "definitionEn": "not resulting from careful thought; unintentional",
+      "exampleEn": "The chef's inadvertent use of the wrong spice ruined the entire dish.",
+      "tier": "sat_core",
+      "rank": 239
+    },
+    {
+      "word": "inane",
+      "pos": "adjective",
+      "definitionEn": "silly; lacking sense or meaning",
+      "exampleEn": "The talk show host asked a series of inane questions that revealed nothing new.",
+      "tier": "sat_core",
+      "rank": 240
+    },
+    {
+      "word": "incendiary",
+      "pos": "adjective",
+      "definitionEn": "tending to stir up conflict; inflammatory",
+      "exampleEn": "The politician's incendiary speech provoked outrage from both sides of the debate.",
+      "tier": "sat_core",
+      "rank": 241
+    },
+    {
+      "word": "incessant",
+      "pos": "adjective",
+      "definitionEn": "continuing without pause or interruption",
+      "exampleEn": "The incessant rain flooded the streets after three straight days of storms.",
+      "tier": "sat_core",
+      "rank": 242
+    },
+    {
+      "word": "incisive",
+      "pos": "adjective",
+      "definitionEn": "showing clear thought and sharp understanding; direct and effective",
+      "exampleEn": "Her incisive questions exposed the weaknesses in his argument immediately.",
+      "tier": "sat_core",
+      "rank": 243
+    },
+    {
+      "word": "incongruous",
+      "pos": "adjective",
+      "definitionEn": "not in harmony or keeping with the surroundings; out of place",
+      "exampleEn": "The skyscraper looked incongruous next to the row of centuries-old cottages.",
+      "tier": "sat_core",
+      "rank": 244
+    },
+    {
+      "word": "inconsequential",
+      "pos": "adjective",
+      "definitionEn": "not important; of no significant effect",
+      "exampleEn": "He dismissed the typo as inconsequential compared to the report's overall findings.",
+      "tier": "sat_core",
+      "rank": 245
+    },
+    {
+      "word": "incorrigible",
+      "pos": "adjective",
+      "definitionEn": "not able to be corrected, improved, or reformed",
+      "exampleEn": "The incorrigible prankster kept pulling jokes even after multiple detentions.",
+      "tier": "sat_core",
+      "rank": 246
+    },
+    {
+      "word": "incredulous",
+      "pos": "adjective",
+      "definitionEn": "unwilling or unable to believe something",
+      "exampleEn": "She gave an incredulous stare when told the flight had been delayed six hours.",
+      "tier": "sat_core",
+      "rank": 247
+    },
+    {
+      "word": "indifferent",
+      "pos": "adjective",
+      "definitionEn": "having no particular interest or concern; showing no bias",
+      "exampleEn": "He remained indifferent to the outcome of the game, since neither team was his favorite.",
+      "tier": "sat_core",
+      "rank": 248
+    },
+    {
+      "word": "indolent",
+      "pos": "adjective",
+      "definitionEn": "wanting to avoid activity or exertion; lazy",
+      "exampleEn": "The indolent cat spent the entire afternoon sleeping in a sunbeam.",
+      "tier": "sat_core",
+      "rank": 249,
+      "synonymGroup": "low-energy"
+    },
+    {
+      "word": "inept",
+      "pos": "adjective",
+      "definitionEn": "having or showing no skill; clumsy",
+      "exampleEn": "His inept handling of the negotiations cost the company a major contract.",
+      "tier": "sat_core",
+      "rank": 250
+    },
+    {
+      "word": "inevitable",
+      "pos": "adjective",
+      "definitionEn": "certain to happen; unavoidable",
+      "exampleEn": "Given the storm's path, evacuation became inevitable by Tuesday morning.",
+      "tier": "sat_core",
+      "rank": 251
+    },
+    {
+      "word": "infamous",
+      "pos": "adjective",
+      "definitionEn": "well known for some bad quality or deed",
+      "exampleEn": "The pirate became infamous for raiding ships along the entire coastline.",
+      "tier": "sat_core",
+      "rank": 252
+    },
+    {
+      "word": "ingenious",
+      "pos": "adjective",
+      "definitionEn": "clever, original, and inventive",
+      "exampleEn": "Her ingenious solution used household items to fix the broken machine.",
+      "tier": "sat_core",
+      "rank": 253
+    },
+    {
+      "word": "ingenuous",
+      "pos": "adjective",
+      "definitionEn": "innocent and unsuspecting; showing simple sincerity",
+      "exampleEn": "The ingenuous child believed every word the stranger told her.",
+      "tier": "sat_core",
+      "rank": 254
+    },
+    {
+      "word": "inherent",
+      "pos": "adjective",
+      "definitionEn": "existing as a natural or basic part of something",
+      "exampleEn": "Risk is inherent in any investment, no matter how careful the planning.",
+      "tier": "sat_core",
+      "rank": 255,
+      "synonymGroup": "built-in-qualities"
+    },
+    {
+      "word": "inimical",
+      "pos": "adjective",
+      "definitionEn": "tending to obstruct or harm; hostile",
+      "exampleEn": "The harsh climate proved inimical to farming in that region.",
+      "tier": "sat_core",
+      "rank": 256
+    },
+    {
+      "word": "innate",
+      "pos": "adjective",
+      "definitionEn": "inborn; natural rather than acquired",
+      "exampleEn": "She had an innate talent for music that no amount of practice could fully explain.",
+      "tier": "sat_core",
+      "rank": 257,
+      "synonymGroup": "built-in-qualities"
+    },
+    {
+      "word": "innocuous",
+      "pos": "adjective",
+      "definitionEn": "not harmful or offensive",
+      "exampleEn": "The comment seemed innocuous at first, but it later caused an argument.",
+      "tier": "sat_core",
+      "rank": 258
+    },
+    {
+      "word": "insatiable",
+      "pos": "adjective",
+      "definitionEn": "impossible to satisfy; always wanting more",
+      "exampleEn": "His insatiable curiosity led him to read every book in the library.",
+      "tier": "sat_core",
+      "rank": 259
+    },
+    {
+      "word": "insipid",
+      "pos": "adjective",
+      "definitionEn": "lacking flavor, spirit, or interest; dull",
+      "exampleEn": "The soup was so insipid that she reached for the salt shaker immediately.",
+      "tier": "sat_core",
+      "rank": 260
+    },
+    {
+      "word": "insolent",
+      "pos": "adjective",
+      "definitionEn": "showing a rude and disrespectful lack of respect",
+      "exampleEn": "The insolent waiter rolled his eyes when asked for a refill.",
+      "tier": "sat_core",
+      "rank": 261
+    },
+    {
+      "word": "insular",
+      "pos": "adjective",
+      "definitionEn": "narrow-minded or isolated in outlook; ignorant of other cultures",
+      "exampleEn": "Growing up on the remote island made the community somewhat insular in its views.",
+      "tier": "sat_core",
+      "rank": 262
+    },
+    {
+      "word": "inundate",
+      "pos": "verb",
+      "definitionEn": "to overwhelm someone with things or people to deal with",
+      "exampleEn": "The office was inundated with complaints after the website crashed.",
+      "tier": "sat_core",
+      "rank": 263
+    },
+    {
+      "word": "inveterate",
+      "pos": "adjective",
+      "definitionEn": "having a long-standing habit that is unlikely to change",
+      "exampleEn": "As an inveterate gambler, he had lost and won several fortunes over the decades.",
+      "tier": "sat_core",
+      "rank": 264
+    },
+    {
+      "word": "irascible",
+      "pos": "adjective",
+      "definitionEn": "easily made angry; hot-tempered",
+      "exampleEn": "The irascible chef screamed at anyone who touched his knives.",
+      "tier": "sat_core",
+      "rank": 265
+    },
+    {
+      "word": "irresolute",
+      "pos": "adjective",
+      "definitionEn": "unable to decide on a course of action; hesitant",
+      "exampleEn": "The irresolute manager kept postponing the decision, frustrating the entire team.",
+      "tier": "sat_core",
+      "rank": 266
+    },
+    {
+      "word": "itinerant",
+      "pos": "adjective",
+      "definitionEn": "traveling from place to place, especially for work",
+      "exampleEn": "The itinerant preacher moved from town to town, never staying long in one place.",
+      "tier": "sat_core",
+      "rank": 267
+    },
+    {
+      "word": "jocular",
+      "pos": "adjective",
+      "definitionEn": "fond of joking; humorous",
+      "exampleEn": "His jocular tone put the nervous patients at ease before surgery.",
+      "tier": "sat_core",
+      "rank": 268
+    },
+    {
+      "word": "judicious",
+      "pos": "adjective",
+      "definitionEn": "having or showing good judgment; sensible",
+      "exampleEn": "Her judicious use of the limited budget kept the project on track.",
+      "tier": "sat_core",
+      "rank": 269
+    },
+    {
+      "word": "juxtapose",
+      "pos": "verb",
+      "definitionEn": "to place two things side by side for comparison or contrast",
+      "exampleEn": "The exhibit juxtaposed old photographs with modern ones to show the city's change.",
+      "tier": "sat_core",
+      "rank": 270
+    },
+    {
+      "word": "laconic",
+      "pos": "adjective",
+      "definitionEn": "using very few words; terse",
+      "exampleEn": "His laconic reply of 'no' ended the debate immediately.",
+      "tier": "sat_core",
+      "rank": 271,
+      "synonymGroup": "talkative-types"
+    },
+    {
+      "word": "lament",
+      "pos": "verb",
+      "definitionEn": "to express sorrow or regret about something",
+      "exampleEn": "The villagers gathered to lament the loss of their beloved schoolteacher.",
+      "tier": "sat_core",
+      "rank": 272
+    },
+    {
+      "word": "languid",
+      "pos": "adjective",
+      "definitionEn": "lacking energy or vitality; slow and relaxed",
+      "exampleEn": "They spent a languid afternoon swaying in hammocks by the lake.",
+      "tier": "sat_core",
+      "rank": 273,
+      "synonymGroup": "low-energy"
+    },
+    {
+      "word": "largesse",
+      "pos": "noun",
+      "definitionEn": "generosity in giving money or other gifts to others",
+      "exampleEn": "The billionaire's largesse funded a new hospital wing for the city.",
+      "tier": "sat_core",
+      "rank": 274
+    },
+    {
+      "word": "latent",
+      "pos": "adjective",
+      "definitionEn": "present but not yet developed or manifest; hidden",
+      "exampleEn": "The coach recognized a latent talent in the shy freshman.",
+      "tier": "sat_core",
+      "rank": 275
+    },
+    {
+      "word": "laudable",
+      "pos": "adjective",
+      "definitionEn": "deserving praise and commendation",
+      "exampleEn": "Her laudable effort to raise funds for the shelter earned citywide recognition.",
+      "tier": "sat_core",
+      "rank": 276
+    },
+    {
+      "word": "lethargic",
+      "pos": "adjective",
+      "definitionEn": "affected by sluggishness and lack of energy",
+      "exampleEn": "After the long flight, he felt too lethargic to unpack his bags.",
+      "tier": "sat_core",
+      "rank": 277,
+      "synonymGroup": "low-energy"
+    },
+    {
+      "word": "levity",
+      "pos": "noun",
+      "definitionEn": "the treatment of a serious matter with humor or lack of due respect",
+      "exampleEn": "She tried to bring some levity to the tense meeting with a joke.",
+      "tier": "sat_core",
+      "rank": 278
+    },
+    {
+      "word": "licentious",
+      "pos": "adjective",
+      "definitionEn": "disregarding accepted moral or sexual rules; promiscuous",
+      "exampleEn": "The novel's licentious characters shocked readers accustomed to more modest fiction.",
+      "tier": "sat_core",
+      "rank": 279
+    },
+    {
+      "word": "loquacious",
+      "pos": "adjective",
+      "definitionEn": "very talkative",
+      "exampleEn": "The loquacious guide narrated every detail of the tour, whether asked or not.",
+      "tier": "sat_core",
+      "rank": 280,
+      "synonymGroup": "talkative-types"
+    },
+    {
+      "word": "lucid",
+      "pos": "adjective",
+      "definitionEn": "clear and easy to understand; mentally clear",
+      "exampleEn": "Despite her illness, the patient remained lucid enough to answer every question.",
+      "tier": "sat_core",
+      "rank": 281
+    },
+    {
+      "word": "lucrative",
+      "pos": "adjective",
+      "definitionEn": "producing a great deal of profit",
+      "exampleEn": "The startup's founders signed a lucrative deal with a major retailer.",
+      "tier": "sat_core",
+      "rank": 282
+    },
+    {
+      "word": "ludicrous",
+      "pos": "adjective",
+      "definitionEn": "so foolish, unreasonable, or out of place as to be amusing",
+      "exampleEn": "The idea of driving across the country in a golf cart seemed ludicrous.",
+      "tier": "sat_core",
+      "rank": 283
+    },
+    {
+      "word": "malaise",
+      "pos": "noun",
+      "definitionEn": "a general feeling of discomfort, illness, or unease",
+      "exampleEn": "A sense of malaise spread through the office after the layoffs were announced.",
+      "tier": "sat_core",
+      "rank": 284
+    },
+    {
+      "word": "malevolent",
+      "pos": "adjective",
+      "definitionEn": "having or showing a wish to do evil to others",
+      "exampleEn": "The malevolent villain plotted to destroy the entire village out of spite.",
+      "tier": "sat_core",
+      "rank": 285
+    },
+    {
+      "word": "malinger",
+      "pos": "verb",
+      "definitionEn": "to exaggerate or fake illness to avoid work or duty",
+      "exampleEn": "The soldier was accused of malingering to avoid being sent to the front lines.",
+      "tier": "sat_core",
+      "rank": 286
+    },
+    {
+      "word": "malleable",
+      "pos": "adjective",
+      "definitionEn": "easily influenced or shaped; capable of being molded",
+      "exampleEn": "Gold is a highly malleable metal, easily hammered into thin sheets.",
+      "tier": "sat_core",
+      "rank": 287
+    },
+    {
+      "word": "mendacious",
+      "pos": "adjective",
+      "definitionEn": "lying; untruthful",
+      "exampleEn": "The witness's mendacious testimony was later contradicted by video evidence.",
+      "tier": "sat_core",
+      "rank": 288
+    },
+    {
+      "word": "mercenary",
+      "pos": "adjective",
+      "definitionEn": "motivated primarily by desire for money or personal gain",
+      "exampleEn": "His mercenary approach to charity work made colleagues question his true motives.",
+      "tier": "sat_core",
+      "rank": 289
+    },
+    {
+      "word": "mercurial",
+      "pos": "adjective",
+      "definitionEn": "subject to sudden or unpredictable changes of mood",
+      "exampleEn": "The mercurial director could praise an actor one moment and scream at them the next.",
+      "tier": "sat_core",
+      "rank": 290
+    },
+    {
+      "word": "meritorious",
+      "pos": "adjective",
+      "definitionEn": "deserving reward or praise",
+      "exampleEn": "The soldier received a medal for his meritorious service during the rescue mission.",
+      "tier": "sat_core",
+      "rank": 291
+    },
+    {
+      "word": "metamorphosis",
+      "pos": "noun",
+      "definitionEn": "a complete change of form or nature",
+      "exampleEn": "The caterpillar's metamorphosis into a butterfly fascinated the young students.",
+      "tier": "sat_core",
+      "rank": 292
+    },
+    {
+      "word": "misanthrope",
+      "pos": "noun",
+      "definitionEn": "a person who dislikes and avoids other people",
+      "exampleEn": "The old misanthrope lived alone in the woods and refused all visitors.",
+      "tier": "sat_core",
+      "rank": 293
+    },
+    {
+      "word": "mollify",
+      "pos": "verb",
+      "definitionEn": "to calm or soothe an angry or upset person",
+      "exampleEn": "The manager tried to mollify the furious customer with a full refund.",
+      "tier": "sat_core",
+      "rank": 294
+    },
+    {
+      "word": "morose",
+      "pos": "adjective",
+      "definitionEn": "sullen and ill-tempered; gloomy",
+      "exampleEn": "He sat in the corner, morose and silent, after losing the championship.",
+      "tier": "sat_core",
+      "rank": 295
+    },
+    {
+      "word": "mundane",
+      "pos": "adjective",
+      "definitionEn": "lacking excitement; dull; commonplace",
+      "exampleEn": "Washing dishes and folding laundry are among life's most mundane chores.",
+      "tier": "sat_core",
+      "rank": 296
+    },
+    {
+      "word": "munificent",
+      "pos": "adjective",
+      "definitionEn": "extremely generous",
+      "exampleEn": "The munificent donor gave enough to build an entire new library wing.",
+      "tier": "sat_core",
+      "rank": 297
+    },
+    {
+      "word": "myopic",
+      "pos": "adjective",
+      "definitionEn": "lacking imagination, foresight, or intellectual insight; narrow-minded",
+      "exampleEn": "Critics called the policy myopic, warning it ignored long-term consequences.",
+      "tier": "sat_core",
+      "rank": 298
+    },
+    {
+      "word": "nefarious",
+      "pos": "adjective",
+      "definitionEn": "wicked or criminal",
+      "exampleEn": "The detective uncovered the crime boss's nefarious scheme just in time.",
+      "tier": "sat_core",
+      "rank": 299
+    },
+    {
+      "word": "negligent",
+      "pos": "adjective",
+      "definitionEn": "failing to take proper care over something; careless",
+      "exampleEn": "The company was found negligent after ignoring repeated safety warnings.",
+      "tier": "sat_core",
+      "rank": 300
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "Unlike her introverted brother, who preferred solitary hikes, Mia was gregarious, organizing weekly game nights and always the first to introduce herself to new neighbors.",
+      "question": "As used in the passage, 'gregarious' most nearly means",
+      "options": [
+        {
+          "t": "intelligent and studious"
+        },
+        {
+          "t": "anxious and nervous"
+        },
+        {
+          "t": "shy and withdrawn"
+        },
+        {
+          "correct": true,
+          "t": "sociable and outgoing"
+        }
+      ],
+      "words": [
+        "gregarious"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The contrast with her 'introverted brother' and her habit of organizing game nights shows Mia's outgoing, sociable nature."
+    },
+    {
+      "passage": "As a self-described hedonist, Marco structured his entire year around pleasure: leisurely brunches, spa weekends, and vacations chosen solely for their beaches and cuisine.",
+      "question": "Which choice best describes the function of the phrase 'structured his entire year around pleasure' in the passage?",
+      "options": [
+        {
+          "t": "It proves Marco is financially irresponsible."
+        },
+        {
+          "t": "It contradicts the claim that Marco is a hedonist."
+        },
+        {
+          "correct": true,
+          "t": "It illustrates what makes Marco a hedonist."
+        },
+        {
+          "t": "It shows Marco's disdain for luxury."
+        }
+      ],
+      "words": [
+        "hedonist"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The phrase provides concrete evidence — brunches, spas, vacations chosen for pleasure — supporting the label 'hedonist.'"
+    },
+    {
+      "passage": "The founders wrote the amendment process to be difficult, but they never intended the Constitution's core principles to be treated as immutable; they expected future generations to adapt them.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The amendment process was designed to be effortless."
+        },
+        {
+          "t": "The Constitution cannot be changed under any circumstances."
+        },
+        {
+          "t": "Future generations rejected the founders' intentions."
+        },
+        {
+          "correct": true,
+          "t": "The founders expected the Constitution's principles to evolve, not remain fixed forever."
+        }
+      ],
+      "words": [
+        "immutable"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage states the founders 'never intended' the principles to be unchangeable and expected adaptation, which is the main idea."
+    },
+    {
+      "passage": "Amid the funeral's solemn atmosphere, a moment of levity arrived when the grandfather's favorite silly joke was read aloud, and mourners laughed through their tears.",
+      "question": "Which choice best describes the function of the phrase 'a moment of levity' in the passage?",
+      "options": [
+        {
+          "t": "It proves the joke was inappropriate."
+        },
+        {
+          "t": "It contradicts the description of the funeral as solemn."
+        },
+        {
+          "correct": true,
+          "t": "It highlights a brief break from the solemn mood through humor."
+        },
+        {
+          "t": "It shows that the mourners were disrespectful."
+        }
+      ],
+      "words": [
+        "levity"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The phrase marks a shift from solemnity to a brief, humorous moment, which is the function of levity in the passage."
+    },
+    {
+      "passage": "Though the visiting chess grandmaster looked unassuming in his rumpled sweater, local players quickly learned he was a formidable opponent: in twenty simultaneous games, he lost not a single one, dispatching challengers with ruthless efficiency.",
+      "question": "As used in the passage, 'formidable' most nearly means",
+      "options": [
+        {
+          "t": "impressively powerful and hard to defeat",
+          "correct": true
+        },
+        {
+          "t": "poorly dressed"
+        },
+        {
+          "t": "friendly and approachable"
+        },
+        {
+          "t": "unusually careless"
+        }
+      ],
+      "words": [
+        "formidable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes the grandmaster winning all twenty games with ruthless efficiency, showing he was powerful and difficult to beat."
+    },
+    {
+      "passage": "By the third hour of the budget meeting, the once-orderly committee had become fractious, members interrupting one another and refusing to compromise on even the smallest line item.",
+      "question": "As used in the passage, 'fractious' most nearly means",
+      "options": [
+        {
+          "t": "extremely generous"
+        },
+        {
+          "t": "quiet and reserved"
+        },
+        {
+          "correct": true,
+          "t": "irritable and hard to manage"
+        },
+        {
+          "t": "well organized"
+        }
+      ],
+      "words": [
+        "fractious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Members interrupting each other and refusing to compromise shows the committee had become irritable and difficult to control."
+    },
+    {
+      "passage": "Engineers spent months trying to seal the leak, but every patch failed within days; eventually they admitted their efforts were futile and redesigned the entire pipeline from scratch.",
+      "question": "As used in the passage, 'futile' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "producing no useful result"
+        },
+        {
+          "t": "quickly completed"
+        },
+        {
+          "t": "extremely expensive"
+        },
+        {
+          "t": "highly successful"
+        }
+      ],
+      "words": [
+        "futile"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Every patch failing within days shows the engineers' repair efforts produced no useful result."
+    },
+    {
+      "passage": "Unlike the stiff, formal professors down the hall, Dr. Alvarez had a genial way of greeting every student by name and asking about their weekend before diving into calculus.",
+      "question": "As used in the passage, 'genial' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "warm and friendly"
+        },
+        {
+          "t": "confused and disorganized"
+        },
+        {
+          "t": "strict and demanding"
+        },
+        {
+          "t": "cold and distant"
+        }
+      ],
+      "words": [
+        "genial"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Greeting students warmly and asking about their weekend contrasts with 'stiff, formal' professors, showing friendliness."
+    },
+    {
+      "passage": "The novel's final chapter includes a gratuitous ten-page description of a battle that has no bearing on the plot, seemingly included only to pad the page count.",
+      "question": "As used in the passage, 'gratuitous' most nearly means",
+      "options": [
+        {
+          "t": "beautifully written"
+        },
+        {
+          "t": "essential to the plot"
+        },
+        {
+          "correct": true,
+          "t": "unnecessary and unjustified"
+        },
+        {
+          "t": "historically accurate"
+        }
+      ],
+      "words": [
+        "gratuitous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The description 'has no bearing on the plot' and seems included only to pad length, meaning it was unnecessary."
+    },
+    {
+      "passage": "The critic panned the romance novel for its hackneyed plot: star-crossed lovers, a jealous rival, and a wedding interrupted at the last second — tropes readers had seen a thousand times before.",
+      "question": "As used in the passage, 'hackneyed' most nearly means",
+      "options": [
+        {
+          "t": "emotionally powerful"
+        },
+        {
+          "t": "original and surprising"
+        },
+        {
+          "t": "poorly translated"
+        },
+        {
+          "correct": true,
+          "t": "overused and unoriginal"
+        }
+      ],
+      "words": [
+        "hackneyed"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The critic notes readers 'had seen a thousand times before,' meaning the plot elements were overused clichés."
+    },
+    {
+      "passage": "When the young monk proposed that scripture be reinterpreted in light of new discoveries, church elders branded the idea heretical and banned him from preaching.",
+      "question": "As used in the passage, 'heretical' most nearly means",
+      "options": [
+        {
+          "t": "widely accepted"
+        },
+        {
+          "correct": true,
+          "t": "contrary to accepted doctrine"
+        },
+        {
+          "t": "poorly researched"
+        },
+        {
+          "t": "financially motivated"
+        }
+      ],
+      "words": [
+        "heretical"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The elders' reaction — banning the monk — shows his proposal was seen as violating established religious doctrine."
+    },
+    {
+      "passage": "The suburb's population was remarkably homogeneous: nearly every household shared the same income bracket, the same commute, and the same taste in lawn ornaments.",
+      "question": "As used in the passage, 'homogeneous' most nearly means",
+      "options": [
+        {
+          "t": "financially unstable"
+        },
+        {
+          "t": "rapidly growing"
+        },
+        {
+          "t": "diverse and varied"
+        },
+        {
+          "correct": true,
+          "t": "uniform in composition"
+        }
+      ],
+      "words": [
+        "homogeneous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Sharing the same income, commute, and taste across nearly every household describes a population that is uniform, not diverse."
+    },
+    {
+      "passage": "Rejecting the conservative academy's rules of proportion and realism, the young sculptor became an iconoclast, smashing traditional forms to create jagged, unrecognizable shapes that scandalized critics.",
+      "question": "As used in the passage, 'iconoclast' most nearly means",
+      "options": [
+        {
+          "t": "a strict follower of tradition"
+        },
+        {
+          "t": "a museum curator"
+        },
+        {
+          "t": "a wealthy art collector"
+        },
+        {
+          "correct": true,
+          "t": "one who challenges established conventions"
+        }
+      ],
+      "words": [
+        "iconoclast"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Rejecting the academy's rules and scandalizing critics with unconventional forms marks the sculptor as someone who challenges tradition."
+    },
+    {
+      "passage": "After being caught bribing officials, the mayor resigned in an ignominious ceremony, escorted from city hall past reporters shouting questions about the scandal.",
+      "question": "As used in the passage, 'ignominious' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "shameful and disgraceful"
+        },
+        {
+          "t": "dignified and respected"
+        },
+        {
+          "t": "quiet and unnoticed"
+        },
+        {
+          "t": "celebratory"
+        }
+      ],
+      "words": [
+        "ignominious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Resigning after a bribery scandal while reporters shout questions describes a public and disgraceful exit."
+    },
+    {
+      "passage": "Even as the crowd erupted in cheers and jeers around him, the veteran umpire remained impassive, his expression unchanged as he made the final call.",
+      "question": "As used in the passage, 'impassive' most nearly means",
+      "options": [
+        {
+          "t": "openly biased"
+        },
+        {
+          "t": "extremely nervous"
+        },
+        {
+          "correct": true,
+          "t": "showing no emotion"
+        },
+        {
+          "t": "visibly emotional"
+        }
+      ],
+      "words": [
+        "impassive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The umpire's expression stayed unchanged despite the crowd's reaction, showing an absence of visible emotion."
+    },
+    {
+      "passage": "The new supervisor's imperious manner — issuing commands without explanation and expecting instant obedience — quickly alienated a staff accustomed to collaborative decision-making.",
+      "question": "As used in the passage, 'imperious' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "domineering and authoritarian"
+        },
+        {
+          "t": "shy and hesitant"
+        },
+        {
+          "t": "generous and kind"
+        },
+        {
+          "t": "humble and cooperative"
+        }
+      ],
+      "words": [
+        "imperious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Issuing commands without explanation and demanding instant obedience describes domineering, authoritarian behavior."
+    },
+    {
+      "passage": "No apology, no compromise, and no plea could satisfy the implacable creditor, who pursued the family for every last cent regardless of their circumstances.",
+      "question": "As used in the passage, 'implacable' most nearly means",
+      "options": [
+        {
+          "t": "easily forgiving"
+        },
+        {
+          "correct": true,
+          "t": "impossible to appease"
+        },
+        {
+          "t": "financially generous"
+        },
+        {
+          "t": "uncertain and hesitant"
+        }
+      ],
+      "words": [
+        "implacable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "No apology or plea could satisfy the creditor, showing he could not be appeased or softened."
+    },
+    {
+      "passage": "When told the marathon had been canceled due to a parade permit mix-up, the runners stared back with incredulous expressions, certain they had misheard.",
+      "question": "As used in the passage, 'incredulous' most nearly means",
+      "options": [
+        {
+          "t": "indifferent"
+        },
+        {
+          "t": "delighted"
+        },
+        {
+          "t": "furious"
+        },
+        {
+          "correct": true,
+          "t": "unwilling to believe"
+        }
+      ],
+      "words": [
+        "incredulous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being 'certain they had misheard' shows the runners could not believe the news, matching 'incredulous.'"
+    },
+    {
+      "passage": "The editor cut the subplot, deeming it inconsequential to a story that was, at its heart, about a father reconciling with his estranged son.",
+      "question": "As used in the passage, 'inconsequential' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "unimportant"
+        },
+        {
+          "t": "expensive to film"
+        },
+        {
+          "t": "essential"
+        },
+        {
+          "t": "controversial"
+        }
+      ],
+      "words": [
+        "inconsequential"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The editor cut the subplot because it did not matter to the core story, meaning it was unimportant."
+    },
+    {
+      "passage": "The indolent teenager spent the entire summer on the couch, ignoring both his chores and the pile of college applications on his desk.",
+      "question": "As used in the passage, 'indolent' most nearly means",
+      "options": [
+        {
+          "t": "generous"
+        },
+        {
+          "correct": true,
+          "t": "lazy"
+        },
+        {
+          "t": "hardworking"
+        },
+        {
+          "t": "anxious"
+        }
+      ],
+      "words": [
+        "indolent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Spending the whole summer on the couch while ignoring responsibilities is a clear illustration of laziness."
+    },
+    {
+      "passage": "The city's infamous bridge collapse of 1907 is still studied by engineering students as a case of catastrophic design failure.",
+      "question": "As used in the passage, 'infamous' most nearly means",
+      "options": [
+        {
+          "t": "completely forgotten"
+        },
+        {
+          "correct": true,
+          "t": "well known for something bad"
+        },
+        {
+          "t": "widely admired"
+        },
+        {
+          "t": "recently built"
+        }
+      ],
+      "words": [
+        "infamous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being remembered as a 'catastrophic design failure' shows the bridge collapse is notorious, not admired."
+    },
+    {
+      "passage": "Trusting every stranger's story without question, the ingenuous traveler handed over his passport to a man who claimed to be a hotel employee.",
+      "question": "As used in the passage, 'ingenuous' most nearly means",
+      "options": [
+        {
+          "t": "financially wealthy"
+        },
+        {
+          "t": "professionally trained"
+        },
+        {
+          "t": "cynically suspicious"
+        },
+        {
+          "correct": true,
+          "t": "naively trusting"
+        }
+      ],
+      "words": [
+        "ingenuous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Trusting a stranger's unverified claim and handing over a passport shows naive, unsuspecting trust."
+    },
+    {
+      "passage": "The mild rash turned out to be innocuous, caused by nothing more serious than an allergic reaction to a new detergent.",
+      "question": "As used in the passage, 'innocuous' most nearly means",
+      "options": [
+        {
+          "t": "contagious"
+        },
+        {
+          "correct": true,
+          "t": "harmless"
+        },
+        {
+          "t": "permanent"
+        },
+        {
+          "t": "dangerous"
+        }
+      ],
+      "words": [
+        "innocuous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The rash's cause was minor and not serious, meaning it was harmless."
+    },
+    {
+      "passage": "The critics called the film's dialogue insipid, complaining that every line felt flat and forgettable next to the stunning visuals.",
+      "question": "As used in the passage, 'insipid' most nearly means",
+      "options": [
+        {
+          "t": "controversial"
+        },
+        {
+          "t": "technically complex"
+        },
+        {
+          "t": "vivid and memorable"
+        },
+        {
+          "correct": true,
+          "t": "dull and lacking flavor"
+        }
+      ],
+      "words": [
+        "insipid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Dialogue described as 'flat and forgettable' is dull and lacking in interest, matching 'insipid.'"
+    },
+    {
+      "passage": "After the celebrity's tweet went viral, her inbox was inundated with thousands of messages within minutes, crashing the app's servers.",
+      "question": "As used in the passage, 'inundated' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "overwhelmed with a large amount"
+        },
+        {
+          "t": "carefully organized"
+        },
+        {
+          "t": "left completely empty"
+        },
+        {
+          "t": "permanently deleted"
+        }
+      ],
+      "words": [
+        "inundate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Receiving thousands of messages within minutes, enough to crash servers, is being overwhelmed by volume."
+    },
+    {
+      "passage": "The irascible landlord exploded over a single late rent payment, shouting threats before the tenant could even finish her apology.",
+      "question": "As used in the passage, 'irascible' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "quick to anger"
+        },
+        {
+          "t": "calm and patient"
+        },
+        {
+          "t": "generous and forgiving"
+        },
+        {
+          "t": "financially responsible"
+        }
+      ],
+      "words": [
+        "irascible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Exploding with shouted threats over one late payment shows the landlord was quick-tempered."
+    },
+    {
+      "passage": "Even during the tense negotiation, the diplomat kept a jocular tone, cracking small jokes that eased the room without undermining the seriousness of the talks.",
+      "question": "As used in the passage, 'jocular' most nearly means",
+      "options": [
+        {
+          "t": "coldly formal"
+        },
+        {
+          "t": "deeply anxious"
+        },
+        {
+          "correct": true,
+          "t": "playfully humorous"
+        },
+        {
+          "t": "openly hostile"
+        }
+      ],
+      "words": [
+        "jocular"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cracking small jokes to ease tension is a display of playful humor, matching 'jocular.'"
+    },
+    {
+      "passage": "The curator chose to juxtapose a Renaissance oil painting with a digital projection, inviting visitors to compare five centuries of artistic technique in a single glance.",
+      "question": "As used in the passage, 'juxtapose' most nearly means",
+      "options": [
+        {
+          "t": "to hide from view"
+        },
+        {
+          "t": "to destroy intentionally"
+        },
+        {
+          "correct": true,
+          "t": "to place side by side for comparison"
+        },
+        {
+          "t": "to sell at auction"
+        }
+      ],
+      "words": [
+        "juxtapose"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Placing the two artworks together so visitors could compare them directly is the definition of juxtaposing."
+    },
+    {
+      "passage": "The languid pace of the tropical afternoon — slow-moving fans, half-finished naps, unhurried conversation — stood in sharp contrast to the frantic energy of the city she had left.",
+      "question": "As used in the passage, 'languid' most nearly means",
+      "options": [
+        {
+          "t": "loud and chaotic"
+        },
+        {
+          "t": "energetic and fast-paced"
+        },
+        {
+          "t": "anxious and tense"
+        },
+        {
+          "correct": true,
+          "t": "slow and relaxed"
+        }
+      ],
+      "words": [
+        "languid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Slow-moving fans, half-finished naps, and unhurried conversation all point to a relaxed, low-energy pace."
+    },
+    {
+      "passage": "The gene remained latent for three generations, producing no visible effect until an environmental trigger finally activated it in the youngest grandchild.",
+      "question": "As used in the passage, 'latent' most nearly means",
+      "options": [
+        {
+          "t": "completely absent"
+        },
+        {
+          "t": "actively visible"
+        },
+        {
+          "correct": true,
+          "t": "present but undeveloped"
+        },
+        {
+          "t": "artificially created"
+        }
+      ],
+      "words": [
+        "latent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The gene existed for generations without producing effects until triggered, showing it was present but dormant."
+    },
+    {
+      "passage": "The retired diplomat, known for being loquacious at dinner parties, could turn a simple question about the weather into a forty-minute story about his travels.",
+      "question": "As used in the passage, 'loquacious' most nearly means",
+      "options": [
+        {
+          "t": "silent"
+        },
+        {
+          "t": "poorly informed"
+        },
+        {
+          "correct": true,
+          "t": "very talkative"
+        },
+        {
+          "t": "easily embarrassed"
+        }
+      ],
+      "words": [
+        "loquacious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Turning a simple weather question into a forty-minute story shows extreme talkativeness."
+    },
+    {
+      "passage": "The idea of shipping ice cream across the desert by camel struck the investors as ludicrous, and they laughed the pitch out of the room.",
+      "question": "As used in the passage, 'ludicrous' most nearly means",
+      "options": [
+        {
+          "t": "quietly practical"
+        },
+        {
+          "t": "carefully researched"
+        },
+        {
+          "t": "financially sound"
+        },
+        {
+          "correct": true,
+          "t": "absurd and laughable"
+        }
+      ],
+      "words": [
+        "ludicrous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The investors laughing the pitch out of the room confirms the idea was seen as absurd."
+    },
+    {
+      "passage": "Suspecting the employee was malingering, the manager noted that his 'illness' always coincided with major holidays and never with a doctor's note.",
+      "question": "As used in the passage, 'malingering' most nearly means",
+      "options": [
+        {
+          "t": "requesting a promotion"
+        },
+        {
+          "t": "working overtime"
+        },
+        {
+          "t": "genuinely recovering"
+        },
+        {
+          "correct": true,
+          "t": "faking illness to avoid work"
+        }
+      ],
+      "words": [
+        "malinger"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Illness always coinciding with holidays and lacking a doctor's note suggests the employee was faking sickness."
+    },
+    {
+      "passage": "The mercenary contractor cared nothing for the community's needs, choosing every material based solely on which supplier offered him the largest kickback.",
+      "question": "As used in the passage, 'mercenary' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "motivated only by money"
+        },
+        {
+          "t": "legally licensed"
+        },
+        {
+          "t": "highly skilled"
+        },
+        {
+          "t": "motivated by community service"
+        }
+      ],
+      "words": [
+        "mercenary"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Choosing materials solely for the largest kickback shows the contractor was driven purely by financial gain."
+    },
+    {
+      "passage": "Known throughout the village as a misanthrope, old Mr. Kettner boarded up his windows and posted a sign reading 'No visitors, ever' at the edge of his property.",
+      "question": "As used in the passage, 'misanthrope' most nearly means",
+      "options": [
+        {
+          "correct": true,
+          "t": "one who dislikes people and avoids company"
+        },
+        {
+          "t": "a generous philanthropist"
+        },
+        {
+          "t": "one who loves hosting parties"
+        },
+        {
+          "t": "a respected town leader"
+        }
+      ],
+      "words": [
+        "misanthrope"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Boarding up windows and posting a sign refusing visitors shows a strong avoidance of other people."
+    },
+    {
+      "passage": "After losing the scholarship, he grew morose, skipping meals with friends and answering every question with a one-word, gloomy reply.",
+      "question": "As used in the passage, 'morose' most nearly means",
+      "options": [
+        {
+          "t": "calm and relaxed"
+        },
+        {
+          "t": "cheerful and outgoing"
+        },
+        {
+          "correct": true,
+          "t": "gloomy and sullen"
+        },
+        {
+          "t": "excited and energetic"
+        }
+      ],
+      "words": [
+        "morose"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Skipping meals with friends and giving one-word gloomy replies illustrates a sullen, depressed mood."
+    },
+    {
+      "passage": "Critics accused the mayor of myopic planning, noting that the new highway would ease traffic for five years but ignored the city's long-term population growth.",
+      "question": "As used in the passage, 'myopic' most nearly means",
+      "options": [
+        {
+          "t": "widely praised"
+        },
+        {
+          "t": "carefully forward-thinking"
+        },
+        {
+          "t": "financially sound"
+        },
+        {
+          "correct": true,
+          "t": "short-sighted, lacking foresight"
+        }
+      ],
+      "words": [
+        "myopic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Solving only a five-year problem while ignoring long-term growth is a lack of foresight, or myopic planning."
+    },
+    {
+      "passage": "The daycare was shut down after inspectors found the staff negligent, leaving toddlers unsupervised near an unlocked pool for hours.",
+      "question": "As used in the passage, 'negligent' most nearly means",
+      "options": [
+        {
+          "t": "financially generous"
+        },
+        {
+          "t": "extremely attentive"
+        },
+        {
+          "t": "highly qualified"
+        },
+        {
+          "correct": true,
+          "t": "careless and failing in one's duty"
+        }
+      ],
+      "words": [
+        "negligent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Leaving toddlers unsupervised near an unlocked pool is a clear failure of duty, matching 'negligent.'"
+    }
+  ]
+}

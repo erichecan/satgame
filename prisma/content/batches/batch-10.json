@@ -1,0 +1,1841 @@
+{
+  "words": [
+    {
+      "word": "nemesis",
+      "pos": "noun",
+      "definitionEn": "a long-standing rival or an opponent that is very difficult to defeat.",
+      "exampleEn": "The chess champion finally lost to her nemesis after years of close matches.",
+      "tier": "sat_core",
+      "rank": 301
+    },
+    {
+      "word": "neophyte",
+      "pos": "noun",
+      "definitionEn": "a person who is new to a skill, activity, or belief.",
+      "exampleEn": "As a neophyte in the lab, he asked the senior researchers many questions.",
+      "tier": "sat_core",
+      "rank": 302
+    },
+    {
+      "word": "nostalgia",
+      "pos": "noun",
+      "definitionEn": "a sentimental longing for a past time or place.",
+      "exampleEn": "The old photographs filled her with nostalgia for her childhood summers.",
+      "tier": "sat_core",
+      "rank": 303
+    },
+    {
+      "word": "noxious",
+      "pos": "adjective",
+      "definitionEn": "harmful or poisonous, especially to health.",
+      "exampleEn": "The factory released noxious fumes that forced workers to wear masks.",
+      "tier": "sat_core",
+      "rank": 304
+    },
+    {
+      "word": "nuance",
+      "pos": "noun",
+      "definitionEn": "a subtle difference in meaning, expression, or feeling.",
+      "exampleEn": "The translator struggled to capture every nuance of the original poem.",
+      "tier": "sat_core",
+      "rank": 305
+    },
+    {
+      "word": "obdurate",
+      "pos": "adjective",
+      "definitionEn": "stubbornly refusing to change one's opinion or course of action.",
+      "exampleEn": "Despite hours of pleading, the obdurate landlord refused to lower the rent.",
+      "tier": "sat_core",
+      "rank": 306,
+      "synonymGroup": "stubbornness"
+    },
+    {
+      "word": "obfuscate",
+      "pos": "verb",
+      "definitionEn": "to make something unclear or difficult to understand on purpose.",
+      "exampleEn": "The spokesperson seemed to obfuscate the report's findings with vague language.",
+      "tier": "sat_core",
+      "rank": 307
+    },
+    {
+      "word": "objective",
+      "pos": "adjective",
+      "definitionEn": "based on facts rather than personal feelings or opinions.",
+      "exampleEn": "The judge tried to remain objective while listening to both sides of the case.",
+      "tier": "sat_core",
+      "rank": 308
+    },
+    {
+      "word": "oblique",
+      "pos": "adjective",
+      "definitionEn": "not direct or straightforward, especially in expressing an idea.",
+      "exampleEn": "She made an oblique reference to the scandal without naming anyone involved.",
+      "tier": "sat_core",
+      "rank": 309
+    },
+    {
+      "word": "oblivious",
+      "pos": "adjective",
+      "definitionEn": "not aware of or not noticing something.",
+      "exampleEn": "He was completely oblivious to the stares as he walked by with spinach in his teeth.",
+      "tier": "sat_core",
+      "rank": 310
+    },
+    {
+      "word": "obsequious",
+      "pos": "adjective",
+      "definitionEn": "excessively eager to please or obey someone, often insincerely.",
+      "exampleEn": "The obsequious assistant agreed with everything the manager said, even his mistakes.",
+      "tier": "sat_core",
+      "rank": 311
+    },
+    {
+      "word": "obsolete",
+      "pos": "adjective",
+      "definitionEn": "no longer used or needed because something newer has replaced it.",
+      "exampleEn": "Floppy disks became obsolete once USB drives and cloud storage appeared.",
+      "tier": "sat_core",
+      "rank": 312
+    },
+    {
+      "word": "obtuse",
+      "pos": "adjective",
+      "definitionEn": "slow to understand or lacking sharp perception.",
+      "exampleEn": "He seemed obtuse about the hint she had dropped three times already.",
+      "tier": "sat_core",
+      "rank": 313
+    },
+    {
+      "word": "odious",
+      "pos": "adjective",
+      "definitionEn": "extremely unpleasant or causing strong dislike.",
+      "exampleEn": "Most citizens found the corrupt official's behavior odious and demanded his resignation.",
+      "tier": "sat_core",
+      "rank": 314
+    },
+    {
+      "word": "officious",
+      "pos": "adjective",
+      "definitionEn": "excessively eager to offer help or advice that isn't wanted.",
+      "exampleEn": "The officious new intern kept correcting coworkers who never asked for his opinion.",
+      "tier": "sat_core",
+      "rank": 315
+    },
+    {
+      "word": "ominous",
+      "pos": "adjective",
+      "definitionEn": "giving the impression that something bad is going to happen.",
+      "exampleEn": "Dark clouds and an ominous silence signaled the storm was near.",
+      "tier": "sat_core",
+      "rank": 316
+    },
+    {
+      "word": "onerous",
+      "pos": "adjective",
+      "definitionEn": "involving a heavy or difficult burden.",
+      "exampleEn": "The onerous paperwork required for the loan took the small business weeks to complete.",
+      "tier": "sat_core",
+      "rank": 317
+    },
+    {
+      "word": "opaque",
+      "pos": "adjective",
+      "definitionEn": "not able to be seen through, or difficult to understand.",
+      "exampleEn": "The company's opaque pricing policy left customers confused about hidden fees.",
+      "tier": "sat_core",
+      "rank": 318
+    },
+    {
+      "word": "opportunistic",
+      "pos": "adjective",
+      "definitionEn": "taking advantage of chances as they arise, often without concern for principles.",
+      "exampleEn": "The opportunistic investor bought the failing company's stock at its lowest price.",
+      "tier": "sat_core",
+      "rank": 319
+    },
+    {
+      "word": "opulent",
+      "pos": "adjective",
+      "definitionEn": "extremely wealthy or luxurious in appearance.",
+      "exampleEn": "The hotel lobby was opulent, with marble floors and gold chandeliers.",
+      "tier": "sat_core",
+      "rank": 320
+    },
+    {
+      "word": "oscillate",
+      "pos": "verb",
+      "definitionEn": "to move or swing back and forth repeatedly, or to waver between choices.",
+      "exampleEn": "The pendulum continued to oscillate long after the clock's mechanism was wound.",
+      "tier": "sat_core",
+      "rank": 321
+    },
+    {
+      "word": "ostentatious",
+      "pos": "adjective",
+      "definitionEn": "designed to impress others by showing off wealth or importance.",
+      "exampleEn": "His ostentatious diamond watch seemed out of place at the modest gathering.",
+      "tier": "sat_core",
+      "rank": 322
+    },
+    {
+      "word": "ostracize",
+      "pos": "verb",
+      "definitionEn": "to exclude someone from a group or society.",
+      "exampleEn": "The students began to ostracize their classmate after the rumor spread.",
+      "tier": "sat_core",
+      "rank": 323
+    },
+    {
+      "word": "paltry",
+      "pos": "adjective",
+      "definitionEn": "very small or worthless in amount or value.",
+      "exampleEn": "Workers protested the paltry raise, which barely covered rising rent.",
+      "tier": "sat_core",
+      "rank": 324
+    },
+    {
+      "word": "paradox",
+      "pos": "noun",
+      "definitionEn": "a statement or situation that seems contradictory but may still be true.",
+      "exampleEn": "It is a paradox that the more choices people have, the less satisfied they often feel.",
+      "tier": "sat_core",
+      "rank": 325
+    },
+    {
+      "word": "parody",
+      "pos": "noun",
+      "definitionEn": "an imitation of a work or style that exaggerates it for comic effect.",
+      "exampleEn": "The comedian's parody of the politician's speech had the whole audience laughing.",
+      "tier": "sat_core",
+      "rank": 326
+    },
+    {
+      "word": "partisan",
+      "pos": "adjective",
+      "definitionEn": "strongly supporting a particular party, cause, or person, often with bias.",
+      "exampleEn": "The debate quickly became partisan, with each side refusing to consider the other's evidence.",
+      "tier": "sat_core",
+      "rank": 327
+    },
+    {
+      "word": "pathos",
+      "pos": "noun",
+      "definitionEn": "a quality that evokes pity or sadness in an audience.",
+      "exampleEn": "The novel's final chapter is filled with pathos as the old man says goodbye.",
+      "tier": "sat_core",
+      "rank": 328
+    },
+    {
+      "word": "paucity",
+      "pos": "noun",
+      "definitionEn": "a smallness or scarcity of amount.",
+      "exampleEn": "The report cited a paucity of clean water in the drought-stricken region.",
+      "tier": "sat_core",
+      "rank": 329
+    },
+    {
+      "word": "pedantic",
+      "pos": "adjective",
+      "definitionEn": "overly concerned with minor details or rules, especially in a showy way.",
+      "exampleEn": "The pedantic professor stopped the lecture to correct a student's grammar mid-sentence.",
+      "tier": "sat_core",
+      "rank": 330
+    },
+    {
+      "word": "pejorative",
+      "pos": "adjective",
+      "definitionEn": "expressing contempt or disapproval; belittling.",
+      "exampleEn": "The article avoided pejorative language when describing the controversial policy.",
+      "tier": "sat_core",
+      "rank": 331
+    },
+    {
+      "word": "penchant",
+      "pos": "noun",
+      "definitionEn": "a strong habitual liking for something.",
+      "exampleEn": "She has a penchant for collecting vintage postcards from every city she visits.",
+      "tier": "sat_core",
+      "rank": 332
+    },
+    {
+      "word": "penurious",
+      "pos": "adjective",
+      "definitionEn": "extremely poor, or unwilling to spend money.",
+      "exampleEn": "The penurious old man refused to turn on the heat even in winter.",
+      "tier": "sat_core",
+      "rank": 333
+    },
+    {
+      "word": "perfunctory",
+      "pos": "adjective",
+      "definitionEn": "done with minimal effort or reflection, as a mere formality.",
+      "exampleEn": "He gave a perfunctory nod before returning his attention to his phone.",
+      "tier": "sat_core",
+      "rank": 334
+    },
+    {
+      "word": "peripheral",
+      "pos": "adjective",
+      "definitionEn": "relating to a minor or less important part of something.",
+      "exampleEn": "The committee decided the budget issue was peripheral to the main proposal.",
+      "tier": "sat_core",
+      "rank": 335
+    },
+    {
+      "word": "pernicious",
+      "pos": "adjective",
+      "definitionEn": "having a harmful effect, especially in a gradual or subtle way.",
+      "exampleEn": "The pernicious rumor slowly damaged her reputation over several months.",
+      "tier": "sat_core",
+      "rank": 336
+    },
+    {
+      "word": "perplex",
+      "pos": "verb",
+      "definitionEn": "to confuse or puzzle someone completely.",
+      "exampleEn": "The strange symbols on the ancient tablet continued to perplex archaeologists.",
+      "tier": "sat_core",
+      "rank": 337
+    },
+    {
+      "word": "perturb",
+      "pos": "verb",
+      "definitionEn": "to make someone anxious or unsettled.",
+      "exampleEn": "The sudden silence from the usually chatty office began to perturb her.",
+      "tier": "sat_core",
+      "rank": 338
+    },
+    {
+      "word": "pervasive",
+      "pos": "adjective",
+      "definitionEn": "spreading widely throughout a place or group of people.",
+      "exampleEn": "The smell of smoke was pervasive throughout the entire building after the fire.",
+      "tier": "sat_core",
+      "rank": 339
+    },
+    {
+      "word": "pessimism",
+      "pos": "noun",
+      "definitionEn": "a tendency to expect the worst outcome in any situation.",
+      "exampleEn": "His pessimism made it hard for him to celebrate even small victories.",
+      "tier": "sat_core",
+      "rank": 340
+    },
+    {
+      "word": "petulant",
+      "pos": "adjective",
+      "definitionEn": "childishly irritable or sulky.",
+      "exampleEn": "The petulant child crossed his arms and refused to speak after losing the game.",
+      "tier": "sat_core",
+      "rank": 341
+    },
+    {
+      "word": "philanthropic",
+      "pos": "adjective",
+      "definitionEn": "relating to generous giving to help others, especially through charity.",
+      "exampleEn": "The billionaire's philanthropic foundation funds schools in rural communities.",
+      "tier": "sat_core",
+      "rank": 342
+    },
+    {
+      "word": "phlegmatic",
+      "pos": "adjective",
+      "definitionEn": "calm and unemotional in temperament.",
+      "exampleEn": "The phlegmatic captain remained calm and gave orders even as the ship rocked violently.",
+      "tier": "sat_core",
+      "rank": 343
+    },
+    {
+      "word": "pious",
+      "pos": "adjective",
+      "definitionEn": "deeply religious or devout.",
+      "exampleEn": "The pious monk spent hours each morning in quiet prayer.",
+      "tier": "sat_core",
+      "rank": 344
+    },
+    {
+      "word": "placate",
+      "pos": "verb",
+      "definitionEn": "to make someone less angry or upset by soothing them.",
+      "exampleEn": "The manager offered a refund to placate the frustrated customer.",
+      "tier": "sat_core",
+      "rank": 345,
+      "synonymGroup": "calm_down"
+    },
+    {
+      "word": "placid",
+      "pos": "adjective",
+      "definitionEn": "calm and peaceful, without disturbance.",
+      "exampleEn": "The lake was placid at dawn, its surface barely rippling.",
+      "tier": "sat_core",
+      "rank": 346,
+      "synonymGroup": "calm_down"
+    },
+    {
+      "word": "platitude",
+      "pos": "noun",
+      "definitionEn": "a remark that is trite or overused, often stated as if it were profound.",
+      "exampleEn": "The speaker's advice was full of platitudes like 'follow your dreams.'",
+      "tier": "sat_core",
+      "rank": 347
+    },
+    {
+      "word": "plausible",
+      "pos": "adjective",
+      "definitionEn": "seeming reasonable or probable.",
+      "exampleEn": "Her explanation for being late sounded plausible, so the teacher let it go.",
+      "tier": "sat_core",
+      "rank": 348
+    },
+    {
+      "word": "plethora",
+      "pos": "noun",
+      "definitionEn": "an excessive or overabundant amount of something.",
+      "exampleEn": "The buffet offered a plethora of desserts, more than anyone could try.",
+      "tier": "sat_core",
+      "rank": 349
+    },
+    {
+      "word": "poignant",
+      "pos": "adjective",
+      "definitionEn": "causing a strong feeling of sadness or emotional pain.",
+      "exampleEn": "The soldier's letter home was a poignant reminder of what he had lost.",
+      "tier": "sat_core",
+      "rank": 350
+    },
+    {
+      "word": "polemic",
+      "pos": "noun",
+      "definitionEn": "a strong written or spoken attack on someone's opinions or actions.",
+      "exampleEn": "The columnist's polemic against the new tax law sparked heated debate.",
+      "tier": "sat_core",
+      "rank": 351
+    },
+    {
+      "word": "pragmatism",
+      "pos": "noun",
+      "definitionEn": "an approach that deals with problems in a practical, realistic way.",
+      "exampleEn": "Her pragmatism led her to choose the affordable option over the ideal one.",
+      "tier": "sat_core",
+      "rank": 352
+    },
+    {
+      "word": "precarious",
+      "pos": "adjective",
+      "definitionEn": "not securely held or in a dangerously uncertain position.",
+      "exampleEn": "The climber's precarious footing on the icy ledge worried everyone watching.",
+      "tier": "sat_core",
+      "rank": 353
+    },
+    {
+      "word": "precipitate",
+      "pos": "verb",
+      "definitionEn": "to cause something to happen suddenly or sooner than expected.",
+      "exampleEn": "The scandal helped precipitate the CEO's resignation within days.",
+      "tier": "sat_core",
+      "rank": 354
+    },
+    {
+      "word": "precocious",
+      "pos": "adjective",
+      "definitionEn": "showing advanced abilities or maturity at an unusually early age.",
+      "exampleEn": "The precocious eight-year-old was already reading novels meant for teenagers.",
+      "tier": "sat_core",
+      "rank": 355
+    },
+    {
+      "word": "predilection",
+      "pos": "noun",
+      "definitionEn": "a preference or particular liking for something.",
+      "exampleEn": "He has a predilection for spicy food that surprises anyone who tries his cooking.",
+      "tier": "sat_core",
+      "rank": 356
+    },
+    {
+      "word": "preclude",
+      "pos": "verb",
+      "definitionEn": "to prevent something from happening or someone from doing something.",
+      "exampleEn": "A prior commitment will preclude her from attending the conference this year.",
+      "tier": "sat_core",
+      "rank": 357
+    },
+    {
+      "word": "predominant",
+      "pos": "adjective",
+      "definitionEn": "being the most common, powerful, or noticeable.",
+      "exampleEn": "Blue was the predominant color in the artist's early paintings.",
+      "tier": "sat_core",
+      "rank": 358
+    },
+    {
+      "word": "prevaricate",
+      "pos": "verb",
+      "definitionEn": "to speak evasively or misleadingly in order to avoid the truth.",
+      "exampleEn": "The witness began to prevaricate whenever the lawyer asked about the exact time.",
+      "tier": "sat_core",
+      "rank": 359
+    },
+    {
+      "word": "pristine",
+      "pos": "adjective",
+      "definitionEn": "in its original, spotless, or unspoiled condition.",
+      "exampleEn": "The hikers were amazed by the pristine, untouched forest at the trail's end.",
+      "tier": "sat_core",
+      "rank": 360
+    },
+    {
+      "word": "probity",
+      "pos": "noun",
+      "definitionEn": "the quality of having strong moral principles and honesty.",
+      "exampleEn": "The judge was respected for her probity even under political pressure.",
+      "tier": "sat_core",
+      "rank": 361
+    },
+    {
+      "word": "prodigal",
+      "pos": "adjective",
+      "definitionEn": "wastefully extravagant, especially with money.",
+      "exampleEn": "The prodigal heir spent his entire inheritance within two years.",
+      "tier": "sat_core",
+      "rank": 362
+    },
+    {
+      "word": "prodigious",
+      "pos": "adjective",
+      "definitionEn": "remarkably great in size, extent, or ability.",
+      "exampleEn": "The young pianist showed a prodigious talent that stunned her teachers.",
+      "tier": "sat_core",
+      "rank": 363
+    },
+    {
+      "word": "profound",
+      "pos": "adjective",
+      "definitionEn": "very deep or intense, especially in insight or effect.",
+      "exampleEn": "The loss of her mentor had a profound impact on her career choices.",
+      "tier": "sat_core",
+      "rank": 364
+    },
+    {
+      "word": "proliferate",
+      "pos": "verb",
+      "definitionEn": "to increase rapidly in number.",
+      "exampleEn": "Online scams began to proliferate as more people shopped from home.",
+      "tier": "sat_core",
+      "rank": 365,
+      "synonymGroup": "increase_spread"
+    },
+    {
+      "word": "prolific",
+      "pos": "adjective",
+      "definitionEn": "producing a large amount of work or offspring.",
+      "exampleEn": "The prolific author published a new novel almost every year.",
+      "tier": "sat_core",
+      "rank": 366,
+      "synonymGroup": "increase_spread"
+    },
+    {
+      "word": "propensity",
+      "pos": "noun",
+      "definitionEn": "a natural tendency to behave in a certain way.",
+      "exampleEn": "The dog showed a propensity for digging up the garden whenever left alone.",
+      "tier": "sat_core",
+      "rank": 367
+    },
+    {
+      "word": "prosaic",
+      "pos": "adjective",
+      "definitionEn": "lacking imagination or excitement; ordinary.",
+      "exampleEn": "After the adventure novel, his next book felt prosaic and dull by comparison.",
+      "tier": "sat_core",
+      "rank": 368
+    },
+    {
+      "word": "proscribe",
+      "pos": "verb",
+      "definitionEn": "to officially forbid something.",
+      "exampleEn": "The new regulations proscribe the use of certain chemicals in food packaging.",
+      "tier": "sat_core",
+      "rank": 369
+    },
+    {
+      "word": "protagonist",
+      "pos": "noun",
+      "definitionEn": "the main character in a story, or a leading figure in a cause.",
+      "exampleEn": "The protagonist of the novel must choose between loyalty and ambition.",
+      "tier": "sat_core",
+      "rank": 370
+    },
+    {
+      "word": "provincial",
+      "pos": "adjective",
+      "definitionEn": "having narrow or limited views, typical of a small, isolated region.",
+      "exampleEn": "His provincial attitude toward foreign food changed after he traveled abroad.",
+      "tier": "sat_core",
+      "rank": 371
+    },
+    {
+      "word": "provocative",
+      "pos": "adjective",
+      "definitionEn": "intended to provoke a strong reaction, especially anger or interest.",
+      "exampleEn": "Her provocative essay challenged readers to reconsider their assumptions about success.",
+      "tier": "sat_core",
+      "rank": 372
+    },
+    {
+      "word": "puerile",
+      "pos": "adjective",
+      "definitionEn": "childish and silly in a way unbecoming of an adult.",
+      "exampleEn": "The senator's puerile insults undermined the seriousness of the debate.",
+      "tier": "sat_core",
+      "rank": 373
+    },
+    {
+      "word": "pugnacious",
+      "pos": "adjective",
+      "definitionEn": "eager or quick to argue or fight.",
+      "exampleEn": "The pugnacious commentator interrupted every guest who disagreed with him.",
+      "tier": "sat_core",
+      "rank": 374
+    },
+    {
+      "word": "punctilious",
+      "pos": "adjective",
+      "definitionEn": "showing great attention to detail or correct behavior.",
+      "exampleEn": "The punctilious editor checked every citation twice before approving the article.",
+      "tier": "sat_core",
+      "rank": 375
+    },
+    {
+      "word": "pundit",
+      "pos": "noun",
+      "definitionEn": "a person who offers expert opinions, often through the media.",
+      "exampleEn": "Political pundits debated the election results on television all night.",
+      "tier": "sat_core",
+      "rank": 376
+    },
+    {
+      "word": "qualm",
+      "pos": "noun",
+      "definitionEn": "a sudden feeling of doubt or uneasiness about one's actions.",
+      "exampleEn": "She had no qualms about turning down the job offer.",
+      "tier": "sat_core",
+      "rank": 377
+    },
+    {
+      "word": "quandary",
+      "pos": "noun",
+      "definitionEn": "a state of confusion over what to do in a difficult situation.",
+      "exampleEn": "He was in a quandary about whether to report his friend's mistake.",
+      "tier": "sat_core",
+      "rank": 378
+    },
+    {
+      "word": "querulous",
+      "pos": "adjective",
+      "definitionEn": "complaining in a whining or irritable way.",
+      "exampleEn": "The querulous passenger complained to three different employees about the delay.",
+      "tier": "sat_core",
+      "rank": 379
+    },
+    {
+      "word": "quixotic",
+      "pos": "adjective",
+      "definitionEn": "extremely idealistic and unrealistic, often in a foolishly noble way.",
+      "exampleEn": "His quixotic plan to end world hunger by next year impressed no investors.",
+      "tier": "sat_core",
+      "rank": 380
+    },
+    {
+      "word": "rancor",
+      "pos": "noun",
+      "definitionEn": "deep, bitter resentment or ill will.",
+      "exampleEn": "Years after the lawsuit, rancor still lingered between the former business partners.",
+      "tier": "sat_core",
+      "rank": 381
+    },
+    {
+      "word": "rapacious",
+      "pos": "adjective",
+      "definitionEn": "excessively greedy, especially for money or resources.",
+      "exampleEn": "The rapacious landlord raised rents every year regardless of tenants' hardships.",
+      "tier": "sat_core",
+      "rank": 382
+    },
+    {
+      "word": "recalcitrant",
+      "pos": "adjective",
+      "definitionEn": "stubbornly resistant to authority or control.",
+      "exampleEn": "The recalcitrant employee refused to follow the new safety procedures.",
+      "tier": "sat_core",
+      "rank": 383,
+      "synonymGroup": "stubbornness"
+    },
+    {
+      "word": "reciprocate",
+      "pos": "verb",
+      "definitionEn": "to respond to an action or feeling with a similar one in return.",
+      "exampleEn": "She sent a gift, and he was quick to reciprocate with one of his own.",
+      "tier": "sat_core",
+      "rank": 384
+    },
+    {
+      "word": "reclusive",
+      "pos": "adjective",
+      "definitionEn": "avoiding the company of others; living in seclusion.",
+      "exampleEn": "The reclusive author hasn't given an interview in over a decade.",
+      "tier": "sat_core",
+      "rank": 385
+    },
+    {
+      "word": "recondite",
+      "pos": "adjective",
+      "definitionEn": "difficult to understand because it deals with obscure or specialized knowledge.",
+      "exampleEn": "The lecture covered recondite theories of quantum physics that few students grasped.",
+      "tier": "sat_core",
+      "rank": 386
+    },
+    {
+      "word": "redundant",
+      "pos": "adjective",
+      "definitionEn": "unnecessarily repetitive or no longer needed.",
+      "exampleEn": "The editor cut several redundant sentences that repeated the same idea.",
+      "tier": "sat_core",
+      "rank": 387
+    },
+    {
+      "word": "refute",
+      "pos": "verb",
+      "definitionEn": "to prove that a statement or theory is wrong.",
+      "exampleEn": "The scientist presented new data to refute the earlier claim.",
+      "tier": "sat_core",
+      "rank": 388
+    },
+    {
+      "word": "relegate",
+      "pos": "verb",
+      "definitionEn": "to assign to a lower or less important position.",
+      "exampleEn": "After the injury, the star player was relegated to the bench for the season.",
+      "tier": "sat_core",
+      "rank": 389
+    },
+    {
+      "word": "relentless",
+      "pos": "adjective",
+      "definitionEn": "not stopping or weakening in intensity or effort.",
+      "exampleEn": "The relentless rain flooded the streets after three days without a break.",
+      "tier": "sat_core",
+      "rank": 390
+    },
+    {
+      "word": "relinquish",
+      "pos": "verb",
+      "definitionEn": "to give up a right, position, or possession.",
+      "exampleEn": "The king was forced to relinquish his throne after the revolution.",
+      "tier": "sat_core",
+      "rank": 391,
+      "synonymGroup": "give_up"
+    },
+    {
+      "word": "reminiscence",
+      "pos": "noun",
+      "definitionEn": "the act of recalling and telling of past experiences.",
+      "exampleEn": "The old sailor's reminiscences about his voyages fascinated the children.",
+      "tier": "sat_core",
+      "rank": 392
+    },
+    {
+      "word": "renounce",
+      "pos": "verb",
+      "definitionEn": "to formally give up a title, claim, or belief.",
+      "exampleEn": "She chose to renounce her citizenship after moving abroad permanently.",
+      "tier": "sat_core",
+      "rank": 393,
+      "synonymGroup": "give_up"
+    },
+    {
+      "word": "renown",
+      "pos": "noun",
+      "definitionEn": "widespread fame or recognition for achievements.",
+      "exampleEn": "The scientist gained international renown after her discovery of the new element.",
+      "tier": "sat_core",
+      "rank": 394
+    },
+    {
+      "word": "repudiate",
+      "pos": "verb",
+      "definitionEn": "to reject or disown something as untrue or unacceptable.",
+      "exampleEn": "The senator moved quickly to repudiate the false rumors about his campaign.",
+      "tier": "sat_core",
+      "rank": 395,
+      "synonymGroup": "give_up"
+    },
+    {
+      "word": "rescind",
+      "pos": "verb",
+      "definitionEn": "to officially cancel or revoke a law, order, or agreement.",
+      "exampleEn": "The university decided to rescind its offer after discovering the application was fraudulent.",
+      "tier": "sat_core",
+      "rank": 396
+    },
+    {
+      "word": "resolute",
+      "pos": "adjective",
+      "definitionEn": "firmly determined and unwavering in purpose.",
+      "exampleEn": "Despite the setbacks, the team remained resolute in pursuing the championship.",
+      "tier": "sat_core",
+      "rank": 397
+    },
+    {
+      "word": "resonant",
+      "pos": "adjective",
+      "definitionEn": "deep, full, and echoing in sound, or deeply meaningful.",
+      "exampleEn": "The speaker's resonant voice filled the auditorium without a microphone.",
+      "tier": "sat_core",
+      "rank": 398
+    },
+    {
+      "word": "restive",
+      "pos": "adjective",
+      "definitionEn": "unable to stay still or be controlled; impatient or restless.",
+      "exampleEn": "The restive crowd grew louder as the delayed concert failed to start.",
+      "tier": "sat_core",
+      "rank": 399
+    },
+    {
+      "word": "reticent",
+      "pos": "adjective",
+      "definitionEn": "reluctant to share thoughts or feelings; reserved in speech.",
+      "exampleEn": "He remained reticent about his plans, even when his friends pressed him for details.",
+      "tier": "sat_core",
+      "rank": 400
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "For decades, the two chess grandmasters had faced each other in tournament after tournament, each victory for one matched by a crushing defeat for the other. Fans came to see them as inseparable rivals whose fates seemed forever intertwined.",
+      "question": "As used in the passage, the relationship best described by 'nemesis' is one of:",
+      "options": [
+        {
+          "t": "a trusted mentor",
+          "correct": false
+        },
+        {
+          "t": "a distant acquaintance",
+          "correct": false
+        },
+        {
+          "t": "a former teammate",
+          "correct": false
+        },
+        {
+          "t": "a persistent, difficult rival",
+          "correct": true
+        }
+      ],
+      "words": [
+        "nemesis"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes two rivals locked in ongoing competition, which is the meaning of nemesis: a persistent, formidable opponent."
+    },
+    {
+      "passage": "Walking past her old elementary school, Mara paused at the rusted swing set and felt an unexpected pull toward those simpler afternoons, the smell of chalk dust, and the friends she hadn't spoken to in twenty years.",
+      "question": "As used in the passage, 'nostalgia' most nearly means",
+      "options": [
+        {
+          "t": "a fear of change",
+          "correct": false
+        },
+        {
+          "t": "a longing for the past",
+          "correct": true
+        },
+        {
+          "t": "an intense curiosity",
+          "correct": false
+        },
+        {
+          "t": "a sense of confusion",
+          "correct": false
+        }
+      ],
+      "words": [
+        "nostalgia"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Mara's emotional pull toward memories of childhood illustrates nostalgia, a sentimental longing for the past."
+    },
+    {
+      "passage": "Negotiators presented three revised offers over two days, each with better terms than the last, yet the union representative refused every one, insisting on his original demand without a single concession.",
+      "question": "As used in the passage, a word that best describes the union representative is:",
+      "options": [
+        {
+          "t": "precocious",
+          "correct": false
+        },
+        {
+          "t": "phlegmatic",
+          "correct": false
+        },
+        {
+          "t": "obdurate",
+          "correct": true
+        },
+        {
+          "t": "opportunistic",
+          "correct": false
+        }
+      ],
+      "words": [
+        "obdurate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing every improved offer without any concession shows obdurate, stubborn, unyielding behavior."
+    },
+    {
+      "passage": "The scale model of the bridge stood at an angle in the museum display, its supports slanting diagonally rather than rising straight up, a design choice meant to show how the real structure resists wind.",
+      "question": "Which choice best describes the function of the phrase 'an oblique reference' in the passage?",
+      "options": [
+        {
+          "t": "perfectly vertical",
+          "correct": false
+        },
+        {
+          "t": "slanted or indirect",
+          "correct": true
+        },
+        {
+          "t": "extremely fragile",
+          "correct": false
+        },
+        {
+          "t": "brightly colored",
+          "correct": false
+        }
+      ],
+      "words": [
+        "oblique"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The phrase signals that the scandal was mentioned indirectly rather than named outright, showing how the writer conveys information without being explicit."
+    },
+    {
+      "passage": "Once essential for navigation, the sextant was gradually replaced by satellite systems that could pinpoint a ship's location within seconds, rendering the centuries-old instrument little more than a museum piece.",
+      "question": "As used in the passage, 'obsolete' most nearly means",
+      "options": [
+        {
+          "t": "no longer useful due to newer technology",
+          "correct": true
+        },
+        {
+          "t": "recently invented",
+          "correct": false
+        },
+        {
+          "t": "extremely valuable and rare",
+          "correct": false
+        },
+        {
+          "t": "difficult to manufacture",
+          "correct": false
+        }
+      ],
+      "words": [
+        "obsolete"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being replaced by satellite systems and reduced to a museum piece shows the sextant became obsolete."
+    },
+    {
+      "passage": "History remembers the dictator's regime as one of the most odious in the region, marked by cruelty that even his own allies eventually found impossible to defend.",
+      "question": "As used in the passage, 'odious' most nearly means",
+      "options": [
+        {
+          "t": "widely admired",
+          "correct": false
+        },
+        {
+          "t": "mysteriously quiet",
+          "correct": false
+        },
+        {
+          "t": "deeply hateful or repulsive",
+          "correct": true
+        },
+        {
+          "t": "financially generous",
+          "correct": false
+        }
+      ],
+      "words": [
+        "odious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A regime remembered for cruelty that even allies could not defend is described as odious, or deeply hateful."
+    },
+    {
+      "passage": "Filling out the visa application required three notarized documents, a formal interview, translated financial records, and a health certificate, a process so demanding that many applicants hired lawyers just to keep track of it all.",
+      "question": "As used in the passage, 'onerous' most nearly means",
+      "options": [
+        {
+          "t": "brief",
+          "correct": false
+        },
+        {
+          "t": "burdensome",
+          "correct": true
+        },
+        {
+          "t": "optional",
+          "correct": false
+        },
+        {
+          "t": "inexpensive",
+          "correct": false
+        }
+      ],
+      "words": [
+        "onerous"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A process so demanding that people hire lawyers to manage it is described as onerous, meaning burdensome."
+    },
+    {
+      "passage": "Guests marveled at the ballroom's gold-trimmed ceilings, crystal chandeliers, and imported silk curtains, a display of wealth so extravagant that some whispered the family had spent their entire fortune on a single party.",
+      "question": "As used in the passage, 'opulent' most nearly means",
+      "options": [
+        {
+          "t": "poorly maintained",
+          "correct": false
+        },
+        {
+          "t": "quietly modest",
+          "correct": false
+        },
+        {
+          "t": "dimly lit",
+          "correct": false
+        },
+        {
+          "t": "lavishly wealthy in appearance",
+          "correct": true
+        }
+      ],
+      "words": [
+        "opulent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Gold ceilings, chandeliers, and imported silk describe an opulent, or extravagantly wealthy, setting."
+    },
+    {
+      "passage": "Arriving at the modest fundraiser in a limousine and wearing a fur coat despite the summer heat, the donor seemed more interested in being noticed than in the cause the event was meant to support.",
+      "question": "As used in the passage, 'ostentatious' most nearly means",
+      "options": [
+        {
+          "t": "deeply humble",
+          "correct": false
+        },
+        {
+          "t": "quietly generous",
+          "correct": false
+        },
+        {
+          "t": "showy in a way meant to impress others",
+          "correct": true
+        },
+        {
+          "t": "financially struggling",
+          "correct": false
+        }
+      ],
+      "words": [
+        "ostentatious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Arriving in a limousine and fur coat at a modest event, seemingly to be noticed, exemplifies ostentatious behavior."
+    },
+    {
+      "passage": "Economists have long noted a curious paradox: countries that invest heavily in labor-saving technology often see employment rise rather than fall, as new industries emerge to replace the old tasks machines now perform.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Machines have completely eliminated the need for human workers.",
+          "correct": false
+        },
+        {
+          "t": "Economists agree that technology investment always harms employment.",
+          "correct": false
+        },
+        {
+          "t": "Labor-saving technology is banned in most developed countries.",
+          "correct": false
+        },
+        {
+          "t": "Automation can unexpectedly lead to more jobs rather than fewer, a seemingly contradictory outcome.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "paradox"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage describes a paradox: technology meant to reduce labor can actually increase employment, a surprising, seemingly contradictory outcome."
+    },
+    {
+      "passage": "During the town hall, the debate stopped being about the actual budget numbers and instead became a contest of loyalty, with attendees cheering only for speakers from their own political party regardless of what was actually said.",
+      "question": "As used in the passage, 'partisan' most nearly means",
+      "options": [
+        {
+          "t": "focused purely on facts",
+          "correct": false
+        },
+        {
+          "t": "calm and neutral",
+          "correct": false
+        },
+        {
+          "t": "scientifically rigorous",
+          "correct": false
+        },
+        {
+          "t": "biased toward one political side",
+          "correct": true
+        }
+      ],
+      "words": [
+        "partisan"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Cheering based on party loyalty rather than content shows the debate became partisan, or biased by political allegiance."
+    },
+    {
+      "passage": "The editor rejected the otherwise solid essay for one line that used 'less' instead of 'fewer,' insisting the distinction was too important to overlook, even though most readers would never have noticed.",
+      "question": "As used in the passage, a word that best describes the editor's approach is:",
+      "options": [
+        {
+          "t": "prodigal",
+          "correct": false
+        },
+        {
+          "t": "phlegmatic",
+          "correct": false
+        },
+        {
+          "t": "pedantic",
+          "correct": true
+        },
+        {
+          "t": "reticent",
+          "correct": false
+        }
+      ],
+      "words": [
+        "pedantic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Rejecting a solid essay over a minor grammatical technicality that most readers wouldn't notice reflects pedantic attention to trivial detail."
+    },
+    {
+      "passage": "Every weekend without fail, Jamal heads straight to the used bookstore downtown, drawn by a lifelong penchant for battered paperbacks with handwritten notes in the margins.",
+      "question": "As used in the passage, 'penchant' most nearly means",
+      "options": [
+        {
+          "t": "a financial obligation",
+          "correct": false
+        },
+        {
+          "t": "a strong personal liking",
+          "correct": true
+        },
+        {
+          "t": "a sudden dislike",
+          "correct": false
+        },
+        {
+          "t": "a temporary distraction",
+          "correct": false
+        }
+      ],
+      "words": [
+        "penchant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Consistently being drawn to something reflects a penchant, a strong habitual liking."
+    },
+    {
+      "passage": "The lawsuit's central claim involved the contract's main clause, while the disagreement over the meeting's start time was, by comparison, a peripheral matter that the judge dismissed as irrelevant to the ruling.",
+      "question": "As used in the passage, 'peripheral' most nearly means",
+      "options": [
+        {
+          "t": "financially significant",
+          "correct": false
+        },
+        {
+          "t": "of minor importance",
+          "correct": true
+        },
+        {
+          "t": "legally binding",
+          "correct": false
+        },
+        {
+          "t": "centrally important",
+          "correct": false
+        }
+      ],
+      "words": [
+        "peripheral"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A matter the judge dismissed as irrelevant to the main ruling is described as peripheral, or of minor importance."
+    },
+    {
+      "passage": "A strange, unexplained noise from the basement began to perturb Mrs. Chen every night around midnight, keeping her anxious and unable to sleep until she finally called an electrician.",
+      "question": "As used in the passage, 'perturb' most nearly means",
+      "options": [
+        {
+          "t": "to make someone anxious or unsettled",
+          "correct": true
+        },
+        {
+          "t": "to make someone laugh",
+          "correct": false
+        },
+        {
+          "t": "to make someone forgetful",
+          "correct": false
+        },
+        {
+          "t": "to make someone feel relaxed",
+          "correct": false
+        }
+      ],
+      "words": [
+        "perturb"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A noise that kept Mrs. Chen anxious and unable to sleep clearly perturbed her, meaning it unsettled her."
+    },
+    {
+      "passage": "Whenever a new project began, Daniel assumed it would fail, dismissing his coworkers' enthusiasm as naive and predicting disaster before any real work had even started.",
+      "question": "Which choice best supports the claim that Daniel exhibits pessimism?",
+      "options": [
+        {
+          "t": "probity",
+          "correct": false
+        },
+        {
+          "t": "pragmatism",
+          "correct": false
+        },
+        {
+          "t": "pessimism",
+          "correct": true
+        },
+        {
+          "t": "renown",
+          "correct": false
+        }
+      ],
+      "words": [
+        "pessimism"
+      ],
+      "domain": "info_ideas",
+      "explanation": "Daniel's assumption of failure and dismissal of his coworkers' enthusiasm before work even begins directly supports the claim that he is pessimistic."
+    },
+    {
+      "passage": "While other passengers screamed as the plane hit turbulence, the flight attendant calmly continued serving drinks, her expression never changing, as though nothing unusual were happening at all.",
+      "question": "Which choice best describes how the word 'phlegmatic' functions in the passage?",
+      "options": [
+        {
+          "t": "pugnacious",
+          "correct": false
+        },
+        {
+          "t": "querulous",
+          "correct": false
+        },
+        {
+          "t": "phlegmatic",
+          "correct": true
+        },
+        {
+          "t": "restive",
+          "correct": false
+        }
+      ],
+      "words": [
+        "phlegmatic"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The word contrasts the flight attendant's calm demeanor with the panicked passengers, emphasizing her unshaken composure."
+    },
+    {
+      "passage": "Sensing that her client was still angry about the delayed shipment, the sales manager offered a full refund and a handwritten apology, hoping to placate him before he canceled the account entirely.",
+      "question": "As used in the passage, 'placate' most nearly means",
+      "options": [
+        {
+          "t": "to formally sue someone",
+          "correct": false
+        },
+        {
+          "t": "to soothe someone's anger",
+          "correct": true
+        },
+        {
+          "t": "to provoke someone's anger",
+          "correct": false
+        },
+        {
+          "t": "to publicly embarrass someone",
+          "correct": false
+        }
+      ],
+      "words": [
+        "placate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Offering a refund and apology to calm an angry client is an attempt to placate, or soothe, him."
+    },
+    {
+      "passage": "Given the witness's timeline, the security footage, and the store receipt found in the suspect's pocket, the detective found her explanation entirely plausible and decided not to pursue further charges.",
+      "question": "As used in the passage, 'plausible' most nearly means",
+      "options": [
+        {
+          "t": "legally required",
+          "correct": false
+        },
+        {
+          "t": "obviously false",
+          "correct": false
+        },
+        {
+          "t": "believable and reasonable",
+          "correct": true
+        },
+        {
+          "t": "emotionally distressing",
+          "correct": false
+        }
+      ],
+      "words": [
+        "plausible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "An explanation supported by evidence that convinced the detective to drop charges is described as plausible, or believable."
+    },
+    {
+      "passage": "Rather than analyze the policy's actual effects, the writer's polemic simply attacked anyone who supported it, using harsh language and personal insults instead of evidence.",
+      "question": "As used in the passage, 'polemic' most nearly means",
+      "options": [
+        {
+          "t": "a personal memoir",
+          "correct": false
+        },
+        {
+          "t": "a peer-reviewed scientific study",
+          "correct": false
+        },
+        {
+          "t": "a forceful attack on an opposing view",
+          "correct": true
+        },
+        {
+          "t": "a balanced, neutral summary",
+          "correct": false
+        }
+      ],
+      "words": [
+        "polemic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A piece that attacks opponents with insults rather than evidence is a polemic, a forceful, one-sided attack."
+    },
+    {
+      "passage": "With the company's cash reserves nearly gone and a major client threatening to leave, the CEO described the firm's situation as precarious, one wrong decision away from collapse.",
+      "question": "As used in the passage, 'precarious' most nearly means",
+      "options": [
+        {
+          "t": "dangerously unstable",
+          "correct": true
+        },
+        {
+          "t": "publicly celebrated",
+          "correct": false
+        },
+        {
+          "t": "financially secure",
+          "correct": false
+        },
+        {
+          "t": "legally protected",
+          "correct": false
+        }
+      ],
+      "words": [
+        "precarious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A company one wrong decision away from collapse is in a precarious, or dangerously unstable, position."
+    },
+    {
+      "passage": "The contract's confidentiality clause will preclude former employees from discussing internal projects with competitors for at least two years after leaving the company.",
+      "question": "As used in the passage, 'preclude' most nearly means",
+      "options": [
+        {
+          "t": "to publicly announce",
+          "correct": false
+        },
+        {
+          "t": "to prevent from happening",
+          "correct": true
+        },
+        {
+          "t": "to actively encourage",
+          "correct": false
+        },
+        {
+          "t": "to financially reward",
+          "correct": false
+        }
+      ],
+      "words": [
+        "preclude"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A clause that stops former employees from discussing projects precludes, or prevents, that action."
+    },
+    {
+      "passage": "When asked directly whether he had approved the expense, the manager began to prevaricate, offering vague answers about 'processes' and 'timelines' instead of a simple yes or no.",
+      "question": "As used in the passage, 'prevaricate' most nearly means",
+      "options": [
+        {
+          "t": "to answer honestly and directly",
+          "correct": false
+        },
+        {
+          "t": "to angrily deny an accusation",
+          "correct": false
+        },
+        {
+          "t": "to enthusiastically confirm a fact",
+          "correct": false
+        },
+        {
+          "t": "to avoid giving a direct or truthful answer",
+          "correct": true
+        }
+      ],
+      "words": [
+        "prevaricate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Giving vague answers instead of a direct yes or no is prevaricating, avoiding the truth evasively."
+    },
+    {
+      "passage": "The prodigal nephew burned through his grandmother's entire estate on sports cars and lavish parties within eighteen months, leaving nothing for the charitable causes she had intended to support.",
+      "question": "As used in the passage, 'prodigal' most nearly means",
+      "options": [
+        {
+          "t": "wastefully extravagant with money",
+          "correct": true
+        },
+        {
+          "t": "legally forbidden from spending",
+          "correct": false
+        },
+        {
+          "t": "professionally trained in finance",
+          "correct": false
+        },
+        {
+          "t": "extremely cautious with money",
+          "correct": false
+        }
+      ],
+      "words": [
+        "prodigal"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Burning through an entire estate on luxury items within months describes prodigal, wastefully extravagant spending."
+    },
+    {
+      "passage": "Losing her grandfather taught her a profound lesson about the fragility of time, one that reshaped how she prioritized her relationships for the rest of her life.",
+      "question": "As used in the passage, 'profound' most nearly means",
+      "options": [
+        {
+          "t": "financially expensive",
+          "correct": false
+        },
+        {
+          "t": "deeply significant",
+          "correct": true
+        },
+        {
+          "t": "publicly shared",
+          "correct": false
+        },
+        {
+          "t": "mildly interesting",
+          "correct": false
+        }
+      ],
+      "words": [
+        "profound"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A lesson that reshaped her priorities for life reflects a profound, or deeply significant, impact."
+    },
+    {
+      "passage": "Twin studies suggest that a propensity for anxiety can be partly inherited, meaning some individuals are naturally more likely to develop the condition even without a difficult childhood.",
+      "question": "As used in the passage, 'propensity' most nearly means",
+      "options": [
+        {
+          "t": "a temporary phase",
+          "correct": false
+        },
+        {
+          "t": "a legal requirement",
+          "correct": false
+        },
+        {
+          "t": "a natural tendency toward something",
+          "correct": true
+        },
+        {
+          "t": "a complete immunity to something",
+          "correct": false
+        }
+      ],
+      "words": [
+        "propensity"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being naturally more likely to develop a condition reflects a propensity, an inherited or natural tendency."
+    },
+    {
+      "passage": "The novel follows its protagonist, a young cartographer, as she journeys across unmapped territory, gradually uncovering secrets about her family's past that shape every decision she makes.",
+      "question": "Which choice best describes the function of the word 'protagonist' in the passage?",
+      "options": [
+        {
+          "t": "a minor background character",
+          "correct": false
+        },
+        {
+          "t": "the main character of the story",
+          "correct": true
+        },
+        {
+          "t": "the author of the book",
+          "correct": false
+        },
+        {
+          "t": "a historical figure mentioned briefly",
+          "correct": false
+        }
+      ],
+      "words": [
+        "protagonist"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The word identifies the cartographer as the central character whose journey and choices structure the narrative."
+    },
+    {
+      "passage": "The artist's provocative mural, depicting controversial political figures in unflattering poses, was removed within a day after sparking outrage from local officials.",
+      "question": "As used in the passage, 'provocative' most nearly means",
+      "options": [
+        {
+          "t": "intended to stir a strong reaction",
+          "correct": true
+        },
+        {
+          "t": "intended to remain hidden",
+          "correct": false
+        },
+        {
+          "t": "intended to be purely decorative",
+          "correct": false
+        },
+        {
+          "t": "intended to soothe tension",
+          "correct": false
+        }
+      ],
+      "words": [
+        "provocative"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A mural that sparked outrage and was quickly removed was provocative, designed to provoke a strong reaction."
+    },
+    {
+      "passage": "The punctilious accountant refused to submit the report until every decimal point had been triple-checked and every footnote properly formatted according to the firm's exact style guide.",
+      "question": "As used in the passage, 'punctilious' most nearly means",
+      "options": [
+        {
+          "t": "careless about small details",
+          "correct": false
+        },
+        {
+          "t": "extremely attentive to detail and correctness",
+          "correct": true
+        },
+        {
+          "t": "quick to finish tasks",
+          "correct": false
+        },
+        {
+          "t": "unconcerned with rules",
+          "correct": false
+        }
+      ],
+      "words": [
+        "punctilious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Triple-checking every decimal and footnote before submission shows punctilious, meticulous attention to detail."
+    },
+    {
+      "passage": "Even after signing the contract, she felt a nagging qualm about the deal, a quiet unease she couldn't quite explain to her business partner.",
+      "question": "As used in the passage, 'qualm' most nearly means",
+      "options": [
+        {
+          "t": "a legal obligation",
+          "correct": false
+        },
+        {
+          "t": "a feeling of doubt or unease",
+          "correct": true
+        },
+        {
+          "t": "a financial bonus",
+          "correct": false
+        },
+        {
+          "t": "a feeling of confident joy",
+          "correct": false
+        }
+      ],
+      "words": [
+        "qualm"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A nagging, unexplained unease after signing a contract is a qualm, a sudden doubt about one's actions."
+    },
+    {
+      "passage": "Investors called his plan to fund a manned mission to Mars using only crowdfunded donations quixotic, admiring the idealism but doubting it could ever be realistically achieved.",
+      "question": "As used in the passage, 'quixotic' most nearly means",
+      "options": [
+        {
+          "t": "idealistic to the point of being impractical",
+          "correct": true
+        },
+        {
+          "t": "widely already accomplished",
+          "correct": false
+        },
+        {
+          "t": "carefully researched and realistic",
+          "correct": false
+        },
+        {
+          "t": "financially conservative",
+          "correct": false
+        }
+      ],
+      "words": [
+        "quixotic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A noble but unrealistic plan to fund a Mars mission through crowdfunding is quixotic, impractically idealistic."
+    },
+    {
+      "passage": "The rapacious hedge fund bought up struggling family farms at rock-bottom prices during the crisis, offering no assistance and evicting tenants the moment contracts allowed.",
+      "question": "As used in the passage, 'rapacious' most nearly means",
+      "options": [
+        {
+          "t": "legally restricted",
+          "correct": false
+        },
+        {
+          "t": "generously charitable",
+          "correct": false
+        },
+        {
+          "t": "excessively greedy and exploitative",
+          "correct": true
+        },
+        {
+          "t": "cautiously conservative",
+          "correct": false
+        }
+      ],
+      "words": [
+        "rapacious"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Exploiting struggling farmers for profit without assistance describes rapacious, greedily exploitative behavior."
+    },
+    {
+      "passage": "After his one bestselling novel, the reclusive author retreated to a cabin with no phone or internet, refusing nearly all interviews and public appearances for the next thirty years.",
+      "question": "As used in the passage, 'reclusive' most nearly means",
+      "options": [
+        {
+          "t": "avoiding the company of others",
+          "correct": true
+        },
+        {
+          "t": "actively mentoring young writers",
+          "correct": false
+        },
+        {
+          "t": "seeking constant public attention",
+          "correct": false
+        },
+        {
+          "t": "traveling frequently for work",
+          "correct": false
+        }
+      ],
+      "words": [
+        "reclusive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Retreating from public life for decades and avoiding interviews describes reclusive behavior, withdrawing from society."
+    },
+    {
+      "passage": "The defense attorney presented cell phone records that directly refute the prosecution's claim that the defendant was near the scene at the time of the crime.",
+      "question": "Which choice best describes the function of the cell phone records in the passage?",
+      "options": [
+        {
+          "t": "to prove wrong with evidence",
+          "correct": true
+        },
+        {
+          "t": "to ignore completely",
+          "correct": false
+        },
+        {
+          "t": "to confirm with evidence",
+          "correct": false
+        },
+        {
+          "t": "to exaggerate for effect",
+          "correct": false
+        }
+      ],
+      "words": [
+        "refute"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The records serve to refute, or disprove, the prosecution's claim, functioning as counter-evidence in the defense's argument."
+    },
+    {
+      "passage": "For eighteen straight hours, rescue workers dug through the rubble in a relentless effort, refusing every suggestion to pause even as exhaustion set in.",
+      "question": "As used in the passage, 'relentless' most nearly means",
+      "options": [
+        {
+          "t": "carefully scheduled",
+          "correct": false
+        },
+        {
+          "t": "occasional and irregular",
+          "correct": false
+        },
+        {
+          "t": "easily discouraged",
+          "correct": false
+        },
+        {
+          "t": "persistent without letting up",
+          "correct": true
+        }
+      ],
+      "words": [
+        "relentless"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Digging for eighteen hours without pausing despite exhaustion shows relentless, unyielding effort."
+    },
+    {
+      "passage": "To marry into the royal family, she was required to renounce her claim to her home country's throne, giving up a right she had held since birth.",
+      "question": "As used in the passage, 'renounce' most nearly means",
+      "options": [
+        {
+          "t": "to formally give up a claim",
+          "correct": true
+        },
+        {
+          "t": "to secretly maintain a claim",
+          "correct": false
+        },
+        {
+          "t": "to formally accept a claim",
+          "correct": false
+        },
+        {
+          "t": "to publicly celebrate a claim",
+          "correct": false
+        }
+      ],
+      "words": [
+        "renounce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Giving up her claim to the throne to marry is an act of renouncing, formally surrendering a right."
+    },
+    {
+      "passage": "Facing overwhelming evidence, the company was forced to repudiate its earlier claim that the product was completely safe, issuing a public statement retracting the assertion.",
+      "question": "As used in the passage, 'repudiate' most nearly means",
+      "options": [
+        {
+          "t": "to formally reject as false",
+          "correct": true
+        },
+        {
+          "t": "to formally confirm as true",
+          "correct": false
+        },
+        {
+          "t": "to financially profit from",
+          "correct": false
+        },
+        {
+          "t": "to quietly ignore",
+          "correct": false
+        }
+      ],
+      "words": [
+        "repudiate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Retracting an earlier claim after evidence disproved it is an act of repudiating, formally rejecting the claim."
+    },
+    {
+      "passage": "The old church's stone walls gave the choir's voices a resonant quality, each note lingering and swelling in a way that a small carpeted room never could reproduce.",
+      "question": "As used in the passage, 'resonant' most nearly means",
+      "options": [
+        {
+          "t": "harshly distorted",
+          "correct": false
+        },
+        {
+          "t": "faint and barely audible",
+          "correct": false
+        },
+        {
+          "t": "completely silent",
+          "correct": false
+        },
+        {
+          "t": "deep and richly echoing",
+          "correct": true
+        }
+      ],
+      "words": [
+        "resonant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Voices that linger and swell within stone walls describe a resonant sound, deep and echoing."
+    }
+  ]
+}

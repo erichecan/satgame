@@ -1,0 +1,1830 @@
+{
+  "words": [
+    {
+      "word": "cooperate",
+      "pos": "verb",
+      "definitionEn": "to work together with others toward a shared goal",
+      "exampleEn": "The two departments agreed to cooperate on the new project to save time.",
+      "tier": "foundation",
+      "rank": 401
+    },
+    {
+      "word": "partner",
+      "pos": "verb",
+      "definitionEn": "to join with another person or group to do something together",
+      "exampleEn": "The startup decided to partner with a larger company to reach more customers.",
+      "tier": "foundation",
+      "rank": 402
+    },
+    {
+      "word": "compete",
+      "pos": "verb",
+      "definitionEn": "to try to win or do better than others in the same activity",
+      "exampleEn": "Dozens of runners will compete in tomorrow's marathon.",
+      "tier": "foundation",
+      "rank": 403
+    },
+    {
+      "word": "rival",
+      "pos": "noun",
+      "definitionEn": "a person or group competing with another for the same goal",
+      "exampleEn": "The two coffee shops on the same street have become bitter rivals.",
+      "tier": "foundation",
+      "rank": 404,
+      "synonymGroup": "competition"
+    },
+    {
+      "word": "negotiate",
+      "pos": "verb",
+      "definitionEn": "to discuss something formally in order to reach an agreement",
+      "exampleEn": "The union tried to negotiate a higher salary for its workers.",
+      "tier": "foundation",
+      "rank": 405,
+      "synonymGroup": "dispute-resolution"
+    },
+    {
+      "word": "mediate",
+      "pos": "verb",
+      "definitionEn": "to help two sides in a conflict find an agreement, without taking sides",
+      "exampleEn": "A neutral counselor was asked to mediate the dispute between the neighbors.",
+      "tier": "foundation",
+      "rank": 406,
+      "synonymGroup": "dispute-resolution"
+    },
+    {
+      "word": "arbitrate",
+      "pos": "verb",
+      "definitionEn": "to make an official decision that settles a disagreement between two sides",
+      "exampleEn": "An independent judge was hired to arbitrate the contract dispute.",
+      "tier": "foundation",
+      "rank": 407,
+      "synonymGroup": "dispute-resolution"
+    },
+    {
+      "word": "yield",
+      "pos": "verb",
+      "definitionEn": "to give up or give way to someone else's demand or force",
+      "exampleEn": "After hours of debate, the committee finally began to yield to public pressure.",
+      "tier": "foundation",
+      "rank": 408
+    },
+    {
+      "word": "insist",
+      "pos": "verb",
+      "definitionEn": "to demand something firmly and refuse to accept any other option",
+      "exampleEn": "She continued to insist that her account of the accident was accurate.",
+      "tier": "foundation",
+      "rank": 409
+    },
+    {
+      "word": "persist",
+      "pos": "verb",
+      "definitionEn": "to continue doing something despite difficulty or opposition",
+      "exampleEn": "Even after two failed experiments, the scientist chose to persist with her research.",
+      "tier": "foundation",
+      "rank": 410,
+      "synonymGroup": "perseverance"
+    },
+    {
+      "word": "withstand",
+      "pos": "verb",
+      "definitionEn": "to remain strong or unharmed despite a difficult force or condition",
+      "exampleEn": "The new bridge design was tested to withstand powerful earthquakes.",
+      "tier": "foundation",
+      "rank": 411,
+      "synonymGroup": "perseverance"
+    },
+    {
+      "word": "endure",
+      "pos": "verb",
+      "definitionEn": "to suffer through something difficult over a long period without giving up",
+      "exampleEn": "The settlers had to endure a harsh winter with little food.",
+      "tier": "foundation",
+      "rank": 412,
+      "synonymGroup": "perseverance"
+    },
+    {
+      "word": "tolerate",
+      "pos": "verb",
+      "definitionEn": "to accept or put up with something unpleasant without complaint",
+      "exampleEn": "The manager said she would not tolerate any further lateness from her staff.",
+      "tier": "foundation",
+      "rank": 413
+    },
+    {
+      "word": "overcome",
+      "pos": "verb",
+      "definitionEn": "to successfully deal with or defeat a problem or difficulty",
+      "exampleEn": "The team had to overcome a ten-point deficit to win the championship.",
+      "tier": "foundation",
+      "rank": 414,
+      "synonymGroup": "victory"
+    },
+    {
+      "word": "surmount",
+      "pos": "verb",
+      "definitionEn": "to deal successfully with a difficult problem or obstacle",
+      "exampleEn": "Engineers had to surmount serious technical challenges to complete the tunnel.",
+      "tier": "foundation",
+      "rank": 415,
+      "synonymGroup": "victory"
+    },
+    {
+      "word": "conquer",
+      "pos": "verb",
+      "definitionEn": "to defeat or gain complete control over something by force or effort",
+      "exampleEn": "The climbers trained for years before they finally managed to conquer the mountain.",
+      "tier": "foundation",
+      "rank": 416,
+      "synonymGroup": "victory"
+    },
+    {
+      "word": "struggle",
+      "pos": "verb",
+      "definitionEn": "to make a great effort to do something difficult",
+      "exampleEn": "Many small farmers struggle to earn enough income during a drought.",
+      "tier": "foundation",
+      "rank": 417,
+      "synonymGroup": "effort"
+    },
+    {
+      "word": "strive",
+      "pos": "verb",
+      "definitionEn": "to try very hard to achieve something",
+      "exampleEn": "The company continues to strive for better customer service every year.",
+      "tier": "foundation",
+      "rank": 418,
+      "synonymGroup": "effort"
+    },
+    {
+      "word": "endeavor",
+      "pos": "verb",
+      "definitionEn": "to try earnestly to do something",
+      "exampleEn": "The volunteers endeavor to clean the entire beach before sunset.",
+      "tier": "foundation",
+      "rank": 419,
+      "synonymGroup": "effort"
+    },
+    {
+      "word": "attempt",
+      "pos": "verb",
+      "definitionEn": "to make an effort to do something, without guaranteeing success",
+      "exampleEn": "The pilot decided to attempt a landing despite the strong winds.",
+      "tier": "foundation",
+      "rank": 420,
+      "synonymGroup": "effort"
+    },
+    {
+      "word": "undertake",
+      "pos": "verb",
+      "definitionEn": "to commit to and begin a task or responsibility",
+      "exampleEn": "The city agreed to undertake a major renovation of the old library.",
+      "tier": "foundation",
+      "rank": 421
+    },
+    {
+      "word": "pursue",
+      "pos": "verb",
+      "definitionEn": "to follow or work toward a goal over time",
+      "exampleEn": "After college, she decided to pursue a career in marine biology.",
+      "tier": "foundation",
+      "rank": 422
+    },
+    {
+      "word": "fulfill",
+      "pos": "verb",
+      "definitionEn": "to complete or achieve something that was promised or expected",
+      "exampleEn": "The contractor promised to fulfill the terms of the agreement by June.",
+      "tier": "foundation",
+      "rank": 423,
+      "synonymGroup": "completion"
+    },
+    {
+      "word": "complete",
+      "pos": "verb",
+      "definitionEn": "to finish doing or making something",
+      "exampleEn": "The workers expect to complete the new road by next spring.",
+      "tier": "foundation",
+      "rank": 424,
+      "synonymGroup": "completion"
+    },
+    {
+      "word": "initiate",
+      "pos": "verb",
+      "definitionEn": "to start or begin a process or action",
+      "exampleEn": "The board voted to initiate a full review of company spending.",
+      "tier": "foundation",
+      "rank": 425,
+      "synonymGroup": "beginning"
+    },
+    {
+      "word": "commence",
+      "pos": "verb",
+      "definitionEn": "to begin or start, often formally",
+      "exampleEn": "The graduation ceremony will commence at ten o'clock sharp.",
+      "tier": "foundation",
+      "rank": 426,
+      "synonymGroup": "beginning"
+    },
+    {
+      "word": "begin",
+      "pos": "verb",
+      "definitionEn": "to start doing or happening",
+      "exampleEn": "The meeting will begin as soon as everyone has arrived.",
+      "tier": "foundation",
+      "rank": 427,
+      "synonymGroup": "beginning"
+    },
+    {
+      "word": "terminate",
+      "pos": "verb",
+      "definitionEn": "to bring something to an end",
+      "exampleEn": "The company decided to terminate the contract after repeated delays.",
+      "tier": "foundation",
+      "rank": 428,
+      "synonymGroup": "ending"
+    },
+    {
+      "word": "finalize",
+      "pos": "verb",
+      "definitionEn": "to complete the last details of something so it is ready",
+      "exampleEn": "The two sides met to finalize the terms of the merger.",
+      "tier": "foundation",
+      "rank": 429,
+      "synonymGroup": "completion"
+    },
+    {
+      "word": "continue",
+      "pos": "verb",
+      "definitionEn": "to keep doing something without stopping",
+      "exampleEn": "Despite the rain, the players decided to continue the match.",
+      "tier": "foundation",
+      "rank": 430
+    },
+    {
+      "word": "proceed",
+      "pos": "verb",
+      "definitionEn": "to go forward or continue with an action after a pause or decision",
+      "exampleEn": "Once the permits were approved, the builders were free to proceed with construction.",
+      "tier": "foundation",
+      "rank": 431
+    },
+    {
+      "word": "interrupt",
+      "pos": "verb",
+      "definitionEn": "to stop a process or activity for a short time by breaking into it",
+      "exampleEn": "A sudden power outage interrupted the live broadcast.",
+      "tier": "foundation",
+      "rank": 432,
+      "synonymGroup": "pause"
+    },
+    {
+      "word": "suspend",
+      "pos": "verb",
+      "definitionEn": "to stop something temporarily, intending to start it again later",
+      "exampleEn": "The airline had to suspend flights during the storm.",
+      "tier": "foundation",
+      "rank": 433,
+      "synonymGroup": "pause"
+    },
+    {
+      "word": "halt",
+      "pos": "verb",
+      "definitionEn": "to stop moving or happening, often suddenly",
+      "exampleEn": "Construction came to a halt when workers discovered ancient ruins underground.",
+      "tier": "foundation",
+      "rank": 434,
+      "synonymGroup": "pause"
+    },
+    {
+      "word": "resume",
+      "pos": "verb",
+      "definitionEn": "to begin again after a pause or interruption",
+      "exampleEn": "Talks between the two countries are set to resume next week.",
+      "tier": "foundation",
+      "rank": 435,
+      "synonymGroup": "restarting"
+    },
+    {
+      "word": "restart",
+      "pos": "verb",
+      "definitionEn": "to start something again from the beginning or after stopping",
+      "exampleEn": "Technicians had to restart the entire system after it crashed.",
+      "tier": "foundation",
+      "rank": 436,
+      "synonymGroup": "restarting"
+    },
+    {
+      "word": "renew",
+      "pos": "verb",
+      "definitionEn": "to begin something again or extend it for a further period",
+      "exampleEn": "She had to renew her passport before traveling abroad.",
+      "tier": "foundation",
+      "rank": 437,
+      "synonymGroup": "restarting"
+    },
+    {
+      "word": "deteriorate",
+      "pos": "verb",
+      "definitionEn": "to become progressively worse",
+      "exampleEn": "The patient's condition began to deteriorate overnight.",
+      "tier": "foundation",
+      "rank": 438,
+      "synonymGroup": "worsening"
+    },
+    {
+      "word": "decline",
+      "pos": "verb",
+      "definitionEn": "to gradually become smaller, weaker, or worse",
+      "exampleEn": "Sales began to decline sharply after the competitor entered the market.",
+      "tier": "foundation",
+      "rank": 439,
+      "synonymGroup": "worsening"
+    },
+    {
+      "word": "advance",
+      "pos": "verb",
+      "definitionEn": "to move forward or make progress",
+      "exampleEn": "Medical research continues to advance at a remarkable pace.",
+      "tier": "foundation",
+      "rank": 440,
+      "synonymGroup": "progress"
+    },
+    {
+      "word": "progress",
+      "pos": "verb",
+      "definitionEn": "to develop or improve over time",
+      "exampleEn": "The student's writing skills progressed quickly after weekly practice.",
+      "tier": "foundation",
+      "rank": 441,
+      "synonymGroup": "progress"
+    },
+    {
+      "word": "regress",
+      "pos": "verb",
+      "definitionEn": "to return to a worse or less developed state",
+      "exampleEn": "Without practice, his language skills began to regress.",
+      "tier": "foundation",
+      "rank": 442,
+      "synonymGroup": "worsening"
+    },
+    {
+      "word": "worsen",
+      "pos": "verb",
+      "definitionEn": "to become or make something more bad or severe",
+      "exampleEn": "Traffic conditions tend to worsen during the holiday season.",
+      "tier": "foundation",
+      "rank": 443,
+      "synonymGroup": "worsening"
+    },
+    {
+      "word": "stagnate",
+      "pos": "verb",
+      "definitionEn": "to stop developing or making progress",
+      "exampleEn": "The local economy began to stagnate after the factory closed.",
+      "tier": "foundation",
+      "rank": 444,
+      "synonymGroup": "no-progress"
+    },
+    {
+      "word": "stall",
+      "pos": "verb",
+      "definitionEn": "to stop making progress temporarily",
+      "exampleEn": "Negotiations between the two companies stalled over pricing disagreements.",
+      "tier": "foundation",
+      "rank": 445,
+      "synonymGroup": "no-progress"
+    },
+    {
+      "word": "plateau",
+      "pos": "verb",
+      "definitionEn": "to reach a stable level after a period of increase",
+      "exampleEn": "Her weight loss plateaued after the first two months of the diet.",
+      "tier": "foundation",
+      "rank": 446,
+      "synonymGroup": "no-progress"
+    },
+    {
+      "word": "prosper",
+      "pos": "verb",
+      "definitionEn": "to succeed and become financially or generally strong",
+      "exampleEn": "Small businesses began to prosper once the new highway opened.",
+      "tier": "foundation",
+      "rank": 447,
+      "synonymGroup": "success"
+    },
+    {
+      "word": "thrive",
+      "pos": "verb",
+      "definitionEn": "to grow or develop very well and successfully",
+      "exampleEn": "The garden thrives thanks to the rich soil and steady rainfall.",
+      "tier": "foundation",
+      "rank": 448,
+      "synonymGroup": "success"
+    },
+    {
+      "word": "flourish",
+      "pos": "verb",
+      "definitionEn": "to grow, develop, or succeed vigorously",
+      "exampleEn": "The arts scene in the city has flourished over the last decade.",
+      "tier": "foundation",
+      "rank": 449,
+      "synonymGroup": "success"
+    },
+    {
+      "word": "decay",
+      "pos": "verb",
+      "definitionEn": "to rot or gradually break down and lose strength",
+      "exampleEn": "The abandoned building began to decay after years of neglect.",
+      "tier": "foundation",
+      "rank": 450
+    },
+    {
+      "word": "wane",
+      "pos": "verb",
+      "definitionEn": "to gradually decrease in strength, size, or importance",
+      "exampleEn": "Public interest in the trend began to wane after a few months.",
+      "tier": "foundation",
+      "rank": 451
+    },
+    {
+      "word": "appear",
+      "pos": "verb",
+      "definitionEn": "to become visible or come into existence",
+      "exampleEn": "A rainbow appeared over the valley after the storm passed.",
+      "tier": "foundation",
+      "rank": 452,
+      "synonymGroup": "emergence"
+    },
+    {
+      "word": "surface",
+      "pos": "verb",
+      "definitionEn": "to come up to the top or become known after being hidden",
+      "exampleEn": "New evidence surfaced years after the original investigation closed.",
+      "tier": "foundation",
+      "rank": 453,
+      "synonymGroup": "emergence"
+    },
+    {
+      "word": "disappear",
+      "pos": "verb",
+      "definitionEn": "to stop being visible or to cease existing",
+      "exampleEn": "The hikers watched the sun disappear behind the mountains.",
+      "tier": "foundation",
+      "rank": 454,
+      "synonymGroup": "vanishing"
+    },
+    {
+      "word": "vanish",
+      "pos": "verb",
+      "definitionEn": "to disappear suddenly and completely",
+      "exampleEn": "The magician made the coin vanish in front of the audience.",
+      "tier": "foundation",
+      "rank": 455,
+      "synonymGroup": "vanishing"
+    },
+    {
+      "word": "fade",
+      "pos": "verb",
+      "definitionEn": "to gradually become less visible, bright, or strong",
+      "exampleEn": "The old photograph had faded so much that the faces were hard to see.",
+      "tier": "foundation",
+      "rank": 456,
+      "synonymGroup": "vanishing"
+    },
+    {
+      "word": "remain",
+      "pos": "verb",
+      "definitionEn": "to stay in the same place or condition without changing",
+      "exampleEn": "Despite the criticism, the mayor chose to remain in office.",
+      "tier": "foundation",
+      "rank": 457
+    },
+    {
+      "word": "cease",
+      "pos": "verb",
+      "definitionEn": "to stop happening or existing",
+      "exampleEn": "The factory ceased production after the fire damaged its equipment.",
+      "tier": "foundation",
+      "rank": 458,
+      "synonymGroup": "stopping"
+    },
+    {
+      "word": "stop",
+      "pos": "verb",
+      "definitionEn": "to no longer continue an action or movement",
+      "exampleEn": "The bus stopped suddenly to avoid hitting a dog in the road.",
+      "tier": "foundation",
+      "rank": 459,
+      "synonymGroup": "stopping"
+    },
+    {
+      "word": "discontinue",
+      "pos": "verb",
+      "definitionEn": "to stop making, producing, or providing something",
+      "exampleEn": "The company decided to discontinue the unpopular product line.",
+      "tier": "foundation",
+      "rank": 460,
+      "synonymGroup": "stopping"
+    },
+    {
+      "word": "apply",
+      "pos": "verb",
+      "definitionEn": "to put something into use for a particular purpose",
+      "exampleEn": "Students were asked to apply the formula to solve the problem.",
+      "tier": "foundation",
+      "rank": 461,
+      "synonymGroup": "usage"
+    },
+    {
+      "word": "utilize",
+      "pos": "verb",
+      "definitionEn": "to make practical use of something",
+      "exampleEn": "The team decided to utilize satellite data to track the storm.",
+      "tier": "foundation",
+      "rank": 462,
+      "synonymGroup": "usage"
+    },
+    {
+      "word": "employ",
+      "pos": "verb",
+      "definitionEn": "to use a particular method, skill, or object for a purpose",
+      "exampleEn": "The author employs vivid imagery to describe the battlefield.",
+      "tier": "foundation",
+      "rank": 463,
+      "synonymGroup": "usage"
+    },
+    {
+      "word": "use",
+      "pos": "verb",
+      "definitionEn": "to take or employ something for a specific purpose",
+      "exampleEn": "She learned to use the new software within a single afternoon.",
+      "tier": "foundation",
+      "rank": 464,
+      "synonymGroup": "usage"
+    },
+    {
+      "word": "exercise",
+      "pos": "verb",
+      "definitionEn": "to use a power, right, or quality actively",
+      "exampleEn": "The judge chose to exercise caution before issuing a final ruling.",
+      "tier": "foundation",
+      "rank": 465
+    },
+    {
+      "word": "decide",
+      "pos": "verb",
+      "definitionEn": "to choose a course of action after considering options",
+      "exampleEn": "The committee will decide tomorrow whether to approve the budget.",
+      "tier": "foundation",
+      "rank": 466
+    },
+    {
+      "word": "hypothesize",
+      "pos": "verb",
+      "definitionEn": "to suggest an explanation based on limited evidence, as a starting point for investigation",
+      "exampleEn": "Scientists hypothesize that the disease spreads through contaminated water.",
+      "tier": "foundation",
+      "rank": 467,
+      "synonymGroup": "theorizing"
+    },
+    {
+      "word": "theorize",
+      "pos": "verb",
+      "definitionEn": "to form a theory or general explanation about something",
+      "exampleEn": "Researchers theorize that the ancient city was destroyed by an earthquake.",
+      "tier": "foundation",
+      "rank": 468,
+      "synonymGroup": "theorizing"
+    },
+    {
+      "word": "verify",
+      "pos": "verb",
+      "definitionEn": "to check that something is true or accurate",
+      "exampleEn": "The editor asked the reporter to verify every fact before publishing the story.",
+      "tier": "foundation",
+      "rank": 469,
+      "synonymGroup": "confirming"
+    },
+    {
+      "word": "confirm",
+      "pos": "verb",
+      "definitionEn": "to state or show that something is true or correct",
+      "exampleEn": "The lab results confirmed the doctor's initial diagnosis.",
+      "tier": "foundation",
+      "rank": 470,
+      "synonymGroup": "confirming"
+    },
+    {
+      "word": "validate",
+      "pos": "verb",
+      "definitionEn": "to prove or officially recognize that something is accurate or legitimate",
+      "exampleEn": "The new experiment helped validate the scientist's original theory.",
+      "tier": "foundation",
+      "rank": 471,
+      "synonymGroup": "confirming"
+    },
+    {
+      "word": "disprove",
+      "pos": "verb",
+      "definitionEn": "to show that something is false",
+      "exampleEn": "The new fossil evidence helped disprove the earlier theory about the species.",
+      "tier": "foundation",
+      "rank": 472,
+      "synonymGroup": "refuting"
+    },
+    {
+      "word": "contradict",
+      "pos": "verb",
+      "definitionEn": "to state the opposite of something, showing it is false or inconsistent",
+      "exampleEn": "The witness's testimony seemed to contradict the earlier police report.",
+      "tier": "foundation",
+      "rank": 473,
+      "synonymGroup": "refuting"
+    },
+    {
+      "word": "acknowledge",
+      "pos": "verb",
+      "definitionEn": "to accept or admit that something is true or exists",
+      "exampleEn": "The company was forced to acknowledge the defect in its product.",
+      "tier": "foundation",
+      "rank": 474,
+      "synonymGroup": "admitting"
+    },
+    {
+      "word": "admit",
+      "pos": "verb",
+      "definitionEn": "to confess that something, often unfavorable, is true",
+      "exampleEn": "He finally admitted that he had made a mistake on the report.",
+      "tier": "foundation",
+      "rank": 475,
+      "synonymGroup": "admitting"
+    },
+    {
+      "word": "deny",
+      "pos": "verb",
+      "definitionEn": "to state that something is not true",
+      "exampleEn": "The official continued to deny any involvement in the scandal.",
+      "tier": "foundation",
+      "rank": 476,
+      "synonymGroup": "refusing"
+    },
+    {
+      "word": "refuse",
+      "pos": "verb",
+      "definitionEn": "to indicate that one is not willing to do or accept something",
+      "exampleEn": "The employee refused to sign the new contract without changes.",
+      "tier": "foundation",
+      "rank": 477,
+      "synonymGroup": "refusing"
+    },
+    {
+      "word": "accept",
+      "pos": "verb",
+      "definitionEn": "to agree to receive or take something offered",
+      "exampleEn": "She decided to accept the job offer after much thought.",
+      "tier": "foundation",
+      "rank": 478,
+      "synonymGroup": "accepting"
+    },
+    {
+      "word": "embrace",
+      "pos": "verb",
+      "definitionEn": "to accept something willingly and enthusiastically",
+      "exampleEn": "The town chose to embrace new technology to modernize its schools.",
+      "tier": "foundation",
+      "rank": 479,
+      "synonymGroup": "accepting"
+    },
+    {
+      "word": "welcome",
+      "pos": "verb",
+      "definitionEn": "to receive someone or something with pleasure or approval",
+      "exampleEn": "The committee welcomed the new proposal as a step in the right direction.",
+      "tier": "foundation",
+      "rank": 480,
+      "synonymGroup": "accepting"
+    },
+    {
+      "word": "reluctant",
+      "pos": "adjective",
+      "definitionEn": "unwilling and hesitant to do something",
+      "exampleEn": "He was reluctant to share his opinion in front of the whole class.",
+      "tier": "foundation",
+      "rank": 481,
+      "synonymGroup": "unwillingness"
+    },
+    {
+      "word": "hesitant",
+      "pos": "adjective",
+      "definitionEn": "slow to act or speak because of uncertainty",
+      "exampleEn": "She felt hesitant about signing the contract without reading it fully.",
+      "tier": "foundation",
+      "rank": 482,
+      "synonymGroup": "unwillingness"
+    },
+    {
+      "word": "unwilling",
+      "pos": "adjective",
+      "definitionEn": "not wanting to do something",
+      "exampleEn": "The witness was unwilling to answer any further questions.",
+      "tier": "foundation",
+      "rank": 483,
+      "synonymGroup": "unwillingness"
+    },
+    {
+      "word": "willing",
+      "pos": "adjective",
+      "definitionEn": "ready and happy to do something",
+      "exampleEn": "Several volunteers were willing to stay late and help clean up.",
+      "tier": "foundation",
+      "rank": 484,
+      "synonymGroup": "willingness"
+    },
+    {
+      "word": "eager",
+      "pos": "adjective",
+      "definitionEn": "having a strong desire or interest to do something",
+      "exampleEn": "The new intern was eager to learn every part of the business.",
+      "tier": "foundation",
+      "rank": 485,
+      "synonymGroup": "willingness"
+    },
+    {
+      "word": "enthusiastic",
+      "pos": "adjective",
+      "definitionEn": "showing intense excitement and interest in something",
+      "exampleEn": "The coach was enthusiastic about the team's improvement this season.",
+      "tier": "foundation",
+      "rank": 486,
+      "synonymGroup": "willingness"
+    },
+    {
+      "word": "detached",
+      "pos": "adjective",
+      "definitionEn": "not emotionally involved or interested in something",
+      "exampleEn": "He remained detached during the meeting, offering no opinion either way.",
+      "tier": "foundation",
+      "rank": 487,
+      "synonymGroup": "involvement"
+    },
+    {
+      "word": "concerned",
+      "pos": "adjective",
+      "definitionEn": "worried or interested about a particular matter",
+      "exampleEn": "Parents grew concerned about the safety of the playground equipment.",
+      "tier": "foundation",
+      "rank": 488
+    },
+    {
+      "word": "invested",
+      "pos": "adjective",
+      "definitionEn": "deeply interested in and committed to something",
+      "exampleEn": "The players were fully invested in winning the championship this year.",
+      "tier": "foundation",
+      "rank": 489,
+      "synonymGroup": "involvement"
+    },
+    {
+      "word": "engaged",
+      "pos": "adjective",
+      "definitionEn": "actively involved and interested in something",
+      "exampleEn": "The students stayed engaged throughout the entire two-hour lecture.",
+      "tier": "foundation",
+      "rank": 490,
+      "synonymGroup": "involvement"
+    },
+    {
+      "word": "skeptical",
+      "pos": "adjective",
+      "definitionEn": "having doubts about whether a claim is true",
+      "exampleEn": "Many scientists remained skeptical of the company's bold claims.",
+      "tier": "foundation",
+      "rank": 491,
+      "synonymGroup": "doubt"
+    },
+    {
+      "word": "doubtful",
+      "pos": "adjective",
+      "definitionEn": "feeling uncertain about whether something is true or will happen",
+      "exampleEn": "Investors were doubtful that the small company could repay its debt.",
+      "tier": "foundation",
+      "rank": 492,
+      "synonymGroup": "doubt"
+    },
+    {
+      "word": "confident",
+      "pos": "adjective",
+      "definitionEn": "feeling sure about one's abilities or about an outcome",
+      "exampleEn": "The coach felt confident that the team would win the final match.",
+      "tier": "foundation",
+      "rank": 493,
+      "synonymGroup": "certainty"
+    },
+    {
+      "word": "certain",
+      "pos": "adjective",
+      "definitionEn": "having no doubt that something is true",
+      "exampleEn": "She was certain she had left her keys on the kitchen table.",
+      "tier": "foundation",
+      "rank": 494,
+      "synonymGroup": "certainty"
+    },
+    {
+      "word": "assured",
+      "pos": "adjective",
+      "definitionEn": "confident and free from self-doubt",
+      "exampleEn": "The lawyer spoke in an assured tone throughout the closing argument.",
+      "tier": "foundation",
+      "rank": 495,
+      "synonymGroup": "certainty"
+    },
+    {
+      "word": "uncertain",
+      "pos": "adjective",
+      "definitionEn": "not known or definite; lacking confidence",
+      "exampleEn": "The future of the old factory remains uncertain after the announcement.",
+      "tier": "foundation",
+      "rank": 496,
+      "synonymGroup": "doubt"
+    },
+    {
+      "word": "optimistic",
+      "pos": "adjective",
+      "definitionEn": "hopeful and confident about the future",
+      "exampleEn": "Despite the setback, the team stayed optimistic about the season ahead.",
+      "tier": "foundation",
+      "rank": 497,
+      "synonymGroup": "positive-outlook"
+    },
+    {
+      "word": "hopeful",
+      "pos": "adjective",
+      "definitionEn": "feeling or expressing a positive expectation about the future",
+      "exampleEn": "Doctors remain hopeful that the new treatment will help patients recover faster.",
+      "tier": "foundation",
+      "rank": 498,
+      "synonymGroup": "positive-outlook"
+    },
+    {
+      "word": "pessimistic",
+      "pos": "adjective",
+      "definitionEn": "expecting the worst possible outcome",
+      "exampleEn": "Analysts grew pessimistic about the company's chances of survival.",
+      "tier": "foundation",
+      "rank": 499,
+      "synonymGroup": "negative-outlook"
+    },
+    {
+      "word": "bleak",
+      "pos": "adjective",
+      "definitionEn": "offering little hope or encouragement; grim",
+      "exampleEn": "The report painted a bleak picture of the region's economic future.",
+      "tier": "foundation",
+      "rank": 500,
+      "synonymGroup": "negative-outlook"
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "The formal proceedings will commence promptly at nine, and latecomers will not be permitted to enter until the first recess.",
+      "question": "As used in the passage, 'commence' most nearly means",
+      "options": [
+        {
+          "t": "to briefly pause"
+        },
+        {
+          "t": "to formally begin",
+          "correct": true
+        },
+        {
+          "t": "to informally continue"
+        },
+        {
+          "t": "to formally end"
+        }
+      ],
+      "words": [
+        "commence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The strict starting time and the mention of latecomers indicate that 'commence' means to formally begin."
+    },
+    {
+      "passage": "Left exposed to the weather, the wooden fence began to decay, its boards softening and crumbling within a few short years.",
+      "question": "As used in the passage, 'decay' most nearly means",
+      "options": [
+        {
+          "t": "to rot and break down"
+        },
+        {
+          "t": "to be repainted regularly"
+        },
+        {
+          "t": "to strengthen over time",
+          "correct": true
+        },
+        {
+          "t": "to remain solid indefinitely"
+        }
+      ],
+      "words": [
+        "decay"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The softening and crumbling boards describe the process of rotting, which is the meaning of 'decay.'"
+    },
+    {
+      "passage": "Strange lights began to appear over the desert each night, drawing curious tourists and confused scientists alike.",
+      "question": "As used in the passage, 'appear' most nearly means",
+      "options": [
+        {
+          "t": "to become visible",
+          "correct": true
+        },
+        {
+          "t": "to be forgotten"
+        },
+        {
+          "t": "to disappear completely"
+        },
+        {
+          "t": "to remain hidden"
+        }
+      ],
+      "words": [
+        "appear",
+        "surface"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Lights becoming visible each night over the desert is the meaning of 'appear.'"
+    },
+    {
+      "passage": "When the two companies could not settle their contract dispute privately, they hired an independent arbitrator whose decision, unlike a mediator's suggestion, would be legally binding on both parties.",
+      "question": "As used in the passage, 'arbitrate' most nearly means",
+      "options": [
+        {
+          "t": "to advise informally without authority"
+        },
+        {
+          "t": "to postpone a decision indefinitely"
+        },
+        {
+          "t": "to formally settle a dispute with a binding decision",
+          "correct": true
+        },
+        {
+          "t": "to end all communication between two sides"
+        }
+      ],
+      "words": [
+        "arbitrate",
+        "mediate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts arbitration's binding decision with mediation's non-binding suggestion, showing arbitrate means to formally settle with authority."
+    },
+    {
+      "passage": "The report painted a bleak picture of the fishing industry, warning that overfishing could collapse the region's economy within a decade.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "Overfishing has already been fully resolved."
+        },
+        {
+          "t": "The report focused only on unrelated industries."
+        },
+        {
+          "t": "The fishing industry is thriving beyond expectations."
+        },
+        {
+          "t": "The fishing industry has a discouraging and troubled outlook.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "bleak"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The warning of economic collapse from overfishing conveys a grim, discouraging outlook, matching 'bleak.'"
+    },
+    {
+      "passage": "By the third season, fans were fully invested in the characters' lives, discussing plot theories online for hours after each episode.",
+      "question": "As used in the passage, 'invested' most nearly means",
+      "options": [
+        {
+          "t": "completely bored"
+        },
+        {
+          "t": "financially indebted"
+        },
+        {
+          "t": "briefly curious"
+        },
+        {
+          "t": "deeply interested and emotionally committed",
+          "correct": true
+        }
+      ],
+      "words": [
+        "invested",
+        "engaged"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Fans discussing theories for hours shows deep interest and commitment, the meaning of 'invested' in this context."
+    },
+    {
+      "passage": "After a strong first quarter, the merger negotiations stalled when both companies disagreed sharply over how to value certain assets.",
+      "question": "As used in the passage, 'stall' most nearly means",
+      "options": [
+        {
+          "t": "to stop making progress temporarily"
+        },
+        {
+          "t": "to accelerate rapidly",
+          "correct": true
+        },
+        {
+          "t": "to begin formally"
+        },
+        {
+          "t": "to conclude successfully"
+        }
+      ],
+      "words": [
+        "stall"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The disagreement halting progress in the negotiations is precisely what 'stall' describes."
+    },
+    {
+      "passage": "New fossil discoveries helped disprove the long-held belief that the species had gone extinct thousands of years earlier than it actually did.",
+      "question": "As used in the passage, 'disprove' most nearly means",
+      "options": [
+        {
+          "t": "to ignore new evidence"
+        },
+        {
+          "t": "to show that a claim is false"
+        },
+        {
+          "t": "to delay a discovery"
+        },
+        {
+          "t": "to support an existing belief",
+          "correct": true
+        }
+      ],
+      "words": [
+        "disprove"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The fossils showing the earlier belief was wrong is the meaning of 'disprove.'"
+    },
+    {
+      "passage": "Though offered the promotion, she remained reluctant, worried that the added responsibility would leave no time for her family.",
+      "question": "As used in the passage, 'reluctant' most nearly means",
+      "options": [
+        {
+          "t": "eager and excited",
+          "correct": true
+        },
+        {
+          "t": "fully confident"
+        },
+        {
+          "t": "unwilling and hesitant"
+        },
+        {
+          "t": "completely indifferent"
+        }
+      ],
+      "words": [
+        "reluctant",
+        "hesitant"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Her worry and unwillingness to accept the promotion demonstrate the meaning of 'reluctant.'"
+    },
+    {
+      "passage": "Engineers apply principles of physics learned in the classroom to solve real construction problems on the job site.",
+      "question": "As used in the passage, 'apply' most nearly means",
+      "options": [
+        {
+          "t": "to invent a new theory"
+        },
+        {
+          "t": "to ignore a principle",
+          "correct": true
+        },
+        {
+          "t": "to put into practical use"
+        },
+        {
+          "t": "to teach a new subject"
+        }
+      ],
+      "words": [
+        "apply",
+        "utilize"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Using classroom knowledge to solve real problems demonstrates 'apply,' putting something into practical use."
+    },
+    {
+      "passage": "When the two departments could not agree on a budget, management brought in a neutral facilitator to mediate. Unlike a judge who decides a case, the facilitator only helped both sides communicate until they reached their own agreement.",
+      "question": "Which choice best describes the function of 'mediate' in the passage?",
+      "options": [
+        {
+          "t": "It refers to imposing a binding legal ruling.",
+          "correct": true
+        },
+        {
+          "t": "It refers to punishing one side for wrongdoing."
+        },
+        {
+          "t": "It refers to ending the negotiation permanently."
+        },
+        {
+          "t": "It refers to helping two sides reach their own agreement without taking sides."
+        }
+      ],
+      "words": [
+        "mediate",
+        "negotiate"
+      ],
+      "domain": "craft_structure",
+      "explanation": "The passage explicitly contrasts a mediator, who helps sides reach their own agreement, with a judge who decides for them."
+    },
+    {
+      "passage": "Thanks to fertile soil and abundant rain, the region's farms have long prospered, exporting crops across the entire continent.",
+      "question": "As used in the passage, 'prosper' most nearly means",
+      "options": [
+        {
+          "t": "to succeed and grow strong"
+        },
+        {
+          "t": "to remain unchanged"
+        },
+        {
+          "t": "to shrink in size"
+        },
+        {
+          "t": "to fail financially",
+          "correct": true
+        }
+      ],
+      "words": [
+        "prosper",
+        "thrive",
+        "flourish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The farms exporting crops widely due to good conditions shows they succeeded and grew, the meaning of 'prosper.'"
+    },
+    {
+      "passage": "The festival will initiate a series of cultural events that continue through the entire month, beginning with a parade and ending with a closing concert.",
+      "question": "As used in the passage, 'initiate' most nearly means",
+      "options": [
+        {
+          "t": "to start or begin something"
+        },
+        {
+          "t": "to cancel an event"
+        },
+        {
+          "t": "to repeat an event annually"
+        },
+        {
+          "t": "to conclude a series of events",
+          "correct": true
+        }
+      ],
+      "words": [
+        "initiate",
+        "commence"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes the festival beginning with a parade, which matches 'initiate' meaning to start something."
+    },
+    {
+      "passage": "Before publishing the story, the journalist spent days trying to verify each claim made by her anonymous source.",
+      "question": "As used in the passage, 'verify' most nearly means",
+      "options": [
+        {
+          "t": "to invent new claims",
+          "correct": true
+        },
+        {
+          "t": "to ignore a source"
+        },
+        {
+          "t": "to check the accuracy of information"
+        },
+        {
+          "t": "to publish immediately"
+        }
+      ],
+      "words": [
+        "verify",
+        "confirm"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Checking each claim before publishing demonstrates 'verify,' confirming that information is accurate."
+    },
+    {
+      "passage": "Rather than compete for the same shrinking customer base, the two small bakeries decided to cooperate, sharing suppliers and splitting the cost of advertising. Within a year, both shops saw higher profits than they had as separate rivals.",
+      "question": "As used in the passage, 'cooperate' most nearly means",
+      "options": [
+        {
+          "t": "to ignore each other entirely"
+        },
+        {
+          "t": "to reduce prices sharply"
+        },
+        {
+          "t": "to compete more aggressively"
+        },
+        {
+          "t": "to work jointly toward a common benefit",
+          "correct": true
+        }
+      ],
+      "words": [
+        "cooperate",
+        "compete",
+        "rival"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage shows the bakeries sharing suppliers and advertising costs instead of competing, which is the meaning of 'cooperate.'"
+    },
+    {
+      "passage": "The witness was unwilling to testify publicly, fearing retaliation from the people she would be accusing.",
+      "question": "As used in the passage, 'unwilling' most nearly means",
+      "options": [
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "financially motivated"
+        },
+        {
+          "t": "eager to participate"
+        },
+        {
+          "t": "not wanting to do something",
+          "correct": true
+        }
+      ],
+      "words": [
+        "unwilling",
+        "willing"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The witness's fear-driven refusal to testify shows she was not wanting to act, the meaning of 'unwilling.'"
+    },
+    {
+      "passage": "Left without new investment for years, the small town's economy began to stagnate, with no new jobs or businesses appearing.",
+      "question": "As used in the passage, 'stagnate' most nearly means",
+      "options": [
+        {
+          "t": "to grow rapidly",
+          "correct": true
+        },
+        {
+          "t": "to attract new residents"
+        },
+        {
+          "t": "to modernize quickly"
+        },
+        {
+          "t": "to stop developing or improving"
+        }
+      ],
+      "words": [
+        "stagnate",
+        "stall"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The absence of new jobs or businesses shows the economy stopped developing, the meaning of 'stagnate.'"
+    },
+    {
+      "passage": "In her speech, the senator employed powerful rhetorical questions to persuade the audience of the bill's urgency.",
+      "question": "As used in the passage, 'employ' most nearly means",
+      "options": [
+        {
+          "t": "to avoid entirely"
+        },
+        {
+          "t": "to criticize openly"
+        },
+        {
+          "t": "to hire as staff",
+          "correct": true
+        },
+        {
+          "t": "to make use of a method or technique"
+        }
+      ],
+      "words": [
+        "employ"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Using rhetorical questions as a technique to persuade shows the meaning of 'employ' here, to make use of a method."
+    },
+    {
+      "passage": "Down by twenty points at halftime, the underdog team seemed finished. Yet through relentless defense and a string of late three-pointers, they managed to overcome the deficit and win in overtime.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The game ended in a tie."
+        },
+        {
+          "t": "The team came back from a large deficit to win."
+        },
+        {
+          "t": "The team lost despite a strong effort."
+        },
+        {
+          "t": "The team gave up once they fell behind.",
+          "correct": true
+        }
+      ],
+      "words": [
+        "overcome"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage traces the team's comeback from a twenty-point deficit to an overtime win, which is the main idea."
+    },
+    {
+      "passage": "The new coach was enthusiastic from day one, organizing extra practices and cheering loudly at every small improvement.",
+      "question": "As used in the passage, 'enthusiastic' most nearly means",
+      "options": [
+        {
+          "t": "acting with strict formality"
+        },
+        {
+          "t": "showing strong excitement and interest",
+          "correct": true
+        },
+        {
+          "t": "remaining emotionally distant"
+        },
+        {
+          "t": "showing quiet disapproval"
+        }
+      ],
+      "words": [
+        "enthusiastic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The coach's extra effort and loud encouragement demonstrate strong excitement, the meaning of 'enthusiastic.'"
+    },
+    {
+      "passage": "Under the new mayor's policies, small businesses have flourished downtown, filling storefronts that had been empty for years.",
+      "question": "As used in the passage, 'flourish' most nearly means",
+      "options": [
+        {
+          "t": "to lose customers"
+        },
+        {
+          "t": "to close permanently"
+        },
+        {
+          "t": "to grow and succeed vigorously",
+          "correct": true
+        },
+        {
+          "t": "to relocate elsewhere"
+        }
+      ],
+      "words": [
+        "flourish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Businesses filling previously empty storefronts shows vigorous growth, matching the meaning of 'flourish.'"
+    },
+    {
+      "passage": "Having trained for years, the gymnast felt confident stepping onto the mat for the final routine of her career.",
+      "question": "As used in the passage, 'confident' most nearly means",
+      "options": [
+        {
+          "t": "sure of one's abilities"
+        },
+        {
+          "t": "nervous and unprepared",
+          "correct": true
+        },
+        {
+          "t": "reluctant to compete"
+        },
+        {
+          "t": "indifferent to the outcome"
+        }
+      ],
+      "words": [
+        "confident",
+        "assured"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Years of training leading to a feeling of readiness matches the meaning of 'confident.'"
+    },
+    {
+      "passage": "After reviewing the audit, the executives had to acknowledge that the company's spending had far exceeded its budget for three consecutive years.",
+      "question": "As used in the passage, 'acknowledge' most nearly means",
+      "options": [
+        {
+          "t": "to postpone a review"
+        },
+        {
+          "t": "to deny responsibility",
+          "correct": true
+        },
+        {
+          "t": "to accept that something is true"
+        },
+        {
+          "t": "to hide evidence"
+        }
+      ],
+      "words": [
+        "acknowledge",
+        "admit"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Accepting the audit's findings about overspending is the meaning of 'acknowledge.'"
+    },
+    {
+      "passage": "The future of the abandoned mill remains uncertain, with the city still debating whether to restore it or tear it down.",
+      "question": "As used in the passage, 'uncertain' most nearly means",
+      "options": [
+        {
+          "t": "not known or definite"
+        },
+        {
+          "t": "widely celebrated"
+        },
+        {
+          "t": "clearly decided",
+          "correct": true
+        },
+        {
+          "t": "financially secure"
+        }
+      ],
+      "words": [
+        "uncertain"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The city still debating the mill's fate shows the outcome is not yet known, the meaning of 'uncertain.'"
+    },
+    {
+      "passage": "Renewable energy technology continues to advance rapidly, with solar panel efficiency nearly doubling over the past decade.",
+      "question": "As used in the passage, 'advance' most nearly means",
+      "options": [
+        {
+          "t": "to become obsolete"
+        },
+        {
+          "t": "to move forward or improve"
+        },
+        {
+          "t": "to decrease in efficiency"
+        },
+        {
+          "t": "to remain stagnant",
+          "correct": true
+        }
+      ],
+      "words": [
+        "advance",
+        "progress"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The doubling of solar efficiency over a decade illustrates 'advance,' meaning to move forward or improve."
+    },
+    {
+      "passage": "Based on unusual patterns in ocean temperature, researchers hypothesize that a previously unknown current shapes weather along the coast.",
+      "question": "As used in the passage, 'hypothesize' most nearly means",
+      "options": [
+        {
+          "t": "to propose a tentative explanation"
+        },
+        {
+          "t": "to summarize known facts"
+        },
+        {
+          "t": "to reject an idea outright"
+        },
+        {
+          "t": "to prove definitively",
+          "correct": true
+        }
+      ],
+      "words": [
+        "hypothesize",
+        "theorize"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Proposing an explanation based on unusual patterns, without proof, is the meaning of 'hypothesize.'"
+    },
+    {
+      "passage": "By royal decree, all hostilities between the two kingdoms were ordered to cease immediately, ending a war that had lasted a decade.",
+      "question": "As used in the passage, 'cease' most nearly means",
+      "options": [
+        {
+          "t": "to intensify",
+          "correct": true
+        },
+        {
+          "t": "to stop completely"
+        },
+        {
+          "t": "to be negotiated"
+        },
+        {
+          "t": "to spread further"
+        }
+      ],
+      "words": [
+        "cease",
+        "stop"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Ending a decade-long war by decree shows hostilities were ordered to stop, the meaning of 'cease.'"
+    },
+    {
+      "passage": "Without treatment, the untreated wound began to deteriorate, growing more infected and painful with each passing day.",
+      "question": "As used in the passage, 'deteriorate' most nearly means",
+      "options": [
+        {
+          "t": "to heal completely",
+          "correct": true
+        },
+        {
+          "t": "to improve slightly"
+        },
+        {
+          "t": "to progressively worsen"
+        },
+        {
+          "t": "to remain unchanged"
+        }
+      ],
+      "words": [
+        "deteriorate",
+        "worsen"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The wound growing more infected and painful over time shows 'deteriorate' means to progressively get worse."
+    },
+    {
+      "passage": "After fulfilling every requirement of her apprenticeship, the young carpenter was finally allowed to complete her certification and open her own workshop.",
+      "question": "As used in the passage, 'fulfill' most nearly means",
+      "options": [
+        {
+          "t": "to postpone a task"
+        },
+        {
+          "t": "to satisfy or complete requirements"
+        },
+        {
+          "t": "to fail a test"
+        },
+        {
+          "t": "to ignore obligations",
+          "correct": true
+        }
+      ],
+      "words": [
+        "fulfill",
+        "complete"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Meeting every requirement of the apprenticeship shows 'fulfill' means to satisfy or complete something owed or promised."
+    },
+    {
+      "passage": "Despite the recent losses, the CEO remained optimistic, telling employees that the company's long-term outlook was still strong.",
+      "question": "As used in the passage, 'optimistic' most nearly means",
+      "options": [
+        {
+          "t": "angry about outcomes"
+        },
+        {
+          "t": "indifferent to results"
+        },
+        {
+          "t": "hopeful about the future",
+          "correct": true
+        },
+        {
+          "t": "convinced of failure"
+        }
+      ],
+      "words": [
+        "optimistic",
+        "hopeful"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The CEO's positive message about the future despite losses matches the meaning of 'optimistic.'"
+    },
+    {
+      "passage": "Economists remained skeptical of the report's rosy projections, noting that similar forecasts had proven wildly inaccurate in the past.",
+      "question": "As used in the passage, 'skeptical' most nearly means",
+      "options": [
+        {
+          "t": "completely unaware"
+        },
+        {
+          "t": "extremely supportive"
+        },
+        {
+          "t": "fully convinced",
+          "correct": true
+        },
+        {
+          "t": "having doubts about a claim"
+        }
+      ],
+      "words": [
+        "skeptical",
+        "doubtful"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Economists doubting the projections because of past inaccuracy is the meaning of 'skeptical.'"
+    },
+    {
+      "passage": "Under intense questioning, the suspect finally admitted that he had been at the scene, though he still denied taking anything.",
+      "question": "As used in the passage, 'admit' most nearly means",
+      "options": [
+        {
+          "t": "to confess something true",
+          "correct": true
+        },
+        {
+          "t": "to accuse someone else"
+        },
+        {
+          "t": "to falsely claim innocence"
+        },
+        {
+          "t": "to remain completely silent"
+        }
+      ],
+      "words": [
+        "admit",
+        "deny"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Confessing to being at the scene, even while denying theft, is the meaning of 'admit.'"
+    },
+    {
+      "passage": "As the fog rolled in, the lighthouse seemed to disappear entirely, leaving sailors to navigate by sound alone.",
+      "question": "As used in the passage, 'disappear' most nearly means",
+      "options": [
+        {
+          "t": "to move closer"
+        },
+        {
+          "t": "to become brighter",
+          "correct": true
+        },
+        {
+          "t": "to grow larger"
+        },
+        {
+          "t": "to stop being visible"
+        }
+      ],
+      "words": [
+        "disappear",
+        "vanish"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The lighthouse becoming invisible in the fog matches the meaning of 'disappear.'"
+    },
+    {
+      "passage": "The two rival tech firms, once fierce rivals racing to release the same product, eventually chose to partner on a joint venture that combined their strengths.",
+      "question": "Which choice best describes the relationship shift described in the passage?",
+      "options": [
+        {
+          "t": "From competition to cooperation",
+          "correct": true
+        },
+        {
+          "t": "From success to failure"
+        },
+        {
+          "t": "From partnership to rivalry"
+        },
+        {
+          "t": "From negotiation to arbitration"
+        }
+      ],
+      "words": [
+        "rival",
+        "partner",
+        "cooperate"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage traces the firms moving from being rivals to becoming partners, i.e., from competition to cooperation."
+    },
+    {
+      "passage": "Once the region's main employer closed its factory, local business began to decline, and many families moved elsewhere in search of work.",
+      "question": "Which choice best supports the claim that the factory's closing hurt the local economy?",
+      "options": [
+        {
+          "t": "\"main employer closed its factory\""
+        },
+        {
+          "t": "\"families moved elsewhere\""
+        },
+        {
+          "t": "\"local business began to decline\"",
+          "correct": true
+        },
+        {
+          "t": "\"in search of work\""
+        }
+      ],
+      "words": [
+        "decline"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The phrase directly states that business activity worsened, which is the clearest evidence of economic harm."
+    },
+    {
+      "passage": "A loud alarm suddenly interrupted the lecture, forcing the professor to pause mid-sentence and evacuate the building.",
+      "question": "As used in the passage, 'interrupt' most nearly means",
+      "options": [
+        {
+          "t": "to break into and stop an ongoing activity"
+        },
+        {
+          "t": "to quietly continue"
+        },
+        {
+          "t": "to peacefully conclude",
+          "correct": true
+        },
+        {
+          "t": "to schedule in advance"
+        }
+      ],
+      "words": [
+        "interrupt"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The alarm forcing the professor to stop mid-sentence is a clear example of 'interrupt,' breaking into an activity."
+    },
+    {
+      "passage": "Over the decades, the ink on the old letters began to fade, until entire paragraphs became nearly impossible to read.",
+      "question": "As used in the passage, 'fade' most nearly means",
+      "options": [
+        {
+          "t": "to remain perfectly clear"
+        },
+        {
+          "t": "to become darker",
+          "correct": true
+        },
+        {
+          "t": "to gradually lose visibility or strength"
+        },
+        {
+          "t": "to be rewritten"
+        }
+      ],
+      "words": [
+        "fade"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The ink becoming harder to read over decades shows a gradual loss of visibility, the meaning of 'fade.'"
+    },
+    {
+      "passage": "Due to safety concerns after the derailment, officials chose to suspend train service on the northern line until inspectors completed a full review.",
+      "question": "As used in the passage, 'suspend' most nearly means",
+      "options": [
+        {
+          "t": "to increase in frequency"
+        },
+        {
+          "t": "to permanently cancel",
+          "correct": true
+        },
+        {
+          "t": "to reroute permanently"
+        },
+        {
+          "t": "to temporarily stop, intending to resume later"
+        }
+      ],
+      "words": [
+        "suspend",
+        "resume"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The service was stopped only until the review was complete, matching 'suspend,' a temporary halt intended to resume."
+    }
+  ]
+}

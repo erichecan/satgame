@@ -1,0 +1,1851 @@
+{
+  "words": [
+    {
+      "word": "adequate",
+      "pos": "adjective",
+      "definitionEn": "Enough in quantity or good enough in quality for a particular purpose.",
+      "exampleEn": "The old bridge was no longer adequate for the increased volume of traffic.",
+      "tier": "foundation",
+      "rank": 301,
+      "synonymGroup": "enough-group"
+    },
+    {
+      "word": "sufficient",
+      "pos": "adjective",
+      "definitionEn": "Enough for a particular purpose; as much as is needed.",
+      "exampleEn": "She saved sufficient money to cover her first semester of college.",
+      "tier": "foundation",
+      "rank": 302,
+      "synonymGroup": "enough-group"
+    },
+    {
+      "word": "ample",
+      "pos": "adjective",
+      "definitionEn": "More than enough; plentiful.",
+      "exampleEn": "The recipe makes ample food for a family of six with leftovers.",
+      "tier": "foundation",
+      "rank": 303,
+      "synonymGroup": "enough-group"
+    },
+    {
+      "word": "abundant",
+      "pos": "adjective",
+      "definitionEn": "Existing in large quantities; plentiful.",
+      "exampleEn": "Rainfall was abundant that spring, and the crops grew tall.",
+      "tier": "foundation",
+      "rank": 304,
+      "synonymGroup": "enough-group"
+    },
+    {
+      "word": "scarce",
+      "pos": "adjective",
+      "definitionEn": "In short supply; not enough to meet demand.",
+      "exampleEn": "Fresh water became scarce during the prolonged drought.",
+      "tier": "foundation",
+      "rank": 305
+    },
+    {
+      "word": "limited",
+      "pos": "adjective",
+      "definitionEn": "Restricted in size, amount, or extent.",
+      "exampleEn": "Tickets for the concert were limited, so they sold out within minutes.",
+      "tier": "foundation",
+      "rank": 306
+    },
+    {
+      "word": "insufficient",
+      "pos": "adjective",
+      "definitionEn": "Not enough; inadequate for a purpose.",
+      "exampleEn": "The evidence presented was insufficient to convict the defendant.",
+      "tier": "foundation",
+      "rank": 307,
+      "synonymGroup": "insufficient-group"
+    },
+    {
+      "word": "inadequate",
+      "pos": "adjective",
+      "definitionEn": "Not enough or not good enough for a particular purpose.",
+      "exampleEn": "The hospital's staffing was inadequate to handle the sudden surge of patients.",
+      "tier": "foundation",
+      "rank": 308,
+      "synonymGroup": "insufficient-group"
+    },
+    {
+      "word": "comprehensive",
+      "pos": "adjective",
+      "definitionEn": "Complete and including everything that is necessary.",
+      "exampleEn": "The teacher gave a comprehensive review covering every topic on the exam.",
+      "tier": "foundation",
+      "rank": 309,
+      "synonymGroup": "thorough-group"
+    },
+    {
+      "word": "extensive",
+      "pos": "adjective",
+      "definitionEn": "Covering a large area or a great range of items.",
+      "exampleEn": "The museum houses an extensive collection of ancient artifacts.",
+      "tier": "foundation",
+      "rank": 310,
+      "synonymGroup": "thorough-group"
+    },
+    {
+      "word": "thorough",
+      "pos": "adjective",
+      "definitionEn": "Complete, with careful attention to every detail.",
+      "exampleEn": "The inspector conducted a thorough examination of the building's wiring.",
+      "tier": "foundation",
+      "rank": 311,
+      "synonymGroup": "thorough-group"
+    },
+    {
+      "word": "brief",
+      "pos": "adjective",
+      "definitionEn": "Lasting only a short time; concise.",
+      "exampleEn": "She gave a brief summary before moving on to the next slide.",
+      "tier": "foundation",
+      "rank": 312
+    },
+    {
+      "word": "compact",
+      "pos": "adjective",
+      "definitionEn": "Taking up little space; closely and neatly packed.",
+      "exampleEn": "The compact design of the apartment made efficient use of every corner.",
+      "tier": "foundation",
+      "rank": 313
+    },
+    {
+      "word": "detailed",
+      "pos": "adjective",
+      "definitionEn": "Having many small parts or facts described precisely.",
+      "exampleEn": "He submitted a detailed report explaining each step of the experiment.",
+      "tier": "foundation",
+      "rank": 314
+    },
+    {
+      "word": "intricate",
+      "pos": "adjective",
+      "definitionEn": "Very complicated or detailed in pattern or design.",
+      "exampleEn": "The watchmaker assembled the intricate gears with a steady hand.",
+      "tier": "foundation",
+      "rank": 315,
+      "synonymGroup": "complex-group"
+    },
+    {
+      "word": "complex",
+      "pos": "adjective",
+      "definitionEn": "Consisting of many interconnected parts; not easy to understand.",
+      "exampleEn": "The negotiations involved a complex web of political and economic interests.",
+      "tier": "foundation",
+      "rank": 316,
+      "synonymGroup": "complex-group"
+    },
+    {
+      "word": "simple",
+      "pos": "adjective",
+      "definitionEn": "Easily understood or done; not complicated.",
+      "exampleEn": "The instructions were simple enough for a child to follow.",
+      "tier": "foundation",
+      "rank": 317,
+      "synonymGroup": "simple-group"
+    },
+    {
+      "word": "straightforward",
+      "pos": "adjective",
+      "definitionEn": "Uncomplicated and easy to understand or do.",
+      "exampleEn": "The application process was straightforward, requiring only a short form.",
+      "tier": "foundation",
+      "rank": 318,
+      "synonymGroup": "simple-group"
+    },
+    {
+      "word": "plain",
+      "pos": "adjective",
+      "definitionEn": "Not decorated or elaborate; simple and clear.",
+      "exampleEn": "She preferred a plain dress over one covered in sequins.",
+      "tier": "foundation",
+      "rank": 319
+    },
+    {
+      "word": "clear",
+      "pos": "adjective",
+      "definitionEn": "Easy to perceive, understand, or interpret; free of confusion.",
+      "exampleEn": "The teacher's clear explanation helped every student grasp the concept.",
+      "tier": "foundation",
+      "rank": 320,
+      "synonymGroup": "clarity-group"
+    },
+    {
+      "word": "unclear",
+      "pos": "adjective",
+      "definitionEn": "Not easy to see, hear, or understand; ambiguous.",
+      "exampleEn": "The instructions were unclear about which form to submit first.",
+      "tier": "foundation",
+      "rank": 321,
+      "synonymGroup": "clarity-group"
+    },
+    {
+      "word": "implicit",
+      "pos": "adjective",
+      "definitionEn": "Suggested though not directly expressed; implied.",
+      "exampleEn": "There was an implicit understanding that latecomers would lose their seats.",
+      "tier": "foundation",
+      "rank": 322
+    },
+    {
+      "word": "evident",
+      "pos": "adjective",
+      "definitionEn": "Clearly seen or understood; obvious.",
+      "exampleEn": "Her excitement was evident from the wide smile on her face.",
+      "tier": "foundation",
+      "rank": 323,
+      "synonymGroup": "obvious-group"
+    },
+    {
+      "word": "apparent",
+      "pos": "adjective",
+      "definitionEn": "Clearly visible or understood; seeming real though not necessarily so.",
+      "exampleEn": "It became apparent that the plan would not work as intended.",
+      "tier": "foundation",
+      "rank": 324,
+      "synonymGroup": "obvious-group"
+    },
+    {
+      "word": "obvious",
+      "pos": "adjective",
+      "definitionEn": "Easy to see or understand; clear at once.",
+      "exampleEn": "It was obvious to everyone that the team needed a new strategy.",
+      "tier": "foundation",
+      "rank": 325,
+      "synonymGroup": "obvious-group"
+    },
+    {
+      "word": "prominent",
+      "pos": "adjective",
+      "definitionEn": "Important or well-known; standing out so as to be easily seen.",
+      "exampleEn": "The senator was a prominent figure in national politics for decades.",
+      "tier": "foundation",
+      "rank": 326
+    },
+    {
+      "word": "notable",
+      "pos": "adjective",
+      "definitionEn": "Worthy of attention or notice; remarkable.",
+      "exampleEn": "Among her many achievements, one notable success was founding a nonprofit.",
+      "tier": "foundation",
+      "rank": 327
+    },
+    {
+      "word": "delicate",
+      "pos": "adjective",
+      "definitionEn": "Easily damaged; requiring careful handling.",
+      "exampleEn": "The delicate glass ornaments had to be wrapped individually before shipping.",
+      "tier": "foundation",
+      "rank": 328
+    },
+    {
+      "word": "consistent",
+      "pos": "adjective",
+      "definitionEn": "Always acting or behaving in the same way; unchanging.",
+      "exampleEn": "Her consistent effort throughout the season earned her the team captaincy.",
+      "tier": "foundation",
+      "rank": 329,
+      "synonymGroup": "stable-group"
+    },
+    {
+      "word": "stable",
+      "pos": "adjective",
+      "definitionEn": "Not likely to change or fail; firmly fixed.",
+      "exampleEn": "After the medication adjustment, the patient's condition remained stable.",
+      "tier": "foundation",
+      "rank": 330,
+      "synonymGroup": "stable-group"
+    },
+    {
+      "word": "steady",
+      "pos": "adjective",
+      "definitionEn": "Firmly fixed or supported; not changing or wavering.",
+      "exampleEn": "He kept a steady pace throughout the marathon rather than sprinting early.",
+      "tier": "foundation",
+      "rank": 331,
+      "synonymGroup": "stable-group"
+    },
+    {
+      "word": "inconsistent",
+      "pos": "adjective",
+      "definitionEn": "Not staying the same throughout; containing contradictory elements.",
+      "exampleEn": "His inconsistent performance made it hard for coaches to trust him in big games.",
+      "tier": "foundation",
+      "rank": 332,
+      "synonymGroup": "erratic-group"
+    },
+    {
+      "word": "erratic",
+      "pos": "adjective",
+      "definitionEn": "Not even or regular in pattern or movement; unpredictable.",
+      "exampleEn": "The car's erratic swerving alarmed the other drivers on the highway.",
+      "tier": "foundation",
+      "rank": 333,
+      "synonymGroup": "erratic-group"
+    },
+    {
+      "word": "unpredictable",
+      "pos": "adjective",
+      "definitionEn": "Not able to be foreseen or known beforehand.",
+      "exampleEn": "Mountain weather can be unpredictable, shifting from sun to snow within hours.",
+      "tier": "foundation",
+      "rank": 334,
+      "synonymGroup": "erratic-group"
+    },
+    {
+      "word": "neutral",
+      "pos": "adjective",
+      "definitionEn": "Not supporting or helping either side in a conflict or disagreement.",
+      "exampleEn": "The mediator remained neutral, refusing to favor either party in the dispute.",
+      "tier": "foundation",
+      "rank": 335,
+      "synonymGroup": "bias-group"
+    },
+    {
+      "word": "biased",
+      "pos": "adjective",
+      "definitionEn": "Showing unfair prejudice for or against something.",
+      "exampleEn": "Critics argued the news report was biased in favor of one candidate.",
+      "tier": "foundation",
+      "rank": 336,
+      "synonymGroup": "bias-group"
+    },
+    {
+      "word": "prejudiced",
+      "pos": "adjective",
+      "definitionEn": "Having a preconceived opinion not based on reason or experience.",
+      "exampleEn": "The judge was accused of being prejudiced against the defendant before the trial began.",
+      "tier": "foundation",
+      "rank": 337,
+      "synonymGroup": "bias-group"
+    },
+    {
+      "word": "partial",
+      "pos": "adjective",
+      "definitionEn": "Favoring one side over another; not complete.",
+      "exampleEn": "The referee's partial calls angered fans of the visiting team.",
+      "tier": "foundation",
+      "rank": 338,
+      "synonymGroup": "bias-group"
+    },
+    {
+      "word": "one-sided",
+      "pos": "adjective",
+      "definitionEn": "Considering or favoring only one side of a question; unbalanced.",
+      "exampleEn": "The debate felt one-sided since only supporters of the policy were invited to speak.",
+      "tier": "foundation",
+      "rank": 339,
+      "synonymGroup": "bias-group"
+    },
+    {
+      "word": "rational",
+      "pos": "adjective",
+      "definitionEn": "Based on clear thought and reason rather than emotion.",
+      "exampleEn": "She made a rational decision to decline the risky investment.",
+      "tier": "foundation",
+      "rank": 340,
+      "synonymGroup": "logic-group"
+    },
+    {
+      "word": "logical",
+      "pos": "adjective",
+      "definitionEn": "Following the rules of correct reasoning; sensible.",
+      "exampleEn": "It seemed logical to save money before making such a large purchase.",
+      "tier": "foundation",
+      "rank": 341,
+      "synonymGroup": "logic-group"
+    },
+    {
+      "word": "reasonable",
+      "pos": "adjective",
+      "definitionEn": "Fair and sensible; within acceptable limits.",
+      "exampleEn": "The landlord agreed to a reasonable rent increase after some negotiation.",
+      "tier": "foundation",
+      "rank": 342,
+      "synonymGroup": "logic-group"
+    },
+    {
+      "word": "sound",
+      "pos": "adjective",
+      "definitionEn": "Based on valid reasoning; firm and reliable.",
+      "exampleEn": "The scientist presented a sound argument supported by years of data.",
+      "tier": "foundation",
+      "rank": 343,
+      "synonymGroup": "logic-group"
+    },
+    {
+      "word": "irrational",
+      "pos": "adjective",
+      "definitionEn": "Not logical or reasonable; based on emotion rather than reason.",
+      "exampleEn": "His irrational fear of elevators kept him from visiting the top floor.",
+      "tier": "foundation",
+      "rank": 344,
+      "synonymGroup": "illogical-group"
+    },
+    {
+      "word": "illogical",
+      "pos": "adjective",
+      "definitionEn": "Not sensible or reasonable; contrary to the rules of logic.",
+      "exampleEn": "It seemed illogical to spend more on shipping than the item itself cost.",
+      "tier": "foundation",
+      "rank": 345,
+      "synonymGroup": "illogical-group"
+    },
+    {
+      "word": "unreasonable",
+      "pos": "adjective",
+      "definitionEn": "Not guided by good sense; beyond acceptable limits.",
+      "exampleEn": "The manager's unreasonable demands led several employees to quit.",
+      "tier": "foundation",
+      "rank": 346,
+      "synonymGroup": "illogical-group"
+    },
+    {
+      "word": "credible",
+      "pos": "adjective",
+      "definitionEn": "Able to be believed; convincing.",
+      "exampleEn": "The witness gave a credible account that matched the physical evidence.",
+      "tier": "foundation",
+      "rank": 347,
+      "synonymGroup": "credible-group"
+    },
+    {
+      "word": "convincing",
+      "pos": "adjective",
+      "definitionEn": "Able to persuade someone that something is true or right.",
+      "exampleEn": "Her convincing argument changed the minds of several skeptical board members.",
+      "tier": "foundation",
+      "rank": 348,
+      "synonymGroup": "credible-group"
+    },
+    {
+      "word": "persuasive",
+      "pos": "adjective",
+      "definitionEn": "Good at convincing people to believe or do something.",
+      "exampleEn": "The salesman's persuasive pitch led many customers to upgrade their plans.",
+      "tier": "foundation",
+      "rank": 349,
+      "synonymGroup": "credible-group"
+    },
+    {
+      "word": "implausible",
+      "pos": "adjective",
+      "definitionEn": "Not seeming reasonable or probable; hard to believe.",
+      "exampleEn": "The alibi sounded implausible given the timeline of events.",
+      "tier": "foundation",
+      "rank": 350
+    },
+    {
+      "word": "questionable",
+      "pos": "adjective",
+      "definitionEn": "Doubtful as regards truth, quality, or morality.",
+      "exampleEn": "The company's questionable accounting practices drew the attention of regulators.",
+      "tier": "foundation",
+      "rank": 351
+    },
+    {
+      "word": "suspect",
+      "pos": "adjective",
+      "definitionEn": "Not to be trusted; possibly false or dangerous.",
+      "exampleEn": "The source of the rumor was suspect, so reporters verified it independently.",
+      "tier": "foundation",
+      "rank": 352
+    },
+    {
+      "word": "authentic",
+      "pos": "adjective",
+      "definitionEn": "Genuine and true to its origin, not copied or false.",
+      "exampleEn": "The museum verified that the painting was an authentic work by the artist.",
+      "tier": "foundation",
+      "rank": 353,
+      "synonymGroup": "genuine-group"
+    },
+    {
+      "word": "genuine",
+      "pos": "adjective",
+      "definitionEn": "Truly what it is claimed to be; sincere and honest.",
+      "exampleEn": "Her genuine concern for her classmates was obvious to everyone.",
+      "tier": "foundation",
+      "rank": 354,
+      "synonymGroup": "genuine-group"
+    },
+    {
+      "word": "legitimate",
+      "pos": "adjective",
+      "definitionEn": "Conforming to the law or to rules; justified or valid.",
+      "exampleEn": "The company had a legitimate reason for delaying the shipment.",
+      "tier": "foundation",
+      "rank": 355,
+      "synonymGroup": "genuine-group"
+    },
+    {
+      "word": "valid",
+      "pos": "adjective",
+      "definitionEn": "Legally or logically acceptable; sound and well-grounded.",
+      "exampleEn": "Her passport was still valid for another three years.",
+      "tier": "foundation",
+      "rank": 356,
+      "synonymGroup": "genuine-group"
+    },
+    {
+      "word": "artificial",
+      "pos": "adjective",
+      "definitionEn": "Made by humans, often as a copy of something natural.",
+      "exampleEn": "The park featured an artificial lake built for recreational boating.",
+      "tier": "foundation",
+      "rank": 357,
+      "synonymGroup": "fake-group"
+    },
+    {
+      "word": "synthetic",
+      "pos": "adjective",
+      "definitionEn": "Made by chemical synthesis, especially to imitate a natural product.",
+      "exampleEn": "The jacket was made of a synthetic fabric designed to resist water.",
+      "tier": "foundation",
+      "rank": 358,
+      "synonymGroup": "fake-group"
+    },
+    {
+      "word": "fabricated",
+      "pos": "adjective",
+      "definitionEn": "Invented or made up in order to deceive.",
+      "exampleEn": "The scandal broke after reporters discovered the quotes were entirely fabricated.",
+      "tier": "foundation",
+      "rank": 359,
+      "synonymGroup": "fake-group"
+    },
+    {
+      "word": "false",
+      "pos": "adjective",
+      "definitionEn": "Not true or accurate; incorrect.",
+      "exampleEn": "The rumor turned out to be false once the facts were checked.",
+      "tier": "foundation",
+      "rank": 360,
+      "synonymGroup": "fake-group"
+    },
+    {
+      "word": "accurate",
+      "pos": "adjective",
+      "definitionEn": "Correct in all details; exact.",
+      "exampleEn": "The weather forecast proved accurate, predicting the storm almost to the hour.",
+      "tier": "foundation",
+      "rank": 361,
+      "synonymGroup": "precise-group"
+    },
+    {
+      "word": "precise",
+      "pos": "adjective",
+      "definitionEn": "Exact and accurate in detail or measurement.",
+      "exampleEn": "The surgeon made a precise incision guided by the imaging scan.",
+      "tier": "foundation",
+      "rank": 362,
+      "synonymGroup": "precise-group"
+    },
+    {
+      "word": "exact",
+      "pos": "adjective",
+      "definitionEn": "Not approximated; correct in every detail.",
+      "exampleEn": "No one knew the exact number of attendees until the final count.",
+      "tier": "foundation",
+      "rank": 363,
+      "synonymGroup": "precise-group"
+    },
+    {
+      "word": "correct",
+      "pos": "adjective",
+      "definitionEn": "Free from error; in accordance with fact.",
+      "exampleEn": "She double-checked her math to make sure every answer was correct.",
+      "tier": "foundation",
+      "rank": 364,
+      "synonymGroup": "precise-group"
+    },
+    {
+      "word": "inaccurate",
+      "pos": "adjective",
+      "definitionEn": "Not correct or exact; containing errors.",
+      "exampleEn": "The outdated map gave inaccurate directions to the trailhead.",
+      "tier": "foundation",
+      "rank": 365,
+      "synonymGroup": "flawed-group"
+    },
+    {
+      "word": "imprecise",
+      "pos": "adjective",
+      "definitionEn": "Not exact or accurate; vague.",
+      "exampleEn": "His imprecise instructions left the workers unsure where to dig.",
+      "tier": "foundation",
+      "rank": 366,
+      "synonymGroup": "flawed-group"
+    },
+    {
+      "word": "flawed",
+      "pos": "adjective",
+      "definitionEn": "Having a mistake, weakness, or imperfection.",
+      "exampleEn": "Critics pointed out that the study's methodology was fundamentally flawed.",
+      "tier": "foundation",
+      "rank": 367,
+      "synonymGroup": "flawed-group"
+    },
+    {
+      "word": "beneficial",
+      "pos": "adjective",
+      "definitionEn": "Producing good results; helpful.",
+      "exampleEn": "Regular exercise is beneficial for both physical and mental health.",
+      "tier": "foundation",
+      "rank": 368,
+      "synonymGroup": "positive-group"
+    },
+    {
+      "word": "advantageous",
+      "pos": "adjective",
+      "definitionEn": "Providing an advantage; favorable to one's interest.",
+      "exampleEn": "Signing the contract early proved advantageous once prices rose.",
+      "tier": "foundation",
+      "rank": 369,
+      "synonymGroup": "positive-group"
+    },
+    {
+      "word": "favorable",
+      "pos": "adjective",
+      "definitionEn": "Expressing approval or support; likely to result in success.",
+      "exampleEn": "The critics gave the new restaurant a favorable review.",
+      "tier": "foundation",
+      "rank": 370,
+      "synonymGroup": "positive-group"
+    },
+    {
+      "word": "positive",
+      "pos": "adjective",
+      "definitionEn": "Constructive, helpful, or affirmative in nature.",
+      "exampleEn": "The coach tried to keep the team's mood positive after the loss.",
+      "tier": "foundation",
+      "rank": 371,
+      "synonymGroup": "positive-group"
+    },
+    {
+      "word": "harmful",
+      "pos": "adjective",
+      "definitionEn": "Causing or likely to cause harm or damage.",
+      "exampleEn": "Excessive exposure to the sun can be harmful to the skin.",
+      "tier": "foundation",
+      "rank": 372
+    },
+    {
+      "word": "negative",
+      "pos": "adjective",
+      "definitionEn": "Expressing denial, refusal, or harm; not positive.",
+      "exampleEn": "The medicine had several negative side effects that concerned the doctor.",
+      "tier": "foundation",
+      "rank": 373
+    },
+    {
+      "word": "constructive",
+      "pos": "adjective",
+      "definitionEn": "Serving a useful purpose; helping to develop or improve something.",
+      "exampleEn": "The editor offered constructive feedback that made the essay much stronger.",
+      "tier": "foundation",
+      "rank": 374,
+      "synonymGroup": "productive-group"
+    },
+    {
+      "word": "productive",
+      "pos": "adjective",
+      "definitionEn": "Producing or able to produce large amounts of good results.",
+      "exampleEn": "The team had a productive meeting that resolved several outstanding issues.",
+      "tier": "foundation",
+      "rank": 375,
+      "synonymGroup": "productive-group"
+    },
+    {
+      "word": "fruitful",
+      "pos": "adjective",
+      "definitionEn": "Producing good and useful results; successful.",
+      "exampleEn": "Their collaboration proved fruitful, resulting in a groundbreaking discovery.",
+      "tier": "foundation",
+      "rank": 376,
+      "synonymGroup": "productive-group"
+    },
+    {
+      "word": "destructive",
+      "pos": "adjective",
+      "definitionEn": "Causing great damage; harmful.",
+      "exampleEn": "The hurricane's destructive winds tore roofs from dozens of homes.",
+      "tier": "foundation",
+      "rank": 377,
+      "synonymGroup": "destructive-group"
+    },
+    {
+      "word": "counterproductive",
+      "pos": "adjective",
+      "definitionEn": "Having the opposite of the intended, useful effect.",
+      "exampleEn": "Yelling at nervous employees is counterproductive and only increases their anxiety.",
+      "tier": "foundation",
+      "rank": 378,
+      "synonymGroup": "destructive-group"
+    },
+    {
+      "word": "innovative",
+      "pos": "adjective",
+      "definitionEn": "Introducing new ideas or methods; original and creative.",
+      "exampleEn": "The startup's innovative approach to recycling attracted major investors.",
+      "tier": "foundation",
+      "rank": 379,
+      "synonymGroup": "novel-group"
+    },
+    {
+      "word": "novel",
+      "pos": "adjective",
+      "definitionEn": "New or unusual in an interesting way.",
+      "exampleEn": "The scientist proposed a novel solution that no one had tried before.",
+      "tier": "foundation",
+      "rank": 380,
+      "synonymGroup": "novel-group"
+    },
+    {
+      "word": "original",
+      "pos": "adjective",
+      "definitionEn": "Not copied or imitated; new and inventive.",
+      "exampleEn": "Her original composition impressed the judges at the music competition.",
+      "tier": "foundation",
+      "rank": 381,
+      "synonymGroup": "novel-group"
+    },
+    {
+      "word": "unique",
+      "pos": "adjective",
+      "definitionEn": "Being the only one of its kind; unlike anything else.",
+      "exampleEn": "Each snowflake has a unique crystalline pattern.",
+      "tier": "foundation",
+      "rank": 382,
+      "synonymGroup": "novel-group"
+    },
+    {
+      "word": "traditional",
+      "pos": "adjective",
+      "definitionEn": "Following long-established customs or beliefs.",
+      "exampleEn": "The family gathered for a traditional holiday meal passed down for generations.",
+      "tier": "foundation",
+      "rank": 383,
+      "synonymGroup": "traditional-group"
+    },
+    {
+      "word": "customary",
+      "pos": "adjective",
+      "definitionEn": "According to custom; usual and expected.",
+      "exampleEn": "It is customary to tip servers at restaurants in many countries.",
+      "tier": "foundation",
+      "rank": 384,
+      "synonymGroup": "traditional-group"
+    },
+    {
+      "word": "typical",
+      "pos": "adjective",
+      "definitionEn": "Having the usual qualities or characteristics of a particular type.",
+      "exampleEn": "A typical school day begins with morning announcements.",
+      "tier": "foundation",
+      "rank": 385,
+      "synonymGroup": "traditional-group"
+    },
+    {
+      "word": "progressive",
+      "pos": "adjective",
+      "definitionEn": "Favoring new ideas, reform, or gradual improvement.",
+      "exampleEn": "The school adopted a progressive curriculum focused on hands-on learning.",
+      "tier": "foundation",
+      "rank": 386,
+      "synonymGroup": "modern-group"
+    },
+    {
+      "word": "forward-thinking",
+      "pos": "adjective",
+      "definitionEn": "Innovative and progressive in outlook or planning.",
+      "exampleEn": "The forward-thinking mayor invested early in renewable energy infrastructure.",
+      "tier": "foundation",
+      "rank": 387,
+      "synonymGroup": "modern-group"
+    },
+    {
+      "word": "modern",
+      "pos": "adjective",
+      "definitionEn": "Relating to the present or recent times; up to date.",
+      "exampleEn": "The office was renovated with modern furniture and technology.",
+      "tier": "foundation",
+      "rank": 388,
+      "synonymGroup": "modern-group"
+    },
+    {
+      "word": "conservative",
+      "pos": "adjective",
+      "definitionEn": "Cautious about change; favoring traditional values.",
+      "exampleEn": "The bank took a conservative approach, avoiding risky investments.",
+      "tier": "foundation",
+      "rank": 389,
+      "synonymGroup": "cautious-group"
+    },
+    {
+      "word": "cautious",
+      "pos": "adjective",
+      "definitionEn": "Careful to avoid potential problems or dangers.",
+      "exampleEn": "She remained cautious while driving through the icy streets.",
+      "tier": "foundation",
+      "rank": 390,
+      "synonymGroup": "cautious-group"
+    },
+    {
+      "word": "adaptable",
+      "pos": "adjective",
+      "definitionEn": "Able to adjust to new conditions easily.",
+      "exampleEn": "The new employee proved highly adaptable, learning each department's system quickly.",
+      "tier": "foundation",
+      "rank": 391,
+      "synonymGroup": "flexible-group"
+    },
+    {
+      "word": "flexible",
+      "pos": "adjective",
+      "definitionEn": "Able to change or be changed easily to suit circumstances.",
+      "exampleEn": "Her flexible schedule allowed her to volunteer on weekday afternoons.",
+      "tier": "foundation",
+      "rank": 392,
+      "synonymGroup": "flexible-group"
+    },
+    {
+      "word": "versatile",
+      "pos": "adjective",
+      "definitionEn": "Able to adapt to many different functions or activities.",
+      "exampleEn": "The versatile actor moved easily between comedy and serious drama.",
+      "tier": "foundation",
+      "rank": 393,
+      "synonymGroup": "flexible-group"
+    },
+    {
+      "word": "rigid",
+      "pos": "adjective",
+      "definitionEn": "Not easily bent or changed; strict and inflexible.",
+      "exampleEn": "The company's rigid dress code left no room for personal style.",
+      "tier": "foundation",
+      "rank": 394,
+      "synonymGroup": "rigid-group"
+    },
+    {
+      "word": "inflexible",
+      "pos": "adjective",
+      "definitionEn": "Unable or unwilling to change or be changed.",
+      "exampleEn": "His inflexible attitude made it difficult to reach a compromise.",
+      "tier": "foundation",
+      "rank": 395,
+      "synonymGroup": "rigid-group"
+    },
+    {
+      "word": "stubborn",
+      "pos": "adjective",
+      "definitionEn": "Having or showing determination not to change one's attitude.",
+      "exampleEn": "The stubborn toddler refused to eat anything but plain pasta.",
+      "tier": "foundation",
+      "rank": 396,
+      "synonymGroup": "rigid-group"
+    },
+    {
+      "word": "diverse",
+      "pos": "adjective",
+      "definitionEn": "Showing a great deal of variety; very different from one another.",
+      "exampleEn": "The city's diverse population speaks more than forty languages.",
+      "tier": "foundation",
+      "rank": 397,
+      "synonymGroup": "variety-group"
+    },
+    {
+      "word": "varied",
+      "pos": "adjective",
+      "definitionEn": "Incorporating a range of different types or elements.",
+      "exampleEn": "The museum offered a varied schedule of lectures, tours, and workshops.",
+      "tier": "foundation",
+      "rank": 398,
+      "synonymGroup": "variety-group"
+    },
+    {
+      "word": "heterogeneous",
+      "pos": "adjective",
+      "definitionEn": "Consisting of dissimilar or diverse elements.",
+      "exampleEn": "The committee was heterogeneous, bringing together voices from many different backgrounds.",
+      "tier": "foundation",
+      "rank": 399,
+      "synonymGroup": "variety-group"
+    },
+    {
+      "word": "collaborate",
+      "pos": "verb",
+      "definitionEn": "To work jointly with others on an activity or project.",
+      "exampleEn": "The two research labs decided to collaborate on a vaccine study.",
+      "tier": "foundation",
+      "rank": 400
+    }
+  ],
+  "quizzes": [
+    {
+      "passage": "After the town's only well ran dry, drinking water became scarce, and families were forced to ration what little remained in their storage tanks until the county could deliver an emergency supply.",
+      "question": "As used in the passage, \"scarce\" most nearly means",
+      "options": [
+        {
+          "t": "contaminated"
+        },
+        {
+          "t": "plentiful"
+        },
+        {
+          "t": "in short supply",
+          "correct": true
+        },
+        {
+          "t": "expensive"
+        }
+      ],
+      "words": [
+        "scarce"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage describes rationing due to the well running dry, showing water was in short supply, the meaning of \"scarce.\""
+    },
+    {
+      "passage": "The auditor's report was comprehensive, covering every department's spending from the past five years rather than sampling just a few transactions as previous reviews had done.",
+      "question": "As used in the passage, \"comprehensive\" most nearly means",
+      "options": [
+        {
+          "t": "confusing"
+        },
+        {
+          "t": "biased"
+        },
+        {
+          "t": "brief"
+        },
+        {
+          "t": "complete and thorough",
+          "correct": true
+        }
+      ],
+      "words": [
+        "comprehensive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the report with a partial sample, emphasizing it covered everything, which matches \"complete and thorough.\""
+    },
+    {
+      "passage": "Unlike the intricate clockwork of the antique model, with its dozens of interlocking gears, the new digital display used a single microchip to show the time.",
+      "question": "As used in the passage, \"intricate\" most nearly means",
+      "options": [
+        {
+          "t": "broken"
+        },
+        {
+          "t": "very complicated in design",
+          "correct": true
+        },
+        {
+          "t": "inexpensive"
+        },
+        {
+          "t": "oversized"
+        }
+      ],
+      "words": [
+        "intricate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The dozens of interlocking gears signal a highly complicated design, matching \"intricate.\""
+    },
+    {
+      "passage": "The professor's directions were so straightforward that even students who had missed the previous lecture could complete the lab assignment without asking a single question.",
+      "question": "As used in the passage, \"straightforward\" most nearly means",
+      "options": [
+        {
+          "t": "secretive"
+        },
+        {
+          "t": "contradictory"
+        },
+        {
+          "t": "uncomplicated and easy to follow",
+          "correct": true
+        },
+        {
+          "t": "lengthy"
+        }
+      ],
+      "words": [
+        "straightforward"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Students completed the assignment without questions, showing the directions were easy to understand."
+    },
+    {
+      "passage": "Although the company never announced a formal policy, there was an implicit expectation that employees would answer work emails within a few hours, even on weekends.",
+      "question": "As used in the passage, \"implicit\" most nearly means",
+      "options": [
+        {
+          "t": "written into law"
+        },
+        {
+          "t": "suggested but not directly stated",
+          "correct": true
+        },
+        {
+          "t": "optional"
+        },
+        {
+          "t": "forgotten"
+        }
+      ],
+      "words": [
+        "implicit"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage notes there was no formal policy, yet the expectation existed unstated, matching \"implicit.\""
+    },
+    {
+      "passage": "As the sun set behind the hills, it became increasingly apparent that the hikers would not reach the summit before dark, so they decided to turn back and make camp.",
+      "question": "As used in the passage, \"apparent\" most nearly means",
+      "options": [
+        {
+          "t": "clearly evident",
+          "correct": true
+        },
+        {
+          "t": "hidden"
+        },
+        {
+          "t": "debatable"
+        },
+        {
+          "t": "irrelevant"
+        }
+      ],
+      "words": [
+        "apparent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The hikers' decision to turn back shows the fact had become clearly evident to them."
+    },
+    {
+      "passage": "The violinist's hands moved with such delicate precision over the strings that even the softest notes carried clearly to the back row of the concert hall.",
+      "question": "Which choice best describes the function of \"delicate\" in the passage?",
+      "options": [
+        {
+          "t": "It emphasizes the fine, careful control of the performance.",
+          "correct": true
+        },
+        {
+          "t": "It suggests the violinist's playing was clumsy."
+        },
+        {
+          "t": "It indicates the instrument was old and fragile."
+        },
+        {
+          "t": "It shows the audience was unimpressed."
+        }
+      ],
+      "words": [
+        "delicate"
+      ],
+      "domain": "craft_structure",
+      "explanation": "\"Delicate precision\" highlights the fine, careful control the violinist exercised, supporting the description of a skilled performance."
+    },
+    {
+      "passage": "Despite the chaos around her, the CEO remained remarkably consistent in her messaging, repeating the same three priorities in every interview regardless of what reporters asked.",
+      "question": "As used in the passage, \"consistent\" most nearly means",
+      "options": [
+        {
+          "t": "unchanging over time",
+          "correct": true
+        },
+        {
+          "t": "reluctant"
+        },
+        {
+          "t": "aggressive"
+        },
+        {
+          "t": "confused"
+        }
+      ],
+      "words": [
+        "consistent"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The CEO repeated the same priorities regardless of context, demonstrating behavior that stayed the same, or \"consistent.\""
+    },
+    {
+      "passage": "The patient's blood pressure readings were erratic all week, spiking dangerously high one hour and dropping too low the next, which worried the nursing staff.",
+      "question": "As used in the passage, \"erratic\" most nearly means",
+      "options": [
+        {
+          "t": "slow"
+        },
+        {
+          "t": "normal"
+        },
+        {
+          "t": "irregular and unpredictable",
+          "correct": true
+        },
+        {
+          "t": "steady"
+        }
+      ],
+      "words": [
+        "erratic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The description of spikes and drops shows irregular, unpredictable behavior, the meaning of \"erratic.\""
+    },
+    {
+      "passage": "Because the referee had once played for one of the two teams in the championship, fans worried his calls might be biased in favor of his former club.",
+      "question": "As used in the passage, \"biased\" most nearly means",
+      "options": [
+        {
+          "t": "extremely accurate"
+        },
+        {
+          "t": "unfairly favoring one side",
+          "correct": true
+        },
+        {
+          "t": "publicly announced"
+        },
+        {
+          "t": "completely random"
+        }
+      ],
+      "words": [
+        "biased"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The fans' worry stems from the referee possibly favoring his former team unfairly, which is what \"biased\" means."
+    },
+    {
+      "passage": "Rather than reacting with anger, she made a rational choice to gather more information before deciding whether to accept the job offer.",
+      "question": "As used in the passage, \"rational\" most nearly means",
+      "options": [
+        {
+          "t": "based on emotion"
+        },
+        {
+          "t": "based on clear reasoning",
+          "correct": true
+        },
+        {
+          "t": "impulsive"
+        },
+        {
+          "t": "secretive"
+        }
+      ],
+      "words": [
+        "rational"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts a rational choice with reacting in anger, showing the decision was guided by reasoning rather than emotion."
+    },
+    {
+      "passage": "His fear of using the elevator, even in buildings with a perfect safety record, struck his coworkers as irrational, since there was no evidence to justify the anxiety.",
+      "question": "As used in the passage, \"irrational\" most nearly means",
+      "options": [
+        {
+          "t": "well-founded"
+        },
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "not based on logic or reason",
+          "correct": true
+        },
+        {
+          "t": "widely shared"
+        }
+      ],
+      "words": [
+        "irrational"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage notes there was no evidence to justify the fear, meaning it lacked a logical basis, matching \"irrational.\""
+    },
+    {
+      "passage": "The witness's account was credible because it matched the timestamps on the security footage and was corroborated by two other bystanders who saw the same event.",
+      "question": "As used in the passage, \"credible\" most nearly means",
+      "options": [
+        {
+          "t": "believable",
+          "correct": true
+        },
+        {
+          "t": "irrelevant"
+        },
+        {
+          "t": "exaggerated"
+        },
+        {
+          "t": "secret"
+        }
+      ],
+      "words": [
+        "credible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Matching evidence and corroboration make the account believable, which is the meaning of \"credible.\""
+    },
+    {
+      "passage": "The defense attorney called the alibi implausible, pointing out that the defendant claimed to be in two cities at once on the night of the crime.",
+      "question": "As used in the passage, \"implausible\" most nearly means",
+      "options": [
+        {
+          "t": "hard to believe",
+          "correct": true
+        },
+        {
+          "t": "illegal"
+        },
+        {
+          "t": "detailed"
+        },
+        {
+          "t": "convincing"
+        }
+      ],
+      "words": [
+        "implausible"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Being in two cities at once is a physical impossibility, making the alibi hard to believe, or \"implausible.\""
+    },
+    {
+      "passage": "Experts later confirmed that the signature on the document was authentic, matching ink samples and handwriting patterns from other letters the author had written that year.",
+      "question": "As used in the passage, \"authentic\" most nearly means",
+      "options": [
+        {
+          "t": "illegible"
+        },
+        {
+          "t": "genuine",
+          "correct": true
+        },
+        {
+          "t": "forged"
+        },
+        {
+          "t": "outdated"
+        }
+      ],
+      "words": [
+        "authentic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Matching ink and handwriting confirms the signature was genuine, or \"authentic.\""
+    },
+    {
+      "passage": "After the scandal broke, journalists discovered that several of the quotes in the article had been fabricated, invented entirely by a writer eager to make the story more dramatic.",
+      "question": "Which choice best states the main idea of the passage?",
+      "options": [
+        {
+          "t": "The article's quotes were verified as accurate."
+        },
+        {
+          "t": "The scandal had nothing to do with the article."
+        },
+        {
+          "t": "A writer invented quotes that were later exposed as false.",
+          "correct": true
+        },
+        {
+          "t": "Journalists praised the writer's dramatic style."
+        }
+      ],
+      "words": [
+        "fabricated"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage states the quotes were invented, and this fact was discovered, which is the article's central idea."
+    },
+    {
+      "passage": "The lab technician recorded a precise measurement of 3.256 grams, using a scale calibrated to the nearest thousandth of a gram to avoid any rounding error.",
+      "question": "As used in the passage, \"precise\" most nearly means",
+      "options": [
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "rough"
+        },
+        {
+          "t": "exact and accurate",
+          "correct": true
+        },
+        {
+          "t": "unnecessary"
+        }
+      ],
+      "words": [
+        "precise"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Calibrating to the nearest thousandth to avoid rounding error shows the measurement was exact, matching \"precise.\""
+    },
+    {
+      "passage": "The outdated trail map gave inaccurate distances, listing the summit as two miles away when hikers later found it was closer to five.",
+      "question": "As used in the passage, \"inaccurate\" most nearly means",
+      "options": [
+        {
+          "t": "containing errors",
+          "correct": true
+        },
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "correct"
+        },
+        {
+          "t": "detailed"
+        }
+      ],
+      "words": [
+        "inaccurate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The map's listed distance did not match reality, showing it contained errors, the meaning of \"inaccurate.\""
+    },
+    {
+      "passage": "Critics argued that the study's methodology was flawed because the sample size was far too small to support the researchers' sweeping conclusions.",
+      "question": "Which choice best supports the claim that the study's methodology was flawed?",
+      "options": [
+        {
+          "t": "The study was peer-reviewed before publication."
+        },
+        {
+          "t": "The critics praised the research design."
+        },
+        {
+          "t": "The sample size was too small to support the conclusions drawn.",
+          "correct": true
+        },
+        {
+          "t": "The researchers used a large, representative sample."
+        }
+      ],
+      "words": [
+        "flawed"
+      ],
+      "domain": "info_ideas",
+      "explanation": "The passage explains the flaw directly: an inadequate sample size undermines the conclusions."
+    },
+    {
+      "passage": "Regular exercise has proven beneficial for reducing stress, improving sleep quality, and lowering the risk of chronic illness over time.",
+      "question": "As used in the passage, \"beneficial\" most nearly means",
+      "options": [
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "harmful"
+        },
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "producing good results",
+          "correct": true
+        }
+      ],
+      "words": [
+        "beneficial"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The listed positive outcomes—reduced stress, better sleep, lower illness risk—show exercise produces good results, matching \"beneficial.\""
+    },
+    {
+      "passage": "Rather than criticizing the intern's mistakes harshly, the manager offered constructive feedback, explaining exactly what went wrong and how to fix it next time.",
+      "question": "As used in the passage, \"constructive\" most nearly means",
+      "options": [
+        {
+          "t": "delayed"
+        },
+        {
+          "t": "discouraging"
+        },
+        {
+          "t": "helpful and aimed at improvement",
+          "correct": true
+        },
+        {
+          "t": "vague"
+        }
+      ],
+      "words": [
+        "constructive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The manager explained what went wrong and how to improve, which is helpful feedback, matching \"constructive.\""
+    },
+    {
+      "passage": "Shouting at nervous new employees during training is counterproductive, since it only increases their anxiety and makes them more likely to make additional mistakes.",
+      "question": "As used in the passage, \"counterproductive\" most nearly means",
+      "options": [
+        {
+          "t": "legally required"
+        },
+        {
+          "t": "widely admired"
+        },
+        {
+          "t": "extremely efficient"
+        },
+        {
+          "t": "having the opposite of the intended helpful effect",
+          "correct": true
+        }
+      ],
+      "words": [
+        "counterproductive"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Shouting increases anxiety and mistakes rather than improving performance, the opposite of the intended goal, matching \"counterproductive.\""
+    },
+    {
+      "passage": "The startup's innovative recycling process, never attempted at this scale before, attracted millions of dollars in venture funding within its first year.",
+      "question": "As used in the passage, \"innovative\" most nearly means",
+      "options": [
+        {
+          "t": "introducing new and original methods",
+          "correct": true
+        },
+        {
+          "t": "outdated"
+        },
+        {
+          "t": "illegal"
+        },
+        {
+          "t": "unreliable"
+        }
+      ],
+      "words": [
+        "innovative"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The process had \"never [been] attempted at this scale before,\" indicating it was new and original, matching \"innovative.\""
+    },
+    {
+      "passage": "Every year, the family gathers for a traditional meal that has been prepared the same way, using the same recipes, for over four generations.",
+      "question": "As used in the passage, \"traditional\" most nearly means",
+      "options": [
+        {
+          "t": "following long-established customs",
+          "correct": true
+        },
+        {
+          "t": "rarely practiced"
+        },
+        {
+          "t": "controversial"
+        },
+        {
+          "t": "newly invented"
+        }
+      ],
+      "words": [
+        "traditional"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A meal prepared the same way for four generations reflects long-established custom, the meaning of \"traditional.\""
+    },
+    {
+      "passage": "The mayor was praised as forward-thinking for investing in solar panels and electric buses years before most other cities considered such measures.",
+      "question": "As used in the passage, \"forward-thinking\" most nearly means",
+      "options": [
+        {
+          "t": "indifferent to progress"
+        },
+        {
+          "t": "cautious about change"
+        },
+        {
+          "t": "innovative and focused on future needs",
+          "correct": true
+        },
+        {
+          "t": "reluctant to spend money"
+        }
+      ],
+      "words": [
+        "forward-thinking"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Investing in new technology before others shows a focus on future needs, matching \"forward-thinking.\""
+    },
+    {
+      "passage": "Unlike its rigid predecessor, the new prosthetic limb was designed to be adaptable, adjusting automatically to different terrains and walking speeds.",
+      "question": "As used in the passage, \"adaptable\" most nearly means",
+      "options": [
+        {
+          "t": "impossible to repair"
+        },
+        {
+          "t": "able to adjust easily to new conditions",
+          "correct": true
+        },
+        {
+          "t": "extremely heavy"
+        },
+        {
+          "t": "identical to older models"
+        }
+      ],
+      "words": [
+        "adaptable",
+        "rigid"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the rigid old design with the new one, which \"adjust[s] automatically,\" showing it can easily adapt to change."
+    },
+    {
+      "passage": "His stubborn refusal to update the software, even after repeated warnings from the IT department, eventually led to a security breach that could have been prevented.",
+      "question": "As used in the passage, \"stubborn\" most nearly means",
+      "options": [
+        {
+          "t": "forgetful"
+        },
+        {
+          "t": "generous"
+        },
+        {
+          "t": "unwilling to change one's position",
+          "correct": true
+        },
+        {
+          "t": "easily persuaded"
+        }
+      ],
+      "words": [
+        "stubborn"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to act despite repeated warnings shows an unwillingness to change, the meaning of \"stubborn.\""
+    },
+    {
+      "passage": "The city's population is remarkably diverse, with residents who trace their heritage to more than eighty different countries and speak dozens of languages at home.",
+      "question": "As used in the passage, \"diverse\" most nearly means",
+      "options": [
+        {
+          "t": "showing great variety",
+          "correct": true
+        },
+        {
+          "t": "uniform"
+        },
+        {
+          "t": "shrinking"
+        },
+        {
+          "t": "unfriendly"
+        }
+      ],
+      "words": [
+        "diverse"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Residents from eighty countries speaking dozens of languages illustrate great variety, matching \"diverse.\""
+    },
+    {
+      "passage": "The two research teams, based on opposite sides of the country, agreed to collaborate on a joint study after realizing their work addressed the same disease from different angles.",
+      "question": "As used in the passage, \"collaborate\" most nearly means",
+      "options": [
+        {
+          "t": "ignore"
+        },
+        {
+          "t": "work jointly with others",
+          "correct": true
+        },
+        {
+          "t": "argue"
+        },
+        {
+          "t": "compete"
+        }
+      ],
+      "words": [
+        "collaborate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The teams agreeing to a joint study on the same disease shows they chose to work together, matching \"collaborate.\""
+    },
+    {
+      "passage": "When the museum's guide described the sculpture as having ample detail, she meant that far more than the minimum craftsmanship had gone into every curve and edge.",
+      "question": "As used in the passage, \"ample\" most nearly means",
+      "options": [
+        {
+          "t": "barely sufficient"
+        },
+        {
+          "t": "more than enough",
+          "correct": true
+        },
+        {
+          "t": "missing"
+        },
+        {
+          "t": "accidental"
+        }
+      ],
+      "words": [
+        "ample"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The guide's point that \"far more than the minimum\" went into the work shows the detail was more than enough, matching \"ample.\""
+    },
+    {
+      "passage": "The company's staffing levels proved insufficient during the holiday rush, leaving long lines of frustrated customers and overworked employees.",
+      "question": "As used in the passage, \"insufficient\" most nearly means",
+      "options": [
+        {
+          "t": "well-organized"
+        },
+        {
+          "t": "not enough for the need",
+          "correct": true
+        },
+        {
+          "t": "temporary"
+        },
+        {
+          "t": "excessive"
+        }
+      ],
+      "words": [
+        "insufficient"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Long lines and overworked employees show the staffing did not meet the need, matching \"insufficient.\""
+    },
+    {
+      "passage": "The negotiator's argument was so convincing that even representatives who had arrived firmly opposed to the deal left the room ready to sign.",
+      "question": "As used in the passage, \"convincing\" most nearly means",
+      "options": [
+        {
+          "t": "confusing"
+        },
+        {
+          "t": "persuasive enough to change minds",
+          "correct": true
+        },
+        {
+          "t": "offensive"
+        },
+        {
+          "t": "repetitive"
+        }
+      ],
+      "words": [
+        "convincing"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Opponents leaving ready to sign shows the argument successfully changed their minds, matching \"convincing.\""
+    },
+    {
+      "passage": "Because the source of the leaked memo could not be verified and had a history of spreading false rumors, editors labeled the report suspect.",
+      "question": "As used in the passage, \"suspect\" most nearly means",
+      "options": [
+        {
+          "t": "popular"
+        },
+        {
+          "t": "trustworthy"
+        },
+        {
+          "t": "official"
+        },
+        {
+          "t": "not to be trusted",
+          "correct": true
+        }
+      ],
+      "words": [
+        "suspect"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A history of spreading false rumors and unverifiable origins mean the report should not be trusted, matching \"suspect.\""
+    },
+    {
+      "passage": "The park's lake looks completely natural, but it is actually artificial, built decades ago by engineers who diverted a nearby river to fill the basin.",
+      "question": "As used in the passage, \"artificial\" most nearly means",
+      "options": [
+        {
+          "t": "invisible"
+        },
+        {
+          "t": "ancient"
+        },
+        {
+          "t": "polluted"
+        },
+        {
+          "t": "man-made",
+          "correct": true
+        }
+      ],
+      "words": [
+        "artificial"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The lake was \"built... by engineers,\" meaning it was made by humans rather than occurring naturally, matching \"artificial.\""
+    },
+    {
+      "passage": "The tailor used a synthetic material designed in a lab to mimic the feel of silk while costing a fraction of the price.",
+      "question": "As used in the passage, \"synthetic\" most nearly means",
+      "options": [
+        {
+          "t": "artificially produced to imitate a natural substance",
+          "correct": true
+        },
+        {
+          "t": "handwoven"
+        },
+        {
+          "t": "imported"
+        },
+        {
+          "t": "discontinued"
+        }
+      ],
+      "words": [
+        "synthetic"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A lab-designed material meant to mimic silk is artificially produced, matching \"synthetic.\""
+    },
+    {
+      "passage": "Although the company claimed the product was legitimate, investigators found it lacked the certifications required by law to be sold in the state.",
+      "question": "As used in the passage, \"legitimate\" most nearly means",
+      "options": [
+        {
+          "t": "expensive"
+        },
+        {
+          "t": "popular"
+        },
+        {
+          "t": "conforming to law or accepted standards",
+          "correct": true
+        },
+        {
+          "t": "temporary"
+        }
+      ],
+      "words": [
+        "legitimate"
+      ],
+      "domain": "words_in_context",
+      "explanation": "The passage contrasts the claim of legitimacy with the lack of required certifications, showing \"legitimate\" concerns lawful standing."
+    },
+    {
+      "passage": "The negotiator remained neutral throughout the dispute, refusing to publicly favor either the union or the company's management team.",
+      "question": "As used in the passage, \"neutral\" most nearly means",
+      "options": [
+        {
+          "t": "openly hostile"
+        },
+        {
+          "t": "unqualified"
+        },
+        {
+          "t": "not favoring either side",
+          "correct": true
+        },
+        {
+          "t": "extremely biased"
+        }
+      ],
+      "words": [
+        "neutral"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Refusing to favor either side directly defines \"neutral.\""
+    },
+    {
+      "passage": "The two candidates offered a one-sided debate, since the moderator allowed only supporters of the incumbent to ask questions, silencing any opposing viewpoints.",
+      "question": "As used in the passage, \"one-sided\" most nearly means",
+      "options": [
+        {
+          "t": "extremely long"
+        },
+        {
+          "t": "poorly attended"
+        },
+        {
+          "t": "balanced and fair"
+        },
+        {
+          "t": "favoring only one perspective",
+          "correct": true
+        }
+      ],
+      "words": [
+        "one-sided"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Only supporters of the incumbent were allowed to ask questions, showing the debate favored a single perspective, matching \"one-sided.\""
+    },
+    {
+      "passage": "The engineer's sound reasoning, built on years of tested data, persuaded the skeptical board to approve the new bridge design.",
+      "question": "As used in the passage, \"sound\" most nearly means",
+      "options": [
+        {
+          "t": "brief"
+        },
+        {
+          "t": "secretive"
+        },
+        {
+          "t": "well-founded and reliable",
+          "correct": true
+        },
+        {
+          "t": "loud"
+        }
+      ],
+      "words": [
+        "sound"
+      ],
+      "domain": "words_in_context",
+      "explanation": "Reasoning built on years of tested data that persuades skeptics is well-founded, matching \"sound.\""
+    },
+    {
+      "passage": "The manager's unreasonable demand that the team finish a month's worth of work overnight led three employees to resign the next morning.",
+      "question": "As used in the passage, \"unreasonable\" most nearly means",
+      "options": [
+        {
+          "t": "routine"
+        },
+        {
+          "t": "beyond acceptable limits",
+          "correct": true
+        },
+        {
+          "t": "fair and sensible"
+        },
+        {
+          "t": "welcomed"
+        }
+      ],
+      "words": [
+        "unreasonable"
+      ],
+      "domain": "words_in_context",
+      "explanation": "A demand so extreme it caused employees to quit shows it exceeded acceptable limits, matching \"unreasonable.\""
+    }
+  ]
+}

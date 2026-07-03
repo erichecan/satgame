@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { getRecentWordIds, rankByWordOverlap } from "@/lib/daily";
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
@@ -9,10 +10,13 @@ export async function GET(req: Request) {
     return Response.json({ error: true, message: "缺少 gameType 参数" }, { status: 400 });
   }
 
-  const items = await prisma.gameItem.findMany({
+  const pool = await prisma.gameItem.findMany({
     where: { gameType, isActive: true },
-    take,
     orderBy: { createdAt: "asc" },
   });
-  return Response.json({ items });
+
+  const recentWordIds = await getRecentWordIds();
+  const ranked = rankByWordOverlap(pool, recentWordIds);
+
+  return Response.json({ items: ranked.slice(0, take) });
 }

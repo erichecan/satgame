@@ -30,6 +30,41 @@ export function selectQuizItemIds(
   return scored.slice(0, count).map((s) => s.id);
 }
 
+export const RECENT_WORD_DAYS = 5;
+
+// 最近 N 天（含今天）每日任务分配到的单词 id 并集，用于游戏内容优先匹配
+export async function getRecentWordIds(
+  days: number = RECENT_WORD_DAYS,
+  now: Date = new Date()
+): Promise<string[]> {
+  const dates: string[] = [];
+  for (let i = 0; i < days; i++) {
+    const d = new Date(now);
+    d.setDate(d.getDate() - i);
+    dates.push(todayKey(d));
+  }
+  const assignments = await prisma.dailyAssignment.findMany({
+    where: { date: { in: dates } },
+    select: { wordIds: true },
+  });
+  const set = new Set<string>();
+  assignments.forEach((a) => a.wordIds.forEach((id) => set.add(id)));
+  return [...set];
+}
+
+// 按与目标单词集合的重合度给一批带 wordIds 的条目排序（重合越多越靠前），无重合的保持原有相对顺序
+export function rankByWordOverlap<T extends { wordIds: string[] }>(
+  pool: T[],
+  targetWordIds: string[]
+): T[] {
+  const targetSet = new Set(targetWordIds);
+  return [...pool].sort((a, b) => {
+    const overlapA = a.wordIds.filter((id) => targetSet.has(id)).length;
+    const overlapB = b.wordIds.filter((id) => targetSet.has(id)).length;
+    return overlapB - overlapA;
+  });
+}
+
 export function isDailyComplete(assignment: {
   wordIds: string[];
   wordsViewed: string[];

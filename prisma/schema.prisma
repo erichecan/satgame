@@ -30,6 +30,7 @@ model GameItem {
   domain      String // craft_structure | words_in_context | info_ideas | expression_conventions | math
   difficulty  Int      @default(1)
   payload     Json
+  wordIds     String[] @default([]) // 关联 Word.id；空数组表示与具体单词无关（如 Dissector、Gate Run 标点题）
   explanation String?
   isActive    Boolean  @default(true)
   createdAt   DateTime @default(now())

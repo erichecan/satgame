@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { ClickablePassage } from "@/components/learning/clickable-passage";
+import { WordChip } from "@/components/learning/word-chip";
 
 type WordData = {
   id: string;
@@ -100,7 +102,7 @@ export default function StudyPage() {
               <p className="text-slate-700">{current.definitionEn}</p>
               {current.exampleEn && (
                 <p className="rounded-lg bg-slate-50 p-3 text-sm italic text-slate-500">
-                  {current.exampleEn}
+                  <ClickablePassage text={current.exampleEn} sourceGame="study" />
                 </p>
               )}
               {discriminationWords.length > 0 && (
@@ -108,7 +110,10 @@ export default function StudyPage() {
                   <div className="mb-1 font-semibold text-amber-700">辨析对比</div>
                   {discriminationWords.map((w) => (
                     <p key={w.id}>
-                      <b>{w.word}</b> — {w.definitionEn}
+                      <b>
+                        <WordChip word={w.word} sourceGame="study" />
+                      </b>{" "}
+                      — {w.definitionEn}
                     </p>
                   ))}
                 </div>

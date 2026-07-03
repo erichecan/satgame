@@ -1,6 +1,7 @@
 import { prisma } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { WordSearchBox } from "@/components/learning/word-search-box";
 
 export const dynamic = "force-dynamic";
 
@@ -19,7 +20,11 @@ export default async function NotebookPage() {
 
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
-      <h1 className="mb-6 text-xl font-semibold text-slate-900">生词本</h1>
+      <h1 className="mb-2 text-xl font-semibold text-slate-900">生词本</h1>
+      <p className="mb-4 text-sm text-slate-500">
+        除了游戏里答错/点⭐自动收录，也可以在这里手动搜索单词并加入生词本。
+      </p>
+      <WordSearchBox />
       {notes.length === 0 && (
         <p className="text-slate-500">还没有生词，游戏里答错或点⭐会自动出现在这里。</p>
       )}

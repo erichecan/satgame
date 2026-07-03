@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { ClickablePassage } from "@/components/learning/clickable-passage";
 
 type QuizOption = { t: string; correct?: boolean };
 type QuizData = {
@@ -89,7 +90,7 @@ export default function DailyQuizPage() {
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Daily Quiz</h1>
 
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4 leading-relaxed">
-        {current.passage}
+        <ClickablePassage text={current.passage} sourceGame="daily_quiz" />
       </div>
 
       <p className="mt-4 font-semibold text-slate-900">{current.question}</p>

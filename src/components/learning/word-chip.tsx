@@ -19,14 +19,18 @@ export function WordChip({ word, sourceGame }: { word: string; sourceGame?: stri
   const [showCn, setShowCn] = useState(false);
   const [saved, setSaved] = useState(false);
 
+  const [notFound, setNotFound] = useState(false);
+
   async function loadWord() {
-    if (data || loading) return;
+    if (data || loading || notFound) return;
     setLoading(true);
     try {
       const res = await fetch(`/api/words?word=${encodeURIComponent(word.toLowerCase())}`);
       if (res.ok) {
         const json = await res.json();
         setData(json.word);
+      } else {
+        setNotFound(true);
       }
     } finally {
       setLoading(false);
@@ -50,7 +54,19 @@ export function WordChip({ word, sourceGame }: { word: string; sourceGame?: stri
       </PopoverTrigger>
       <PopoverContent className="w-80 space-y-2">
         {loading && <p className="text-sm text-slate-500">加载中...</p>}
-        {!loading && !data && <p className="text-sm text-slate-500">未收录该词</p>}
+        {!loading && notFound && (
+          <div className="space-y-1">
+            <p className="text-sm text-slate-500">未收录该词，去词典查一下：</p>
+            <a
+              className="text-sm text-amber-600 underline"
+              href={`https://www.merriam-webster.com/dictionary/${encodeURIComponent(word.toLowerCase())}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Merriam-Webster: {word}
+            </a>
+          </div>
+        )}
         {data && (
           <div className="space-y-2">
             <div className="flex items-center justify-between">

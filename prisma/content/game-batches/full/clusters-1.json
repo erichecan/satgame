@@ -1,0 +1,2244 @@
+{
+  "items": [
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Show/Reveal",
+            "words": [
+              {
+                "word": "demonstrate",
+                "gloss": "show clearly through evidence"
+              },
+              {
+                "word": "reveal",
+                "gloss": "make known"
+              },
+              {
+                "word": "expose",
+                "gloss": "make visible, often hidden things"
+              },
+              {
+                "word": "disclose",
+                "gloss": "make secret information known"
+              }
+            ]
+          },
+          {
+            "theme": "Frequency",
+            "words": [
+              {
+                "word": "frequently",
+                "gloss": "happening often"
+              },
+              {
+                "word": "occasionally",
+                "gloss": "sometimes but not often"
+              },
+              {
+                "word": "rarely",
+                "gloss": "not often; seldom"
+              },
+              {
+                "word": "typically",
+                "gloss": "in most cases"
+              }
+            ]
+          },
+          {
+            "theme": "Contrast Connectors",
+            "words": [
+              {
+                "word": "however",
+                "gloss": "introduces a contrast"
+              },
+              {
+                "word": "although",
+                "gloss": "in spite of the fact that"
+              },
+              {
+                "word": "whereas",
+                "gloss": "compares differing facts"
+              },
+              {
+                "word": "nevertheless",
+                "gloss": "in spite of what was said"
+              }
+            ]
+          },
+          {
+            "theme": "Important",
+            "words": [
+              {
+                "word": "significant",
+                "gloss": "worth noting"
+              },
+              {
+                "word": "crucial",
+                "gloss": "extremely important"
+              },
+              {
+                "word": "vital",
+                "gloss": "necessary for survival/success"
+              },
+              {
+                "word": "essential",
+                "gloss": "absolutely necessary"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "demonstrate",
+        "reveal",
+        "expose",
+        "disclose",
+        "frequently",
+        "occasionally",
+        "rarely",
+        "typically",
+        "however",
+        "although",
+        "whereas",
+        "nevertheless",
+        "significant",
+        "crucial",
+        "vital",
+        "essential"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Seeming (not certain)",
+            "words": [
+              {
+                "word": "apparently",
+                "gloss": "as far as one can tell"
+              },
+              {
+                "word": "presumably",
+                "gloss": "assumed to be true"
+              },
+              {
+                "word": "seemingly",
+                "gloss": "based on appearance"
+              },
+              {
+                "word": "ostensibly",
+                "gloss": "claimed to be true, possibly not"
+              }
+            ]
+          },
+          {
+            "theme": "Magnitude",
+            "words": [
+              {
+                "word": "considerably",
+                "gloss": "by a large amount"
+              },
+              {
+                "word": "markedly",
+                "gloss": "clearly and noticeably"
+              },
+              {
+                "word": "dramatically",
+                "gloss": "in a sudden striking way"
+              },
+              {
+                "word": "substantially",
+                "gloss": "to a large extent"
+              }
+            ]
+          },
+          {
+            "theme": "Combine",
+            "words": [
+              {
+                "word": "integrate",
+                "gloss": "combine into a unified whole"
+              },
+              {
+                "word": "incorporate",
+                "gloss": "include as part of a whole"
+              },
+              {
+                "word": "merge",
+                "gloss": "blend into one"
+              },
+              {
+                "word": "unify",
+                "gloss": "bring parts into one whole"
+              }
+            ]
+          },
+          {
+            "theme": "Genuine",
+            "words": [
+              {
+                "word": "authentic",
+                "gloss": "true to origin"
+              },
+              {
+                "word": "genuine",
+                "gloss": "truly what it claims to be"
+              },
+              {
+                "word": "legitimate",
+                "gloss": "conforming to rules; valid"
+              },
+              {
+                "word": "valid",
+                "gloss": "logically or legally acceptable"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'apparently' and 'seemingly' both hint at visible truth but the theme groups words meaning 'looks true, not confirmed' vs. 'genuine,' which means actually true — students often confuse the two clusters.",
+      "words": [
+        "apparently",
+        "presumably",
+        "seemingly",
+        "ostensibly",
+        "considerably",
+        "markedly",
+        "dramatically",
+        "substantially",
+        "integrate",
+        "incorporate",
+        "merge",
+        "unify",
+        "authentic",
+        "genuine",
+        "legitimate",
+        "valid"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Method (noun)",
+            "words": [
+              {
+                "word": "procedure",
+                "gloss": "an established way of doing something"
+              },
+              {
+                "word": "strategy",
+                "gloss": "a plan of action"
+              },
+              {
+                "word": "approach",
+                "gloss": "a way of dealing with something"
+              },
+              {
+                "word": "technique",
+                "gloss": "a skilled way of doing a task"
+              }
+            ]
+          },
+          {
+            "theme": "Examine",
+            "words": [
+              {
+                "word": "analyze",
+                "gloss": "examine in detail"
+              },
+              {
+                "word": "investigate",
+                "gloss": "carry out systematic inquiry"
+              },
+              {
+                "word": "explore",
+                "gloss": "examine thoroughly"
+              },
+              {
+                "word": "inspect",
+                "gloss": "look at closely"
+              }
+            ]
+          },
+          {
+            "theme": "Do/Carry out",
+            "words": [
+              {
+                "word": "implement",
+                "gloss": "put a plan into effect"
+              },
+              {
+                "word": "execute",
+                "gloss": "carry out a plan or task"
+              },
+              {
+                "word": "conduct",
+                "gloss": "organize and carry out"
+              },
+              {
+                "word": "perform",
+                "gloss": "carry out an action"
+              }
+            ]
+          },
+          {
+            "theme": "Precise",
+            "words": [
+              {
+                "word": "accurate",
+                "gloss": "correct in all details"
+              },
+              {
+                "word": "precise",
+                "gloss": "exact in detail"
+              },
+              {
+                "word": "exact",
+                "gloss": "correct in every detail"
+              },
+              {
+                "word": "correct",
+                "gloss": "free from error"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "procedure",
+        "strategy",
+        "approach",
+        "technique",
+        "analyze",
+        "investigate",
+        "explore",
+        "inspect",
+        "implement",
+        "execute",
+        "conduct",
+        "perform",
+        "accurate",
+        "precise",
+        "exact",
+        "correct"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Skill Cluster",
+            "words": [
+              {
+                "word": "capability",
+                "gloss": "the power or skill to do something"
+              },
+              {
+                "word": "proficiency",
+                "gloss": "a high degree of skill"
+              },
+              {
+                "word": "competence",
+                "gloss": "ability to do something successfully"
+              },
+              {
+                "word": "expertise",
+                "gloss": "expert skill or knowledge"
+              }
+            ]
+          },
+          {
+            "theme": "Achieve",
+            "words": [
+              {
+                "word": "accomplish",
+                "gloss": "succeed in completing"
+              },
+              {
+                "word": "achieve",
+                "gloss": "reach a desired goal"
+              },
+              {
+                "word": "attain",
+                "gloss": "succeed in achieving, often after effort"
+              },
+              {
+                "word": "mastery",
+                "gloss": "comprehensive skill in a subject"
+              }
+            ]
+          },
+          {
+            "theme": "Get/Obtain",
+            "words": [
+              {
+                "word": "obtain",
+                "gloss": "get something, usually through effort"
+              },
+              {
+                "word": "gain",
+                "gloss": "acquire something desired"
+              },
+              {
+                "word": "secure",
+                "gloss": "obtain, often with effort or certainty"
+              },
+              {
+                "word": "acquire",
+                "gloss": "gain possession of something"
+              }
+            ]
+          },
+          {
+            "theme": "Emphasize",
+            "words": [
+              {
+                "word": "highlight",
+                "gloss": "draw attention to"
+              },
+              {
+                "word": "emphasize",
+                "gloss": "give special importance to"
+              },
+              {
+                "word": "underscore",
+                "gloss": "emphasize the importance of"
+              },
+              {
+                "word": "stress",
+                "gloss": "give particular emphasis to"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'mastery' is a noun like the skill-cluster words but its meaning (comprehensive skill after effort) fits the Achieve group's sense of a hard-won result, not the skill-cluster group of raw ability terms.",
+      "words": [
+        "capability",
+        "proficiency",
+        "competence",
+        "expertise",
+        "accomplish",
+        "achieve",
+        "attain",
+        "mastery",
+        "obtain",
+        "gain",
+        "secure",
+        "acquire",
+        "highlight",
+        "emphasize",
+        "underscore",
+        "stress"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Reasoning Verbs",
+            "words": [
+              {
+                "word": "infer",
+                "gloss": "figure out from evidence"
+              },
+              {
+                "word": "deduce",
+                "gloss": "work out by logical reasoning"
+              },
+              {
+                "word": "conclude",
+                "gloss": "decide after considering facts"
+              },
+              {
+                "word": "reason",
+                "gloss": "think logically to a conclusion"
+              }
+            ]
+          },
+          {
+            "theme": "Assume",
+            "words": [
+              {
+                "word": "presume",
+                "gloss": "suppose true without proof"
+              },
+              {
+                "word": "assume",
+                "gloss": "accept as true without checking"
+              },
+              {
+                "word": "speculate",
+                "gloss": "guess without firm evidence"
+              },
+              {
+                "word": "hypothesis",
+                "gloss": "a proposed explanation to be tested"
+              }
+            ]
+          },
+          {
+            "theme": "Think Deeply",
+            "words": [
+              {
+                "word": "contemplate",
+                "gloss": "think deeply for a long time"
+              },
+              {
+                "word": "reflect",
+                "gloss": "think seriously about the past"
+              },
+              {
+                "word": "ponder",
+                "gloss": "think carefully before deciding"
+              },
+              {
+                "word": "deliberate",
+                "gloss": "consider carefully, often in a group"
+              }
+            ]
+          },
+          {
+            "theme": "Future Verbs",
+            "words": [
+              {
+                "word": "predict",
+                "gloss": "say what will happen"
+              },
+              {
+                "word": "forecast",
+                "gloss": "estimate what will happen using data"
+              },
+              {
+                "word": "anticipate",
+                "gloss": "expect and prepare for"
+              },
+              {
+                "word": "expect",
+                "gloss": "believe something will happen"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'hypothesis' is a noun, not a verb like its neighbors in the assume-group, and it describes a testable proposal rather than an unproven guess like 'presume' or 'speculate.'",
+      "words": [
+        "infer",
+        "deduce",
+        "conclude",
+        "reason",
+        "presume",
+        "assume",
+        "speculate",
+        "hypothesis",
+        "contemplate",
+        "reflect",
+        "ponder",
+        "deliberate",
+        "predict",
+        "forecast",
+        "anticipate",
+        "expect"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Block/Hinder",
+            "words": [
+              {
+                "word": "hinder",
+                "gloss": "make progress difficult"
+              },
+              {
+                "word": "impede",
+                "gloss": "slow down progress"
+              },
+              {
+                "word": "obstruct",
+                "gloss": "block a path or process"
+              },
+              {
+                "word": "inhibit",
+                "gloss": "hold back a process or feeling"
+              }
+            ]
+          },
+          {
+            "theme": "Permit",
+            "words": [
+              {
+                "word": "enable",
+                "gloss": "give the means to do something"
+              },
+              {
+                "word": "permit",
+                "gloss": "allow to happen"
+              },
+              {
+                "word": "allow",
+                "gloss": "let something happen"
+              },
+              {
+                "word": "authorize",
+                "gloss": "give official permission"
+              }
+            ]
+          },
+          {
+            "theme": "Forbid",
+            "words": [
+              {
+                "word": "prohibit",
+                "gloss": "formally forbid"
+              },
+              {
+                "word": "forbid",
+                "gloss": "order someone not to do"
+              },
+              {
+                "word": "ban",
+                "gloss": "officially forbid"
+              },
+              {
+                "word": "exclude",
+                "gloss": "leave out; not include"
+              }
+            ]
+          },
+          {
+            "theme": "Contain",
+            "words": [
+              {
+                "word": "comprise",
+                "gloss": "consist of specific parts"
+              },
+              {
+                "word": "consist",
+                "gloss": "be made up of parts"
+              },
+              {
+                "word": "constitute",
+                "gloss": "form or make up"
+              },
+              {
+                "word": "entail",
+                "gloss": "involve as a necessary consequence"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'exclude' means to leave out, which feels like blocking (hinder-group) but it actually belongs with the forbid-group's sense of formally disallowing inclusion.",
+      "words": [
+        "hinder",
+        "impede",
+        "obstruct",
+        "inhibit",
+        "enable",
+        "permit",
+        "allow",
+        "authorize",
+        "prohibit",
+        "forbid",
+        "ban",
+        "exclude",
+        "comprise",
+        "consist",
+        "constitute",
+        "entail"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Enough",
+            "words": [
+              {
+                "word": "adequate",
+                "gloss": "enough for a purpose"
+              },
+              {
+                "word": "sufficient",
+                "gloss": "as much as needed"
+              },
+              {
+                "word": "ample",
+                "gloss": "more than enough"
+              },
+              {
+                "word": "abundant",
+                "gloss": "existing in large quantities"
+              }
+            ]
+          },
+          {
+            "theme": "Not Enough",
+            "words": [
+              {
+                "word": "insufficient",
+                "gloss": "not enough"
+              },
+              {
+                "word": "inadequate",
+                "gloss": "not good enough for a purpose"
+              },
+              {
+                "word": "scarce",
+                "gloss": "in short supply"
+              },
+              {
+                "word": "limited",
+                "gloss": "restricted in amount"
+              }
+            ]
+          },
+          {
+            "theme": "Thorough",
+            "words": [
+              {
+                "word": "comprehensive",
+                "gloss": "complete, including everything"
+              },
+              {
+                "word": "extensive",
+                "gloss": "covering a large range"
+              },
+              {
+                "word": "thorough",
+                "gloss": "complete with careful attention"
+              },
+              {
+                "word": "detailed",
+                "gloss": "described precisely"
+              }
+            ]
+          },
+          {
+            "theme": "Complex",
+            "words": [
+              {
+                "word": "intricate",
+                "gloss": "very complicated in design"
+              },
+              {
+                "word": "complex",
+                "gloss": "consisting of many interconnected parts"
+              },
+              {
+                "word": "elaborate",
+                "gloss": "explained in further detail"
+              },
+              {
+                "word": "compact",
+                "gloss": "closely and neatly packed"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "adequate",
+        "sufficient",
+        "ample",
+        "abundant",
+        "insufficient",
+        "inadequate",
+        "scarce",
+        "limited",
+        "comprehensive",
+        "extensive",
+        "thorough",
+        "detailed",
+        "intricate",
+        "complex",
+        "elaborate",
+        "compact"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 1,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Stable",
+            "words": [
+              {
+                "word": "consistent",
+                "gloss": "always behaving the same way"
+              },
+              {
+                "word": "stable",
+                "gloss": "not likely to change"
+              },
+              {
+                "word": "steady",
+                "gloss": "firmly fixed; not wavering"
+              },
+              {
+                "word": "reliability",
+                "gloss": "quality of performing consistently well"
+              }
+            ]
+          },
+          {
+            "theme": "Erratic",
+            "words": [
+              {
+                "word": "inconsistent",
+                "gloss": "not staying the same"
+              },
+              {
+                "word": "erratic",
+                "gloss": "not regular in pattern"
+              },
+              {
+                "word": "unpredictable",
+                "gloss": "not able to be foreseen"
+              },
+              {
+                "word": "fluctuate",
+                "gloss": "change irregularly"
+              }
+            ]
+          },
+          {
+            "theme": "Biased",
+            "words": [
+              {
+                "word": "biased",
+                "gloss": "showing unfair prejudice"
+              },
+              {
+                "word": "prejudiced",
+                "gloss": "having a preconceived opinion"
+              },
+              {
+                "word": "partial",
+                "gloss": "favoring one side"
+              },
+              {
+                "word": "one-sided",
+                "gloss": "favoring only one side"
+              }
+            ]
+          },
+          {
+            "theme": "Logical",
+            "words": [
+              {
+                "word": "rational",
+                "gloss": "based on clear thought"
+              },
+              {
+                "word": "logical",
+                "gloss": "following correct reasoning"
+              },
+              {
+                "word": "reasonable",
+                "gloss": "fair and sensible"
+              },
+              {
+                "word": "sound",
+                "gloss": "based on valid reasoning"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "consistent",
+        "stable",
+        "steady",
+        "reliability",
+        "inconsistent",
+        "erratic",
+        "unpredictable",
+        "fluctuate",
+        "biased",
+        "prejudiced",
+        "partial",
+        "one-sided",
+        "rational",
+        "logical",
+        "reasonable",
+        "sound"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Credible",
+            "words": [
+              {
+                "word": "credible",
+                "gloss": "able to be believed"
+              },
+              {
+                "word": "convincing",
+                "gloss": "able to persuade"
+              },
+              {
+                "word": "persuasive",
+                "gloss": "good at convincing people"
+              },
+              {
+                "word": "valid",
+                "gloss": "sound and well-grounded"
+              }
+            ]
+          },
+          {
+            "theme": "Fake",
+            "words": [
+              {
+                "word": "artificial",
+                "gloss": "made by humans, not natural"
+              },
+              {
+                "word": "synthetic",
+                "gloss": "made by chemical synthesis"
+              },
+              {
+                "word": "fabricated",
+                "gloss": "invented to deceive"
+              },
+              {
+                "word": "false",
+                "gloss": "not true or accurate"
+              }
+            ]
+          },
+          {
+            "theme": "Flawed",
+            "words": [
+              {
+                "word": "inaccurate",
+                "gloss": "not correct or exact"
+              },
+              {
+                "word": "imprecise",
+                "gloss": "not exact or accurate; vague"
+              },
+              {
+                "word": "flawed",
+                "gloss": "having a mistake or weakness"
+              },
+              {
+                "word": "questionable",
+                "gloss": "doubtful in truth or quality"
+              }
+            ]
+          },
+          {
+            "theme": "Positive Effect",
+            "words": [
+              {
+                "word": "beneficial",
+                "gloss": "producing good results"
+              },
+              {
+                "word": "advantageous",
+                "gloss": "providing an advantage"
+              },
+              {
+                "word": "favorable",
+                "gloss": "likely to result in success"
+              },
+              {
+                "word": "constructive",
+                "gloss": "serving a useful purpose"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'valid' looks like it could belong with Flawed's opposite-pairing pattern, but among the four Credible synonyms it is the only one that also means logically sound rather than simply persuasive.",
+      "words": [
+        "credible",
+        "convincing",
+        "persuasive",
+        "valid",
+        "artificial",
+        "synthetic",
+        "fabricated",
+        "false",
+        "inaccurate",
+        "imprecise",
+        "flawed",
+        "questionable",
+        "beneficial",
+        "advantageous",
+        "favorable",
+        "constructive"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 1,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Productive",
+            "words": [
+              {
+                "word": "productive",
+                "gloss": "able to produce good results"
+              },
+              {
+                "word": "fruitful",
+                "gloss": "producing good useful results"
+              },
+              {
+                "word": "efficiency",
+                "gloss": "ability to do well without waste"
+              },
+              {
+                "word": "productivity",
+                "gloss": "rate of producing useful output"
+              }
+            ]
+          },
+          {
+            "theme": "Destructive",
+            "words": [
+              {
+                "word": "destructive",
+                "gloss": "causing great damage"
+              },
+              {
+                "word": "counterproductive",
+                "gloss": "having the opposite of the intended effect"
+              },
+              {
+                "word": "harmful",
+                "gloss": "causing or likely to cause harm"
+              },
+              {
+                "word": "negative",
+                "gloss": "not positive; expressing harm"
+              }
+            ]
+          },
+          {
+            "theme": "Novel",
+            "words": [
+              {
+                "word": "innovative",
+                "gloss": "introducing new methods"
+              },
+              {
+                "word": "novel",
+                "gloss": "new or unusual"
+              },
+              {
+                "word": "original",
+                "gloss": "not copied; new and inventive"
+              },
+              {
+                "word": "unique",
+                "gloss": "being the only one of its kind"
+              }
+            ]
+          },
+          {
+            "theme": "Traditional",
+            "words": [
+              {
+                "word": "traditional",
+                "gloss": "following long-established customs"
+              },
+              {
+                "word": "customary",
+                "gloss": "usual and expected"
+              },
+              {
+                "word": "typical",
+                "gloss": "having usual characteristics"
+              },
+              {
+                "word": "modern",
+                "gloss": "relating to the present"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "productive",
+        "fruitful",
+        "efficiency",
+        "productivity",
+        "destructive",
+        "counterproductive",
+        "harmful",
+        "negative",
+        "innovative",
+        "novel",
+        "original",
+        "unique",
+        "traditional",
+        "customary",
+        "typical",
+        "modern"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Increase",
+            "words": [
+              {
+                "word": "increase",
+                "gloss": "become larger in amount"
+              },
+              {
+                "word": "expand",
+                "gloss": "become larger in scope"
+              },
+              {
+                "word": "extend",
+                "gloss": "make longer or continue"
+              },
+              {
+                "word": "broaden",
+                "gloss": "make wider in scope"
+              }
+            ]
+          },
+          {
+            "theme": "Decrease",
+            "words": [
+              {
+                "word": "reduce",
+                "gloss": "make smaller"
+              },
+              {
+                "word": "diminish",
+                "gloss": "become smaller or weaker"
+              },
+              {
+                "word": "decrease",
+                "gloss": "become smaller in amount"
+              },
+              {
+                "word": "minimize",
+                "gloss": "reduce to the smallest amount"
+              }
+            ]
+          },
+          {
+            "theme": "Limit",
+            "words": [
+              {
+                "word": "restrict",
+                "gloss": "limit the range of something"
+              },
+              {
+                "word": "limit",
+                "gloss": "set a maximum boundary"
+              },
+              {
+                "word": "constrain",
+                "gloss": "severely restrict scope"
+              },
+              {
+                "word": "narrow",
+                "gloss": "make smaller in range"
+              }
+            ]
+          },
+          {
+            "theme": "Arise",
+            "words": [
+              {
+                "word": "evolve",
+                "gloss": "develop gradually over time"
+              },
+              {
+                "word": "emerge",
+                "gloss": "appear after being hidden"
+              },
+              {
+                "word": "arise",
+                "gloss": "begin to happen"
+              },
+              {
+                "word": "originate",
+                "gloss": "begin from a source"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "increase",
+        "expand",
+        "extend",
+        "broaden",
+        "reduce",
+        "diminish",
+        "decrease",
+        "minimize",
+        "restrict",
+        "limit",
+        "constrain",
+        "narrow",
+        "evolve",
+        "emerge",
+        "arise",
+        "originate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Cause",
+            "words": [
+              {
+                "word": "prompt",
+                "gloss": "cause someone to do something"
+              },
+              {
+                "word": "trigger",
+                "gloss": "cause an event suddenly"
+              },
+              {
+                "word": "provoke",
+                "gloss": "cause a strong reaction"
+              },
+              {
+                "word": "induce",
+                "gloss": "bring about a condition"
+              }
+            ]
+          },
+          {
+            "theme": "Motivate",
+            "words": [
+              {
+                "word": "stimulate",
+                "gloss": "encourage activity or interest"
+              },
+              {
+                "word": "motivate",
+                "gloss": "give a reason to do something"
+              },
+              {
+                "word": "inspire",
+                "gloss": "fill with desire to act"
+              },
+              {
+                "word": "encourage",
+                "gloss": "give support or confidence"
+              }
+            ]
+          },
+          {
+            "theme": "Gather",
+            "words": [
+              {
+                "word": "compile",
+                "gloss": "gather items from different sources"
+              },
+              {
+                "word": "assemble",
+                "gloss": "fit parts together"
+              },
+              {
+                "word": "gather",
+                "gloss": "bring together in one place"
+              },
+              {
+                "word": "accumulate",
+                "gloss": "gradually build up over time"
+              }
+            ]
+          },
+          {
+            "theme": "Sort",
+            "words": [
+              {
+                "word": "classify",
+                "gloss": "arrange into groups by characteristics"
+              },
+              {
+                "word": "categorize",
+                "gloss": "place into groups by similarity"
+              },
+              {
+                "word": "organize",
+                "gloss": "arrange systematically"
+              },
+              {
+                "word": "arrange",
+                "gloss": "put in a particular order"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "prompt",
+        "trigger",
+        "provoke",
+        "induce",
+        "stimulate",
+        "motivate",
+        "inspire",
+        "encourage",
+        "compile",
+        "assemble",
+        "gather",
+        "accumulate",
+        "classify",
+        "categorize",
+        "organize",
+        "arrange"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Reveal (secrets)",
+            "words": [
+              {
+                "word": "reveal",
+                "gloss": "make previously unknown information known"
+              },
+              {
+                "word": "expose",
+                "gloss": "make visible, especially hidden things"
+              },
+              {
+                "word": "disclose",
+                "gloss": "make secret information known formally"
+              },
+              {
+                "word": "divulge",
+                "gloss": "reveal private information, sometimes reluctantly"
+              }
+            ]
+          },
+          {
+            "theme": "Claim",
+            "words": [
+              {
+                "word": "state",
+                "gloss": "express clearly and definitely"
+              },
+              {
+                "word": "claim",
+                "gloss": "assert as true, often without proof"
+              },
+              {
+                "word": "argue",
+                "gloss": "give reasons to support an idea"
+              },
+              {
+                "word": "imply",
+                "gloss": "suggest without stating directly"
+              }
+            ]
+          },
+          {
+            "theme": "Defend",
+            "words": [
+              {
+                "word": "justify",
+                "gloss": "show that something is right"
+              },
+              {
+                "word": "defend",
+                "gloss": "argue in favor of something challenged"
+              },
+              {
+                "word": "support",
+                "gloss": "provide reasons backing a claim"
+              },
+              {
+                "word": "uphold",
+                "gloss": "support or maintain a principle"
+              }
+            ]
+          },
+          {
+            "theme": "Resist/Oppose",
+            "words": [
+              {
+                "word": "oppose",
+                "gloss": "resist a plan or idea"
+              },
+              {
+                "word": "challenge",
+                "gloss": "question if something is true"
+              },
+              {
+                "word": "dispute",
+                "gloss": "argue about or disagree with"
+              },
+              {
+                "word": "question",
+                "gloss": "express doubt about"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'imply' seems related to Reveal (making something known) but it means the opposite process — suggesting without stating directly — so it belongs with Claim-type verbs of indirect assertion.",
+      "words": [
+        "reveal",
+        "expose",
+        "disclose",
+        "divulge",
+        "state",
+        "claim",
+        "argue",
+        "imply",
+        "justify",
+        "defend",
+        "support",
+        "uphold",
+        "oppose",
+        "challenge",
+        "dispute",
+        "question"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 1,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Show Examples",
+            "words": [
+              {
+                "word": "illustrate",
+                "gloss": "make clear using examples"
+              },
+              {
+                "word": "exemplify",
+                "gloss": "be a typical example of"
+              },
+              {
+                "word": "represent",
+                "gloss": "stand for or symbolize"
+              },
+              {
+                "word": "depict",
+                "gloss": "show or represent in words/pictures"
+              }
+            ]
+          },
+          {
+            "theme": "Summarize",
+            "words": [
+              {
+                "word": "summarize",
+                "gloss": "give a brief statement of main points"
+              },
+              {
+                "word": "outline",
+                "gloss": "give the main features"
+              },
+              {
+                "word": "portray",
+                "gloss": "describe or represent in a particular way"
+              },
+              {
+                "word": "describe",
+                "gloss": "give an account of what something is like"
+              }
+            ]
+          },
+          {
+            "theme": "Meaning Verbs",
+            "words": [
+              {
+                "word": "denote",
+                "gloss": "be a sign of; mean directly"
+              },
+              {
+                "word": "connote",
+                "gloss": "suggest an additional meaning"
+              },
+              {
+                "word": "signify",
+                "gloss": "be a sign or indication of"
+              },
+              {
+                "word": "interpret",
+                "gloss": "explain the meaning of something"
+              }
+            ]
+          },
+          {
+            "theme": "Identify",
+            "words": [
+              {
+                "word": "determine",
+                "gloss": "establish precisely through investigation"
+              },
+              {
+                "word": "identify",
+                "gloss": "recognize exactly what something is"
+              },
+              {
+                "word": "recognize",
+                "gloss": "identify from previous knowledge"
+              },
+              {
+                "word": "distinguish",
+                "gloss": "recognize a difference between things"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "illustrate",
+        "exemplify",
+        "represent",
+        "depict",
+        "summarize",
+        "outline",
+        "portray",
+        "describe",
+        "denote",
+        "connote",
+        "signify",
+        "interpret",
+        "determine",
+        "identify",
+        "recognize",
+        "distinguish"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Inquiry Nouns",
+            "words": [
+              {
+                "word": "analysis",
+                "gloss": "detailed examination to understand something"
+              },
+              {
+                "word": "evaluation",
+                "gloss": "careful judgment of value"
+              },
+              {
+                "word": "observation",
+                "gloss": "act of watching carefully"
+              },
+              {
+                "word": "methodology",
+                "gloss": "system of methods used in a field"
+              }
+            ]
+          },
+          {
+            "theme": "Result Nouns",
+            "words": [
+              {
+                "word": "outcome",
+                "gloss": "the result or effect of an action"
+              },
+              {
+                "word": "consequence",
+                "gloss": "a result, often serious"
+              },
+              {
+                "word": "effect",
+                "gloss": "a change resulting directly from a cause"
+              },
+              {
+                "word": "impact",
+                "gloss": "a strong effect or influence"
+              }
+            ]
+          },
+          {
+            "theme": "Comparison Nouns",
+            "words": [
+              {
+                "word": "contrast",
+                "gloss": "a clear difference when compared"
+              },
+              {
+                "word": "comparison",
+                "gloss": "examining similarities and differences"
+              },
+              {
+                "word": "contradiction",
+                "gloss": "a statement opposite to another"
+              },
+              {
+                "word": "distinction",
+                "gloss": "a clear difference between similar things"
+              }
+            ]
+          },
+          {
+            "theme": "Trait Nouns",
+            "words": [
+              {
+                "word": "characteristic",
+                "gloss": "a typical feature or quality"
+              },
+              {
+                "word": "feature",
+                "gloss": "a distinctive attribute"
+              },
+              {
+                "word": "quality",
+                "gloss": "a distinctive attribute possessed"
+              },
+              {
+                "word": "trait",
+                "gloss": "a particular characteristic"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "analysis",
+        "evaluation",
+        "observation",
+        "methodology",
+        "outcome",
+        "consequence",
+        "effect",
+        "impact",
+        "contrast",
+        "comparison",
+        "contradiction",
+        "distinction",
+        "characteristic",
+        "feature",
+        "quality",
+        "trait"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Estimation",
+            "words": [
+              {
+                "word": "approximately",
+                "gloss": "close to correct but not exact"
+              },
+              {
+                "word": "roughly",
+                "gloss": "approximately; not precisely"
+              },
+              {
+                "word": "predominantly",
+                "gloss": "mainly; more than anything else"
+              },
+              {
+                "word": "primarily",
+                "gloss": "mainly; for the most part"
+              }
+            ]
+          },
+          {
+            "theme": "Change Rate",
+            "words": [
+              {
+                "word": "gradually",
+                "gloss": "happening slowly over time"
+              },
+              {
+                "word": "increasingly",
+                "gloss": "more and more as time passes"
+              },
+              {
+                "word": "relatively",
+                "gloss": "to a fairly noticeable degree in comparison"
+              },
+              {
+                "word": "ultimately",
+                "gloss": "finally, after a chain of events"
+              }
+            ]
+          },
+          {
+            "theme": "Method Nouns",
+            "words": [
+              {
+                "word": "process",
+                "gloss": "a series of steps to achieve a result"
+              },
+              {
+                "word": "procedure",
+                "gloss": "an established way of doing something"
+              },
+              {
+                "word": "method",
+                "gloss": "a particular procedure for accomplishing something"
+              },
+              {
+                "word": "mechanism",
+                "gloss": "a process by which something happens"
+              }
+            ]
+          },
+          {
+            "theme": "Purpose Nouns",
+            "words": [
+              {
+                "word": "function",
+                "gloss": "the intended purpose of something"
+              },
+              {
+                "word": "purpose",
+                "gloss": "the reason something is done"
+              },
+              {
+                "word": "role",
+                "gloss": "the part someone/something plays"
+              },
+              {
+                "word": "framework",
+                "gloss": "a basic structure supporting a system"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "approximately",
+        "roughly",
+        "predominantly",
+        "primarily",
+        "gradually",
+        "increasingly",
+        "relatively",
+        "ultimately",
+        "process",
+        "procedure",
+        "method",
+        "mechanism",
+        "function",
+        "purpose",
+        "role",
+        "framework"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 1,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Core/Primary",
+            "words": [
+              {
+                "word": "fundamental",
+                "gloss": "forming a necessary base"
+              },
+              {
+                "word": "primary",
+                "gloss": "main or most important"
+              },
+              {
+                "word": "principal",
+                "gloss": "most important or main"
+              },
+              {
+                "word": "central",
+                "gloss": "of the greatest importance"
+              }
+            ]
+          },
+          {
+            "theme": "Minor",
+            "words": [
+              {
+                "word": "secondary",
+                "gloss": "less important than something else"
+              },
+              {
+                "word": "minor",
+                "gloss": "small in importance"
+              },
+              {
+                "word": "marginal",
+                "gloss": "barely noticeable in importance"
+              },
+              {
+                "word": "scarce",
+                "gloss": "in short supply"
+              }
+            ]
+          },
+          {
+            "theme": "Relevant",
+            "words": [
+              {
+                "word": "relevant",
+                "gloss": "closely connected to the matter"
+              },
+              {
+                "word": "pertinent",
+                "gloss": "directly relevant to the matter"
+              },
+              {
+                "word": "applicable",
+                "gloss": "relevant to a situation"
+              },
+              {
+                "word": "appropriate",
+                "gloss": "suitable for a situation"
+              }
+            ]
+          },
+          {
+            "theme": "Clarity",
+            "words": [
+              {
+                "word": "clear",
+                "gloss": "easy to understand"
+              },
+              {
+                "word": "unclear",
+                "gloss": "not easy to understand"
+              },
+              {
+                "word": "evident",
+                "gloss": "clearly seen or understood"
+              },
+              {
+                "word": "obvious",
+                "gloss": "easy to see or understand"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "fundamental",
+        "primary",
+        "principal",
+        "central",
+        "secondary",
+        "minor",
+        "marginal",
+        "scarce",
+        "relevant",
+        "pertinent",
+        "applicable",
+        "appropriate",
+        "clear",
+        "unclear",
+        "evident",
+        "obvious"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Improve",
+            "words": [
+              {
+                "word": "enhance",
+                "gloss": "improve the quality or value"
+              },
+              {
+                "word": "improve",
+                "gloss": "make or become better"
+              },
+              {
+                "word": "strengthen",
+                "gloss": "make stronger or more secure"
+              },
+              {
+                "word": "reinforce",
+                "gloss": "strengthen with additional support"
+              }
+            ]
+          },
+          {
+            "theme": "Make/Create",
+            "words": [
+              {
+                "word": "generate",
+                "gloss": "produce or create something"
+              },
+              {
+                "word": "produce",
+                "gloss": "make through effort or process"
+              },
+              {
+                "word": "create",
+                "gloss": "bring something new into existence"
+              },
+              {
+                "word": "construct",
+                "gloss": "build using parts or materials"
+              }
+            ]
+          },
+          {
+            "theme": "Change",
+            "words": [
+              {
+                "word": "alter",
+                "gloss": "change something, usually slightly"
+              },
+              {
+                "word": "modify",
+                "gloss": "make small changes to improve"
+              },
+              {
+                "word": "adjust",
+                "gloss": "change slightly to make suitable"
+              },
+              {
+                "word": "adapt",
+                "gloss": "change to suit new conditions"
+              }
+            ]
+          },
+          {
+            "theme": "Keep/Maintain",
+            "words": [
+              {
+                "word": "maintain",
+                "gloss": "keep in an existing state"
+              },
+              {
+                "word": "sustain",
+                "gloss": "keep going, especially under difficulty"
+              },
+              {
+                "word": "preserve",
+                "gloss": "keep safe and unchanged"
+              },
+              {
+                "word": "retain",
+                "gloss": "continue to have or keep"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "enhance",
+        "improve",
+        "strengthen",
+        "reinforce",
+        "generate",
+        "produce",
+        "create",
+        "construct",
+        "alter",
+        "modify",
+        "adjust",
+        "adapt",
+        "maintain",
+        "sustain",
+        "preserve",
+        "retain"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Precision Nouns",
+            "words": [
+              {
+                "word": "clarity",
+                "gloss": "quality of being clear"
+              },
+              {
+                "word": "accuracy",
+                "gloss": "quality of being correct"
+              },
+              {
+                "word": "precision",
+                "gloss": "quality of being exact"
+              },
+              {
+                "word": "validity",
+                "gloss": "quality of being logically sound"
+              }
+            ]
+          },
+          {
+            "theme": "Dependability Nouns",
+            "words": [
+              {
+                "word": "consistency",
+                "gloss": "quality of always performing the same way"
+              },
+              {
+                "word": "reliability",
+                "gloss": "quality of being trustworthy"
+              },
+              {
+                "word": "capacity",
+                "gloss": "the maximum amount something can hold"
+              },
+              {
+                "word": "potential",
+                "gloss": "capacity not yet fully developed"
+              }
+            ]
+          },
+          {
+            "theme": "Regularity Nouns",
+            "words": [
+              {
+                "word": "pattern",
+                "gloss": "a regular repeated way something happens"
+              },
+              {
+                "word": "trend",
+                "gloss": "a general direction of development"
+              },
+              {
+                "word": "tendency",
+                "gloss": "a habitual inclination"
+              },
+              {
+                "word": "paradigm",
+                "gloss": "a widely accepted model of thinking"
+              }
+            ]
+          },
+          {
+            "theme": "Influence Nouns",
+            "words": [
+              {
+                "word": "influence",
+                "gloss": "power to affect development or behavior"
+              },
+              {
+                "word": "factor",
+                "gloss": "something that influences a result"
+              },
+              {
+                "word": "variable",
+                "gloss": "an element liable to change"
+              },
+              {
+                "word": "correlation",
+                "gloss": "a relationship where two things change together"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "clarity",
+        "accuracy",
+        "precision",
+        "validity",
+        "consistency",
+        "reliability",
+        "capacity",
+        "potential",
+        "pattern",
+        "trend",
+        "tendency",
+        "paradigm",
+        "influence",
+        "factor",
+        "variable",
+        "correlation"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Deal With a Problem",
+            "words": [
+              {
+                "word": "address",
+                "gloss": "give attention to a problem"
+              },
+              {
+                "word": "confront",
+                "gloss": "face a difficult situation directly"
+              },
+              {
+                "word": "tackle",
+                "gloss": "make a determined effort to deal with a problem"
+              },
+              {
+                "word": "resolve",
+                "gloss": "find a satisfactory solution"
+              }
+            ]
+          },
+          {
+            "theme": "Change Completely",
+            "words": [
+              {
+                "word": "transform",
+                "gloss": "change completely into something different"
+              },
+              {
+                "word": "revise",
+                "gloss": "change a piece of writing to improve it"
+              },
+              {
+                "word": "shift",
+                "gloss": "move or change from one state to another"
+              },
+              {
+                "word": "settle",
+                "gloss": "reach a final agreement ending a disagreement"
+              }
+            ]
+          },
+          {
+            "theme": "Doubt/Reject",
+            "words": [
+              {
+                "word": "doubt",
+                "gloss": "feel uncertain about something"
+              },
+              {
+                "word": "reject",
+                "gloss": "refuse to accept or agree with"
+              },
+              {
+                "word": "suspect",
+                "gloss": "not to be trusted; possibly false"
+              },
+              {
+                "word": "implausible",
+                "gloss": "hard to believe; not seeming reasonable"
+              }
+            ]
+          },
+          {
+            "theme": "Connectors (Addition/Result)",
+            "words": [
+              {
+                "word": "moreover",
+                "gloss": "used to add a further, stronger point"
+              },
+              {
+                "word": "furthermore",
+                "gloss": "in addition; moreover"
+              },
+              {
+                "word": "consequently",
+                "gloss": "as a result; therefore"
+              },
+              {
+                "word": "similarly",
+                "gloss": "in a way that is alike to something mentioned"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'settle' looks like it belongs with 'Deal With a Problem' (resolve, tackle) since settling a dispute sounds like resolving it, but here it groups with 'Change Completely' as another way something reaches a new, final state — students must notice the subtle difference between actively fixing a problem and a situation simply arriving at an end state.",
+      "words": [
+        "address",
+        "confront",
+        "tackle",
+        "resolve",
+        "transform",
+        "revise",
+        "shift",
+        "settle",
+        "doubt",
+        "reject",
+        "suspect",
+        "implausible",
+        "moreover",
+        "furthermore",
+        "consequently",
+        "similarly"
+      ]
+    }
+  ]
+}

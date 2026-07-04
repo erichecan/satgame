@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "science",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "For decades, researchers assumed that octopuses process visual information almost entirely within a central brain located between their eyes.",
+          "A recent study tracking neural activity found that each arm contains a dense cluster of neurons capable of making decisions independent of that core structure.",
+          "When a severed arm was presented with prey in a lab setting, it reached and grasped with no signal from the head at all.",
+          "This finding suggests that intelligence in octopuses may be distributed across the body rather than housed in one primary command center.",
+          "Some scientists now describe the octopus nervous system as a network of semi-autonomous minds working in loose coordination."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          { "t": "Octopus arms can act independently, suggesting cognition is spread throughout the body rather than centralized.", "correct": true },
+          { "t": "Octopus arms are more dangerous to prey than previously believed.", "trap": "Not the point of the passage; the focus is on cognition, not danger." },
+          { "t": "Scientists have fully mapped the octopus nervous system.", "trap": "Too strong — the passage describes an emerging finding, not a complete map." },
+          { "t": "Octopuses rely on their central brain for every decision.", "trap": "Directly contradicted by the study described in the passage." }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "The severed-arm experiment is the direct evidence that arms can act without input from the head."
+      },
+      "explanation": "The passage builds toward the idea that octopus cognition is distributed, not centralized in one primary brain, and the severed-arm experiment is the clearest supporting evidence.",
+      "words": ["central", "core", "primary"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "history_social_science",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians long treated the diaries of ordinary colonial farmers as a secondary source, useful mainly for confirming facts already known from official records.",
+          "A recent reexamination argues that these diaries are, in fact, uniquely relevant to understanding daily economic life in the period.",
+          "Official records tracked taxes and trade, but they rarely mention the small barters and informal loans that sustained rural communities.",
+          "Diaries, by contrast, document these minor transactions in detail, revealing an entire informal economy that official ledgers never captured.",
+          "Reassessing such sources as primary evidence, rather than mere background color, is reshaping how scholars describe colonial economic life."
+        ],
+        "question": "Why does the author mention taxes and trade in the passage?",
+        "options": [
+          { "t": "To contrast what official records capture with what diaries reveal, showing the diaries' value.", "correct": true },
+          { "t": "To argue that official records are more accurate than diaries.", "trap": "Opposite of the author's point — diaries reveal what official records miss." },
+          { "t": "To explain how colonial governments collected revenue.", "trap": "A narrow detail, not why the author raises the comparison." },
+          { "t": "To prove that diaries are unreliable historical sources.", "trap": "Contradicts the passage, which elevates diaries' reliability and value." }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly explains that diaries reveal an informal economy absent from official ledgers, which is the contrast the question asks about."
+      },
+      "explanation": "The mention of taxes and trade sets up a contrast with the informal transactions diaries record, supporting the claim that diaries deserve primary-source status.",
+      "words": ["secondary", "relevant", "minor", "primary"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "literature",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Mira had always thought her grandmother's stories were simple folk tales, pleasant but marginal, told mainly to fill quiet evenings.",
+          "Then she found the notebook: pages of dates, names, and locations that matched, with unnerving precision, the plot of every story.",
+          "The 'wolf who guarded the bridge' was, she realized, a soldier her grandmother had once known during the war.",
+          "What she had dismissed as a minor bedtime ritual was, in truth, a comprehensive record disguised as fiction.",
+          "Mira closed the notebook and understood she would never hear these stories the same way again."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          { "t": "Mira's grandmother preferred fiction to factual storytelling.", "trap": "Contradicted — the notebook shows the stories were based on real events." },
+          { "t": "Mira discovers that soldiers often inspire folklore.", "trap": "Too broad a generalization; the passage is about Mira's specific discovery." },
+          { "t": "War stories are more memorable than fairy tales.", "trap": "Not stated or implied; the passage doesn't compare genres this way." },
+          { "t": "Mira realizes her grandmother's tales were a hidden record of real events.", "correct": true }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states directly that the seemingly minor stories were actually a comprehensive, disguised record — the core realization of the passage."
+      },
+      "explanation": "The narrative turns on Mira's realization that the folk tales encoded real history, which sentence 4 states outright.",
+      "words": ["simple", "marginal", "minor", "comprehensive"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "science",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Coral reefs depend on a stable relationship between coral polyps and the microscopic algae living inside their tissue.",
+          "The algae provide food through photosynthesis, while the coral offers a protected, well-lit home.",
+          "When ocean temperatures rise even slightly, this normally steady partnership becomes unpredictable and often collapses.",
+          "Stressed coral expel their algae, turning white in an event known as bleaching, and if warm conditions persist, the coral can starve.",
+          "Because the relationship is so delicate, scientists view coral bleaching as an early, visible warning sign of broader ocean stress."
+        ],
+        "question": "Which choice best states the main purpose of the passage?",
+        "options": [
+          { "t": "To describe how coral polyps reproduce.", "trap": "Not discussed anywhere in the passage." },
+          { "t": "To explain why algae are harmful to coral reefs.", "trap": "Opposite — the passage shows the algae normally benefit the coral." },
+          { "t": "To show how a delicate coral-algae partnership breaks down under heat stress, signaling wider ocean problems.", "correct": true },
+          { "t": "To argue that coral reefs are no longer worth studying.", "trap": "Not supported; the passage frames bleaching as important to study, not irrelevant." }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence ties the delicate partnership directly to its significance as a warning sign, capturing the passage's overall purpose."
+      },
+      "explanation": "The passage explains the coral-algae relationship, how heat disrupts it, and why that disruption matters as an environmental signal.",
+      "words": ["stable", "steady", "unpredictable", "delicate"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "humanities",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Art critics in the 1950s dismissed the painter Alma Thomas's abstract mosaics as merely decorative, a judgment many now consider biased.",
+          "Contemporary reviewers, working from a narrow and one-sided definition of 'serious' art, overlooked the intricate color theory underlying her compositions.",
+          "Thomas herself studied light patterns in her garden for years before translating them into the geometric patterns she became known for.",
+          "Later scholars, applying a more comprehensive lens, identified her work as a rigorous investigation of color and motion.",
+          "Her posthumous recognition suggests that critical judgment, however confident it may sound at the time, is not always reliable."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          { "t": "Alma Thomas's work was rightly ignored during her lifetime.", "trap": "Contradicts the passage, which reevaluates the original dismissal as mistaken." },
+          { "t": "Early dismissals of Alma Thomas's art reflected biased standards later overturned by more thorough analysis.", "correct": true },
+          { "t": "Garden imagery was the only subject Alma Thomas ever painted.", "trap": "Too narrow — gardens are one detail, not the whole subject of the passage." },
+          { "t": "Critics in the 1950s were experts in color theory.", "trap": "Opposite — the passage says critics overlooked her color theory." }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows scholars later reversed the original judgment using a more thorough, comprehensive approach, which is the passage's central claim."
+      },
+      "explanation": "The passage traces how biased, narrow early criticism of Thomas's work was later corrected by more comprehensive scholarship.",
+      "words": ["biased", "one-sided", "intricate", "comprehensive"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "history_social_science",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "City planners in the early twentieth century often justified demolishing old neighborhoods with plain, straightforward claims about public health.",
+          "Yet the historical record shows that the neighborhoods chosen for clearance were rarely selected for sanitation reasons alone.",
+          "Detailed surveys from the period reveal that wealthier, politically connected districts with similar conditions were left untouched.",
+          "This pattern suggests that health rhetoric, however evident and reasonable it seemed, sometimes served as cover for other municipal priorities.",
+          "Modern historians now treat such official justifications with far more skepticism than earlier accounts did."
+        ],
+        "question": "The author includes the detail about wealthier districts being left untouched primarily to:",
+        "options": [
+          { "t": "prove that wealthier districts had better sanitation systems.", "trap": "Not stated — the passage says conditions were similar, not that sanitation differed." },
+          { "t": "show that public health claims were applied inconsistently, hinting at other motives.", "correct": true },
+          { "t": "argue that all early twentieth-century planners were corrupt.", "trap": "Too extreme; the passage suggests a pattern, not a sweeping condemnation." },
+          { "t": "explain how city planners funded new housing projects.", "trap": "Irrelevant detail not discussed in the passage." }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the concrete comparison that reveals inconsistent application of health-based justifications."
+      },
+      "explanation": "The uneven application of health rhetoric across similar districts is the key evidence undermining the straightforward official justification.",
+      "words": ["plain", "straightforward", "evident", "reasonable"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "science",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Weather forecasters have long struggled with mountain regions, where wind patterns can shift from steady to erratic within a single valley.",
+          "A new model incorporates far more granular terrain data, tracking airflow around individual ridges rather than broad regional averages.",
+          "Early tests show the model predicting sudden gusts with notable accuracy up to six hours in advance.",
+          "Still, meteorologists caution that the model's forecasts become less consistent beyond that window, especially during rapid storms.",
+          "Even with these limits, the approach marks a significant improvement over older, coarser forecasting methods."
+        ],
+        "question": "Which choice best supports the idea that the new model has limitations?",
+        "options": [
+          { "t": "\"Weather forecasters have long struggled with mountain regions, where wind patterns can shift from steady to erratic within a single valley.\"", "trap": "Describes the general problem, not a limitation of the new model itself." },
+          { "t": "\"A new model incorporates far more granular terrain data, tracking airflow around individual ridges rather than broad regional averages.\"", "trap": "Describes a strength of the model, not a limitation." },
+          { "t": "\"Early tests show the model predicting sudden gusts with notable accuracy up to six hours in advance.\"", "trap": "Describes success within a window, not the limitation itself." },
+          { "t": "\"Still, meteorologists caution that the model's forecasts become less consistent beyond that window, especially during rapid storms.\"", "correct": true }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explicitly states the model's forecasts grow less reliable after six hours, which is the limitation the question asks about."
+      },
+      "explanation": "The question asks for textual evidence of a limitation, and only sentence 4 explicitly names a weakness in the model's performance.",
+      "words": ["steady", "erratic", "notable", "consistent"]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "humanities",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Debate coaches often tell students that a rational argument alone rarely wins over a skeptical audience.",
+          "A study of championship debate rounds found that judges rated arguments as more convincing when they were both logical and delivered with clear emotional conviction.",
+          "Purely technical, dry recitations of evidence, however sound, often scored lower than arguments that connected data to a relatable stake.",
+          "The researchers concluded that persuasion depends on pairing credible reasoning with an appeal that feels personally relevant to listeners.",
+          "This finding has pushed some debate programs to retrain students who rely too heavily on data alone."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          { "t": "Judges in debate competitions are usually biased against logical arguments.", "trap": "Not supported — the passage says logic matters, just not alone." },
+          { "t": "Debate students should avoid using evidence entirely.", "trap": "Too extreme; the passage says technical evidence recitation alone underperforms, not that evidence should be dropped." },
+          { "t": "Persuasion in debate works best when sound reasoning is combined with an emotionally relevant appeal.", "correct": true },
+          { "t": "Championship debate rounds are judged only on emotional appeal.", "trap": "Contradicts the passage, which says logic and emotion both matter." }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the study's conclusion directly: persuasion requires credible reasoning paired with a personally relevant appeal."
+      },
+      "explanation": "The passage's central claim, stated in sentence 4, is that combining logical, credible reasoning with relatable appeal is what makes arguments convincing.",
+      "words": ["rational", "logical", "sound", "credible"]
+    }
+  ]
+}

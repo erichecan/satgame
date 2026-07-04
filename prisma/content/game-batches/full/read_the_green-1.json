@@ -1,0 +1,1219 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "For decades, marine biologists assumed that deep-sea corals grew too slowly to recover from trawling damage.",
+          "A recent survey of a Pacific seamount, however, found colonies estimated at over four thousand years old still expanding at measurable rates.",
+          "Researchers used isotope dating to determine growth patterns analogous to tree rings, revealing centuries-long dormancy phases punctuated by sudden growth spurts.",
+          "The finding does not overturn the basic conservation concern, but it does suggest that recovery timelines for damaged reefs may be far longer than previously modeled.",
+          "Consequently, several marine sanctuaries have extended no-trawl zones well beyond their original boundaries, since the data indicate that recovery could take even longer."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "New dating methods reveal deep-sea corals are older and slower to recover than earlier estimates suggested, prompting expanded protections.",
+            "correct": true
+          },
+          {
+            "t": "Marine sanctuaries have abandoned no-trawl zones because coral recovery estimates were exaggerated.",
+            "trap": "contradicts the passage's conclusion"
+          },
+          {
+            "t": "Deep-sea corals grow faster than trees, making trawling damage easy to reverse within a few years.",
+            "trap": "opposite of what the passage states"
+          },
+          {
+            "t": "Isotope dating is used mainly to study tree rings rather than coral growth.",
+            "trap": "not stated; misapplies a detail"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly states the implication that recovery timelines are longer than previously modeled."
+      },
+      "explanation": null,
+      "words": [
+        "indicate",
+        "determine",
+        "suggest"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Glaciologists studying the Thwaites Glacier have long debated why its retreat accelerated so sharply after 2000.",
+          "A new model incorporating warm ocean currents beneath the ice shelf appears to demonstrate that basal melting, not surface warming, drives most of the mass loss.",
+          "Sensors dropped through boreholes recorded water temperatures nearly four degrees above the freezing point at the glacier's base.",
+          "This mechanism means the glacier is vulnerable even in years when air temperatures above it remain relatively mild.",
+          "Some researchers caution that ocean-driven melting could make the glacier's collapse more abrupt than gradual warming models predict."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "Air temperature above the glacier is the dominant cause of its retreat.",
+            "trap": "contradicts the passage's finding about basal melting"
+          },
+          {
+            "t": "Warm ocean water beneath the ice, rather than surface warming, is the primary driver of the glacier's accelerating loss.",
+            "correct": true
+          },
+          {
+            "t": "The glacier's retreat has stopped accelerating since 2000.",
+            "trap": "opposite of stated fact"
+          },
+          {
+            "t": "Boreholes are used only to measure air temperature, not water temperature.",
+            "trap": "not stated; misreads a detail"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence states the model's central conclusion about basal melting driving mass loss."
+      },
+      "explanation": null,
+      "words": [
+        "demonstrate",
+        "mechanism",
+        "relatively"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Botanists have generally assumed that plants respond to insect damage only through localized chemical defenses at the wound site.",
+          "A study on lima bean plants, however, recorded electrical signals traveling from a chewed leaf to undamaged leaves within seconds.",
+          "Those distant leaves gradually began producing defensive compounds before any insect had reached them.",
+          "Researchers suggest the pattern reveals a rapid, plant-wide warning system that operates independently of the slower chemical signals studied previously.",
+          "If confirmed in other species, the discovery could reshape how researchers think about plant communication generally."
+        ],
+        "question": "Which choice best captures the main point of the passage?",
+        "options": [
+          {
+            "t": "Lima bean plants defend themselves exclusively through slow chemical signals released at the wound site.",
+            "trap": "contradicts the electrical-signal finding"
+          },
+          {
+            "t": "Insects avoid lima bean plants entirely once one leaf has been chewed.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "Electrical signals may allow plants to warn distant leaves of insect attack far faster than known chemical defenses.",
+            "correct": true
+          },
+          {
+            "t": "The study proves that all plant species communicate using identical electrical systems.",
+            "trap": "overstates the passage's cautious, single-species finding"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the key evidence that distant leaves prepared defenses before insects arrived."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "gradually",
+        "suggest"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Physicists have long sought a material that superconducts electricity at room temperature without extreme pressure.",
+          "A team claimed in 2023 to have synthesized such a compound, sparking global excitement and dozens of attempts to replicate the result.",
+          "Independent laboratories, however, were unable to reproduce the reported resistance drop under identical conditions.",
+          "Furthermore, closer analysis revealed that impurities in the original sample had likely produced a misleading signal.",
+          "The episode is likely to reinforce the field's insistence on independent replication before any claim is accepted."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Room-temperature superconductivity was successfully confirmed by multiple independent laboratories.",
+            "trap": "opposite of what happened"
+          },
+          {
+            "t": "Physicists have abandoned the search for room-temperature superconductors after this episode.",
+            "trap": "not stated; too extreme"
+          },
+          {
+            "t": "The 2023 claim involved a material that requires extreme pressure to superconduct.",
+            "trap": "contradicts the passage's premise"
+          },
+          {
+            "t": "A claimed room-temperature superconductor could not be replicated and was likely the result of sample impurities.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence gives the explanation for why the original result could not be reproduced."
+      },
+      "explanation": null,
+      "words": [
+        "however",
+        "furthermore",
+        "reinforce"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Urban planners have historically treated street trees mainly as an aesthetic feature rather than infrastructure.",
+          "New sensor data from several cities now demonstrate that mature tree canopies can lower nearby pavement temperatures by over ten degrees during heat waves.",
+          "The cooling effect, researchers found, also reduces electricity demand from air conditioning in adjacent buildings.",
+          "Some officials argue that this evidence justifies reclassifying urban trees as a component of climate-resilience infrastructure, with dedicated maintenance budgets.",
+          "Others counter that budget constraints make such reclassification impractical in the near term."
+        ],
+        "question": "Which choice best expresses the main point of the passage?",
+        "options": [
+          {
+            "t": "New evidence of trees' cooling effects has prompted debate over treating them as climate infrastructure rather than mere decoration.",
+            "correct": true
+          },
+          {
+            "t": "Street trees have always been funded as climate infrastructure in most cities.",
+            "trap": "contradicts the historical framing"
+          },
+          {
+            "t": "Air conditioning use has increased in cities with more street trees.",
+            "trap": "opposite of the reported effect"
+          },
+          {
+            "t": "All officials have agreed to reclassify trees as infrastructure immediately.",
+            "trap": "not stated; ignores the disagreement described"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence presents the concrete data motivating the reclassification debate."
+      },
+      "explanation": null,
+      "words": [
+        "demonstrate",
+        "component",
+        "argue"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Seismologists once believed that most earthquake aftershocks occur within days of the main shock and then taper off quickly.",
+          "A statistical analysis of a decade of data appears to demonstrate that a small but significant fraction of aftershocks strike more than a year later.",
+          "These delayed aftershocks often occur along fault segments that experienced only minor stress changes initially.",
+          "The pattern seems to imply that seismic hazard models focused only on short-term aftershock windows may understate long-term risk.",
+          "Some seismic monitoring agencies have already begun extending their aftershock advisories from weeks to months."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "All earthquake aftershocks occur within the first week and pose no long-term risk.",
+            "trap": "opposite of the passage's finding"
+          },
+          {
+            "t": "Delayed aftershocks occurring over a year later suggest current hazard models may underestimate long-term seismic risk.",
+            "correct": true
+          },
+          {
+            "t": "Seismic monitoring agencies have shortened their aftershock advisories based on new data.",
+            "trap": "contradicts the stated response"
+          },
+          {
+            "t": "Fault segments with major stress changes are more likely to produce delayed aftershocks.",
+            "trap": "reverses the detail about minor stress changes"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the implication that hazard models may understate long-term risk."
+      },
+      "explanation": null,
+      "words": [
+        "demonstrate",
+        "significant",
+        "imply"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Astronomers analyzing light from a distant exoplanet's atmosphere expected to detect only common gases such as hydrogen and helium.",
+          "Spectral data instead revealed a substantial concentration of dimethyl sulfide, a compound that on Earth is produced almost exclusively by living organisms.",
+          "The research team was careful to note that unknown chemical processes might also generate the molecule under conditions unlike anything on Earth.",
+          "Nevertheless, the finding has renewed interest in the planet as a target for future biosignature searches.",
+          "Follow-up observations with more sensitive instruments are already being planned to confirm the detection."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Astronomers confirmed the presence of life on the exoplanet beyond any doubt.",
+            "trap": "overstates the passage's cautious tone"
+          },
+          {
+            "t": "The spectral data matched exactly what astronomers had originally expected to find.",
+            "trap": "opposite of the surprising result described"
+          },
+          {
+            "t": "A compound usually linked to life was detected on an exoplanet, prompting cautious interest in further biosignature study.",
+            "correct": true
+          },
+          {
+            "t": "Follow-up observations have already ruled out further investigation of the planet.",
+            "trap": "contradicts the stated plan for follow-up"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence introduces the surprising detection that motivates the rest of the passage."
+      },
+      "explanation": null,
+      "words": [
+        "substantial",
+        "nevertheless"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Entomologists studying bee colonies near cell towers have debated whether electromagnetic fields disrupt navigation.",
+          "A controlled experiment placed hives at varying distances from a transmitter and tracked foraging bees using tiny radar tags.",
+          "Bees nearest the tower took, on average, only slightly longer routes home than bees farther away, a difference the researchers considered negligible.",
+          "The data therefore do not support the popular claim that cell towers meaningfully disorient foraging bees.",
+          "The team emphasized that a much stronger correlation exists between colony collapse and factors such as pesticide exposure and habitat loss."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Cell towers cause severe disorientation in foraging bees, worse than pesticide exposure.",
+            "trap": "contradicts the study's conclusion"
+          },
+          {
+            "t": "Radar tags are too imprecise to measure any difference in bee foraging routes.",
+            "trap": "not stated; the tags did detect a small difference"
+          },
+          {
+            "t": "Pesticide exposure has been ruled out as a factor in colony collapse.",
+            "trap": "opposite of what the passage suggests"
+          },
+          {
+            "t": "An experiment found no meaningful evidence that cell towers disorient bees, pointing instead to other causes of colony decline.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the researchers' conclusion directly based on the data."
+      },
+      "explanation": null,
+      "words": [
+        "therefore",
+        "correlation"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Chemists long assumed that most plastic waste in oceans would take centuries to break down into smaller fragments.",
+          "Recent fieldwork, however, has identified marine bacteria capable of metabolizing certain plastic polymers within months under warm conditions.",
+          "The bacteria appear to secrete enzymes that gradually break chemical bonds in the plastic, releasing compounds the microbes can absorb as food.",
+          "Researchers caution that the process still generates microplastic fragments as an intermediate step, which may pose their own ecological risks.",
+          "Even so, the discovery has spurred interest in engineering more efficient versions of these enzymes for waste treatment."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Marine bacteria have been found to break down some plastics far faster than expected, though the process still produces risky byproducts.",
+            "correct": true
+          },
+          {
+            "t": "Plastic waste in oceans has been shown to be harmless once bacteria begin breaking it down.",
+            "trap": "contradicts the caution about microplastic risk"
+          },
+          {
+            "t": "Researchers have engineered bacteria specifically to eliminate all ocean plastic.",
+            "trap": "not stated; overstates current progress"
+          },
+          {
+            "t": "Scientists confirmed that plastic in oceans takes centuries to degrade under any condition.",
+            "trap": "opposite of the new finding"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence introduces the key finding that bacteria break down plastic much faster than assumed."
+      },
+      "explanation": null,
+      "words": [
+        "however",
+        "gradually"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Volcanologists monitoring a long-dormant volcano detected an unusual pattern of small earthquakes clustered several kilometers below the summit.",
+          "Such deep, low-frequency tremors are typically associated with the slow movement of molten rock through underground channels.",
+          "Gas sensors near the crater also recorded sulfur dioxide emissions gradually increasing over several months.",
+          "Taken together, the observations imply that magma may be migrating toward the surface, though an eruption is not considered imminent.",
+          "Local authorities have nevertheless updated evacuation plans as a precaution."
+        ],
+        "question": "What is the central idea of the passage?",
+        "options": [
+          {
+            "t": "An eruption is expected within days based on the seismic data described.",
+            "trap": "contradicts the passage's explicit statement"
+          },
+          {
+            "t": "Combined seismic and gas data suggest magma movement beneath the volcano, prompting precautionary planning despite no imminent eruption.",
+            "correct": true
+          },
+          {
+            "t": "Sulfur dioxide emissions have decreased steadily at the volcano in recent months.",
+            "trap": "opposite of the reported trend"
+          },
+          {
+            "t": "Local authorities have dismissed the earthquake data as insignificant.",
+            "trap": "not stated; contradicts the precautionary response"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence synthesizes the seismic and gas evidence into the passage's central implication."
+      },
+      "explanation": null,
+      "words": [
+        "typically",
+        "gradually",
+        "imply"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Neuroscientists studying memory formation have generally focused on the hippocampus as the brain's primary storage site.",
+          "A recent imaging study, however, found that certain memories appear to be encoded simultaneously in the prefrontal cortex, well before the hippocampus consolidates them.",
+          "Mice with temporarily disabled prefrontal circuits still formed memories but showed impaired long-term recall weeks later.",
+          "The researchers infer that the prefrontal cortex may support memory durability rather than acting as a mere backup storage site.",
+          "If replicated in humans, the finding could alter treatment approaches for certain memory disorders."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The hippocampus has no role whatsoever in memory formation.",
+            "trap": "contradicts established premise the passage builds on"
+          },
+          {
+            "t": "Disabling the prefrontal cortex has no effect on long-term memory recall in mice.",
+            "trap": "opposite of the experimental result"
+          },
+          {
+            "t": "New evidence suggests the prefrontal cortex plays an active, durability-related role in memory formation alongside the hippocampus.",
+            "correct": true
+          },
+          {
+            "t": "The study proves conclusively that human memory disorders are caused by prefrontal damage.",
+            "trap": "overstates the passage's cautious conditional claim"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the researchers' key inference about the prefrontal cortex's role."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "infer"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Materials scientists have spent years trying to develop a battery that charges as quickly as a gas tank fills.",
+          "A new electrode design using a porous ceramic structure appears to facilitate ion movement fast enough to reach eighty percent charge in under five minutes.",
+          "Laboratory tests also indicate that the design withstood over two thousand charge cycles without significant capacity loss.",
+          "Skeptics note that manufacturing the ceramic structure at scale remains far more expensive than producing conventional battery components.",
+          "Whether the technology reaches consumer vehicles will likely depend on whether production costs can be substantially reduced."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "The new ceramic electrode design has already been ruled out due to poor performance in testing.",
+            "trap": "contradicts the reported test results"
+          },
+          {
+            "t": "Manufacturing costs for the new design are lower than for conventional batteries.",
+            "trap": "opposite of what skeptics note"
+          },
+          {
+            "t": "Batteries using this design lose most of their capacity after only a few charge cycles.",
+            "trap": "contradicts the stated durability finding"
+          },
+          {
+            "t": "A promising fast-charging battery design faces cost barriers that will determine its practical adoption.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence introduces the cost concern that frames the passage's cautious conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "facilitate",
+        "indicate",
+        "substantially"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ecologists studying wolf reintroduction in a national park initially predicted only modest effects on elk populations.",
+          "Over the following two decades, however, elk behavior shifted substantially: herds avoided open valleys where wolves could easily hunt them.",
+          "This behavioral change allowed willow and aspen saplings in those valleys to grow undisturbed for the first time in generations.",
+          "The recovering vegetation, in turn, helped sustain eroding riverbanks and created habitat for beavers, which had been nearly absent from the park.",
+          "Researchers now cite the episode as a clear example of a trophic cascade, in which a single predator reshapes an entire ecosystem."
+        ],
+        "question": "Which choice best captures the main idea of the passage?",
+        "options": [
+          {
+            "t": "Wolf reintroduction triggered a chain of ecological changes that reshaped vegetation, rivers, and other species in the park.",
+            "correct": true
+          },
+          {
+            "t": "Elk populations were unaffected by the reintroduction of wolves to the park.",
+            "trap": "opposite of the described behavioral shift"
+          },
+          {
+            "t": "Beavers had always been abundant in the park before wolves were reintroduced.",
+            "trap": "contradicts the detail about their near absence"
+          },
+          {
+            "t": "Ecologists predicted from the start that wolves would reshape the entire ecosystem.",
+            "trap": "contradicts the passage's opening, which describes modest initial predictions"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence names the overarching phenomenon that summarizes the chain of events described."
+      },
+      "explanation": null,
+      "words": [
+        "substantially",
+        "sustain"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Climate scientists have relied on tree rings and ice cores to reconstruct temperatures from centuries before thermometers existed.",
+          "A new technique instead examines trace elements preserved in cave formations, which grow in layers similar to tree rings but can span far longer timescales.",
+          "By analyzing one such formation, researchers were able to extend a regional temperature record back nearly two hundred thousand years.",
+          "The extended record reveals that certain warm periods lasted far longer than earlier, shorter records would imply.",
+          "This methodology may allow scientists to test climate models against a much wider range of past conditions."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "Tree rings and ice cores have been shown to be more accurate than any other climate record.",
+            "trap": "not stated; the passage introduces an alternative method"
+          },
+          {
+            "t": "A new cave-formation technique has extended temperature records much further into the past than earlier methods allowed.",
+            "correct": true
+          },
+          {
+            "t": "The new methodology proves that no warm periods occurred before modern thermometers existed.",
+            "trap": "opposite of the finding about long warm periods"
+          },
+          {
+            "t": "Researchers have abandoned climate model testing entirely in favor of cave records.",
+            "trap": "contradicts the stated future use of the technique"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the concrete result: extending the record nearly two hundred thousand years."
+      },
+      "explanation": null,
+      "words": [
+        "methodology",
+        "imply"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ornithologists tracking migratory songbirds have long wondered how the birds maintain a consistent flight direction across thousands of miles.",
+          "Experiments exposing birds to altered magnetic fields in a laboratory setting demonstrate that a protein in the retina may allow the birds to sense magnetic orientation visually.",
+          "When the protein was blocked, tagged birds released for outdoor trials showed markedly less consistent headings.",
+          "The researchers emphasize that this visual magnetic sense likely works alongside, rather than instead of, the birds' use of stars and landmarks.",
+          "Understanding the mechanism could help explain why artificial light and electromagnetic interference disrupt some migration routes."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Migratory birds rely solely on the stars for navigation, without any other cues.",
+            "trap": "contradicts the passage's claim that multiple cues work together"
+          },
+          {
+            "t": "Blocking the retinal protein had no measurable effect on the birds' flight headings.",
+            "trap": "opposite of the reported experimental result"
+          },
+          {
+            "t": "A retinal protein tied to magnetic sensing appears to help birds navigate, working alongside other known cues.",
+            "correct": true
+          },
+          {
+            "t": "Artificial light has been ruled out as a factor affecting bird migration.",
+            "trap": "not stated; the passage suggests the opposite possibility"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the experimental evidence linking the protein to consistent navigation."
+      },
+      "explanation": null,
+      "words": [
+        "demonstrate",
+        "markedly",
+        "mechanism"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Public health researchers have debated whether short bursts of intense exercise offer benefits comparable to longer, moderate workouts.",
+          "A multi-year study following thousands of adults found a strong correlation between even brief, vigorous activity, such as climbing stairs quickly for a minute, and a reduced risk of cardiovascular disease.",
+          "Participants who accumulated just a few minutes of such activity daily showed an outcome similar to those exercising for thirty minutes at a moderate pace.",
+          "The researchers caution that the study observed correlation, not proof that brief exercise directly causes the health benefit.",
+          "Even so, public health guidelines in several countries are now being revised to include brief vigorous activity as a recommended option."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Only long, moderate-intensity exercise sessions have any measurable health benefit.",
+            "trap": "contradicts the study's finding"
+          },
+          {
+            "t": "The study proved that brief exercise directly causes reduced cardiovascular disease risk.",
+            "trap": "overstates the passage's careful correlation-not-causation caveat"
+          },
+          {
+            "t": "Public health guidelines have rejected brief vigorous activity as a recommended option.",
+            "trap": "opposite of the stated guideline revision"
+          },
+          {
+            "t": "A study found that brief vigorous activity correlates with cardiovascular benefits similar to longer workouts, prompting guideline changes.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the specific comparative outcome supporting the passage's main claim."
+      },
+      "explanation": null,
+      "words": [
+        "correlation",
+        "outcome"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Astrophysicists modeling the early universe have typically assumed that the first galaxies formed slowly, over roughly a billion years.",
+          "Images from a new space telescope, however, have revealed surprisingly massive, well-formed galaxies dating to only a few hundred million years after the Big Bang.",
+          "The observation apparently challenges existing models of galaxy formation, which struggle to explain such rapid growth.",
+          "Some theorists propose that early galaxies may have merged and grown far faster than current simulations allow.",
+          "Others argue that the light from these distant galaxies may simply be harder to interpret than assumed, leaving the debate unresolved."
+        ],
+        "question": "Which choice best expresses the central idea of the passage?",
+        "options": [
+          {
+            "t": "Unexpectedly massive early galaxies observed by a new telescope have challenged existing models of how quickly galaxies form.",
+            "correct": true
+          },
+          {
+            "t": "All astrophysicists now agree on a single explanation for the newly observed galaxies.",
+            "trap": "contradicts the described ongoing debate"
+          },
+          {
+            "t": "The new telescope confirmed that galaxies take a full billion years to form, as long assumed.",
+            "trap": "opposite of the surprising observation"
+          },
+          {
+            "t": "The distant galaxies observed are too faint to be detected by current telescopes.",
+            "trap": "not stated; contradicts the premise that they were observed"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence states the challenge the observation poses to existing theory."
+      },
+      "explanation": null,
+      "words": [
+        "typically",
+        "apparently",
+        "argue"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Soil scientists have generally treated fungal networks in forests mainly as decomposers that break down dead organic matter.",
+          "Recent tracer studies, however, indicate that some fungal networks actively transport carbon and nutrients between trees of different species.",
+          "In one experiment, carbon labeled with a distinct isotope moved from a sunlit tree to a shaded neighbor within days via shared fungal connections.",
+          "This transfer appears to help weaker trees survive periods of low light; researchers suggest a cooperative rather than purely competitive forest dynamic is at work.",
+          "The finding has prompted foresters to reconsider how logging practices might disrupt these underground exchange networks."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Fungal networks in forests serve no function beyond decomposing dead matter.",
+            "trap": "contradicts the passage's new finding"
+          },
+          {
+            "t": "Fungal networks have been shown to transfer resources between trees, revealing a cooperative dynamic with implications for forestry practices.",
+            "correct": true
+          },
+          {
+            "t": "Carbon transfer between trees was found to take several years to occur.",
+            "trap": "contradicts the stated timeframe of days"
+          },
+          {
+            "t": "Logging practices have already been proven to have no effect on fungal networks.",
+            "trap": "not stated; the passage suggests the opposite concern"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence introduces the key new finding that reframes fungal networks' role."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "indicate",
+        "suggest"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Roboticists designing search-and-rescue drones have struggled to build machines that navigate rubble as nimbly as insects move through debris.",
+          "A team studying cockroach locomotion sought to identify the specific leg movements that let the insects squeeze through gaps narrower than their body height.",
+          "By analyzing high-speed footage, the researchers found that cockroaches compress their exoskeletons and splay their legs outward in a coordinated motion.",
+          "Engineers then set out to incorporate a similar compressible frame into a small robotic prototype, which successfully passed through gaps a third of its resting height.",
+          "The prototype remains too fragile for field deployment, but the design principle is now being tested in sturdier materials."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Cockroaches were found to be incapable of moving through gaps narrower than their body height.",
+            "trap": "opposite of the observed behavior"
+          },
+          {
+            "t": "The robotic prototype is already deployed in real search-and-rescue operations.",
+            "trap": "contradicts the stated fragility of the prototype"
+          },
+          {
+            "t": "A robotic prototype inspired by cockroach movement can squeeze through narrow gaps, though it still needs sturdier materials for real-world use.",
+            "correct": true
+          },
+          {
+            "t": "High-speed footage of cockroaches revealed no useful information for robot design.",
+            "trap": "contradicts the passage's central finding"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence describes the successful application of the insect-inspired design."
+      },
+      "explanation": null,
+      "words": [
+        "identify",
+        "incorporate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Immunologists have known for decades that fevers accompany many infections, but the precise biological purpose of fever has remained debated.",
+          "A study using zebrafish larvae found that raising body temperature by only a few degrees accelerated the movement of immune cells toward sites of infection.",
+          "The faster-moving immune cells appeared to clear bacterial infections considerably sooner than in larvae kept at normal temperature.",
+          "The researchers conclude that fever functions, at least in part, as an active defense mechanism rather than a mere side effect of infection.",
+          "This interpretation has renewed discussion about whether reducing mild fevers with medication might, in some cases, slow recovery."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "Fever was found to have no measurable effect on immune cell movement.",
+            "trap": "opposite of the study's finding"
+          },
+          {
+            "t": "Medication that reduces fever has been proven to speed recovery from infection.",
+            "trap": "contradicts the passage's cautious suggestion of the opposite"
+          },
+          {
+            "t": "Immunologists have reached full agreement on the purpose of fever for decades.",
+            "trap": "contradicts the passage's opening about ongoing debate"
+          },
+          {
+            "t": "Fever has been shown in zebrafish to actively speed immune response, suggesting it functions as a defense rather than a side effect.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the researchers' conclusion about fever's function."
+      },
+      "explanation": null,
+      "words": [
+        "considerably",
+        "conclude",
+        "interpretation"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Chemists developing biodegradable packaging have generally faced a tradeoff between durability and how quickly a material breaks down.",
+          "A new plant-based polymer appears to resolve this tension by remaining sturdy at room temperature while decomposing rapidly once exposed to soil microbes.",
+          "Laboratory tests indicate the polymer retained full strength for over a year in typical storage conditions.",
+          "Once buried, however, the same material broke down into harmless compounds within roughly twelve weeks.",
+          "Manufacturers are now evaluating whether the polymer can be produced cheaply enough to replace conventional plastic packaging at scale."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The new polymer is durable during storage yet decomposes quickly once buried, though its cost-effectiveness at scale remains uncertain.",
+            "correct": true
+          },
+          {
+            "t": "The new polymer decomposes within days regardless of storage conditions.",
+            "trap": "contradicts the year-long storage durability described"
+          },
+          {
+            "t": "Manufacturers have already ruled out using the polymer in packaging.",
+            "trap": "opposite of the passage's forward-looking evaluation"
+          },
+          {
+            "t": "All biodegradable materials break down at the same rate as conventional plastic.",
+            "trap": "not stated; overgeneralizes"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence gives the specific decomposition timeframe once buried, the key contrast in the passage."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "indicate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Oceanographers mapping deep-sea trenches have typically relied on sonar to estimate depth and shape.",
+          "A newly deployed autonomous submersible instead used laser-based mapping to construct a far more detailed three-dimensional model of a trench floor.",
+          "The model revealed narrow fissures and overhangs that sonar surveys had consistently missed.",
+          "Notably, several of the newly mapped fissures showed signs of chemical activity consistent with previously undiscovered hydrothermal vents.",
+          "Follow-up expeditions are now being planned to sample the vent water directly."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Sonar surveys have always provided more detail than laser-based mapping in deep-sea trenches.",
+            "trap": "opposite of the passage's comparison"
+          },
+          {
+            "t": "A submersible's laser mapping revealed previously hidden trench features, including possible new hydrothermal vents.",
+            "correct": true
+          },
+          {
+            "t": "The newly mapped fissures showed no signs of any chemical or geological activity.",
+            "trap": "contradicts the detail about hydrothermal vent signs"
+          },
+          {
+            "t": "Follow-up expeditions have already confirmed there are no hydrothermal vents in the trench.",
+            "trap": "contradicts the stated plan, which is still pending"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence introduces the notable discovery of possible hydrothermal vents from the new mapping."
+      },
+      "explanation": null,
+      "words": [
+        "typically",
+        "notably"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Geneticists studying long-lived tortoise species have wondered why the animals rarely develop cancer despite living well over a hundred years.",
+          "A comparative genome analysis identified an unusually high number of duplicate copies of genes responsible for detecting and repairing damaged DNA.",
+          "In laboratory tests, tortoise cells exposed to radiation repaired genetic damage at rates notably higher than similarly sized mammal cells.",
+          "Researchers infer that this genetic redundancy may allow tortoises to suppress tumor growth far more effectively over their long lifespans.",
+          "The team hopes that studying this repair mechanism could eventually inform new approaches to cancer prevention in other species."
+        ],
+        "question": "Which choice best states the central idea of the passage?",
+        "options": [
+          {
+            "t": "Tortoise cells were found to repair genetic damage more slowly than mammal cells.",
+            "trap": "opposite of the reported test results"
+          },
+          {
+            "t": "Researchers have already developed a cancer treatment based on tortoise genetics.",
+            "trap": "overstates the passage's stated hope for future research"
+          },
+          {
+            "t": "Duplicate DNA-repair genes may explain tortoises' resistance to cancer, offering a possible direction for future cancer research.",
+            "correct": true
+          },
+          {
+            "t": "Tortoises were found to have fewer copies of DNA-repair genes than other animals.",
+            "trap": "contradicts the passage's key genetic finding"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence presents the key genetic finding that anchors the passage's explanation."
+      },
+      "explanation": null,
+      "words": [
+        "notably",
+        "infer",
+        "mechanism"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Atmospheric scientists have debated how much wildfire smoke contributes to cloud formation far from the fires themselves.",
+          "Satellite data collected after a series of large wildfires revealed a marked increase in cloud density over regions hundreds of miles downwind.",
+          "Researchers set out to determine why tiny particles in the smoke acted as surfaces around which water droplets could condense more easily.",
+          "The resulting clouds, however, produced less rainfall than typical clouds of similar size, likely because the water was spread across more, smaller droplets.",
+          "Researchers suggest wildfire smoke can alter regional weather patterns in ways that extend well beyond simply reducing air quality."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Wildfire smoke was found to have no effect on cloud formation in downwind regions.",
+            "trap": "opposite of the satellite data described"
+          },
+          {
+            "t": "The clouds formed from wildfire smoke produced heavier rainfall than typical clouds.",
+            "trap": "contradicts the passage's specific finding"
+          },
+          {
+            "t": "Scientists agree wildfire smoke affects only local air quality and nothing else.",
+            "trap": "contradicts the passage's broader conclusion"
+          },
+          {
+            "t": "Wildfire smoke particles can increase distant cloud formation while reducing rainfall, showing a broader impact on regional weather.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence draws the passage's overall conclusion about wildfire smoke's broader weather effects."
+      },
+      "explanation": null,
+      "words": [
+        "determine",
+        "suggest"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Engineers designing offshore wind turbines have faced persistent problems with barnacles and algae accumulating on underwater support structures.",
+          "A coating derived from shark skin's microscopic surface pattern was tested to determine whether it could reduce this buildup without toxic chemicals.",
+          "Structures treated with the coating accumulated substantially less marine growth over an eighteen-month trial than untreated structures nearby.",
+          "The coating also appeared to reduce drag on the structures, which engineers say could modestly improve turbine efficiency in strong currents.",
+          "Wider adoption will likely depend on whether the coating remains effective after years of exposure to storms and shifting sediment."
+        ],
+        "question": "Which choice best expresses the main point of the passage?",
+        "options": [
+          {
+            "t": "A shark-skin-inspired coating reduced marine buildup and drag on turbine structures, though its long-term durability is still uncertain.",
+            "correct": true
+          },
+          {
+            "t": "The coating was found to increase marine growth on treated structures.",
+            "trap": "opposite of the trial results"
+          },
+          {
+            "t": "Engineers have confirmed the coating remains effective after decades of storm exposure.",
+            "trap": "contradicts the passage's stated uncertainty"
+          },
+          {
+            "t": "Barnacle buildup on turbine structures has never been a significant engineering problem.",
+            "trap": "contradicts the passage's opening premise"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the specific trial result supporting the coating's effectiveness."
+      },
+      "explanation": null,
+      "words": [
+        "determine",
+        "substantially"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Paleontologists examining fossilized dinosaur eggs have typically assumed most species incubated their nests much like modern reptiles, with minimal parental attention.",
+          "A newly analyzed nesting site, however, contains eggs arranged in tight, deliberate spirals alongside adult skeletal remains positioned directly atop the nest.",
+          "The arrangement closely resembles brooding postures seen in modern birds, which use body heat to incubate eggs.",
+          "Chemical tests of the eggshells further indicate incubation temperatures consistent with active parental warming rather than passive environmental heat.",
+          "Together, the evidence seems to imply that some dinosaur species may have practiced far more active parental care than previously believed."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "The eggshell analysis showed incubation temperatures consistent only with passive environmental heat.",
+            "trap": "contradicts the passage's specific finding"
+          },
+          {
+            "t": "Fossil evidence suggests some dinosaurs actively brooded their nests in a manner similar to modern birds.",
+            "correct": true
+          },
+          {
+            "t": "All dinosaur species have been proven to have used identical nesting behaviors.",
+            "trap": "overgeneralizes; passage says 'some' species"
+          },
+          {
+            "t": "Paleontologists have always assumed dinosaurs practiced active parental brooding.",
+            "trap": "contradicts the passage's opening premise"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence draws together the fossil and chemical evidence into the passage's overall conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "typically",
+        "indicate",
+        "imply"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Hydrologists studying groundwater depletion in arid regions have generally focused on measuring how quickly aquifers are being pumped dry.",
+          "A recent satellite-based analysis instead sought to determine how much of that lost groundwater could realistically be replenished through natural rainfall alone.",
+          "The analysis found that, in several major aquifers, current extraction rates exceed natural replenishment by a factor of ten or more.",
+          "At that pace, researchers estimate some aquifers could become effectively unusable within just a few decades.",
+          "The findings have prompted calls for stricter regulation of agricultural water use in the affected regions."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Natural rainfall has been shown to replenish aquifers faster than extraction removes water.",
+            "trap": "opposite of the study's finding"
+          },
+          {
+            "t": "Researchers found that current extraction rates pose no long-term risk to aquifers.",
+            "trap": "contradicts the passage's central warning"
+          },
+          {
+            "t": "Groundwater extraction in several regions vastly outpaces natural replenishment, threatening aquifers within decades and prompting calls for regulation.",
+            "correct": true
+          },
+          {
+            "t": "Stricter water regulations have already eliminated the depletion problem described.",
+            "trap": "not stated; regulation is only being called for"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the key quantitative finding about extraction outpacing replenishment."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "determine"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Materials researchers studying spider silk have long tried to replicate its unusual combination of strength and elasticity in synthetic fibers.",
+          "A team recently sequenced the genes responsible for silk protein production and inserted them into bacteria to mass-produce the raw protein.",
+          "Fibers spun from the bacterial protein matched natural silk's tensile strength but remained noticeably less stretchy under stress.",
+          "The researchers suggest that the natural spinning process inside a spider's silk gland, not just the protein itself, makes a significant contribution to the fiber's elasticity.",
+          "Future work will focus on replicating that spinning process mechanically rather than further modifying the protein's genetic sequence."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "The bacterial silk fibers were found to be both stronger and more elastic than natural spider silk.",
+            "trap": "contradicts the passage's specific comparison"
+          },
+          {
+            "t": "Researchers have abandoned efforts to replicate spider silk synthetically.",
+            "trap": "opposite of the described future work"
+          },
+          {
+            "t": "The genetic sequence of silk proteins has been shown to have no effect on fiber strength.",
+            "trap": "contradicts the matched tensile strength finding"
+          },
+          {
+            "t": "Bacterially produced silk protein matched natural silk's strength but lacked its elasticity, suggesting the spinning process itself matters as much as the protein.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the researchers' key insight about what drives the fiber's elasticity."
+      },
+      "explanation": null,
+      "words": [
+        "suggest",
+        "significant"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Toxicologists studying microplastic exposure in humans have primarily examined how particles enter the body through food and water.",
+          "A new study instead measured airborne microplastic particles inside homes and offices, finding concentrations considerably higher than outdoor air in the same buildings.",
+          "The researchers identify synthetic carpet fibers and degrading furniture foam as the leading sources of the indoor particles.",
+          "The researchers caution that health effects of inhaling these particles remain largely unstudied compared to ingestion-based exposure.",
+          "Even so, the findings have led some public health experts to recommend improved indoor ventilation as a precaution."
+        ],
+        "question": "Which choice best captures the main idea of the passage?",
+        "options": [
+          {
+            "t": "Indoor air was found to contain higher microplastic concentrations than outdoor air, prompting ventilation recommendations despite limited health data.",
+            "correct": true
+          },
+          {
+            "t": "Outdoor air was found to contain more microplastic particles than indoor air in the same buildings.",
+            "trap": "opposite of the study's finding"
+          },
+          {
+            "t": "The health effects of inhaling microplastics are already fully understood and confirmed as harmless.",
+            "trap": "contradicts the passage's stated caution about unstudied effects"
+          },
+          {
+            "t": "Carpet fibers and furniture foam were ruled out as sources of indoor microplastics.",
+            "trap": "contradicts the passage's specific identification of these sources"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence introduces the key comparative finding between indoor and outdoor air."
+      },
+      "explanation": null,
+      "words": [
+        "primarily",
+        "considerably",
+        "identify"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Agricultural scientists have generally bred drought-resistant crops by selecting for deeper root systems that reach lower groundwater.",
+          "A research group instead focused on a gene that controls how tightly a plant's leaf pores close during dry periods, aiming to reduce water loss directly.",
+          "Modified wheat plants carrying the altered gene retained substantially more soil moisture than unmodified plants under identical drought conditions.",
+          "Crop yields for the modified plants also declined less sharply during a simulated drought than yields for standard varieties.",
+          "Researchers caution that field trials across diverse climates are still needed before the approach can be considered a reliable alternative to root-based breeding."
+        ],
+        "question": "What is the central idea of the passage?",
+        "options": [
+          {
+            "t": "Modified wheat plants lost water faster than unmodified plants during the simulated drought.",
+            "trap": "opposite of the reported result"
+          },
+          {
+            "t": "A gene-based approach to reducing leaf water loss showed drought benefits in trials, though more field testing is needed before wider adoption.",
+            "correct": true
+          },
+          {
+            "t": "Researchers have confirmed the gene-based approach as a fully validated alternative to root-based breeding.",
+            "trap": "contradicts the passage's stated need for further trials"
+          },
+          {
+            "t": "Root-based breeding has been proven ineffective and is no longer used by agricultural scientists.",
+            "trap": "not stated; passage only contrasts approaches"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the specific experimental result supporting the gene-based approach."
+      },
+      "explanation": null,
+      "words": [
+        "generally",
+        "substantially"
+      ]
+    }
+  ]
+}

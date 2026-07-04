@@ -1,0 +1,754 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "electorate",
+        "def": "All the people in a country or area entitled to vote in an election.",
+        "pos": "noun",
+        "ex": "Before the vote, campaign staff mailed reminders to every registered member of the {word}."
+      },
+      "explanation": null,
+      "words": [
+        "electorate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "democracy",
+        "def": "A system of government in which citizens vote to elect their leaders.",
+        "pos": "noun",
+        "ex": "The nation's transition to {word} began with its first open, multi-party election."
+      },
+      "explanation": null,
+      "words": [
+        "democracy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "republic",
+        "def": "A state in which power is held by elected representatives rather than a monarch.",
+        "pos": "noun",
+        "ex": "After the revolution, the former kingdom declared itself a {word} with an elected president."
+      },
+      "explanation": null,
+      "words": [
+        "republic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "monarchy",
+        "def": "A form of government headed by a king or queen.",
+        "pos": "noun",
+        "ex": "Tourists lined the streets to watch the coronation that marked a new era for the {word}."
+      },
+      "explanation": null,
+      "words": [
+        "monarchy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "autocracy",
+        "def": "A system of government in which one person holds absolute power.",
+        "pos": "noun",
+        "ex": "Critics warned that concentrating every decision in one leader's hands was sliding toward {word}."
+      },
+      "explanation": null,
+      "words": [
+        "autocracy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "oligarchy",
+        "def": "A system of government controlled by a small group of powerful people.",
+        "pos": "noun",
+        "ex": "A handful of wealthy families quietly ran the city council, turning local politics into an {word}."
+      },
+      "explanation": null,
+      "words": [
+        "oligarchy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "totalitarian",
+        "def": "Relating to a government that demands complete control over public and private life.",
+        "pos": "adjective",
+        "ex": "Under the {word} regime, even private letters were opened and read by state censors."
+      },
+      "explanation": null,
+      "words": [
+        "totalitarian"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "liberty",
+        "def": "The state of being free from oppressive restrictions on behavior or beliefs.",
+        "pos": "noun",
+        "ex": "The settlers risked the ocean crossing in search of religious {word}."
+      },
+      "explanation": null,
+      "words": [
+        "liberty"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "freedom",
+        "def": "The power to act, speak, or think without unnecessary restraint.",
+        "pos": "noun",
+        "ex": "After years in prison, he described his first breath of {word} as overwhelming."
+      },
+      "explanation": null,
+      "words": [
+        "freedom"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "autonomy",
+        "def": "The right or condition of self-governance or independence.",
+        "pos": "noun",
+        "ex": "The island province negotiated greater {word} over its own tax and education policies."
+      },
+      "explanation": null,
+      "words": [
+        "autonomy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "abate",
+        "def": "To become less strong or intense.",
+        "pos": "verb",
+        "ex": "By midnight the storm began to {word}, and the wind finally dropped to a breeze."
+      },
+      "explanation": null,
+      "words": [
+        "abate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "ambivalent",
+        "def": "Having mixed or contradictory feelings about something.",
+        "pos": "adjective",
+        "ex": "She felt oddly {word} about the promotion, proud of the offer yet dreading the longer hours."
+      },
+      "explanation": null,
+      "words": [
+        "ambivalent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "abscond",
+        "def": "To leave suddenly and secretly, often to avoid punishment.",
+        "pos": "verb",
+        "ex": "The treasurer was accused of trying to {word} with company funds before the audit began."
+      },
+      "explanation": null,
+      "words": [
+        "abscond"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "equivocal",
+        "def": "Open to more than one interpretation; ambiguous.",
+        "pos": "adjective",
+        "ex": "His {word} answer left reporters unsure whether he was announcing his resignation or not."
+      },
+      "explanation": null,
+      "words": [
+        "equivocal"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "meticulous",
+        "def": "Showing great, careful attention to detail.",
+        "pos": "adjective",
+        "ex": "The surgeon's {word} preparation meant every instrument was checked twice before the operation."
+      },
+      "explanation": null,
+      "words": [
+        "meticulous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "abridge",
+        "def": "To shorten a piece of writing while keeping its main content.",
+        "pos": "verb",
+        "ex": "The publisher decided to {word} the six-hundred-page memoir for readers with less time."
+      },
+      "explanation": null,
+      "words": [
+        "abridge"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "pragmatic",
+        "def": "Dealing with things in a practical way rather than an idealistic one.",
+        "pos": "adjective",
+        "ex": "Rather than debate theory for hours, the new manager took a {word} approach and just fixed the schedule."
+      },
+      "explanation": null,
+      "words": [
+        "pragmatic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "abstain",
+        "def": "To choose not to do or have something, especially by self-restraint.",
+        "pos": "verb",
+        "ex": "Two senators chose to {word} rather than vote for or against the controversial bill."
+      },
+      "explanation": null,
+      "words": [
+        "abstain"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "accolade",
+        "def": "An award or expression of praise for an achievement.",
+        "pos": "noun",
+        "ex": "Winning the national science prize was the greatest {word} of her young career."
+      },
+      "explanation": null,
+      "words": [
+        "accolade"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "undermine",
+        "def": "To weaken or damage something gradually.",
+        "pos": "verb",
+        "ex": "Constant leaks to the press began to {word} the committee's authority."
+      },
+      "explanation": null,
+      "words": [
+        "undermine"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "scrutinize",
+        "def": "To examine or inspect closely and critically.",
+        "pos": "verb",
+        "ex": "Auditors were sent in to {word} every invoice the department had filed that year."
+      },
+      "explanation": null,
+      "words": [
+        "scrutinize"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "acquiesce",
+        "def": "To accept something reluctantly but without protest.",
+        "pos": "verb",
+        "ex": "Worn down by the argument, he finally chose to {word} to his sister's demands."
+      },
+      "explanation": null,
+      "words": [
+        "acquiesce"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "mitigate",
+        "def": "To make something less severe or harmful.",
+        "pos": "verb",
+        "ex": "Planting trees along the riverbank can {word} the damage caused by future flooding."
+      },
+      "explanation": null,
+      "words": [
+        "mitigate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "acrimony",
+        "def": "Bitterness or harshness in speech or manner.",
+        "pos": "noun",
+        "ex": "The custody hearing dissolved into such {word} that the judge called a recess."
+      },
+      "explanation": null,
+      "words": [
+        "acrimony"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "arbitrary",
+        "def": "Based on random choice or whim, not on reason.",
+        "pos": "adjective",
+        "ex": "Employees complained that the new dress code felt {word}, with no clear rule behind it."
+      },
+      "explanation": null,
+      "words": [
+        "arbitrary"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "adroit",
+        "def": "Clever and skillful, especially in using the hands or mind.",
+        "pos": "adjective",
+        "ex": "The negotiator's {word} handling of the dispute ended the strike within a single afternoon."
+      },
+      "explanation": null,
+      "words": [
+        "adroit"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "adulation",
+        "def": "Excessive or extreme admiration or praise.",
+        "pos": "noun",
+        "ex": "The rookie player seemed uneasy with the {word} of fans who mobbed him after the game."
+      },
+      "explanation": null,
+      "words": [
+        "adulation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "nuanced",
+        "def": "Marked by subtle distinctions or shades of meaning.",
+        "pos": "adjective",
+        "ex": "Her essay offered a {word} view of the policy, avoiding easy praise or blame."
+      },
+      "explanation": null,
+      "words": [
+        "nuanced"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "aesthetic",
+        "def": "Concerned with beauty or the appreciation of beauty.",
+        "pos": "adjective",
+        "ex": "The architect cared as much about the building's {word} appeal as its structural cost."
+      },
+      "explanation": null,
+      "words": [
+        "aesthetic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "tenuous",
+        "def": "Very weak, thin, or flimsy; lacking substance.",
+        "pos": "adjective",
+        "ex": "The prosecution's case rested on a {word} link between the suspect and the missing documents."
+      },
+      "explanation": null,
+      "words": [
+        "tenuous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "candid",
+        "def": "Frank and open in speech or expression.",
+        "pos": "adjective",
+        "ex": "In a rare {word} interview, the director admitted the film's ending had originally been different."
+      },
+      "explanation": null,
+      "words": [
+        "candid"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "affable",
+        "def": "Friendly, pleasant, and easy to talk to.",
+        "pos": "adjective",
+        "ex": "The new coach's {word} manner put even the nervous freshmen at ease."
+      },
+      "explanation": null,
+      "words": [
+        "affable"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "affluent",
+        "def": "Having a great deal of money or wealth.",
+        "pos": "adjective",
+        "ex": "The charity built its clinic in a neighborhood far from the city's {word} suburbs."
+      },
+      "explanation": null,
+      "words": [
+        "affluent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "forthright",
+        "def": "Direct and straightforward in speech or manner.",
+        "pos": "adjective",
+        "ex": "Her {word} response to the accusation left no room for further speculation."
+      },
+      "explanation": null,
+      "words": [
+        "forthright"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "aggregate",
+        "def": "A total formed by combining several separate elements.",
+        "pos": "noun",
+        "ex": "The final grade is an {word} of the quiz scores, essays, and the midterm exam."
+      },
+      "explanation": null,
+      "words": [
+        "aggregate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "alacrity",
+        "def": "Brisk, eager readiness or willingness.",
+        "pos": "noun",
+        "ex": "When asked to help move the piano, the volunteers agreed with surprising {word}."
+      },
+      "explanation": null,
+      "words": [
+        "alacrity"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "allocate",
+        "def": "To distribute resources or duties for a particular purpose.",
+        "pos": "verb",
+        "ex": "The city council voted to {word} additional funds to repair the collapsing bridge."
+      },
+      "explanation": null,
+      "words": [
+        "allocate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "amass",
+        "def": "To gather together a large quantity of something over time.",
+        "pos": "verb",
+        "ex": "Over three decades the collector managed to {word} one of the largest coin collections in the state."
+      },
+      "explanation": null,
+      "words": [
+        "amass"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "amiable",
+        "def": "Having a friendly and pleasant manner.",
+        "pos": "adjective",
+        "ex": "Even after losing the match, the champion remained {word} and shook every opponent's hand."
+      },
+      "explanation": null,
+      "words": [
+        "amiable"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "amorphous",
+        "def": "Having no clear shape or fixed form.",
+        "pos": "adjective",
+        "ex": "The startup's org chart was still {word}, with job titles shifting almost weekly."
+      },
+      "explanation": null,
+      "words": [
+        "amorphous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "anachronism",
+        "def": "Something placed in the wrong time period, or something outdated.",
+        "pos": "noun",
+        "ex": "A wristwatch appearing in the film set in ancient Rome was an obvious {word}."
+      },
+      "explanation": null,
+      "words": [
+        "anachronism"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "analogous",
+        "def": "Similar in a way that allows a comparison to be made.",
+        "pos": "adjective",
+        "ex": "The professor explained blood circulation using a system {word} to a city's plumbing network."
+      },
+      "explanation": null,
+      "words": [
+        "analogous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "anarchy",
+        "def": "A state of disorder due to absence of authority or government.",
+        "pos": "noun",
+        "ex": "When the police force disbanded overnight, parts of the capital descended into {word}."
+      },
+      "explanation": null,
+      "words": [
+        "anarchy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "anecdote",
+        "def": "A short, amusing or interesting story about a real incident or person.",
+        "pos": "noun",
+        "ex": "The best man opened his toast with a childhood {word} about the groom losing his shoes."
+      },
+      "explanation": null,
+      "words": [
+        "anecdote"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "animosity",
+        "def": "Strong hostility or dislike.",
+        "pos": "noun",
+        "ex": "Years after the merger, {word} still lingered between the two former rival departments."
+      },
+      "explanation": null,
+      "words": [
+        "animosity"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "antagonist",
+        "def": "A person who actively opposes or is hostile to someone, often the main opponent in a story.",
+        "pos": "noun",
+        "ex": "Readers were surprised when the novel's {word} turned out to be more sympathetic than the hero."
+      },
+      "explanation": null,
+      "words": [
+        "antagonist"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "antipathy",
+        "def": "A deep-seated feeling of dislike or aversion.",
+        "pos": "noun",
+        "ex": "His {word} toward crowded parties kept him home on most weekend evenings."
+      },
+      "explanation": null,
+      "words": [
+        "antipathy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "antiquated",
+        "def": "Old-fashioned or outdated and no longer suitable for modern use.",
+        "pos": "adjective",
+        "ex": "The factory still relied on {word} machinery that broke down every other week."
+      },
+      "explanation": null,
+      "words": [
+        "antiquated"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "apathy",
+        "def": "Lack of interest, enthusiasm, or concern.",
+        "pos": "noun",
+        "ex": "Voter {word} was blamed for the record-low turnout in the local election."
+      },
+      "explanation": null,
+      "words": [
+        "apathy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "appease",
+        "def": "To calm or satisfy someone by giving in to their demands.",
+        "pos": "verb",
+        "ex": "The airline offered free upgrades to {word} passengers stranded by the canceled flight."
+      },
+      "explanation": null,
+      "words": [
+        "appease"
+      ]
+    }
+  ]
+}

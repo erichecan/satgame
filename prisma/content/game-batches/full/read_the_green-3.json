@@ -1,0 +1,1205 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Art historians have long treated the Dutch Golden Age still life as a genre of quiet negligible ambition, a mere display of technical skill in rendering fruit and glassware.",
+          "Recent scholarship, however, argues that these paintings encode a subtle moral discourse about wealth and mortality.",
+          "The wilting flower beside the ripe peach, in this reading, is not decorative but didactic, a reminder that abundance is fleeting.",
+          "Such symbolism would have been immediately legible to a seventeenth-century Dutch audience steeped in Calvinist teaching on vanity.",
+          "What looks like a simple bowl of fruit, then, may be a carefully staged sermon."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Dutch Golden Age painters lacked the technical skill valued by later art critics.",
+            "trap": "opposite of what's stated — the passage praises their skill"
+          },
+          {
+            "t": "Calvinist teaching banned the depiction of fruit and flowers in art.",
+            "trap": "not stated"
+          },
+          {
+            "t": "Modern audiences understand still-life symbolism better than seventeenth-century viewers did.",
+            "trap": "opposite — the passage says the original audience read it easily"
+          },
+          {
+            "t": "Still-life paintings once dismissed as merely decorative may actually convey a deliberate moral message.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence explains the specific symbolic reading (wilting flower vs. ripe peach) that supports the claim of hidden moral discourse."
+      },
+      "explanation": null,
+      "words": [
+        "negligible",
+        "discourse"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The philosopher Theodor Adorno was famously ambivalent about jazz, admiring its improvisatory energy while suspecting it of commercial conformity.",
+          "Critics have often dismissed this stance as an elitist's inability to appreciate popular music.",
+          "Yet Adorno's essays scrutinize the economic structures of the recording industry as closely as the music itself.",
+          "His discomfort, in other words, was less about the notes played than about who profited from them.",
+          "Read this way, his critique looks less like snobbery and more like an early warning about art under capitalism."
+        ],
+        "question": "What is the primary purpose of the passage?",
+        "options": [
+          {
+            "t": "To prove that Adorno was correct that jazz has no artistic merit.",
+            "trap": "too strong — passage doesn't endorse this"
+          },
+          {
+            "t": "To describe the history of the recording industry in the twentieth century.",
+            "trap": "not the main focus"
+          },
+          {
+            "t": "To reinterpret a philosopher's controversial criticism of jazz as an economic argument rather than mere snobbery.",
+            "correct": true
+          },
+          {
+            "t": "To argue that popular music criticism should ignore economic factors.",
+            "trap": "opposite of the passage's point"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the key evidence that Adorno's critique targeted industry structures, supporting the reinterpretation."
+      },
+      "explanation": null,
+      "words": [
+        "ambivalent",
+        "scrutinize"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Renaissance frescoes often relied on a visual syntax as codified as any written language, in which a lily signified purity and a skull signified mortality.",
+          "A viewer fluent in this pictorial diction could read an entire theological argument from a single panel.",
+          "Modern viewers, lacking this shared vocabulary, frequently miss such cues entirely.",
+          "Museum curators have responded by adding extensive wall text to translate these symbols for contemporary audiences.",
+          "Without this scaffolding, a masterpiece can look like mere decoration rather than the argument it was designed to be."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Museum curators have discouraged the use of wall text in galleries.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Renaissance artists rarely used symbols with fixed meanings.",
+            "trap": "opposite — the passage says meanings were codified"
+          },
+          {
+            "t": "Renaissance paintings used a shared symbolic language that contemporary viewers often need help decoding.",
+            "correct": true
+          },
+          {
+            "t": "Contemporary audiences are more skilled at reading symbolism than Renaissance viewers were.",
+            "trap": "opposite of the claim"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the practical response (wall text) to the gap in shared symbolic vocabulary described earlier."
+      },
+      "explanation": null,
+      "words": [
+        "syntax",
+        "diction"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "For decades, the mood of Edward Hopper's paintings was described almost exclusively in terms of urban loneliness.",
+          "A newer generation of critics resists this narrative, noting how often his canvases include a second figure just out of the central subject's line of sight, a detail earlier critics tended to overlook or deem insignificant.",
+          "This detail, they argue, suggests connection withheld rather than connection absent entirely.",
+          "The isolation, then, may be less a fact of the painted world than a mood the composition imposes on the viewer.",
+          "Hopper's genius, on this account, lies in making solitude feel structural rather than incidental."
+        ],
+        "question": "What function does the second sentence serve in the passage?",
+        "options": [
+          {
+            "t": "It summarizes the consensus view that has existed since Hopper's paintings were first exhibited.",
+            "trap": "it's the opposite; this sentence challenges consensus"
+          },
+          {
+            "t": "It provides biographical details about Hopper's personal life.",
+            "trap": "not stated"
+          },
+          {
+            "t": "It introduces a critical reinterpretation that complicates the traditional reading of Hopper's work.",
+            "correct": true
+          },
+          {
+            "t": "It refutes the idea that Hopper's paintings depict isolation at all.",
+            "trap": "too strong — passage still discusses isolation as a mood"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "The question asks about this exact sentence's function; it marks the pivot from old narrative to new critical reading."
+      },
+      "explanation": null,
+      "words": [
+        "mood",
+        "insignificant"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Allegory has fallen out of critical favor as a literary mode, often dismissed as heavy-handed compared to subtler symbolism.",
+          "Yet medieval readers prized allegory precisely for its directness, seeing didactic clarity as a virtue rather than a flaw.",
+          "A text like Piers Plowman uses its allegorical figures not to hide meaning but to organize it.",
+          "Judging medieval allegory by modern taste, then, risks mistaking a different aesthetic for a lesser one.",
+          "The genre rewards readers willing to meet it on its own terms."
+        ],
+        "question": "What is the main argument of the passage?",
+        "options": [
+          {
+            "t": "Piers Plowman is inferior to modern novels because of its use of symbolism.",
+            "trap": "not the argument; passage defends allegory"
+          },
+          {
+            "t": "Modern readers universally admire allegorical literature more than medieval readers did.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Medieval allegory should be evaluated according to the standards of its own era rather than by modern literary taste.",
+            "correct": true
+          },
+          {
+            "t": "Allegory is a literary mode invented in the twentieth century.",
+            "trap": "not stated, factually implausible in context"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence gives the historical evidence that medieval readers valued allegory's clarity, supporting the argument about differing standards."
+      },
+      "explanation": null,
+      "words": [
+        "allegory",
+        "didactic"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The sculptor Isamu Noguchi described his work as an attempt to make stone amorphous, softening its hardness into something closer to breath.",
+          "Critics initially found this ambition baffling, since stone by definition resists such fluidity.",
+          "Noguchi's polished granite forms, however, use curved surfaces and light to suggest movement the material itself cannot perform.",
+          "The illusion works because the eye, not the stone, supplies the sense of motion.",
+          "In this way, Noguchi's sculptures amass a quiet argument that form is as much a psychological event as a physical one."
+        ],
+        "question": "Which choice best describes the overall structure of the passage?",
+        "options": [
+          {
+            "t": "It compares Noguchi's sculptures unfavorably to those of his contemporaries.",
+            "trap": "not stated"
+          },
+          {
+            "t": "It argues that stone is an unsuitable material for expressing movement.",
+            "trap": "opposite — passage explains how it succeeds"
+          },
+          {
+            "t": "It presents a paradoxical artistic goal and then explains the technique that makes it achievable.",
+            "correct": true
+          },
+          {
+            "t": "It provides a chronological account of Noguchi's career.",
+            "trap": "not what the passage does"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence explains the actual technique (curved surfaces, light) that resolves the paradox introduced earlier."
+      },
+      "explanation": null,
+      "words": [
+        "amorphous",
+        "amass"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Opera has periodically been accused of bombastic excess, its plots melodramatic and its emotions oversized.",
+          "Defenders counter that this scale is the point: opera stages feelings too large for ordinary speech.",
+          "A single aria can hold a grief so copious that spoken dialogue would need pages to convey it.",
+          "What sounds overwrought in summary can feel exact in performance, when music supplies the proportion words alone cannot.",
+          "The genre's excess, then, may be less a flaw than its defining strength."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "Opera should reduce its reliance on music to focus more on dialogue.",
+            "trap": "opposite of the passage's implication"
+          },
+          {
+            "t": "What critics call opera's excess may actually be an effective way of expressing intense emotion.",
+            "correct": true
+          },
+          {
+            "t": "Audiences no longer find opera's plots melodramatic.",
+            "trap": "not stated"
+          },
+          {
+            "t": "Opera is a purely visual art form with little emotional content.",
+            "trap": "contradicts the whole passage"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the concrete comparison (aria vs. pages of dialogue) that supports the claim about opera's expressive efficiency."
+      },
+      "explanation": null,
+      "words": [
+        "bombastic",
+        "copious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The architectural theorist Reyner Banham praised the freeway interchange as a kind of accidental sculpture, an aesthetic ambivalent about its own utility.",
+          "Traffic engineers designed these structures purely for function, with no thought toward beauty.",
+          "Banham's eye, however, found in their sweeping curves a monumentality rivaling classical architecture.",
+          "His argument reframed infrastructure most people ignore as an object worthy of aesthetic attention.",
+          "Not everyone was convinced by such adulation for concrete ramps, but the provocation reshaped how architects discuss the built environment."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "A theorist argued that purely functional infrastructure can possess unintended aesthetic value.",
+            "correct": true
+          },
+          {
+            "t": "Traffic engineers deliberately designed freeway interchanges to resemble classical sculpture.",
+            "trap": "opposite — engineers designed for function only"
+          },
+          {
+            "t": "Banham's argument was universally accepted by architects.",
+            "trap": "too strong; passage says not everyone was convinced"
+          },
+          {
+            "t": "Classical architecture is aesthetically inferior to modern infrastructure.",
+            "trap": "not stated"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence directly states Banham's aesthetic claim about the freeway interchange's monumentality."
+      },
+      "explanation": null,
+      "words": [
+        "ambivalent",
+        "adulation"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ancient rhetoricians treated cogent argument as a craft, teachable through drills much like scales for a musician.",
+          "Modern composition classrooms often abandon this structured approach in favor of encouraging students to 'find their voice.'",
+          "Some scholars now argue this shift has left students able to express opinions but not to build a case.",
+          "Reviving classical exercises in logical arrangement, they claim, could restore a missing rigor and help students ascertain which claims truly hold up.",
+          "The debate ultimately concerns whether persuasion is an art of inspiration or of discipline."
+        ],
+        "question": "Which choice best states the main purpose of the passage?",
+        "options": [
+          {
+            "t": "To prove that ancient rhetoricians produced better writers than modern teachers do.",
+            "trap": "too strong; passage frames it as a debate"
+          },
+          {
+            "t": "To argue that music education should be modeled on rhetoric.",
+            "trap": "not stated"
+          },
+          {
+            "t": "To dismiss classical rhetorical training as outdated and irrelevant.",
+            "trap": "opposite of the scholars' argument presented"
+          },
+          {
+            "t": "To present a debate over whether teaching argumentative writing should emphasize discipline or personal voice.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence introduces the scholarly claim central to the debate the passage frames."
+      },
+      "explanation": null,
+      "words": [
+        "cogent",
+        "ascertain"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The painter Georgia O'Keeffe often resisted the connotation that her flower paintings were coded expressions of female sexuality.",
+          "She insisted, repeatedly and with some exasperation, that a flower was simply a flower rendered large enough to be seen.",
+          "Critics who ignored her candid statements imposed a Freudian reading she never sanctioned.",
+          "Her insistence forces a broader question about who gets to determine a work's meaning: the artist or the interpreter.",
+          "O'Keeffe's case remains a touchstone in debates over authorial intent."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "O'Keeffe agreed that her paintings were intentionally sexual in nature.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Critics have unanimously abandoned Freudian readings of O'Keeffe's work.",
+            "trap": "not stated; implies ongoing debate"
+          },
+          {
+            "t": "Flower paintings are inherently less significant than other genres of art.",
+            "trap": "not stated"
+          },
+          {
+            "t": "O'Keeffe's objections to a common interpretation of her work raise questions about who controls artistic meaning.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence articulates the broader interpretive question the anecdote is meant to illustrate."
+      },
+      "explanation": null,
+      "words": [
+        "connotation",
+        "candid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Baroque church ceilings often employed trompe l'oeil to create an illusion of infinite space opening into heaven.",
+          "The technique's audacity lay in its willingness to deceive the eye entirely, an ambitious feat of chicanery that erased the boundary between painted surface and architecture.",
+          "Worshippers standing below could not easily tell where plaster ended and painted sky began.",
+          "Some theologians praised this disorientation as spiritually appropriate, a taste of transcendence beyond ordinary perception.",
+          "Others, more dubious of the spectacle, worried that it distracted from prayer rather than deepening it."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "All theologians agreed that trompe l'oeil ceilings enhanced worship.",
+            "trap": "opposite; some worried about it"
+          },
+          {
+            "t": "An illusionistic painting technique in Baroque churches provoked disagreement about its spiritual value.",
+            "correct": true
+          },
+          {
+            "t": "Trompe l'oeil was invented specifically for use in churches.",
+            "trap": "not stated"
+          },
+          {
+            "t": "Worshippers could easily distinguish painted surfaces from real architecture.",
+            "trap": "opposite — passage says they could not"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence gives the specific theological defense that forms one side of the disagreement."
+      },
+      "explanation": null,
+      "words": [
+        "chicanery",
+        "dubious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Literary critics have debated whether the unreliable narrator is a modern invention or a technique as old as storytelling itself.",
+          "Some point to ancient epics in which a narrator's discourse subtly diverges from the events described.",
+          "Others insist that self-conscious unreliability requires a novelistic interiority unavailable before the eighteenth century.",
+          "The disagreement hinges less on evidence than on how narrowly one chooses to define the term.",
+          "Both camps concur, at least, that the device has grown more common and more deliberate over time."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "All critics agree that unreliable narration began in the eighteenth century.",
+            "trap": "opposite; passage says there is debate"
+          },
+          {
+            "t": "Scholars disagree about when the technique of the unreliable narrator first appeared in literature.",
+            "correct": true
+          },
+          {
+            "t": "Ancient epics never contain narrators whose accounts diverge from events.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "The unreliable narrator has become less common in contemporary fiction.",
+            "trap": "opposite of the final sentence"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence presents the opposing scholarly position, establishing the core disagreement the passage describes."
+      },
+      "explanation": null,
+      "words": [
+        "discourse",
+        "concur"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The Harlem Renaissance produced a body of work whose genre boundaries were often more fluid than literary histories later suggested.",
+          "Poets moved between blues lyrics, sermons, and formal verse within a single collection.",
+          "This eclectic range was sometimes read by contemporary critics as a lack of discipline.",
+          "Later scholars, more dispassionate about the era's own hierarchies, have reframed it instead as a deliberate refusal to be confined to a single tradition.",
+          "The movement's hybridity, in this light, looks like ambition rather than inconsistency."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Harlem Renaissance writers worked exclusively in a single literary genre.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "A stylistic range once criticized as undisciplined has been reinterpreted as an intentional artistic strategy.",
+            "correct": true
+          },
+          {
+            "t": "Contemporary critics uniformly praised the movement's stylistic range.",
+            "trap": "opposite; some criticized it"
+          },
+          {
+            "t": "Blues lyrics were considered more prestigious than formal verse during the movement.",
+            "trap": "not stated"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the later scholarly reframing that is the passage's main point."
+      },
+      "explanation": null,
+      "words": [
+        "eclectic",
+        "dispassionate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Art conservators once treated craquelure, the fine web of cracks on an aged painting's surface, as a flaw to be minimized wherever possible.",
+          "Contemporary conservation philosophy increasingly treats these cracks as part of the work's authentic history.",
+          "Removing them, some argue, would efface evidence of the painting's age and material life.",
+          "This shift reflects a broader, considerable change in how the field defines authenticity: not as pristine original condition but as honest visible history.",
+          "A painting's scars, on this view, are part of what it has to say."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Conservators today try harder than ever to erase all signs of a painting's age.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Conservators have changed their view of aging cracks in paintings from flaws to meaningful historical evidence.",
+            "correct": true
+          },
+          {
+            "t": "Craquelure was invented by conservators as a deliberate artistic technique.",
+            "trap": "not stated"
+          },
+          {
+            "t": "Authenticity in art conservation has always meant preserving pristine original condition.",
+            "trap": "opposite; the definition changed"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly explains the definitional shift in the concept of authenticity that is the passage's core claim."
+      },
+      "explanation": null,
+      "words": [
+        "efface",
+        "considerable"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The composer John Cage's 4'33\", in which a performer sits silently at a piano, is often dismissed as a negligible stunt rather than music.",
+          "Cage himself insisted the piece was not about silence but about the ambient sounds an audience usually tunes out.",
+          "A cough, a rustling program, distant traffic: these become the actual content of the performance.",
+          "The premise reframes listening itself as the compositional act, not merely its consequence.",
+          "Whether or not one concedes this is music, it permanently altered what audiences expected a concert hall to offer."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Cage's controversial piece redefined the concert experience by making ambient sound itself the content of the performance.",
+            "correct": true
+          },
+          {
+            "t": "Cage intended 4'33\" purely as a joke with no serious artistic purpose.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Audiences universally embraced 4'33\" as a masterpiece upon its premiere.",
+            "trap": "not stated; passage says it's often dismissed"
+          },
+          {
+            "t": "The piece eliminates all sound during its performance.",
+            "trap": "opposite — ambient sound is the point"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence articulates the conceptual reframing (listening as composition) that is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "negligible",
+        "concede"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Museum labels have traditionally offered a single authoritative narrative about a work's meaning.",
+          "Some curators now favor a more equivocal approach, presenting multiple interpretations without settling on one.",
+          "Visitor surveys suggest this openness increases engagement, prompting people to form their own readings rather than accept a verdict.",
+          "Critics of the trend worry it can leave visitors without enough context to interpret a work responsibly, a legitimate concern institutions continue to weigh.",
+          "Museums are still negotiating how much certainty a label owes its audience."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Visitor surveys show that ambiguity in museum labels decreases audience engagement.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "All curators have abandoned single-narrative museum labels.",
+            "trap": "too strong; passage says some favor this, not all"
+          },
+          {
+            "t": "Museum labels have never offered a single interpretation of a work.",
+            "trap": "opposite of the first sentence"
+          },
+          {
+            "t": "Museums are debating whether exhibition labels should offer a single interpretation or embrace multiple readings.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the survey evidence supporting the shift toward multiple interpretations."
+      },
+      "explanation": null,
+      "words": [
+        "equivocal",
+        "institution"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Philosophers of aesthetics have long debated whether beauty is an objective property of an object or purely a subjective response.",
+          "Kant attempted a middle path, arguing that aesthetic judgments feel universal even though they cannot be proven true or false.",
+          "This nuanced position satisfies neither strict objectivists nor strict subjectivists.",
+          "Yet it captures something familiar: we argue about taste with surprising alacrity, as if there were a right answer, even knowing there may not be.",
+          "The tension Kant identified remains unresolved in aesthetic theory today."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Kant proved conclusively that beauty is an entirely objective property.",
+            "trap": "too strong; passage says it can't be proven"
+          },
+          {
+            "t": "Kant proposed a compromise position on aesthetic judgment that remains an unresolved but recognizable tension.",
+            "correct": true
+          },
+          {
+            "t": "Modern philosophers have fully resolved the debate over the nature of beauty.",
+            "trap": "opposite of the final sentence"
+          },
+          {
+            "t": "Subjectivists and objectivists both fully embraced Kant's compromise.",
+            "trap": "opposite; it satisfies neither side"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains why Kant's nuanced position captures a familiar, recognizable experience despite being unresolved."
+      },
+      "explanation": null,
+      "words": [
+        "nuanced",
+        "alacrity"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Early film critics often treated montage as a mere technical device for compressing time.",
+          "Sergei Eisenstein argued instead that the juxtaposition of shots could itself generate meaning absent from either shot alone.",
+          "Two images edited together, he claimed, could produce an idea neither one contained separately, engendering a meaning that belonged to the cut itself.",
+          "This theory elevated editing from a practical necessity to an intellectual tool comparable to metaphor.",
+          "Contemporary film theory still draws on this insight when analyzing how meaning is constructed on screen."
+        ],
+        "question": "Which choice best describes the function of the third sentence in the passage?",
+        "options": [
+          {
+            "t": "It contradicts Eisenstein's argument about the purpose of montage.",
+            "trap": "opposite; it supports his argument"
+          },
+          {
+            "t": "It illustrates the specific mechanism behind Eisenstein's theory of meaning-generating juxtaposition.",
+            "correct": true
+          },
+          {
+            "t": "It summarizes the view that montage is merely a technical device.",
+            "trap": "opposite view already stated earlier"
+          },
+          {
+            "t": "It provides biographical information about Eisenstein's early career.",
+            "trap": "not stated"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "The question asks about this specific sentence, which concretely illustrates how juxtaposed images create new meaning."
+      },
+      "explanation": null,
+      "words": [
+        "metaphor",
+        "engender"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Postcolonial literary critics have scrutinized the canon of classic novels for its silences as much as its statements.",
+          "A single throwaway reference to a colonial plantation, they argue, can reveal an entire unexamined economic structure underpinning a story's comfortable world.",
+          "Reading for these absences requires an assiduous attention most casual readers never think to apply.",
+          "The method does not accuse authors of malice so much as reveal the assumptions of their era.",
+          "Such readings have reshaped how universities teach supposedly familiar texts."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Postcolonial critics accuse classic authors of deliberate malice toward colonized peoples.",
+            "trap": "opposite; passage says it's not about malice"
+          },
+          {
+            "t": "Universities have stopped teaching classic novels because of postcolonial criticism.",
+            "trap": "not stated"
+          },
+          {
+            "t": "A critical method reveals hidden colonial assumptions in classic literature by examining what texts leave unsaid.",
+            "correct": true
+          },
+          {
+            "t": "Classic novels contain no references to colonial economic structures.",
+            "trap": "opposite of what's stated"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence gives the concrete example of how a small textual detail reveals a larger hidden structure."
+      },
+      "explanation": null,
+      "words": [
+        "scrutinize",
+        "assiduous"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Public sculpture has always had to negotiate a strange dual audience: the commissioning institution and the passersby who never asked for it.",
+          "This tension can create conspicuous compromises, works that satisfy neither constituency fully.",
+          "A commission designed to please a city council may strike ordinary viewers as bland or overly cautious.",
+          "Occasionally, though, this friction produces something more interesting than a work created for a single audience alone.",
+          "The most enduring public sculptures often manage a candid ambiguity between the institutional and the popular."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Public sculpture always fails to satisfy either the institution or the public.",
+            "trap": "too strong; passage says occasionally it succeeds"
+          },
+          {
+            "t": "City councils have no influence over the design of public sculpture.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Public sculpture's need to satisfy two different audiences creates tension that can sometimes produce more compelling work.",
+            "correct": true
+          },
+          {
+            "t": "Ordinary viewers are never consulted about public sculpture and therefore ignore it entirely.",
+            "trap": "not stated"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence introduces the possibility that the tension can yield an interesting result, which is the passage's nuanced conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "conspicuous",
+        "candid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ballet's rigid vocabulary of positions might seem to leave little room for individual expression.",
+          "Yet the most acclaimed dancers are recognized precisely for the nuanced way they inhabit identical steps differently from their peers.",
+          "A tilt of the head or a fraction of a second's pause can transform a technically standard movement into something singular.",
+          "Choreographers often describe their job as less about inventing new steps than about revealing what a dancer's body can articulate within old ones.",
+          "The art, in other words, lives in the margins of a strict form."
+        ],
+        "question": "What is the central claim of the passage?",
+        "options": [
+          {
+            "t": "Ballet's rigid vocabulary leaves no room whatsoever for individual expression.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Ballet allows for meaningful individual expression even within a highly standardized technical vocabulary.",
+            "correct": true
+          },
+          {
+            "t": "Choreographers primarily focus on inventing entirely new steps for each dancer.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Acclaimed dancers are distinguished mainly by their ability to break from standard positions.",
+            "trap": "not stated; they work within standard positions"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the concrete example of subtle variation transforming a standard movement, supporting the central claim."
+      },
+      "explanation": null,
+      "words": [
+        "nuanced",
+        "articulate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Gothic cathedrals were built over generations, often outliving the architects who designed their earliest sections.",
+          "This slow chronological process meant that a single building might display several evolving styles within one structure.",
+          "A visitor walking from the oldest nave to the newest chapel effectively walks through centuries of shifting taste and institution.",
+          "Rather than a flaw, art historians now read this stylistic layering as a record of a community's changing aspirations.",
+          "The cathedral becomes, in this sense, a document as much as a building."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The stylistic inconsistency within Gothic cathedrals, once seen as accidental, is now valued as a historical record.",
+            "correct": true
+          },
+          {
+            "t": "Gothic cathedrals were always built to a single unified design from the outset.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Art historians consider stylistic layering in cathedrals to be a structural weakness.",
+            "trap": "opposite; they value it now"
+          },
+          {
+            "t": "Visitors cannot perceive any stylistic differences within a single cathedral.",
+            "trap": "opposite of what's stated"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence gives the reinterpretation by art historians that is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "chronological",
+        "institution"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Literary translation has often been treated as a secondary, derivative craft compared to original composition.",
+          "Yet translators must make thousands of interpretive choices absent from the source text, each shaping tone and diction anew.",
+          "A translated poem is arguably a fresh composition built from constraints an original author never faced.",
+          "This is why several translators of the same poem can produce strikingly different works from identical source material.",
+          "Recognizing translation's creative dimension has slowly begun to change how literary prizes are awarded."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Literary translation, often undervalued as unoriginal, actually involves substantial creative decision-making.",
+            "correct": true
+          },
+          {
+            "t": "Translators are never permitted to make interpretive choices when working from a source text.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Different translators of the same poem always produce nearly identical results.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Literary prizes have always fully recognized translation as a creative art.",
+            "trap": "opposite; recognition is described as recent and slow"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence gives the key evidence — the volume of interpretive choices — supporting the claim about translation's creativity."
+      },
+      "explanation": null,
+      "words": [
+        "derivative",
+        "diction"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "The genre of the personal essay has periodic booms and busts in critical esteem.",
+          "In some decades, critics praise its candor and intimacy; in others, they dismiss it as self-indulgent naval-gazing.",
+          "This cyclical reputation says less about the form itself than about shifting cultural comfort with personal disclosure.",
+          "When institutions value collective narratives, individual voice can seem suspect.",
+          "When they value individual experience, the same voice becomes celebrated as authentic."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "The personal essay's reputation rises and falls based on broader cultural attitudes toward individual disclosure, not the form's quality.",
+            "correct": true
+          },
+          {
+            "t": "The personal essay has steadily gained critical respect with no periods of decline.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Critics have always agreed that the personal essay is a self-indulgent genre.",
+            "trap": "opposite; opinions shift"
+          },
+          {
+            "t": "Cultural attitudes toward collective narratives have remained constant over time.",
+            "trap": "opposite of what's implied"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence directly states the passage's central claim that the genre's reputation reflects cultural shifts, not intrinsic merit."
+      },
+      "explanation": null,
+      "words": [
+        "periodic",
+        "cyclical",
+        "candor"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Street photography occupies an ambiguous ethical position, capturing real strangers who never consented to being part of an artwork.",
+          "Defenders argue that candid images of public life carry a documentary value unavailable to staged photography.",
+          "Critics counter that this value does not excuse turning a stranger's unguarded moment into someone else's aesthetic property.",
+          "Photographers have responded with varying practices, from blurring faces to seeking consent after the fact.",
+          "No single ethical standard has yet gained consensus across the field."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "All street photographers have agreed on a single ethical standard for their work.",
+            "trap": "opposite of the final sentence"
+          },
+          {
+            "t": "Critics believe that documentary value fully justifies photographing strangers without consent.",
+            "trap": "opposite of critics' actual view"
+          },
+          {
+            "t": "Staged photography offers the same documentary value as candid street photography.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Street photography raises an unresolved ethical debate about capturing strangers without their consent.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states directly that no ethical consensus exists, which is the passage's main point."
+      },
+      "explanation": null,
+      "words": [
+        "candid",
+        "consensus"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Folk music revivalists in the mid-twentieth century often framed themselves with apparent candor as preserving an endangered tradition.",
+          "Ethnomusicologists have since pointed out that this framing understates how much revivalists altered the songs they claimed only to protect.",
+          "Arrangements were smoothed, lyrics adjusted, and performance styles reshaped for concert stages far removed from their original settings.",
+          "The revival, in other words, did not simply preserve folk music but also introduced innovations that reshaped the tradition.",
+          "Calling the result an unadulterated artifact obscures this active, creative process, since audiences endemic to concert culture shaped its final form."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Folk music revivalists significantly transformed the traditions they claimed merely to preserve.",
+            "correct": true
+          },
+          {
+            "t": "Ethnomusicologists agree that revivalists preserved folk songs without any alteration.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Concert stages were the original settings for all folk music performances.",
+            "trap": "opposite; original settings were different"
+          },
+          {
+            "t": "The folk revival had no lasting effect on how folk music is performed today.",
+            "trap": "opposite of what's implied"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the concrete evidence of specific alterations that supports the claim about transformation."
+      },
+      "explanation": null,
+      "words": [
+        "candor",
+        "endemic"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Comic strips were long excluded from serious literary discourse, treated as juvenile ephemera unworthy of scholarly attention.",
+          "Scholars now analyze the medium's unique syntax, the interplay of image, gutter, and text that prose alone cannot replicate.",
+          "A single panel can compress narrative information that would require paragraphs in conventional fiction.",
+          "This economy of form, once mistaken for simplicity, is increasingly recognized as a sophisticated narrative technology.",
+          "Universities now regularly include graphic novels in literature curricula once reserved for prose alone."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Universities have always excluded comic strips from literature curricula.",
+            "trap": "opposite of the final sentence"
+          },
+          {
+            "t": "Comic strips compress narrative information less efficiently than prose fiction.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Scholars agree that comic strips remain a juvenile and unserious art form.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Comic strips, once dismissed as juvenile, are now recognized as a sophisticated narrative form with its own techniques.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the concrete example of narrative compression that supports the claim of sophistication."
+      },
+      "explanation": null,
+      "words": [
+        "discourse",
+        "syntax"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Architectural critics once viewed brutalist concrete buildings as an eyesore, their raw surfaces seen as an aesthetic to be endured rather than admired.",
+          "A growing preservation movement now argues these structures embody an honest relationship between material and function that later styles abandoned.",
+          "Advocates, dispassionate about earlier fashions, point to their durability and their refusal to disguise structural elements behind decorative facades.",
+          "Detractors still find the style cold, but even they increasingly concede its considerable historical significance.",
+          "Whole neighborhoods once slated for demolition are being reconsidered as architectural heritage."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Brutalist architecture, once widely disliked, is gaining recognition as historically and aesthetically significant.",
+            "correct": true
+          },
+          {
+            "t": "Brutalist buildings have always been universally admired since their construction.",
+            "trap": "opposite of the first sentence"
+          },
+          {
+            "t": "Preservationists argue that brutalist buildings disguise their structural elements behind decoration.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "All architectural critics continue to view brutalism purely as an eyesore.",
+            "trap": "opposite; even detractors concede significance"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence introduces the preservation movement's argument, which is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "dispassionate",
+        "considerable"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Art critics reviewing early abstract expressionism frequently reached for the vocabulary of chaos, describing canvases as random splatters without organizing logic.",
+          "Jackson Pollock rejected this characterization, insisting his dripped compositions followed a deliberate, if unconventional, process of control.",
+          "Later analysis of his working method, captured on film, revealed consistent, repeated gestures rather than arbitrary accident.",
+          "The paintings that once seemed most spontaneous turn out to rest on considerable, diligent discipline.",
+          "This tension between apparent chaos and underlying order remains central to how the movement is now discussed."
+        ],
+        "question": "What is the main idea of the passage?",
+        "options": [
+          {
+            "t": "Pollock agreed with critics that his paintings were the result of random accident.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Film analysis of Pollock's technique found no consistent pattern in his gestures.",
+            "trap": "opposite of what's stated"
+          },
+          {
+            "t": "Critics today describe abstract expressionism as entirely free of any tension between order and spontaneity.",
+            "trap": "opposite of the final sentence"
+          },
+          {
+            "t": "Abstract expressionist paintings that appeared chaotic actually resulted from a disciplined and deliberate process.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the direct evidence (filmed analysis) that supports the claim about underlying discipline."
+      },
+      "explanation": null,
+      "words": [
+        "arbitrary",
+        "diligent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Cultural critics have debated whether nostalgia in contemporary cinema represents genuine engagement with the past or a commensurate substitute for creative risk.",
+          "Studios often justify remakes and sequels by citing audience demand for familiar stories, a demographic appetite they claim to merely be serving.",
+          "Some scholars argue this demand is itself manufactured by relentless marketing rather than organic taste.",
+          "Others see nostalgia as a legitimate emotional response to rapid cultural change, not merely a marketing strategy.",
+          "The debate ultimately concerns whether an audience's longing for the familiar is authentic or engineered."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Critics disagree about whether nostalgia in film reflects authentic audience desire or manufactured demand.",
+            "correct": true
+          },
+          {
+            "t": "All scholars agree that nostalgia in cinema is purely a marketing invention.",
+            "trap": "opposite; passage frames it as debated"
+          },
+          {
+            "t": "Studios have stopped producing remakes and sequels in response to critical backlash.",
+            "trap": "not stated"
+          },
+          {
+            "t": "Audience demand for familiar stories has been proven to be entirely organic and unmanufactured.",
+            "trap": "opposite; this is disputed, not proven"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence introduces one side of the scholarly debate — that demand is manufactured — central to the passage's tension."
+      },
+      "explanation": null,
+      "words": [
+        "commensurate",
+        "demographic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,954 @@
+{
+  "items": [
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The bridge had been closed for repairs",
+        "after": "commuters relied on the ferry instead.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 1,
+        "why": "Two independent clauses with no coordinating conjunction — a comma alone creates a splice, so a semicolon is required."
+      },
+      "explanation": "Two independent clauses with no coordinating conjunction — a comma alone creates a splice, so a semicolon is required.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Rain hammered the tin roof all night",
+        "after": "the crew finished pouring the foundation by dawn.",
+        "doors": [
+          ";",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "Both sides are complete sentences with no conjunction, so only a semicolon (or period) can join them correctly."
+      },
+      "explanation": "Both sides are complete sentences with no conjunction, so only a semicolon (or period) can join them correctly.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The committee reviewed three proposals",
+        "after": "and ultimately rejected all of them.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "The second clause shares the subject 'the committee' and is joined by 'and,' so only a comma before the coordinating conjunction is needed."
+      },
+      "explanation": "The second clause shares the subject 'the committee' and is joined by 'and,' so only a comma before the coordinating conjunction is needed.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "She packed her bags, grabbed her passport",
+        "after": "and checked the flight status twice.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "This is a simple series of three actions by one subject; items in a list are separated by commas, not semicolons."
+      },
+      "explanation": "This is a simple series of three actions by one subject; items in a list are separated by commas, not semicolons.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "He needed one thing to finish the sculpture",
+        "after": "a blowtorch.",
+        "doors": [
+          ":",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "A colon introduces a specific item after a complete independent clause that sets up an explanation."
+      },
+      "explanation": "A colon introduces a specific item after a complete independent clause that sets up an explanation.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The recipe calls for a surprising ingredient",
+        "after": "smoked paprika.",
+        "doors": [
+          ",",
+          ":"
+        ],
+        "correctIndex": 1,
+        "why": "The first clause is complete and the second element explains or specifies it, which calls for a colon, not a comma."
+      },
+      "explanation": "The first clause is complete and the second element explains or specifies it, which calls for a colon, not a comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The negotiations dragged on for months",
+        "after": "in the end, both sides walked away with less than they wanted.",
+        "doors": [
+          ";",
+          ":"
+        ],
+        "correctIndex": 0,
+        "why": "Two independent clauses without a conjunction require a semicolon; a colon would wrongly imply the second clause defines or lists something from the first."
+      },
+      "explanation": "Two independent clauses without a conjunction require a semicolon; a colon would wrongly imply the second clause defines or lists something from the first.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Marcus refused to apologize",
+        "after": "a decision his sister never forgave.",
+        "doors": [
+          "—",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "The second part is a noun phrase renaming the whole preceding idea, an interruption best set off by a dash, not joined as an independent clause."
+      },
+      "explanation": "The second part is a noun phrase renaming the whole preceding idea, an interruption best set off by a dash, not joined as an independent clause.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The museum's newest wing",
+        "after": "a glass atrium flooded with light was the visitors' favorite spot.",
+        "doors": [
+          ",",
+          "—"
+        ],
+        "correctIndex": 1,
+        "why": "The phrase 'a glass atrium flooded with light' interrupts and renames 'the museum's newest wing,' which calls for a dash to set off the appositive cleanly."
+      },
+      "explanation": "The phrase 'a glass atrium flooded with light' interrupts and renames 'the museum's newest wing,' which calls for a dash to set off the appositive cleanly.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The lecture ended abruptly",
+        "after": "the fire alarm had gone off.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 1,
+        "why": "Two complete, closely related sentences with no conjunction must be joined by a semicolon, not a comma."
+      },
+      "explanation": "Two complete, closely related sentences with no conjunction must be joined by a semicolon, not a comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Every witness in the courtroom that afternoon",
+        "after": "gave a different account of what happened.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "The long introductory subject phrase is set off from the verb with a comma; a semicolon would incorrectly split a single independent clause in two."
+      },
+      "explanation": "The long introductory subject phrase is set off from the verb with a comma; a semicolon would incorrectly split a single independent clause in two.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Although the trail was steep",
+        "after": "the hikers reached the summit before noon.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "An introductory subordinate clause ('Although...') is set off from the main clause with a comma, not a semicolon."
+      },
+      "explanation": "An introductory subordinate clause ('Although...') is set off from the main clause with a comma, not a semicolon.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The city council approved the budget",
+        "after": "residents still worried about rising taxes.",
+        "doors": [
+          ",",
+          ", but"
+        ],
+        "correctIndex": 1,
+        "why": "The two independent clauses contrast, so a comma alone would splice them; 'but' plus a comma correctly joins them with a coordinating conjunction."
+      },
+      "explanation": "The two independent clauses contrast, so a comma alone would splice them; 'but' plus a comma correctly joins them with a coordinating conjunction.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "My grandmother's advice was simple",
+        "after": "save more than you spend.",
+        "doors": [
+          ":",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "The clause after the colon explains or restates the 'advice' mentioned before it, which is a classic colon use."
+      },
+      "explanation": "The clause after the colon explains or restates the 'advice' mentioned before it, which is a classic colon use.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The scientist double-checked her data",
+        "after": "she still doubted the surprising result.",
+        "doors": [
+          ",",
+          ", yet"
+        ],
+        "correctIndex": 1,
+        "why": "The clauses are in contrast, so a bare comma would splice them; adding the conjunction 'yet' after the comma fixes it."
+      },
+      "explanation": "The clauses are in contrast, so a bare comma would splice them; adding the conjunction 'yet' after the comma fixes it.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The startup's only asset was its founder's reputation",
+        "after": "everything else had to be built from scratch.",
+        "doors": [
+          ";",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "Two independent clauses with no conjunction require a semicolon rather than a comma."
+      },
+      "explanation": "Two independent clauses with no conjunction require a semicolon rather than a comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Critics praised the film's cinematography",
+        "after": "but criticized its uneven pacing.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "'But' joins two clauses sharing the subject 'critics'; a coordinating conjunction preceded by a comma is the correct link, not a semicolon."
+      },
+      "explanation": "'But' joins two clauses sharing the subject 'critics'; a coordinating conjunction preceded by a comma is the correct link, not a semicolon.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The professor's office hours were listed online",
+        "after": "few students ever showed up.",
+        "doors": [
+          ",",
+          "; however,"
+        ],
+        "correctIndex": 1,
+        "why": "The clauses contrast and are both independent, so a semicolon plus the transition phrase is needed, not a plain comma."
+      },
+      "explanation": "The clauses contrast and are both independent, so a semicolon plus the transition phrase is needed, not a plain comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The volcano had been dormant for centuries",
+        "after": "geologists still monitored it closely.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 1,
+        "why": "Both clauses are complete sentences without a coordinating conjunction, so a semicolon is required to avoid a splice."
+      },
+      "explanation": "Both clauses are complete sentences without a coordinating conjunction, so a semicolon is required to avoid a splice.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "Three ingredients define the dish",
+        "after": "garlic, ginger, and chili oil.",
+        "doors": [
+          ",",
+          ":"
+        ],
+        "correctIndex": 1,
+        "why": "The independent clause sets up a list that follows, which is exactly what a colon is for."
+      },
+      "explanation": "The independent clause sets up a list that follows, which is exactly what a colon is for.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The intern arrived early",
+        "after": "organized the files, and brewed a pot of coffee.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 0,
+        "why": "This is a series of three actions sharing one subject; items in a simple list are separated by commas, not semicolons."
+      },
+      "explanation": "This is a series of three actions sharing one subject; items in a simple list are separated by commas, not semicolons.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The hurricane made landfall at midnight",
+        "after": "by sunrise, entire neighborhoods were underwater.",
+        "doors": [
+          ";",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "Two independent clauses joined with no conjunction need a semicolon rather than a comma."
+      },
+      "explanation": "Two independent clauses joined with no conjunction need a semicolon rather than a comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "One rule mattered above all others in the workshop",
+        "after": "never leave a tool where someone could trip on it.",
+        "doors": [
+          ",",
+          ":"
+        ],
+        "correctIndex": 1,
+        "why": "The second part explains exactly what the 'one rule' is, which is the defining function of a colon."
+      },
+      "explanation": "The second part explains exactly what the 'one rule' is, which is the defining function of a colon.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The orchestra rehearsed for six hours",
+        "after": "the conductor was still unsatisfied with the final movement.",
+        "doors": [
+          ",",
+          ";"
+        ],
+        "correctIndex": 1,
+        "why": "Two independent clauses with no conjunction between them must be separated by a semicolon, not just a comma."
+      },
+      "explanation": "Two independent clauses with no conjunction between them must be separated by a semicolon, not just a comma.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The applicant's resume was flawless",
+        "after": "her interview answers felt rehearsed and hollow.",
+        "doors": [
+          "; however,",
+          ","
+        ],
+        "correctIndex": 0,
+        "why": "The contrast between two complete sentences requires a semicolon before the transition, since a comma alone would splice the clauses."
+      },
+      "explanation": "The contrast between two complete sentences requires a semicolon before the transition, since a comma alone would splice the clauses.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The forecast promised clear skies all afternoon",
+        "after": ", the storm rolled in within the hour.",
+        "doors": [
+          "Meanwhile",
+          "However"
+        ],
+        "correctIndex": 1,
+        "why": "The storm directly contradicts the forecast, so the contrast connector 'however' is required, not a simple time word."
+      },
+      "explanation": "The storm directly contradicts the forecast, so the contrast connector 'however' is required, not a simple time word.",
+      "words": [
+        "however"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The factory cut its workforce by half",
+        "after": ", output fell to its lowest level in a decade.",
+        "doors": [
+          "Consequently",
+          "Meanwhile"
+        ],
+        "correctIndex": 0,
+        "why": "The drop in output is a direct result of the layoffs, so the result connector 'consequently' fits, not a simple time word."
+      },
+      "explanation": "The drop in output is a direct result of the layoffs, so the result connector 'consequently' fits, not a simple time word.",
+      "words": [
+        "consequently"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The new tax law simplified filing for most workers",
+        "after": ", it created a costly loophole for large corporations",
+        "doors": [
+          "Moreover",
+          "Instead"
+        ],
+        "correctIndex": 0,
+        "why": "The second clause adds a further, related point about the same law, which calls for the addition connector 'moreover.'"
+      },
+      "explanation": "The second clause adds a further, related point about the same law, which calls for the addition connector 'moreover.'",
+      "words": [
+        "moreover"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The senator voted against her own party's bill",
+        "after": ", she lost her seat on the finance committee.",
+        "doors": [
+          "Consequently",
+          "Additionally"
+        ],
+        "correctIndex": 0,
+        "why": "Losing the committee seat is a direct consequence of the vote, so the result connector fits better than a plain addition word."
+      },
+      "explanation": "Losing the committee seat is a direct consequence of the vote, so the result connector fits better than a plain addition word.",
+      "words": [
+        "consequently"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "Twin studies show that identity is shaped by environment as much as genetics",
+        "after": ", most researchers now reject purely hereditary explanations of behavior.",
+        "doors": [
+          "Therefore",
+          "Regardless"
+        ],
+        "correctIndex": 0,
+        "why": "The second clause states a conclusion drawn from the evidence in the first, which is exactly what 'therefore' signals."
+      },
+      "explanation": "The second clause states a conclusion drawn from the evidence in the first, which is exactly what 'therefore' signals.",
+      "words": [
+        "therefore"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The lion hunts in coordinated groups to bring down large prey",
+        "after": ", the solitary leopard relies on stealth and ambush.",
+        "doors": [
+          "Conversely",
+          "Likewise"
+        ],
+        "correctIndex": 0,
+        "why": "The leopard's solitary strategy is the reverse of the lion's group strategy, so the contrast connector 'conversely' is correct, not a comparison word."
+      },
+      "explanation": "The leopard's solitary strategy is the reverse of the lion's group strategy, so the contrast connector 'conversely' is correct, not a comparison word.",
+      "words": [
+        "conversely"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "Coral reefs support a quarter of all marine species",
+        "after": ", mangrove forests shelter countless young fish and shellfish along the coast.",
+        "doors": [
+          "Similarly",
+          "Conversely"
+        ],
+        "correctIndex": 0,
+        "why": "Both ecosystems perform a comparable protective role, so the comparison connector 'similarly' fits, not a contrast word."
+      },
+      "explanation": "Both ecosystems perform a comparable protective role, so the comparison connector 'similarly' fits, not a contrast word.",
+      "words": [
+        "similarly"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The startup burned through its funding within a year",
+        "after": ", it had failed to find a single paying customer.",
+        "doors": [
+          "Initially",
+          "Ultimately"
+        ],
+        "correctIndex": 1,
+        "why": "The clause describes the final outcome after a chain of events, which is the meaning of 'ultimately,' not a word about the beginning."
+      },
+      "explanation": "The clause describes the final outcome after a chain of events, which is the meaning of 'ultimately,' not a word about the beginning.",
+      "words": [
+        "ultimately"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The report cites several factors behind the decline in bee populations",
+        "after": ", pesticide exposure and habitat loss.",
+        "doors": [
+          "Notably",
+          "Regardless"
+        ],
+        "correctIndex": 0,
+        "why": "The phrase singles out specific examples worth highlighting, which is what 'notably' signals, not a word about disregarding something."
+      },
+      "explanation": "The phrase singles out specific examples worth highlighting, which is what 'notably' signals, not a word about disregarding something.",
+      "words": [
+        "notably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The renovation budget covered every room in the house",
+        "after": ", the kitchen and the master bathroom needed the most work.",
+        "doors": [
+          "Particularly",
+          "Otherwise"
+        ],
+        "correctIndex": 0,
+        "why": "The sentence singles out two specific rooms for special emphasis, matching 'particularly,' not a word implying an alternative scenario."
+      },
+      "explanation": "The sentence singles out two specific rooms for special emphasis, matching 'particularly,' not a word implying an alternative scenario.",
+      "words": [
+        "particularly"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The suspect left no fingerprints at the scene",
+        "after": ", the detectives assumed the crime had been carefully planned.",
+        "doors": [
+          "Regardless",
+          "Presumably"
+        ],
+        "correctIndex": 1,
+        "why": "The detectives' assumption is a supposition, not a certainty, which matches 'presumably' rather than a word meaning 'no matter what.'"
+      },
+      "explanation": "The detectives' assumption is a supposition, not a certainty, which matches 'presumably' rather than a word meaning 'no matter what.'",
+      "words": [
+        "presumably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The evidence for the new species is still incomplete",
+        "after": ", some paleontologists say the bone fragments are enough to justify a new classification.",
+        "doors": [
+          "Undoubtedly",
+          "Arguably"
+        ],
+        "correctIndex": 1,
+        "why": "The claim is presented as debatable rather than certain, matching 'arguably,' not a word implying no doubt at all."
+      },
+      "explanation": "The claim is presented as debatable rather than certain, matching 'arguably,' not a word implying no doubt at all.",
+      "words": [
+        "arguably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The company ignored repeated warnings about its aging equipment",
+        "after": ", a breakdown shut down the entire plant.",
+        "doors": [
+          "Occasionally",
+          "Inevitably"
+        ],
+        "correctIndex": 1,
+        "why": "The breakdown was bound to happen given the ignored warnings, which is the sense of 'inevitably,' not a word about infrequency."
+      },
+      "explanation": "The breakdown was bound to happen given the ignored warnings, which is the sense of 'inevitably,' not a word about infrequency.",
+      "words": [
+        "inevitably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The city's public transit system was praised for its efficiency",
+        "after": ", commuters still complained about overcrowded platforms during rush hour.",
+        "doors": [
+          "Additionally",
+          "However"
+        ],
+        "correctIndex": 1,
+        "why": "The complaint contrasts with the praise, so the contrast connector 'however' is needed rather than an addition word."
+      },
+      "explanation": "The complaint contrasts with the praise, so the contrast connector 'however' is needed rather than an addition word.",
+      "words": [
+        "however"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The drought had already devastated the region's wheat crop",
+        "after": ", the irrigation canals ran completely dry by midsummer.",
+        "doors": [
+          "Furthermore",
+          "Otherwise"
+        ],
+        "correctIndex": 0,
+        "why": "The second clause adds another consequence of the same drought, which fits the addition connector 'furthermore.'"
+      },
+      "explanation": "The second clause adds another consequence of the same drought, which fits the addition connector 'furthermore.'",
+      "words": [
+        "furthermore"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The professor's theory relied on a single, disputed data set",
+        "after": ", most of his colleagues remained skeptical of his conclusions.",
+        "doors": [
+          "Consequently",
+          "Meanwhile"
+        ],
+        "correctIndex": 0,
+        "why": "The skepticism follows logically from the weak evidence, so the result connector 'consequently' applies, not a time word."
+      },
+      "explanation": "The skepticism follows logically from the weak evidence, so the result connector 'consequently' applies, not a time word.",
+      "words": [
+        "consequently"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The two novels were written a century apart",
+        "after": ", both explore the isolation of life in a small fishing village.",
+        "doors": [
+          "Similarly",
+          "Instead"
+        ],
+        "correctIndex": 0,
+        "why": "Despite the time gap, the novels share a theme, which calls for the comparison connector 'similarly.'"
+      },
+      "explanation": "Despite the time gap, the novels share a theme, which calls for the comparison connector 'similarly.'",
+      "words": [
+        "similarly"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "Sales of the new phone exceeded every forecast",
+        "after": ", the company's stock barely moved after the announcement.",
+        "doors": [
+          "Similarly",
+          "However"
+        ],
+        "correctIndex": 1,
+        "why": "The flat stock price contrasts with the strong sales, requiring 'however' rather than a comparison word."
+      },
+      "explanation": "The flat stock price contrasts with the strong sales, requiring 'however' rather than a comparison word.",
+      "words": [
+        "however"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The negotiations collapsed after eighteen months of talks",
+        "after": ", both governments recalled their ambassadors.",
+        "doors": [
+          "Consequently",
+          "Presumably"
+        ],
+        "correctIndex": 0,
+        "why": "Recalling ambassadors is a direct result of the collapsed talks, matching the result connector 'consequently.'"
+      },
+      "explanation": "Recalling ambassadors is a direct result of the collapsed talks, matching the result connector 'consequently.'",
+      "words": [
+        "consequently"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The committee spent the entire meeting debating minor formatting details",
+        "after": ", they never discussed the budget shortfall at all.",
+        "doors": [
+          "Presumably",
+          "Notably"
+        ],
+        "correctIndex": 1,
+        "why": "The clause points out something worth noticing by its absence, which matches 'notably,' not a word about assumption."
+      },
+      "explanation": "The clause points out something worth noticing by its absence, which matches 'notably,' not a word about assumption.",
+      "words": [
+        "notably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The glacier had retreated visibly over the past decade",
+        "after": ", scientists expect it to disappear entirely within fifty years.",
+        "doors": [
+          "Initially",
+          "Ultimately"
+        ],
+        "correctIndex": 1,
+        "why": "The clause describes the final projected outcome of a long process, matching 'ultimately.'"
+      },
+      "explanation": "The clause describes the final projected outcome of a long process, matching 'ultimately.'",
+      "words": [
+        "ultimately"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The mural was removed for containing offensive imagery",
+        "after": ", some historians argue it should have been preserved for its documentary value.",
+        "doors": [
+          "Undoubtedly",
+          "Arguably"
+        ],
+        "correctIndex": 1,
+        "why": "The claim is framed as a matter of debate, not certainty, matching 'arguably.'"
+      },
+      "explanation": "The claim is framed as a matter of debate, not certainty, matching 'arguably.'",
+      "words": [
+        "arguably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The bridge was built with cost-saving shortcuts during construction",
+        "after": ", it collapsed under moderate flood conditions decades later.",
+        "doors": [
+          "Rarely",
+          "Inevitably"
+        ],
+        "correctIndex": 1,
+        "why": "Given the shortcuts, the collapse was bound to happen, matching 'inevitably,' not a word about frequency."
+      },
+      "explanation": "Given the shortcuts, the collapse was bound to happen, matching 'inevitably,' not a word about frequency.",
+      "words": [
+        "inevitably"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The lab's first three trials produced inconsistent results",
+        "after": ", the fourth trial confirmed the hypothesis clearly.",
+        "doors": [
+          "Similarly",
+          "However"
+        ],
+        "correctIndex": 1,
+        "why": "The fourth trial's clear result contrasts with the earlier inconsistency, requiring 'however.'"
+      },
+      "explanation": "The fourth trial's clear result contrasts with the earlier inconsistency, requiring 'however.'",
+      "words": [
+        "however"
+      ]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The valley's soil was rich enough for three harvests a year",
+        "after": ", farmers there rarely worried about crop rotation.",
+        "doors": [
+          "Consequently",
+          "Nevertheless"
+        ],
+        "correctIndex": 0,
+        "why": "Not worrying about rotation follows as a result of the rich soil, matching the result connector 'consequently,' not a contrast word."
+      },
+      "explanation": "Not worrying about rotation follows as a result of the rich soil, matching the result connector 'consequently,' not a contrast word.",
+      "words": [
+        "consequently"
+      ]
+    }
+  ]
+}

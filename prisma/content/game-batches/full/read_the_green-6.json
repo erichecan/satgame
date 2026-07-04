@@ -1,0 +1,1213 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Framers of the 1787 Constitution debated fiercely over how to check the ambitions of any single branch of government.",
+          "Some delegates were covetous of strong central authority, fearing that a weak union would collapse under factional pressure.",
+          "Others countered that concentrating power invited the very tyranny the Revolution had been fought to escape.",
+          "The eventual compromise divided power among three branches, each empowered to restrain the others' excesses.",
+          "This structure lent credence to the claim that the new government could resist both mob rule and monarchy alike."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "The framers agreed unanimously that a strong central government was the only acceptable outcome.",
+            "trap": "contradicts the passage's account of debate"
+          },
+          {
+            "t": "The three branches of government were created mainly to speed up lawmaking.",
+            "trap": "not stated; misrepresents the purpose"
+          },
+          {
+            "t": "The Constitution eliminated all distrust of government among the delegates.",
+            "trap": "too strong; overstates the passage's claim"
+          },
+          {
+            "t": "The framers designed a system of divided power as a practical response to fears of both weak government and tyranny.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly states the compromise structure that resolved the debate described earlier."
+      },
+      "explanation": null,
+      "words": [
+        "covetous",
+        "credence"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A pamphleteer arguing for independence in 1776 faced the challenge of persuading colonists still loyal to the Crown.",
+          "Rather than relying on abstract philosophy alone, the writer built credibility by citing specific grievances familiar to ordinary readers.",
+          "This strategy lent the argument a credence that purely theoretical appeals to natural rights might have lacked.",
+          "By grounding lofty ideals in everyday complaints, the pamphlet reached audiences skeptical of revolutionary rhetoric.",
+          "Its blend of principle and practical detail helped shift public opinion toward separation."
+        ],
+        "question": "The author includes the detail about citing 'specific grievances familiar to ordinary readers' primarily to",
+        "options": [
+          {
+            "t": "suggest that ordinary readers were incapable of understanding philosophical arguments.",
+            "trap": "not stated; overstates readers' limitations"
+          },
+          {
+            "t": "argue that grievances were more important than the ideal of independence itself.",
+            "trap": "reverses the passage's emphasis"
+          },
+          {
+            "t": "explain how the pamphleteer made an abstract argument more persuasive to a skeptical audience.",
+            "correct": true
+          },
+          {
+            "t": "show that the pamphleteer avoided any appeal to natural rights.",
+            "trap": "contradicts the passage, which says both were used"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence explains the effect of grounding the argument in familiar grievances: added credence."
+      },
+      "explanation": null,
+      "words": [
+        "credence",
+        "credibility"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Critics of a proposed bill of rights worried that listing specific liberties might imply that unlisted rights did not exist.",
+          "Supporters countered that without explicit protections, citizens would have no reliable defense against future overreach.",
+          "Neither side questioned the credibility of the other's intentions, but each doubted the other's judgment about consequences.",
+          "The resulting Ninth Amendment attempted to resolve the dispute through arbitration between the two camps, declaring that unenumerated rights were still retained by the people.",
+          "This compromise did not fully satisfy either camp, but it allowed ratification to proceed."
+        ],
+        "question": "Which choice best describes the function of the third sentence in the passage?",
+        "options": [
+          {
+            "t": "It reveals that supporters of the bill of rights doubted the framers' honesty.",
+            "trap": "not supported; passage says intentions were not questioned"
+          },
+          {
+            "t": "It introduces a new argument unrelated to the debate over the bill of rights.",
+            "trap": "misrepresents the sentence's role"
+          },
+          {
+            "t": "It clarifies that the disagreement was about likely outcomes rather than about the sincerity of either side.",
+            "correct": true
+          },
+          {
+            "t": "It states the final resolution reached through the Ninth Amendment.",
+            "trap": "confuses this sentence with the following one"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the compromise reached, which the third sentence sets up by framing the dispute as one of judgment."
+      },
+      "explanation": null,
+      "words": [
+        "credibility",
+        "arbitration"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A colonial governor once dismissed petitioners as driven by mere credulity, insisting their fears of taxation were exaggerated.",
+          "Yet the petitioners had assembled detailed records of new levies imposed without any local representation.",
+          "Far from naive belief, their objections rested on documented policy changes affecting merchants and farmers alike, a fact that lent credence to their cause.",
+          "The governor's dismissal, ironically, revealed his own failure to examine the evidence being presented.",
+          "Later assemblies would cite this exchange as proof that colonial concerns had been unfairly discounted."
+        ],
+        "question": "What would most weaken the argument presented in the passage?",
+        "options": [
+          {
+            "t": "A statement from the governor admitting he had not read the petition.",
+            "trap": "would strengthen, not weaken, the argument"
+          },
+          {
+            "t": "A record showing other colonies also protested taxation policies.",
+            "trap": "irrelevant to whether these specific petitioners were credible"
+          },
+          {
+            "t": "Evidence that the petitioners' records of new levies were fabricated or grossly inaccurate.",
+            "correct": true
+          },
+          {
+            "t": "A letter praising the governor's overall administration of the colony.",
+            "trap": "does not address the credibility of the petitioners' claims"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence is the key evidence establishing that the petitioners' claims were substantive rather than driven by credulity."
+      },
+      "explanation": null,
+      "words": [
+        "credulity",
+        "credence"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Debate over a national bank in the early republic reached a crescendo when Hamilton and Jefferson clashed publicly over its constitutionality.",
+          "Hamilton argued that implied powers granted Congress authority to charter such an institution.",
+          "Jefferson warned that this reasoning could augur almost unlimited federal expansion down the road.",
+          "Washington ultimately sided with Hamilton, signing the bank into law despite Jefferson's objections.",
+          "The dispute set an early precedent for how loosely the Constitution's implied powers would be interpreted."
+        ],
+        "question": "Which choice best states the main purpose of the passage?",
+        "options": [
+          {
+            "t": "To argue that Jefferson's warnings about federal overreach were ultimately proven correct.",
+            "trap": "not stated; passage does not evaluate later outcomes"
+          },
+          {
+            "t": "To explain why Washington refused to sign the bank into law.",
+            "trap": "contradicts the passage, which says he signed it"
+          },
+          {
+            "t": "To describe how a dispute over the national bank shaped early interpretation of federal power.",
+            "correct": true
+          },
+          {
+            "t": "To summarize the full financial structure of the national bank.",
+            "trap": "too narrow; ignores the constitutional debate"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the broader significance of the dispute for interpreting federal power."
+      },
+      "explanation": null,
+      "words": [
+        "crescendo",
+        "augur"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "After losing a hard-fought vote, one delegate to the constitutional convention appeared crestfallen, convinced the compromise doomed small states.",
+          "Yet within weeks he reversed his position, publicly endorsing the very plan he had opposed.",
+          "His shift illustrates how political defeat can prompt reassessment rather than lasting resentment.",
+          "Historians note that such reversals were common among framers, whose adroitness at compromise often surprised their constituents once the practical benefits became clear.",
+          "This willingness to adapt helped hold the fragile coalition of states together."
+        ],
+        "question": "The mention of the delegate's reversal primarily serves to",
+        "options": [
+          {
+            "t": "prove that the delegate never truly supported the small states he represented.",
+            "trap": "not supported by the passage"
+          },
+          {
+            "t": "suggest that the constitutional convention was dominated by dishonest politicians.",
+            "trap": "overstates and misreads the passage's tone"
+          },
+          {
+            "t": "illustrate a broader pattern of framers adapting their views once compromise proved workable.",
+            "correct": true
+          },
+          {
+            "t": "show that compromise plans were rejected by most delegates.",
+            "trap": "contradicts the passage's account"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence generalizes the individual example into the broader historical pattern the author is illustrating."
+      },
+      "explanation": null,
+      "words": [
+        "crestfallen",
+        "adroitness"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians assessing the ratification debates apply several criteria to judge which arguments proved most persuasive to state conventions.",
+          "One measure is how frequently a pamphlet was reprinted across multiple states.",
+          "Another is whether its arguments were directly cited in convention floor debates, a form of corroboration that later scholars find especially persuasive.",
+          "By these standards, The Federalist Papers rank among the most influential works of the era.",
+          "Their reach and citation frequency far exceeded that of most rival publications."
+        ],
+        "question": "Which choice best supports the claim that The Federalist Papers were highly influential?",
+        "options": [
+          {
+            "t": "Historians assessing the ratification debates apply several criteria to judge persuasiveness.",
+            "trap": "states the method, not the evidence of influence"
+          },
+          {
+            "t": "Their reach and citation frequency far exceeded that of most rival publications.",
+            "correct": true
+          },
+          {
+            "t": "One measure is how frequently a pamphlet was reprinted across multiple states.",
+            "trap": "describes a criterion, not a finding about this text"
+          },
+          {
+            "t": "Another is whether its arguments were directly cited in convention floor debates.",
+            "trap": "also a criterion, not the specific evidence"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence provides the concrete finding that satisfies the stated criteria, directly supporting the claim."
+      },
+      "explanation": null,
+      "words": [
+        "criteria",
+        "corroboration"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A judge found the defendant culpable in a landmark early republic fraud case involving forged land titles.",
+          "The ruling relied on witness testimony rather than the cumbersome paper trail investigators had assembled.",
+          "Legal scholars later argued that testimony alone was an unstable basis for such a serious verdict.",
+          "Subsequent reforms required documentary evidence in similar property disputes to prevent wrongful convictions.",
+          "The case is now cited as a turning point in the standards of proof required for fraud."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "A flawed early fraud verdict led to reforms requiring stronger documentary evidence in similar cases.",
+            "correct": true
+          },
+          {
+            "t": "The defendant was later proven innocent of all forgery charges.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "Cumbersome paperwork was the sole basis for the judge's ruling.",
+            "trap": "contradicts the passage, which says testimony was used instead"
+          },
+          {
+            "t": "Legal scholars praised the ruling as a model of sound judgment.",
+            "trap": "opposite of the scholars' actual criticism"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the reform that resulted, which is the passage's main point."
+      },
+      "explanation": null,
+      "words": [
+        "culpable",
+        "cumbersome"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A cynic among the founding generation might argue that talk of civic virtue merely masked self-interest.",
+          "Indeed, several delegates who praised republican sacrifice also lobbied hard for policies benefiting their own states.",
+          "Yet dismissing all such rhetoric as pure cynicism ignores cases where delegates voted against their material interests.",
+          "Several northern representatives, for instance, supported compromises that clearly disadvantaged their local industries.",
+          "Such choices complicate any simple narrative of self-interested politics."
+        ],
+        "question": "Which choice best describes the function of the fourth sentence?",
+        "options": [
+          {
+            "t": "It proves that all northern representatives opposed compromise legislation.",
+            "trap": "misreads the sentence; it says they supported compromise"
+          },
+          {
+            "t": "It restates the cynic's argument introduced in the first sentence.",
+            "trap": "contradicts the sentence, which challenges that argument"
+          },
+          {
+            "t": "It summarizes the entire passage's main idea in a single example.",
+            "trap": "too broad a role for a single supporting example"
+          },
+          {
+            "t": "It provides a counterexample that complicates the claim that founders acted only from self-interest.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence is the specific evidence used to complicate the cynical view described earlier."
+      },
+      "explanation": null,
+      "words": [
+        "cynic",
+        "cynicism"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Some abolitionist writers chose to abnegate personal comfort entirely, living an abstemious life to fund their pamphleteering campaigns.",
+          "Their sacrifice was intended to lend moral weight to arguments that slaveholding elites might otherwise dismiss.",
+          "Critics accused them of theatrical self-denial designed merely to attract sympathy.",
+          "Supporters replied that consistent personal sacrifice distinguished sincere reformers from opportunistic agitators.",
+          "The debate over motive did little to slow the movement's growing influence."
+        ],
+        "question": "What is the primary rhetorical purpose of mentioning the critics' accusation in the third sentence?",
+        "options": [
+          {
+            "t": "To prove that abolitionist writers were widely regarded as insincere.",
+            "trap": "overstates; passage presents this as one view, not settled fact"
+          },
+          {
+            "t": "To explain why the abolitionist movement ultimately failed.",
+            "trap": "contradicts the passage's final sentence about growing influence"
+          },
+          {
+            "t": "To introduce the passage's main topic for the first time.",
+            "trap": "the topic was already introduced in the first sentence"
+          },
+          {
+            "t": "To present an opposing interpretation of the writers' sacrifice before the passage responds to it.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly answers the critics' accusation raised in the prior sentence."
+      },
+      "explanation": null,
+      "words": [
+        "abnegate",
+        "abstemious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "New immigrants to a growing frontier town had to acclimate quickly to unfamiliar civic institutions.",
+          "Town meetings, run on principles borrowed from New England traditions, puzzled settlers accustomed to different systems of local governance.",
+          "One newcomer's diary describes his acrid frustration at procedures he initially found bewildering.",
+          "Within a year, however, he had become an active participant, even chairing a committee on road maintenance.",
+          "His transformation illustrates how rapidly local institutions could absorb and adapt newcomers."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Frontier towns rejected any settlers unfamiliar with New England traditions.",
+            "trap": "contradicts the passage's account of eventual inclusion"
+          },
+          {
+            "t": "A newcomer's initial frustration with unfamiliar civic institutions gave way to active participation within a year.",
+            "correct": true
+          },
+          {
+            "t": "The newcomer never adapted to the town's civic institutions.",
+            "trap": "opposite of what the passage describes"
+          },
+          {
+            "t": "Road maintenance was the town's most contentious civic issue.",
+            "trap": "a detail, not the passage's main idea"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence provides the concrete evidence of the newcomer's transformation described as the main idea."
+      },
+      "explanation": null,
+      "words": [
+        "acclimate",
+        "acrid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A newspaper editor known for adamantine resolve refused to soften his editorials despite threats from local officials.",
+          "His admonition to readers to question authority appeared in nearly every issue for a decade.",
+          "Officials eventually stopped threatening him, finding that pressure only sharpened his rhetoric.",
+          "His paper became a model for later reformers who prized editorial independence.",
+          "Few publishers of his era matched his consistency under sustained political pressure."
+        ],
+        "question": "Which choice best supports the claim that the editor showed unusual consistency under pressure?",
+        "options": [
+          {
+            "t": "A newspaper editor known for adamantine resolve refused to soften his editorials.",
+            "trap": "restates the claim rather than providing evidence"
+          },
+          {
+            "t": "His admonition to readers to question authority appeared in nearly every issue for a decade.",
+            "correct": true
+          },
+          {
+            "t": "Officials eventually stopped threatening him, finding that pressure only sharpened his rhetoric.",
+            "trap": "describes an effect, not direct evidence of consistency"
+          },
+          {
+            "t": "Few publishers of his era matched his consistency under sustained political pressure.",
+            "trap": "restates the claim itself"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence gives the specific, repeated detail that demonstrates sustained consistency."
+      },
+      "explanation": null,
+      "words": [
+        "adamantine",
+        "admonition"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A young diplomat's adroitness in translating between rival delegations helped avert an early collapse of treaty talks.",
+          "Colleagues who adulate his skill sometimes overlook the years of study behind his fluency.",
+          "His advocacy for patient, incremental negotiation contrasted with more impulsive colleagues who favored ultimatums.",
+          "The treaty that emerged, while imperfect, avoided the war that impulsive tactics might have triggered.",
+          "His approach became a quiet model for subsequent diplomatic missions."
+        ],
+        "question": "Which choice best describes the function of the second sentence in the passage?",
+        "options": [
+          {
+            "t": "It argues that the diplomat's skill was overrated by his colleagues.",
+            "trap": "misreads the sentence, which affirms the skill is real"
+          },
+          {
+            "t": "It cautions that praise for the diplomat's skill can obscure the effort required to develop it.",
+            "correct": true
+          },
+          {
+            "t": "It introduces the main claim of the entire passage.",
+            "trap": "the main claim was introduced in the first sentence"
+          },
+          {
+            "t": "It contradicts the passage's overall praise of the diplomat.",
+            "trap": "the sentence is consistent with, not contrary to, the praise"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence provides the outcome that validates the value of the diplomat's patient approach."
+      },
+      "explanation": null,
+      "words": [
+        "adroitness",
+        "adulate",
+        "advocacy"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A merchant's natural affinity for numbers made him an unlikely but effective advocate for currency reform.",
+          "Rival traders, who felt his proposals would aggrieve their speculative interests, argued that a stable currency would erode their profits.",
+          "He countered that predictable currency values would expand overall trade, benefiting merchants broadly over time.",
+          "Legislators eventually adopted a modified version of his reform, citing long-term economic stability.",
+          "His success shows how technical expertise could translate into political influence even without formal office."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "Rival traders successfully blocked all currency reform proposals.",
+            "trap": "contradicts the passage's account of adoption"
+          },
+          {
+            "t": "A merchant used technical expertise to gain political influence and secure currency reform despite opposition.",
+            "correct": true
+          },
+          {
+            "t": "The merchant held formal political office throughout the reform process.",
+            "trap": "contradicts the final sentence"
+          },
+          {
+            "t": "Currency reform had no lasting effect on trade in the region.",
+            "trap": "not stated; passage implies long-term stability"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the reform's adoption, which is the culmination of the central claim."
+      },
+      "explanation": null,
+      "words": [
+        "affinity",
+        "aggrieve"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Visitors to a newly built capitol building often remarked on its ambience of deliberate grandeur.",
+          "Architects intended the space to ameliorate public distrust of a distant, unfamiliar government.",
+          "Critics dismissed such design choices as empty spectacle unlikely to change public opinion.",
+          "Surveys taken a decade later, however, showed increased public confidence in the institutions housed there.",
+          "The building's design, whatever its critics said, appears to have achieved its intended effect."
+        ],
+        "question": "What would most strengthen the argument that the building's design achieved its intended effect?",
+        "options": [
+          {
+            "t": "Additional survey data showing the confidence increase was specifically linked to visits to the building.",
+            "correct": true
+          },
+          {
+            "t": "A description of the architects' original design sketches.",
+            "trap": "does not address whether the design changed public opinion"
+          },
+          {
+            "t": "A statement that critics continued to dismiss the design as spectacle.",
+            "trap": "would not strengthen; restates existing skepticism"
+          },
+          {
+            "t": "A record of the building's construction costs and timeline.",
+            "trap": "irrelevant to the effect on public confidence"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence is the evidence cited for the design's success, and strengthening it directly supports the claim."
+      },
+      "explanation": null,
+      "words": [
+        "ambience",
+        "ameliorate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Two rival newspaper editors maintained an unusually amicable rivalry despite opposing political loyalties.",
+          "Their public debates, though pointed, avoided the personal attacks common among contemporaries.",
+          "Some readers found their tone almost anodyne, wishing for sharper confrontation.",
+          "Historians argue that their restraint actually strengthened public trust in the press generally.",
+          "Later journalists cited their example as proof that rivalry need not require hostility."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Readers universally praised the editors for their sharp, hostile debates.",
+            "trap": "contradicts the passage, which says debates avoided personal attacks"
+          },
+          {
+            "t": "The editors' rivalry weakened public confidence in the press.",
+            "trap": "opposite of the passage's claim"
+          },
+          {
+            "t": "The two editors shared identical political loyalties.",
+            "trap": "contradicts the first sentence"
+          },
+          {
+            "t": "Two rival editors' restrained, amicable rivalry ultimately strengthened public trust in journalism.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the historians' assessment, which is the passage's main idea."
+      },
+      "explanation": null,
+      "words": [
+        "amicable",
+        "anodyne"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A reformer dismissed as antediluvian by younger colleagues nonetheless anticipated several later constitutional amendments.",
+          "His writings, considered the antithesis of progress in his own time, gained new respect decades after his death.",
+          "One aphorism from his notebooks, urging patience over haste in lawmaking, is now widely quoted.",
+          "Contemporary critics had mocked this very phrase as evidence of his outdated caution.",
+          "His posthumous vindication complicates simple narratives of progress as a straight line forward."
+        ],
+        "question": "The mention of the reformer's aphorism being mocked by contemporaries primarily serves to",
+        "options": [
+          {
+            "t": "prove that the reformer's contemporaries were entirely correct in their assessment.",
+            "trap": "contradicts the passage's overall point about vindication"
+          },
+          {
+            "t": "illustrate the gap between how the reformer was judged in his time and how he is judged now.",
+            "correct": true
+          },
+          {
+            "t": "show that the reformer changed his views under criticism.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "argue that all reformers are eventually proven right by history.",
+            "trap": "overgeneralizes beyond this specific case"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence draws the broader conclusion that the earlier mockery detail sets up."
+      },
+      "explanation": null,
+      "words": [
+        "antediluvian",
+        "antithesis",
+        "aphorism"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A political apostate who abandoned his party's platform faced fierce backlash from former allies.",
+          "He argued his shift represented the apotheosis of principled conviction rather than mere betrayal.",
+          "Former colleagues countered that his timing, right before a close election, suggested opportunism instead.",
+          "Voters ultimately rewarded his new position, though historians still debate his true motives.",
+          "The episode remains a case study in how intent and outcome can diverge in political memory."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "Historians have reached consensus that the politician acted from pure opportunism.",
+            "trap": "contradicts the passage's claim of ongoing debate"
+          },
+          {
+            "t": "A politician's party switch is remembered ambiguously, with debate over whether it reflected conviction or opportunism.",
+            "correct": true
+          },
+          {
+            "t": "Voters punished the politician for abandoning his original party.",
+            "trap": "contradicts the passage, which says voters rewarded him"
+          },
+          {
+            "t": "The politician's former colleagues praised his decision as principled.",
+            "trap": "contradicts the passage's account of backlash"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explicitly frames the episode as a case of ambiguous historical judgment."
+      },
+      "explanation": null,
+      "words": [
+        "apostate",
+        "apotheosis"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A courier was tasked to apprise distant colonial assemblies of a treaty signed without their direct input.",
+          "Several assemblies bristled at being informed only after the fact, arguing this diminished their voice.",
+          "Diplomats defended the practice, citing the impracticality of arbitration across such vast distances.",
+          "The controversy contributed to later demands for faster, more inclusive communication channels in imperial governance.",
+          "Communication delays, more than deliberate exclusion, appear to have driven much of the resulting discontent."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Colonial assemblies were fully consulted before the treaty was signed.",
+            "trap": "contradicts the first sentence"
+          },
+          {
+            "t": "Diplomats admitted they deliberately excluded colonial assemblies out of malice.",
+            "trap": "contradicts the passage, which cites practical constraints"
+          },
+          {
+            "t": "Delayed communication about a treaty caused colonial discontent that later spurred demands for better channels.",
+            "correct": true
+          },
+          {
+            "t": "The controversy had no lasting effect on imperial governance.",
+            "trap": "contradicts the fourth sentence"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence clarifies the underlying cause of discontent, supporting the passage's main idea."
+      },
+      "explanation": null,
+      "words": [
+        "apprise",
+        "arbitration"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A young orator's ardor for independence sometimes led him to arrogate credit for ideas first proposed by others.",
+          "Colleagues privately resented this habit, though few challenged him publicly given his popularity.",
+          "One diary entry describes a fellow committee member's quiet astringent remark about the orator's selective memory.",
+          "Despite the friction, the orator's speeches undeniably galvanized public support for the cause.",
+          "His flaws as a collaborator did not diminish his effectiveness as a public voice."
+        ],
+        "question": "Which choice best describes the function of the third sentence?",
+        "options": [
+          {
+            "t": "It shows that colleagues publicly denounced the orator's behavior.",
+            "trap": "contradicts the passage, which says few challenged him publicly"
+          },
+          {
+            "t": "It proves that the orator's speeches failed to gain public support.",
+            "trap": "contradicts the fourth sentence"
+          },
+          {
+            "t": "It offers a specific example of private criticism that supports the claim of colleagues' quiet resentment.",
+            "correct": true
+          },
+          {
+            "t": "It introduces a new, unrelated topic about committee procedures.",
+            "trap": "misreads the sentence's direct connection to the prior claim"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the concrete example of resentment described in the prior sentence."
+      },
+      "explanation": null,
+      "words": [
+        "ardor",
+        "arrogate",
+        "astringent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "An ascetic philosopher touring the new republic criticized its citizens for what he saw as excessive love of luxury.",
+          "His own austerity, sustained through years of deliberate simplicity, lent his critique unusual audacity.",
+          "Local newspapers mocked his views as impractical for a growing commercial society.",
+          "Yet several reform movements later cited his writings when arguing against unchecked commercial excess.",
+          "His influence persisted long after his tour had been largely forgotten by the public."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The philosopher abandoned his ascetic lifestyle after facing public mockery.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "An ascetic critic's unpopular views on luxury later influenced reform movements despite initial mockery.",
+            "correct": true
+          },
+          {
+            "t": "Local newspapers praised the philosopher's critique of commercial excess.",
+            "trap": "contradicts the passage's account of mockery"
+          },
+          {
+            "t": "Reform movements universally rejected the philosopher's ideas as impractical.",
+            "trap": "contradicts the fourth sentence"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the lasting influence, supporting the passage's main idea."
+      },
+      "explanation": null,
+      "words": [
+        "ascetic",
+        "austerity",
+        "audacity"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A traveling preacher's sermons seemed to augur a coming wave of religious revivalism across rural congregations.",
+          "Contemporary observers, however, showed a certain complacency, dismissing his growing crowds as a temporary curiosity rather than a lasting movement.",
+          "Within five years, similar revivals had spread to dozens of towns across several states.",
+          "Historians now regard his early sermons as an early indicator of a broader cultural shift.",
+          "His initial reception, in hindsight, undersold the movement's eventual scale."
+        ],
+        "question": "Which choice best supports the claim that observers underestimated the preacher's influence?",
+        "options": [
+          {
+            "t": "Within five years, similar revivals had spread to dozens of towns across several states.",
+            "correct": true
+          },
+          {
+            "t": "Contemporary observers dismissed his growing crowds as a temporary curiosity.",
+            "trap": "describes the underestimation, not evidence it was wrong"
+          },
+          {
+            "t": "A traveling preacher's sermons seemed to augur a coming wave of revivalism.",
+            "trap": "restates the claim rather than providing supporting evidence"
+          },
+          {
+            "t": "His initial reception, in hindsight, undersold the movement's eventual scale.",
+            "trap": "restates the conclusion rather than the supporting evidence"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence provides the concrete, measurable outcome that confirms the underestimation."
+      },
+      "explanation": null,
+      "words": [
+        "augur",
+        "complacency"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A colonial autocrat once ruled a distant trading post with near-total authority over local commerce.",
+          "Merchants who criticized his policies risked losing their licenses entirely.",
+          "One avuncular successor, by contrast, cultivated goodwill by consulting merchants before major decisions.",
+          "Trade in the post grew substantially under this more consultative style of governance.",
+          "The contrast between the two rulers illustrates how governing style could shape a colony's economic fortunes."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "A shift from autocratic to consultative governance in a trading post led to notable economic growth.",
+            "correct": true
+          },
+          {
+            "t": "The autocrat's harsh rule caused trade to grow rapidly in the post.",
+            "trap": "contradicts the passage's implied contrast"
+          },
+          {
+            "t": "Merchants preferred the autocrat's rule because it offered more stability.",
+            "trap": "not stated; contradicts the passage's framing"
+          },
+          {
+            "t": "The avuncular successor abandoned consultation with merchants soon after taking power.",
+            "trap": "contradicts the third sentence"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence provides the outcome that supports the claim about governing style and economic growth."
+      },
+      "explanation": null,
+      "words": [
+        "autocrat",
+        "avuncular"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Letters between two founding-era statesmen reveal a surprising amount of badinage amid serious policy discussion.",
+          "One statesman would often balk at his colleague's teasing before returning to substantive debate.",
+          "Historians once dismissed these exchanges as trivial distractions unworthy of serious study.",
+          "Recent scholarship argues the playful tone actually reveals how the two built enough trust to compromise on difficult issues.",
+          "Their personal rapport, in this view, was not separate from their political achievements but essential to them."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Playful exchanges between two statesmen, once dismissed as trivial, are now seen as essential to their political cooperation.",
+            "correct": true
+          },
+          {
+            "t": "Historians have always agreed that the statesmen's letters were purely playful.",
+            "trap": "contradicts the passage's account of a shift in scholarly opinion"
+          },
+          {
+            "t": "The statesmen's teasing prevented them from reaching political agreements.",
+            "trap": "contradicts the passage's final claim"
+          },
+          {
+            "t": "Recent scholarship dismisses the letters as unworthy of serious study.",
+            "trap": "reverses the passage's actual claim"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the reinterpretation that is the passage's main idea."
+      },
+      "explanation": null,
+      "words": [
+        "badinage",
+        "balk"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A wartime pamphlet warned that complacency among citizens could prove baneful to the fragile new nation.",
+          "Its bantering tone toward apathetic readers was meant to provoke embarrassment rather than genuine offense.",
+          "Some readers found the barb too sharp, accusing the author of insulting patriotic citizens.",
+          "The author replied that harsh words were necessary to shake people from dangerous indifference.",
+          "Circulation of the pamphlet reportedly increased civic participation in several counties."
+        ],
+        "question": "What would most weaken the claim that the pamphlet increased civic participation?",
+        "options": [
+          {
+            "t": "A record of increased pamphlet sales in the same counties.",
+            "trap": "would support, not weaken, the claim"
+          },
+          {
+            "t": "A letter from a reader praising the pamphlet's persuasive tone.",
+            "trap": "supports rather than weakens the claim"
+          },
+          {
+            "t": "A statement that the author intended the pamphlet to provoke readers.",
+            "trap": "addresses intent, not the actual effect on participation"
+          },
+          {
+            "t": "Evidence that the rise in civic participation coincided with an unrelated local election drawing high turnout.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the specific outcome claimed, which is the target of any weakening evidence."
+      },
+      "explanation": null,
+      "words": [
+        "baneful",
+        "bantering",
+        "barb"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A satirist's bawdy verses mocking a colonial governor circulated widely despite official disapproval.",
+          "The governor found the poems beatific in their popularity among common folk, if not in their content.",
+          "Officials who tried to bedizen their response with elaborate legal threats only drew more attention to the verses.",
+          "Public mockery of authority, in this case, proved resistant to official suppression.",
+          "The episode suggests that heavy-handed responses to satire can backfire."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Official attempts to suppress a popular satire backfired, drawing more attention to it instead.",
+            "correct": true
+          },
+          {
+            "t": "The governor successfully banned the satirical verses from circulation.",
+            "trap": "contradicts the passage's account of continued popularity"
+          },
+          {
+            "t": "Officials ignored the satirist entirely, allowing him to fade into obscurity.",
+            "trap": "contradicts the third sentence"
+          },
+          {
+            "t": "Public mockery of authority was easily suppressed through legal threats.",
+            "trap": "opposite of the passage's conclusion"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the general lesson drawn from the specific episode."
+      },
+      "explanation": null,
+      "words": [
+        "bawdy",
+        "beatific",
+        "bedizen"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A besieged frontier garrison found itself beleaguered by both hostile raids and dwindling supplies.",
+          "Its commander, rather than bluster about certain victory, quietly rationed resources and rotated exhausted troops.",
+          "Some officers privately worried his caution would befuddle allied forces expecting a more aggressive stance.",
+          "The garrison held through winter, and reinforcements arrived before conditions grew any more desperate.",
+          "Later accounts credit the commander's restraint, not bravado, with preventing the outpost's collapse."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "The garrison fell to hostile raids before reinforcements could arrive.",
+            "trap": "contradicts the fourth sentence"
+          },
+          {
+            "t": "The commander relied on bold, boastful speeches to rally his troops.",
+            "trap": "contradicts the second sentence"
+          },
+          {
+            "t": "Allied forces criticized the commander for being too aggressive.",
+            "trap": "contradicts the passage, which says he was cautious"
+          },
+          {
+            "t": "A commander's cautious, unglamorous leadership, rather than bold rhetoric, saved a besieged garrison.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the historical judgment crediting restraint, which is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "beleaguered",
+        "bluster",
+        "befuddle"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A bellicose faction within an early state legislature pushed repeatedly for armed retaliation against a neighboring territory's border raids.",
+          "A more beneficent minority argued that diplomacy, though slower, would spare lives on both sides.",
+          "Critics of the minority dismissed their approach as naive given the raiders' history of broken promises.",
+          "A negotiated settlement, reached after months of quiet diplomacy, ultimately ended the raids without further bloodshed.",
+          "The episode is often cited as evidence that patience can outperform aggression in resolving border disputes."
+        ],
+        "question": "Which choice best supports the claim that diplomacy outperformed aggression in this case?",
+        "options": [
+          {
+            "t": "A negotiated settlement, reached after months of quiet diplomacy, ultimately ended the raids without further bloodshed.",
+            "correct": true
+          },
+          {
+            "t": "A bellicose faction pushed repeatedly for armed retaliation.",
+            "trap": "describes the aggressive option, not evidence diplomacy worked"
+          },
+          {
+            "t": "Critics of the minority dismissed their approach as naive.",
+            "trap": "presents an objection, not supporting evidence"
+          },
+          {
+            "t": "A more beneficent minority argued that diplomacy would spare lives.",
+            "trap": "states an argument, not the outcome that supports it"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence provides the concrete outcome that directly supports the claim about diplomacy's success."
+      },
+      "explanation": null,
+      "words": [
+        "bellicose",
+        "beneficent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A benighted colonial policy once denied basic education to entire communities on a distant frontier.",
+          "Reformers who sought to bequeath better schooling to future generations faced fierce resistance from entrenched local officials.",
+          "One official would berate any teacher who requested additional funding for rural schools.",
+          "Despite this hostility, a coalition of parents and traveling instructors slowly expanded access over two decades.",
+          "Their persistence eventually forced officials to formalize funding for rural education."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Colonial officials fully supported efforts to expand rural education.",
+            "trap": "contradicts the passage's account of resistance"
+          },
+          {
+            "t": "Traveling instructors abandoned their efforts after facing hostility from officials.",
+            "trap": "contradicts the fourth sentence"
+          },
+          {
+            "t": "Rural education funding was formalized before reformers began their efforts.",
+            "trap": "reverses the passage's actual sequence of events"
+          },
+          {
+            "t": "Despite official resistance, reformers gradually expanded rural education access over two decades.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states the ultimate result of the reformers' persistence, supporting the main idea."
+      },
+      "explanation": null,
+      "words": [
+        "benighted",
+        "bequeath",
+        "berate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A bereft widow petitioned the state legislature after her late husband's estate was seized over a disputed tax debt.",
+          "Officials initially dismissed her claim as a bilious complaint from someone unfamiliar with the law.",
+          "Her lawyer, refusing to blandish the committee with flattery, instead presented meticulous financial records.",
+          "The committee reversed its decision after reviewing the documentation, restoring the estate to her control.",
+          "The case became an early example of how careful evidence could overturn official bias against petitioners."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "Careful documentation, rather than flattery, allowed a widow to overturn an unjust seizure of her estate.",
+            "correct": true
+          },
+          {
+            "t": "The legislature refused to reconsider its initial seizure of the estate.",
+            "trap": "contradicts the fourth sentence"
+          },
+          {
+            "t": "The widow's lawyer relied mainly on flattery to persuade the committee.",
+            "trap": "contradicts the third sentence"
+          },
+          {
+            "t": "Officials praised the widow's petition from the very beginning.",
+            "trap": "contradicts the second sentence"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the reversal that resulted from the documented evidence, supporting the central claim."
+      },
+      "explanation": null,
+      "words": [
+        "bereft",
+        "bilious",
+        "blandish"
+      ]
+    }
+  ]
+}

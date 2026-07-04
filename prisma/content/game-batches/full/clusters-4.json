@@ -1,0 +1,2244 @@
+{
+  "items": [
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Overjoyed",
+            "words": [
+              {
+                "word": "overjoyed",
+                "gloss": "extremely pleased"
+              },
+              {
+                "word": "ecstatic",
+                "gloss": "overwhelmingly joyful"
+              },
+              {
+                "word": "jubilant",
+                "gloss": "triumphantly happy"
+              },
+              {
+                "word": "elated",
+                "gloss": "thrilled, overjoyed"
+              }
+            ]
+          },
+          {
+            "theme": "Enraged",
+            "words": [
+              {
+                "word": "incensed",
+                "gloss": "made very angry"
+              },
+              {
+                "word": "irate",
+                "gloss": "very angry"
+              },
+              {
+                "word": "livid",
+                "gloss": "furiously angry"
+              },
+              {
+                "word": "furious",
+                "gloss": "extremely angry"
+              }
+            ]
+          },
+          {
+            "theme": "Brief",
+            "words": [
+              {
+                "word": "momentary",
+                "gloss": "lasting a moment"
+              },
+              {
+                "word": "ephemeral",
+                "gloss": "gone almost at once"
+              },
+              {
+                "word": "transient",
+                "gloss": "lasting briefly"
+              },
+              {
+                "word": "fleeting",
+                "gloss": "passing quickly"
+              }
+            ]
+          },
+          {
+            "theme": "Unclear",
+            "words": [
+              {
+                "word": "obscure",
+                "gloss": "hard to understand"
+              },
+              {
+                "word": "nebulous",
+                "gloss": "hazy, ill-defined"
+              },
+              {
+                "word": "vague",
+                "gloss": "not precise"
+              },
+              {
+                "word": "ambiguous",
+                "gloss": "open to two readings"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "overjoyed",
+        "ecstatic",
+        "jubilant",
+        "elated",
+        "incensed",
+        "irate",
+        "livid",
+        "furious",
+        "momentary",
+        "ephemeral",
+        "transient",
+        "fleeting",
+        "obscure",
+        "nebulous",
+        "vague",
+        "ambiguous"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Condemn Publicly",
+            "words": [
+              {
+                "word": "disparage",
+                "gloss": "belittle, run down"
+              },
+              {
+                "word": "denounce",
+                "gloss": "condemn publicly"
+              },
+              {
+                "word": "rebuke",
+                "gloss": "scold sharply"
+              },
+              {
+                "word": "censure",
+                "gloss": "criticize formally"
+              }
+            ]
+          },
+          {
+            "theme": "Praise Highly",
+            "words": [
+              {
+                "word": "commend",
+                "gloss": "praise formally"
+              },
+              {
+                "word": "extol",
+                "gloss": "praise enthusiastically"
+              },
+              {
+                "word": "laud",
+                "gloss": "praise highly"
+              },
+              {
+                "word": "applaud",
+                "gloss": "express approval of"
+              }
+            ]
+          },
+          {
+            "theme": "Plain-Spoken",
+            "words": [
+              {
+                "word": "frank",
+                "gloss": "open, plain-spoken"
+              },
+              {
+                "word": "blunt",
+                "gloss": "bluntly direct"
+              },
+              {
+                "word": "audacious",
+                "gloss": "boldly daring"
+              },
+              {
+                "word": "dauntless",
+                "gloss": "not discouraged"
+              }
+            ]
+          },
+          {
+            "theme": "Cautious",
+            "words": [
+              {
+                "word": "tentative",
+                "gloss": "hesitant, unsure"
+              },
+              {
+                "word": "circumspect",
+                "gloss": "watchful of risk"
+              },
+              {
+                "word": "wary",
+                "gloss": "on guard"
+              },
+              {
+                "word": "prudent",
+                "gloss": "careful, wise"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "disparage",
+        "denounce",
+        "rebuke",
+        "censure",
+        "commend",
+        "extol",
+        "laud",
+        "applaud",
+        "frank",
+        "blunt",
+        "audacious",
+        "dauntless",
+        "tentative",
+        "circumspect",
+        "wary",
+        "prudent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Fearless",
+            "words": [
+              {
+                "word": "valiant",
+                "gloss": "courageous"
+              },
+              {
+                "word": "intrepid",
+                "gloss": "fearless"
+              },
+              {
+                "word": "bravado",
+                "gloss": "a bold manner intended to impress or intimidate"
+              },
+              {
+                "word": "brash",
+                "gloss": "self-assured in a bold or overconfident way"
+              }
+            ]
+          },
+          {
+            "theme": "Generous",
+            "words": [
+              {
+                "word": "charitable",
+                "gloss": "giving to others"
+              },
+              {
+                "word": "altruistic",
+                "gloss": "selflessly caring"
+              },
+              {
+                "word": "magnanimous",
+                "gloss": "generous in spirit"
+              },
+              {
+                "word": "benevolent",
+                "gloss": "kindly, giving"
+              }
+            ]
+          },
+          {
+            "theme": "Unyielding",
+            "words": [
+              {
+                "word": "adamant",
+                "gloss": "firmly unyielding"
+              },
+              {
+                "word": "intransigent",
+                "gloss": "unwilling to compromise"
+              },
+              {
+                "word": "headstrong",
+                "gloss": "willful"
+              },
+              {
+                "word": "obstinate",
+                "gloss": "refusing to budge"
+              }
+            ]
+          },
+          {
+            "theme": "Frugal",
+            "words": [
+              {
+                "word": "thrifty",
+                "gloss": "careful with money"
+              },
+              {
+                "word": "frugal",
+                "gloss": "sparing, economical"
+              },
+              {
+                "word": "parsimonious",
+                "gloss": "unwilling to spend"
+              },
+              {
+                "word": "miserly",
+                "gloss": "hoarding money"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "valiant",
+        "intrepid",
+        "bravado",
+        "brash",
+        "charitable",
+        "altruistic",
+        "magnanimous",
+        "benevolent",
+        "adamant",
+        "intransigent",
+        "headstrong",
+        "obstinate",
+        "thrifty",
+        "frugal",
+        "parsimonious",
+        "miserly"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Coax Into Action",
+            "words": [
+              {
+                "word": "coax",
+                "gloss": "gently persuade someone to do something"
+              },
+              {
+                "word": "coerce",
+                "gloss": "force someone to do something through threats or pressure"
+              },
+              {
+                "word": "blandish",
+                "gloss": "coax someone with flattery"
+              },
+              {
+                "word": "entreat",
+                "gloss": "ask someone earnestly or desperately for something"
+              }
+            ]
+          },
+          {
+            "theme": "Belief and Trust",
+            "words": [
+              {
+                "word": "credence",
+                "gloss": "acceptance of something as true or valid"
+              },
+              {
+                "word": "credibility",
+                "gloss": "the quality of being trusted or believed"
+              },
+              {
+                "word": "credulity",
+                "gloss": "a tendency to believe things too readily, without enough evidence"
+              },
+              {
+                "word": "cogency",
+                "gloss": "the quality of being clear, logical, and convincing"
+              }
+            ]
+          },
+          {
+            "theme": "Chronic Complainers",
+            "words": [
+              {
+                "word": "carping",
+                "gloss": "constantly complaining about small, unimportant things"
+              },
+              {
+                "word": "caviler",
+                "gloss": "a person who raises trivial or unfair objections"
+              },
+              {
+                "word": "curmudgeon",
+                "gloss": "a bad-tempered, often old, person who complains a lot"
+              },
+              {
+                "word": "cynic",
+                "gloss": "a person who believes people are motivated only by self-interest"
+              }
+            ]
+          },
+          {
+            "theme": "Soothe and Comfort",
+            "words": [
+              {
+                "word": "ameliorate",
+                "gloss": "to make a bad situation better"
+              },
+              {
+                "word": "conciliate",
+                "gloss": "to calm the anger of someone; to reconcile"
+              },
+              {
+                "word": "console",
+                "gloss": "to comfort someone who is upset or disappointed"
+              },
+              {
+                "word": "commiserate",
+                "gloss": "to express sympathy for someone's misfortune"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'cogency' (being convincing) is placed in Belief and Trust because a cogent argument earns credence, but it actually describes the quality of an argument, not a state of believing something.",
+      "words": [
+        "coax",
+        "coerce",
+        "blandish",
+        "entreat",
+        "credence",
+        "credibility",
+        "credulity",
+        "cogency",
+        "carping",
+        "caviler",
+        "curmudgeon",
+        "cynic",
+        "ameliorate",
+        "conciliate",
+        "console",
+        "commiserate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Absolute Rule",
+            "words": [
+              {
+                "word": "despotic",
+                "gloss": "ruling with absolute and often cruel power"
+              },
+              {
+                "word": "autocrat",
+                "gloss": "a ruler with unlimited, absolute power"
+              },
+              {
+                "word": "domineering",
+                "gloss": "tending to control others in an overbearing way"
+              },
+              {
+                "word": "condescension",
+                "gloss": "an attitude of superiority toward others"
+              }
+            ]
+          },
+          {
+            "theme": "Rigid Thinking",
+            "words": [
+              {
+                "word": "doctrinaire",
+                "gloss": "rigidly following a theory without considering practical reality"
+              },
+              {
+                "word": "dogmatism",
+                "gloss": "asserting opinions as unquestionably true without evidence"
+              },
+              {
+                "word": "contumacious",
+                "gloss": "stubbornly disobedient to authority"
+              },
+              {
+                "word": "bureaucratic",
+                "gloss": "relating to excessive official rules and procedures"
+              }
+            ]
+          },
+          {
+            "theme": "Dissatisfied",
+            "words": [
+              {
+                "word": "disaffected",
+                "gloss": "no longer loyal or satisfied, especially with an authority or system"
+              },
+              {
+                "word": "disgruntled",
+                "gloss": "annoyed or dissatisfied"
+              },
+              {
+                "word": "chagrined",
+                "gloss": "feeling embarrassed or annoyed at having failed"
+              },
+              {
+                "word": "exasperation",
+                "gloss": "a feeling of intense irritation or frustration"
+              }
+            ]
+          },
+          {
+            "theme": "Anxious Unease",
+            "words": [
+              {
+                "word": "disquiet",
+                "gloss": "a feeling of anxiety or worry"
+              },
+              {
+                "word": "disquietude",
+                "gloss": "a state of uneasiness or restlessness"
+              },
+              {
+                "word": "consternation",
+                "gloss": "a feeling of anxiety or dismay, often at something unexpected"
+              },
+              {
+                "word": "bewilder",
+                "gloss": "to confuse someone greatly"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "despotic",
+        "autocrat",
+        "domineering",
+        "condescension",
+        "doctrinaire",
+        "dogmatism",
+        "contumacious",
+        "bureaucratic",
+        "disaffected",
+        "disgruntled",
+        "chagrined",
+        "exasperation",
+        "disquiet",
+        "disquietude",
+        "consternation",
+        "bewilder"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Confuse Completely",
+            "words": [
+              {
+                "word": "befuddle",
+                "gloss": "to confuse someone completely"
+              },
+              {
+                "word": "confound",
+                "gloss": "to confuse or puzzle someone"
+              },
+              {
+                "word": "discomfit",
+                "gloss": "to make someone feel embarrassed or uneasy"
+              },
+              {
+                "word": "bewilder",
+                "gloss": "to confuse someone greatly"
+              }
+            ]
+          },
+          {
+            "theme": "Harsh Criticism",
+            "words": [
+              {
+                "word": "castigation",
+                "gloss": "severe criticism or punishment"
+              },
+              {
+                "word": "censorious",
+                "gloss": "severely critical of others"
+              },
+              {
+                "word": "excoriate",
+                "gloss": "to criticize someone severely and harshly"
+              },
+              {
+                "word": "diatribe",
+                "gloss": "a long, angry speech or piece of writing criticizing someone"
+              }
+            ]
+          },
+          {
+            "theme": "Reluctance",
+            "words": [
+              {
+                "word": "diffidence",
+                "gloss": "shyness or lack of self-confidence"
+              },
+              {
+                "word": "disinclination",
+                "gloss": "a reluctance or unwillingness to do something"
+              },
+              {
+                "word": "demur",
+                "gloss": "to raise objections or show reluctance about something"
+              },
+              {
+                "word": "balk",
+                "gloss": "to hesitate or refuse to proceed with something"
+              }
+            ]
+          },
+          {
+            "theme": "Secret Scheming",
+            "words": [
+              {
+                "word": "connive",
+                "gloss": "to secretly cooperate to do something illegal or harmful"
+              },
+              {
+                "word": "collusion",
+                "gloss": "secret cooperation, especially for an illegal or dishonest purpose"
+              },
+              {
+                "word": "contrive",
+                "gloss": "to plan or create something skillfully or cleverly, often deceptively"
+              },
+              {
+                "word": "concoct",
+                "gloss": "to create something, especially a story or plan, using skill or imagination"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "befuddle",
+        "confound",
+        "discomfit",
+        "bewilder",
+        "castigation",
+        "censorious",
+        "excoriate",
+        "diatribe",
+        "diffidence",
+        "disinclination",
+        "demur",
+        "balk",
+        "connive",
+        "collusion",
+        "contrive",
+        "concoct"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Show Scorn",
+            "words": [
+              {
+                "word": "dismissive",
+                "gloss": "showing that one does not think something is worth serious attention"
+              },
+              {
+                "word": "disparaging",
+                "gloss": "expressing a negative or critical opinion of someone or something"
+              },
+              {
+                "word": "contempt",
+                "gloss": "a feeling that someone or something deserves no respect"
+              },
+              {
+                "word": "derisive",
+                "gloss": "showing scorn or mockery"
+              }
+            ]
+          },
+          {
+            "theme": "Mourning",
+            "words": [
+              {
+                "word": "elegy",
+                "gloss": "a poem or song expressing sorrow, especially for someone who has died"
+              },
+              {
+                "word": "eulogy",
+                "gloss": "a speech or piece of writing praising someone, often given after their death"
+              },
+              {
+                "word": "dolorous",
+                "gloss": "feeling or expressing great sorrow"
+              },
+              {
+                "word": "disconsolate",
+                "gloss": "extremely unhappy and unable to be comforted"
+              }
+            ]
+          },
+          {
+            "theme": "Calm Composure",
+            "words": [
+              {
+                "word": "equanimous",
+                "gloss": "showing calmness and composure, especially in difficult situations"
+              },
+              {
+                "word": "contemplative",
+                "gloss": "involving deep, quiet thought or reflection"
+              },
+              {
+                "word": "beatific",
+                "gloss": "showing great happiness or blessedness"
+              },
+              {
+                "word": "blithe",
+                "gloss": "showing a casual, carefree lack of concern"
+              }
+            ]
+          },
+          {
+            "theme": "Vague or Evasive Speech",
+            "words": [
+              {
+                "word": "equivocation",
+                "gloss": "the use of vague or ambiguous language to avoid committing to a clear statement"
+              },
+              {
+                "word": "circumlocution",
+                "gloss": "the use of many words to say something that could be said more directly"
+              },
+              {
+                "word": "dissemble",
+                "gloss": "to hide one's true feelings or intentions by pretending"
+              },
+              {
+                "word": "euphonious",
+                "gloss": "pleasant sounding, especially to the ear"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "dismissive",
+        "disparaging",
+        "contempt",
+        "derisive",
+        "elegy",
+        "eulogy",
+        "dolorous",
+        "disconsolate",
+        "equanimous",
+        "contemplative",
+        "beatific",
+        "blithe",
+        "equivocation",
+        "circumlocution",
+        "dissemble",
+        "euphonious"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Excessive Praise",
+            "words": [
+              {
+                "word": "adulate",
+                "gloss": "to praise someone excessively"
+              },
+              {
+                "word": "encomium",
+                "gloss": "a formal expression of high praise"
+              },
+              {
+                "word": "beguiling",
+                "gloss": "charming in a way that may be deceptive"
+              },
+              {
+                "word": "blandish",
+                "gloss": "to coax someone with flattery"
+              }
+            ]
+          },
+          {
+            "theme": "Greedy Appetite",
+            "words": [
+              {
+                "word": "edacious",
+                "gloss": "having a huge appetite; eager to consume"
+              },
+              {
+                "word": "covetous",
+                "gloss": "having a strong desire to possess something that belongs to another"
+              },
+              {
+                "word": "egotism",
+                "gloss": "excessive focus on oneself and one's own importance"
+              },
+              {
+                "word": "corpulent",
+                "gloss": "very overweight"
+              }
+            ]
+          },
+          {
+            "theme": "Harsh Physical Quality",
+            "words": [
+              {
+                "word": "adamantine",
+                "gloss": "extremely hard and unyielding, like a diamond"
+              },
+              {
+                "word": "cadaverous",
+                "gloss": "resembling a corpse in being extremely pale or thin"
+              },
+              {
+                "word": "acrid",
+                "gloss": "having an unpleasantly sharp, bitter smell or taste"
+              },
+              {
+                "word": "austerity",
+                "gloss": "extreme simplicity and a lack of luxury, often through economic hardship"
+              }
+            ]
+          },
+          {
+            "theme": "Old-Fashioned",
+            "words": [
+              {
+                "word": "antediluvian",
+                "gloss": "extremely old-fashioned or outdated"
+              },
+              {
+                "word": "bourgeois",
+                "gloss": "relating to the comfortable middle class, often suggesting conventional values"
+              },
+              {
+                "word": "benighted",
+                "gloss": "ignorant or unenlightened due to lack of education or information"
+              },
+              {
+                "word": "bucolic",
+                "gloss": "relating to pleasant, peaceful country life"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'beguiling' and 'blandish' both involve charm, so students may sort them with 'covetous' (desire), but they belong with Excessive Praise because the connection is flattery, not wanting something for oneself.",
+      "words": [
+        "adulate",
+        "encomium",
+        "beguiling",
+        "blandish",
+        "edacious",
+        "covetous",
+        "egotism",
+        "corpulent",
+        "adamantine",
+        "cadaverous",
+        "acrid",
+        "austerity",
+        "antediluvian",
+        "bourgeois",
+        "benighted",
+        "bucolic"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Skillful and Clever",
+            "words": [
+              {
+                "word": "dexterous",
+                "gloss": "skillful in using one's hands or mind"
+              },
+              {
+                "word": "deft",
+                "gloss": "skillful and quick in movement or action"
+              },
+              {
+                "word": "adroitness",
+                "gloss": "skillfulness and cleverness, especially in physical or mental tasks"
+              },
+              {
+                "word": "canny",
+                "gloss": "clever and shrewd, especially in practical matters"
+              }
+            ]
+          },
+          {
+            "theme": "Playful Talk",
+            "words": [
+              {
+                "word": "badinage",
+                "gloss": "playful, teasing conversation"
+              },
+              {
+                "word": "bantering",
+                "gloss": "good-humored and teasing in conversation"
+              },
+              {
+                "word": "bawdy",
+                "gloss": "humorously indecent, especially about sex"
+              },
+              {
+                "word": "chameleon",
+                "gloss": "a person who easily changes their behavior or opinions to fit different situations"
+              }
+            ]
+          },
+          {
+            "theme": "Sharp, Bitter Speech",
+            "words": [
+              {
+                "word": "barb",
+                "gloss": "a sharp, critical remark"
+              },
+              {
+                "word": "astringent",
+                "gloss": "sharply critical or harsh"
+              },
+              {
+                "word": "acrid",
+                "gloss": "having an unpleasantly sharp, bitter smell or taste"
+              },
+              {
+                "word": "brusque",
+                "gloss": "abrupt or blunt in manner or speech"
+              }
+            ]
+          },
+          {
+            "theme": "Persistent Pressure",
+            "words": [
+              {
+                "word": "coerce",
+                "gloss": "to force someone to do something through threats or pressure"
+              },
+              {
+                "word": "bombard",
+                "gloss": "to attack persistently with questions, criticism, or projectiles"
+              },
+              {
+                "word": "beleaguer",
+                "gloss": "to trouble persistently, or to surround with problems"
+              },
+              {
+                "word": "beset",
+                "gloss": "to trouble or harass persistently"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "dexterous",
+        "deft",
+        "adroitness",
+        "canny",
+        "badinage",
+        "bantering",
+        "bawdy",
+        "chameleon",
+        "barb",
+        "astringent",
+        "acrid",
+        "brusque",
+        "coerce",
+        "bombard",
+        "beleaguer",
+        "beset"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Sacred and Religious",
+            "words": [
+              {
+                "word": "blasphemy",
+                "gloss": "irreverent speech or action concerning sacred things"
+              },
+              {
+                "word": "consecrate",
+                "gloss": "to declare something sacred or dedicate it to a special purpose"
+              },
+              {
+                "word": "cloister",
+                "gloss": "a place of religious seclusion, such as a monastery or convent"
+              },
+              {
+                "word": "chastity",
+                "gloss": "the state of not engaging in sexual activity; moral purity"
+              }
+            ]
+          },
+          {
+            "theme": "Give Up or Deny",
+            "words": [
+              {
+                "word": "abnegate",
+                "gloss": "to give up or deny oneself something, especially a right or belief"
+              },
+              {
+                "word": "divest",
+                "gloss": "to get rid of or sell off something one owns"
+              },
+              {
+                "word": "apostate",
+                "gloss": "a person who abandons a religious or political belief they once held"
+              },
+              {
+                "word": "bequeath",
+                "gloss": "to leave property or a possession to someone in a will"
+              }
+            ]
+          },
+          {
+            "theme": "Untidy and Disorderly",
+            "words": [
+              {
+                "word": "disheveled",
+                "gloss": "untidy, messy, especially in appearance"
+              },
+              {
+                "word": "disjointed",
+                "gloss": "lacking order or coherent connection between parts"
+              },
+              {
+                "word": "dank",
+                "gloss": "unpleasantly damp, cold, and often musty"
+              },
+              {
+                "word": "cumbersome",
+                "gloss": "large or heavy and therefore difficult to carry or use"
+              }
+            ]
+          },
+          {
+            "theme": "Expert Appreciation",
+            "words": [
+              {
+                "word": "connoisseurship",
+                "gloss": "expert knowledge and appreciation, especially in art, food, or wine"
+              },
+              {
+                "word": "epicure",
+                "gloss": "a person with refined taste in food and drink"
+              },
+              {
+                "word": "erudition",
+                "gloss": "extensive knowledge gained from study and reading"
+              },
+              {
+                "word": "cogency",
+                "gloss": "the quality of being clear, logical, and convincing"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "blasphemy",
+        "consecrate",
+        "cloister",
+        "chastity",
+        "abnegate",
+        "divest",
+        "apostate",
+        "bequeath",
+        "disheveled",
+        "disjointed",
+        "dank",
+        "cumbersome",
+        "connoisseurship",
+        "epicure",
+        "erudition",
+        "cogency"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Deceptive and Two-Faced",
+            "words": [
+              {
+                "word": "duplicitous",
+                "gloss": "deceitful, saying one thing while doing or believing another"
+              },
+              {
+                "word": "dissemble",
+                "gloss": "to hide one's true feelings or intentions by pretending"
+              },
+              {
+                "word": "beguiling",
+                "gloss": "charming in a way that may be deceptive"
+              },
+              {
+                "word": "collusion",
+                "gloss": "secret cooperation, especially for an illegal or dishonest purpose"
+              }
+            ]
+          },
+          {
+            "theme": "Calm Acceptance",
+            "words": [
+              {
+                "word": "equanimous",
+                "gloss": "showing calmness and composure, especially in difficult situations"
+              },
+              {
+                "word": "contentment",
+                "gloss": "a state of peaceful satisfaction"
+              },
+              {
+                "word": "blithe",
+                "gloss": "showing a casual, carefree lack of concern"
+              },
+              {
+                "word": "beatific",
+                "gloss": "showing great happiness or blessedness"
+              }
+            ]
+          },
+          {
+            "theme": "Abundant Supply",
+            "words": [
+              {
+                "word": "bountiful",
+                "gloss": "abundant or generously plentiful"
+              },
+              {
+                "word": "capacious",
+                "gloss": "having a large storage or seating capacity; roomy"
+              },
+              {
+                "word": "compendium",
+                "gloss": "a concise collection of information on a particular subject"
+              },
+              {
+                "word": "burgeoning",
+                "gloss": "growing or developing rapidly"
+              }
+            ]
+          },
+          {
+            "theme": "Evidence and Proof",
+            "words": [
+              {
+                "word": "corroboration",
+                "gloss": "evidence that confirms or supports a statement or theory"
+              },
+              {
+                "word": "conclusive",
+                "gloss": "serving to prove something or put an end to doubt"
+              },
+              {
+                "word": "cite",
+                "gloss": "to quote or refer to a source as evidence"
+              },
+              {
+                "word": "credibility",
+                "gloss": "the quality of being trusted or believed"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'credibility' is about being trusted generally, which students may confuse with Deceptive and Two-Faced (its opposite), but it actually belongs with Evidence and Proof since credible sources support conclusions.",
+      "words": [
+        "duplicitous",
+        "dissemble",
+        "beguiling",
+        "collusion",
+        "equanimous",
+        "contentment",
+        "blithe",
+        "beatific",
+        "bountiful",
+        "capacious",
+        "compendium",
+        "burgeoning",
+        "corroboration",
+        "conclusive",
+        "cite",
+        "credibility"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Warlike and Combative",
+            "words": [
+              {
+                "word": "bellicose",
+                "gloss": "eager to fight; aggressively hostile"
+              },
+              {
+                "word": "contumacious",
+                "gloss": "stubbornly disobedient to authority"
+              },
+              {
+                "word": "choleric",
+                "gloss": "easily angered; bad-tempered"
+              },
+              {
+                "word": "bilious",
+                "gloss": "bad-tempered or ill-natured"
+              }
+            ]
+          },
+          {
+            "theme": "Cheerful and Boisterous",
+            "words": [
+              {
+                "word": "boisterous",
+                "gloss": "noisy, energetic, and cheerful"
+              },
+              {
+                "word": "ebullience",
+                "gloss": "cheerful and lively enthusiasm"
+              },
+              {
+                "word": "camaraderie",
+                "gloss": "friendly trust and goodwill among people who spend time together"
+              },
+              {
+                "word": "bantering",
+                "gloss": "good-humored and teasing in conversation"
+              }
+            ]
+          },
+          {
+            "theme": "Obstacles and Hindrance",
+            "words": [
+              {
+                "word": "circumvent",
+                "gloss": "to find a way around an obstacle or rule"
+              },
+              {
+                "word": "countervail",
+                "gloss": "to offset or counterbalance something with an equal force"
+              },
+              {
+                "word": "circumscribe",
+                "gloss": "to restrict or limit something within certain boundaries"
+              },
+              {
+                "word": "constrict",
+                "gloss": "to make something narrower by squeezing or pressure"
+              }
+            ]
+          },
+          {
+            "theme": "Clever Scheming",
+            "words": [
+              {
+                "word": "contrive",
+                "gloss": "to plan or create something skillfully or cleverly, often deceptively"
+              },
+              {
+                "word": "connive",
+                "gloss": "to secretly cooperate to do something illegal or harmful"
+              },
+              {
+                "word": "arrogate",
+                "gloss": "to claim or take something for oneself without the right to do so"
+              },
+              {
+                "word": "calculating",
+                "gloss": "cleverly and often selfishly planning to gain an advantage"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "bellicose",
+        "contumacious",
+        "choleric",
+        "bilious",
+        "boisterous",
+        "ebullience",
+        "camaraderie",
+        "bantering",
+        "circumvent",
+        "countervail",
+        "circumscribe",
+        "constrict",
+        "contrive",
+        "connive",
+        "arrogate",
+        "calculating"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Skepticism and Doubt",
+            "words": [
+              {
+                "word": "dubiety",
+                "gloss": "a feeling of doubt or uncertainty"
+              },
+              {
+                "word": "cynicism",
+                "gloss": "a distrustful attitude that doubts people's sincerity or good intentions"
+              },
+              {
+                "word": "distrait",
+                "gloss": "absent-minded or preoccupied with one's thoughts"
+              },
+              {
+                "word": "chary",
+                "gloss": "cautious and reluctant to take risks"
+              }
+            ]
+          },
+          {
+            "theme": "Sudden Flashes of Feeling",
+            "words": [
+              {
+                "word": "crescendo",
+                "gloss": "a gradual increase in intensity, loudness, or force"
+              },
+              {
+                "word": "celerity",
+                "gloss": "swiftness of movement or action"
+              },
+              {
+                "word": "ebullience",
+                "gloss": "cheerful and lively enthusiasm"
+              },
+              {
+                "word": "ardor",
+                "gloss": "intense enthusiasm or passion"
+              }
+            ]
+          },
+          {
+            "theme": "Consequence and Result",
+            "words": [
+              {
+                "word": "corollary",
+                "gloss": "a natural or direct consequence of something else"
+              },
+              {
+                "word": "concomitant",
+                "gloss": "occurring naturally along with something else"
+              },
+              {
+                "word": "cumulative",
+                "gloss": "increasing steadily as more things are added over time"
+              },
+              {
+                "word": "commensurable",
+                "gloss": "able to be measured or compared using the same standard"
+              }
+            ]
+          },
+          {
+            "theme": "Severe Simplicity",
+            "words": [
+              {
+                "word": "austerity",
+                "gloss": "extreme simplicity and a lack of luxury, often through economic hardship"
+              },
+              {
+                "word": "ascetic",
+                "gloss": "practicing severe self-discipline and avoiding physical pleasures"
+              },
+              {
+                "word": "abstemious",
+                "gloss": "practicing moderation, especially in eating and drinking"
+              },
+              {
+                "word": "dais",
+                "gloss": "a raised platform for speakers or honored guests"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "dubiety",
+        "cynicism",
+        "distrait",
+        "chary",
+        "crescendo",
+        "celerity",
+        "ebullience",
+        "ardor",
+        "corollary",
+        "concomitant",
+        "cumulative",
+        "commensurable",
+        "austerity",
+        "ascetic",
+        "abstemious",
+        "dais"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Complex or Indirect Language",
+            "words": [
+              {
+                "word": "circumlocution",
+                "gloss": "the use of many words to say something that could be said more directly"
+              },
+              {
+                "word": "equivocation",
+                "gloss": "the use of vague or ambiguous language to avoid committing to a clear statement"
+              },
+              {
+                "word": "circuitousness",
+                "gloss": "the quality of being indirect or roundabout"
+              },
+              {
+                "word": "dichotomy",
+                "gloss": "a division between two things that are sharply different or opposite"
+              }
+            ]
+          },
+          {
+            "theme": "Arousing Strong Dislike",
+            "words": [
+              {
+                "word": "execrable",
+                "gloss": "extremely bad or unpleasant"
+              },
+              {
+                "word": "baneful",
+                "gloss": "causing harm or ruin"
+              },
+              {
+                "word": "blatant",
+                "gloss": "completely obvious in an unpleasant or shameless way"
+              },
+              {
+                "word": "defamatory",
+                "gloss": "damaging someone's reputation by making false statements"
+              }
+            ]
+          },
+          {
+            "theme": "Decline and Reduction",
+            "words": [
+              {
+                "word": "diminution",
+                "gloss": "a reduction in size, importance, or intensity"
+              },
+              {
+                "word": "effacement",
+                "gloss": "the act of erasing or making oneself inconspicuous"
+              },
+              {
+                "word": "abscission",
+                "gloss": "the natural separation or cutting off of a part, such as a leaf from a plant"
+              },
+              {
+                "word": "evanescence",
+                "gloss": "the quality of fading away quickly"
+              }
+            ]
+          },
+          {
+            "theme": "Sharp Displeasure",
+            "words": [
+              {
+                "word": "exasperation",
+                "gloss": "a feeling of intense irritation or frustration"
+              },
+              {
+                "word": "chagrin",
+                "gloss": "a feeling of annoyance or embarrassment caused by failure or disappointment"
+              },
+              {
+                "word": "consternation",
+                "gloss": "a feeling of anxiety or dismay, often at something unexpected"
+              },
+              {
+                "word": "calumny",
+                "gloss": "a false statement made to damage someone's reputation"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "circumlocution",
+        "equivocation",
+        "circuitousness",
+        "dichotomy",
+        "execrable",
+        "baneful",
+        "blatant",
+        "defamatory",
+        "diminution",
+        "effacement",
+        "abscission",
+        "evanescence",
+        "exasperation",
+        "chagrin",
+        "consternation",
+        "calumny"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Formal Agreement or Settlement",
+            "words": [
+              {
+                "word": "compromise",
+                "gloss": "an agreement reached by each side making concessions"
+              },
+              {
+                "word": "arbitration",
+                "gloss": "the process of settling a dispute using an independent third party"
+              },
+              {
+                "word": "conciliate",
+                "gloss": "to calm the anger of someone; to reconcile"
+              },
+              {
+                "word": "concerted",
+                "gloss": "done jointly or with coordinated effort"
+              }
+            ]
+          },
+          {
+            "theme": "Hesitant and Unsure",
+            "words": [
+              {
+                "word": "tentative",
+                "gloss": "hesitant, unsure"
+              },
+              {
+                "word": "diffidence",
+                "gloss": "shyness or lack of self-confidence"
+              },
+              {
+                "word": "demur",
+                "gloss": "to raise objections or show reluctance about something"
+              },
+              {
+                "word": "disinclination",
+                "gloss": "a reluctance or unwillingness to do something"
+              }
+            ]
+          },
+          {
+            "theme": "Knowledge and Awareness",
+            "words": [
+              {
+                "word": "cognizant",
+                "gloss": "aware of or having knowledge of something"
+              },
+              {
+                "word": "erudition",
+                "gloss": "extensive knowledge gained from study and reading"
+              },
+              {
+                "word": "discern",
+                "gloss": "to perceive or recognize something clearly, especially something not obvious"
+              },
+              {
+                "word": "apprise",
+                "gloss": "to inform someone of something"
+              }
+            ]
+          },
+          {
+            "theme": "Rapid Growth",
+            "words": [
+              {
+                "word": "burgeoning",
+                "gloss": "growing or developing rapidly"
+              },
+              {
+                "word": "congregate",
+                "gloss": "to gather together in a crowd or mass"
+              },
+              {
+                "word": "converge",
+                "gloss": "to come together from different directions toward one point"
+              },
+              {
+                "word": "concurrent",
+                "gloss": "happening or existing at the same time"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'concurrent' means simultaneous, not growing, so it doesn't perfectly fit Rapid Growth — it's grouped there because things that burgeon and converge often happen concurrently, testing careful distinction between related but different math-of-time concepts.",
+      "words": [
+        "compromise",
+        "arbitration",
+        "conciliate",
+        "concerted",
+        "tentative",
+        "diffidence",
+        "demur",
+        "disinclination",
+        "cognizant",
+        "erudition",
+        "discern",
+        "apprise",
+        "burgeoning",
+        "congregate",
+        "converge",
+        "concurrent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Blame and Responsibility",
+            "words": [
+              {
+                "word": "culpable",
+                "gloss": "deserving blame for a wrongful act"
+              },
+              {
+                "word": "culpability",
+                "gloss": "responsibility for a fault or wrongdoing"
+              },
+              {
+                "word": "condemn",
+                "gloss": "to express strong disapproval of something; to sentence to punishment"
+              },
+              {
+                "word": "contravene",
+                "gloss": "to act in a way that violates a law or rule"
+              }
+            ]
+          },
+          {
+            "theme": "Mysterious and Puzzling",
+            "words": [
+              {
+                "word": "enigmatic",
+                "gloss": "mysterious and difficult to understand"
+              },
+              {
+                "word": "chimerical",
+                "gloss": "unrealistic and existing only in the imagination"
+              },
+              {
+                "word": "clairvoyance",
+                "gloss": "the supposed ability to perceive things beyond normal senses"
+              },
+              {
+                "word": "confounding",
+                "gloss": "causing confusion or surprise because something is unexpected"
+              }
+            ]
+          },
+          {
+            "theme": "Cheerful Indifference",
+            "words": [
+              {
+                "word": "blithe",
+                "gloss": "showing a casual, carefree lack of concern"
+              },
+              {
+                "word": "complacency",
+                "gloss": "smug self-satisfaction that leads to a lack of effort or awareness of danger"
+              },
+              {
+                "word": "bourgeois",
+                "gloss": "relating to the comfortable middle class, often suggesting conventional values"
+              },
+              {
+                "word": "beatific",
+                "gloss": "showing great happiness or blessedness"
+              }
+            ]
+          },
+          {
+            "theme": "Speaking Clearly",
+            "words": [
+              {
+                "word": "enunciate",
+                "gloss": "to pronounce words clearly and distinctly"
+              },
+              {
+                "word": "elucidate",
+                "gloss": "to make something clear by explaining it in detail"
+              },
+              {
+                "word": "delineate",
+                "gloss": "to describe or mark out something clearly and precisely"
+              },
+              {
+                "word": "concise",
+                "gloss": "giving information clearly in few words"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "culpable",
+        "culpability",
+        "condemn",
+        "contravene",
+        "enigmatic",
+        "chimerical",
+        "clairvoyance",
+        "confounding",
+        "blithe",
+        "complacency",
+        "bourgeois",
+        "beatific",
+        "enunciate",
+        "elucidate",
+        "delineate",
+        "concise"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Charming and Attractive",
+            "words": [
+              {
+                "word": "comely",
+                "gloss": "pleasant to look at; attractive"
+              },
+              {
+                "word": "captivate",
+                "gloss": "to attract and hold the interest of someone"
+              },
+              {
+                "word": "enthrall",
+                "gloss": "to captivate someone's attention completely"
+              },
+              {
+                "word": "bewitch",
+                "gloss": "to enchant or captivate someone completely"
+              }
+            ]
+          },
+          {
+            "theme": "Coming Together",
+            "words": [
+              {
+                "word": "congregate",
+                "gloss": "to gather together in a crowd or mass"
+              },
+              {
+                "word": "converge",
+                "gloss": "to come together from different directions toward one point"
+              },
+              {
+                "word": "coterie",
+                "gloss": "a small, exclusive group of people with shared interests"
+              },
+              {
+                "word": "clientele",
+                "gloss": "the customers of a business, considered as a group"
+              }
+            ]
+          },
+          {
+            "theme": "Narrowing and Limiting",
+            "words": [
+              {
+                "word": "constrict",
+                "gloss": "to make something narrower by squeezing or pressure"
+              },
+              {
+                "word": "circumscribe",
+                "gloss": "to restrict or limit something within certain boundaries"
+              },
+              {
+                "word": "confine",
+                "gloss": "to keep someone or something within limits"
+              },
+              {
+                "word": "compress",
+                "gloss": "to press or squeeze something into a smaller space"
+              }
+            ]
+          },
+          {
+            "theme": "Feeling Wronged",
+            "words": [
+              {
+                "word": "aggrieve",
+                "gloss": "to cause someone to feel resentment by treating them unfairly"
+              },
+              {
+                "word": "bereft",
+                "gloss": "deprived of or lacking something, often painfully"
+              },
+              {
+                "word": "chagrin",
+                "gloss": "a feeling of annoyance or embarrassment caused by failure or disappointment"
+              },
+              {
+                "word": "consternation",
+                "gloss": "a feeling of anxiety or dismay, often at something unexpected"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "comely",
+        "captivate",
+        "enthrall",
+        "bewitch",
+        "congregate",
+        "converge",
+        "coterie",
+        "clientele",
+        "constrict",
+        "circumscribe",
+        "confine",
+        "compress",
+        "aggrieve",
+        "bereft",
+        "chagrin",
+        "consternation"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Interpret and Understand",
+            "words": [
+              {
+                "word": "construe",
+                "gloss": "to interpret the meaning of words or actions in a particular way"
+              },
+              {
+                "word": "comprehend",
+                "gloss": "to understand something fully"
+              },
+              {
+                "word": "discern",
+                "gloss": "to perceive or recognize something clearly, especially something not obvious"
+              },
+              {
+                "word": "apprise",
+                "gloss": "to inform someone of something"
+              }
+            ]
+          },
+          {
+            "theme": "Stern Discipline",
+            "words": [
+              {
+                "word": "chasten",
+                "gloss": "to correct someone by punishment or criticism in order to improve them"
+              },
+              {
+                "word": "chastened",
+                "gloss": "made humbler or more restrained after a setback or punishment"
+              },
+              {
+                "word": "berate",
+                "gloss": "to scold someone angrily and at length"
+              },
+              {
+                "word": "admonition",
+                "gloss": "a gentle but firm warning or piece of advice"
+              }
+            ]
+          },
+          {
+            "theme": "Mockery and Teasing",
+            "words": [
+              {
+                "word": "derisive",
+                "gloss": "showing scorn or mockery"
+              },
+              {
+                "word": "badinage",
+                "gloss": "playful, teasing conversation"
+              },
+              {
+                "word": "bantering",
+                "gloss": "good-humored and teasing in conversation"
+              },
+              {
+                "word": "barb",
+                "gloss": "a sharp, critical remark"
+              }
+            ]
+          },
+          {
+            "theme": "Recklessness and Boldness",
+            "words": [
+              {
+                "word": "brash",
+                "gloss": "self-assured in a bold or overconfident way"
+              },
+              {
+                "word": "bumptious",
+                "gloss": "annoyingly self-assured or full of self-importance"
+              },
+              {
+                "word": "audacity",
+                "gloss": "bold, sometimes reckless courage or nerve"
+              },
+              {
+                "word": "brazenness",
+                "gloss": "bold and shameless behavior"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "construe",
+        "comprehend",
+        "discern",
+        "apprise",
+        "chasten",
+        "chastened",
+        "berate",
+        "admonition",
+        "derisive",
+        "badinage",
+        "bantering",
+        "barb",
+        "brash",
+        "bumptious",
+        "audacity",
+        "brazenness"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Opposite Extremes",
+            "words": [
+              {
+                "word": "antithesis",
+                "gloss": "the exact opposite of something"
+              },
+              {
+                "word": "dichotomy",
+                "gloss": "a division between two things that are sharply different or opposite"
+              },
+              {
+                "word": "contravene",
+                "gloss": "to act in a way that violates a law or rule"
+              },
+              {
+                "word": "converge",
+                "gloss": "to come together from different directions toward one point"
+              }
+            ]
+          },
+          {
+            "theme": "Lack of Experience",
+            "words": [
+              {
+                "word": "callow",
+                "gloss": "inexperienced and immature"
+              },
+              {
+                "word": "chimerical",
+                "gloss": "unrealistic and existing only in the imagination"
+              },
+              {
+                "word": "benighted",
+                "gloss": "ignorant or unenlightened due to lack of education or information"
+              },
+              {
+                "word": "credulity",
+                "gloss": "a tendency to believe things too readily, without enough evidence"
+              }
+            ]
+          },
+          {
+            "theme": "Calm Negotiation",
+            "words": [
+              {
+                "word": "conciliate",
+                "gloss": "to calm the anger of someone; to reconcile"
+              },
+              {
+                "word": "arbitration",
+                "gloss": "the process of settling a dispute using an independent third party"
+              },
+              {
+                "word": "clemency",
+                "gloss": "mercy shown toward someone who could be treated harshly"
+              },
+              {
+                "word": "compromise",
+                "gloss": "an agreement reached by each side making concessions"
+              }
+            ]
+          },
+          {
+            "theme": "Boastful Talk",
+            "words": [
+              {
+                "word": "bluster",
+                "gloss": "to talk in a loud, forceful, but empty way, often to hide fear"
+              },
+              {
+                "word": "bravado",
+                "gloss": "a bold manner intended to impress or intimidate"
+              },
+              {
+                "word": "audacity",
+                "gloss": "bold, sometimes reckless courage or nerve"
+              },
+              {
+                "word": "brazenness",
+                "gloss": "bold and shameless behavior"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'converge' means coming together, which is nearly the opposite of Opposite Extremes' theme of division, but it is placed there deliberately as an antonym intrusion to test whether students notice a word meaning the reverse of the group's idea.",
+      "words": [
+        "antithesis",
+        "dichotomy",
+        "contravene",
+        "converge",
+        "callow",
+        "chimerical",
+        "benighted",
+        "credulity",
+        "conciliate",
+        "arbitration",
+        "clemency",
+        "compromise",
+        "bluster",
+        "bravado",
+        "audacity",
+        "brazenness"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Excessive Wordiness",
+            "words": [
+              {
+                "word": "circumlocution",
+                "gloss": "the use of many words to say something that could be said more directly"
+              },
+              {
+                "word": "belabor",
+                "gloss": "to argue or discuss a point in excessive detail"
+              },
+              {
+                "word": "compendium",
+                "gloss": "a concise collection of information on a particular subject"
+              },
+              {
+                "word": "diatribe",
+                "gloss": "a long, angry speech or piece of writing criticizing someone"
+              }
+            ]
+          },
+          {
+            "theme": "Worry and Dismay",
+            "words": [
+              {
+                "word": "consternation",
+                "gloss": "a feeling of anxiety or dismay, often at something unexpected"
+              },
+              {
+                "word": "disquiet",
+                "gloss": "a feeling of anxiety or worry"
+              },
+              {
+                "word": "chagrin",
+                "gloss": "a feeling of annoyance or embarrassment caused by failure or disappointment"
+              },
+              {
+                "word": "exasperation",
+                "gloss": "a feeling of intense irritation or frustration"
+              }
+            ]
+          },
+          {
+            "theme": "Plunder and Ruin",
+            "words": [
+              {
+                "word": "despoil",
+                "gloss": "to plunder or destroy the beauty and value of a place"
+              },
+              {
+                "word": "carnage",
+                "gloss": "widespread and violent killing or destruction"
+              },
+              {
+                "word": "calamity",
+                "gloss": "an event causing great and often sudden damage or distress"
+              },
+              {
+                "word": "beleaguer",
+                "gloss": "to trouble persistently, or to surround with problems"
+              }
+            ]
+          },
+          {
+            "theme": "Sacred Devotion",
+            "words": [
+              {
+                "word": "consecrate",
+                "gloss": "to declare something sacred or dedicate it to a special purpose"
+              },
+              {
+                "word": "cloister",
+                "gloss": "a place of religious seclusion, such as a monastery or convent"
+              },
+              {
+                "word": "chastity",
+                "gloss": "the state of not engaging in sexual activity; moral purity"
+              },
+              {
+                "word": "beatific",
+                "gloss": "showing great happiness or blessedness"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'compendium' is actually a concise, short collection of information — the opposite of wordiness — but it's placed with Excessive Wordiness as a deliberate antonym trap testing careful reading of definitions rather than surface association with 'a lot of information.'",
+      "words": [
+        "circumlocution",
+        "belabor",
+        "compendium",
+        "diatribe",
+        "consternation",
+        "disquiet",
+        "chagrin",
+        "exasperation",
+        "despoil",
+        "carnage",
+        "calamity",
+        "beleaguer",
+        "consecrate",
+        "cloister",
+        "chastity",
+        "beatific"
+      ]
+    }
+  ]
+}

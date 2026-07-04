@@ -1,0 +1,1204 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A team of marine ecologists tracking coral bleaching across the Pacific proposed that reefs exposed to naturally fluctuating temperatures would remain more viable under heat stress than reefs in thermally stable lagoons.",
+          "Over three years they measured bleaching severity at forty sites, finding that reefs with daily swings of at least two degrees Celsius bleached thirty-five percent less often during marine heat waves.",
+          "The team was vehement that repeated minor thermal stress primes coral symbionts to tolerate sudden spikes, a process they termed acquired thermal tolerance.",
+          "Critics countered that the sampled reefs also differed in nutrient exposure, which could independently explain the gap, but the original team still regards temperature variability as the strongest predictor in their data."
+        ],
+        "question": "Which choice best states the main finding of the study?",
+        "options": [
+          {
+            "t": "Coral bleaching is caused mainly by nutrient pollution rather than temperature change.",
+            "trap": "not stated; nutrients appear only as a rival explanation, not the study's finding"
+          },
+          {
+            "t": "Stable-temperature lagoons are the healthiest reef ecosystems overall.",
+            "trap": "opposite of what the data show"
+          },
+          {
+            "t": "Reefs accustomed to variable temperatures bleached less than reefs in stable conditions during heat waves.",
+            "correct": true
+          },
+          {
+            "t": "All coral reefs will eventually bleach no matter their temperature history.",
+            "trap": "too extreme; the passage shows a measurable difference, not inevitability"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence reports the specific thirty-five percent difference tied to temperature variability."
+      },
+      "explanation": null,
+      "words": [
+        "viable",
+        "vehement"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Botanists studying drought-stressed wheat noticed that some strains wilted dramatically while others in the same field remained upright.",
+          "Genetic sequencing revealed that the surviving strains carried a variant gene that triggers early, stringent closure of leaf pores under water stress, reducing moisture loss.",
+          "When researchers bred this variant into a commercial wheat line, yields dropped only twelve percent during a simulated drought, compared to a forty percent drop in unmodified crops.",
+          "At least one critic of the approach notes that pore closure also limits carbon dioxide intake, which could reduce yields in years of adequate rainfall.",
+          "The research team, describing their approach as staid rather than radical, is now testing whether the trait can be switched on only when soil moisture falls below a threshold."
+        ],
+        "question": "Which choice best describes the overall relationship presented between the gene variant and crop yield?",
+        "options": [
+          {
+            "t": "The variant improves yield during drought but may carry a tradeoff in wetter conditions.",
+            "correct": true
+          },
+          {
+            "t": "The variant guarantees higher yields in all weather conditions.",
+            "trap": "too broad; the passage notes a possible tradeoff in wet years"
+          },
+          {
+            "t": "The variant has no measurable effect on wheat survival.",
+            "trap": "opposite; a large yield difference was measured"
+          },
+          {
+            "t": "The variant was rejected by researchers as unworkable.",
+            "trap": "not stated; researchers are still testing refinements, not abandoning it"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence identifies the specific drawback (reduced carbon dioxide intake) that qualifies the otherwise positive drought result."
+      },
+      "explanation": null,
+      "words": [
+        "stringent",
+        "staid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Urban planners in a mid-sized city wanted to know whether adding protected bike lanes would reduce car traffic on nearby streets.",
+          "They installed lanes on three parallel corridors and, using traffic sensors, compared vehicle counts before and after installation.",
+          "Car volume on the corridors with new lanes fell by an average of eighteen percent within six months, while a control corridor without lanes saw no significant change.",
+          "Bicycle counts on the modified corridors rose by roughly the same percentage that car traffic fell, suggesting many residents substituted cycling for driving rather than simply rerouting their cars elsewhere.",
+          "The planners caution that a single mid-sized city cannot substantiate claims about how the strategy would work in denser metropolises, though they credit the local council's civility during public feedback sessions for the project's smooth rollout."
+        ],
+        "question": "What is the main idea the passage conveys about the traffic study's findings?",
+        "options": [
+          {
+            "t": "Protected bike lanes have no effect on how residents choose to travel.",
+            "trap": "opposite; the data show a clear shift"
+          },
+          {
+            "t": "Adding protected bike lanes appeared to shift some residents from driving to cycling rather than merely displacing traffic.",
+            "correct": true
+          },
+          {
+            "t": "The study proves bike lanes will work identically in every city.",
+            "trap": "contradicted by the planners' own caution about generalizing"
+          },
+          {
+            "t": "Car traffic increased on corridors after bike lanes were installed.",
+            "trap": "opposite of the eighteen percent decrease reported"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence draws the direct comparison between the drop in car traffic and the corresponding rise in cycling, supporting substitution rather than displacement."
+      },
+      "explanation": null,
+      "words": [
+        "substantiate",
+        "civility"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Astronomers analyzing light from a distant star system detected a periodic dimming that repeated every eleven days.",
+          "Initial models suggested a planet was passing in front of the star, but the dimming pattern was oddly irregular in depth from one cycle to the next.",
+          "Follow-up observations with a more sensitive instrument attributed the variation to a ring of dust orbiting the star at roughly the same distance as the originally proposed planet.",
+          "The dust ring, rather than a solid planetary body, better explains why the dimming varies unpredictably, since dust density fluctuates as the ring is disturbed by gravitational interactions, an insight astronomers found genuinely astute once they reconsidered the data.",
+          "The team is careful to note that a planet embedded within the dust ring has not been ruled out entirely, and they intend to attest to the ring's true composition only once spectral data confirm it."
+        ],
+        "question": "Based on the passage, which choice best describes how the astronomers' explanation for the dimming changed?",
+        "options": [
+          {
+            "t": "They confirmed a planet was the sole cause of the dimming and ruled out all other explanations.",
+            "trap": "contradicted; a planet has not been ruled out, but dust is now favored"
+          },
+          {
+            "t": "They determined the dimming was caused by an instrument malfunction.",
+            "trap": "not stated anywhere in the passage"
+          },
+          {
+            "t": "They abandoned the investigation after the irregular results appeared.",
+            "trap": "opposite; follow-up observations continued"
+          },
+          {
+            "t": "They shifted from a simple planet-transit explanation to one involving an irregular dust ring, without fully excluding a planet.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains why the dust-ring model accounts for the irregular dimming better than the original planet-transit hypothesis."
+      },
+      "explanation": null,
+      "words": [
+        "attest",
+        "astute"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Public health researchers wanted to know whether short midday walking breaks could offset the health effects of prolonged desk sitting.",
+          "They recruited office workers and split them into two groups: one took three ten-minute walks daily, the other continued its usual sedentary routine.",
+          "After eight weeks, the walking group showed measurably lower average blood sugar spikes after lunch than the sedentary group, even though total daily activity outside work hours was similar between groups.",
+          "Researchers were sedulous in controlling for diet, requiring participants to log every meal, which strengthens confidence that the walking breaks themselves drove the effect.",
+          "They note the study cannot show whether the benefit would persist beyond eight weeks or scale to workers with existing metabolic conditions, a caveat that tempers any allure the finding might otherwise hold for employers."
+        ],
+        "question": "Which choice best captures the significance of the researchers' effort to log participants' meals?",
+        "options": [
+          {
+            "t": "It helps rule out diet as an alternative explanation for the walking group's improved blood sugar results.",
+            "correct": true
+          },
+          {
+            "t": "It shows that diet was the true cause of the blood sugar improvements.",
+            "trap": "opposite; logging meals was meant to control for diet, not credit it"
+          },
+          {
+            "t": "It proves the walking breaks had no effect on health outcomes.",
+            "trap": "contradicted; the walking group showed a measurable benefit"
+          },
+          {
+            "t": "It was required because participants were dishonest about their exercise habits.",
+            "trap": "not stated; logging concerned meals, not exercise honesty"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly explains that careful diet logging strengthens the causal claim about the walking breaks."
+      },
+      "explanation": null,
+      "words": [
+        "sedulous",
+        "allure"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A group of cognitive scientists tested whether background music helps or hinders memorization by having volunteers memorize word lists under three conditions: silence, instrumental music, and music with lyrics.",
+          "Recall scores were nearly identical between the silence and instrumental conditions, but scores dropped by an average of twenty percent when lyrics were present.",
+          "The researchers construe this pattern to mean that language processing, not sound in general, competes with memory encoding, since lyrics engage the same verbal system used to memorize words.",
+          "They were careful to note their volunteers were all fluent English speakers, so the effect of lyrics in an unfamiliar language remains untested.",
+          "A colleague's related study found that visual distractions produced a similar drop, a corollary finding that suggests the effect may not be unique to language."
+        ],
+        "question": "According to the passage, what evidence supports the researchers' claim that verbal processing specifically interferes with memorization?",
+        "options": [
+          {
+            "t": "All three listening conditions produced identical recall scores.",
+            "trap": "contradicted; the lyrics condition showed a clear decline"
+          },
+          {
+            "t": "Visual distractions had no effect on recall in any study.",
+            "trap": "opposite; a colleague's study found a similar drop from visual distraction"
+          },
+          {
+            "t": "Volunteers who spoke multiple languages performed best overall.",
+            "trap": "not stated; language proficiency beyond English was not tested"
+          },
+          {
+            "t": "Recall dropped only when lyrics, not instrumental music, were present, while silence and instrumental scores matched.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "This sentence reports the specific score pattern that supports the verbal-interference conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "construe",
+        "corollary"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Seismologists monitoring a fault line noticed clusters of small tremors preceding two of the past three major earthquakes in the region.",
+          "To test whether this pattern was more than mere conjecture, they analyzed forty years of seismic records for similar tremor clusters.",
+          "The tremor clusters preceded major earthquakes only eleven percent of the time across the full dataset, far too low a rate to be considered a reliable predictor.",
+          "Nonetheless, the researchers assert that combining tremor data with ground-strain measurements might one day help avert disaster by yielding a more accurate warning model.",
+          "For now, they caution residents against treating any tremor cluster as a confirmed warning sign, however tempting the pattern may seem."
+        ],
+        "question": "Which choice best reflects the researchers' overall conclusion about tremor clusters as an earthquake predictor?",
+        "options": [
+          {
+            "t": "Tremor clusters reliably predict major earthquakes in this region.",
+            "trap": "contradicted by the eleven percent rate reported"
+          },
+          {
+            "t": "Tremor clusters alone are not a reliable predictor, though combined data might eventually improve prediction.",
+            "correct": true
+          },
+          {
+            "t": "The researchers have already built a fully reliable warning system.",
+            "trap": "too strong; described as a future possibility, not an achievement"
+          },
+          {
+            "t": "Seismic tremors have no relationship to earthquakes whatsoever.",
+            "trap": "overstated; a relationship exists, just not a reliable one"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence gives the specific eleven percent figure that undermines tremor clusters as a standalone predictor."
+      },
+      "explanation": null,
+      "words": [
+        "conjecture",
+        "avert"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "A pharmaceutical trial tested whether a new anti-inflammatory drug could reduce joint pain in patients with early-stage arthritis.",
+          "Patients receiving the drug reported a forty percent reduction in pain scores over twelve weeks, compared to an eighteen percent reduction in the placebo group.",
+          "However, patients on the drug also reported mild digestive discomfort at nearly triple the rate of the placebo group.",
+          "The researchers were solicitous about recommending widespread use too quickly, noting the tradeoff between symptom relief and side effects needs further study in larger populations.",
+          "They plan a follow-up trial to appraise whether a lower dose preserves the pain-relief benefit while reducing digestive side effects."
+        ],
+        "question": "Which choice best captures the researchers' attitude toward the drug's overall results?",
+        "options": [
+          {
+            "t": "They are cautiously optimistic, recognizing real benefits but wanting more data on side effects before wide use.",
+            "correct": true
+          },
+          {
+            "t": "They are fully confident the drug should be prescribed immediately to all arthritis patients.",
+            "trap": "contradicted; they call for further study before recommending widespread use"
+          },
+          {
+            "t": "They believe the drug is ineffective and should be discontinued.",
+            "trap": "opposite; the drug showed a meaningfully larger pain reduction than placebo"
+          },
+          {
+            "t": "They found the digestive side effects to be more severe than the pain relief was beneficial.",
+            "trap": "not stated; severity comparison is not made, only frequency"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly states the researchers' hesitance, weighing benefit against side effects before endorsing wider use."
+      },
+      "explanation": null,
+      "words": [
+        "solicitous",
+        "appraise"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ornithologists studying migratory songbirds wanted to know how artificial light at night affects the timing of spring migration.",
+          "Using GPS trackers on two hundred birds, they compared departure dates for birds wintering near brightly lit cities versus those in darker rural areas.",
+          "Birds near cities departed for their breeding grounds an average of six days earlier than rural birds, even when temperature and food availability were statistically controlled.",
+          "The researchers ascribe the shift to artificial light disrupting the birds' internal clocks, tricking them into perceiving longer days than actually occur.",
+          "They are careful not to claim earlier departure is necessarily harmful, since its effect on breeding success has not yet been measured, and they plan to track the same birds with assiduity for several more seasons."
+        ],
+        "question": "What is the central question this passage addresses?",
+        "options": [
+          {
+            "t": "Whether songbirds can survive without any light at night.",
+            "trap": "not stated; the study concerns timing, not survival without light"
+          },
+          {
+            "t": "Whether artificial light near cities is associated with earlier onset of spring migration in songbirds.",
+            "correct": true
+          },
+          {
+            "t": "Whether temperature is the primary cause of migration timing differences.",
+            "trap": "opposite; temperature was controlled for, not identified as the cause"
+          },
+          {
+            "t": "Whether urban birds are more successful breeders than rural birds.",
+            "trap": "not stated; breeding success was explicitly not measured"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence presents the key comparative finding, the six-day gap, that the rest of the passage seeks to explain."
+      },
+      "explanation": null,
+      "words": [
+        "ascribe",
+        "assiduity"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Materials scientists investigating why some ceramic coatings crack under thermal stress compared coatings made with two different cooling rates.",
+          "Coatings cooled slowly formed larger, more uniform crystal grains, while rapidly cooled coatings formed smaller, sparse, uneven grains with more internal stress points.",
+          "In stress tests simulating repeated heating and cooling cycles, slowly cooled coatings survived roughly three times as many cycles before visible cracking.",
+          "The team attributes this durability to the more uniform grain structure, which distributes thermal stress more evenly across the material.",
+          "They note that slow cooling is more costly for manufacturers, creating a tradeoff between durability and production expense that could stymie wider adoption."
+        ],
+        "question": "Which choice best identifies the tradeoff discussed in the passage?",
+        "options": [
+          {
+            "t": "Between grain size and coating color.",
+            "trap": "not stated; color is never mentioned"
+          },
+          {
+            "t": "Between manufacturing cost and coating durability.",
+            "correct": true
+          },
+          {
+            "t": "Between thermal stress and coating weight.",
+            "trap": "not stated; weight is not discussed"
+          },
+          {
+            "t": "Between rapid cooling and improved durability.",
+            "trap": "opposite; rapid cooling was linked to reduced durability"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explicitly names the tradeoff between the expense of slow cooling and the durability benefit it provides."
+      },
+      "explanation": null,
+      "words": [
+        "stymie",
+        "sparse"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Psychologists studying decision fatigue asked whether judges' rulings become harsher as the workday progresses.",
+          "Analyzing thousands of parole board decisions, researchers found that the rate of favorable rulings dropped steadily across each session, from about sixty-five percent early in the morning to nearly zero right before a break.",
+          "After each break, favorable ruling rates jumped back up to the morning's level, only to decline again as the next session wore on.",
+          "The pattern held across different judges and case types, which the researchers argue makes fatigue, rather than the merits of individual cases, the more plausible explanation for the swings, a finding they say should prompt courts to reconsider hearing schedules and perhaps allay concerns about arbitrary rulings.",
+          "Some legal scholars remain a skeptic of the fatigue explanation, contending that unmeasured factors, such as the order in which cases were scheduled, could also explain the pattern."
+        ],
+        "question": "Which choice best states the researchers' central claim about the parole ruling data?",
+        "options": [
+          {
+            "t": "Judges intentionally deny parole more often to prisoners scheduled later in the day.",
+            "trap": "not stated; intent is not claimed, only a correlation with time"
+          },
+          {
+            "t": "The severity of individual cases explains the changes in ruling rates.",
+            "trap": "opposite; researchers argue case merits are less plausible than fatigue"
+          },
+          {
+            "t": "Ruling rates were constant throughout the day regardless of breaks.",
+            "trap": "contradicted by the described decline-and-reset pattern"
+          },
+          {
+            "t": "Decision fatigue, evidenced by a decline and reset pattern around breaks, likely drives fluctuations in favorable rulings.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence describes the reset pattern after breaks, which is the key evidence pointing toward fatigue rather than case merits."
+      },
+      "explanation": null,
+      "words": [
+        "skeptic",
+        "allay"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Climate scientists studying Arctic permafrost wanted to gauge how quickly thawing soil releases stored carbon into the atmosphere.",
+          "They buried sensors at various depths across twelve sites and monitored carbon dioxide and methane emissions over five summers.",
+          "Sites that thawed to a depth of at least one meter released nearly triple the methane of sites that thawed to half a meter or less, even though carbon dioxide release scaled more gradually with thaw depth.",
+          "The researchers infer that methane-producing microbes become active only once thawing reaches deeper, oxygen-poor soil layers, while concurrent carbon dioxide-producing processes operate at shallower depths as well.",
+          "They emphasize that current climate models likely underestimate methane's contribution and should augment their thaw-depth resolution, since most models track thaw depth only in broad averages, missing these deep-thaw hotspots."
+        ],
+        "question": "Which choice best explains why the researchers believe current climate models may be inaccurate?",
+        "options": [
+          {
+            "t": "Models overestimate the amount of carbon dioxide released from permafrost.",
+            "trap": "not stated; the passage does not claim carbon dioxide estimates are inaccurate"
+          },
+          {
+            "t": "Models assume permafrost never thaws at all.",
+            "trap": "contradicted; the passage assumes thawing as a starting premise"
+          },
+          {
+            "t": "Models fail to account for methane release variation tied to specific thaw depths, since they average thaw measurements broadly.",
+            "correct": true
+          },
+          {
+            "t": "Models correctly capture all methane-producing processes in deep soil layers.",
+            "trap": "opposite; this is exactly what the researchers say is missed"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explicitly states the researchers' concern about models missing deep-thaw hotspots due to broad averaging."
+      },
+      "explanation": null,
+      "words": [
+        "concurrent",
+        "augment"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Nutrition scientists set out to test whether intermittent fasting produces greater fat loss than simply reducing daily calorie intake by the same overall amount.",
+          "Over twelve weeks, one group ate all meals within an eight-hour window each day, while a matched-calorie group ate three meals spread across a normal day.",
+          "Both groups lost a similar amount of body fat on average, with no statistically significant difference between the two approaches.",
+          "The intermittent fasting group did report feeling less hungry overall, which the researchers say may make the approach easier to sustain long-term even without a metabolic advantage, a practical benefit they hope will assuage skepticism about the diet's usefulness.",
+          "They caution that individual responses varied widely, and some participants in each group lost little to no fat at all, a variegated outcome the researchers attribute to differences in adherence."
+        ],
+        "question": "What is the main point the passage makes about intermittent fasting compared to standard calorie reduction?",
+        "options": [
+          {
+            "t": "Intermittent fasting produces dramatically more fat loss than standard calorie reduction.",
+            "trap": "contradicted; the two approaches produced similar fat loss"
+          },
+          {
+            "t": "Standard calorie reduction is proven to be more effective than fasting.",
+            "trap": "opposite; no significant difference was found between groups"
+          },
+          {
+            "t": "Neither approach produced any fat loss in any participant.",
+            "trap": "too extreme; some participants in each group did lose fat"
+          },
+          {
+            "t": "Fat loss results were similar between approaches, though fasting may offer a practical advantage in reduced hunger.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence identifies the practical benefit, reduced hunger, that the researchers highlight despite the similar fat-loss outcomes."
+      },
+      "explanation": null,
+      "words": [
+        "variegated",
+        "assuage"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Linguists studying children's early vocabulary wanted to determine whether hearing multiple languages at home slows early word acquisition.",
+          "They tracked vocabulary growth in bilingual and monolingual toddlers from twelve to thirty months, counting words understood in any language the child spoke.",
+          "When counted across all languages combined, bilingual toddlers' total vocabularies grew at rates comparable to monolingual toddlers, though their vocabulary in each single language was often smaller.",
+          "The researchers conclude that apparent early bilingual delays reported in past studies likely stemmed from counting only one language rather than a child's full linguistic repertoire, a methodological oversight they hope to amend in future guidelines.",
+          "They advocate that future assessments of bilingual children measure combined vocabulary rather than any single language in isolation."
+        ],
+        "question": "Which choice best identifies the flaw the researchers attribute to past studies of bilingual vocabulary?",
+        "options": [
+          {
+            "t": "Past studies used too few bilingual children to reach reliable conclusions.",
+            "trap": "not stated; sample size is not identified as the flaw"
+          },
+          {
+            "t": "Past studies measured vocabulary only in one language instead of the child's combined repertoire.",
+            "correct": true
+          },
+          {
+            "t": "Past studies ignored monolingual children entirely.",
+            "trap": "not stated; monolingual children were included as a comparison group"
+          },
+          {
+            "t": "Past studies found bilingual children had larger vocabularies than they actually did.",
+            "trap": "opposite; past studies reportedly showed delays, not inflated vocabularies"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explicitly names the methodological flaw of counting one language rather than the full repertoire."
+      },
+      "explanation": null,
+      "words": [
+        "advocate",
+        "amend"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Engineers testing a new battery chemistry wanted to know whether it could maintain performance across thousands of charge cycles better than standard lithium-ion cells.",
+          "After three thousand simulated charge cycles, the new cells retained eighty-nine percent of their original capacity, compared to seventy-one percent retained by standard cells under identical conditions.",
+          "The new chemistry also charged to eighty percent capacity in roughly half the time required by standard cells.",
+          "Engineers attribute both improvements to a modified electrode coating that reduces the buildup of resistance-increasing byproducts during charging.",
+          "They acknowledge the new cells cost more to manufacture, and it remains unclear whether the longer lifespan will bolster their appeal enough to offset that higher upfront cost for consumers.",
+          "Reviewers note that manufacturing costs typically fall as a technology matures, a subtle shift that could favor the new cells within a few years."
+        ],
+        "question": "Which choice best states the passage's main point about the tradeoffs of the new battery chemistry?",
+        "options": [
+          {
+            "t": "The new cells are strictly worse than standard lithium-ion cells in every respect.",
+            "trap": "opposite; the new cells outperformed on capacity retention and charge speed"
+          },
+          {
+            "t": "The new cells cost less to manufacture than standard cells.",
+            "trap": "opposite; the passage states they cost more"
+          },
+          {
+            "t": "The electrode coating has no effect on charging speed or capacity.",
+            "trap": "contradicted; the coating is credited with both improvements"
+          },
+          {
+            "t": "The new cells outperform standard cells on capacity retention and charging speed, but at a higher manufacturing cost with uncertain overall value.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence introduces the cost tradeoff that qualifies the otherwise favorable performance results."
+      },
+      "explanation": null,
+      "words": [
+        "bolster",
+        "subtle"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Behavioral economists studying online shopping wanted to know whether displaying a countdown timer on sale items changes purchasing behavior.",
+          "In a controlled experiment across an online retailer's site, half of visitors saw a timer counting down the sale's end, while the other half saw no timer at all.",
+          "Visitors who saw the timer were twenty-two percent more likely to complete a purchase within the session, and did so nearly forty percent faster on average, a result the retailer's marketing team was eager to captivate other clients with.",
+          "The researchers note the effect was strongest among first-time visitors, who lacked prior experience with the retailer's sales patterns and may have taken the countdown more literally, a naivete the design seems to exploit.",
+          "Returning customers, familiar with how often sales recur, remained comparatively aloof to the urgency cue and showed only a marginal increase in purchase likelihood."
+        ],
+        "question": "Which choice best explains why the countdown timer's effect differed between first-time and returning visitors?",
+        "options": [
+          {
+            "t": "First-time visitors were less likely to make any purchase at all.",
+            "trap": "opposite; first-time visitors showed the larger purchase increase"
+          },
+          {
+            "t": "Returning customers saw a different, more effective version of the timer.",
+            "trap": "not stated; all visitors within a condition saw the same timer"
+          },
+          {
+            "t": "The countdown timer had an identical effect on both groups.",
+            "trap": "contradicted; the effect was much smaller for returning customers"
+          },
+          {
+            "t": "Returning customers' familiarity with recurring sales made them less swayed by urgency cues than first-time visitors.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence directly contrasts the smaller effect on returning customers with the stronger effect on first-time visitors described earlier."
+      },
+      "explanation": null,
+      "words": [
+        "aloof",
+        "captivate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Entomologists studying bee colony collapse wanted to isolate whether a specific pesticide, rather than habitat loss, was the primary driver of recent declines.",
+          "They exposed colonies to controlled doses of the pesticide in enclosed fields with otherwise identical habitat quality, food availability, and colony size.",
+          "Colonies exposed to even low pesticide doses showed a forty-five percent higher mortality rate over one season compared to unexposed colonies in the same habitat, a calamity for local beekeepers who depend on healthy hives.",
+          "Because habitat and food access were held constant across all colonies, the researchers argue the mortality difference can be attributed to the pesticide rather than confounding environmental factors.",
+          "They remain cognizant that expanded field trials are needed, since real-world exposure levels are typically lower than those used in the controlled test."
+        ],
+        "question": "Which choice best explains why the researchers can attribute the mortality difference to the pesticide specifically?",
+        "options": [
+          {
+            "t": "They tested only colonies that were already declining before the experiment began.",
+            "trap": "not stated; nothing indicates prior decline in the tested colonies"
+          },
+          {
+            "t": "They used pesticide doses far higher than any bee would encounter in the wild.",
+            "trap": "opposite; the passage notes real-world exposure is typically lower, but this isn't the reason cited for the causal attribution"
+          },
+          {
+            "t": "They held habitat, food access, and colony size constant across exposed and unexposed groups.",
+            "correct": true
+          },
+          {
+            "t": "They found habitat loss to be a larger factor than the pesticide.",
+            "trap": "contradicted; the study's design was meant to isolate the pesticide's effect"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the controlled-variable logic that allows researchers to isolate the pesticide as the cause."
+      },
+      "explanation": null,
+      "words": [
+        "cognizant",
+        "calamity"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Sleep researchers wanted to test the popular claim that blue light from screens before bed meaningfully delays the onset of sleep.",
+          "Volunteers read either on a backlit tablet or a printed book for one hour before their usual bedtime, and researchers measured the time it took each group to fall asleep.",
+          "Tablet readers took an average of ten additional minutes to fall asleep compared to book readers, a modest but statistically real difference that researchers were careful not to overstate or aggrandize in their initial report.",
+          "However, when volunteers used tablets with a nighttime filter that reduced blue light output, the sleep delay shrank to only two minutes, nearly matching the book readers, a subsequent result that clarified the earlier finding.",
+          "The researchers concluded that blue light exposure, not screen use itself, accounts for most of the delay commonly blamed on devices before bed."
+        ],
+        "question": "Which choice best identifies the evidence that isolates blue light, rather than screen use generally, as the cause of delayed sleep?",
+        "options": [
+          {
+            "t": "Filtering blue light on the tablet nearly eliminated the sleep delay seen with unfiltered tablets.",
+            "correct": true
+          },
+          {
+            "t": "Tablet readers took longer to fall asleep than book readers in the initial comparison.",
+            "trap": "too narrow; this alone does not separate blue light from other aspects of screen use"
+          },
+          {
+            "t": "Book readers experienced no change in their sleep onset time across all conditions.",
+            "trap": "true but does not by itself isolate blue light as the specific cause"
+          },
+          {
+            "t": "Volunteers who used tablets reported feeling less tired than book readers.",
+            "trap": "not stated; feelings of tiredness are not mentioned"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows that removing blue light specifically, while keeping the tablet and screen use otherwise the same, nearly eliminated the delay."
+      },
+      "explanation": null,
+      "words": [
+        "subsequent",
+        "aggrandize"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Oceanographers studying microplastic pollution wanted to know how far plastic particles travel from coastal cities before settling on the seafloor.",
+          "Using sediment samples collected at increasing distances from three major port cities, they measured microplastic concentration at each site.",
+          "Concentrations dropped sharply within the first twenty kilometers from shore but then leveled off, remaining detectable even ninety kilometers out.",
+          "The pattern seemed to confound the researchers at first, since prevailing ocean-current models predicted particles would disperse much more evenly rather than clustering near shore before leveling off.",
+          "They now suspect an unmapped seafloor current may be trapping particles closer to the coast before slower currents redistribute the remainder farther out, an idea they intend to convey to colleagues once direct current measurements confirm it."
+        ],
+        "question": "Which choice best describes the researchers' reaction to the distribution pattern they observed?",
+        "options": [
+          {
+            "t": "They were unsurprised, since the pattern matched their models exactly.",
+            "trap": "opposite; the passage says the pattern confounded the researchers"
+          },
+          {
+            "t": "They immediately concluded the sediment samples were contaminated.",
+            "trap": "not stated; contamination is never mentioned"
+          },
+          {
+            "t": "They were puzzled because the pattern did not match what existing current models had predicted.",
+            "correct": true
+          },
+          {
+            "t": "They determined that microplastics never travel more than twenty kilometers from shore.",
+            "trap": "contradicted; particles were detected even ninety kilometers out"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence states the researchers' surprise and explains the mismatch with existing current models."
+      },
+      "explanation": null,
+      "words": [
+        "confound",
+        "convey"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Agricultural scientists testing a new irrigation method wanted to know whether it could reduce water use without reducing crop yield.",
+          "The method delivers water directly to root zones through buried tubes rather than spraying fields from above.",
+          "Fields using the buried system used thirty percent less water over a growing season while producing yields statistically indistinguishable from traditionally irrigated fields.",
+          "The researchers attribute the savings to reduced evaporation, since water reaches roots directly rather than sitting on the soil surface where it can evaporate in the sun, a mechanism that appears to conform to basic principles of soil physics.",
+          "Adoption has been sporadic, however, because the upfront installation cost of the buried tubing remains a barrier for smaller farms."
+        ],
+        "question": "Which choice best states the main tradeoff the passage identifies for the new irrigation method?",
+        "options": [
+          {
+            "t": "It increases both water use and cost compared to traditional irrigation.",
+            "trap": "opposite; water use decreased, and cost is only mentioned as an installation barrier"
+          },
+          {
+            "t": "It reduces crop yield significantly in exchange for water savings.",
+            "trap": "contradicted; yields were statistically indistinguishable"
+          },
+          {
+            "t": "It has been widely adopted by farms of all sizes already.",
+            "trap": "contradicted; adoption has been slow due to cost"
+          },
+          {
+            "t": "It reduces water use and maintains yield, but its installation cost limits adoption by smaller farms.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence names the cost barrier that qualifies the otherwise favorable water-savings result."
+      },
+      "explanation": null,
+      "words": [
+        "sporadic",
+        "conform"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Neuroscientists studying memory consolidation wondered whether a short nap after learning new material improves later recall more than an equivalent period of quiet rest.",
+          "Participants learned a list of word pairs, then either napped for ninety minutes or sat quietly reading in a dim room for the same duration.",
+          "When tested six hours later, the nap group recalled roughly fifteen percent more word pairs than the quiet-rest group.",
+          "Brain scans during the nap revealed bursts of activity in regions associated with memory consolidation that were largely absent in the quiet-rest group's recordings, a contrast vivid enough to bewilder even skeptical colleagues at a recent conference.",
+          "The researchers strike a sober tone about extending this finding to real-world study habits, since the laboratory nap environment was tightly controlled in ways a typical afternoon nap is not."
+        ],
+        "question": "Which choice best describes the researchers' stance on applying their findings beyond the laboratory?",
+        "options": [
+          {
+            "t": "They are certain the findings apply directly to any nap taken during a normal day.",
+            "trap": "opposite; the passage describes the researchers' tone as sober and measured, not certain"
+          },
+          {
+            "t": "They believe quiet rest is superior to napping for memory consolidation.",
+            "trap": "opposite; the nap group recalled more word pairs"
+          },
+          {
+            "t": "They are cautious, noting that real-world napping conditions differ from the controlled study environment.",
+            "correct": true
+          },
+          {
+            "t": "They found no difference in brain activity between the two groups.",
+            "trap": "contradicted; the nap group showed distinct bursts of activity"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence directly states the researchers' hesitance about generalizing beyond the controlled lab setting."
+      },
+      "explanation": null,
+      "words": [
+        "sober",
+        "bewilder"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Volcanologists monitoring a long-dormant volcano wanted to determine whether subtle ground swelling indicated rising magma or simply shifting groundwater.",
+          "They installed sensors to track ground deformation alongside separate sensors measuring local groundwater table depth over eighteen months.",
+          "Ground swelling correlated closely with seasonal rainfall and groundwater fluctuations, rising and falling in patterns that tracked precipitation rather than any deeper geological activity, a correlation strong enough to alleviate initial fears of an imminent eruption.",
+          "Gas emissions from the volcano's vents, monitored during the same period, showed no corresponding increase in sulfur compounds typically associated with rising magma.",
+          "The team concluded that the swelling most plausibly reflects hydrological changes rather than volcanic reawakening, though they remain vigilant and continue monitoring given the volcano's history."
+        ],
+        "question": "Which choice best identifies the evidence that most directly supports the conclusion that groundwater, not magma, caused the swelling?",
+        "options": [
+          {
+            "t": "The volcano had been dormant for a long period before the study began.",
+            "trap": "background context, not evidence distinguishing the two explanations"
+          },
+          {
+            "t": "Gas emissions showed no increase in sulfur compounds typically linked to rising magma.",
+            "correct": true
+          },
+          {
+            "t": "Sensors were installed to track deformation over eighteen months.",
+            "trap": "describes methodology, not a finding that favors one explanation"
+          },
+          {
+            "t": "The team plans to continue monitoring the volcano.",
+            "trap": "describes future plans, not evidence for the current conclusion"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence provides a specific measurement, absence of sulfur compound increases, that directly weakens the magma explanation."
+      },
+      "explanation": null,
+      "words": [
+        "vigilant",
+        "alleviate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Sociologists studying social media use wanted to know whether time spent on platforms correlates with reported loneliness among teenagers.",
+          "Surveying three thousand teens, they found that overall time spent on social media showed only a weak correlation with loneliness scores.",
+          "When they distinguished between passive scrolling and active messaging with friends, however, passive scrolling correlated strongly with higher loneliness, while active messaging correlated with lower loneliness, a divergence tangible enough to reshape the research team's entire framework.",
+          "The researchers argue that treating all social media use as a single category obscures this important distinction, since the two behaviors appear to have opposite associations with wellbeing, a pattern that could confer real benefit if platforms nudged teens toward messaging over scrolling.",
+          "They recommend future studies measure how teens use these platforms rather than simply how long they use them."
+        ],
+        "question": "Which choice best states the researchers' central argument about measuring social media's effects?",
+        "options": [
+          {
+            "t": "Passive scrolling and active messaging appear to have different, even opposite, associations with loneliness, so how teens use platforms matters more than how long.",
+            "correct": true
+          },
+          {
+            "t": "Total screen time is the only meaningful variable in studying loneliness.",
+            "trap": "opposite; the passage argues total time obscures an important distinction"
+          },
+          {
+            "t": "Social media use has no relationship to loneliness in any form.",
+            "trap": "contradicted; specific forms of use did correlate with loneliness"
+          },
+          {
+            "t": "Active messaging causes higher loneliness than passive scrolling.",
+            "trap": "opposite; active messaging correlated with lower loneliness"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly states the researchers' argument that lumping different behaviors together obscures opposite associations."
+      },
+      "explanation": null,
+      "words": [
+        "confer",
+        "tangible"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Chemists studying plastic degradation wanted to know whether a newly discovered bacterial enzyme could break down polyethylene terephthalate, a common plastic, faster than previously known enzymes.",
+          "In lab trials, the new enzyme degraded plastic samples about six times faster than the best-performing enzyme identified a decade earlier.",
+          "The chemists were tenacious in testing the enzyme across a range of temperatures, eventually finding that it worked best at a temperature achievable in industrial composting facilities.",
+          "They caution that trials so far have used pre-shredded plastic, and intact plastic bottles or containers may degrade far more slowly under the same conditions.",
+          "Scaling the process to handle full-sized waste streams remains the next major hurdle, a tedious engineering challenge that stands before any industrial application is feasible."
+        ],
+        "question": "Which choice best describes a limitation the passage identifies in the enzyme research?",
+        "options": [
+          {
+            "t": "The enzyme fails to degrade plastic at any temperature tested.",
+            "trap": "contradicted; it worked well at temperatures used in composting facilities"
+          },
+          {
+            "t": "The enzyme was found to be slower than the previously known best enzyme.",
+            "trap": "opposite; it degraded plastic six times faster"
+          },
+          {
+            "t": "The enzyme has only been tested on pre-shredded plastic, and its performance on intact containers is unknown.",
+            "correct": true
+          },
+          {
+            "t": "Industrial composting facilities cannot reach the temperatures the enzyme requires.",
+            "trap": "opposite; the passage says the effective temperature is achievable in such facilities"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explicitly names the pre-shredded-plastic limitation as an open question for real-world application."
+      },
+      "explanation": null,
+      "words": [
+        "tenacious",
+        "tedious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Traffic researchers studying intersection safety wanted to know whether replacing traffic lights with roundabouts reduces serious collisions.",
+          "They compared collision records at twenty intersections before and after roundabout conversion, controlling for changes in traffic volume over the same period.",
+          "Serious injury collisions dropped by seventy-eight percent after conversion, even though minor fender-benders became slightly more frequent at the same intersections.",
+          "Researchers attribute the shift to roundabouts forcing lower vehicle speeds and eliminating the high-speed, right-angle collisions common at traditional signaled intersections, a benign tradeoff most safety experts had not fully anticipated.",
+          "City planners reviewing the results still note that roundabouts require more physical space than standard intersections, a barren stretch of land not every intersection can spare, limiting where the design can be applied."
+        ],
+        "question": "Which choice best describes the overall pattern of safety outcomes the researchers found after roundabout conversion?",
+        "options": [
+          {
+            "t": "Serious injury collisions decreased sharply, while minor collisions became somewhat more frequent.",
+            "correct": true
+          },
+          {
+            "t": "Both serious and minor collisions decreased equally after conversion.",
+            "trap": "contradicted; minor collisions slightly increased"
+          },
+          {
+            "t": "All collisions of every type disappeared entirely after conversion.",
+            "trap": "too extreme; minor collisions still occurred"
+          },
+          {
+            "t": "Roundabouts increased both serious and minor collisions compared to traffic lights.",
+            "trap": "opposite of the reported decrease in serious collisions"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "This sentence reports both halves of the pattern: the sharp drop in serious collisions and the slight rise in minor ones."
+      },
+      "explanation": null,
+      "words": [
+        "barren",
+        "benign"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Anthropologists studying ancient trade networks wanted to determine how far obsidian tools traveled from their volcanic source in a prehistoric region.",
+          "By chemically fingerprinting obsidian fragments from dozens of archaeological sites, they traced each fragment back to its specific volcanic origin, a painstaking process that took years to complete but proved conclusive.",
+          "Fragments from a single source were found at sites up to six hundred kilometers away, far exceeding what researchers had assumed possible for foot-based trade routes of that era.",
+          "This finding suggests either an unexpectedly extensive trade network passing goods between many communities, or long-distance travel by individual traders willing to cover great distances directly.",
+          "The researchers favor the network explanation and cite the gradual falloff in fragment density, rather than a sharp drop, as a pattern more consistent with goods passing hand to hand."
+        ],
+        "question": "Which choice best identifies the evidence the researchers use to favor the trade-network explanation over direct long-distance travel?",
+        "options": [
+          {
+            "t": "Fragment density decreases gradually rather than sharply with distance from the source.",
+            "correct": true
+          },
+          {
+            "t": "Fragments were found up to six hundred kilometers from their volcanic source.",
+            "trap": "establishes distance but does not by itself distinguish between the two explanations"
+          },
+          {
+            "t": "Chemical fingerprinting allowed each fragment to be traced to its origin.",
+            "trap": "describes methodology, not evidence favoring one explanation"
+          },
+          {
+            "t": "The volcanic source itself has not yet been definitively identified.",
+            "trap": "contradicted; the source was identified through fingerprinting"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence gives the specific density pattern that supports hand-to-hand trade over direct long-distance travel."
+      },
+      "explanation": null,
+      "words": [
+        "cite",
+        "conclusive"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Toxicologists studying air quality near industrial zones wanted to determine whether short-term exposure to particulate matter affects cognitive performance in adults.",
+          "They tested factory workers' concentration and reaction times on days with high particulate readings and on days with low readings, using the same workers as their own comparison.",
+          "On high-particulate days, workers scored measurably worse on concentration tasks, though reaction time results showed no significant difference between the two conditions.",
+          "The researchers will not assert more than the data allow, admitting the study cannot rule out that workers simply felt more fatigued on high-particulate days for unrelated reasons, such as poor sleep the night before.",
+          "They recommend a follow-up study that also tracks sleep quality to help isolate the effect of particulate matter itself, a design refinement they believe would amplify confidence in either explanation."
+        ],
+        "question": "Which choice best identifies a limitation the researchers themselves acknowledge in their study?",
+        "options": [
+          {
+            "t": "The study found no effect of particulate matter on any measured outcome.",
+            "trap": "contradicted; concentration scores were worse on high-particulate days"
+          },
+          {
+            "t": "The workers tested were different individuals across the two conditions.",
+            "trap": "opposite; the same workers served as their own comparison"
+          },
+          {
+            "t": "The study cannot separate particulate effects from other factors like fatigue or poor sleep.",
+            "correct": true
+          },
+          {
+            "t": "Reaction times were significantly worse on high-particulate days.",
+            "trap": "contradicted; reaction times showed no significant difference"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly states the acknowledged limitation regarding unmeasured factors like sleep quality."
+      },
+      "explanation": null,
+      "words": [
+        "assert",
+        "amplify"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Zoologists studying elephant communication wanted to know whether elephants use distinct vocal calls to warn one another about different types of threats.",
+          "By recording calls during encounters with lions, humans, and bees, researchers found that elephants produced acoustically distinct alarm calls for each of the three threats.",
+          "When researchers played back recorded bee-alarm calls with no bees present, elephants immediately retreated and shook their heads, a behavior specific to bee encounters.",
+          "Playback of the lion-alarm call, by contrast, prompted elephants to bunch together defensively rather than retreat, showing the calls triggered threat-specific responses rather than a generic alarm reaction, a result that left the ardent field team elated on site.",
+          "The researchers conclude that this level of specificity, once considered an anomaly for a non-primate species, suggests a referential communication system more sophisticated than previously documented in elephants."
+        ],
+        "question": "Which choice best supports the claim that elephant alarm calls trigger threat-specific rather than generic responses?",
+        "options": [
+          {
+            "t": "Elephants produced distinct calls when encountering lions, humans, and bees.",
+            "trap": "establishes distinct calls exist but not that playback alone triggers distinct behavior"
+          },
+          {
+            "t": "Playback of bee and lion alarm calls produced different behaviors, retreating and head-shaking versus bunching together defensively, even without the actual threat present.",
+            "correct": true
+          },
+          {
+            "t": "Researchers recorded elephant calls during real encounters with three types of threats.",
+            "trap": "describes methodology, not the behavioral evidence for specificity"
+          },
+          {
+            "t": "Elephants show a generic alarm reaction to any unfamiliar sound.",
+            "trap": "opposite; the passage shows reactions differed by call type"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly contrasts the two playback behaviors, demonstrating that the calls alone triggered threat-specific responses."
+      },
+      "explanation": null,
+      "words": [
+        "anomaly",
+        "ardent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Astrophysicists analyzing radio signals from a distant galaxy detected a rapid, powerful burst lasting only a few milliseconds.",
+          "Similar bursts had previously been attributed to collisions between neutron stars, but this burst's location did not match any known neutron star pair in that galaxy.",
+          "Follow-up observations found the burst originated instead from a highly magnetized neutron star known as a magnetar, which released the burst during a sudden shift in its magnetic field.",
+          "This finding was corroborated by a nearly identical burst detected from a magnetar within our own galaxy just weeks earlier, strengthening the magnetar explanation and prompting astronomers around the world to converge on a shared interpretation.",
+          "Scientists now believe magnetars may account for a substantial portion of these mysterious bursts once attributed solely to neutron star collisions, a cosmic reclassification with implications for the whole field."
+        ],
+        "question": "Which choice best explains why scientists gained confidence in the magnetar explanation for the burst?",
+        "options": [
+          {
+            "t": "A nearly identical burst was detected from a magnetar in our own galaxy around the same time.",
+            "correct": true
+          },
+          {
+            "t": "The burst lasted only a few milliseconds, matching the general profile of known bursts.",
+            "trap": "describes a shared trait, not evidence distinguishing magnetars from neutron star collisions"
+          },
+          {
+            "t": "The burst's location matched a known neutron star pair.",
+            "trap": "contradicted; the location did not match any known pair"
+          },
+          {
+            "t": "Scientists have never detected a burst from a magnetar before this event.",
+            "trap": "contradicted; a similar burst from a magnetar in our galaxy is described"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence describes the corroborating magnetar burst that strengthened confidence in the new explanation."
+      },
+      "explanation": null,
+      "words": [
+        "cosmic",
+        "converge"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Ecologists studying invasive plant species wanted to know whether introducing a natural predator insect could control an invasive vine without harming native plants.",
+          "They released a specialist insect known to feed exclusively on the invasive vine at ten test sites, monitoring both the vine and surrounding native vegetation over four years.",
+          "The invasive vine's coverage declined by sixty percent at treated sites, while coverage at untreated control sites continued to expand as before.",
+          "Native plant diversity at treated sites also increased over the same period, likely because the retreating vine no longer blocked sunlight from smaller native species, a welcome side effect the ecologists had hoped for but could not guarantee in advance.",
+          "The ecologists remain watchful, however, monitoring the insect population closely so that unforeseen side effects do not beset the surrounding ecosystem, mindful that nature does not bestow permanent solutions without ongoing vigilance."
+        ],
+        "question": "Which choice best reflects the overall outcome of the biological control experiment described in the passage?",
+        "options": [
+          {
+            "t": "The invasive vine expanded further at treated sites than at untreated sites.",
+            "trap": "opposite; the vine declined at treated sites"
+          },
+          {
+            "t": "The insect reduced the invasive vine and appeared to benefit native plant diversity, though researchers continue monitoring for risks.",
+            "correct": true
+          },
+          {
+            "t": "Native plant diversity decreased at every site where the insect was released.",
+            "trap": "opposite; native diversity increased at treated sites"
+          },
+          {
+            "t": "The experiment was abandoned after the insect failed to affect the vine.",
+            "trap": "contradicted; the vine's coverage declined significantly"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence shows the researchers' continued caution despite the positive results, completing the balanced picture of the outcome."
+      },
+      "explanation": null,
+      "words": [
+        "beset",
+        "bestow"
+      ]
+    }
+  ]
+}

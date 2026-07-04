@@ -1,0 +1,2244 @@
+{
+  "items": [
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Talks Constantly",
+            "words": [
+              {
+                "word": "garrulous",
+                "gloss": "excessively talkative, especially about trivial matters"
+              },
+              {
+                "word": "loquacious",
+                "gloss": "very talkative"
+              },
+              {
+                "word": "verbose",
+                "gloss": "using more words than necessary, wordy"
+              },
+              {
+                "word": "gregarious",
+                "gloss": "fond of company; sociable"
+              }
+            ]
+          },
+          {
+            "theme": "Says Little",
+            "words": [
+              {
+                "word": "taciturn",
+                "gloss": "tending to say very little, reserved in speech"
+              },
+              {
+                "word": "reticent",
+                "gloss": "reluctant to share thoughts or feelings; reserved in speech"
+              },
+              {
+                "word": "laconic",
+                "gloss": "using very few words; terse"
+              },
+              {
+                "word": "terse",
+                "gloss": "brief and to the point, sometimes to the point of seeming rude"
+              }
+            ]
+          },
+          {
+            "theme": "Complains or Sulks",
+            "words": [
+              {
+                "word": "querulous",
+                "gloss": "complaining in a whining or irritable way"
+              },
+              {
+                "word": "petulant",
+                "gloss": "childishly irritable or sulky"
+              },
+              {
+                "word": "fractious",
+                "gloss": "irritable and quarrelsome"
+              },
+              {
+                "word": "truculent",
+                "gloss": "eager to argue or fight; aggressively defiant"
+              }
+            ]
+          },
+          {
+            "theme": "Speaks Harshly",
+            "words": [
+              {
+                "word": "scathing",
+                "gloss": "witheringly harsh in a critical comment"
+              },
+              {
+                "word": "acerbic",
+                "gloss": "sharp and forthright, especially in criticism"
+              },
+              {
+                "word": "caustic",
+                "gloss": "sarcastic in a scathing and bitter way"
+              },
+              {
+                "word": "vitriolic",
+                "gloss": "filled with bitter criticism or malice"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: querulous and petulant describe complaining/moodiness, not talkativeness, so they could be mistaken for the 'Talks Constantly' group. Gregarious (sociable) is also a trap since it sounds like it belongs with the chatty words but really means friendly toward company.",
+      "words": [
+        "garrulous",
+        "loquacious",
+        "verbose",
+        "gregarious",
+        "taciturn",
+        "reticent",
+        "laconic",
+        "terse",
+        "querulous",
+        "petulant",
+        "fractious",
+        "truculent",
+        "scathing",
+        "acerbic",
+        "caustic",
+        "vitriolic"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Arrogant / Superior",
+            "words": [
+              {
+                "word": "haughty",
+                "gloss": "arrogantly superior and disdainful"
+              },
+              {
+                "word": "imperious",
+                "gloss": "assuming power or authority without justification; domineering"
+              },
+              {
+                "word": "ostentatious",
+                "gloss": "designed to impress or attract notice"
+              },
+              {
+                "word": "grandiose",
+                "gloss": "impressive or affecting a sense of grandeur, often excessively"
+              }
+            ]
+          },
+          {
+            "theme": "Submissive / Humble",
+            "words": [
+              {
+                "word": "unassuming",
+                "gloss": "not pretentious or arrogant; modest"
+              },
+              {
+                "word": "submissive",
+                "gloss": "ready to conform to the authority or will of others"
+              },
+              {
+                "word": "servile",
+                "gloss": "excessively willing to serve or please others"
+              },
+              {
+                "word": "obsequious",
+                "gloss": "obedient or attentive to an excessive degree"
+              }
+            ]
+          },
+          {
+            "theme": "Generous",
+            "words": [
+              {
+                "word": "munificent",
+                "gloss": "extremely generous"
+              },
+              {
+                "word": "magnanimous",
+                "gloss": "generous or forgiving toward a rival or less powerful person"
+              },
+              {
+                "word": "benevolent",
+                "gloss": "well-meaning and kindly"
+              },
+              {
+                "word": "philanthropic",
+                "gloss": "seeking to promote the welfare of others through charity"
+              }
+            ]
+          },
+          {
+            "theme": "Stingy / Greedy",
+            "words": [
+              {
+                "word": "miserly",
+                "gloss": "not generous; stingy"
+              },
+              {
+                "word": "parsimonious",
+                "gloss": "unwilling to spend money or use resources"
+              },
+              {
+                "word": "avaricious",
+                "gloss": "having or showing extreme greed for wealth"
+              },
+              {
+                "word": "rapacious",
+                "gloss": "aggressively greedy or grasping"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "haughty",
+        "imperious",
+        "ostentatious",
+        "grandiose",
+        "unassuming",
+        "submissive",
+        "servile",
+        "obsequious",
+        "munificent",
+        "magnanimous",
+        "benevolent",
+        "philanthropic",
+        "miserly",
+        "parsimonious",
+        "avaricious",
+        "rapacious"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Careful / Cautious",
+            "words": [
+              {
+                "word": "prudent",
+                "gloss": "acting with care and thought for the future"
+              },
+              {
+                "word": "circumspect",
+                "gloss": "wary and unwilling to take risks"
+              },
+              {
+                "word": "vigilant",
+                "gloss": "keeping careful watch for possible danger"
+              },
+              {
+                "word": "wary",
+                "gloss": "feeling or showing caution about possible dangers"
+              }
+            ]
+          },
+          {
+            "theme": "Reckless / Bold to a Fault",
+            "words": [
+              {
+                "word": "impulsive",
+                "gloss": "acting without forethought"
+              },
+              {
+                "word": "precipitate",
+                "gloss": "done suddenly and without careful consideration"
+              },
+              {
+                "word": "audacious",
+                "gloss": "showing a willingness to take bold risks"
+              },
+              {
+                "word": "brazen",
+                "gloss": "bold and without shame"
+              }
+            ]
+          },
+          {
+            "theme": "Doubtful / Skeptical",
+            "words": [
+              {
+                "word": "skeptical",
+                "gloss": "not easily convinced; having doubts"
+              },
+              {
+                "word": "incredulous",
+                "gloss": "unwilling or unable to believe something"
+              },
+              {
+                "word": "dubious",
+                "gloss": "hesitating or doubting"
+              },
+              {
+                "word": "diffident",
+                "gloss": "modest or shy because of a lack of self-confidence"
+              }
+            ]
+          },
+          {
+            "theme": "Fearful",
+            "words": [
+              {
+                "word": "timorous",
+                "gloss": "showing or suffering from nervousness or fear"
+              },
+              {
+                "word": "apprehensive",
+                "gloss": "anxious or fearful about the future"
+              },
+              {
+                "word": "trepidation",
+                "gloss": "a feeling of fear or anxiety about something that may happen"
+              },
+              {
+                "word": "credulous",
+                "gloss": "having too great a readiness to believe things"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: diffident (shy, lacking self-confidence) and credulous (too trusting) are placed to look misleading -- diffident can sound 'fearful' and credulous can sound like it belongs with 'Doubtful,' but their true definitions place them in Doubtful and Fearful respectively, testing careful reading.",
+      "words": [
+        "prudent",
+        "circumspect",
+        "vigilant",
+        "wary",
+        "impulsive",
+        "precipitate",
+        "audacious",
+        "brazen",
+        "skeptical",
+        "incredulous",
+        "dubious",
+        "diffident",
+        "timorous",
+        "apprehensive",
+        "trepidation",
+        "credulous"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Joyful / Elated",
+            "words": [
+              {
+                "word": "jubilant",
+                "gloss": "feeling or expressing great happiness and triumph"
+              },
+              {
+                "word": "elated",
+                "gloss": "very happy and excited"
+              },
+              {
+                "word": "exuberant",
+                "gloss": "full of energy, excitement, and cheerfulness"
+              },
+              {
+                "word": "buoyant",
+                "gloss": "cheerful and optimistic"
+              }
+            ]
+          },
+          {
+            "theme": "Sorrowful / Somber",
+            "words": [
+              {
+                "word": "poignant",
+                "gloss": "evoking a keen sense of sadness or regret"
+              },
+              {
+                "word": "somber",
+                "gloss": "dark or dull in tone; gloomy"
+              },
+              {
+                "word": "morose",
+                "gloss": "sullen and ill-tempered"
+              },
+              {
+                "word": "pathos",
+                "gloss": "a quality that evokes pity or sadness"
+              }
+            ]
+          },
+          {
+            "theme": "Emotionally Detached",
+            "words": [
+              {
+                "word": "apathetic",
+                "gloss": "showing or feeling no interest, enthusiasm, or concern"
+              },
+              {
+                "word": "indifferent",
+                "gloss": "having no particular interest or sympathy"
+              },
+              {
+                "word": "impassive",
+                "gloss": "not feeling or showing emotion"
+              },
+              {
+                "word": "phlegmatic",
+                "gloss": "having an unemotional, stolid calmness"
+              }
+            ]
+          },
+          {
+            "theme": "Passionate / Intense",
+            "words": [
+              {
+                "word": "zealous",
+                "gloss": "showing great energy or enthusiasm for a cause"
+              },
+              {
+                "word": "fervent",
+                "gloss": "showing intense and passionate feeling"
+              },
+              {
+                "word": "ardent",
+                "gloss": "very enthusiastic or passionate"
+              },
+              {
+                "word": "vehement",
+                "gloss": "showing strong and passionate feeling"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "jubilant",
+        "elated",
+        "exuberant",
+        "buoyant",
+        "poignant",
+        "somber",
+        "morose",
+        "pathos",
+        "apathetic",
+        "indifferent",
+        "impassive",
+        "phlegmatic",
+        "zealous",
+        "fervent",
+        "ardent",
+        "vehement"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "To Praise",
+            "words": [
+              {
+                "word": "extol",
+                "gloss": "praise enthusiastically"
+              },
+              {
+                "word": "laud",
+                "gloss": "praise highly"
+              },
+              {
+                "word": "commend",
+                "gloss": "praise formally"
+              },
+              {
+                "word": "vindicate",
+                "gloss": "clear of blame or suspicion"
+              }
+            ]
+          },
+          {
+            "theme": "To Criticize Harshly",
+            "words": [
+              {
+                "word": "disparage",
+                "gloss": "regard or describe as being of little worth"
+              },
+              {
+                "word": "denigrate",
+                "gloss": "criticize unfairly; disparage"
+              },
+              {
+                "word": "deride",
+                "gloss": "express contempt for; ridicule"
+              },
+              {
+                "word": "vilify",
+                "gloss": "speak or write about in an abusively disparaging manner"
+              }
+            ]
+          },
+          {
+            "theme": "To Calm Down",
+            "words": [
+              {
+                "word": "placate",
+                "gloss": "make someone less angry or hostile"
+              },
+              {
+                "word": "mollify",
+                "gloss": "appease the anger or anxiety of someone"
+              },
+              {
+                "word": "appease",
+                "gloss": "pacify or placate someone by acceding to their demands"
+              },
+              {
+                "word": "conciliate",
+                "gloss": "stop someone from being angry; placate"
+              }
+            ]
+          },
+          {
+            "theme": "To Stir Up Trouble",
+            "words": [
+              {
+                "word": "provoke",
+                "gloss": "stimulate or give rise to a strong reaction"
+              },
+              {
+                "word": "foment",
+                "gloss": "instigate or stir up an undesirable situation"
+              },
+              {
+                "word": "incendiary",
+                "gloss": "tending to stir up conflict; inflammatory"
+              },
+              {
+                "word": "truculent",
+                "gloss": "eager to argue or fight; aggressively defiant"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "extol",
+        "laud",
+        "commend",
+        "vindicate",
+        "disparage",
+        "denigrate",
+        "deride",
+        "vilify",
+        "placate",
+        "mollify",
+        "appease",
+        "conciliate",
+        "provoke",
+        "foment",
+        "incendiary",
+        "truculent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Brief / Fleeting",
+            "words": [
+              {
+                "word": "transient",
+                "gloss": "lasting only for a short time; impermanent"
+              },
+              {
+                "word": "ephemeral",
+                "gloss": "lasting for a very short time"
+              },
+              {
+                "word": "fleeting",
+                "gloss": "passing swiftly"
+              },
+              {
+                "word": "evanescent",
+                "gloss": "soon passing out of sight, memory, or existence"
+              }
+            ]
+          },
+          {
+            "theme": "Unchanging / Lasting",
+            "words": [
+              {
+                "word": "immutable",
+                "gloss": "unchanging over time or unable to be changed"
+              },
+              {
+                "word": "venerable",
+                "gloss": "accorded great respect, especially because of age"
+              },
+              {
+                "word": "tenacious",
+                "gloss": "tending to keep a firm hold; persistent"
+              },
+              {
+                "word": "resolute",
+                "gloss": "admirably purposeful and determined"
+              }
+            ]
+          },
+          {
+            "theme": "Old-Fashioned",
+            "words": [
+              {
+                "word": "archaic",
+                "gloss": "very old or old-fashioned"
+              },
+              {
+                "word": "antiquated",
+                "gloss": "old-fashioned or outdated"
+              },
+              {
+                "word": "obsolete",
+                "gloss": "no longer produced or used; out of date"
+              },
+              {
+                "word": "hackneyed",
+                "gloss": "lacking significance through overuse; unoriginal"
+              }
+            ]
+          },
+          {
+            "theme": "New / Original",
+            "words": [
+              {
+                "word": "novel",
+                "gloss": "new or unusual in an interesting way"
+              },
+              {
+                "word": "innovative",
+                "gloss": "featuring new methods; advanced and original"
+              },
+              {
+                "word": "unprecedented",
+                "gloss": "never done or known before"
+              },
+              {
+                "word": "modern",
+                "gloss": "relating to the present or recent times"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "transient",
+        "ephemeral",
+        "fleeting",
+        "evanescent",
+        "immutable",
+        "venerable",
+        "tenacious",
+        "resolute",
+        "archaic",
+        "antiquated",
+        "obsolete",
+        "hackneyed",
+        "novel",
+        "innovative",
+        "unprecedented",
+        "modern"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Hardworking / Meticulous",
+            "words": [
+              {
+                "word": "assiduous",
+                "gloss": "showing great care and perseverance"
+              },
+              {
+                "word": "sedulous",
+                "gloss": "showing dedication and diligence"
+              },
+              {
+                "word": "meticulous",
+                "gloss": "showing great attention to detail"
+              },
+              {
+                "word": "punctilious",
+                "gloss": "showing great attention to detail or correct behavior"
+              }
+            ]
+          },
+          {
+            "theme": "Lazy / Sluggish",
+            "words": [
+              {
+                "word": "indolent",
+                "gloss": "wanting to avoid activity or exertion; lazy"
+              },
+              {
+                "word": "languid",
+                "gloss": "displaying or having a disinclination for physical exertion"
+              },
+              {
+                "word": "torpid",
+                "gloss": "mentally or physically inactive; lethargic"
+              },
+              {
+                "word": "sedentary",
+                "gloss": "tending to spend much time seated; inactive"
+              }
+            ]
+          },
+          {
+            "theme": "Stubborn / Unyielding",
+            "words": [
+              {
+                "word": "obstinate",
+                "gloss": "stubbornly refusing to change one's opinion"
+              },
+              {
+                "word": "intransigent",
+                "gloss": "unwilling to change one's views or agree about something"
+              },
+              {
+                "word": "recalcitrant",
+                "gloss": "having an obstinately uncooperative attitude"
+              },
+              {
+                "word": "adamant",
+                "gloss": "refusing to be persuaded or to change one's mind"
+              }
+            ]
+          },
+          {
+            "theme": "Flexible / Easily Managed",
+            "words": [
+              {
+                "word": "malleable",
+                "gloss": "easily influenced or shaped"
+              },
+              {
+                "word": "tractable",
+                "gloss": "easy to control or influence"
+              },
+              {
+                "word": "adaptable",
+                "gloss": "able to adjust to new conditions"
+              },
+              {
+                "word": "acquiesce",
+                "gloss": "accept something reluctantly but without protest"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: acquiesce is a verb (to give in) rather than an adjective like the other three in its group, but it belongs with 'Flexible/Easily Managed' because it describes yielding behavior, unlike the willful resistance of the 'Stubborn' words.",
+      "words": [
+        "assiduous",
+        "sedulous",
+        "meticulous",
+        "punctilious",
+        "indolent",
+        "languid",
+        "torpid",
+        "sedentary",
+        "obstinate",
+        "intransigent",
+        "recalcitrant",
+        "adamant",
+        "malleable",
+        "tractable",
+        "adaptable",
+        "acquiesce"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Clear / Easy to Understand",
+            "words": [
+              {
+                "word": "lucid",
+                "gloss": "expressed clearly; easy to understand"
+              },
+              {
+                "word": "explicit",
+                "gloss": "stated clearly and in detail, leaving no room for confusion"
+              },
+              {
+                "word": "evident",
+                "gloss": "clearly seen or understood; obvious"
+              },
+              {
+                "word": "cogent",
+                "gloss": "clear, logical, and convincing"
+              }
+            ]
+          },
+          {
+            "theme": "Obscure / Hard to Understand",
+            "words": [
+              {
+                "word": "abstruse",
+                "gloss": "difficult to understand; obscure"
+              },
+              {
+                "word": "esoteric",
+                "gloss": "intended for or understood by only a small group"
+              },
+              {
+                "word": "recondite",
+                "gloss": "little known; abstruse"
+              },
+              {
+                "word": "cryptic",
+                "gloss": "having a meaning that is mysterious or obscure"
+              }
+            ]
+          },
+          {
+            "theme": "To Make Clear",
+            "words": [
+              {
+                "word": "elucidate",
+                "gloss": "make clear; explain"
+              },
+              {
+                "word": "clarify",
+                "gloss": "make a statement or situation less confused"
+              },
+              {
+                "word": "substantiate",
+                "gloss": "provide evidence to support or prove the truth of"
+              },
+              {
+                "word": "delineate",
+                "gloss": "describe or portray something precisely"
+              }
+            ]
+          },
+          {
+            "theme": "To Confuse",
+            "words": [
+              {
+                "word": "obfuscate",
+                "gloss": "render obscure, unclear, or unintelligible"
+              },
+              {
+                "word": "confound",
+                "gloss": "cause surprise or confusion in someone"
+              },
+              {
+                "word": "bewilder",
+                "gloss": "cause someone to become perplexed and confused"
+              },
+              {
+                "word": "perplex",
+                "gloss": "cause someone to feel baffled"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "lucid",
+        "explicit",
+        "evident",
+        "cogent",
+        "abstruse",
+        "esoteric",
+        "recondite",
+        "cryptic",
+        "elucidate",
+        "clarify",
+        "substantiate",
+        "delineate",
+        "obfuscate",
+        "confound",
+        "bewilder",
+        "perplex"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Scarce",
+            "words": [
+              {
+                "word": "paucity",
+                "gloss": "the presence of something in only small or insufficient quantities"
+              },
+              {
+                "word": "dearth",
+                "gloss": "a scarcity or lack of something"
+              },
+              {
+                "word": "sparse",
+                "gloss": "thinly dispersed or scattered"
+              },
+              {
+                "word": "paltry",
+                "gloss": "small or meager"
+              }
+            ]
+          },
+          {
+            "theme": "Abundant",
+            "words": [
+              {
+                "word": "plethora",
+                "gloss": "a large or excessive amount of something"
+              },
+              {
+                "word": "copious",
+                "gloss": "abundant in supply or quantity"
+              },
+              {
+                "word": "prolific",
+                "gloss": "producing much output or many works"
+              },
+              {
+                "word": "negligible",
+                "gloss": "so small as to be not worth considering"
+              }
+            ]
+          },
+          {
+            "theme": "To Fill Completely",
+            "words": [
+              {
+                "word": "saturate",
+                "gloss": "cause something to become completely soaked with liquid"
+              },
+              {
+                "word": "inundate",
+                "gloss": "overwhelm someone with things or people to be dealt with"
+              },
+              {
+                "word": "pervasive",
+                "gloss": "spreading widely throughout an area or group"
+              },
+              {
+                "word": "ubiquitous",
+                "gloss": "present, appearing, or found everywhere"
+              }
+            ]
+          },
+          {
+            "theme": "To Use Up Wastefully",
+            "words": [
+              {
+                "word": "squander",
+                "gloss": "waste something, especially money or time, in a reckless manner"
+              },
+              {
+                "word": "deplete",
+                "gloss": "use up the supply or resources of"
+              },
+              {
+                "word": "prodigal",
+                "gloss": "spending money or resources freely and recklessly"
+              },
+              {
+                "word": "opulent",
+                "gloss": "ostentatiously rich and luxurious"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "paucity",
+        "dearth",
+        "sparse",
+        "paltry",
+        "plethora",
+        "copious",
+        "prolific",
+        "negligible",
+        "saturate",
+        "inundate",
+        "pervasive",
+        "ubiquitous",
+        "squander",
+        "deplete",
+        "prodigal",
+        "opulent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Convincing",
+            "words": [
+              {
+                "word": "cogent",
+                "gloss": "clear, logical, and convincing"
+              },
+              {
+                "word": "persuasive",
+                "gloss": "good at convincing someone to do or believe something"
+              },
+              {
+                "word": "plausible",
+                "gloss": "seeming reasonable or probable"
+              },
+              {
+                "word": "credulous",
+                "gloss": "having too great a readiness to believe things"
+              }
+            ]
+          },
+          {
+            "theme": "Flawed Reasoning",
+            "words": [
+              {
+                "word": "fallacious",
+                "gloss": "based on a mistaken belief; containing a fallacy"
+              },
+              {
+                "word": "spurious",
+                "gloss": "not being what it purports to be; false or fake"
+              },
+              {
+                "word": "erroneous",
+                "gloss": "wrong; incorrect"
+              },
+              {
+                "word": "polemic",
+                "gloss": "a strong verbal or written attack on someone or something"
+              }
+            ]
+          },
+          {
+            "theme": "Debate and Disagreement",
+            "words": [
+              {
+                "word": "altercation",
+                "gloss": "a noisy argument or disagreement"
+              },
+              {
+                "word": "dissent",
+                "gloss": "disagreement with a widely held opinion"
+              },
+              {
+                "word": "contradict",
+                "gloss": "deny the truth of a statement by asserting the opposite"
+              },
+              {
+                "word": "querulous",
+                "gloss": "complaining in a whining or irritable way"
+              }
+            ]
+          },
+          {
+            "theme": "Biased / One-Sided",
+            "words": [
+              {
+                "word": "partisan",
+                "gloss": "prejudiced in favor of a particular cause"
+              },
+              {
+                "word": "subjective",
+                "gloss": "based on or influenced by personal feelings"
+              },
+              {
+                "word": "prejudiced",
+                "gloss": "having a preconceived opinion not based on reason"
+              },
+              {
+                "word": "dispassionate",
+                "gloss": "not influenced by strong emotion; rational"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "cogent",
+        "persuasive",
+        "plausible",
+        "credulous",
+        "fallacious",
+        "spurious",
+        "erroneous",
+        "polemic",
+        "altercation",
+        "dissent",
+        "contradict",
+        "querulous",
+        "partisan",
+        "subjective",
+        "prejudiced",
+        "dispassionate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Wasteful With Money",
+            "words": [
+              {
+                "word": "prodigal",
+                "gloss": "spending money or resources freely and recklessly"
+              },
+              {
+                "word": "opulent",
+                "gloss": "ostentatiously rich and luxurious"
+              },
+              {
+                "word": "lucrative",
+                "gloss": "producing a great deal of profit"
+              },
+              {
+                "word": "gratuitous",
+                "gloss": "uncalled for; lacking good reason"
+              }
+            ]
+          },
+          {
+            "theme": "Careful With Money",
+            "words": [
+              {
+                "word": "frugal",
+                "gloss": "sparing or economical with money or food"
+              },
+              {
+                "word": "thrifty",
+                "gloss": "using money and other resources carefully and not wastefully"
+              },
+              {
+                "word": "prudent",
+                "gloss": "acting with care and thought for the future"
+              },
+              {
+                "word": "parsimonious",
+                "gloss": "unwilling to spend money or use resources"
+              }
+            ]
+          },
+          {
+            "theme": "Excessive / Unnecessary",
+            "words": [
+              {
+                "word": "superfluous",
+                "gloss": "unnecessary, especially through being more than enough"
+              },
+              {
+                "word": "redundant",
+                "gloss": "not or no longer needed; superfluous"
+              },
+              {
+                "word": "extraneous",
+                "gloss": "irrelevant or unnecessary to the main subject"
+              },
+              {
+                "word": "negligible",
+                "gloss": "so small as to be not worth considering"
+              }
+            ]
+          },
+          {
+            "theme": "Essential / Relevant",
+            "words": [
+              {
+                "word": "salient",
+                "gloss": "most noticeable or important"
+              },
+              {
+                "word": "germane",
+                "gloss": "relevant to a subject under consideration"
+              },
+              {
+                "word": "essential",
+                "gloss": "absolutely necessary; extremely important"
+              },
+              {
+                "word": "substantiate",
+                "gloss": "provide evidence to support or prove the truth of"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "prodigal",
+        "opulent",
+        "lucrative",
+        "gratuitous",
+        "frugal",
+        "thrifty",
+        "prudent",
+        "parsimonious",
+        "superfluous",
+        "redundant",
+        "extraneous",
+        "negligible",
+        "salient",
+        "germane",
+        "essential",
+        "substantiate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "To Grow or Increase",
+            "words": [
+              {
+                "word": "burgeon",
+                "gloss": "begin to grow or increase rapidly"
+              },
+              {
+                "word": "augment",
+                "gloss": "make greater by adding to; increase"
+              },
+              {
+                "word": "prolific",
+                "gloss": "producing much output or many works"
+              },
+              {
+                "word": "copious",
+                "gloss": "abundant in supply or quantity"
+              }
+            ]
+          },
+          {
+            "theme": "To Weaken or Reduce",
+            "words": [
+              {
+                "word": "deplete",
+                "gloss": "use up the supply or resources of"
+              },
+              {
+                "word": "negligent",
+                "gloss": "failing to take proper care over something"
+              },
+              {
+                "word": "stagnate",
+                "gloss": "cease to develop; become inactive or motionless"
+              },
+              {
+                "word": "torpid",
+                "gloss": "mentally or physically inactive; lethargic"
+              }
+            ]
+          },
+          {
+            "theme": "To Stay the Same",
+            "words": [
+              {
+                "word": "persist",
+                "gloss": "continue firmly despite difficulty"
+              },
+              {
+                "word": "endure",
+                "gloss": "remain in existence; last"
+              },
+              {
+                "word": "resolute",
+                "gloss": "admirably purposeful and determined"
+              },
+              {
+                "word": "tenacious",
+                "gloss": "tending to keep a firm hold; persistent"
+              }
+            ]
+          },
+          {
+            "theme": "Unpredictable / Changeable",
+            "words": [
+              {
+                "word": "mercurial",
+                "gloss": "subject to sudden or unpredictable changes of mood"
+              },
+              {
+                "word": "capricious",
+                "gloss": "given to sudden and unaccountable changes of mood"
+              },
+              {
+                "word": "fickle",
+                "gloss": "changing frequently, especially regarding loyalties"
+              },
+              {
+                "word": "volatile",
+                "gloss": "liable to change rapidly and unpredictably"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "burgeon",
+        "augment",
+        "prolific",
+        "copious",
+        "deplete",
+        "negligent",
+        "stagnate",
+        "torpid",
+        "persist",
+        "endure",
+        "resolute",
+        "tenacious",
+        "mercurial",
+        "capricious",
+        "fickle",
+        "volatile"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Unique / Unconventional",
+            "words": [
+              {
+                "word": "idiosyncrasy",
+                "gloss": "a peculiar or individual way of behaving"
+              },
+              {
+                "word": "iconoclast",
+                "gloss": "a person who attacks cherished beliefs or institutions"
+              },
+              {
+                "word": "eccentric",
+                "gloss": "unconventional and slightly strange"
+              },
+              {
+                "word": "itinerant",
+                "gloss": "traveling from place to place"
+              }
+            ]
+          },
+          {
+            "theme": "Conventional / Ordinary",
+            "words": [
+              {
+                "word": "mundane",
+                "gloss": "lacking interest or excitement; dull"
+              },
+              {
+                "word": "prosaic",
+                "gloss": "having the style or diction of prose; lacking poetic beauty"
+              },
+              {
+                "word": "banal",
+                "gloss": "so lacking in originality as to be obvious and boring"
+              },
+              {
+                "word": "hackneyed",
+                "gloss": "lacking significance through overuse; unoriginal"
+              }
+            ]
+          },
+          {
+            "theme": "Sudden / Without Forethought",
+            "words": [
+              {
+                "word": "vagrant",
+                "gloss": "a person without a settled home or job"
+              },
+              {
+                "word": "precipitate",
+                "gloss": "done suddenly and without careful consideration"
+              },
+              {
+                "word": "impulsive",
+                "gloss": "acting without forethought"
+              },
+              {
+                "word": "brazen",
+                "gloss": "bold and without shame"
+              }
+            ]
+          },
+          {
+            "theme": "Yielding to Others",
+            "words": [
+              {
+                "word": "acquiesce",
+                "gloss": "accept something reluctantly but without protest"
+              },
+              {
+                "word": "tractable",
+                "gloss": "easy to control or influence"
+              },
+              {
+                "word": "malleable",
+                "gloss": "easily influenced or shaped"
+              },
+              {
+                "word": "adaptable",
+                "gloss": "able to adjust to new conditions"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: itinerant (traveling from place to place) is placed with 'Unique/Unconventional' rather than a wandering-themed group -- students may expect it with vagrant, but itinerant describes a repeated lifestyle of travel (often for work) and pairs here with other words describing distinct or unusual ways of living. Vagrant is also a trap: though it names a wandering, homeless person, it is grouped with 'Sudden/Without Forethought' words because its connotation of aimless movement (drifting without a plan) links it to impulsive/precipitate/brazen rather than to itinerant's more purposeful travel.",
+      "words": [
+        "idiosyncrasy",
+        "iconoclast",
+        "eccentric",
+        "itinerant",
+        "mundane",
+        "prosaic",
+        "banal",
+        "hackneyed",
+        "vagrant",
+        "precipitate",
+        "impulsive",
+        "brazen",
+        "acquiesce",
+        "tractable",
+        "malleable",
+        "adaptable"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Honest / Sincere",
+            "words": [
+              {
+                "word": "candid",
+                "gloss": "truthful and straightforward"
+              },
+              {
+                "word": "forthright",
+                "gloss": "direct and outspoken"
+              },
+              {
+                "word": "unfeigned",
+                "gloss": "genuine; not pretended"
+              },
+              {
+                "word": "ingenuous",
+                "gloss": "innocent and unsuspecting; artlessly straightforward"
+              }
+            ]
+          },
+          {
+            "theme": "Deceptive",
+            "words": [
+              {
+                "word": "duplicitous",
+                "gloss": "deceitful; two-faced"
+              },
+              {
+                "word": "mendacious",
+                "gloss": "not telling the truth; lying"
+              },
+              {
+                "word": "disingenuous",
+                "gloss": "not candid; giving a false impression of frankness"
+              },
+              {
+                "word": "guile",
+                "gloss": "sly or cunning intelligence used to deceive"
+              }
+            ]
+          },
+          {
+            "theme": "Secretive",
+            "words": [
+              {
+                "word": "surreptitious",
+                "gloss": "kept secret, especially because it would not be approved of"
+              },
+              {
+                "word": "clandestine",
+                "gloss": "kept secret or done secretively, especially because illicit"
+              },
+              {
+                "word": "covert",
+                "gloss": "not openly acknowledged or displayed"
+              },
+              {
+                "word": "beguile",
+                "gloss": "charm or enchant, sometimes in a deceptive way"
+              }
+            ]
+          },
+          {
+            "theme": "False / Not Genuine",
+            "words": [
+              {
+                "word": "apocryphal",
+                "gloss": "of doubtful authenticity, although widely circulated as being true"
+              },
+              {
+                "word": "erroneous",
+                "gloss": "wrong; incorrect"
+              },
+              {
+                "word": "spurious",
+                "gloss": "not being what it purports to be; false"
+              },
+              {
+                "word": "credulous",
+                "gloss": "having too great a readiness to believe things"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "candid",
+        "forthright",
+        "unfeigned",
+        "ingenuous",
+        "duplicitous",
+        "mendacious",
+        "disingenuous",
+        "guile",
+        "surreptitious",
+        "clandestine",
+        "covert",
+        "beguile",
+        "apocryphal",
+        "erroneous",
+        "spurious",
+        "credulous"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Central / Essential Point",
+            "words": [
+              {
+                "word": "crux",
+                "gloss": "the decisive or most important point at issue"
+              },
+              {
+                "word": "salient",
+                "gloss": "most noticeable or important"
+              },
+              {
+                "word": "germane",
+                "gloss": "relevant to a subject under consideration"
+              },
+              {
+                "word": "essential",
+                "gloss": "absolutely necessary; extremely important"
+              }
+            ]
+          },
+          {
+            "theme": "Widespread",
+            "words": [
+              {
+                "word": "ubiquitous",
+                "gloss": "present, appearing, or found everywhere"
+              },
+              {
+                "word": "pervasive",
+                "gloss": "spreading widely throughout an area or group"
+              },
+              {
+                "word": "sporadic",
+                "gloss": "occurring at irregular intervals; scattered"
+              },
+              {
+                "word": "zenith",
+                "gloss": "the time at which something is most powerful or successful"
+              }
+            ]
+          },
+          {
+            "theme": "Admirable / Praiseworthy",
+            "words": [
+              {
+                "word": "meritorious",
+                "gloss": "deserving reward or praise"
+              },
+              {
+                "word": "exemplary",
+                "gloss": "serving as a desirable model; representing the best of its kind"
+              },
+              {
+                "word": "laudable",
+                "gloss": "deserving praise and commendation"
+              },
+              {
+                "word": "vindicate",
+                "gloss": "clear of blame or suspicion"
+              }
+            ]
+          },
+          {
+            "theme": "Shameful / Blameworthy",
+            "words": [
+              {
+                "word": "ignominious",
+                "gloss": "deserving or causing public disgrace or shame"
+              },
+              {
+                "word": "odious",
+                "gloss": "extremely unpleasant; repulsive"
+              },
+              {
+                "word": "nefarious",
+                "gloss": "wicked or criminal"
+              },
+              {
+                "word": "culpable",
+                "gloss": "deserving blame"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: sporadic (occurring irregularly, i.e. NOT constant) is grouped with 'Widespread' as its near-opposite, and zenith (a single peak moment) is grouped there too though it describes a point in time, not spatial spread -- both require noticing they don't actually describe things happening everywhere at once. Vindicate (to clear of blame) is placed with 'Admirable' since restoring one's good name is itself praiseworthy, not merely neutral.",
+      "words": [
+        "crux",
+        "salient",
+        "germane",
+        "essential",
+        "ubiquitous",
+        "pervasive",
+        "sporadic",
+        "zenith",
+        "meritorious",
+        "exemplary",
+        "laudable",
+        "vindicate",
+        "ignominious",
+        "odious",
+        "nefarious",
+        "culpable"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Sudden / Without Thought",
+            "words": [
+              {
+                "word": "audacious",
+                "gloss": "showing a willingness to take bold risks"
+              },
+              {
+                "word": "impulsive",
+                "gloss": "acting without forethought"
+              },
+              {
+                "word": "brazen",
+                "gloss": "bold and without shame"
+              },
+              {
+                "word": "precipitate",
+                "gloss": "done suddenly and without careful consideration"
+              }
+            ]
+          },
+          {
+            "theme": "Wandering / Traveling",
+            "words": [
+              {
+                "word": "itinerant",
+                "gloss": "traveling from place to place"
+              },
+              {
+                "word": "vagrant",
+                "gloss": "a person without a settled home or job"
+              },
+              {
+                "word": "transient",
+                "gloss": "lasting only for a short time; impermanent"
+              },
+              {
+                "word": "ephemeral",
+                "gloss": "lasting for a very short time"
+              }
+            ]
+          },
+          {
+            "theme": "Unpredictable Mood",
+            "words": [
+              {
+                "word": "mercurial",
+                "gloss": "subject to sudden or unpredictable changes of mood"
+              },
+              {
+                "word": "capricious",
+                "gloss": "given to sudden and unaccountable changes of mood"
+              },
+              {
+                "word": "fickle",
+                "gloss": "changing frequently, especially regarding loyalties"
+              },
+              {
+                "word": "volatile",
+                "gloss": "liable to change rapidly and unpredictably"
+              }
+            ]
+          },
+          {
+            "theme": "Firm / Determined",
+            "words": [
+              {
+                "word": "tenacious",
+                "gloss": "tending to keep a firm hold; persistent"
+              },
+              {
+                "word": "resolute",
+                "gloss": "admirably purposeful and determined"
+              },
+              {
+                "word": "adamant",
+                "gloss": "refusing to be persuaded or to change one's mind"
+              },
+              {
+                "word": "obstinate",
+                "gloss": "stubbornly refusing to change one's opinion"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "audacious",
+        "impulsive",
+        "brazen",
+        "precipitate",
+        "itinerant",
+        "vagrant",
+        "transient",
+        "ephemeral",
+        "mercurial",
+        "capricious",
+        "fickle",
+        "volatile",
+        "tenacious",
+        "resolute",
+        "adamant",
+        "obstinate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Firmly Convinced",
+            "words": [
+              {
+                "word": "adamant",
+                "gloss": "refusing to be persuaded or to change one's mind"
+              },
+              {
+                "word": "resolute",
+                "gloss": "admirably purposeful and determined"
+              },
+              {
+                "word": "tenacious",
+                "gloss": "tending to keep a firm hold; persistent"
+              },
+              {
+                "word": "obstinate",
+                "gloss": "stubbornly refusing to change one's opinion"
+              }
+            ]
+          },
+          {
+            "theme": "Uncertain / Wavering",
+            "words": [
+              {
+                "word": "irresolute",
+                "gloss": "showing or feeling hesitancy; uncertain"
+              },
+              {
+                "word": "vacillate",
+                "gloss": "waver between different opinions or actions"
+              },
+              {
+                "word": "equivocal",
+                "gloss": "open to more than one interpretation; ambiguous"
+              },
+              {
+                "word": "ambivalent",
+                "gloss": "having mixed feelings or contradictory ideas about something"
+              }
+            ]
+          },
+          {
+            "theme": "Impartial / Fair-Minded",
+            "words": [
+              {
+                "word": "objective",
+                "gloss": "not influenced by personal feelings; impartial"
+              },
+              {
+                "word": "impartial",
+                "gloss": "treating all rivals or disputants equally; fair"
+              },
+              {
+                "word": "dispassionate",
+                "gloss": "not influenced by strong emotion; rational"
+              },
+              {
+                "word": "credulous",
+                "gloss": "having too great a readiness to believe things"
+              }
+            ]
+          },
+          {
+            "theme": "Biased",
+            "words": [
+              {
+                "word": "partisan",
+                "gloss": "prejudiced in favor of a particular cause"
+              },
+              {
+                "word": "subjective",
+                "gloss": "based on or influenced by personal feelings"
+              },
+              {
+                "word": "prejudiced",
+                "gloss": "having a preconceived opinion not based on reason"
+              },
+              {
+                "word": "dogmatic",
+                "gloss": "inclined to lay down principles as incontrovertibly true"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "adamant",
+        "resolute",
+        "tenacious",
+        "obstinate",
+        "irresolute",
+        "vacillate",
+        "equivocal",
+        "ambivalent",
+        "objective",
+        "impartial",
+        "dispassionate",
+        "credulous",
+        "partisan",
+        "subjective",
+        "prejudiced",
+        "dogmatic"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Skillful / Clever",
+            "words": [
+              {
+                "word": "adroit",
+                "gloss": "clever or skillful in using the hands or mind"
+              },
+              {
+                "word": "astute",
+                "gloss": "having or showing an ability to accurately assess situations"
+              },
+              {
+                "word": "sagacious",
+                "gloss": "having or showing keen mental discernment and good judgment"
+              },
+              {
+                "word": "cogent",
+                "gloss": "clear, logical, and convincing"
+              }
+            ]
+          },
+          {
+            "theme": "Innocent / Naive",
+            "words": [
+              {
+                "word": "ingenuous",
+                "gloss": "innocent and unsuspecting; artlessly straightforward"
+              },
+              {
+                "word": "credulous",
+                "gloss": "having too great a readiness to believe things"
+              },
+              {
+                "word": "diffident",
+                "gloss": "modest or shy because of a lack of self-confidence"
+              },
+              {
+                "word": "unfeigned",
+                "gloss": "genuine; not pretended"
+              }
+            ]
+          },
+          {
+            "theme": "Foolish / Silly",
+            "words": [
+              {
+                "word": "fatuous",
+                "gloss": "silly and pointless in a way that shows a lack of thought"
+              },
+              {
+                "word": "inane",
+                "gloss": "silly; senseless"
+              },
+              {
+                "word": "vapid",
+                "gloss": "offering nothing that is stimulating or challenging"
+              },
+              {
+                "word": "ludicrous",
+                "gloss": "so foolish, unreasonable, or out of place as to be amusing"
+              }
+            ]
+          },
+          {
+            "theme": "Deceptive / Cunning",
+            "words": [
+              {
+                "word": "duplicitous",
+                "gloss": "deceitful; two-faced"
+              },
+              {
+                "word": "mendacious",
+                "gloss": "not telling the truth; lying"
+              },
+              {
+                "word": "guile",
+                "gloss": "sly or cunning intelligence used to deceive"
+              },
+              {
+                "word": "beguile",
+                "gloss": "charm or enchant, sometimes in a deceptive way"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "adroit",
+        "astute",
+        "sagacious",
+        "cogent",
+        "ingenuous",
+        "credulous",
+        "diffident",
+        "unfeigned",
+        "fatuous",
+        "inane",
+        "vapid",
+        "ludicrous",
+        "duplicitous",
+        "mendacious",
+        "guile",
+        "beguile"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Calm / Unemotional",
+            "words": [
+              {
+                "word": "placid",
+                "gloss": "not easily upset or excited"
+              },
+              {
+                "word": "stoic",
+                "gloss": "enduring pain or hardship without showing feelings"
+              },
+              {
+                "word": "phlegmatic",
+                "gloss": "having an unemotional, stolid calmness"
+              },
+              {
+                "word": "impassive",
+                "gloss": "not feeling or showing emotion"
+              }
+            ]
+          },
+          {
+            "theme": "Indifferent / Unmoved",
+            "words": [
+              {
+                "word": "apathetic",
+                "gloss": "showing or feeling no interest, enthusiasm, or concern"
+              },
+              {
+                "word": "indifferent",
+                "gloss": "having no particular interest or sympathy"
+              },
+              {
+                "word": "morose",
+                "gloss": "sullen and ill-tempered"
+              },
+              {
+                "word": "somber",
+                "gloss": "dark or dull in tone; gloomy"
+              }
+            ]
+          },
+          {
+            "theme": "Overflowing With Joy",
+            "words": [
+              {
+                "word": "jubilant",
+                "gloss": "feeling or expressing great happiness and triumph"
+              },
+              {
+                "word": "elated",
+                "gloss": "very happy and excited"
+              },
+              {
+                "word": "exuberant",
+                "gloss": "full of energy, excitement, and cheerfulness"
+              },
+              {
+                "word": "buoyant",
+                "gloss": "cheerful and optimistic"
+              }
+            ]
+          },
+          {
+            "theme": "Burning With Passion",
+            "words": [
+              {
+                "word": "fervent",
+                "gloss": "showing intense and passionate feeling"
+              },
+              {
+                "word": "ardent",
+                "gloss": "very enthusiastic or passionate"
+              },
+              {
+                "word": "zealous",
+                "gloss": "showing great energy or enthusiasm for a cause"
+              },
+              {
+                "word": "vehement",
+                "gloss": "showing strong and passionate feeling"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: morose and somber (sad/gloomy) are grouped with 'Indifferent/Unmoved' rather than a sadness category -- since a morose or somber person often withdraws and shows little visible reaction, they can be mistaken for simply apathetic, but their root meaning is sorrow, not lack of feeling.",
+      "words": [
+        "placid",
+        "stoic",
+        "phlegmatic",
+        "impassive",
+        "apathetic",
+        "indifferent",
+        "morose",
+        "somber",
+        "jubilant",
+        "elated",
+        "exuberant",
+        "buoyant",
+        "fervent",
+        "ardent",
+        "zealous",
+        "vehement"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Kind and Giving",
+            "words": [
+              {
+                "word": "benevolent",
+                "gloss": "well-meaning and kindly"
+              },
+              {
+                "word": "munificent",
+                "gloss": "extremely generous"
+              },
+              {
+                "word": "magnanimous",
+                "gloss": "generous or forgiving toward a rival or less powerful person"
+              },
+              {
+                "word": "philanthropic",
+                "gloss": "seeking to promote the welfare of others through charity"
+              }
+            ]
+          },
+          {
+            "theme": "Greedy and Withholding",
+            "words": [
+              {
+                "word": "miserly",
+                "gloss": "not generous; stingy"
+              },
+              {
+                "word": "parsimonious",
+                "gloss": "unwilling to spend money or use resources"
+              },
+              {
+                "word": "avaricious",
+                "gloss": "having or showing extreme greed for wealth"
+              },
+              {
+                "word": "rapacious",
+                "gloss": "aggressively greedy or grasping"
+              }
+            ]
+          },
+          {
+            "theme": "Proud and Showy",
+            "words": [
+              {
+                "word": "haughty",
+                "gloss": "arrogantly superior and disdainful"
+              },
+              {
+                "word": "imperious",
+                "gloss": "assuming power or authority without justification; domineering"
+              },
+              {
+                "word": "ostentatious",
+                "gloss": "designed to impress or attract notice"
+              },
+              {
+                "word": "grandiose",
+                "gloss": "impressive or affecting a sense of grandeur, often excessively"
+              }
+            ]
+          },
+          {
+            "theme": "Overly Deferential",
+            "words": [
+              {
+                "word": "unassuming",
+                "gloss": "not pretentious or arrogant; modest"
+              },
+              {
+                "word": "servile",
+                "gloss": "excessively willing to serve or please others"
+              },
+              {
+                "word": "obsequious",
+                "gloss": "obedient or attentive to an excessive degree"
+              },
+              {
+                "word": "submissive",
+                "gloss": "ready to conform to the authority or will of others"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "benevolent",
+        "munificent",
+        "magnanimous",
+        "philanthropic",
+        "miserly",
+        "parsimonious",
+        "avaricious",
+        "rapacious",
+        "haughty",
+        "imperious",
+        "ostentatious",
+        "grandiose",
+        "unassuming",
+        "servile",
+        "obsequious",
+        "submissive"
+      ]
+    }
+  ]
+}

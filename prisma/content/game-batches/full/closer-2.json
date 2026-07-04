@@ -1,0 +1,754 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "reference",
+        "def": "A mention of or direction to a source of information.",
+        "pos": "noun",
+        "ex": "The footnote included a {word} to a study she hadn't read before."
+      },
+      "explanation": null,
+      "words": [
+        "reference"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "bibliography",
+        "def": "A list of sources used or referred to in a piece of writing.",
+        "pos": "noun",
+        "ex": "At the end of his thesis, a ten-page {word} listed every article he had consulted."
+      },
+      "explanation": null,
+      "words": [
+        "bibliography"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "paraphrase",
+        "def": "To express someone else's words or ideas using different words.",
+        "pos": "verb",
+        "ex": "Rather than copy the quote directly, she chose to {word} the senator's remarks in her own words."
+      },
+      "explanation": null,
+      "words": [
+        "paraphrase"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "quotation",
+        "def": "A group of words taken exactly from a text or speech and repeated by someone else.",
+        "pos": "noun",
+        "ex": "He opened the eulogy with a {word} from his grandmother's favorite poem."
+      },
+      "explanation": null,
+      "words": [
+        "quotation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "summary",
+        "def": "A brief statement of the main points of something.",
+        "pos": "noun",
+        "ex": "Too busy to read the full report, the manager asked for a one-page {word} instead."
+      },
+      "explanation": null,
+      "words": [
+        "summary"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "abstract",
+        "def": "A short summary of a longer academic or scientific paper.",
+        "pos": "noun",
+        "ex": "Before committing to the full article, most researchers skim the {word} for relevance."
+      },
+      "explanation": null,
+      "words": [
+        "abstract"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "excerpt",
+        "def": "A short extract taken from a larger text.",
+        "pos": "noun",
+        "ex": "The teacher projected a single {word} from the novel to spark discussion."
+      },
+      "explanation": null,
+      "words": [
+        "excerpt"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "passage",
+        "def": "A short section of text from a longer piece of writing.",
+        "pos": "noun",
+        "ex": "Students were asked to underline the {word} that best supported the author's claim."
+      },
+      "explanation": null,
+      "words": [
+        "passage"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "chronological",
+        "def": "Arranged in the order in which events occurred.",
+        "pos": "adjective",
+        "ex": "The museum exhibit traced the inventor's life in strict {word} order, from childhood sketches to final patents."
+      },
+      "explanation": null,
+      "words": [
+        "chronological"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "sequential",
+        "def": "Following a particular order, one after another.",
+        "pos": "adjective",
+        "ex": "The instructions were {word}, so skipping step three made the whole assembly impossible."
+      },
+      "explanation": null,
+      "words": [
+        "sequential"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "linear",
+        "def": "Following a straight, progressive path or sequence.",
+        "pos": "adjective",
+        "ex": "Unlike the flashback-heavy film, the novel unfolds in a simple {word} timeline."
+      },
+      "explanation": null,
+      "words": [
+        "linear"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cyclical",
+        "def": "Occurring in repeating cycles rather than a straight line.",
+        "pos": "adjective",
+        "ex": "Economists have long debated whether recessions follow a {word} pattern or arise from unique causes each time."
+      },
+      "explanation": null,
+      "words": [
+        "cyclical"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "periodic",
+        "def": "Occurring at regular intervals.",
+        "pos": "adjective",
+        "ex": "The satellite sent back {word} bursts of data every ninety minutes."
+      },
+      "explanation": null,
+      "words": [
+        "periodic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "simultaneous",
+        "def": "Happening or existing at the same time.",
+        "pos": "adjective",
+        "ex": "The translator's job was to deliver {word} interpretation as the ambassador spoke."
+      },
+      "explanation": null,
+      "words": [
+        "simultaneous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "statistic",
+        "def": "A numerical fact collected and used to summarize information.",
+        "pos": "noun",
+        "ex": "One striking {word} showed that literacy rates had doubled within a decade."
+      },
+      "explanation": null,
+      "words": [
+        "statistic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "data",
+        "def": "Facts and information, especially numbers, collected for analysis.",
+        "pos": "noun",
+        "ex": "The lab spent months collecting {word} before drawing any conclusions."
+      },
+      "explanation": null,
+      "words": [
+        "data"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "sample",
+        "def": "A small part of something intended to represent the whole.",
+        "pos": "noun",
+        "ex": "Researchers surveyed a {word} of five hundred voters to estimate the nationwide mood."
+      },
+      "explanation": null,
+      "words": [
+        "sample"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "population",
+        "def": "The entire group of individuals or items being studied.",
+        "pos": "noun",
+        "ex": "The biologist tagged a handful of fish to track the health of the entire {word}."
+      },
+      "explanation": null,
+      "words": [
+        "population"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "survey",
+        "def": "A method of gathering information by asking people questions.",
+        "pos": "noun",
+        "ex": "An online {word} revealed that most employees preferred flexible hours over higher pay."
+      },
+      "explanation": null,
+      "words": [
+        "survey"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "questionnaire",
+        "def": "A set of written questions used to collect information from people.",
+        "pos": "noun",
+        "ex": "New patients filled out a lengthy {word} about their medical history before the appointment."
+      },
+      "explanation": null,
+      "words": [
+        "questionnaire"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "census",
+        "def": "An official count or survey of a population.",
+        "pos": "noun",
+        "ex": "Every ten years, the government conducts a {word} to determine how funding is distributed."
+      },
+      "explanation": null,
+      "words": [
+        "census"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "demographic",
+        "def": "Relating to the structure of populations, such as age, income, or ethnicity.",
+        "pos": "adjective",
+        "ex": "Advertisers tailored the campaign to a specific {word} group of young urban professionals."
+      },
+      "explanation": null,
+      "words": [
+        "demographic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "economic",
+        "def": "Relating to the production, trade, and management of money and resources.",
+        "pos": "adjective",
+        "ex": "The new tariffs triggered an {word} dispute between the two trading partners."
+      },
+      "explanation": null,
+      "words": [
+        "economic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "political",
+        "def": "Relating to government, public affairs, or the exercise of power.",
+        "pos": "adjective",
+        "ex": "The scandal quickly became a {word} liability for the incumbent mayor."
+      },
+      "explanation": null,
+      "words": [
+        "political"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "social",
+        "def": "Relating to society, human interaction, or living together in communities.",
+        "pos": "adjective",
+        "ex": "Rising rents have become a pressing {word} issue in many growing cities."
+      },
+      "explanation": null,
+      "words": [
+        "social"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cultural",
+        "def": "Relating to the customs, arts, and social behavior of a society.",
+        "pos": "adjective",
+        "ex": "The festival celebrated the region's {word} heritage through music, food, and dance."
+      },
+      "explanation": null,
+      "words": [
+        "cultural"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "historical",
+        "def": "Relating to past events or the study of history.",
+        "pos": "adjective",
+        "ex": "The novelist relied on {word} records to reconstruct daily life in the medieval town."
+      },
+      "explanation": null,
+      "words": [
+        "historical"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "geographic",
+        "def": "Relating to the physical features and location of places.",
+        "pos": "adjective",
+        "ex": "Mountain ranges created a natural {word} barrier between the two kingdoms."
+      },
+      "explanation": null,
+      "words": [
+        "geographic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "institution",
+        "def": "An established organization founded for a particular purpose, such as education or religion.",
+        "pos": "noun",
+        "ex": "The university, founded in 1650, remains one of the oldest {word}s in the country."
+      },
+      "explanation": null,
+      "words": [
+        "institution"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "organization",
+        "def": "A group of people working together for a shared purpose.",
+        "pos": "noun",
+        "ex": "The volunteer {word} distributed food to hundreds of families each week."
+      },
+      "explanation": null,
+      "words": [
+        "organization"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "corporation",
+        "def": "A large company or group of companies recognized as a single legal entity.",
+        "pos": "noun",
+        "ex": "The multinational {word} employed thousands of workers across a dozen countries."
+      },
+      "explanation": null,
+      "words": [
+        "corporation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "enterprise",
+        "def": "A business or company, or a bold and ambitious project.",
+        "pos": "noun",
+        "ex": "Starting a small bakery from her kitchen, she gradually built it into a thriving {word}."
+      },
+      "explanation": null,
+      "words": [
+        "enterprise"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "industry",
+        "def": "Economic activity concerned with the production of goods or services.",
+        "pos": "noun",
+        "ex": "Automation has transformed nearly every corner of the manufacturing {word}."
+      },
+      "explanation": null,
+      "words": [
+        "industry"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "sector",
+        "def": "A distinct part of an economy or area of activity.",
+        "pos": "noun",
+        "ex": "Job growth was strongest in the technology {word} last quarter."
+      },
+      "explanation": null,
+      "words": [
+        "sector"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "regulation",
+        "def": "An official rule made and enforced by an authority.",
+        "pos": "noun",
+        "ex": "A new {word} required all restaurants to post calorie counts on their menus."
+      },
+      "explanation": null,
+      "words": [
+        "regulation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "legislation",
+        "def": "Laws formally made by a governing body.",
+        "pos": "noun",
+        "ex": "Congress passed sweeping {word} aimed at reducing carbon emissions."
+      },
+      "explanation": null,
+      "words": [
+        "legislation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "policy",
+        "def": "A course of action adopted by a government or organization.",
+        "pos": "noun",
+        "ex": "The company's new remote-work {word} let employees choose their own hours."
+      },
+      "explanation": null,
+      "words": [
+        "policy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "mandate",
+        "def": "An official order or authorization to do something.",
+        "pos": "noun",
+        "ex": "Voters gave the new president a clear {word} to reform the tax code."
+      },
+      "explanation": null,
+      "words": [
+        "mandate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "directive",
+        "def": "An official instruction issued by an authority.",
+        "pos": "noun",
+        "ex": "The headquarters issued a {word} requiring all branches to close by nine."
+      },
+      "explanation": null,
+      "words": [
+        "directive"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "statute",
+        "def": "A written law passed by a legislative body.",
+        "pos": "noun",
+        "ex": "Under the state's new {word}, texting while driving is now a criminal offense."
+      },
+      "explanation": null,
+      "words": [
+        "statute"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "ordinance",
+        "def": "A local law or regulation made by a city or town authority.",
+        "pos": "noun",
+        "ex": "The city council passed an {word} banning fireworks within town limits."
+      },
+      "explanation": null,
+      "words": [
+        "ordinance"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "jurisdiction",
+        "def": "The official power to make legal decisions over a certain area or matter.",
+        "pos": "noun",
+        "ex": "The case was dismissed because the crime fell outside the court's {word}."
+      },
+      "explanation": null,
+      "words": [
+        "jurisdiction"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "authority",
+        "def": "The power or right to give orders and enforce obedience.",
+        "pos": "noun",
+        "ex": "Only the fire marshal has the {word} to shut down the building for safety violations."
+      },
+      "explanation": null,
+      "words": [
+        "authority"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "governance",
+        "def": "The process or system of governing an organization or country.",
+        "pos": "noun",
+        "ex": "The nonprofit's board was criticized for weak {word} and poor financial oversight."
+      },
+      "explanation": null,
+      "words": [
+        "governance"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "administration",
+        "def": "The management of a government, organization, or institution.",
+        "pos": "noun",
+        "ex": "The new {word} promised to streamline the permitting process within its first year."
+      },
+      "explanation": null,
+      "words": [
+        "administration"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "bureaucracy",
+        "def": "A system of government or organization marked by many officials and rigid procedures.",
+        "pos": "noun",
+        "ex": "Getting a simple permit required wading through layers of confusing {word}."
+      },
+      "explanation": null,
+      "words": [
+        "bureaucracy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "citizen",
+        "def": "A legally recognized member of a state or nation with rights and duties.",
+        "pos": "noun",
+        "ex": "After a decade of residency, she finally became a naturalized {word}."
+      },
+      "explanation": null,
+      "words": [
+        "citizen"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "civilian",
+        "def": "A person who is not a member of the armed forces or police.",
+        "pos": "noun",
+        "ex": "The peace treaty required soldiers to hand over weapons and return to {word} life."
+      },
+      "explanation": null,
+      "words": [
+        "civilian"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "resident",
+        "def": "A person who lives permanently in a particular place.",
+        "pos": "noun",
+        "ex": "Only {word}s of the county are eligible to vote in the local school board election."
+      },
+      "explanation": null,
+      "words": [
+        "resident"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "inhabitant",
+        "def": "A person or animal that lives in a particular place.",
+        "pos": "noun",
+        "ex": "The remote island's few hundred {word}s rely almost entirely on fishing."
+      },
+      "explanation": null,
+      "words": [
+        "inhabitant"
+      ]
+    }
+  ]
+}

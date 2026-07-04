@@ -1,0 +1,286 @@
+{
+  "items": [
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Contrast connectors",
+            "words": [
+              { "word": "however", "gloss": "but; contrast transition" },
+              { "word": "although", "gloss": "despite the fact that" },
+              { "word": "despite", "gloss": "without being affected by" },
+              { "word": "whereas", "gloss": "while, by contrast" }
+            ]
+          },
+          {
+            "theme": "How often",
+            "words": [
+              { "word": "generally", "gloss": "usually; in most cases" },
+              { "word": "typically", "gloss": "in the usual way" },
+              { "word": "frequently", "gloss": "happening often" },
+              { "word": "occasionally", "gloss": "sometimes, not often" }
+            ]
+          },
+          {
+            "theme": "Seemingly true (but maybe not)",
+            "words": [
+              { "word": "presumably", "gloss": "assumed to be true" },
+              { "word": "apparently", "gloss": "as far as one can tell" },
+              { "word": "seemingly", "gloss": "appearing to be so" },
+              { "word": "ostensibly", "gloss": "claimed to be true" }
+            ]
+          },
+          {
+            "theme": "To a striking degree",
+            "words": [
+              { "word": "considerably", "gloss": "by a large amount" },
+              { "word": "markedly", "gloss": "clearly, noticeably" },
+              { "word": "dramatically", "gloss": "suddenly, strikingly" },
+              { "word": "substantially", "gloss": "to a large extent" }
+            ]
+          }
+        ]
+      },
+      "explanation": "The 'seemingly true' words look like simple synonyms for 'apparently obvious,' but they all specifically signal unconfirmed appearance, not certainty.",
+      "words": ["however", "although", "despite", "whereas", "generally", "typically", "frequently", "occasionally", "presumably", "apparently", "seemingly", "ostensibly", "considerably", "markedly", "dramatically", "substantially"]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Absolutely necessary",
+            "words": [
+              { "word": "essential", "gloss": "necessary, required" },
+              { "word": "crucial", "gloss": "extremely important" },
+              { "word": "vital", "gloss": "necessary for survival" },
+              { "word": "critical", "gloss": "urgently important" }
+            ]
+          },
+          {
+            "theme": "Of lesser importance",
+            "words": [
+              { "word": "secondary", "gloss": "less important" },
+              { "word": "minor", "gloss": "small in importance" },
+              { "word": "marginal", "gloss": "barely noticeable" },
+              { "word": "peripheral", "gloss": "not central; on the edge" }
+            ]
+          },
+          {
+            "theme": "Connected to the matter at hand",
+            "words": [
+              { "word": "relevant", "gloss": "closely connected" },
+              { "word": "pertinent", "gloss": "directly applicable" },
+              { "word": "applicable", "gloss": "able to be applied" },
+              { "word": "appropriate", "gloss": "suitable, fitting" }
+            ]
+          },
+          {
+            "theme": "Enough or more than enough",
+            "words": [
+              { "word": "adequate", "gloss": "enough for the purpose" },
+              { "word": "sufficient", "gloss": "as much as needed" },
+              { "word": "ample", "gloss": "more than enough" },
+              { "word": "abundant", "gloss": "plentiful" }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": ["essential", "crucial", "vital", "critical", "secondary", "minor", "marginal", "peripheral", "relevant", "pertinent", "applicable", "appropriate", "adequate", "sufficient", "ample", "abundant"]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 4,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Praise highly",
+            "words": [
+              { "word": "laud", "gloss": "praise highly" },
+              { "word": "extol", "gloss": "praise enthusiastically" },
+              { "word": "commend", "gloss": "praise formally" },
+              { "word": "applaud", "gloss": "express strong approval" }
+            ]
+          },
+          {
+            "theme": "Doubt or challenge",
+            "words": [
+              { "word": "dispute", "gloss": "argue against" },
+              { "word": "challenge", "gloss": "question validity of" },
+              { "word": "question", "gloss": "express doubt about" },
+              { "word": "oppose", "gloss": "disagree with, resist" }
+            ]
+          },
+          {
+            "theme": "Clearly seen or understood",
+            "words": [
+              { "word": "evident", "gloss": "clearly seen" },
+              { "word": "apparent", "gloss": "clearly visible" },
+              { "word": "obvious", "gloss": "easy to see at once" },
+              { "word": "prominent", "gloss": "standing out clearly" }
+            ]
+          },
+          {
+            "theme": "Believable and trustworthy",
+            "words": [
+              { "word": "credible", "gloss": "able to be believed" },
+              { "word": "convincing", "gloss": "persuades it's true" },
+              { "word": "persuasive", "gloss": "good at convincing" },
+              { "word": "legitimate", "gloss": "valid, justified" }
+            ]
+          }
+        ]
+      },
+      "explanation": "The tricky overlap: 'credible/convincing/persuasive' describe how believable an argument SOUNDS, while 'evident/apparent/obvious' describe how clearly something IS seen -- easy to mix up since both groups relate to being 'clear' or 'sure.'",
+      "words": ["laud", "extol", "commend", "applaud", "dispute", "challenge", "question", "oppose", "evident", "apparent", "obvious", "prominent", "credible", "convincing", "persuasive", "legitimate"]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Show or make clear",
+            "words": [
+              { "word": "indicate", "gloss": "point out, show" },
+              { "word": "demonstrate", "gloss": "show through evidence" },
+              { "word": "illustrate", "gloss": "make clear with examples" },
+              { "word": "exemplify", "gloss": "be a typical example" }
+            ]
+          },
+          {
+            "theme": "Bring things together",
+            "words": [
+              { "word": "integrate", "gloss": "combine into a whole" },
+              { "word": "combine", "gloss": "join two or more things" },
+              { "word": "merge", "gloss": "blend into one" },
+              { "word": "unify", "gloss": "bring into a single whole" }
+            ]
+          },
+          {
+            "theme": "Gather from various sources",
+            "words": [
+              { "word": "compile", "gloss": "gather into one collection" },
+              { "word": "assemble", "gloss": "fit parts together" },
+              { "word": "accumulate", "gloss": "build up over time" },
+              { "word": "collect", "gloss": "bring together systematically" }
+            ]
+          },
+          {
+            "theme": "Slow down or block",
+            "words": [
+              { "word": "hinder", "gloss": "make progress difficult" },
+              { "word": "impede", "gloss": "slow down progress" },
+              { "word": "obstruct", "gloss": "block a path or process" },
+              { "word": "inhibit", "gloss": "hold back, restrain" }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": ["indicate", "demonstrate", "illustrate", "exemplify", "integrate", "combine", "merge", "unify", "compile", "assemble", "accumulate", "collect", "hinder", "impede", "obstruct", "inhibit"]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 4,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Genuine and real",
+            "words": [
+              { "word": "authentic", "gloss": "genuine, true to origin" },
+              { "word": "genuine", "gloss": "truly what it claims" },
+              { "word": "valid", "gloss": "logically sound" },
+              { "word": "legitimate", "gloss": "conforming to rules" }
+            ]
+          },
+          {
+            "theme": "Fake or invented",
+            "words": [
+              { "word": "artificial", "gloss": "made by humans, imitation" },
+              { "word": "synthetic", "gloss": "made to imitate natural" },
+              { "word": "fabricated", "gloss": "made up to deceive" },
+              { "word": "false", "gloss": "not true" }
+            ]
+          },
+          {
+            "theme": "Exactly correct",
+            "words": [
+              { "word": "accurate", "gloss": "correct in all details" },
+              { "word": "precise", "gloss": "exact in measurement" },
+              { "word": "exact", "gloss": "correct in every detail" },
+              { "word": "correct", "gloss": "free from error" }
+            ]
+          },
+          {
+            "theme": "Containing errors",
+            "words": [
+              { "word": "inaccurate", "gloss": "not correct or exact" },
+              { "word": "imprecise", "gloss": "vague, not exact" },
+              { "word": "flawed", "gloss": "has a weakness or mistake" },
+              { "word": "inconsistent", "gloss": "contains contradictions" }
+            ]
+          }
+        ]
+      },
+      "explanation": "The trap: 'legitimate' and 'valid' could plausibly fit 'exactly correct,' since both relate to soundness -- but they mean rule-conforming/authentic, not measured precisely.",
+      "words": ["authentic", "genuine", "valid", "legitimate", "artificial", "synthetic", "fabricated", "false", "accurate", "precise", "exact", "correct", "inaccurate", "imprecise", "flawed", "inconsistent"]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 3,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Rely on reason, not emotion",
+            "words": [
+              { "word": "rational", "gloss": "based on clear thought" },
+              { "word": "logical", "gloss": "following correct reasoning" },
+              { "word": "reasonable", "gloss": "fair and sensible" },
+              { "word": "sound", "gloss": "based on valid reasoning" }
+            ]
+          },
+          {
+            "theme": "Against reason",
+            "words": [
+              { "word": "irrational", "gloss": "not logical" },
+              { "word": "illogical", "gloss": "contrary to logic" },
+              { "word": "unreasonable", "gloss": "beyond acceptable sense" },
+              { "word": "erratic", "gloss": "unpredictable, irregular" }
+            ]
+          },
+          {
+            "theme": "Favoring one side unfairly",
+            "words": [
+              { "word": "biased", "gloss": "showing unfair prejudice" },
+              { "word": "prejudiced", "gloss": "preconceived unfair opinion" },
+              { "word": "partial", "gloss": "favoring one side" },
+              { "word": "one-sided", "gloss": "considering only one view" }
+            ]
+          },
+          {
+            "theme": "Producing good results",
+            "words": [
+              { "word": "constructive", "gloss": "serving a useful purpose" },
+              { "word": "productive", "gloss": "producing good results" },
+              { "word": "fruitful", "gloss": "successful, beneficial" },
+              { "word": "beneficial", "gloss": "producing good effects" }
+            ]
+          }
+        ]
+      },
+      "explanation": "The overlap trap: 'erratic' sounds like it belongs with 'unpredictable/inconsistent' behavior generally, but here it groups with 'against reason' words because unpredictable reasoning is what makes an argument illogical.",
+      "words": ["rational", "logical", "reasonable", "sound", "irrational", "illogical", "unreasonable", "erratic", "biased", "prejudiced", "partial", "one-sided", "constructive", "productive", "fruitful", "beneficial"]
+    }
+  ]
+}

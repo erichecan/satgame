@@ -1,0 +1,2776 @@
+{
+  "items": [
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Solve for x: 3(x − 2) + 5 = 2x + 9.",
+        "textZh": "解方程：3(x − 2) + 5 = 2x + 9，求 x。",
+        "ask": [
+          {
+            "en": "What is being solved for?",
+            "zh": "要求解什么？",
+            "correct": true
+          },
+          {
+            "en": "The value of 2x",
+            "zh": "2x 的值"
+          },
+          {
+            "en": "The value of x+9",
+            "zh": "x+9 的值"
+          },
+          {
+            "en": "The perimeter of a shape",
+            "zh": "某图形的周长"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Factor the quadratic first",
+            "zh": "先对二次式因式分解"
+          },
+          {
+            "en": "Divide both sides by 2 immediately",
+            "zh": "立即两边同除以2"
+          },
+          {
+            "en": "Expand and collect like terms, then isolate x.",
+            "zh": "展开并合并同类项，然后求出 x。",
+            "correct": true
+          },
+          {
+            "en": "Take the square root of both sides",
+            "zh": "两边同时开平方"
+          }
+        ],
+        "cueEn": "Distribute the 3, then move variable terms to one side.",
+        "cueZh": "先展开括号中的3，再将变量项移到一边。",
+        "steps": [
+          {
+            "en": "3x − 6 + 5 = 2x + 9 → 3x − 1 = 2x + 9",
+            "zh": "3x − 6 + 5 = 2x + 9 → 3x − 1 = 2x + 9"
+          },
+          {
+            "en": "3x − 2x = 9 + 1 → x = 10",
+            "zh": "3x − 2x = 9 + 1 → x = 10"
+          }
+        ],
+        "turns": 2,
+        "workEn": "3(x-2)+5=2x+9\n3x-6+5=2x+9\n3x-1=2x+9\nx=10",
+        "workZh": "3(x-2)+5=2x+9\n3x-6+5=2x+9\n3x-1=2x+9\nx=10",
+        "answerEn": "x = 10",
+        "answerZh": "x = 10"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If x + y = 15 and 2x − y = 6, what is the value of y?",
+        "textZh": "若 x + y = 15 且 2x − y = 6，求 y 的值。",
+        "ask": [
+          {
+            "en": "The value of x",
+            "zh": "x 的值"
+          },
+          {
+            "en": "What quantity does the question want?",
+            "zh": "题目要求哪个量？",
+            "correct": true
+          },
+          {
+            "en": "The value of x + 2y",
+            "zh": "x + 2y 的值"
+          },
+          {
+            "en": "The product xy",
+            "zh": "xy 的乘积"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the equations together",
+            "zh": "把两个方程相乘"
+          },
+          {
+            "en": "Subtract y from both sides of the first equation",
+            "zh": "从第一个方程两边减去 y"
+          },
+          {
+            "en": "Graph both lines and estimate",
+            "zh": "画图估算交点"
+          },
+          {
+            "en": "Add the two equations to eliminate y, then solve for x, then substitute.",
+            "zh": "将两个方程相加消去 y，先求 x，再代入求 y。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Add the equations to eliminate y first.",
+        "cueZh": "先将两个方程相加，消去 y。",
+        "steps": [
+          {
+            "en": "(x+y)+(2x−y)=15+6 → 3x=21 → x=7",
+            "zh": "(x+y)+(2x−y)=15+6 → 3x=21 → x=7"
+          },
+          {
+            "en": "y = 15 − x = 15 − 7 = 8",
+            "zh": "y = 15 − x = 15 − 7 = 8"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x+y=15\n2x-y=6\nAdd: 3x=21, x=7\ny=15-7=8",
+        "workZh": "x+y=15\n2x-y=6\n相加：3x=21，x=7\ny=15-7=8",
+        "answerEn": "y = 8",
+        "answerZh": "y = 8"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Solve for x: −2(x + 3) = 4x + 18.",
+        "textZh": "解方程：−2(x + 3) = 4x + 18，求 x。",
+        "ask": [
+          {
+            "en": "Distribute −2 across (x+3)",
+            "zh": "把 −2 分配到 (x+3) 中"
+          },
+          {
+            "en": "Square both sides",
+            "zh": "两边平方"
+          },
+          {
+            "en": "What is the first useful move?",
+            "zh": "第一步应该做什么？",
+            "correct": true
+          },
+          {
+            "en": "Divide both sides by x",
+            "zh": "两边同除以 x"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Expand, combine like terms, then isolate x.",
+            "zh": "展开、合并同类项，再求出 x。",
+            "correct": true
+          },
+          {
+            "en": "Take the reciprocal of both sides",
+            "zh": "取两边的倒数"
+          },
+          {
+            "en": "Add 3 to both sides first",
+            "zh": "先在两边加3"
+          },
+          {
+            "en": "Assume x = 0 and check",
+            "zh": "假设 x = 0 再检验"
+          }
+        ],
+        "cueEn": "Distribute −2, then gather x-terms on one side.",
+        "cueZh": "先分配 −2，再把含 x 的项归到一边。",
+        "steps": [
+          {
+            "en": "−2x − 6 = 4x + 18",
+            "zh": "−2x − 6 = 4x + 18"
+          },
+          {
+            "en": "−6 − 18 = 4x + 2x → −24 = 6x → x = −4",
+            "zh": "−6 − 18 = 4x + 2x → −24 = 6x → x = −4"
+          }
+        ],
+        "turns": 2,
+        "workEn": "-2(x+3)=4x+18\n-2x-6=4x+18\n-24=6x\nx=-4",
+        "workZh": "-2(x+3)=4x+18\n-2x-6=4x+18\n-24=6x\nx=-4",
+        "answerEn": "x = −4",
+        "answerZh": "x = −4"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the largest integer value of x that satisfies 3x − 4 ≤ 11?",
+        "textZh": "满足 3x − 4 ≤ 11 的最大整数 x 是多少？",
+        "ask": [
+          {
+            "en": "The largest integer solution",
+            "zh": "满足条件的最大整数解"
+          },
+          {
+            "en": "The smallest integer solution",
+            "zh": "满足条件的最小整数解"
+          },
+          {
+            "en": "The value of 3x only",
+            "zh": "仅仅 3x 的值"
+          },
+          {
+            "en": "What must be found?",
+            "zh": "需要求出什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply both sides by −1 without flipping the sign",
+            "zh": "两边乘以 −1 但不改变不等号方向"
+          },
+          {
+            "en": "Isolate x, then round down to the nearest integer if needed.",
+            "zh": "先求出 x 的范围，再取满足条件的最大整数。",
+            "correct": true
+          },
+          {
+            "en": "Square both sides",
+            "zh": "两边平方"
+          },
+          {
+            "en": "Add 4 to both sides then divide by −3",
+            "zh": "两边加4后除以 −3"
+          }
+        ],
+        "cueEn": "Add 4 to both sides, then divide by 3.",
+        "cueZh": "两边先加4，再除以3。",
+        "steps": [
+          {
+            "en": "3x − 4 ≤ 11 → 3x ≤ 15",
+            "zh": "3x − 4 ≤ 11 → 3x ≤ 15"
+          },
+          {
+            "en": "x ≤ 5, so the largest integer is 5",
+            "zh": "x ≤ 5，所以最大整数是 5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "3x-4<=11\n3x<=15\nx<=5",
+        "workZh": "3x-4<=11\n3x<=15\nx<=5",
+        "answerEn": "x = 5",
+        "answerZh": "x = 5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A car travels d = 180 miles at a constant rate r = 45 mph, using the formula d = rt. How many hours t did the trip take?",
+        "textZh": "一辆车以恒定速度 r = 45 英里/小时行驶 d = 180 英里，使用公式 d = rt。此次行程用了多少小时 t？",
+        "ask": [
+          {
+            "en": "What variable is being solved for?",
+            "zh": "要求解哪个变量？",
+            "correct": true
+          },
+          {
+            "en": "The value of t",
+            "zh": "t 的值"
+          },
+          {
+            "en": "The value of r",
+            "zh": "r 的值"
+          },
+          {
+            "en": "The value of d",
+            "zh": "d 的值"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply d and r together",
+            "zh": "把 d 和 r 相乘"
+          },
+          {
+            "en": "Subtract r from d",
+            "zh": "用 d 减去 r"
+          },
+          {
+            "en": "Rearrange the formula to isolate t, then substitute the values.",
+            "zh": "先把公式变形求出 t，再代入数值。",
+            "correct": true
+          },
+          {
+            "en": "Square d before dividing",
+            "zh": "先把 d 平方再相除"
+          }
+        ],
+        "cueEn": "Divide both sides of d = rt by r.",
+        "cueZh": "把 d = rt 两边同除以 r。",
+        "steps": [
+          {
+            "en": "t = d / r",
+            "zh": "t = d / r"
+          },
+          {
+            "en": "t = 180 / 45 = 4 hours",
+            "zh": "t = 180 / 45 = 4 小时"
+          }
+        ],
+        "turns": 2,
+        "workEn": "d=rt\nt=d/r=180/45=4",
+        "workZh": "d=rt\nt=d/r=180/45=4",
+        "answerEn": "t = 4 hours",
+        "answerZh": "t = 4 小时"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the slope of the line 2x + 3y = 12?",
+        "textZh": "直线 2x + 3y = 12 的斜率是多少？",
+        "ask": [
+          {
+            "en": "Slope-intercept form y = mx + b",
+            "zh": "斜截式 y = mx + b"
+          },
+          {
+            "en": "What form must the equation be rewritten in?",
+            "zh": "方程需要改写成什么形式？",
+            "correct": true
+          },
+          {
+            "en": "Standard form only",
+            "zh": "仅保留一般式"
+          },
+          {
+            "en": "Vertex form",
+            "zh": "顶点式"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add the coefficients of x and y",
+            "zh": "把 x 和 y 的系数相加"
+          },
+          {
+            "en": "Set x = 0 and y = 0 simultaneously",
+            "zh": "同时令 x = 0 和 y = 0"
+          },
+          {
+            "en": "Divide 12 by 2 only",
+            "zh": "只用12除以2"
+          },
+          {
+            "en": "Solve the equation for y, then read off the coefficient of x.",
+            "zh": "把方程解出 y，然后读出 x 的系数。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Isolate y to get y = mx + b form.",
+        "cueZh": "把 y 单独放在一边，化成 y = mx + b 的形式。",
+        "steps": [
+          {
+            "en": "3y = −2x + 12",
+            "zh": "3y = −2x + 12"
+          },
+          {
+            "en": "y = (−2/3)x + 4, so slope m = −2/3",
+            "zh": "y = (−2/3)x + 4，斜率 m = −2/3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2x+3y=12\n3y=-2x+12\ny=(-2/3)x+4\nslope=-2/3",
+        "workZh": "2x+3y=12\n3y=-2x+12\ny=(-2/3)x+4\n斜率=-2/3",
+        "answerEn": "slope = −2/3",
+        "answerZh": "斜率 = −2/3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the positive solution to |2x − 3| = 7?",
+        "textZh": "方程 |2x − 3| = 7 的正数解是多少？",
+        "ask": [
+          {
+            "en": "Splitting into two cases: positive and negative",
+            "zh": "分成正、负两种情况"
+          },
+          {
+            "en": "Squaring the expression only once",
+            "zh": "只对表达式平方一次"
+          },
+          {
+            "en": "What does solving an absolute value equation require?",
+            "zh": "解绝对值方程需要什么？",
+            "correct": true
+          },
+          {
+            "en": "Ignoring the negative case entirely",
+            "zh": "完全忽略负数情况"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set up both cases 2x−3=7 and 2x−3=−7, solve each, keep the positive result.",
+            "zh": "分别设 2x−3=7 和 2x−3=−7 求解，取正数解。",
+            "correct": true
+          },
+          {
+            "en": "Only solve 2x − 3 = 7 and stop",
+            "zh": "只解 2x − 3 = 7 就停止"
+          },
+          {
+            "en": "Divide 7 by 2 directly",
+            "zh": "直接用7除以2"
+          },
+          {
+            "en": "Add 3 to 7 without setting cases",
+            "zh": "不分情况直接把3加到7上"
+          }
+        ],
+        "cueEn": "Split into two linear equations.",
+        "cueZh": "拆分成两个一次方程。",
+        "steps": [
+          {
+            "en": "Case 1: 2x − 3 = 7 → x = 5",
+            "zh": "情况1：2x − 3 = 7 → x = 5"
+          },
+          {
+            "en": "Case 2: 2x − 3 = −7 → x = −2; the positive solution is 5",
+            "zh": "情况2：2x − 3 = −7 → x = −2；正数解为 5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "|2x-3|=7\n2x-3=7 -> x=5\n2x-3=-7 -> x=-2\npositive: x=5",
+        "workZh": "|2x-3|=7\n2x-3=7 -> x=5\n2x-3=-7 -> x=-2\n正数解：x=5",
+        "answerEn": "x = 5",
+        "answerZh": "x = 5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Maya's age is 4 years more than twice her brother's age. The sum of their ages is 31. How old is Maya's brother?",
+        "textZh": "Maya 的年龄比她弟弟年龄的两倍还多4岁。他们年龄之和是31岁。Maya 的弟弟多少岁？",
+        "ask": [
+          {
+            "en": "The brother's age",
+            "zh": "弟弟的年龄"
+          },
+          {
+            "en": "Maya's age directly",
+            "zh": "直接表示 Maya 的年龄"
+          },
+          {
+            "en": "The sum of both ages",
+            "zh": "两人年龄之和"
+          },
+          {
+            "en": "What should the variable represent?",
+            "zh": "变量应该表示什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 31 by 2 directly",
+            "zh": "直接用31除以2"
+          },
+          {
+            "en": "Write Maya's age in terms of her brother's, set up the sum equation, and solve.",
+            "zh": "用弟弟的年龄表示 Maya 的年龄，列出年龄和的方程并求解。",
+            "correct": true
+          },
+          {
+            "en": "Assume both ages are equal",
+            "zh": "假设两人年龄相等"
+          },
+          {
+            "en": "Multiply the ages together to get 31",
+            "zh": "把两人年龄相乘得到31"
+          }
+        ],
+        "cueEn": "Let b = brother's age; Maya = 2b + 4.",
+        "cueZh": "设 b 为弟弟的年龄；Maya 的年龄 = 2b + 4。",
+        "steps": [
+          {
+            "en": "b + (2b + 4) = 31 → 3b + 4 = 31",
+            "zh": "b + (2b + 4) = 31 → 3b + 4 = 31"
+          },
+          {
+            "en": "3b = 27 → b = 9",
+            "zh": "3b = 27 → b = 9"
+          }
+        ],
+        "turns": 2,
+        "workEn": "b+(2b+4)=31\n3b+4=31\n3b=27\nb=9",
+        "workZh": "b+(2b+4)=31\n3b+4=31\n3b=27\nb=9",
+        "answerEn": "9 years old",
+        "answerZh": "9 岁"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the x-intercept of the line 5x − 2y = 20?",
+        "textZh": "直线 5x − 2y = 20 的 x 截距是多少？",
+        "ask": [
+          {
+            "en": "What condition defines the x-intercept?",
+            "zh": "x 截距满足什么条件？",
+            "correct": true
+          },
+          {
+            "en": "y = 0",
+            "zh": "y = 0"
+          },
+          {
+            "en": "x = 0",
+            "zh": "x = 0"
+          },
+          {
+            "en": "x = y",
+            "zh": "x = y"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute x = 0 and solve for y",
+            "zh": "代入 x = 0 求解 y"
+          },
+          {
+            "en": "Divide 20 by 2 without substitution",
+            "zh": "不代入直接用20除以2"
+          },
+          {
+            "en": "Substitute y = 0 into the equation and solve for x.",
+            "zh": "把 y = 0 代入方程求解 x。",
+            "correct": true
+          },
+          {
+            "en": "Set 5x equal to −2y and stop",
+            "zh": "令 5x 等于 −2y 就停止"
+          }
+        ],
+        "cueEn": "Set y = 0 in the equation.",
+        "cueZh": "在方程中令 y = 0。",
+        "steps": [
+          {
+            "en": "5x − 2(0) = 20 → 5x = 20",
+            "zh": "5x − 2(0) = 20 → 5x = 20"
+          },
+          {
+            "en": "x = 4",
+            "zh": "x = 4"
+          }
+        ],
+        "turns": 2,
+        "workEn": "5x-2y=20, y=0\n5x=20\nx=4",
+        "workZh": "5x-2y=20，y=0\n5x=20\nx=4",
+        "answerEn": "(4, 0)",
+        "answerZh": "(4, 0)"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Solve for x: x/3 + x/6 = 3.",
+        "textZh": "解方程：x/3 + x/6 = 3，求 x。",
+        "ask": [
+          {
+            "en": "Find a common denominator for the fractions",
+            "zh": "为分数找公分母"
+          },
+          {
+            "en": "What is the best first step?",
+            "zh": "最好的第一步是什么？",
+            "correct": true
+          },
+          {
+            "en": "Cross-multiply the two fractions",
+            "zh": "对两个分数交叉相乘"
+          },
+          {
+            "en": "Square both sides",
+            "zh": "两边平方"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply x by 3 and 6 separately without combining",
+            "zh": "分别把 x 乘以3和6但不合并"
+          },
+          {
+            "en": "Add 3 to both sides first",
+            "zh": "先在两边加3"
+          },
+          {
+            "en": "Divide 3 by 6 first",
+            "zh": "先用3除以6"
+          },
+          {
+            "en": "Combine the fractions over a common denominator, then solve the resulting equation.",
+            "zh": "将分数通分合并，再解出方程。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Rewrite with common denominator 6.",
+        "cueZh": "用公分母6重写。",
+        "steps": [
+          {
+            "en": "x/3 + x/6 = 2x/6 + x/6 = 3x/6 = x/2",
+            "zh": "x/3 + x/6 = 2x/6 + x/6 = 3x/6 = x/2"
+          },
+          {
+            "en": "x/2 = 3 → x = 6",
+            "zh": "x/2 = 3 → x = 6"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x/3+x/6=3\n(2x+x)/6=3\n3x/6=3\nx/2=3\nx=6",
+        "workZh": "x/3+x/6=3\n(2x+x)/6=3\n3x/6=3\nx/2=3\nx=6",
+        "answerEn": "x = 6",
+        "answerZh": "x = 6"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "One number is 3 more than twice a second number. Their sum is 27. What is the larger number?",
+        "textZh": "一个数比另一个数的两倍多3。两数之和是27。较大的数是多少？",
+        "ask": [
+          {
+            "en": "a = 2b + 3 and a + b = 27",
+            "zh": "a = 2b + 3 且 a + b = 27"
+          },
+          {
+            "en": "a = b + 3 and a + b = 27",
+            "zh": "a = b + 3 且 a + b = 27"
+          },
+          {
+            "en": "What is the correct system to set up?",
+            "zh": "应该列出什么方程组？",
+            "correct": true
+          },
+          {
+            "en": "a = 2b and a − b = 27",
+            "zh": "a = 2b 且 a − b = 27"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute the expression for a into the sum equation and solve.",
+            "zh": "把 a 的表达式代入求和方程并求解。",
+            "correct": true
+          },
+          {
+            "en": "Divide 27 by 3 directly without substitution",
+            "zh": "不代入直接用27除以3"
+          },
+          {
+            "en": "Assume both numbers equal 27/2",
+            "zh": "假设两数都等于27/2"
+          },
+          {
+            "en": "Add 3 to 27 before solving",
+            "zh": "求解前先把3加到27上"
+          }
+        ],
+        "cueEn": "Let a = 2b + 3, and a + b = 27.",
+        "cueZh": "设 a = 2b + 3，且 a + b = 27。",
+        "steps": [
+          {
+            "en": "(2b + 3) + b = 27 → 3b + 3 = 27",
+            "zh": "(2b + 3) + b = 27 → 3b + 3 = 27"
+          },
+          {
+            "en": "3b = 24 → b = 8, so a = 2(8)+3 = 19",
+            "zh": "3b = 24 → b = 8，所以 a = 2(8)+3 = 19"
+          }
+        ],
+        "turns": 2,
+        "workEn": "a=2b+3\na+b=27\n3b+3=27\nb=8\na=19",
+        "workZh": "a=2b+3\na+b=27\n3b+3=27\nb=8\na=19",
+        "answerEn": "19",
+        "answerZh": "19"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the larger root of x² − 5x + 6 = 0?",
+        "textZh": "方程 x² − 5x + 6 = 0 的较大的根是多少？",
+        "ask": [
+          {
+            "en": "Completing the square only",
+            "zh": "仅用配方法"
+          },
+          {
+            "en": "Graphing without factoring",
+            "zh": "不因式分解直接画图"
+          },
+          {
+            "en": "Guessing values of x at random",
+            "zh": "随机猜测 x 的值"
+          },
+          {
+            "en": "What method finds the roots directly?",
+            "zh": "什么方法能直接求出根？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add the coefficients 1, −5, and 6",
+            "zh": "把系数1、−5、6相加"
+          },
+          {
+            "en": "Factor the quadratic into two binomials, then set each factor to zero.",
+            "zh": "把二次式因式分解为两个二项式，再令每个因式为零。",
+            "correct": true
+          },
+          {
+            "en": "Divide 6 by −5",
+            "zh": "用6除以−5"
+          },
+          {
+            "en": "Take the square root of 6 only",
+            "zh": "只对6开平方"
+          }
+        ],
+        "cueEn": "Find two numbers that multiply to 6 and add to −5.",
+        "cueZh": "找两个数，它们的乘积为6，和为−5。",
+        "steps": [
+          {
+            "en": "x² − 5x + 6 = (x − 2)(x − 3) = 0",
+            "zh": "x² − 5x + 6 = (x − 2)(x − 3) = 0"
+          },
+          {
+            "en": "x = 2 or x = 3; the larger root is 3",
+            "zh": "x = 2 或 x = 3；较大的根是 3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x^2-5x+6=0\n(x-2)(x-3)=0\nx=2 or x=3\nlarger=3",
+        "workZh": "x^2-5x+6=0\n(x-2)(x-3)=0\nx=2或x=3\n较大值=3",
+        "answerEn": "x = 3",
+        "answerZh": "x = 3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If f(x) = 2x² − 3x + 1, what is f(−2)?",
+        "textZh": "若 f(x) = 2x² − 3x + 1，求 f(−2)。",
+        "ask": [
+          {
+            "en": "What operation does evaluating f(−2) require?",
+            "zh": "求 f(−2) 需要什么操作？",
+            "correct": true
+          },
+          {
+            "en": "Substituting −2 for x in the expression",
+            "zh": "把 −2 代入表达式中的 x"
+          },
+          {
+            "en": "Solving f(x) = 0",
+            "zh": "解 f(x) = 0"
+          },
+          {
+            "en": "Taking the derivative of f(x)",
+            "zh": "对 f(x) 求导"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute x = 2 instead of −2",
+            "zh": "代入 x = 2 而非 −2"
+          },
+          {
+            "en": "Add −2 to the constant term only",
+            "zh": "只把 −2 加到常数项上"
+          },
+          {
+            "en": "Replace every x with −2, being careful with signs, then simplify.",
+            "zh": "把每个 x 替换成 −2，注意符号，再化简。",
+            "correct": true
+          },
+          {
+            "en": "Ignore the negative sign on x",
+            "zh": "忽略 x 前的负号"
+          }
+        ],
+        "cueEn": "Substitute x = −2 carefully, watching signs.",
+        "cueZh": "小心地代入 x = −2，注意符号。",
+        "steps": [
+          {
+            "en": "2(−2)² − 3(−2) + 1 = 2(4) + 6 + 1",
+            "zh": "2(−2)² − 3(−2) + 1 = 2(4) + 6 + 1"
+          },
+          {
+            "en": "= 8 + 6 + 1 = 15",
+            "zh": "= 8 + 6 + 1 = 15"
+          }
+        ],
+        "turns": 2,
+        "workEn": "f(-2)=2(4)-3(-2)+1=8+6+1=15",
+        "workZh": "f(-2)=2(4)-3(-2)+1=8+6+1=15",
+        "answerEn": "15",
+        "answerZh": "15"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A population of 500 bacteria grows at 10% per hour. What is the population after 2 hours, using P = 500(1.1)^t?",
+        "textZh": "500个细菌的种群每小时增长10%。使用公式 P = 500(1.1)^t，2小时后的种群数量是多少？",
+        "ask": [
+          {
+            "en": "t = 2",
+            "zh": "t = 2"
+          },
+          {
+            "en": "What must be substituted into the formula?",
+            "zh": "应该把什么代入公式？",
+            "correct": true
+          },
+          {
+            "en": "t = 10",
+            "zh": "t = 10"
+          },
+          {
+            "en": "t = 1.1",
+            "zh": "t = 1.1"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply 500 by 1.1 and then by 2",
+            "zh": "用500乘以1.1再乘以2"
+          },
+          {
+            "en": "Add 1.1 twice to 500",
+            "zh": "把1.1两次加到500上"
+          },
+          {
+            "en": "Compute 500 × 2 × 10%",
+            "zh": "计算500×2×10%"
+          },
+          {
+            "en": "Substitute t = 2, compute the power, then multiply by 500.",
+            "zh": "代入 t = 2，计算幂，再乘以500。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Raise 1.1 to the power of 2 first.",
+        "cueZh": "先计算 1.1 的2次方。",
+        "steps": [
+          {
+            "en": "1.1² = 1.21",
+            "zh": "1.1² = 1.21"
+          },
+          {
+            "en": "500 × 1.21 = 605",
+            "zh": "500 × 1.21 = 605"
+          }
+        ],
+        "turns": 2,
+        "workEn": "P=500(1.1)^2\n1.1^2=1.21\n500*1.21=605",
+        "workZh": "P=500(1.1)^2\n1.1^2=1.21\n500*1.21=605",
+        "answerEn": "605 bacteria",
+        "answerZh": "605 个细菌"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the vertex of the parabola y = x² − 6x + 5?",
+        "textZh": "抛物线 y = x² − 6x + 5 的顶点是什么？",
+        "ask": [
+          {
+            "en": "x = −b/(2a)",
+            "zh": "x = −b/(2a)"
+          },
+          {
+            "en": "x = c/a",
+            "zh": "x = c/a"
+          },
+          {
+            "en": "What formula gives the x-coordinate of the vertex?",
+            "zh": "什么公式给出顶点的 x 坐标？",
+            "correct": true
+          },
+          {
+            "en": "x = −b × 2a",
+            "zh": "x = −b × 2a"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use x = −b/(2a) to find the x-coordinate, then substitute back to find y.",
+            "zh": "用 x = −b/(2a) 求出 x 坐标，再代回求 y。",
+            "correct": true
+          },
+          {
+            "en": "Set y = 0 and solve for both roots only",
+            "zh": "只令 y = 0 求两个根"
+          },
+          {
+            "en": "Divide c by b directly",
+            "zh": "直接用 c 除以 b"
+          },
+          {
+            "en": "Use x = b/(2a) without the negative sign",
+            "zh": "用 x = b/(2a)，不加负号"
+          }
+        ],
+        "cueEn": "Compute x = −b/(2a) with a=1, b=−6.",
+        "cueZh": "用 a=1，b=−6 计算 x = −b/(2a)。",
+        "steps": [
+          {
+            "en": "x = −(−6)/(2·1) = 3",
+            "zh": "x = −(−6)/(2·1) = 3"
+          },
+          {
+            "en": "y = 3² − 6(3) + 5 = 9 − 18 + 5 = −4",
+            "zh": "y = 3² − 6(3) + 5 = 9 − 18 + 5 = −4"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x=-b/2a=6/2=3\ny=9-18+5=-4\nvertex=(3,-4)",
+        "workZh": "x=-b/2a=6/2=3\ny=9-18+5=-4\n顶点=(3,-4)",
+        "answerEn": "(3, −4)",
+        "answerZh": "(3, −4)"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "For x ≠ 3, simplify (x² − 9)/(x − 3), then evaluate the result at x = 5.",
+        "textZh": "当 x ≠ 3 时，化简 (x² − 9)/(x − 3)，然后求 x = 5 时的值。",
+        "ask": [
+          {
+            "en": "Factor it as a difference of squares",
+            "zh": "将其分解为平方差"
+          },
+          {
+            "en": "Divide it by x directly",
+            "zh": "直接用 x 去除它"
+          },
+          {
+            "en": "Add 3 to it",
+            "zh": "给它加上3"
+          },
+          {
+            "en": "What must be done to the numerator first?",
+            "zh": "首先要对分子做什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute x = 5 before simplifying",
+            "zh": "化简前先代入 x = 5，导致除以0"
+          },
+          {
+            "en": "Factor the numerator, cancel the common factor, then substitute x = 5.",
+            "zh": "先分解分子，约去公因式，再代入 x = 5。",
+            "correct": true
+          },
+          {
+            "en": "Cancel x² with x in the denominator",
+            "zh": "把分子的 x² 与分母的 x 约分"
+          },
+          {
+            "en": "Add the numerator and denominator",
+            "zh": "把分子分母相加"
+          }
+        ],
+        "cueEn": "Factor x² − 9 as (x − 3)(x + 3).",
+        "cueZh": "把 x² − 9 分解为 (x − 3)(x + 3)。",
+        "steps": [
+          {
+            "en": "(x² − 9)/(x − 3) = (x−3)(x+3)/(x−3) = x + 3",
+            "zh": "(x² − 9)/(x − 3) = (x−3)(x+3)/(x−3) = x + 3"
+          },
+          {
+            "en": "At x = 5: 5 + 3 = 8",
+            "zh": "当 x = 5 时：5 + 3 = 8"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(x^2-9)/(x-3)=(x-3)(x+3)/(x-3)=x+3\nat x=5: 8",
+        "workZh": "(x^2-9)/(x-3)=(x-3)(x+3)/(x-3)=x+3\n代入x=5：8",
+        "answerEn": "8",
+        "answerZh": "8"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A radioactive sample of 2000 grams has a half-life of 1 year. How many grams remain after 3 years?",
+        "textZh": "一份2000克的放射性样本半衰期为1年。3年后还剩多少克？",
+        "ask": [
+          {
+            "en": "What does 'half-life of 1 year' mean mathematically?",
+            "zh": "“半衰期为1年”在数学上意味着什么？",
+            "correct": true
+          },
+          {
+            "en": "The amount is multiplied by 1/2 each year",
+            "zh": "每年数量乘以 1/2"
+          },
+          {
+            "en": "The amount decreases by 1 gram each year",
+            "zh": "每年数量减少1克"
+          },
+          {
+            "en": "The amount is divided by 3 total",
+            "zh": "总共除以3"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 2000 by 3 directly",
+            "zh": "直接用2000除以3"
+          },
+          {
+            "en": "Subtract 1/2 gram three times",
+            "zh": "减去三次1/2克"
+          },
+          {
+            "en": "Multiply the initial amount by (1/2) raised to the number of years.",
+            "zh": "把初始量乘以 (1/2) 的年数次方。",
+            "correct": true
+          },
+          {
+            "en": "Multiply 2000 by 3 × 0.5",
+            "zh": "用2000乘以3×0.5"
+          }
+        ],
+        "cueEn": "Compute (1/2)^3 first.",
+        "cueZh": "先计算 (1/2)^3。",
+        "steps": [
+          {
+            "en": "(1/2)³ = 1/8",
+            "zh": "(1/2)³ = 1/8"
+          },
+          {
+            "en": "2000 × 1/8 = 250 grams",
+            "zh": "2000 × 1/8 = 250 克"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2000*(0.5)^3=2000*0.125=250",
+        "workZh": "2000*(0.5)^3=2000*0.125=250",
+        "answerEn": "250 grams",
+        "answerZh": "250 克"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If f(x) = x + 2 and g(x) = x², what is g(f(3))?",
+        "textZh": "若 f(x) = x + 2 且 g(x) = x²，求 g(f(3))。",
+        "ask": [
+          {
+            "en": "f(3), the inner function",
+            "zh": "f(3)，内层函数"
+          },
+          {
+            "en": "Which function should be evaluated first?",
+            "zh": "应该先计算哪个函数？",
+            "correct": true
+          },
+          {
+            "en": "g(3), the outer function directly",
+            "zh": "g(3)，直接计算外层函数"
+          },
+          {
+            "en": "f(x) and g(x) simultaneously as a sum",
+            "zh": "同时把 f(x) 和 g(x) 相加"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add f(3) and g(3) together",
+            "zh": "把 f(3) 和 g(3) 相加"
+          },
+          {
+            "en": "Multiply f(x) by g(x) as expressions",
+            "zh": "把 f(x) 和 g(x) 作为表达式相乘"
+          },
+          {
+            "en": "Evaluate g(3) then apply f to that result",
+            "zh": "先算 g(3) 再对结果用 f"
+          },
+          {
+            "en": "Evaluate the inner function first, then plug that result into the outer function.",
+            "zh": "先计算内层函数，再把结果代入外层函数。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Compute f(3) first, then apply g.",
+        "cueZh": "先计算 f(3)，再对结果应用 g。",
+        "steps": [
+          {
+            "en": "f(3) = 3 + 2 = 5",
+            "zh": "f(3) = 3 + 2 = 5"
+          },
+          {
+            "en": "g(5) = 5² = 25",
+            "zh": "g(5) = 5² = 25"
+          }
+        ],
+        "turns": 2,
+        "workEn": "f(3)=5\ng(5)=25",
+        "workZh": "f(3)=5\ng(5)=25",
+        "answerEn": "25",
+        "answerZh": "25"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Solve for x: 2^x = 32.",
+        "textZh": "解方程：2^x = 32，求 x。",
+        "ask": [
+          {
+            "en": "Write 32 as a power of 2",
+            "zh": "把32写成2的幂"
+          },
+          {
+            "en": "Divide both sides by 2 repeatedly without tracking exponents",
+            "zh": "反复用2除两边但不记录指数"
+          },
+          {
+            "en": "What is the key idea for solving this equation?",
+            "zh": "解这个方程的关键思路是什么？",
+            "correct": true
+          },
+          {
+            "en": "Take the square root of both sides",
+            "zh": "两边同时开平方"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Express 32 as 2 raised to a power, then set the exponents equal.",
+            "zh": "把32表示成2的幂，然后令指数相等。",
+            "correct": true
+          },
+          {
+            "en": "Set x equal to 32 directly",
+            "zh": "直接令 x 等于32"
+          },
+          {
+            "en": "Divide 32 by 2 once and stop",
+            "zh": "用32除以2一次就停止"
+          },
+          {
+            "en": "Multiply 2 by 32",
+            "zh": "把2乘以32"
+          }
+        ],
+        "cueEn": "Rewrite 32 as a power of 2.",
+        "cueZh": "把32改写成2的幂。",
+        "steps": [
+          {
+            "en": "32 = 2⁵",
+            "zh": "32 = 2⁵"
+          },
+          {
+            "en": "Since 2^x = 2⁵, x = 5",
+            "zh": "因为 2^x = 2⁵，所以 x = 5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2^x=32\n32=2^5\nx=5",
+        "workZh": "2^x=32\n32=2^5\nx=5",
+        "answerEn": "x = 5",
+        "answerZh": "x = 5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "How many real solutions does x² + 4x + 7 = 0 have?",
+        "textZh": "方程 x² + 4x + 7 = 0 有多少个实数解？",
+        "ask": [
+          {
+            "en": "The discriminant b² − 4ac",
+            "zh": "判别式 b² − 4ac"
+          },
+          {
+            "en": "The sum of the coefficients",
+            "zh": "系数之和"
+          },
+          {
+            "en": "The value of c alone",
+            "zh": "仅仅常数项 c 的值"
+          },
+          {
+            "en": "What tool determines the number of real solutions?",
+            "zh": "什么工具能确定实数解的个数？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add a, b, and c together",
+            "zh": "把 a、b、c 相加"
+          },
+          {
+            "en": "Compute the discriminant and check its sign.",
+            "zh": "计算判别式并检查其符号。",
+            "correct": true
+          },
+          {
+            "en": "Compute b² + 4ac instead",
+            "zh": "计算 b² + 4ac（符号用错）"
+          },
+          {
+            "en": "Divide c by a",
+            "zh": "用 c 除以 a"
+          }
+        ],
+        "cueEn": "Compute the discriminant b² − 4ac with a=1, b=4, c=7.",
+        "cueZh": "用 a=1，b=4，c=7 计算判别式 b² − 4ac。",
+        "steps": [
+          {
+            "en": "b² − 4ac = 16 − 28 = −12",
+            "zh": "b² − 4ac = 16 − 28 = −12"
+          },
+          {
+            "en": "Since the discriminant is negative, there are no real solutions",
+            "zh": "判别式为负，所以没有实数解"
+          }
+        ],
+        "turns": 2,
+        "workEn": "disc=4^2-4(1)(7)=16-28=-12<0\nno real solutions",
+        "workZh": "disc=4^2-4(1)(7)=16-28=-12<0\n无实数解",
+        "answerEn": "0 real solutions",
+        "answerZh": "0 个实数解"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the value of 27^(2/3)?",
+        "textZh": "27^(2/3) 的值是多少？",
+        "ask": [
+          {
+            "en": "How should a fractional exponent like 2/3 be interpreted?",
+            "zh": "像 2/3 这样的分数指数应该如何理解？",
+            "correct": true
+          },
+          {
+            "en": "Cube root first, then square the result",
+            "zh": "先开立方根，再对结果平方"
+          },
+          {
+            "en": "Divide 27 by 2 then by 3",
+            "zh": "用27先除以2再除以3"
+          },
+          {
+            "en": "Multiply 27 by 2/3",
+            "zh": "把27乘以2/3"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Square 27 first, then take the cube root",
+            "zh": "先对27平方，再开立方根（顺序错误但结果相同，需注意等价性）"
+          },
+          {
+            "en": "Multiply 27 by 3/2",
+            "zh": "把27乘以3/2"
+          },
+          {
+            "en": "Take the cube root of 27, then raise that result to the power of 2.",
+            "zh": "先对27开立方根，再把结果平方。",
+            "correct": true
+          },
+          {
+            "en": "Take the square root of 27 then cube it",
+            "zh": "先对27开平方根再立方"
+          }
+        ],
+        "cueEn": "Rewrite 27^(2/3) as (27^(1/3))².",
+        "cueZh": "把 27^(2/3) 改写为 (27^(1/3))²。",
+        "steps": [
+          {
+            "en": "27^(1/3) = 3, since 3³ = 27",
+            "zh": "27^(1/3) = 3，因为 3³ = 27"
+          },
+          {
+            "en": "3² = 9",
+            "zh": "3² = 9"
+          }
+        ],
+        "turns": 2,
+        "workEn": "27^(2/3)=(27^(1/3))^2=3^2=9",
+        "workZh": "27^(2/3)=(27^(1/3))^2=3^2=9",
+        "answerEn": "9",
+        "answerZh": "9"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The graphs of y = x + 1 and y = x² − 1 intersect where x is positive. What is that x-value?",
+        "textZh": "y = x + 1 与 y = x² − 1 的图像在 x 为正的位置相交。该 x 值是多少？",
+        "ask": [
+          {
+            "en": "Set the two expressions for y equal to each other",
+            "zh": "令两个 y 表达式相等"
+          },
+          {
+            "en": "What should be done to find the intersection?",
+            "zh": "如何找到交点？",
+            "correct": true
+          },
+          {
+            "en": "Add the two equations together",
+            "zh": "把两个方程相加"
+          },
+          {
+            "en": "Multiply the two equations together",
+            "zh": "把两个方程相乘"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide x+1 by x²−1 directly",
+            "zh": "直接用 x+1 除以 x²−1"
+          },
+          {
+            "en": "Assume x = 1 without solving",
+            "zh": "不求解直接假设 x = 1"
+          },
+          {
+            "en": "Take the square root of both sides as written",
+            "zh": "按原样对两边开平方"
+          },
+          {
+            "en": "Set x+1 equal to x²−1, rearrange into standard form, then factor.",
+            "zh": "令 x+1 等于 x²−1，整理成标准形式后因式分解。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Set x + 1 = x² − 1 and rearrange.",
+        "cueZh": "令 x + 1 = x² − 1 并整理。",
+        "steps": [
+          {
+            "en": "x² − x − 2 = 0 → (x − 2)(x + 1) = 0",
+            "zh": "x² − x − 2 = 0 → (x − 2)(x + 1) = 0"
+          },
+          {
+            "en": "x = 2 or x = −1; the positive value is 2",
+            "zh": "x = 2 或 x = −1；正值为 2"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x+1=x^2-1\nx^2-x-2=0\n(x-2)(x+1)=0\nx=2 or x=-1\npositive: x=2",
+        "workZh": "x+1=x^2-1\nx^2-x-2=0\n(x-2)(x+1)=0\nx=2或x=-1\n正值：x=2",
+        "answerEn": "x = 2",
+        "answerZh": "x = 2"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A price of $80 is increased by 25%, then the new price is decreased by 20%. What is the final price?",
+        "textZh": "价格80美元先上涨25%，然后新价格再下降20%。最终价格是多少？",
+        "ask": [
+          {
+            "en": "Multiply by (1 + the percent as a decimal)",
+            "zh": "乘以 (1 + 百分数的小数形式)"
+          },
+          {
+            "en": "Add the percent value directly as dollars",
+            "zh": "直接把百分数当作美元数相加"
+          },
+          {
+            "en": "What operation is needed for a percent increase?",
+            "zh": "百分比上涨需要什么运算？",
+            "correct": true
+          },
+          {
+            "en": "Divide by the percent as a decimal",
+            "zh": "除以百分数的小数形式"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Apply the increase first, then apply the decrease to the new price, not the original.",
+            "zh": "先应用涨价，再对新价格（不是原价）应用降价。",
+            "correct": true
+          },
+          {
+            "en": "Apply both percentages to the original $80 separately and add results",
+            "zh": "分别对原价80美元应用两个百分比再相加"
+          },
+          {
+            "en": "Subtract 20% from 25% first, then apply once",
+            "zh": "先用25%减去20%，再应用一次"
+          },
+          {
+            "en": "Average the two percentages and apply once",
+            "zh": "取两个百分比的平均值再应用一次"
+          }
+        ],
+        "cueEn": "Increase 80 by 25%, then decrease that result by 20%.",
+        "cueZh": "先把80上涨25%，再把结果下降20%。",
+        "steps": [
+          {
+            "en": "80 × 1.25 = 100",
+            "zh": "80 × 1.25 = 100"
+          },
+          {
+            "en": "100 × 0.80 = 80",
+            "zh": "100 × 0.80 = 80"
+          }
+        ],
+        "turns": 2,
+        "workEn": "80*1.25=100\n100*0.8=80",
+        "workZh": "80*1.25=100\n100*0.8=80",
+        "answerEn": "$80",
+        "answerZh": "$80"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the mean of the data set: 4, 7, 7, 9, 12, 15?",
+        "textZh": "数据集 4, 7, 7, 9, 12, 15 的平均数是多少？",
+        "ask": [
+          {
+            "en": "Sum of values divided by the number of values",
+            "zh": "所有数值之和除以数值个数"
+          },
+          {
+            "en": "The middle value when sorted",
+            "zh": "排序后的中间值"
+          },
+          {
+            "en": "The most frequently occurring value",
+            "zh": "出现次数最多的值"
+          },
+          {
+            "en": "What is the formula for the mean?",
+            "zh": "平均数的公式是什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide the largest value by the smallest",
+            "zh": "用最大值除以最小值"
+          },
+          {
+            "en": "Add all the values, then divide by how many values there are.",
+            "zh": "把所有数值相加，再除以数值的个数。",
+            "correct": true
+          },
+          {
+            "en": "Count how many values are even",
+            "zh": "统计偶数值的个数"
+          },
+          {
+            "en": "Subtract the smallest from the largest",
+            "zh": "用最大值减去最小值"
+          }
+        ],
+        "cueEn": "Add all six values, then divide by 6.",
+        "cueZh": "把六个数值相加，再除以6。",
+        "steps": [
+          {
+            "en": "4+7+7+9+12+15 = 54",
+            "zh": "4+7+7+9+12+15 = 54"
+          },
+          {
+            "en": "54 / 6 = 9",
+            "zh": "54 / 6 = 9"
+          }
+        ],
+        "turns": 2,
+        "workEn": "sum=54\nmean=54/6=9",
+        "workZh": "sum=54\n平均数=54/6=9",
+        "answerEn": "9",
+        "answerZh": "9"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A class has 12 boys and 18 girls. What fraction of the class is boys?",
+        "textZh": "一个班级有12个男生和18个女生。男生占全班的比例是多少？",
+        "ask": [
+          {
+            "en": "What must be found first before forming the fraction?",
+            "zh": "在列出分数之前必须先求出什么？",
+            "correct": true
+          },
+          {
+            "en": "The total number of students",
+            "zh": "学生总数"
+          },
+          {
+            "en": "The difference between boys and girls",
+            "zh": "男生和女生的差"
+          },
+          {
+            "en": "The number of girls only",
+            "zh": "仅仅女生的人数"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide boys by girls instead of the total",
+            "zh": "用男生除以女生而不是总数"
+          },
+          {
+            "en": "Add 12 and 18 and stop there",
+            "zh": "把12和18相加就停止"
+          },
+          {
+            "en": "Find the total number of students, then write boys over the total and simplify.",
+            "zh": "先求出学生总数，再把男生人数写成分数的分子并化简。",
+            "correct": true
+          },
+          {
+            "en": "Divide girls by boys",
+            "zh": "用女生除以男生"
+          }
+        ],
+        "cueEn": "Total students = 12 + 18 = 30.",
+        "cueZh": "学生总数 = 12 + 18 = 30。",
+        "steps": [
+          {
+            "en": "Boys/Total = 12/30",
+            "zh": "男生/总数 = 12/30"
+          },
+          {
+            "en": "12/30 simplifies to 2/5",
+            "zh": "12/30 化简为 2/5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "total=12+18=30\n12/30=2/5",
+        "workZh": "总数=12+18=30\n12/30=2/5",
+        "answerEn": "2/5",
+        "answerZh": "2/5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "In a school, 20 students scored an average of 70 on a test, and 10 other students scored an average of 85. What is the average score of all 30 students combined?",
+        "textZh": "在一所学校，20名学生的平均分为70分，另外10名学生的平均分为85分。这30名学生的总平均分是多少？",
+        "ask": [
+          {
+            "en": "The total sum of all scores",
+            "zh": "所有分数的总和"
+          },
+          {
+            "en": "What must be computed before finding the combined average?",
+            "zh": "在求出合计平均分之前必须先计算什么？",
+            "correct": true
+          },
+          {
+            "en": "The average of 70 and 85 directly",
+            "zh": "直接求70和85的平均值"
+          },
+          {
+            "en": "The difference between the two group averages",
+            "zh": "两组平均分的差"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Average 70 and 85 to get 77.5 directly",
+            "zh": "直接把70和85平均得到77.5"
+          },
+          {
+            "en": "Divide 70 by 20 and 85 by 10 then add",
+            "zh": "用70除以20、85除以10后相加"
+          },
+          {
+            "en": "Add 70 and 85 then divide by 30",
+            "zh": "把70和85相加后除以30"
+          },
+          {
+            "en": "Find each group's total score, add them, then divide by the total number of students.",
+            "zh": "分别求出每组的总分，相加后再除以学生总人数。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Total = 20(70) + 10(85), then divide by 30.",
+        "cueZh": "总分 = 20(70) + 10(85)，再除以30。",
+        "steps": [
+          {
+            "en": "20(70) + 10(85) = 1400 + 850 = 2250",
+            "zh": "20(70) + 10(85) = 1400 + 850 = 2250"
+          },
+          {
+            "en": "2250 / 30 = 75",
+            "zh": "2250 / 30 = 75"
+          }
+        ],
+        "turns": 2,
+        "workEn": "20*70=1400\n10*85=850\ntotal=2250\n2250/30=75",
+        "workZh": "20*70=1400\n10*85=850\n总和=2250\n2250/30=75",
+        "answerEn": "75",
+        "answerZh": "75"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A bag contains 5 red, 3 blue, and 2 green marbles. If one marble is drawn at random, what is the probability it is NOT red?",
+        "textZh": "一个袋子里有5个红色、3个蓝色、2个绿色弹珠。随机抽取一个弹珠，抽到非红色的概率是多少？",
+        "ask": [
+          {
+            "en": "The number of non-red marbles and the total",
+            "zh": "非红色弹珠的数量以及总数"
+          },
+          {
+            "en": "The number of red marbles only",
+            "zh": "仅仅红色弹珠的数量"
+          },
+          {
+            "en": "What must be found to compute this probability?",
+            "zh": "要计算这个概率必须先求出什么？",
+            "correct": true
+          },
+          {
+            "en": "The difference between blue and green counts",
+            "zh": "蓝色和绿色数量的差"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Count the non-red marbles, count the total, then form the probability fraction.",
+            "zh": "数出非红色弹珠的数量和总数，再列出概率分数。",
+            "correct": true
+          },
+          {
+            "en": "Divide red marbles by total marbles",
+            "zh": "用红色弹珠数除以总数"
+          },
+          {
+            "en": "Divide total marbles by red marbles",
+            "zh": "用总数除以红色弹珠数"
+          },
+          {
+            "en": "Subtract red from blue",
+            "zh": "用红色数减去蓝色数"
+          }
+        ],
+        "cueEn": "Total marbles = 5+3+2 = 10; non-red = 3+2 = 5.",
+        "cueZh": "弹珠总数 = 5+3+2 = 10；非红色 = 3+2 = 5。",
+        "steps": [
+          {
+            "en": "P(not red) = 5/10",
+            "zh": "P(非红) = 5/10"
+          },
+          {
+            "en": "5/10 simplifies to 1/2",
+            "zh": "5/10 化简为 1/2"
+          }
+        ],
+        "turns": 2,
+        "workEn": "total=10, non-red=5\n5/10=1/2",
+        "workZh": "总数=10，非红=5\n5/10=1/2",
+        "answerEn": "1/2",
+        "answerZh": "1/2"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A car travels 240 miles using 8 gallons of gas. At this rate, how many gallons are needed to travel 300 miles?",
+        "textZh": "一辆车用8加仑汽油行驶了240英里。按此比率，行驶300英里需要多少加仑汽油？",
+        "ask": [
+          {
+            "en": "Miles per gallon",
+            "zh": "每加仑行驶的英里数"
+          },
+          {
+            "en": "Gallons per mile",
+            "zh": "每英里消耗的加仑数直接作为最终答案"
+          },
+          {
+            "en": "Total miles divided by total gallons squared",
+            "zh": "总英里数除以总加仑数的平方"
+          },
+          {
+            "en": "What rate must be found first?",
+            "zh": "首先必须求出什么比率？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply 240 by 300 then divide by 8",
+            "zh": "把240乘以300再除以8"
+          },
+          {
+            "en": "Find the miles-per-gallon rate, then divide the new distance by that rate.",
+            "zh": "先求出每加仑行驶的英里数，再用新的距离除以该比率。",
+            "correct": true
+          },
+          {
+            "en": "Divide 8 by 240 then multiply by 300",
+            "zh": "用8除以240再乘以300（比率颠倒）"
+          },
+          {
+            "en": "Add 240 and 300 then divide by 8",
+            "zh": "把240和300相加再除以8"
+          }
+        ],
+        "cueEn": "Rate = 240 miles / 8 gallons = 30 miles per gallon.",
+        "cueZh": "比率 = 240英里 / 8加仑 = 每加仑30英里。",
+        "steps": [
+          {
+            "en": "30 miles/gallon",
+            "zh": "每加仑30英里"
+          },
+          {
+            "en": "300 / 30 = 10 gallons",
+            "zh": "300 / 30 = 10 加仑"
+          }
+        ],
+        "turns": 2,
+        "workEn": "rate=240/8=30\n300/30=10",
+        "workZh": "比率=240/8=30\n300/30=10",
+        "answerEn": "10 gallons",
+        "answerZh": "10 加仑"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A vendor's total cost in dollars to produce n items is modeled by C = 3n + 15. What is the cost to produce 12 items?",
+        "textZh": "某商贩生产 n 件商品的总成本（美元）用 C = 3n + 15 建模。生产12件商品的成本是多少？",
+        "ask": [
+          {
+            "en": "What must be substituted into the model?",
+            "zh": "应该把什么代入模型？",
+            "correct": true
+          },
+          {
+            "en": "n = 12",
+            "zh": "n = 12"
+          },
+          {
+            "en": "C = 12",
+            "zh": "C = 12"
+          },
+          {
+            "en": "n = 15",
+            "zh": "n = 15"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add 12 to 15 without multiplying by 3",
+            "zh": "不乘以3直接把12加到15上"
+          },
+          {
+            "en": "Multiply 15 by 12 instead of 3 by 12",
+            "zh": "用15乘以12而非用3乘以12"
+          },
+          {
+            "en": "Substitute n = 12 into the equation and simplify using order of operations.",
+            "zh": "把 n = 12 代入方程，按运算顺序化简。",
+            "correct": true
+          },
+          {
+            "en": "Divide 15 by 3 then add 12",
+            "zh": "用15除以3再加12"
+          }
+        ],
+        "cueEn": "Substitute n = 12 into C = 3n + 15.",
+        "cueZh": "把 n = 12 代入 C = 3n + 15。",
+        "steps": [
+          {
+            "en": "C = 3(12) + 15 = 36 + 15",
+            "zh": "C = 3(12) + 15 = 36 + 15"
+          },
+          {
+            "en": "C = 51",
+            "zh": "C = 51"
+          }
+        ],
+        "turns": 2,
+        "workEn": "C=3(12)+15=36+15=51",
+        "workZh": "C=3(12)+15=36+15=51",
+        "answerEn": "$51",
+        "answerZh": "$51"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "What is the median of the data set: 3, 5, 8, 12, 20, 21, 25?",
+        "textZh": "数据集 3, 5, 8, 12, 20, 21, 25 的中位数是多少？",
+        "ask": [
+          {
+            "en": "The middle value when the data is already ordered",
+            "zh": "数据已排序时的中间值"
+          },
+          {
+            "en": "What defines the median of an ordered set with an odd number of values?",
+            "zh": "含奇数个数值的有序数据集的中位数如何定义？",
+            "correct": true
+          },
+          {
+            "en": "The average of all values",
+            "zh": "所有数值的平均值"
+          },
+          {
+            "en": "The largest value minus the smallest",
+            "zh": "最大值减去最小值"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Average the first and last values",
+            "zh": "取首尾数值的平均值"
+          },
+          {
+            "en": "Take the average of the two middle values as if the count were even",
+            "zh": "按偶数个数值的方式取两个中间值的平均"
+          },
+          {
+            "en": "Pick the smallest value",
+            "zh": "选择最小值"
+          },
+          {
+            "en": "Confirm the data is already sorted, then find the middle position.",
+            "zh": "确认数据已经排序，再找出中间位置。",
+            "correct": true
+          }
+        ],
+        "cueEn": "There are 7 values, so the median is the 4th value.",
+        "cueZh": "共有7个数值，所以中位数是第4个数值。",
+        "steps": [
+          {
+            "en": "Data is already ordered: 3,5,8,12,20,21,25",
+            "zh": "数据已排序：3,5,8,12,20,21,25"
+          },
+          {
+            "en": "The 4th value is 12",
+            "zh": "第4个数值是12"
+          }
+        ],
+        "turns": 2,
+        "workEn": "7 values, median is 4th value = 12",
+        "workZh": "共7个数值，中位数为第4个 = 12",
+        "answerEn": "12",
+        "answerZh": "12"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A shirt originally costs $40. It is on sale for 15% off, and then a coupon takes an additional $5 off the sale price. What is the final price?",
+        "textZh": "一件衬衫原价40美元。打85折（即降价15%）后，优惠券再从折后价中减去5美元。最终价格是多少？",
+        "ask": [
+          {
+            "en": "Apply the percent discount first, then subtract the flat amount",
+            "zh": "先应用百分比折扣，再减去固定金额"
+          },
+          {
+            "en": "Subtract $5 first, then apply 15% to the original price",
+            "zh": "先减去5美元，再对原价打85折"
+          },
+          {
+            "en": "What order must the discounts be applied in?",
+            "zh": "折扣应该按什么顺序应用？",
+            "correct": true
+          },
+          {
+            "en": "Apply both discounts to $5 only",
+            "zh": "把两个折扣都只应用在5美元上"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the original price by (1 − 0.15), then subtract $5 from that result.",
+            "zh": "先用原价乘以 (1 − 0.15)，再从结果中减去5美元。",
+            "correct": true
+          },
+          {
+            "en": "Subtract 15% and $5 both from the original price by adding them together",
+            "zh": "把15%和5美元加在一起直接从原价扣除"
+          },
+          {
+            "en": "Divide 40 by 0.15 then subtract 5",
+            "zh": "用40除以0.15再减去5"
+          },
+          {
+            "en": "Add 15% of 40 to the price instead of subtracting",
+            "zh": "把40的15%加到价格上而不是减去"
+          }
+        ],
+        "cueEn": "Apply the 15% discount to $40 first.",
+        "cueZh": "先对40美元应用15%的折扣。",
+        "steps": [
+          {
+            "en": "40 × 0.85 = 34",
+            "zh": "40 × 0.85 = 34"
+          },
+          {
+            "en": "34 − 5 = 29",
+            "zh": "34 − 5 = 29"
+          }
+        ],
+        "turns": 2,
+        "workEn": "40*0.85=34\n34-5=29",
+        "workZh": "40*0.85=34\n34-5=29",
+        "answerEn": "$29",
+        "answerZh": "$29"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Of the 160 students at a school, 60% play a sport. Of those who play a sport, 25% also play a musical instrument. How many students play both a sport and an instrument?",
+        "textZh": "某校160名学生中，60%参加体育运动。在参加体育运动的学生中，25%也演奏乐器。有多少学生既参加体育运动又演奏乐器？",
+        "ask": [
+          {
+            "en": "The number of students who play a sport",
+            "zh": "参加体育运动的学生人数"
+          },
+          {
+            "en": "The number of students who play an instrument only",
+            "zh": "仅演奏乐器的学生人数"
+          },
+          {
+            "en": "The total percentage of 60% and 25% added together",
+            "zh": "60%与25%相加的总百分比"
+          },
+          {
+            "en": "What must be calculated first?",
+            "zh": "首先必须计算什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Find 25% of 160 first, then 60% of that",
+            "zh": "先求160的25%，再求该结果的60%"
+          },
+          {
+            "en": "Find 60% of 160 to get the sports players, then find 25% of that result.",
+            "zh": "先求160的60%得到运动员人数，再求该结果的25%。",
+            "correct": true
+          },
+          {
+            "en": "Add 60% and 25% then apply to 160 once",
+            "zh": "把60%和25%相加后只对160应用一次"
+          },
+          {
+            "en": "Multiply 160 by 60% and 25% separately then add",
+            "zh": "分别用160乘以60%和25%再相加"
+          }
+        ],
+        "cueEn": "First find how many play a sport: 60% of 160.",
+        "cueZh": "先求出参加体育运动的人数：160的60%。",
+        "steps": [
+          {
+            "en": "160 × 0.60 = 96 students play a sport",
+            "zh": "160 × 0.60 = 96 名学生参加体育运动"
+          },
+          {
+            "en": "96 × 0.25 = 24 students play both",
+            "zh": "96 × 0.25 = 24 名学生两者都参加"
+          }
+        ],
+        "turns": 2,
+        "workEn": "160*0.6=96\n96*0.25=24",
+        "workZh": "160*0.6=96\n96*0.25=24",
+        "answerEn": "24",
+        "answerZh": "24"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "One pump fills a tank at 15 gallons per minute, and a second pump fills it at 10 gallons per minute. Working together, how many minutes will it take to fill a 250-gallon tank?",
+        "textZh": "一台水泵以每分钟15加仑的速度注水，另一台以每分钟10加仑的速度注水。两台一起工作，注满250加仑的水箱需要多少分钟？",
+        "ask": [
+          {
+            "en": "What must be found before dividing into 250?",
+            "zh": "在用250相除之前必须先求出什么？",
+            "correct": true
+          },
+          {
+            "en": "The combined rate of both pumps",
+            "zh": "两台水泵的合并速率"
+          },
+          {
+            "en": "The difference between the two rates",
+            "zh": "两个速率之差"
+          },
+          {
+            "en": "The rate of only the faster pump",
+            "zh": "仅较快水泵的速率"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 250 by only the faster pump's rate",
+            "zh": "只用较快水泵的速率去除250"
+          },
+          {
+            "en": "Subtract the slower rate from 250 directly",
+            "zh": "直接用250减去较慢的速率"
+          },
+          {
+            "en": "Add the two rates together, then divide the total gallons by the combined rate.",
+            "zh": "把两个速率相加，再用总加仑数除以合并速率。",
+            "correct": true
+          },
+          {
+            "en": "Multiply the two rates together",
+            "zh": "把两个速率相乘"
+          }
+        ],
+        "cueEn": "Combined rate = 15 + 10 = 25 gallons per minute.",
+        "cueZh": "合并速率 = 15 + 10 = 每分钟25加仑。",
+        "steps": [
+          {
+            "en": "Combined rate = 25 gallons/minute",
+            "zh": "合并速率 = 每分钟25加仑"
+          },
+          {
+            "en": "250 / 25 = 10 minutes",
+            "zh": "250 / 25 = 10 分钟"
+          }
+        ],
+        "turns": 2,
+        "workEn": "rate=15+10=25\n250/25=10",
+        "workZh": "速率=15+10=25\n250/25=10",
+        "answerEn": "10 minutes",
+        "answerZh": "10 分钟"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+        "textZh": "一个直角三角形的两条直角边长分别为6和8。斜边的长度是多少？",
+        "ask": [
+          {
+            "en": "The Pythagorean theorem, a² + b² = c²",
+            "zh": "勾股定理，a² + b² = c²"
+          },
+          {
+            "en": "What theorem applies to a right triangle's sides?",
+            "zh": "什么定理适用于直角三角形的边长？",
+            "correct": true
+          },
+          {
+            "en": "The triangle sum theorem for angles",
+            "zh": "三角形内角和定理"
+          },
+          {
+            "en": "The law of cosines only",
+            "zh": "仅余弦定理"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add the two legs directly without squaring",
+            "zh": "不平方直接把两条边相加"
+          },
+          {
+            "en": "Multiply the two legs together",
+            "zh": "把两条边相乘"
+          },
+          {
+            "en": "Square only one leg and take its root",
+            "zh": "只对一条边平方后开方"
+          },
+          {
+            "en": "Square both legs, add them, then take the square root of the sum.",
+            "zh": "把两条直角边平方后相加，再对和开平方。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Apply a² + b² = c² with a=6, b=8.",
+        "cueZh": "用 a=6，b=8 代入 a² + b² = c²。",
+        "steps": [
+          {
+            "en": "6² + 8² = 36 + 64 = 100",
+            "zh": "6² + 8² = 36 + 64 = 100"
+          },
+          {
+            "en": "c = √100 = 10",
+            "zh": "c = √100 = 10"
+          }
+        ],
+        "turns": 2,
+        "workEn": "6^2+8^2=36+64=100\nsqrt(100)=10",
+        "workZh": "6^2+8^2=36+64=100\nsqrt(100)=10",
+        "answerEn": "10",
+        "answerZh": "10"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A circle has a radius of 7. What is its circumference in terms of π?",
+        "textZh": "一个圆的半径为7。用 π 表示它的周长是多少？",
+        "ask": [
+          {
+            "en": "C = 2πr",
+            "zh": "C = 2πr"
+          },
+          {
+            "en": "C = πr²",
+            "zh": "C = πr²"
+          },
+          {
+            "en": "What formula gives the circumference of a circle?",
+            "zh": "什么公式给出圆的周长？",
+            "correct": true
+          },
+          {
+            "en": "C = πr",
+            "zh": "C = πr"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute the radius into the circumference formula and simplify.",
+            "zh": "把半径代入周长公式并化简。",
+            "correct": true
+          },
+          {
+            "en": "Use the area formula πr² instead",
+            "zh": "误用面积公式 πr²"
+          },
+          {
+            "en": "Multiply the radius by π only once without the 2",
+            "zh": "只把半径乘以π而不乘以2"
+          },
+          {
+            "en": "Square the radius before multiplying by π",
+            "zh": "先对半径平方再乘以π"
+          }
+        ],
+        "cueEn": "Substitute r = 7 into C = 2πr.",
+        "cueZh": "把 r = 7 代入 C = 2πr。",
+        "steps": [
+          {
+            "en": "C = 2π(7)",
+            "zh": "C = 2π(7)"
+          },
+          {
+            "en": "C = 14π",
+            "zh": "C = 14π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "C=2*pi*7=14pi",
+        "workZh": "C=2*pi*7=14pi",
+        "answerEn": "14π",
+        "answerZh": "14π"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "In a 30-60-90 triangle, the hypotenuse has length 10. What is the length of the side opposite the 60° angle?",
+        "textZh": "在一个30-60-90三角形中，斜边长为10。60°角所对边的长度是多少？",
+        "ask": [
+          {
+            "en": "Short leg : long leg : hypotenuse = 1 : √3 : 2",
+            "zh": "短边 : 长边 : 斜边 = 1 : √3 : 2"
+          },
+          {
+            "en": "All three sides are equal",
+            "zh": "三条边都相等"
+          },
+          {
+            "en": "Short leg : long leg : hypotenuse = 1 : 1 : √2",
+            "zh": "短边 : 长边 : 斜边 = 1 : 1 : √2"
+          },
+          {
+            "en": "What are the side ratios in a 30-60-90 triangle?",
+            "zh": "30-60-90三角形的边长比例是什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide the hypotenuse by √3 directly",
+            "zh": "直接用斜边除以√3"
+          },
+          {
+            "en": "Find the short leg by dividing the hypotenuse by 2, then multiply by √3 for the long leg.",
+            "zh": "先用斜边除以2求出短边，再乘以√3得到长边。",
+            "correct": true
+          },
+          {
+            "en": "Multiply the hypotenuse by 2 for the long leg",
+            "zh": "把斜边乘以2作为长边"
+          },
+          {
+            "en": "Use the 45-45-90 ratio of 1:1:√2 instead",
+            "zh": "误用45-45-90三角形的比例1:1:√2"
+          }
+        ],
+        "cueEn": "The short leg (opposite 30°) is half the hypotenuse: 10/2 = 5.",
+        "cueZh": "短边（对30°角）是斜边的一半：10/2 = 5。",
+        "steps": [
+          {
+            "en": "Short leg = 10 / 2 = 5",
+            "zh": "短边 = 10 / 2 = 5"
+          },
+          {
+            "en": "Long leg (opposite 60°) = 5√3",
+            "zh": "长边（对60°角）= 5√3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "short=10/2=5\nlong=5*sqrt(3)",
+        "workZh": "短边=10/2=5\n长边=5*sqrt(3)",
+        "answerEn": "5√3",
+        "answerZh": "5√3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A cylinder has a radius of 3 and a height of 10. What is its volume in terms of π?",
+        "textZh": "一个圆柱体的半径为3，高为10。用 π 表示它的体积是多少？",
+        "ask": [
+          {
+            "en": "What formula gives the volume of a cylinder?",
+            "zh": "什么公式给出圆柱体的体积？",
+            "correct": true
+          },
+          {
+            "en": "V = πr²h",
+            "zh": "V = πr²h"
+          },
+          {
+            "en": "V = 2πrh",
+            "zh": "V = 2πrh"
+          },
+          {
+            "en": "V = πr²",
+            "zh": "V = πr²，缺少高度"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use the surface area formula instead",
+            "zh": "误用表面积公式"
+          },
+          {
+            "en": "Multiply radius by height only, without squaring or π",
+            "zh": "只把半径乘以高，不平方也不乘π"
+          },
+          {
+            "en": "Square the radius, multiply by π, then multiply by the height.",
+            "zh": "先对半径平方，乘以π，再乘以高。",
+            "correct": true
+          },
+          {
+            "en": "Square the height instead of the radius",
+            "zh": "误对高平方而非半径"
+          }
+        ],
+        "cueEn": "Substitute r = 3, h = 10 into V = πr²h.",
+        "cueZh": "把 r = 3，h = 10 代入 V = πr²h。",
+        "steps": [
+          {
+            "en": "π(3²)(10) = π(9)(10)",
+            "zh": "π(3²)(10) = π(9)(10)"
+          },
+          {
+            "en": "V = 90π",
+            "zh": "V = 90π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "V=pi*3^2*10=pi*9*10=90pi",
+        "workZh": "V=pi*3^2*10=pi*9*10=90pi",
+        "answerEn": "90π",
+        "answerZh": "90π"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Triangle A has sides 4, 6, and 8. Triangle B is similar to Triangle A, and its longest side is 12. What is the length of Triangle B's shortest side?",
+        "textZh": "三角形A的三边长为4、6、8。三角形B与三角形A相似，其最长边为12。三角形B最短边的长度是多少？",
+        "ask": [
+          {
+            "en": "The scale factor between the two triangles",
+            "zh": "两个三角形之间的比例因子"
+          },
+          {
+            "en": "What must be found first to solve this problem?",
+            "zh": "解决此题必须先求出什么？",
+            "correct": true
+          },
+          {
+            "en": "The perimeter of Triangle A",
+            "zh": "三角形A的周长"
+          },
+          {
+            "en": "The area of Triangle B",
+            "zh": "三角形B的面积"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 12 by 4 instead of 12 by 8",
+            "zh": "用12除以4而非用12除以8"
+          },
+          {
+            "en": "Subtract 8 from 12 to get the scale factor",
+            "zh": "用12减去8得到比例因子"
+          },
+          {
+            "en": "Assume the scale factor is 2 without checking",
+            "zh": "不检验直接假设比例因子是2"
+          },
+          {
+            "en": "Divide the corresponding longest sides to find the scale factor, then apply it to the shortest side.",
+            "zh": "用对应的最长边相除求出比例因子，再应用到最短边上。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Scale factor = Triangle B's longest side / Triangle A's longest side = 12/8.",
+        "cueZh": "比例因子 = 三角形B最长边 / 三角形A最长边 = 12/8。",
+        "steps": [
+          {
+            "en": "Scale factor = 12/8 = 1.5",
+            "zh": "比例因子 = 12/8 = 1.5"
+          },
+          {
+            "en": "Shortest side of B = 4 × 1.5 = 6",
+            "zh": "三角形B最短边 = 4 × 1.5 = 6"
+          }
+        ],
+        "turns": 2,
+        "workEn": "scale=12/8=1.5\n4*1.5=6",
+        "workZh": "比例=12/8=1.5\n4*1.5=6",
+        "answerEn": "6",
+        "answerZh": "6"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A circle has a radius of 6. What is the area of a sector with a central angle of 60°, in terms of π?",
+        "textZh": "一个圆的半径为6。圆心角为60°的扇形面积是多少（用 π 表示）？",
+        "ask": [
+          {
+            "en": "60/360 of the full circle",
+            "zh": "整个圆的 60/360"
+          },
+          {
+            "en": "60/180 of the full circle",
+            "zh": "整个圆的 60/180"
+          },
+          {
+            "en": "What fraction of the full circle does the sector represent?",
+            "zh": "该扇形占整个圆的多大比例？",
+            "correct": true
+          },
+          {
+            "en": "The full circle, since angle doesn't matter",
+            "zh": "整个圆，因为角度无关紧要"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Find the fraction of the circle the angle represents, then multiply by the full circle's area.",
+            "zh": "先求出角度占圆的比例，再乘以整个圆的面积。",
+            "correct": true
+          },
+          {
+            "en": "Multiply the radius by the angle directly",
+            "zh": "直接把半径乘以角度"
+          },
+          {
+            "en": "Use the angle as a fraction out of 100",
+            "zh": "把角度当作占100的比例"
+          },
+          {
+            "en": "Divide the angle by the radius",
+            "zh": "用角度除以半径"
+          }
+        ],
+        "cueEn": "Full circle area = π(6²) = 36π; the sector is 60/360 of that.",
+        "cueZh": "整个圆的面积 = π(6²) = 36π；扇形占其中的 60/360。",
+        "steps": [
+          {
+            "en": "36π × (60/360) = 36π × (1/6)",
+            "zh": "36π × (60/360) = 36π × (1/6)"
+          },
+          {
+            "en": "Sector area = 6π",
+            "zh": "扇形面积 = 6π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "full=pi*36=36pi\nfraction=60/360=1/6\n36pi/6=6pi",
+        "workZh": "整圆=pi*36=36pi\n比例=60/360=1/6\n36pi/6=6pi",
+        "answerEn": "6π",
+        "answerZh": "6π"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "In a 45-45-90 triangle, each leg has length 7. What is the length of the hypotenuse?",
+        "textZh": "在一个45-45-90三角形中，每条直角边长为7。斜边的长度是多少？",
+        "ask": [
+          {
+            "en": "Leg : leg : hypotenuse = 1 : 1 : √2",
+            "zh": "直角边 : 直角边 : 斜边 = 1 : 1 : √2"
+          },
+          {
+            "en": "Leg : leg : hypotenuse = 1 : √3 : 2",
+            "zh": "直角边 : 直角边 : 斜边 = 1 : √3 : 2"
+          },
+          {
+            "en": "Leg : leg : hypotenuse = 1 : 2 : 3",
+            "zh": "直角边 : 直角边 : 斜边 = 1 : 2 : 3"
+          },
+          {
+            "en": "What is the ratio of sides in a 45-45-90 triangle?",
+            "zh": "45-45-90三角形的边长比例是什么？",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the leg by 2 instead of √2",
+            "zh": "误把直角边乘以2而非√2"
+          },
+          {
+            "en": "Multiply the leg length by √2 to get the hypotenuse.",
+            "zh": "把直角边长乘以√2得到斜边。",
+            "correct": true
+          },
+          {
+            "en": "Add the two legs together",
+            "zh": "把两条直角边相加"
+          },
+          {
+            "en": "Use the Pythagorean theorem but forget to take the square root",
+            "zh": "使用勾股定理但忘记开平方"
+          }
+        ],
+        "cueEn": "Multiply the leg by √2.",
+        "cueZh": "把直角边乘以√2。",
+        "steps": [
+          {
+            "en": "Using a² + b² = c²: 7² + 7² = 49 + 49 = 98",
+            "zh": "用 a² + b² = c²：7² + 7² = 49 + 49 = 98"
+          },
+          {
+            "en": "c = √98 = 7√2",
+            "zh": "c = √98 = 7√2"
+          }
+        ],
+        "turns": 2,
+        "workEn": "7^2+7^2=98\nsqrt(98)=7*sqrt(2)",
+        "workZh": "7^2+7^2=98\nsqrt(98)=7*sqrt(2)",
+        "answerEn": "7√2",
+        "answerZh": "7√2"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The three angles of a triangle are in the ratio 1 : 2 : 3. What is the measure of the largest angle?",
+        "textZh": "一个三角形的三个内角之比为1:2:3。最大的角是多少度？",
+        "ask": [
+          {
+            "en": "What must be true about the sum of a triangle's angles?",
+            "zh": "三角形内角和必须满足什么？",
+            "correct": true
+          },
+          {
+            "en": "The three angles sum to 180°",
+            "zh": "三个内角之和为180°"
+          },
+          {
+            "en": "The three angles sum to 360°",
+            "zh": "三个内角之和为360°"
+          },
+          {
+            "en": "The three angles are always equal",
+            "zh": "三个内角总是相等"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 180 by 3 angle-parts without setting up the ratio equation",
+            "zh": "不列比例方程，直接用180除以3份"
+          },
+          {
+            "en": "Assume the largest angle is 180° minus the ratio value 3",
+            "zh": "假设最大角是180°减去比例值3"
+          },
+          {
+            "en": "Let the angles be x, 2x, 3x, set their sum equal to 180°, and solve for x, then find 3x.",
+            "zh": "设角为 x、2x、3x，令其和等于180°求出 x，再求 3x。",
+            "correct": true
+          },
+          {
+            "en": "Multiply 1, 2, and 3 together and use that as the angle",
+            "zh": "把1、2、3相乘作为角度"
+          }
+        ],
+        "cueEn": "Let the angles be x, 2x, and 3x; their sum is 180°.",
+        "cueZh": "设三个角为 x、2x、3x；其和为180°。",
+        "steps": [
+          {
+            "en": "x + 2x + 3x = 180 → 6x = 180 → x = 30",
+            "zh": "x + 2x + 3x = 180 → 6x = 180 → x = 30"
+          },
+          {
+            "en": "The largest angle = 3x = 3(30) = 90°",
+            "zh": "最大角 = 3x = 3(30) = 90°"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x+2x+3x=180\n6x=180\nx=30\nlargest=3*30=90",
+        "workZh": "x+2x+3x=180\n6x=180\nx=30\n最大角=3*30=90",
+        "answerEn": "90°",
+        "answerZh": "90°"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A circle has a radius of 10. What is the arc length corresponding to a central angle of 90°, in terms of π?",
+        "textZh": "一个圆的半径为10。圆心角为90°所对应的弧长是多少（用 π 表示）？",
+        "ask": [
+          {
+            "en": "90/360 of the full circumference",
+            "zh": "整个圆周长的 90/360"
+          },
+          {
+            "en": "What fraction of the full circumference does this arc represent?",
+            "zh": "这段弧占整个圆周长的多大比例？",
+            "correct": true
+          },
+          {
+            "en": "90/180 of the full circumference",
+            "zh": "整个圆周长的 90/180"
+          },
+          {
+            "en": "The full circumference regardless of angle",
+            "zh": "无论角度如何都是整个圆周长"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the radius by the angle in degrees directly",
+            "zh": "直接把半径乘以角度（度数）"
+          },
+          {
+            "en": "Use the diameter instead of the radius in the formula",
+            "zh": "公式中误用直径代替半径"
+          },
+          {
+            "en": "Divide the angle by the diameter",
+            "zh": "用角度除以直径"
+          },
+          {
+            "en": "Find the full circumference, then take the fraction of it corresponding to the central angle.",
+            "zh": "先求出整个圆的周长，再取圆心角对应的比例。",
+            "correct": true
+          }
+        ],
+        "cueEn": "Full circumference = 2π(10) = 20π; the arc is 90/360 of that.",
+        "cueZh": "整圆周长 = 2π(10) = 20π；该弧占其中的 90/360。",
+        "steps": [
+          {
+            "en": "20π × (90/360) = 20π × (1/4)",
+            "zh": "20π × (90/360) = 20π × (1/4)"
+          },
+          {
+            "en": "Arc length = 5π",
+            "zh": "弧长 = 5π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "circumference=2*pi*10=20pi\nfraction=90/360=1/4\n20pi/4=5pi",
+        "workZh": "周长=2*pi*10=20pi\n比例=90/360=1/4\n20pi/4=5pi",
+        "answerEn": "5π",
+        "answerZh": "5π"
+      },
+      "explanation": null,
+      "words": []
+    }
+  ]
+}

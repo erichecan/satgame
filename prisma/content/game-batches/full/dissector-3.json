@@ -1,0 +1,2776 @@
+{
+  "items": [
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A parking garage charges $6 for the first hour plus $2.50 for each additional hour. If Marcus paid $23.50 total, how many hours did he park?",
+        "textZh": "一个停车场第一小时收费6美元，之后每小时收费2.50美元。如果马库斯总共支付了23.50美元，他停车了多少小时？",
+        "ask": [
+          {
+            "en": "The number of hours parked",
+            "zh": "停车的小时数",
+            "correct": true
+          },
+          {
+            "en": "The flat first-hour fee",
+            "zh": "第一小时的固定费用"
+          },
+          {
+            "en": "The per-hour rate only",
+            "zh": "仅每小时的费率"
+          },
+          {
+            "en": "The total number of visits",
+            "zh": "总的停车次数"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set up 6 + 2.50(h - 1) = 23.50 and solve for h",
+            "zh": "列出6 + 2.50(h - 1) = 23.50并求解h",
+            "correct": true
+          },
+          {
+            "en": "Set up 6h + 2.50 = 23.50",
+            "zh": "列出6h + 2.50 = 23.50"
+          },
+          {
+            "en": "Set up 2.50 + 6h = 23.50",
+            "zh": "列出2.50 + 6h = 23.50"
+          },
+          {
+            "en": "Set up 23.50 - 6 = 2.50h",
+            "zh": "列出23.50 - 6 = 2.50h"
+          }
+        ],
+        "cueEn": "Subtract the flat fee first, then divide by the hourly rate.",
+        "cueZh": "先减去固定费用，再除以每小时费率。",
+        "steps": [
+          {
+            "en": "Subtract 6 from both sides: 2.50(h-1) = 17.50",
+            "zh": "两边减去6：2.50(h-1) = 17.50"
+          },
+          {
+            "en": "Divide by 2.50: h - 1 = 7, so h = 8",
+            "zh": "除以2.50：h - 1 = 7，因此h = 8"
+          }
+        ],
+        "turns": 2,
+        "workEn": "6 + 2.50(h-1) = 23.50\n2.50(h-1) = 17.50\nh-1 = 7\nh = 8",
+        "workZh": "6 + 2.50(h-1) = 23.50\n2.50(h-1) = 17.50\nh-1 = 7\nh = 8",
+        "answerEn": "8 hours",
+        "answerZh": "8小时"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "Three less than twice a number is 45. What is the number?",
+        "textZh": "一个数的两倍减去3等于45。这个数是多少？",
+        "ask": [
+          {
+            "en": "Twice the number before subtracting",
+            "zh": "减法前该数的两倍"
+          },
+          {
+            "en": "The number itself",
+            "zh": "这个数本身",
+            "correct": true
+          },
+          {
+            "en": "The value 3",
+            "zh": "数值3"
+          },
+          {
+            "en": "The sum of the number and 45",
+            "zh": "该数与45之和"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set up 3 - 2x = 45",
+            "zh": "列出3 - 2x = 45"
+          },
+          {
+            "en": "Set up 2x - 3 = 45 and solve for x",
+            "zh": "列出2x - 3 = 45并求解x",
+            "correct": true
+          },
+          {
+            "en": "Set up 2(x - 3) = 45",
+            "zh": "列出2(x - 3) = 45"
+          },
+          {
+            "en": "Set up 2x + 3 = 45",
+            "zh": "列出2x + 3 = 45"
+          }
+        ],
+        "cueEn": "Add 3 to both sides, then divide by 2.",
+        "cueZh": "两边加3，再除以2。",
+        "steps": [
+          {
+            "en": "Add 3 to both sides: 2x = 48",
+            "zh": "两边加3：2x = 48"
+          },
+          {
+            "en": "Divide both sides by 2: x = 24",
+            "zh": "两边除以2：x = 24"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2x - 3 = 45\n2x = 48\nx = 24",
+        "workZh": "2x - 3 = 45\n2x = 48\nx = 24",
+        "answerEn": "24",
+        "answerZh": "24"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The sum of three consecutive odd integers is 51. What is the largest of the three integers?",
+        "textZh": "三个连续奇数之和是51。这三个数中最大的是多少？",
+        "ask": [
+          {
+            "en": "The smallest of the three integers",
+            "zh": "三个数中最小的"
+          },
+          {
+            "en": "The middle integer",
+            "zh": "中间的数"
+          },
+          {
+            "en": "The largest of the three integers",
+            "zh": "三个数中最大的",
+            "correct": true
+          },
+          {
+            "en": "The sum of all three integers",
+            "zh": "三个数之和"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Let the integers be x, x+1, x+2; write x+(x+1)+(x+2)=51",
+            "zh": "设三数为x、x+1、x+2；列出x+(x+1)+(x+2)=51"
+          },
+          {
+            "en": "Let the integers be x, 2x, 3x; write x+2x+3x=51",
+            "zh": "设三数为x、2x、3x；列出x+2x+3x=51"
+          },
+          {
+            "en": "Let the integers be x, x+2, x+4; write x+(x+2)+(x+4)=51 and solve for x",
+            "zh": "设三数为x、x+2、x+4；列出x+(x+2)+(x+4)=51并求解x",
+            "correct": true
+          },
+          {
+            "en": "Divide 51 by 3 to get each integer directly",
+            "zh": "直接用51除以3得到每个数"
+          }
+        ],
+        "cueEn": "Consecutive odd integers differ by 2; solve for x, then add 4 for the largest.",
+        "cueZh": "连续奇数相差2；先解出x，再加4得到最大数。",
+        "steps": [
+          {
+            "en": "Combine like terms: 3x + 6 = 51",
+            "zh": "合并同类项：3x + 6 = 51"
+          },
+          {
+            "en": "Solve: x = 15, so the largest is x + 4 = 19",
+            "zh": "求解：x = 15，因此最大数为x + 4 = 19"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x+(x+2)+(x+4)=51\n3x+6=51\nx=15\nlargest=19",
+        "workZh": "x+(x+2)+(x+4)=51\n3x+6=51\nx=15\n最大数=19",
+        "answerEn": "19",
+        "answerZh": "19"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A system of equations is given: 2x + y = 13 and x - y = 2. What is the value of x?",
+        "textZh": "给定方程组：2x + y = 13和x - y = 2。x的值是多少？",
+        "ask": [
+          {
+            "en": "The value of x",
+            "zh": "x的值",
+            "correct": true
+          },
+          {
+            "en": "The value of y",
+            "zh": "y的值"
+          },
+          {
+            "en": "The value of x + y",
+            "zh": "x + y的值"
+          },
+          {
+            "en": "The value of 2x",
+            "zh": "2x的值"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the second equation by 2 before adding",
+            "zh": "把第二个方程乘以2再相加"
+          },
+          {
+            "en": "Solve the second equation for x, then substitute into the first",
+            "zh": "先从第二个方程解出x，再代入第一个方程"
+          },
+          {
+            "en": "Subtract the first equation from the second",
+            "zh": "用第二个方程减去第一个方程"
+          },
+          {
+            "en": "Add the two equations directly to eliminate y",
+            "zh": "把两个方程直接相加消去y",
+            "correct": true
+          }
+        ],
+        "cueEn": "Adding the equations eliminates y immediately.",
+        "cueZh": "两式相加可立即消去y。",
+        "steps": [
+          {
+            "en": "Add: (2x+y)+(x-y)=13+2 → 3x = 15",
+            "zh": "相加：(2x+y)+(x-y)=13+2 → 3x = 15"
+          },
+          {
+            "en": "Divide by 3: x = 5",
+            "zh": "除以3：x = 5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2x+y=13\nx-y=2\n3x=15\nx=5",
+        "workZh": "2x+y=13\nx-y=2\n3x=15\nx=5",
+        "answerEn": "x = 5",
+        "answerZh": "x = 5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A line passes through the points (-3, 4) and (5, -12). What is the slope of the line?",
+        "textZh": "一条直线经过点(-3, 4)和(5, -12)。这条直线的斜率是多少？",
+        "ask": [
+          {
+            "en": "The y-intercept of the line",
+            "zh": "直线的y轴截距"
+          },
+          {
+            "en": "The slope of the line",
+            "zh": "直线的斜率",
+            "correct": true
+          },
+          {
+            "en": "The x-intercept of the line",
+            "zh": "直线的x轴截距"
+          },
+          {
+            "en": "The distance between the two points",
+            "zh": "两点间的距离"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Compute (change in y) ÷ (change in x) using the two points",
+            "zh": "用两点计算(y的变化量) ÷ (x的变化量)",
+            "correct": true
+          },
+          {
+            "en": "Compute (change in x) ÷ (change in y)",
+            "zh": "计算(x的变化量) ÷ (y的变化量)"
+          },
+          {
+            "en": "Add the coordinates and divide by 2",
+            "zh": "把坐标相加再除以2"
+          },
+          {
+            "en": "Subtract the x-coordinates only",
+            "zh": "只做x坐标相减"
+          }
+        ],
+        "cueEn": "Slope = (y2 - y1)/(x2 - x1).",
+        "cueZh": "斜率 = (y2 - y1)/(x2 - x1)。",
+        "steps": [
+          {
+            "en": "Compute the change in y: -12 - 4 = -16",
+            "zh": "计算y的变化量：-12 - 4 = -16"
+          },
+          {
+            "en": "Compute the change in x: 5 - (-3) = 8, so slope = -16/8 = -2",
+            "zh": "计算x的变化量：5 - (-3) = 8，因此斜率 = -16/8 = -2"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(-12-4)/(5-(-3)) = -16/8 = -2",
+        "workZh": "(-12-4)/(5-(-3)) = -16/8 = -2",
+        "answerEn": "-2",
+        "answerZh": "-2"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "If 6(x + 2) = 4x + 22, what is the value of x?",
+        "textZh": "如果6(x + 2) = 4x + 22，x的值是多少？",
+        "ask": [
+          {
+            "en": "The value of x",
+            "zh": "x的值",
+            "correct": true
+          },
+          {
+            "en": "The value of 6x",
+            "zh": "6x的值"
+          },
+          {
+            "en": "The value of x + 2",
+            "zh": "x + 2的值"
+          },
+          {
+            "en": "The value of 4x + 22",
+            "zh": "4x + 22的值"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide both sides by 2 first",
+            "zh": "先把两边都除以2"
+          },
+          {
+            "en": "Distribute 6 across (x+2), then collect x terms on one side",
+            "zh": "把6分配到(x+2)中，再把含x的项归并到一边",
+            "correct": true
+          },
+          {
+            "en": "Subtract 22 from 6(x+2) directly",
+            "zh": "直接用6(x+2)减去22"
+          },
+          {
+            "en": "Set 6x equal to 4x without distributing the 2",
+            "zh": "不展开2，直接令6x等于4x"
+          }
+        ],
+        "cueEn": "Distribute first, then isolate x.",
+        "cueZh": "先展开括号，再分离x。",
+        "steps": [
+          {
+            "en": "Distribute: 6x + 12 = 4x + 22",
+            "zh": "展开：6x + 12 = 4x + 22"
+          },
+          {
+            "en": "Subtract 4x and 12 from both sides: 2x = 10, so x = 5",
+            "zh": "两边减去4x和12：2x = 10，因此x = 5"
+          }
+        ],
+        "turns": 2,
+        "workEn": "6x+12=4x+22\n2x=10\nx=5",
+        "workZh": "6x+12=4x+22\n2x=10\nx=5",
+        "answerEn": "x = 5",
+        "answerZh": "x = 5"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Ana has $30 and saves $10 each week. Ben has $90 and spends $5 each week. After how many weeks will they have the same amount of money?",
+        "textZh": "安娜有30美元，每周存10美元。本有90美元，每周花5美元。多少周后两人的钱数相同？",
+        "ask": [
+          {
+            "en": "The number of weeks until amounts are equal",
+            "zh": "金额相等所需的周数",
+            "correct": true
+          },
+          {
+            "en": "The amount of money Ana has at the start",
+            "zh": "安娜最初的钱数"
+          },
+          {
+            "en": "The amount of money Ben has at the start",
+            "zh": "本最初的钱数"
+          },
+          {
+            "en": "The difference between their weekly rates",
+            "zh": "两人每周变化量的差"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 90 by 30 to find w",
+            "zh": "用90除以30求w"
+          },
+          {
+            "en": "Set 30 - 10w equal to 90 + 5w",
+            "zh": "令30 - 10w等于90 + 5w"
+          },
+          {
+            "en": "Set 30 + 10w equal to 90 - 5w and solve for w",
+            "zh": "令30 + 10w等于90 - 5w并求解w",
+            "correct": true
+          },
+          {
+            "en": "Set 10w equal to 5w",
+            "zh": "令10w等于5w"
+          }
+        ],
+        "cueEn": "Set the two expressions for total money equal to each other.",
+        "cueZh": "令表示两人总金额的两个表达式相等。",
+        "steps": [
+          {
+            "en": "Combine like terms: 15w = 60",
+            "zh": "合并同类项：15w = 60"
+          },
+          {
+            "en": "Divide both sides by 15: w = 4",
+            "zh": "两边除以15：w = 4"
+          }
+        ],
+        "turns": 2,
+        "workEn": "30+10w=90-5w\n15w=60\nw=4",
+        "workZh": "30+10w=90-5w\n15w=60\nw=4",
+        "answerEn": "4 weeks",
+        "answerZh": "4周"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A student scored 82, 88, and 95 on three tests. What score must she earn on a fourth test so that her average across all four tests is exactly 90?",
+        "textZh": "一名学生在三次考试中的成绩分别是82、88和95。她在第四次考试中必须得多少分，才能使四次考试的平均分恰好为90？",
+        "ask": [
+          {
+            "en": "The score needed on the fourth test",
+            "zh": "第四次考试所需的分数",
+            "correct": true
+          },
+          {
+            "en": "The average of the first three tests",
+            "zh": "前三次考试的平均分"
+          },
+          {
+            "en": "The sum of all four test scores",
+            "zh": "四次考试的总分"
+          },
+          {
+            "en": "The total of the first three test scores",
+            "zh": "前三次考试的总分"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Subtract the average of the first three scores from 90",
+            "zh": "用90减去前三次的平均分"
+          },
+          {
+            "en": "Divide 90 by 3 and add it to the first three scores",
+            "zh": "用90除以3，再加到前三次分数上"
+          },
+          {
+            "en": "Add 90 to the sum of the first three scores",
+            "zh": "把90加到前三次的总分上"
+          },
+          {
+            "en": "Multiply 90 by 4 to get the required total, then subtract the sum of the first three scores",
+            "zh": "用90乘以4得到所需总分，再减去前三次的总分",
+            "correct": true
+          }
+        ],
+        "cueEn": "The required total for a 90 average over 4 tests is 90 × 4 = 360.",
+        "cueZh": "四次考试平均分为90所需的总分是90 × 4 = 360。",
+        "steps": [
+          {
+            "en": "Compute total needed: 90 × 4 = 360",
+            "zh": "计算所需总分：90 × 4 = 360"
+          },
+          {
+            "en": "Subtract known scores: 360 - (82+88+95) = 360 - 265 = 95",
+            "zh": "减去已知分数：360 - (82+88+95) = 360 - 265 = 95"
+          }
+        ],
+        "turns": 2,
+        "workEn": "360 - (82+88+95) = 360-265 = 95",
+        "workZh": "360 - (82+88+95) = 360-265 = 95",
+        "answerEn": "95",
+        "answerZh": "95"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If 4x - 3y = 10 and y = x - 1, what is the value of x?",
+        "textZh": "如果4x - 3y = 10且y = x - 1，x的值是多少？",
+        "ask": [
+          {
+            "en": "The value of y",
+            "zh": "y的值"
+          },
+          {
+            "en": "The value of x",
+            "zh": "x的值",
+            "correct": true
+          },
+          {
+            "en": "The value of x - y",
+            "zh": "x - y的值"
+          },
+          {
+            "en": "The value of 3y",
+            "zh": "3y的值"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Substitute x - 1 for y in 4x - 3y = 10, then solve",
+            "zh": "在4x - 3y = 10中把x - 1代入y，再求解",
+            "correct": true
+          },
+          {
+            "en": "Substitute y - 1 for x in 4x - 3y = 10",
+            "zh": "在4x - 3y = 10中把y - 1代入x"
+          },
+          {
+            "en": "Add the two equations directly",
+            "zh": "直接把两个方程相加"
+          },
+          {
+            "en": "Multiply y = x - 1 by 4 before substituting",
+            "zh": "在代入前先把y = x - 1乘以4"
+          }
+        ],
+        "cueEn": "Substitute the expression for y directly into the first equation.",
+        "cueZh": "把y的表达式直接代入第一个方程。",
+        "steps": [
+          {
+            "en": "Substitute: 4x - 3(x-1) = 10 → 4x - 3x + 3 = 10",
+            "zh": "代入：4x - 3(x-1) = 10 → 4x - 3x + 3 = 10"
+          },
+          {
+            "en": "Simplify: x + 3 = 10, so x = 7",
+            "zh": "化简：x + 3 = 10，因此x = 7"
+          }
+        ],
+        "turns": 2,
+        "workEn": "4x-3(x-1)=10\nx+3=10\nx=7",
+        "workZh": "4x-3(x-1)=10\nx+3=10\nx=7",
+        "answerEn": "x = 7",
+        "answerZh": "x = 7"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A phone plan costs $25 per month plus $0.10 per text message beyond the first 100 texts. If Jade's bill was $31 one month, how many texts beyond the first 100 did she send?",
+        "textZh": "一个手机套餐每月收费25美元，超过前100条短信后每条收费0.10美元。如果杰德某月的账单是31美元，她发送了多少条超出前100条的短信？",
+        "ask": [
+          {
+            "en": "The number of texts beyond the first 100",
+            "zh": "超出前100条的短信数量",
+            "correct": true
+          },
+          {
+            "en": "The base monthly fee",
+            "zh": "每月的固定费用"
+          },
+          {
+            "en": "The total number of texts sent that month",
+            "zh": "当月发送的短信总数"
+          },
+          {
+            "en": "The per-text rate only",
+            "zh": "仅每条短信的费率"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set up 0.10 + 25t = 31",
+            "zh": "列出0.10 + 25t = 31"
+          },
+          {
+            "en": "Set up 25 + 0.10t = 31 and solve for t",
+            "zh": "列出25 + 0.10t = 31并求解t",
+            "correct": true
+          },
+          {
+            "en": "Set up 25t + 0.10 = 31",
+            "zh": "列出25t + 0.10 = 31"
+          },
+          {
+            "en": "Set up 31 - 25 = 0.10 + t",
+            "zh": "列出31 - 25 = 0.10 + t"
+          }
+        ],
+        "cueEn": "Subtract the flat fee, then divide by the per-text rate.",
+        "cueZh": "先减去固定费用，再除以每条短信的费率。",
+        "steps": [
+          {
+            "en": "Subtract 25 from both sides: 0.10t = 6",
+            "zh": "两边减去25：0.10t = 6"
+          },
+          {
+            "en": "Divide by 0.10: t = 60",
+            "zh": "除以0.10：t = 60"
+          }
+        ],
+        "turns": 2,
+        "workEn": "25+0.10t=31\n0.10t=6\nt=60",
+        "workZh": "25+0.10t=31\n0.10t=6\nt=60",
+        "answerEn": "60 texts",
+        "answerZh": "60条短信"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The width of a rectangle is 6 units less than its length. If the perimeter is 68 units, what is the length of the rectangle?",
+        "textZh": "一个矩形的宽比长少6个单位。如果周长是68个单位，这个矩形的长是多少？",
+        "ask": [
+          {
+            "en": "The width of the rectangle",
+            "zh": "矩形的宽"
+          },
+          {
+            "en": "The length of the rectangle",
+            "zh": "矩形的长",
+            "correct": true
+          },
+          {
+            "en": "The area of the rectangle",
+            "zh": "矩形的面积"
+          },
+          {
+            "en": "The perimeter of the rectangle",
+            "zh": "矩形的周长"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 68 by 4 to get the length directly",
+            "zh": "直接用68除以4得到长"
+          },
+          {
+            "en": "Let length = l, width = l + 6; write 2(l + l + 6) = 68",
+            "zh": "设长为l，宽为l + 6；列出2(l + l + 6) = 68"
+          },
+          {
+            "en": "Let length = l, width = l - 6; write 2(l + l - 6) = 68 and solve",
+            "zh": "设长为l，宽为l - 6；列出2(l + l - 6) = 68并求解",
+            "correct": true
+          },
+          {
+            "en": "Let length = l, width = 6 - l; write 2(l + 6 - l) = 68",
+            "zh": "设长为l，宽为6 - l；列出2(l + 6 - l) = 68"
+          }
+        ],
+        "cueEn": "Perimeter = 2(length + width); substitute width = length - 6.",
+        "cueZh": "周长 = 2(长 + 宽)；代入宽 = 长 - 6。",
+        "steps": [
+          {
+            "en": "Simplify: 2(2l - 6) = 68 → 4l - 12 = 68",
+            "zh": "化简：2(2l - 6) = 68 → 4l - 12 = 68"
+          },
+          {
+            "en": "Solve: 4l = 80, so l = 20",
+            "zh": "求解：4l = 80，因此l = 20"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2(l+l-6)=68\n4l-12=68\nl=20",
+        "workZh": "2(l+l-6)=68\n4l-12=68\nl=20",
+        "answerEn": "20 units",
+        "answerZh": "20个单位"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Three-fourths of a number is 21 more than half of the same number. What is the number?",
+        "textZh": "一个数的四分之三比这个数的一半多21。这个数是多少？",
+        "ask": [
+          {
+            "en": "Half of the number",
+            "zh": "该数的一半"
+          },
+          {
+            "en": "Three-fourths of the number",
+            "zh": "该数的四分之三"
+          },
+          {
+            "en": "The number itself",
+            "zh": "这个数本身",
+            "correct": true
+          },
+          {
+            "en": "The value 21",
+            "zh": "数值21"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply 21 by 4/3 directly",
+            "zh": "直接用21乘以4/3"
+          },
+          {
+            "en": "Set up (1/2)x = (3/4)x + 21",
+            "zh": "列出(1/2)x = (3/4)x + 21"
+          },
+          {
+            "en": "Set up (3/4)x + (1/2)x = 21",
+            "zh": "列出(3/4)x + (1/2)x = 21"
+          },
+          {
+            "en": "Set up (3/4)x = (1/2)x + 21 and solve for x",
+            "zh": "列出(3/4)x = (1/2)x + 21并求解x",
+            "correct": true
+          }
+        ],
+        "cueEn": "Subtract (1/2)x from both sides to isolate x.",
+        "cueZh": "两边减去(1/2)x以分离x。",
+        "steps": [
+          {
+            "en": "Subtract (1/2)x from both sides: (1/4)x = 21",
+            "zh": "两边减去(1/2)x：(1/4)x = 21"
+          },
+          {
+            "en": "Multiply both sides by 4: x = 84",
+            "zh": "两边乘以4：x = 84"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(3/4)x-(1/2)x=21\n(1/4)x=21\nx=84",
+        "workZh": "(3/4)x-(1/2)x=21\n(1/4)x=21\nx=84",
+        "answerEn": "84",
+        "answerZh": "84"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A store marks up the wholesale price of a jacket by 40% to get the retail price. If the retail price is $84, what was the wholesale price?",
+        "textZh": "一家商店将一件夹克的批发价加价40%作为零售价。如果零售价是84美元，批发价是多少？",
+        "ask": [
+          {
+            "en": "The markup amount in dollars",
+            "zh": "加价的美元金额"
+          },
+          {
+            "en": "The retail price",
+            "zh": "零售价"
+          },
+          {
+            "en": "The wholesale price",
+            "zh": "批发价",
+            "correct": true
+          },
+          {
+            "en": "The markup percentage",
+            "zh": "加价百分比"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set up wholesale × 1.40 = 84 and solve",
+            "zh": "列出批发价 × 1.40 = 84并求解",
+            "correct": true
+          },
+          {
+            "en": "Set up wholesale × 0.40 = 84",
+            "zh": "列出批发价 × 0.40 = 84"
+          },
+          {
+            "en": "Set up 84 × 1.40 = wholesale",
+            "zh": "列出84 × 1.40 = 批发价"
+          },
+          {
+            "en": "Subtract 40 from 84 to get wholesale",
+            "zh": "用84减去40得到批发价"
+          }
+        ],
+        "cueEn": "A 40% markup means retail = wholesale × 1.40.",
+        "cueZh": "加价40%意味着零售价 = 批发价 × 1.40。",
+        "steps": [
+          {
+            "en": "Write the equation: 1.40w = 84",
+            "zh": "列出方程：1.40w = 84"
+          },
+          {
+            "en": "Divide both sides by 1.40: w = 60",
+            "zh": "两边除以1.40：w = 60"
+          }
+        ],
+        "turns": 2,
+        "workEn": "1.40w=84\nw=60",
+        "workZh": "1.40w=84\nw=60",
+        "answerEn": "$60",
+        "answerZh": "60美元"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A ball is thrown upward, and its height in feet is given by h(t) = -16t^2 + 96t, where t is time in seconds. At what time does the ball reach its maximum height?",
+        "textZh": "一个球被向上抛出，其高度（英尺）由h(t) = -16t^2 + 96t给出，其中t是时间（秒）。球在什么时刻达到最大高度？",
+        "ask": [
+          {
+            "en": "The maximum height reached",
+            "zh": "达到的最大高度"
+          },
+          {
+            "en": "The time when the ball hits the ground",
+            "zh": "球落地的时刻"
+          },
+          {
+            "en": "The time when the ball reaches maximum height",
+            "zh": "球达到最大高度的时刻",
+            "correct": true
+          },
+          {
+            "en": "The initial height of the ball",
+            "zh": "球的初始高度"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set h(t) = 0 and solve for t",
+            "zh": "令h(t) = 0并求解t"
+          },
+          {
+            "en": "Use t = -b/(2a) with a = -16, b = 96",
+            "zh": "用t = -b/(2a)，其中a = -16，b = 96",
+            "correct": true
+          },
+          {
+            "en": "Divide 96 by -16 directly",
+            "zh": "直接用96除以-16"
+          },
+          {
+            "en": "Use t = -c/b from the equation",
+            "zh": "用方程中的t = -c/b"
+          }
+        ],
+        "cueEn": "The vertex of a downward parabola gives the maximum; use t = -b/(2a).",
+        "cueZh": "开口向下抛物线的顶点给出最大值；用t = -b/(2a)。",
+        "steps": [
+          {
+            "en": "Identify a = -16, b = 96",
+            "zh": "确定a = -16，b = 96"
+          },
+          {
+            "en": "Compute t = -96/(2×-16) = -96/-32 = 3",
+            "zh": "计算t = -96/(2×-16) = -96/-32 = 3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "t = -96/(2*-16) = 3",
+        "workZh": "t = -96/(2*-16) = 3",
+        "answerEn": "3 seconds",
+        "answerZh": "3秒"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If f(x) = x^2 - 2x - 15, for what values of x does f(x) = 0?",
+        "textZh": "如果f(x) = x^2 - 2x - 15，当x为何值时f(x) = 0？",
+        "ask": [
+          {
+            "en": "x = 5 and x = 3",
+            "zh": "x = 5和x = 3"
+          },
+          {
+            "en": "x = 5 and x = -3",
+            "zh": "x = 5和x = -3",
+            "correct": true
+          },
+          {
+            "en": "x = -5 and x = 3",
+            "zh": "x = -5和x = 3"
+          },
+          {
+            "en": "x = -5 and x = -3",
+            "zh": "x = -5和x = -3"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use the quadratic formula with a=1,b=2,c=15",
+            "zh": "用二次公式，a=1，b=2，c=15"
+          },
+          {
+            "en": "Factor as (x+5)(x-3) and set each factor to 0",
+            "zh": "分解为(x+5)(x-3)，并令每个因式为0"
+          },
+          {
+            "en": "Factor as (x-5)(x+3) and set each factor to 0",
+            "zh": "分解为(x-5)(x+3)，并令每个因式为0",
+            "correct": true
+          },
+          {
+            "en": "Complete the square using (x-1)^2",
+            "zh": "用(x-1)^2配方"
+          }
+        ],
+        "cueEn": "Find two numbers that multiply to -15 and add to -2.",
+        "cueZh": "找两个数，乘积为-15，和为-2。",
+        "steps": [
+          {
+            "en": "Factor: x^2 - 2x - 15 = (x-5)(x+3)",
+            "zh": "分解：x^2 - 2x - 15 = (x-5)(x+3)"
+          },
+          {
+            "en": "Set each factor to zero: x = 5 or x = -3",
+            "zh": "令每个因式为零：x = 5或x = -3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(x-5)(x+3)=0\nx=5 or x=-3",
+        "workZh": "(x-5)(x+3)=0\nx=5或x=-3",
+        "answerEn": "x = 5, x = -3",
+        "answerZh": "x = 5, x = -3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The function g(x) = 3(x + 2)^2 - 7 has a minimum value. What is that minimum value?",
+        "textZh": "函数g(x) = 3(x + 2)^2 - 7有一个最小值。这个最小值是多少？",
+        "ask": [
+          {
+            "en": "The x-coordinate of the vertex",
+            "zh": "顶点的x坐标"
+          },
+          {
+            "en": "The minimum value of the function",
+            "zh": "函数的最小值",
+            "correct": true
+          },
+          {
+            "en": "The y-intercept of the function",
+            "zh": "函数的y轴截距"
+          },
+          {
+            "en": "The coefficient of the squared term",
+            "zh": "平方项的系数"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set the whole function equal to 0 and solve for the constant",
+            "zh": "令整个函数等于0并求常数"
+          },
+          {
+            "en": "Set x = 0 and evaluate g(0)",
+            "zh": "令x = 0并计算g(0)"
+          },
+          {
+            "en": "Divide -7 by 3 to find the minimum",
+            "zh": "用-7除以3求最小值"
+          },
+          {
+            "en": "Since the squared term is always ≥ 0, the minimum occurs when (x+2)^2 = 0",
+            "zh": "由于平方项恒≥0，最小值出现在(x+2)^2 = 0时",
+            "correct": true
+          }
+        ],
+        "cueEn": "In vertex form a(x-h)^2+k, the minimum (for a>0) is k.",
+        "cueZh": "在顶点式a(x-h)^2+k中，当a>0时最小值是k。",
+        "steps": [
+          {
+            "en": "The squared term 3(x+2)^2 is minimized (equals 0) when x = -2",
+            "zh": "当x = -2时，平方项3(x+2)^2最小（等于0）"
+          },
+          {
+            "en": "The minimum value of g is then -7",
+            "zh": "此时g的最小值即为-7"
+          }
+        ],
+        "turns": 2,
+        "workEn": "min at x=-2: g(-2) = 3(0)-7 = -7",
+        "workZh": "x=-2时最小：g(-2) = 3(0)-7 = -7",
+        "answerEn": "-7",
+        "answerZh": "-7"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A population of bacteria triples every 4 hours. If the initial population is 200, what is the population after 12 hours?",
+        "textZh": "一个细菌群体每4小时增至原来的3倍。如果初始数量是200，12小时后的数量是多少？",
+        "ask": [
+          {
+            "en": "The population after 12 hours",
+            "zh": "12小时后的数量",
+            "correct": true
+          },
+          {
+            "en": "The initial population",
+            "zh": "初始数量"
+          },
+          {
+            "en": "The number of tripling periods in 12 hours",
+            "zh": "12小时内翻三倍的次数"
+          },
+          {
+            "en": "The growth rate per hour",
+            "zh": "每小时的增长率"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Compute 200 × 3^(12/4)",
+            "zh": "计算200 × 3^(12/4)",
+            "correct": true
+          },
+          {
+            "en": "Compute 200 × 3 × 12",
+            "zh": "计算200 × 3 × 12"
+          },
+          {
+            "en": "Compute 200 + 3×12",
+            "zh": "计算200 + 3×12"
+          },
+          {
+            "en": "Compute 200 × 12/4",
+            "zh": "计算200 × 12/4"
+          }
+        ],
+        "cueEn": "12 hours contains 12/4 = 3 tripling periods.",
+        "cueZh": "12小时包含12/4 = 3个翻三倍周期。",
+        "steps": [
+          {
+            "en": "Determine number of periods: 12 ÷ 4 = 3",
+            "zh": "确定周期数：12 ÷ 4 = 3"
+          },
+          {
+            "en": "Compute: 200 × 3^3 = 200 × 27 = 5400",
+            "zh": "计算：200 × 3^3 = 200 × 27 = 5400"
+          }
+        ],
+        "turns": 2,
+        "workEn": "200 * 3^3 = 200*27 = 5400",
+        "workZh": "200 * 3^3 = 200*27 = 5400",
+        "answerEn": "5,400",
+        "answerZh": "5,400"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If h(x) = 2x^2 and k(x) = h(x) - 18, for what positive value of x does k(x) = 0?",
+        "textZh": "如果h(x) = 2x^2且k(x) = h(x) - 18，当x为何正值时k(x) = 0？",
+        "ask": [
+          {
+            "en": "x = 18",
+            "zh": "x = 18"
+          },
+          {
+            "en": "x = 9",
+            "zh": "x = 9"
+          },
+          {
+            "en": "x = 3",
+            "zh": "x = 3",
+            "correct": true
+          },
+          {
+            "en": "x = 6",
+            "zh": "x = 6"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set 2x^2 = 18 without subtracting first, then divide by 18",
+            "zh": "不先移项，直接用2x^2除以18"
+          },
+          {
+            "en": "Set 2x^2 - 18 = 0 and solve for positive x",
+            "zh": "令2x^2 - 18 = 0并求正值x",
+            "correct": true
+          },
+          {
+            "en": "Set 2x - 18 = 0 (treating the term as linear)",
+            "zh": "令2x - 18 = 0（把该项当作一次项）"
+          },
+          {
+            "en": "Set x^2 = 18 and take the square root directly",
+            "zh": "令x^2 = 18并直接开方"
+          }
+        ],
+        "cueEn": "Substitute h(x) into k(x), then isolate x^2.",
+        "cueZh": "把h(x)代入k(x)，再分离x^2。",
+        "steps": [
+          {
+            "en": "Write k(x) = 2x^2 - 18 = 0",
+            "zh": "写出k(x) = 2x^2 - 18 = 0"
+          },
+          {
+            "en": "Solve: x^2 = 9, so x = 3 (positive root)",
+            "zh": "求解：x^2 = 9，因此x = 3（正根）"
+          }
+        ],
+        "turns": 2,
+        "workEn": "2x^2-18=0\nx^2=9\nx=3",
+        "workZh": "2x^2-18=0\nx^2=9\nx=3",
+        "answerEn": "x = 3",
+        "answerZh": "x = 3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "The expression (x + 5)(x - 5) is equivalent to which expression?",
+        "textZh": "表达式(x + 5)(x - 5)等价于下列哪个表达式？",
+        "ask": [
+          {
+            "en": "x^2 + 25",
+            "zh": "x^2 + 25"
+          },
+          {
+            "en": "x^2 - 10x - 25",
+            "zh": "x^2 - 10x - 25"
+          },
+          {
+            "en": "x^2 - 25",
+            "zh": "x^2 - 25",
+            "correct": true
+          },
+          {
+            "en": "x^2 + 10x + 25",
+            "zh": "x^2 + 10x + 25"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Square (x+5) and subtract 10x",
+            "zh": "对(x+5)平方后减去10x"
+          },
+          {
+            "en": "FOIL and keep the middle terms without combining",
+            "zh": "展开FOIL但不合并中间项"
+          },
+          {
+            "en": "Use the difference of squares pattern (a+b)(a-b) = a^2 - b^2",
+            "zh": "使用平方差公式(a+b)(a-b) = a^2 - b^2",
+            "correct": true
+          },
+          {
+            "en": "Add the two factors together first",
+            "zh": "先把两个因式相加"
+          }
+        ],
+        "cueEn": "This matches the difference-of-squares pattern.",
+        "cueZh": "这符合平方差公式的模式。",
+        "steps": [
+          {
+            "en": "Apply (a+b)(a-b) = a^2 - b^2 with a=x, b=5",
+            "zh": "应用(a+b)(a-b) = a^2 - b^2，a=x，b=5"
+          },
+          {
+            "en": "Result: x^2 - 25",
+            "zh": "结果：x^2 - 25"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(x+5)(x-5) = x^2-25",
+        "workZh": "(x+5)(x-5) = x^2-25",
+        "answerEn": "x^2 - 25",
+        "answerZh": "x^2 - 25"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A right triangle has legs of length x and x + 1, and a hypotenuse of 29. What is the value of x?",
+        "textZh": "一个直角三角形的两条直角边长度分别为x和x + 1，斜边为29。x的值是多少？",
+        "ask": [
+          {
+            "en": "The value of x",
+            "zh": "x的值",
+            "correct": true
+          },
+          {
+            "en": "The value of x + 1",
+            "zh": "x + 1的值"
+          },
+          {
+            "en": "The area of the triangle",
+            "zh": "三角形的面积"
+          },
+          {
+            "en": "The perimeter of the triangle",
+            "zh": "三角形的周长"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use x + (x+1) + 29 = perimeter to solve for x",
+            "zh": "用x + (x+1) + 29 = 周长求x"
+          },
+          {
+            "en": "Add x and x+1, then set equal to 29",
+            "zh": "把x和x+1相加，令其等于29"
+          },
+          {
+            "en": "Subtract x+1 from 29 to find x",
+            "zh": "用29减去x+1求x"
+          },
+          {
+            "en": "Use the Pythagorean theorem: x^2 + (x+1)^2 = 29^2, then solve the quadratic",
+            "zh": "用勾股定理：x^2 + (x+1)^2 = 29^2，再求解二次方程",
+            "correct": true
+          }
+        ],
+        "cueEn": "Set up the Pythagorean theorem and simplify into a standard quadratic.",
+        "cueZh": "列出勾股定理，化简为标准二次方程。",
+        "steps": [
+          {
+            "en": "Expand: x^2 + x^2 + 2x + 1 = 841 → 2x^2 + 2x - 840 = 0",
+            "zh": "展开：x^2 + x^2 + 2x + 1 = 841 → 2x^2 + 2x - 840 = 0"
+          },
+          {
+            "en": "Divide by 2 and factor: x^2 + x - 420 = 0 → x = 20 (positive root)",
+            "zh": "除以2并分解：x^2 + x - 420 = 0 → x = 20（正根）"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x^2+(x+1)^2=841\n2x^2+2x-840=0\nx^2+x-420=0\nx=20",
+        "workZh": "x^2+(x+1)^2=841\n2x^2+2x-840=0\nx^2+x-420=0\nx=20",
+        "answerEn": "x = 20",
+        "answerZh": "x = 20"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "If 3^x = 81, what is the value of x?",
+        "textZh": "如果3^x = 81，x的值是多少？",
+        "ask": [
+          {
+            "en": "x = 3",
+            "zh": "x = 3"
+          },
+          {
+            "en": "x = 27",
+            "zh": "x = 27"
+          },
+          {
+            "en": "x = 81",
+            "zh": "x = 81"
+          },
+          {
+            "en": "x = 4",
+            "zh": "x = 4",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Write 81 as a power of 3, then set exponents equal",
+            "zh": "把81写成3的幂，再令指数相等",
+            "correct": true
+          },
+          {
+            "en": "Divide both sides by 3",
+            "zh": "两边都除以3"
+          },
+          {
+            "en": "Take the log base 81 of both sides",
+            "zh": "两边取以81为底的对数"
+          },
+          {
+            "en": "Subtract 3 from 81 to find x",
+            "zh": "用81减去3求x"
+          }
+        ],
+        "cueEn": "Express 81 as 3 raised to a power.",
+        "cueZh": "把81表示为3的某次幂。",
+        "steps": [
+          {
+            "en": "Recognize 81 = 3^4",
+            "zh": "识别81 = 3^4"
+          },
+          {
+            "en": "Since bases match, x = 4",
+            "zh": "由于底数相同，x = 4"
+          }
+        ],
+        "turns": 2,
+        "workEn": "81 = 3^4, so x = 4",
+        "workZh": "81 = 3^4，因此x = 4",
+        "answerEn": "x = 4",
+        "answerZh": "x = 4"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The function p(x) = x^3 - 9x has a zero at x = 0. What are the other two zeros?",
+        "textZh": "函数p(x) = x^3 - 9x在x = 0处有一个零点。其余两个零点是多少？",
+        "ask": [
+          {
+            "en": "x = 9 and x = -9",
+            "zh": "x = 9和x = -9"
+          },
+          {
+            "en": "x = 3 and x = -3",
+            "zh": "x = 3和x = -3",
+            "correct": true
+          },
+          {
+            "en": "x = 3 only",
+            "zh": "仅x = 3"
+          },
+          {
+            "en": "x = 1 and x = -1",
+            "zh": "x = 1和x = -1"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set x^3 = 9x and divide both sides by x^2",
+            "zh": "令x^3 = 9x并两边除以x^2"
+          },
+          {
+            "en": "Factor out x, then factor the remaining difference of squares",
+            "zh": "先提取x，再对剩余的平方差进行因式分解",
+            "correct": true
+          },
+          {
+            "en": "Use the quadratic formula directly on the cubic",
+            "zh": "直接对三次式使用二次公式"
+          },
+          {
+            "en": "Add 9x to both sides first",
+            "zh": "先在两边都加9x"
+          }
+        ],
+        "cueEn": "Factor x out, then factor the remaining quadratic as a difference of squares.",
+        "cueZh": "先提取公因式x，再把剩余的二次式分解为平方差。",
+        "steps": [
+          {
+            "en": "Factor: x^3 - 9x = x(x^2 - 9)",
+            "zh": "分解：x^3 - 9x = x(x^2 - 9)"
+          },
+          {
+            "en": "Factor further: x(x-3)(x+3), so zeros are x=3 and x=-3",
+            "zh": "进一步分解：x(x-3)(x+3)，因此零点为x=3和x=-3"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x^3-9x = x(x-3)(x+3)\nzeros: 0, 3, -3",
+        "workZh": "x^3-9x = x(x-3)(x+3)\n零点：0, 3, -3",
+        "answerEn": "x = 3, x = -3",
+        "answerZh": "x = 3, x = -3"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "If f(x) = (x + 5)/(x - 7), for what value of x is f(x) undefined?",
+        "textZh": "如果f(x) = (x + 5)/(x - 7)，当x为何值时f(x)无定义？",
+        "ask": [
+          {
+            "en": "x = -5",
+            "zh": "x = -5"
+          },
+          {
+            "en": "x = 0",
+            "zh": "x = 0"
+          },
+          {
+            "en": "x = 5",
+            "zh": "x = 5"
+          },
+          {
+            "en": "x = 7",
+            "zh": "x = 7",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set the entire fraction equal to 0",
+            "zh": "令整个分式等于0"
+          },
+          {
+            "en": "Set the numerator equal to 0 and solve",
+            "zh": "令分子等于0并求解"
+          },
+          {
+            "en": "Set the denominator equal to 0 and solve",
+            "zh": "令分母等于0并求解",
+            "correct": true
+          },
+          {
+            "en": "Set x equal to the numerator's constant",
+            "zh": "令x等于分子中的常数"
+          }
+        ],
+        "cueEn": "A rational function is undefined where its denominator equals zero.",
+        "cueZh": "分式函数在分母为零处无定义。",
+        "steps": [
+          {
+            "en": "Set denominator to 0: x - 7 = 0",
+            "zh": "令分母为0：x - 7 = 0"
+          },
+          {
+            "en": "Solve: x = 7",
+            "zh": "求解：x = 7"
+          }
+        ],
+        "turns": 2,
+        "workEn": "x-7=0\nx=7",
+        "workZh": "x-7=0\nx=7",
+        "answerEn": "x = 7",
+        "answerZh": "x = 7"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A quadratic function has zeros at x = 2 and x = 6. If the function passes through the point (0, 24), what is the value of the function at x = 4?",
+        "textZh": "一个二次函数在x = 2和x = 6处有零点。如果该函数经过点(0, 24)，当x = 4时函数值是多少？",
+        "ask": [
+          {
+            "en": "24",
+            "zh": "24"
+          },
+          {
+            "en": "0",
+            "zh": "0"
+          },
+          {
+            "en": "-8",
+            "zh": "-8",
+            "correct": true
+          },
+          {
+            "en": "8",
+            "zh": "8"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Plug x = 4 into y = (x-2)(x-6) directly without finding a",
+            "zh": "直接把x = 4代入y = (x-2)(x-6)，不求a"
+          },
+          {
+            "en": "Write y = a(x-2)(x-6) and assume a = 1 without checking the point",
+            "zh": "写出y = a(x-2)(x-6)，不检验直接假设a = 1"
+          },
+          {
+            "en": "Average the two zeros to estimate the value at x=4",
+            "zh": "取两个零点的平均值来估计x=4处的值"
+          },
+          {
+            "en": "Write y = a(x-2)(x-6), use (0,24) to find a, then evaluate at x=4",
+            "zh": "写出y = a(x-2)(x-6)，用(0,24)求a，再计算x=4处的值",
+            "correct": true
+          }
+        ],
+        "cueEn": "Use the zeros to write factored form, then use the given point to find the leading coefficient.",
+        "cueZh": "用零点写出因式形式，再用给定的点求首项系数。",
+        "steps": [
+          {
+            "en": "Use (0,24): a(0-2)(0-6) = 24 → 12a = 24 → a = 2",
+            "zh": "用(0,24)：a(0-2)(0-6) = 24 → 12a = 24 → a = 2"
+          },
+          {
+            "en": "Evaluate at x=4: y = 2(4-2)(4-6) = 2(2)(-2) = -8",
+            "zh": "计算x=4处：y = 2(4-2)(4-6) = 2(2)(-2) = -8"
+          }
+        ],
+        "turns": 2,
+        "workEn": "a(−2)(−6)=24, a=2\ny=2(2)(−2)=−8",
+        "workZh": "a(−2)(−6)=24, a=2\ny=2(2)(−2)=−8",
+        "answerEn": "-8",
+        "answerZh": "-8"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "If √(3x - 2) = 7, what is the value of x?",
+        "textZh": "如果√(3x - 2) = 7，x的值是多少？",
+        "ask": [
+          {
+            "en": "x = 51",
+            "zh": "x = 51"
+          },
+          {
+            "en": "x = 17",
+            "zh": "x = 17",
+            "correct": true
+          },
+          {
+            "en": "x = 15",
+            "zh": "x = 15"
+          },
+          {
+            "en": "x = 7",
+            "zh": "x = 7"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Square both sides first, then solve the resulting linear equation",
+            "zh": "先对两边平方，再求解线性方程",
+            "correct": true
+          },
+          {
+            "en": "Divide both sides by 3 before squaring",
+            "zh": "在平方前先两边除以3"
+          },
+          {
+            "en": "Subtract 2 from 7 directly without squaring",
+            "zh": "不平方，直接用7减去2"
+          },
+          {
+            "en": "Take the square root of 7 to check the answer",
+            "zh": "对7开方来检验答案"
+          }
+        ],
+        "cueEn": "Square both sides to eliminate the radical, then solve for x.",
+        "cueZh": "两边平方以消去根号，再求解x。",
+        "steps": [
+          {
+            "en": "Square both sides: 3x - 2 = 49",
+            "zh": "两边平方：3x - 2 = 49"
+          },
+          {
+            "en": "Solve: 3x = 51, so x = 17",
+            "zh": "求解：3x = 51，因此x = 17"
+          }
+        ],
+        "turns": 2,
+        "workEn": "3x-2=49\n3x=51\nx=17",
+        "workZh": "3x-2=49\n3x=51\nx=17",
+        "answerEn": "x = 17",
+        "answerZh": "x = 17"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "The graph of y = x^2 + bx + 16 is tangent to the x-axis (touches it at exactly one point), where b is positive. What is the value of b?",
+        "textZh": "y = x^2 + bx + 16的图像与x轴相切（恰好在一点接触），其中b为正数。b的值是多少？",
+        "ask": [
+          {
+            "en": "b = 16",
+            "zh": "b = 16"
+          },
+          {
+            "en": "b = 4",
+            "zh": "b = 4"
+          },
+          {
+            "en": "b = 32",
+            "zh": "b = 32"
+          },
+          {
+            "en": "b = 8",
+            "zh": "b = 8",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set b equal to the constant term 16",
+            "zh": "令b等于常数项16"
+          },
+          {
+            "en": "Set the discriminant b^2 - 4(1)(16) equal to 0 and solve for positive b",
+            "zh": "令判别式b^2 - 4(1)(16)等于0并求正值b",
+            "correct": true
+          },
+          {
+            "en": "Set the sum of roots equal to -b and assume roots are 4 and 4",
+            "zh": "令根之和等于-b，并假设两根都是4"
+          },
+          {
+            "en": "Divide 16 by 2 to estimate b",
+            "zh": "用16除以2来估计b"
+          }
+        ],
+        "cueEn": "Tangent to the x-axis means exactly one root, so the discriminant equals 0.",
+        "cueZh": "与x轴相切意味着恰好一个根，因此判别式为0。",
+        "steps": [
+          {
+            "en": "Set discriminant to 0: b^2 - 64 = 0",
+            "zh": "令判别式为0：b^2 - 64 = 0"
+          },
+          {
+            "en": "Solve: b^2 = 64, so b = 8 (taking the positive root)",
+            "zh": "求解：b^2 = 64，因此b = 8（取正根）"
+          }
+        ],
+        "turns": 2,
+        "workEn": "b^2-64=0\nb^2=64\nb=8",
+        "workZh": "b^2-64=0\nb^2=64\nb=8",
+        "answerEn": "b = 8",
+        "answerZh": "b = 8"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A car's value depreciates according to V(t) = 18000(0.90)^t, where t is years since purchase. What is the car's value after 2 years?",
+        "textZh": "一辆汽车的价值按照V(t) = 18000(0.90)^t贬值，其中t是购买后的年数。2年后这辆车的价值是多少？",
+        "ask": [
+          {
+            "en": "$18,000",
+            "zh": "18,000美元"
+          },
+          {
+            "en": "$16,200",
+            "zh": "16,200美元"
+          },
+          {
+            "en": "$14,580",
+            "zh": "14,580美元",
+            "correct": true
+          },
+          {
+            "en": "$1,800",
+            "zh": "1,800美元"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Compute 18000 - 0.90 × 2",
+            "zh": "计算18000 - 0.90 × 2"
+          },
+          {
+            "en": "Compute 18000 × 0.90 × 2",
+            "zh": "计算18000 × 0.90 × 2"
+          },
+          {
+            "en": "Compute 18000 × 0.90^2",
+            "zh": "计算18000 × 0.90^2",
+            "correct": true
+          },
+          {
+            "en": "Compute 18000 × 2 × 0.90^0",
+            "zh": "计算18000 × 2 × 0.90^0"
+          }
+        ],
+        "cueEn": "Substitute t = 2 into the exponential decay formula.",
+        "cueZh": "把t = 2代入指数衰减公式。",
+        "steps": [
+          {
+            "en": "Compute 0.90^2 = 0.81",
+            "zh": "计算0.90^2 = 0.81"
+          },
+          {
+            "en": "Multiply: 18000 × 0.81 = 14,580",
+            "zh": "相乘：18000 × 0.81 = 14,580"
+          }
+        ],
+        "turns": 2,
+        "workEn": "18000*(0.9)^2 = 18000*0.81 = 14580",
+        "workZh": "18000*(0.9)^2 = 18000*0.81 = 14580",
+        "answerEn": "$14,580",
+        "answerZh": "14,580美元"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A survey of 400 students found that 35% prefer hybrid classes over fully in-person or fully online. How many students prefer hybrid classes?",
+        "textZh": "对400名学生的调查发现，35%的学生更喜欢混合式课程，而不是完全线下或完全线上。有多少学生更喜欢混合式课程？",
+        "ask": [
+          {
+            "en": "The number of students who prefer hybrid classes",
+            "zh": "更喜欢混合式课程的学生人数",
+            "correct": true
+          },
+          {
+            "en": "The number of students who do NOT prefer hybrid classes",
+            "zh": "不喜欢混合式课程的学生人数"
+          },
+          {
+            "en": "The total number of students surveyed",
+            "zh": "被调查的学生总数"
+          },
+          {
+            "en": "The percentage who prefer online classes",
+            "zh": "更喜欢线上课程的百分比"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Subtract 35 from 400",
+            "zh": "用400减去35"
+          },
+          {
+            "en": "Divide 400 by 0.35",
+            "zh": "用400除以0.35"
+          },
+          {
+            "en": "Multiply 400 by 35",
+            "zh": "用400乘以35"
+          },
+          {
+            "en": "Multiply 400 by 0.35",
+            "zh": "用400乘以0.35",
+            "correct": true
+          }
+        ],
+        "cueEn": "Convert the percent to a decimal and multiply by the total.",
+        "cueZh": "把百分比转换为小数，再乘以总数。",
+        "steps": [
+          {
+            "en": "Convert 35% to 0.35",
+            "zh": "把35%转换为0.35"
+          },
+          {
+            "en": "Multiply: 400 × 0.35 = 140",
+            "zh": "相乘：400 × 0.35 = 140"
+          }
+        ],
+        "turns": 2,
+        "workEn": "400 * 0.35 = 140",
+        "workZh": "400 * 0.35 = 140",
+        "answerEn": "140 students",
+        "answerZh": "140名学生"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A paint mixture uses a ratio of 4 parts blue to 7 parts white. If a batch totals 33 liters, how many liters of blue paint are used?",
+        "textZh": "一种油漆混合物的蓝色与白色比例为4:7。如果一批混合物总共是33升，用了多少升蓝色油漆？",
+        "ask": [
+          {
+            "en": "The liters of white paint used",
+            "zh": "使用的白色油漆升数"
+          },
+          {
+            "en": "The liters of blue paint used",
+            "zh": "使用的蓝色油漆升数",
+            "correct": true
+          },
+          {
+            "en": "The total liters of paint",
+            "zh": "油漆总升数"
+          },
+          {
+            "en": "The ratio of white to blue paint",
+            "zh": "白色与蓝色的比例"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Blue fraction = 4/(4+7); multiply by 33",
+            "zh": "蓝色所占比例 = 4/(4+7)；乘以33",
+            "correct": true
+          },
+          {
+            "en": "Blue fraction = 4/7; multiply by 33",
+            "zh": "蓝色所占比例 = 4/7；乘以33"
+          },
+          {
+            "en": "Divide 33 by 4 directly",
+            "zh": "直接用33除以4"
+          },
+          {
+            "en": "Blue fraction = 7/(4+7); multiply by 33",
+            "zh": "蓝色所占比例 = 7/(4+7)；乘以33"
+          }
+        ],
+        "cueEn": "Blue makes up 4 out of every 11 total parts.",
+        "cueZh": "蓝色在每11份总量中占4份。",
+        "steps": [
+          {
+            "en": "Total parts = 4 + 7 = 11",
+            "zh": "总份数 = 4 + 7 = 11"
+          },
+          {
+            "en": "Blue liters = (4/11) × 33 = 12",
+            "zh": "蓝色升数 = (4/11) × 33 = 12"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(4/11)*33 = 12",
+        "workZh": "(4/11)*33 = 12",
+        "answerEn": "12 liters",
+        "answerZh": "12升"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A dataset contains the values 12, 15, 18, 21, and 24. What is the mean of this dataset?",
+        "textZh": "一个数据集包含数值12、15、18、21和24。这个数据集的平均数是多少？",
+        "ask": [
+          {
+            "en": "The median of the dataset",
+            "zh": "数据集的中位数"
+          },
+          {
+            "en": "The range of the dataset",
+            "zh": "数据集的极差"
+          },
+          {
+            "en": "The mean of the dataset",
+            "zh": "数据集的平均数",
+            "correct": true
+          },
+          {
+            "en": "The mode of the dataset",
+            "zh": "数据集的众数"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add all values and divide by 4",
+            "zh": "把所有值相加，再除以4"
+          },
+          {
+            "en": "Add all values and divide by 5",
+            "zh": "把所有值相加，再除以5",
+            "correct": true
+          },
+          {
+            "en": "Subtract the smallest value from the largest",
+            "zh": "用最大值减去最小值"
+          },
+          {
+            "en": "Sort the values and pick the middle one",
+            "zh": "把数值排序后取中间的一个"
+          }
+        ],
+        "cueEn": "Mean = sum of values divided by the count of values.",
+        "cueZh": "平均数 = 数值之和除以数值个数。",
+        "steps": [
+          {
+            "en": "Sum the values: 12+15+18+21+24 = 90",
+            "zh": "求和：12+15+18+21+24 = 90"
+          },
+          {
+            "en": "Divide by the count: 90 ÷ 5 = 18",
+            "zh": "除以个数：90 ÷ 5 = 18"
+          }
+        ],
+        "turns": 2,
+        "workEn": "12+15+18+21+24=90\n90/5=18",
+        "workZh": "12+15+18+21+24=90\n90/5=18",
+        "answerEn": "18",
+        "answerZh": "18"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A bag contains 6 red marbles, 9 blue marbles, and 5 yellow marbles. If one marble is drawn at random, what is the probability that it is blue?",
+        "textZh": "一个袋子里有6颗红色弹珠、9颗蓝色弹珠和5颗黄色弹珠。如果随机抽取一颗弹珠，抽到蓝色弹珠的概率是多少？",
+        "ask": [
+          {
+            "en": "The probability of drawing red",
+            "zh": "抽到红色的概率"
+          },
+          {
+            "en": "The probability of drawing yellow",
+            "zh": "抽到黄色的概率"
+          },
+          {
+            "en": "The total number of marbles",
+            "zh": "弹珠总数"
+          },
+          {
+            "en": "The probability of drawing blue",
+            "zh": "抽到蓝色的概率",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide the number of red marbles by the number of blue marbles",
+            "zh": "用红色弹珠数除以蓝色弹珠数"
+          },
+          {
+            "en": "Divide the total number of marbles by the number of blue marbles",
+            "zh": "用弹珠总数除以蓝色弹珠数"
+          },
+          {
+            "en": "Divide the number of blue marbles by the total number of marbles",
+            "zh": "用蓝色弹珠数除以弹珠总数",
+            "correct": true
+          },
+          {
+            "en": "Subtract the blue marbles from the total",
+            "zh": "用总数减去蓝色弹珠数"
+          }
+        ],
+        "cueEn": "Probability = favorable outcomes ÷ total outcomes.",
+        "cueZh": "概率 = 有利结果数 ÷ 总结果数。",
+        "steps": [
+          {
+            "en": "Find the total: 6+9+5 = 20",
+            "zh": "求总数：6+9+5 = 20"
+          },
+          {
+            "en": "Compute probability: 9/20 = 0.45",
+            "zh": "计算概率：9/20 = 0.45"
+          }
+        ],
+        "turns": 2,
+        "workEn": "total=20\nP(blue)=9/20=0.45",
+        "workZh": "总数=20\nP(蓝)=9/20=0.45",
+        "answerEn": "9/20",
+        "answerZh": "9/20"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A car travels 240 miles using 8 gallons of gas. At this rate, how many miles can it travel using 11 gallons?",
+        "textZh": "一辆汽车用8加仑汽油行驶240英里。按此比率，用11加仑汽油能行驶多少英里？",
+        "ask": [
+          {
+            "en": "The miles per gallon rate",
+            "zh": "每加仑行驶的英里数"
+          },
+          {
+            "en": "The number of gallons used for 240 miles",
+            "zh": "行驶240英里所用的加仑数"
+          },
+          {
+            "en": "The number of miles traveled using 11 gallons",
+            "zh": "用11加仑行驶的英里数",
+            "correct": true
+          },
+          {
+            "en": "The total gallons needed for 480 miles",
+            "zh": "行驶480英里所需的总加仑数"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add 8 and 11, then multiply by 240",
+            "zh": "把8和11相加，再乘以240"
+          },
+          {
+            "en": "Divide 240 by 11 directly",
+            "zh": "直接用240除以11"
+          },
+          {
+            "en": "Multiply 240 by 11 then divide by 8 in a different order (multiply first)",
+            "zh": "先把240乘以11再除以8（顺序不同）"
+          },
+          {
+            "en": "Find miles per gallon, then multiply by 11",
+            "zh": "先求每加仑英里数，再乘以11",
+            "correct": true
+          }
+        ],
+        "cueEn": "Find the unit rate (miles per gallon), then scale up.",
+        "cueZh": "先求单位比率（每加仑英里数），再按比例放大。",
+        "steps": [
+          {
+            "en": "Find rate: 240 ÷ 8 = 30 miles per gallon",
+            "zh": "求比率：240 ÷ 8 = 每加仑30英里"
+          },
+          {
+            "en": "Multiply: 30 × 11 = 330 miles",
+            "zh": "相乘：30 × 11 = 330英里"
+          }
+        ],
+        "turns": 2,
+        "workEn": "240/8=30\n30*11=330",
+        "workZh": "240/8=30\n30*11=330",
+        "answerEn": "330 miles",
+        "answerZh": "330英里"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "In a class of 36 students, the ratio of boys to girls is 4 to 5. How many boys are in the class?",
+        "textZh": "在一个有36名学生的班级里，男生与女生的比例是4:5。班上有多少男生？",
+        "ask": [
+          {
+            "en": "The number of girls in the class",
+            "zh": "班上的女生人数"
+          },
+          {
+            "en": "The total number of students",
+            "zh": "学生总数"
+          },
+          {
+            "en": "The ratio of girls to boys",
+            "zh": "女生与男生的比例"
+          },
+          {
+            "en": "The number of boys in the class",
+            "zh": "班上的男生人数",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Boys fraction = 4/(4+5); multiply by 36",
+            "zh": "男生所占比例 = 4/(4+5)；乘以36",
+            "correct": true
+          },
+          {
+            "en": "Boys fraction = 4/5; multiply by 36",
+            "zh": "男生所占比例 = 4/5；乘以36"
+          },
+          {
+            "en": "Divide 36 by 4 directly",
+            "zh": "直接用36除以4"
+          },
+          {
+            "en": "Girls fraction = 5/(4+5); multiply by 36 to get boys",
+            "zh": "女生比例 = 5/(4+5)；乘以36得到男生数"
+          }
+        ],
+        "cueEn": "Boys make up 4 out of every 9 total parts.",
+        "cueZh": "男生在每9份总量中占4份。",
+        "steps": [
+          {
+            "en": "Total parts = 4 + 5 = 9",
+            "zh": "总份数 = 4 + 5 = 9"
+          },
+          {
+            "en": "Boys = (4/9) × 36 = 16",
+            "zh": "男生数 = (4/9) × 36 = 16"
+          }
+        ],
+        "turns": 2,
+        "workEn": "(4/9)*36=16",
+        "workZh": "(4/9)*36=16",
+        "answerEn": "16 boys",
+        "answerZh": "16名男生"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The price of a laptop was reduced from $950 to $760. What was the percent decrease in price?",
+        "textZh": "一台笔记本电脑的价格从950美元降到760美元。价格的百分比降幅是多少？",
+        "ask": [
+          {
+            "en": "The dollar amount of the decrease",
+            "zh": "降价的美元金额"
+          },
+          {
+            "en": "The new price after the decrease",
+            "zh": "降价后的新价格"
+          },
+          {
+            "en": "The original price before the decrease",
+            "zh": "降价前的原价"
+          },
+          {
+            "en": "The percent decrease in price",
+            "zh": "价格的百分比降幅",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide the decrease amount by the new price",
+            "zh": "用降价金额除以新价"
+          },
+          {
+            "en": "Divide the decrease amount by the original price, then convert to a percent",
+            "zh": "用降价金额除以原价，再转换为百分比",
+            "correct": true
+          },
+          {
+            "en": "Divide the new price by the original price",
+            "zh": "用新价除以原价"
+          },
+          {
+            "en": "Subtract the new price from 100",
+            "zh": "用100减去新价"
+          }
+        ],
+        "cueEn": "Percent decrease = (original - new) / original × 100%.",
+        "cueZh": "百分比降幅 = (原价 - 新价) / 原价 × 100%。",
+        "steps": [
+          {
+            "en": "Find the decrease: 950 - 760 = 190",
+            "zh": "求降价金额：950 - 760 = 190"
+          },
+          {
+            "en": "Divide by original and convert: 190/950 = 0.20 = 20%",
+            "zh": "除以原价并转换：190/950 = 0.20 = 20%"
+          }
+        ],
+        "turns": 2,
+        "workEn": "190/950=0.20=20%",
+        "workZh": "190/950=0.20=20%",
+        "answerEn": "20%",
+        "answerZh": "20%"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A circle has a radius of 8 inches. What is the circumference of the circle in terms of π?",
+        "textZh": "一个圆的半径是8英寸。这个圆的周长（用π表示）是多少？",
+        "ask": [
+          {
+            "en": "16π square inches (area, distractor)",
+            "zh": "16π平方英寸（面积，干扰项）"
+          },
+          {
+            "en": "8π inches",
+            "zh": "8π英寸"
+          },
+          {
+            "en": "64π square inches",
+            "zh": "64π平方英寸"
+          },
+          {
+            "en": "16π inches",
+            "zh": "16π英寸",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use area = πr^2 instead of circumference",
+            "zh": "用面积公式πr^2代替周长"
+          },
+          {
+            "en": "Use circumference = πr",
+            "zh": "使用周长 = πr"
+          },
+          {
+            "en": "Use circumference = 2πr",
+            "zh": "使用周长 = 2πr",
+            "correct": true
+          },
+          {
+            "en": "Use circumference = πr^2",
+            "zh": "使用周长 = πr^2"
+          }
+        ],
+        "cueEn": "Circumference of a circle is 2πr.",
+        "cueZh": "圆的周长是2πr。",
+        "steps": [
+          {
+            "en": "Substitute r = 8 into C = 2πr",
+            "zh": "把r = 8代入C = 2πr"
+          },
+          {
+            "en": "Compute: C = 2π(8) = 16π",
+            "zh": "计算：C = 2π(8) = 16π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "C=2*pi*8=16*pi",
+        "workZh": "C=2*pi*8=16*pi",
+        "answerEn": "16π inches",
+        "answerZh": "16π英寸"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A right triangle has legs of length 8 and 15. What is the length of the hypotenuse?",
+        "textZh": "一个直角三角形的两条直角边长度为8和15。斜边的长度是多少？",
+        "ask": [
+          {
+            "en": "15",
+            "zh": "15"
+          },
+          {
+            "en": "8",
+            "zh": "8"
+          },
+          {
+            "en": "23",
+            "zh": "23"
+          },
+          {
+            "en": "17",
+            "zh": "17",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Subtract the smaller leg from the larger: 15 - 8",
+            "zh": "用较大边减去较小边：15 - 8"
+          },
+          {
+            "en": "Add the two legs directly: 8 + 15",
+            "zh": "直接把两条直角边相加：8 + 15"
+          },
+          {
+            "en": "Use c = 8^2 + 15^2 without taking the square root",
+            "zh": "用c = 8^2 + 15^2，不开方"
+          },
+          {
+            "en": "Use the Pythagorean theorem: c = √(8^2 + 15^2)",
+            "zh": "使用勾股定理：c = √(8^2 + 15^2)",
+            "correct": true
+          }
+        ],
+        "cueEn": "Apply the Pythagorean theorem: a^2 + b^2 = c^2.",
+        "cueZh": "应用勾股定理：a^2 + b^2 = c^2。",
+        "steps": [
+          {
+            "en": "Compute 8^2 + 15^2 = 64 + 225 = 289",
+            "zh": "计算8^2 + 15^2 = 64 + 225 = 289"
+          },
+          {
+            "en": "Take the square root: √289 = 17",
+            "zh": "开方：√289 = 17"
+          }
+        ],
+        "turns": 2,
+        "workEn": "8^2+15^2=289\nsqrt(289)=17",
+        "workZh": "8^2+15^2=289\nsqrt(289)=17",
+        "answerEn": "17",
+        "answerZh": "17"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "In a triangle, the angles measure (3x)°, (4x)°, and (5x)°. What is the measure of the largest angle?",
+        "textZh": "一个三角形的三个角分别为(3x)°、(4x)°和(5x)°。最大角的度数是多少？",
+        "ask": [
+          {
+            "en": "The value of x",
+            "zh": "x的值"
+          },
+          {
+            "en": "The measure of the smallest angle",
+            "zh": "最小角的度数"
+          },
+          {
+            "en": "The sum of all three angles",
+            "zh": "三个角之和"
+          },
+          {
+            "en": "The measure of the largest angle",
+            "zh": "最大角的度数",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Set 3x+4x+5x=180, solve for x, then compute 5x",
+            "zh": "令3x+4x+5x=180，求解x，再计算5x",
+            "correct": true
+          },
+          {
+            "en": "Set 3x+4x+5x=360, solve for x",
+            "zh": "令3x+4x+5x=360，求解x"
+          },
+          {
+            "en": "Divide 180 by 5 to find x directly",
+            "zh": "直接用180除以5求x"
+          },
+          {
+            "en": "Set 3x=4x=5x and solve simultaneously",
+            "zh": "令3x=4x=5x同时求解"
+          }
+        ],
+        "cueEn": "The angles of a triangle sum to 180°.",
+        "cueZh": "三角形内角和为180°。",
+        "steps": [
+          {
+            "en": "Combine: 12x = 180, so x = 15",
+            "zh": "合并：12x = 180，因此x = 15"
+          },
+          {
+            "en": "Largest angle: 5x = 5(15) = 75°",
+            "zh": "最大角：5x = 5(15) = 75°"
+          }
+        ],
+        "turns": 2,
+        "workEn": "12x=180\nx=15\n5x=75",
+        "workZh": "12x=180\nx=15\n5x=75",
+        "answerEn": "75°",
+        "answerZh": "75°"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A rectangular garden is 20 feet long and 12 feet wide. A path 2 feet wide surrounds the entire garden. What is the area of the path alone?",
+        "textZh": "一个矩形花园长20英尺，宽12英尺。一条宽2英尺的小路环绕整个花园。这条小路本身的面积是多少？",
+        "ask": [
+          {
+            "en": "The area of the garden alone",
+            "zh": "花园本身的面积"
+          },
+          {
+            "en": "The total area including the garden and path",
+            "zh": "花园加小路的总面积"
+          },
+          {
+            "en": "The perimeter of the garden",
+            "zh": "花园的周长"
+          },
+          {
+            "en": "The area of the path alone",
+            "zh": "小路本身的面积",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Multiply the path width by the garden's perimeter directly",
+            "zh": "直接用小路宽度乘以花园周长"
+          },
+          {
+            "en": "Find the outer rectangle's area (garden + 2×path width on each side), then subtract the garden's area",
+            "zh": "求外部矩形的面积（花园加两侧各2倍小路宽度），再减去花园面积",
+            "correct": true
+          },
+          {
+            "en": "Add 2 to both the length and width, then multiply by 2",
+            "zh": "把长和宽都加2，再乘以2"
+          },
+          {
+            "en": "Subtract the path width from both dimensions and multiply",
+            "zh": "把小路宽度从两个维度中减去后相乘"
+          }
+        ],
+        "cueEn": "Outer rectangle dimensions = garden dimensions + 2 × path width (path on both sides).",
+        "cueZh": "外部矩形尺寸 = 花园尺寸 + 2 × 小路宽度（两侧都有小路）。",
+        "steps": [
+          {
+            "en": "Outer dimensions: (20+4) by (12+4) = 24 by 16",
+            "zh": "外部尺寸：(20+4)乘以(12+4) = 24乘以16"
+          },
+          {
+            "en": "Path area = outer area - garden area = 384 - 240 = 144",
+            "zh": "小路面积 = 外部面积 - 花园面积 = 384 - 240 = 144"
+          }
+        ],
+        "turns": 2,
+        "workEn": "24*16-20*12 = 384-240 = 144",
+        "workZh": "24*16-20*12 = 384-240 = 144",
+        "answerEn": "144 square feet",
+        "answerZh": "144平方英尺"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "In a right triangle, one angle measures 60°, and the side opposite this angle has length 10√3. What is the length of the hypotenuse?",
+        "textZh": "在一个直角三角形中，一个角为60°，该角对边长度为10√3。斜边的长度是多少？",
+        "ask": [
+          {
+            "en": "10",
+            "zh": "10"
+          },
+          {
+            "en": "20√3",
+            "zh": "20√3"
+          },
+          {
+            "en": "20",
+            "zh": "20",
+            "correct": true
+          },
+          {
+            "en": "10√3",
+            "zh": "10√3"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use tan(60°) = opposite/hypotenuse",
+            "zh": "使用tan(60°) = 对边/斜边"
+          },
+          {
+            "en": "Use cos(60°) = opposite/hypotenuse",
+            "zh": "使用cos(60°) = 对边/斜边"
+          },
+          {
+            "en": "Use sin(60°) = opposite/hypotenuse and solve for the hypotenuse",
+            "zh": "使用sin(60°) = 对边/斜边并求解斜边",
+            "correct": true
+          },
+          {
+            "en": "Assume the hypotenuse equals the opposite side",
+            "zh": "假设斜边等于对边"
+          }
+        ],
+        "cueEn": "sin(60°) = √3/2 = opposite/hypotenuse.",
+        "cueZh": "sin(60°) = √3/2 = 对边/斜边。",
+        "steps": [
+          {
+            "en": "Set up: √3/2 = (10√3)/hyp",
+            "zh": "列出：√3/2 = (10√3)/斜边"
+          },
+          {
+            "en": "Solve: hyp = (10√3) ÷ (√3/2) = 10√3 × 2/√3 = 20",
+            "zh": "求解：斜边 = (10√3) ÷ (√3/2) = 10√3 × 2/√3 = 20"
+          }
+        ],
+        "turns": 2,
+        "workEn": "hyp = 10*sqrt3 / (sqrt3/2) = 20",
+        "workZh": "hyp = 10*sqrt3 / (sqrt3/2) = 20",
+        "answerEn": "20",
+        "answerZh": "20"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Two similar triangles have a scale factor of 2:7. If the smaller triangle has a perimeter of 18, what is the perimeter of the larger triangle?",
+        "textZh": "两个相似三角形的比例尺为2:7。如果较小三角形的周长是18，较大三角形的周长是多少？",
+        "ask": [
+          {
+            "en": "The perimeter of the larger triangle",
+            "zh": "较大三角形的周长",
+            "correct": true
+          },
+          {
+            "en": "The scale factor squared",
+            "zh": "比例尺的平方"
+          },
+          {
+            "en": "The perimeter of the smaller triangle",
+            "zh": "较小三角形的周长"
+          },
+          {
+            "en": "The area ratio of the two triangles",
+            "zh": "两三角形的面积比"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Add 7 - 2 = 5 to the smaller perimeter",
+            "zh": "把较小周长加上7 - 2 = 5"
+          },
+          {
+            "en": "Multiply the smaller perimeter by 2/7",
+            "zh": "把较小周长乘以2/7"
+          },
+          {
+            "en": "Multiply the smaller perimeter by (7/2)^2 since perimeter scales with area",
+            "zh": "因周长按面积比例缩放，把较小周长乘以(7/2)^2"
+          },
+          {
+            "en": "Multiply the smaller perimeter by 7/2",
+            "zh": "把较小周长乘以7/2",
+            "correct": true
+          }
+        ],
+        "cueEn": "Perimeter scales linearly with the scale factor (not squared, unlike area).",
+        "cueZh": "周长按比例尺线性缩放（不是平方，这一点和面积不同）。",
+        "steps": [
+          {
+            "en": "Set up the proportion: 18/larger = 2/7",
+            "zh": "列出比例：18/较大周长 = 2/7"
+          },
+          {
+            "en": "Solve: larger = 18 × 7/2 = 63",
+            "zh": "求解：较大周长 = 18 × 7/2 = 63"
+          }
+        ],
+        "turns": 2,
+        "workEn": "18*(7/2)=63",
+        "workZh": "18*(7/2)=63",
+        "answerEn": "63",
+        "answerZh": "63"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A sector of a circle with radius 12 has a central angle of 90°. What is the area of the sector?",
+        "textZh": "一个半径为12的圆的扇形，圆心角为90°。这个扇形的面积是多少？",
+        "ask": [
+          {
+            "en": "12π",
+            "zh": "12π"
+          },
+          {
+            "en": "144π",
+            "zh": "144π"
+          },
+          {
+            "en": "36π",
+            "zh": "36π",
+            "correct": true
+          },
+          {
+            "en": "24π",
+            "zh": "24π"
+          }
+        ],
+        "tool": [
+          {
+            "en": "Use the full circle's area formula without scaling by the angle",
+            "zh": "不按角度比例缩放，直接用整圆面积公式",
+            "correct": true
+          },
+          {
+            "en": "Multiply the circumference by the fraction of the angle",
+            "zh": "把周长乘以角度所占比例"
+          },
+          {
+            "en": "Multiply the full circle's area by the fraction of the angle (90/360)",
+            "zh": "把整圆面积乘以角度所占比例(90/360)"
+          },
+          {
+            "en": "Divide the radius by the angle fraction",
+            "zh": "用半径除以角度比例"
+          }
+        ],
+        "cueEn": "Sector area = (central angle/360) × πr^2.",
+        "cueZh": "扇形面积 = (圆心角/360) × πr^2。",
+        "steps": [
+          {
+            "en": "Compute full circle area: π(12)^2 = 144π",
+            "zh": "计算整圆面积：π(12)^2 = 144π"
+          },
+          {
+            "en": "Multiply by fraction: (90/360) × 144π = 36π",
+            "zh": "乘以比例：(90/360) × 144π = 36π"
+          }
+        ],
+        "turns": 2,
+        "workEn": "144pi*(90/360)=36pi",
+        "workZh": "144pi*(90/360)=36pi",
+        "answerEn": "36π",
+        "answerZh": "36π"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A circle has an area of 49π square inches. What is the radius of the circle?",
+        "textZh": "一个圆的面积是49π平方英寸。这个圆的半径是多少？",
+        "ask": [
+          {
+            "en": "49 inches",
+            "zh": "49英寸"
+          },
+          {
+            "en": "14 inches",
+            "zh": "14英寸"
+          },
+          {
+            "en": "24.5 inches",
+            "zh": "24.5英寸"
+          },
+          {
+            "en": "7 inches",
+            "zh": "7英寸",
+            "correct": true
+          }
+        ],
+        "tool": [
+          {
+            "en": "Divide 49π by π and use the result directly as the radius without square-rooting",
+            "zh": "把49π除以π，直接把结果当作半径，不开方"
+          },
+          {
+            "en": "Set πr^2 = 49π, divide both sides by π, then take the square root",
+            "zh": "令πr^2 = 49π，两边除以π，再开方",
+            "correct": true
+          },
+          {
+            "en": "Divide the area by 2 to find the radius",
+            "zh": "用面积除以2求半径"
+          },
+          {
+            "en": "Multiply 49 by π to find the radius",
+            "zh": "用49乘以π求半径"
+          }
+        ],
+        "cueEn": "Set the area formula equal to 49π and solve for r.",
+        "cueZh": "令面积公式等于49π并求解r。",
+        "steps": [
+          {
+            "en": "Divide both sides by π: r^2 = 49",
+            "zh": "两边除以π：r^2 = 49"
+          },
+          {
+            "en": "Take the square root: r = 7",
+            "zh": "开方：r = 7"
+          }
+        ],
+        "turns": 2,
+        "workEn": "r^2=49\nr=7",
+        "workZh": "r^2=49\nr=7",
+        "answerEn": "7 inches",
+        "answerZh": "7英寸"
+      },
+      "explanation": null,
+      "words": []
+    }
+  ]
+}

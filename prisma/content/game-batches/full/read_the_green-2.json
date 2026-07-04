@@ -1,0 +1,1231 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Economic historians have long debated what originally caused the Industrial Revolution to begin in Britain rather than elsewhere in Europe.",
+          "A recent analysis contends that access to cheap coal was not the fundamental factor; instead, high wages relative to energy costs made mechanization more profitable there than in France or the Netherlands.",
+          "This argument does not deny that coal was essential once factories existed, but it reframes coal as a secondary condition rather than the primary cause of industrialization.",
+          "Critics counter that wage data from the period is too limited to support such a precise claim about relative costs.",
+          "Even so, the wage-based theory has become influential because it explains why some coal-rich regions never industrialized at all."
+        ],
+        "question": "What is the main point of the passage?",
+        "options": [
+          {
+            "t": "Wage data from the era is considered fully reliable by all historians.",
+            "trap": "not stated; the passage notes data is limited"
+          },
+          {
+            "t": "Every coal-rich region in Europe eventually industrialized.",
+            "trap": "contradicts sentence 5"
+          },
+          {
+            "t": "A scholarly theory reframes high wages, rather than coal access, as the fundamental cause of British industrialization.",
+            "correct": true
+          },
+          {
+            "t": "Coal was the sole cause of the Industrial Revolution in Britain.",
+            "trap": "opposite of the passage's claim"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 states the core claim that wages, not coal, were the fundamental factor."
+      },
+      "explanation": null,
+      "words": [
+        "fundamental",
+        "essential",
+        "primary",
+        "limited"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Sociologists studying urban neighborhoods have found that residents often trust local institutions less when public services are inconsistent.",
+          "One study tracked garbage collection, street repair, and school funding across a decade in a mid-sized city.",
+          "Where these services were erratic, survey respondents reported lower confidence in city government even when overall funding levels were stable and similar to more trusted neighborhoods.",
+          "The researchers concluded that consistency itself, not just quantity of investment, shapes civic trust.",
+          "Their finding suggests that unpredictable delivery of routine services can undermine trust more than steady but modest funding."
+        ],
+        "question": "Which choice best states the main finding of the study described in the passage?",
+        "options": [
+          {
+            "t": "Consistency in delivering public services affects civic trust more than the total amount spent on those services.",
+            "correct": true
+          },
+          {
+            "t": "Neighborhoods with the most funding always have the highest trust in government.",
+            "trap": "not stated; funding levels were similar"
+          },
+          {
+            "t": "Garbage collection is the single most important service for building trust.",
+            "trap": "too narrow; three services were studied together"
+          },
+          {
+            "t": "Civic trust is unrelated to how services are delivered.",
+            "trap": "opposite of the finding"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 gives the researchers' explicit conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "inconsistent",
+        "erratic",
+        "stable",
+        "unpredictable"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "During the early years of the United Nations, delegates debated how much authority the new organization should have to intervene in the affairs of member states.",
+          "Some diplomats argued that limited sovereignty was an acceptable price for preventing another global war.",
+          "Others, wary of ceding control to an international body, insist that intervention should permit action only with a state's explicit consent.",
+          "The compromise language adopted in the Charter reflects this tension: it does authorize collective action but requires broad agreement before it can occur.",
+          "That unclear division of power has fueled disputes over the UN's proper role ever since."
+        ],
+        "question": "The passage is primarily concerned with",
+        "options": [
+          {
+            "t": "proving that all delegates agreed on the UN's proper role from the start.",
+            "trap": "opposite; sentences 2-3 describe disagreement"
+          },
+          {
+            "t": "explaining how a disagreement among founding delegates produced unclear language that still causes disputes today.",
+            "correct": true
+          },
+          {
+            "t": "arguing that the United Nations should have unlimited authority over member states.",
+            "trap": "not stated; the passage describes debate, not advocacy"
+          },
+          {
+            "t": "describing a war that the United Nations failed to prevent.",
+            "trap": "not discussed in the passage"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 shows the lasting consequence of the unresolved debate, tying the passage together."
+      },
+      "explanation": null,
+      "words": [
+        "authorize",
+        "permit",
+        "insist"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Political scientists have long argued about whether campaign spending actually changes election outcomes or merely reflects candidates who were already likely to win.",
+          "A study using data from close state legislative races attempted to isolate the effect of spending from the effect of underlying popularity.",
+          "The researchers found that additional spending had a marginal effect, and this was the primary pattern in races that were already competitive.",
+          "In lopsided races, extra spending appeared to have almost no effect on the final vote share.",
+          "The authors acknowledge that their model cannot fully rule out other unmeasured factors."
+        ],
+        "question": "Which choice best describes the function of the last sentence in the passage?",
+        "options": [
+          {
+            "t": "It restates the passage's main argument in different words.",
+            "trap": "not a restatement; it introduces a caveat"
+          },
+          {
+            "t": "It introduces a new finding that contradicts the previous sentence.",
+            "trap": "not stated; it's a caution, not a contradiction"
+          },
+          {
+            "t": "It summarizes historical debates about campaign finance law.",
+            "trap": "too broad; only refers to this study"
+          },
+          {
+            "t": "It qualifies the study's findings by acknowledging a limitation of the research design.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 is the caveat the question asks about."
+      },
+      "explanation": null,
+      "words": [
+        "marginal",
+        "primary",
+        "acknowledge"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Anthropologists studying gift-giving customs in small-scale societies have noted that gifts are rarely free of obligation.",
+          "A classic account describes a cycle in which receiving a gift creates social pressure to give something of greater value in return.",
+          "This dynamic can strengthen alliances between families, but it can also entrench inequality when one party lacks adequate means to reciprocate.",
+          "Modern economists have drawn on this research to argue that even seemingly voluntary market transactions carry embedded social expectations.",
+          "The comparison suggests that pure generosity is harder to find in either traditional or modern economies than is often assumed."
+        ],
+        "question": "Which choice best states the central idea of the passage?",
+        "options": [
+          {
+            "t": "Gift exchange, whether ancient or modern, tends to carry social obligations rather than being purely selfless.",
+            "correct": true
+          },
+          {
+            "t": "Gift-giving in small-scale societies has no connection to modern economic behavior.",
+            "trap": "opposite of sentence 4"
+          },
+          {
+            "t": "Reciprocal exchange always benefits both parties equally.",
+            "trap": "contradicts sentence 3, which notes inequality can result"
+          },
+          {
+            "t": "Modern market transactions are entirely free of social expectations.",
+            "trap": "opposite of sentence 4"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 draws the direct connection between traditional gift cycles and modern transactions, supporting the central idea."
+      },
+      "explanation": null,
+      "words": [
+        "adequate",
+        "traditional",
+        "modern"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians examining the collapse of several ancient trade networks have proposed competing explanations for their decline.",
+          "One camp emphasizes environmental shifts, such as prolonged drought, that made long-distance transport increasingly costly.",
+          "A second camp points to political instability, arguing that raids and shifting alliances disrupted trade routes even where climate remained stable.",
+          "Recent excavation evidence suggests that in at least one region, both pressures arrived nearly simultaneously, and neither factor alone was sufficient to explain the collapse.",
+          "This finding has led some historians to argue that single-cause explanations understate how tangled these declines actually were."
+        ],
+        "question": "Which choice best describes how the passage is structured?",
+        "options": [
+          {
+            "t": "It presents a single explanation and defends it against all objections.",
+            "trap": "not accurate; two camps are described, and neither is fully defended"
+          },
+          {
+            "t": "It describes an experiment that disproved both explanations.",
+            "trap": "not stated; excavation evidence, not an experiment, is described"
+          },
+          {
+            "t": "It argues that trade networks never actually declined.",
+            "trap": "contradicts the passage's premise"
+          },
+          {
+            "t": "It presents two competing explanations, then offers evidence suggesting the causes may have combined rather than acted alone.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 introduces the excavation evidence that complicates the either/or framing set up in sentences 2-3."
+      },
+      "explanation": null,
+      "words": [
+        "decline",
+        "stable",
+        "sufficient"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Economists studying labor markets have questioned whether minimum wage increases primarily help or harm low-wage workers overall.",
+          "A widely cited study compared employment in neighboring counties on either side of a state border after one state raised its minimum wage.",
+          "The researchers found no significant decline in employment in the county with the higher wage, contradicting some earlier predictions.",
+          "Skeptical economists argue that border-county comparisons may not apply to industries or regions with different labor market conditions.",
+          "Despite this criticism, the study remains a frequently cited data point in ongoing minimum-wage debates."
+        ],
+        "question": "What function does sentence 4 serve in the passage?",
+        "options": [
+          {
+            "t": "It proves that minimum wage increases always help workers.",
+            "trap": "overstates; the passage only reports one study's finding"
+          },
+          {
+            "t": "It presents a limitation raised by critics of the study's methodology.",
+            "correct": true
+          },
+          {
+            "t": "It confirms that the study's findings apply to every industry.",
+            "trap": "opposite; critics doubt generalizability"
+          },
+          {
+            "t": "It describes a second, unrelated experiment.",
+            "trap": "not stated; it's a critique of the first study"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "Sentence 3 states the study's key result, which sentence 4 then critiques."
+      },
+      "explanation": null,
+      "words": [
+        "decline",
+        "skeptical",
+        "apply"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Legal scholars analyzing the expansion of judicial review have traced its roots to a series of early court decisions decided one case at a time.",
+          "None of these early rulings explicitly claimed the sweeping power to authorize courts to strike down laws.",
+          "Instead, each decision addressed a narrow dispute while quietly building precedent for the primary practice that judicial review would become.",
+          "Only decades later did commentators acknowledge the combined effect of these rulings as a distinct doctrine.",
+          "This slow emergence has led some scholars to argue that judicial review was less a deliberate invention than an unintended consequence of ordinary casework."
+        ],
+        "question": "Which choice best reflects the main idea of the passage?",
+        "options": [
+          {
+            "t": "Judicial review developed gradually through incremental rulings rather than through a single deliberate decision.",
+            "correct": true
+          },
+          {
+            "t": "Judicial review was explicitly established in the earliest court rulings on the subject.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Legal scholars agree that judicial review was a mistake.",
+            "trap": "not stated; scholars debate its origin, not its validity"
+          },
+          {
+            "t": "Courts have never used judicial review to evaluate the constitutionality of laws.",
+            "trap": "contradicts sentence 3"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 makes explicit the gradual, unintended nature of the doctrine's emergence."
+      },
+      "explanation": null,
+      "words": [
+        "authorize",
+        "primary",
+        "acknowledge"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Behavioral economists have explored why people often persist in failing courses of action, a pattern sometimes called the sunk cost fallacy.",
+          "In laboratory experiments, participants were more likely to continue funding a failing project if they had already invested heavily in it, even when a fresh evaluation would counsel stopping.",
+          "This tendency appears across contexts, from personal finance to large government contracts that continue despite mounting evidence of failure.",
+          "Some researchers argue that the pattern reflects a desire to avoid admitting a past decision was wrong, rather than a purely financial calculation.",
+          "Understanding this bias has encouraged policies that require independent review before large projects renew their funding."
+        ],
+        "question": "Which choice best describes the primary purpose of the passage?",
+        "options": [
+          {
+            "t": "To describe a laboratory experiment with no real-world application.",
+            "trap": "contradicts sentence 5, which cites a policy use"
+          },
+          {
+            "t": "To explain a psychological pattern that causes people to continue failing projects and describe its practical influence on policy.",
+            "correct": true
+          },
+          {
+            "t": "To argue that government contracts should never be evaluated by outside reviewers.",
+            "trap": "opposite; the passage supports independent review"
+          },
+          {
+            "t": "To prove that all failing projects are eventually abandoned.",
+            "trap": "not stated; the passage says people often persist"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 shows the real-world application that reveals the passage's broader purpose."
+      },
+      "explanation": null,
+      "words": [
+        "persist",
+        "continue",
+        "invested",
+        "renew"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians of the printing press have debated how quickly the technology transformed literacy rates across Europe.",
+          "Early accounts assumed the effect was immediate and dramatic, spreading reading ability within a single generation.",
+          "More extensive archival research indicates the change was slow: literacy gains were concentrated among urban merchants for decades before spreading more broadly.",
+          "This revised timeline suggests that access to books alone did not guarantee literacy without accompanying economic incentives to read.",
+          "The finding is likely to encourage historians to look more closely at who could afford books, not just who could obtain them."
+        ],
+        "question": "Which choice best states the main point of the passage?",
+        "options": [
+          {
+            "t": "Early historians and recent researchers agree completely on the timeline of literacy growth.",
+            "trap": "opposite; the passage contrasts old and new views"
+          },
+          {
+            "t": "Recent research suggests the printing press spread literacy more gradually and unevenly than earlier accounts assumed.",
+            "correct": true
+          },
+          {
+            "t": "The printing press had no effect on European literacy rates.",
+            "trap": "contradicts the passage's premise"
+          },
+          {
+            "t": "Literacy spread equally fast among all social classes after the printing press was introduced.",
+            "trap": "contradicts sentence 3"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "Sentence 3 presents the revised, evidence-based timeline that is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "encourage",
+        "extensive"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Public health researchers examining vaccine hesitancy have tried to distinguish between skeptical attitudes rooted in misinformation and skeptical attitudes rooted in past mistreatment by medical institutions.",
+          "Surveys in some communities show that distrust correlates more strongly with historical experience of unethical medical experiments than with exposure to false claims online.",
+          "This distinction matters because campaigns designed to correct misinformation may do little to address distrust with deeper historical roots.",
+          "Public health officials in several cities have begun partnering with community leaders instead of relying solely on fact-based messaging.",
+          "Early results suggest that trust-building approaches show more promise in these communities than information campaigns alone."
+        ],
+        "question": "Which choice best captures the main idea of the passage?",
+        "options": [
+          {
+            "t": "Vaccine hesitancy is caused entirely by online misinformation.",
+            "trap": "contradicts sentence 2"
+          },
+          {
+            "t": "Community leaders have refused to work with public health officials.",
+            "trap": "opposite of sentence 4"
+          },
+          {
+            "t": "Fact-based messaging has proven more effective than trust-building in every community studied.",
+            "trap": "contradicts sentence 5"
+          },
+          {
+            "t": "Addressing vaccine hesitancy effectively requires distinguishing informational distrust from distrust rooted in historical mistreatment.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 provides the survey evidence supporting the passage's central distinction."
+      },
+      "explanation": null,
+      "words": [
+        "skeptical",
+        "false"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Archaeologists studying the origins of early state formation have proposed that centralized taxation, not warfare, may have been the primary driver of political consolidation in some regions.",
+          "Evidence from grain storage sites suggests that administrators needed reliable ways to record and redistribute surplus long before large armies existed.",
+          "This record-keeping, the argument goes, required bureaucratic structures that gradually took on broader governing functions.",
+          "Critics note that warfare and taxation likely reinforced each other rather than one simply causing the other.",
+          "Even so, the storage-site evidence has shifted attention toward administrative needs as an essential and previously undervalued factor in early governance."
+        ],
+        "question": "The author includes the detail about grain storage sites primarily to",
+        "options": [
+          {
+            "t": "describe a religious ritual practiced by early administrators.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "show that grain was the only resource ancient states taxed.",
+            "trap": "not stated; overgeneralizes from one type of evidence"
+          },
+          {
+            "t": "provide physical evidence supporting the claim that administrative needs predated large-scale warfare.",
+            "correct": true
+          },
+          {
+            "t": "prove that warfare played no role whatsoever in early state formation.",
+            "trap": "too extreme; sentence 4 says both factors reinforced each other"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 explains what the grain storage evidence shows and why it matters to the argument."
+      },
+      "explanation": null,
+      "words": [
+        "primary",
+        "essential"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Economists who study innovation have long asked whether government funding crowds out private research investment or instead helps encourage it.",
+          "A study of national research grants found that companies receiving public funding for early-stage research increased their own private investment in related projects over the following years.",
+          "The researchers suggest that public funding reduced the risk of failure enough to make related private investment more advantageous.",
+          "They acknowledge that this pattern held mainly for small and mid-sized firms, not the largest corporations, which had ample capital already.",
+          "The distinction implies that public research funding may be most beneficial when targeted at firms lacking independent resources."
+        ],
+        "question": "Which choice best states the main finding described in the passage?",
+        "options": [
+          {
+            "t": "Public research funding consistently discouraged private investment in every firm studied.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Large corporations benefited the most from public research grants.",
+            "trap": "contradicts sentence 4"
+          },
+          {
+            "t": "Private companies never invest in research without government funding.",
+            "trap": "overstates; contradicts the general premise of the debate"
+          },
+          {
+            "t": "Public research funding tended to encourage additional private investment, especially among smaller firms.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 reports the study's central empirical finding."
+      },
+      "explanation": null,
+      "words": [
+        "encourage",
+        "advantageous",
+        "acknowledge",
+        "ample"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians of American labor movements have examined why some early unions collapsed quickly while others managed to persist for decades.",
+          "One recurring factor in long-lived unions was the ability to secure small, incremental wins that maintained member morale between larger campaigns.",
+          "Unions that pursued only sweeping demands, by contrast, often suffered membership decline after failing to win everything at once.",
+          "This pattern suggests that visible, if limited, progress mattered more to rank-and-file workers than a purely idealistic platform.",
+          "Later labor organizers drew on this lesson when designing multi-stage bargaining strategies."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "All early American unions eventually collapsed regardless of strategy.",
+            "trap": "contradicts sentence 1, which notes some persisted"
+          },
+          {
+            "t": "Unions that achieved incremental successes tended to survive longer than those pursuing only sweeping demands.",
+            "correct": true
+          },
+          {
+            "t": "Unions that made sweeping demands always achieved the most lasting success.",
+            "trap": "opposite of sentence 3"
+          },
+          {
+            "t": "Union membership was unaffected by the size of demands being made.",
+            "trap": "contradicts sentence 3"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 draws the passage's interpretive conclusion from the pattern described earlier."
+      },
+      "explanation": null,
+      "words": [
+        "persist",
+        "decline",
+        "limited",
+        "progress"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Political theorists studying deliberative democracy have asked whether structured public forums actually change participants' opinions or merely reinforce existing views.",
+          "In one series of town-hall experiments, participants exposed to organized debate with trained moderators changed their positions more often than those in unstructured discussion groups.",
+          "The moderators' main function was to ensure that opposing arguments were stated clearly rather than dismissed outright.",
+          "Researchers concluded that the format of deliberation, not merely the presence of disagreement, shaped how willing participants were to reconsider their views.",
+          "This finding may encourage more city governments to redesign public comment sessions around structured formats."
+        ],
+        "question": "Which choice best describes the main idea of the passage?",
+        "options": [
+          {
+            "t": "Participants in unstructured discussion groups changed their opinions more than those in structured forums.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Moderators are unnecessary for productive public deliberation.",
+            "trap": "contradicts sentence 3, which highlights their role"
+          },
+          {
+            "t": "City governments have rejected structured public comment formats.",
+            "trap": "opposite of sentence 5"
+          },
+          {
+            "t": "The structure of public deliberation, not just exposure to disagreement, influences whether participants change their opinions.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 states the researchers' conclusion directly."
+      },
+      "explanation": null,
+      "words": [
+        "encourage",
+        "willing"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Development economists studying microfinance programs have debated whether small loans to entrepreneurs in low-income communities reliably reduce poverty.",
+          "Several randomized studies found that access to microloans increased small business activity but had no consistent effect on household income over the following years.",
+          "One explanation is that many borrowers used loans to smooth consumption during difficult periods rather than to expand production.",
+          "This use pattern is not necessarily harmful, since it may have prevented families from falling into deeper debt.",
+          "Still, the limited income effects have led some funders to reconsider expectations about what microfinance alone can achieve."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Microfinance programs consistently doubled household income in every study.",
+            "trap": "contradicts sentence 2"
+          },
+          {
+            "t": "Borrowers who used loans to smooth consumption were wasting the money.",
+            "trap": "contradicts sentence 4, which says this use was not necessarily harmful"
+          },
+          {
+            "t": "Development economists agree that microfinance has no value at all.",
+            "trap": "too extreme; contradicts sentence 2's finding of increased business activity"
+          },
+          {
+            "t": "Microfinance programs increased business activity but had only limited effects on household income, leading to reconsidered expectations.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 presents the key empirical result the rest of the passage explains and interprets."
+      },
+      "explanation": null,
+      "words": [
+        "consistent",
+        "harmful",
+        "limited"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians of colonial trade have examined why some port cities thrived while nearby cities with similar resources tended to stagnate.",
+          "Comparative case studies suggest that thriving ports often had merchant councils empowered to negotiate directly with foreign trading partners.",
+          "Cities lacking this authority relied on colonial governors, whose decisions were frequently delayed by distant approval processes.",
+          "The resulting lag meant that opportunities for profitable trade deals sometimes closed before governors could permit the deal to proceed.",
+          "This administrative difference, more than natural harbor quality, appears to explain much of the divergence in prosperity."
+        ],
+        "question": "Which choice best states the main point of the passage?",
+        "options": [
+          {
+            "t": "Colonial governors always made faster trade decisions than merchant councils.",
+            "trap": "opposite of sentence 3"
+          },
+          {
+            "t": "All colonial port cities experienced the same level of economic success.",
+            "trap": "contradicts the passage's premise of divergence"
+          },
+          {
+            "t": "Differences in local administrative authority, rather than natural resources, largely explain why some colonial ports prospered more than others.",
+            "correct": true
+          },
+          {
+            "t": "Natural harbor quality was the most important factor in a port city's prosperity.",
+            "trap": "opposite of sentence 5"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 makes the comparative claim explicit, ruling out the alternative explanation of harbor quality."
+      },
+      "explanation": null,
+      "words": [
+        "stagnate",
+        "negotiate",
+        "permit"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Criminologists studying sentencing disparities have long tried to determine how much of the variation between similar cases stems from legally relevant differences versus other factors.",
+          "A study using detailed case records found that sentence length varied significantly even after controlling for offense severity and prior record.",
+          "The remaining variation correlated with which judge was assigned to the case, suggesting individual discretion plays a substantial role.",
+          "Some legal scholars argue that this discretion allows judges to account for context that rigid formulas would miss.",
+          "Others contend that the same discretion introduces inconsistent outcomes that undermine equal treatment under the law."
+        ],
+        "question": "Which choice best describes the overall structure of the passage?",
+        "options": [
+          {
+            "t": "It presents a research finding about sentencing variation, then outlines two differing interpretations of its significance.",
+            "correct": true
+          },
+          {
+            "t": "It proves that judicial discretion has been eliminated from modern sentencing.",
+            "trap": "contradicts sentence 3"
+          },
+          {
+            "t": "It argues that offense severity is the only factor affecting sentence length.",
+            "trap": "contradicts sentence 2, which found variation beyond severity"
+          },
+          {
+            "t": "It describes a single unified conclusion accepted by all legal scholars.",
+            "trap": "opposite; sentences 4-5 show disagreement"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 reports the finding that anchors the rest of the passage's discussion."
+      },
+      "explanation": null,
+      "words": [
+        "relevant",
+        "rigid",
+        "inconsistent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians analyzing wartime propaganda have questioned how persuasive such campaigns actually were compared with their reputation for effectiveness.",
+          "Archival surveys conducted at the time found that many citizens were skeptical of official messaging, even while complying with related directives.",
+          "This gap between stated belief and behavior suggests that compliance was often driven by social pressure or legal obligation rather than genuine persuasion.",
+          "Some historians caution that self-reported skeptical views in surveys may themselves have been shaped by fear of appearing disloyal.",
+          "Even accounting for that caveat, the surveys complicate simple narratives about propaganda's persuasive power."
+        ],
+        "question": "Which choice best states the central idea of the passage?",
+        "options": [
+          {
+            "t": "Citizens who complied with directives did so entirely out of genuine persuasion.",
+            "trap": "contradicts sentence 3"
+          },
+          {
+            "t": "Surveys from the period are considered completely reliable by all historians.",
+            "trap": "contradicts sentence 4, which raises a caveat"
+          },
+          {
+            "t": "Historical evidence suggests wartime propaganda may have produced compliance without necessarily producing genuine belief.",
+            "correct": true
+          },
+          {
+            "t": "Wartime propaganda was universally believed by the citizens who encountered it.",
+            "trap": "opposite of sentence 2"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "Sentence 3 draws the interpretive conclusion from the gap described in sentence 2."
+      },
+      "explanation": null,
+      "words": [
+        "skeptical",
+        "genuine",
+        "persuasive"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Sociologists studying intergenerational mobility have asked whether the neighborhood a child grows up in shapes adult income independent of family background, a question central to policy debates.",
+          "A large-scale study using tax records tracked families that moved to different neighborhoods when their children were young.",
+          "Children who moved to lower-poverty neighborhoods before adolescence had somewhat higher average adult earnings than siblings who moved later or not at all.",
+          "The effect was smaller for families that moved after children reached their teenage years.",
+          "The researchers concluded that neighborhood exposure during childhood, not just family resources, is a primary factor affecting long-term economic outcomes."
+        ],
+        "question": "Which choice best states the main finding of the passage?",
+        "options": [
+          {
+            "t": "Moving to a new neighborhood had no measurable effect on adult earnings at any age.",
+            "trap": "contradicts sentence 3"
+          },
+          {
+            "t": "Family background was found to be the only factor affecting adult income.",
+            "trap": "opposite of sentence 5"
+          },
+          {
+            "t": "Moving during the teenage years produced the largest earnings gains.",
+            "trap": "contradicts sentence 4"
+          },
+          {
+            "t": "Moving to a lower-poverty neighborhood during childhood was associated with somewhat higher adult earnings.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "Sentence 3 gives the study's key quantitative finding."
+      },
+      "explanation": null,
+      "words": [
+        "central",
+        "primary"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Economic historians studying the spread of paper currency have traced early resistance to it among merchants accustomed to precious metal coinage.",
+          "Contemporary letters reveal widespread doubt that a piece of paper could hold real value without being backed by silver or gold on demand.",
+          "Governments that introduced paper currency without adequate reserves to back it often saw rapid loss of public confidence and steep inflation.",
+          "Where reserves were credible and redemption was reliably honored, paper currency gained acceptance more quickly.",
+          "This contrast suggests that trust in institutions, not the innovative novelty of paper itself, determined how readily the change was adopted."
+        ],
+        "question": "Which choice best states the passage's main idea?",
+        "options": [
+          {
+            "t": "All governments that introduced paper currency saw steep inflation.",
+            "trap": "contradicts sentence 4"
+          },
+          {
+            "t": "Paper currency was rejected everywhere it was introduced.",
+            "trap": "contradicts sentence 4, which describes successful adoption"
+          },
+          {
+            "t": "Public trust in the institutions backing paper currency, rather than the novelty of paper itself, determined how quickly it was adopted.",
+            "correct": true
+          },
+          {
+            "t": "Merchants immediately trusted paper currency as much as metal coinage.",
+            "trap": "contradicts sentence 2"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 states the passage's interpretive conclusion directly."
+      },
+      "explanation": null,
+      "words": [
+        "adequate",
+        "credible",
+        "innovative"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Political scientists studying voter turnout have examined whether mailed reminders actually increase participation or simply reach people who would have voted anyway.",
+          "A large field experiment randomly assigned households to receive a mailed reminder or no mailing before a local election.",
+          "Turnout among households that received the reminder was somewhat higher than among those that did not.",
+          "The effect was strongest among registered voters who had not voted in the prior two elections.",
+          "This pattern suggests reminders may be most useful for reaching voters who are less engaged rather than those who vote as a matter of typical routine."
+        ],
+        "question": "Which choice best describes the function of the last sentence in the passage?",
+        "options": [
+          {
+            "t": "It summarizes the history of voter turnout research in general.",
+            "trap": "too broad; refers only to this study"
+          },
+          {
+            "t": "It draws a practical implication from the experiment's results.",
+            "correct": true
+          },
+          {
+            "t": "It introduces a new experiment that contradicts the earlier findings.",
+            "trap": "not stated; no new experiment is introduced"
+          },
+          {
+            "t": "It proves that mailed reminders have no effect on any voters.",
+            "trap": "contradicts sentence 3"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 gives the specific finding that the concluding sentence interprets."
+      },
+      "explanation": null,
+      "words": [
+        "typical",
+        "engaged"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians of science have examined why certain proposed theories are accepted quickly by a scientific community while others face decades of resistance.",
+          "One recurring factor is whether a theory requires abandoning tools and methods that established researchers have already mastered.",
+          "Theories that scientists can verify using existing instruments tend to gain acceptance faster than those requiring entirely new techniques.",
+          "This pattern held even when the underlying evidence for a slower-accepted theory was ultimately just as sound.",
+          "The finding suggests that practical, not just evidentiary, considerations shape how quickly scientific consensus forms."
+        ],
+        "question": "Which choice best states the central claim of the passage?",
+        "options": [
+          {
+            "t": "The speed of scientific acceptance depends partly on practical factors like existing tools, not solely on the strength of evidence.",
+            "correct": true
+          },
+          {
+            "t": "Scientific theories are always accepted based purely on the strength of their supporting evidence.",
+            "trap": "opposite of sentence 5"
+          },
+          {
+            "t": "New scientific instruments guarantee faster acceptance of any theory.",
+            "trap": "overstates; the passage says only when instruments already exist"
+          },
+          {
+            "t": "All scientific theories face equally long periods of resistance.",
+            "trap": "not stated; the passage says the timeline varies"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 makes the passage's central claim explicit."
+      },
+      "explanation": null,
+      "words": [
+        "verify",
+        "sound"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Economists studying international trade agreements have asked whether the primary benefit of tariff reductions goes to large exporters or to a wider range of firms.",
+          "An analysis of customs data following a regional trade agreement found that small and mid-sized exporters increased shipments at a higher rate than large firms.",
+          "One explanation offered is that large firms had already found ways to work around existing tariffs before the agreement, while smaller firms lacked such resources.",
+          "The researchers note that this pattern was strongest in varied industries with many small competing firms.",
+          "The finding complicates the common assumption held by many analysts that trade liberalization mainly rewards the largest, most established companies."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Tariff reductions had no measurable effect on any firm's export activity.",
+            "trap": "contradicts sentence 2"
+          },
+          {
+            "t": "Small firms lacked the resources to benefit from any trade agreement.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Evidence suggests smaller exporters, not just large firms, gained disproportionately from a regional tariff reduction.",
+            "correct": true
+          },
+          {
+            "t": "Large exporters benefited far more than smaller firms from the trade agreement.",
+            "trap": "opposite of sentence 2"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 provides the empirical finding underlying the passage's main claim."
+      },
+      "explanation": null,
+      "words": [
+        "primary",
+        "varied"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians of education have debated whether standardized curricula in the twentieth century widened or narrowed gaps between wealthy and poor school districts.",
+          "Proponents argued that a shared curriculum would ensure all students, regardless of district wealth, encountered the same core material.",
+          "Critics countered that wealthier districts still outpaced poorer ones by supplementing the curriculum with additional resources, tutoring, and enrichment.",
+          "Achievement data from the period show that gaps narrowed only slightly despite the shared curriculum requirements.",
+          "This outcome suggests that curriculum standardization alone was insufficient to close resource-driven achievement gaps."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Standardized curricula narrowed achievement gaps only slightly, because wealth-based resource differences persisted.",
+            "correct": true
+          },
+          {
+            "t": "Standardized curricula completely eliminated achievement gaps between districts.",
+            "trap": "contradicts sentence 4"
+          },
+          {
+            "t": "Wealthier districts stopped supplementing the standardized curriculum entirely.",
+            "trap": "contradicts sentence 3"
+          },
+          {
+            "t": "Critics and proponents of standardized curricula reached full agreement.",
+            "trap": "not stated; the passage presents their views as opposing"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 presents the data showing the limited effect, supporting the passage's conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "core",
+        "insufficient"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Anthropological economists studying barter systems in pre-monetary societies have challenged the traditional story that money arose simply to solve the inefficiencies of direct exchange.",
+          "Ethnographic accounts of several communities show extensive record-keeping of debts and obligations long before any medium of exchange resembling money appeared.",
+          "In these accounts, communities tracked who owed what to whom through memory and social reputation rather than tokens.",
+          "This evidence suggests that credit and debt relationships may have preceded, rather than followed, the invention of money.",
+          "The finding is likely to encourage some economists to reconsider textbook accounts that treat money as the primary solution to barter's limitations."
+        ],
+        "question": "Which choice best describes the main idea of the passage?",
+        "options": [
+          {
+            "t": "Ethnographic evidence suggests that credit and debt systems may have predated money, challenging a traditional account of money's origins.",
+            "correct": true
+          },
+          {
+            "t": "Barter was proven to be more efficient than any monetary system.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "Money was invented before systems of credit and debt existed.",
+            "trap": "opposite of sentence 4"
+          },
+          {
+            "t": "All economists have abandoned the traditional account of money's origins.",
+            "trap": "overstates; only 'some economists' are mentioned"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 states the interpretive claim that challenges the traditional account."
+      },
+      "explanation": null,
+      "words": [
+        "extensive",
+        "traditional",
+        "encourage",
+        "primary"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Political geographers studying redistricting have examined how the shape of electoral districts affects minority representation.",
+          "Districts drawn to concentrate a minority population into a single district can guarantee that group a reliable seat, but it may also reduce that group's influence in surrounding districts.",
+          "Alternative approaches distribute minority voters across several districts, potentially increasing their influence in each without guaranteeing any single seat.",
+          "Which approach best serves minority political interests remains a question that continues to persist among voting rights advocates.",
+          "Court rulings on the issue have varied depending on the specific demographic and historical context of each region."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Concentrating minority voters into one district always increases their overall political influence.",
+            "trap": "contradicts sentence 2, which notes reduced influence elsewhere"
+          },
+          {
+            "t": "Court rulings on redistricting have been consistent across every region.",
+            "trap": "contradicts sentence 5"
+          },
+          {
+            "t": "There is an unresolved tradeoff between concentrating minority voters for a guaranteed seat and dispersing them for broader influence.",
+            "correct": true
+          },
+          {
+            "t": "All voting rights advocates agree on the best way to draw districts for minority representation.",
+            "trap": "contradicts sentence 4"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "Sentence 4 explicitly names the unresolved debate that is the passage's focus."
+      },
+      "explanation": null,
+      "words": [
+        "persist",
+        "varied"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Historians studying the adoption of the printing press in East Asia have compared its slower diffusion there with its rapid spread in parts of Europe.",
+          "One proposed explanation is that movable type was less advantageous for languages with thousands of distinct characters than for alphabetic scripts with a few dozen letters.",
+          "Producing and storing thousands of individual character blocks required far greater investment than producing letter blocks for an alphabet.",
+          "Where woodblock printing already served large-scale needs, the incentive to switch to movable type was correspondingly weaker.",
+          "This comparison illustrates how the same technology can prove more or less transformative depending on the diverse linguistic and technical context it enters."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Alphabetic scripts were invented in response to the printing press.",
+            "trap": "not stated; scripts predate the comparison being made"
+          },
+          {
+            "t": "The impact of movable type printing varied by region because it interacted differently with different writing systems and existing technologies.",
+            "correct": true
+          },
+          {
+            "t": "Movable type spread at the same rate throughout Europe and East Asia.",
+            "trap": "opposite of sentence 1"
+          },
+          {
+            "t": "Woodblock printing was entirely replaced by movable type in East Asia.",
+            "trap": "contradicts sentence 4"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Sentence 5 draws the passage's general conclusion from the specific comparison."
+      },
+      "explanation": null,
+      "words": [
+        "advantageous",
+        "diverse"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Development economists studying foreign aid have debated whether large lump-sum grants or smaller staged disbursements produce better outcomes for recipient governments.",
+          "A comparative study of infrastructure projects found that staged disbursements, which required officials to verify progress at each stage, produced fewer cost overruns than lump-sum grants.",
+          "Government officials interviewed for the study noted that staged funding created ongoing incentives to complete milestones rather than to delay work indefinitely.",
+          "Critics of staged disbursement argue that the need to verify each stage can hinder projects that must be completed quickly, such as emergency infrastructure repair.",
+          "The tradeoff between accountability and speed remains a central tension in aid program design."
+        ],
+        "question": "Which choice best states the passage's main idea?",
+        "options": [
+          {
+            "t": "Staged aid disbursements improved accountability but may come at the cost of speed, creating an ongoing design tradeoff.",
+            "correct": true
+          },
+          {
+            "t": "Lump-sum grants always produced better outcomes than staged disbursements.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Verification requirements have no effect on how quickly projects are completed.",
+            "trap": "contradicts sentence 4"
+          },
+          {
+            "t": "Government officials preferred lump-sum grants in every case studied.",
+            "trap": "contradicts sentence 3"
+          }
+        ],
+        "evidenceIndex": 1,
+        "evidenceWhy": "Sentence 2 gives the comparative finding underlying the passage's discussion of tradeoffs."
+      },
+      "explanation": null,
+      "words": [
+        "verify",
+        "progress",
+        "hinder",
+        "central"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 2,
+      "payload": {
+        "sentences": [
+          "Constitutional historians studying early press freedom cases have asked whether courts initially treated seditious libel as a legitimate crime or as an illegitimate holdover from monarchy.",
+          "Early rulings often upheld convictions for criticizing officials, treating such speech as inherently harmful to public order.",
+          "Over time, courts grew more willing to accept truth as a valid defense, a shift that gradually narrowed the scope of punishable speech.",
+          "Legal historians note that this shift was gradual rather than sudden, proceeding case by case over several decades.",
+          "The pattern illustrates how a legal doctrine can evolve toward greater protection for speech without ever being overturned in a single decisive ruling."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Courts uniformly treated criticism of officials as harmless throughout this period.",
+            "trap": "contradicts sentence 2"
+          },
+          {
+            "t": "Court doctrine on seditious libel evolved gradually toward greater protection for critical speech rather than changing all at once.",
+            "correct": true
+          },
+          {
+            "t": "Courts always accepted truth as a valid defense from the earliest rulings onward.",
+            "trap": "opposite of sentence 2"
+          },
+          {
+            "t": "Seditious libel doctrine was overturned in a single decisive ruling.",
+            "trap": "contradicts sentence 5"
+          }
+        ],
+        "evidenceIndex": 2,
+        "evidenceWhy": "Sentence 3 marks the turning point where courts began accepting truth as a valid defense, central to the passage's claim."
+      },
+      "explanation": null,
+      "words": [
+        "legitimate",
+        "harmful",
+        "willing",
+        "valid"
+      ]
+    }
+  ]
+}

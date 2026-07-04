@@ -1,0 +1,160 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "conservative",
+        "def": "Cautious about change; favoring traditional values.",
+        "pos": "adjective",
+        "ex": "Rather than invest in the untested startup, the {word} banker put her savings into government bonds she had trusted for decades."
+      },
+      "explanation": null,
+      "words": ["conservative"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cautious",
+        "def": "Careful to avoid potential problems or dangers.",
+        "pos": "adjective",
+        "ex": "Sensing the thin ice might crack, the hikers took {word} steps toward the shore instead of walking straight across."
+      },
+      "explanation": null,
+      "words": ["cautious"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "adaptable",
+        "def": "Able to adjust to new conditions easily.",
+        "pos": "adjective",
+        "ex": "When her flight was cancelled and the hotel lost her reservation, Maya stayed calm and {word}, quickly rearranging her whole itinerary."
+      },
+      "explanation": null,
+      "words": ["adaptable"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "flexible",
+        "def": "Able to change or be changed easily to suit circumstances.",
+        "pos": "adjective",
+        "ex": "Because the company's work hours were {word}, employees could start at 7 a.m. or noon depending on their personal schedules."
+      },
+      "explanation": null,
+      "words": ["flexible"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 3,
+      "payload": {
+        "word": "versatile",
+        "def": "Able to adapt to many different functions or activities.",
+        "pos": "adjective",
+        "ex": "The actor was so {word} that in the same year he played a villain, a comedian, and a grieving father with equal believability."
+      },
+      "explanation": null,
+      "words": ["versatile"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "rigid",
+        "def": "Not easily bent or changed; strict and inflexible.",
+        "pos": "adjective",
+        "ex": "The old steel rod snapped instead of bending because it was far too {word} to absorb the sudden impact."
+      },
+      "explanation": null,
+      "words": ["rigid"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 3,
+      "payload": {
+        "word": "inflexible",
+        "def": "Unable or unwilling to change or be changed.",
+        "pos": "adjective",
+        "ex": "No matter how the students begged for an extension, the professor's deadline policy remained completely {word}."
+      },
+      "explanation": null,
+      "words": ["inflexible"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "stubborn",
+        "def": "Having or showing determination not to change one's attitude.",
+        "pos": "adjective",
+        "ex": "Even after three doctors advised surgery, my {word} grandfather insisted he would rather live with the pain than change his mind."
+      },
+      "explanation": null,
+      "words": ["stubborn"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diverse",
+        "def": "Showing a great deal of variety; very different from one another.",
+        "pos": "adjective",
+        "ex": "Walking through the market, we heard a dozen languages and smelled spices from five continents, a truly {word} crowd of vendors and shoppers."
+      },
+      "explanation": null,
+      "words": ["diverse"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "varied",
+        "def": "Incorporating a range of different types or elements.",
+        "pos": "adjective",
+        "ex": "Her resume showed a {word} career, including stints as a chef, a paramedic, and a high school teacher."
+      },
+      "explanation": null,
+      "words": ["varied"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 3,
+      "payload": {
+        "word": "heterogeneous",
+        "def": "Consisting of dissimilar or diverse elements.",
+        "pos": "adjective",
+        "ex": "The committee was a {word} mix of retired judges, teenage activists, and factory workers, none of whom agreed on much at first."
+      },
+      "explanation": null,
+      "words": ["heterogeneous"]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "collaborate",
+        "def": "To work jointly with others on an activity or project.",
+        "pos": "verb",
+        "ex": "The two rival labs agreed to {word} on the vaccine, sharing data instead of racing each other to a cure."
+      },
+      "explanation": null,
+      "words": ["collaborate"]
+    }
+  ]
+}

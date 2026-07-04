@@ -1,0 +1,417 @@
+{
+  "items": [
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Solve for x: 3(x − 2) + 5 = 2x + 7.",
+        "textZh": "求解 x：3(x − 2) + 5 = 2x + 7。",
+        "ask": [
+          { "en": "the value of x", "zh": "x 的值", "correct": true },
+          { "en": "the value of 2x + 7", "zh": "2x + 7 的值" },
+          { "en": "whether the equation has no solution", "zh": "该方程是否无解" },
+          { "en": "the slope of the equation", "zh": "该方程的斜率" }
+        ],
+        "tool": [
+          { "en": "Linear equation (distribute and isolate x)", "zh": "线性方程（先展开再解出 x）", "correct": true },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "Ratio and proportion", "zh": "比例关系" }
+        ],
+        "cueEn": "Distribute the 3 first, then collect x-terms on one side and constants on the other.",
+        "cueZh": "先展开括号里的 3，再把含 x 的项移到一边、常数移到另一边。",
+        "steps": [
+          { "en": "Distribute: 3x − 6 + 5 = 2x + 7", "zh": "展开：3x − 6 + 5 = 2x + 7" },
+          { "en": "Simplify left side: 3x − 1 = 2x + 7", "zh": "化简左边：3x − 1 = 2x + 7" },
+          { "en": "Subtract 2x and add 1 to both sides: x = 8", "zh": "两边减 2x 加 1：x = 8" }
+        ],
+        "turns": 3,
+        "workEn": "3(x-2)+5 = 2x+7\n3x-6+5 = 2x+7\n3x-1 = 2x+7\nx = 8",
+        "workZh": "3(x-2)+5 = 2x+7\n3x-6+5 = 2x+7\n3x-1 = 2x+7\nx = 8",
+        "answerEn": "x = 8",
+        "answerZh": "x = 8"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The sum of two numbers is 11 and their difference is 1. What is the larger number?",
+        "textZh": "两个数的和是 11，差是 1。较大的数是多少？",
+        "ask": [
+          { "en": "the smaller number", "zh": "较小的数" },
+          { "en": "the larger number", "zh": "较大的数", "correct": true },
+          { "en": "the product of the two numbers", "zh": "两数之积" },
+          { "en": "the average of the two numbers", "zh": "两数的平均值" }
+        ],
+        "tool": [
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "System of equations (elimination)", "zh": "方程组（消元法）", "correct": true },
+          { "en": "Percent change", "zh": "百分比变化" },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" }
+        ],
+        "cueEn": "Let x and y be the numbers: x + y = 11, x − y = 1. Adding the equations eliminates y.",
+        "cueZh": "设两数为 x 和 y：x + y = 11，x − y = 1。两式相加即可消去 y。",
+        "steps": [
+          { "en": "Write the two equations: x + y = 11 and x − y = 1", "zh": "写出两个方程：x + y = 11 和 x − y = 1" },
+          { "en": "Add the equations to eliminate y: 2x = 12, so x = 6", "zh": "两式相加消去 y：2x = 12，得 x = 6" },
+          { "en": "Substitute back to find y = 5", "zh": "代回求出 y = 5" }
+        ],
+        "turns": 3,
+        "workEn": "x+y=11\nx-y=1\n2x=12 -> x=6\ny=11-6=5",
+        "workZh": "x+y=11\nx-y=1\n2x=12 -> x=6\ny=11-6=5",
+        "answerEn": "6",
+        "answerZh": "6"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A shirt originally costs $60. A store first marks it down 20%, then takes an additional 15% off the reduced price. What is the final price?",
+        "textZh": "一件衬衫原价 $60。商店先降价 20%，再在降价后的价格基础上多打 85 折（再减 15%）。最终价格是多少？",
+        "ask": [
+          { "en": "the amount saved from the first markdown only", "zh": "仅第一次降价省下的金额" },
+          { "en": "the original price", "zh": "原价" },
+          { "en": "the final price", "zh": "最终价格", "correct": true },
+          { "en": "the overall percent decrease", "zh": "整体降价的百分比" }
+        ],
+        "tool": [
+          { "en": "Linear equation", "zh": "线性方程" },
+          { "en": "Successive percent changes", "zh": "连续百分比变化", "correct": true },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Ratio and proportion", "zh": "比例关系" }
+        ],
+        "cueEn": "Two markdowns in a row → multiply by 0.80, then by 0.85. Don't add 20% + 15%.",
+        "cueZh": "两次连续降价 → 依次乘 0.80 再乘 0.85，不能把 20% 和 15% 直接相加。",
+        "steps": [
+          { "en": "Apply the first 20% markdown: 60 × 0.80", "zh": "先应用第一次 20% 降价：60 × 0.80" },
+          { "en": "Apply the additional 15% off that new price: × 0.85", "zh": "再对新价格打 85 折：× 0.85" }
+        ],
+        "turns": 2,
+        "workEn": "60 × 0.80 = 48\n48 × 0.85 = 40.80",
+        "workZh": "60 × 0.80 = 48\n48 × 0.85 = 40.80",
+        "answerEn": "$40.80",
+        "answerZh": "$40.80"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "On a map, 1 inch represents 25 miles. If two cities are 3.5 inches apart on the map, what is the actual distance between them?",
+        "textZh": "在地图上，1 英寸代表 25 英里。如果两个城市在地图上相距 3.5 英寸，它们的实际距离是多少？",
+        "ask": [
+          { "en": "the map scale itself", "zh": "地图比例尺本身" },
+          { "en": "the actual distance between the cities", "zh": "两城市的实际距离", "correct": true },
+          { "en": "the map distance in inches", "zh": "地图上的距离（英寸）" },
+          { "en": "the number of cities", "zh": "城市的数量" }
+        ],
+        "tool": [
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Ratio and proportion", "zh": "比例关系（设置比例式）", "correct": true },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" }
+        ],
+        "cueEn": "Set up a proportion: 1 inch / 25 miles = 3.5 inches / x miles.",
+        "cueZh": "列出比例式：1 英寸 / 25 英里 = 3.5 英寸 / x 英里。",
+        "steps": [
+          { "en": "Set up the proportion 1/25 = 3.5/x", "zh": "列出比例式 1/25 = 3.5/x" },
+          { "en": "Cross-multiply and solve for x", "zh": "交叉相乘并解出 x" }
+        ],
+        "turns": 2,
+        "workEn": "1/25 = 3.5/x\nx = 3.5 × 25 = 87.5",
+        "workZh": "1/25 = 3.5/x\nx = 3.5 × 25 = 87.5",
+        "answerEn": "87.5 miles",
+        "answerZh": "87.5 英里"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "Solve for x: x² − 5x − 14 = 0. Give both solutions.",
+        "textZh": "求解 x：x² − 5x − 14 = 0。写出两个解。",
+        "ask": [
+          { "en": "the two values of x that satisfy the equation", "zh": "满足该方程的两个 x 值", "correct": true },
+          { "en": "the sum of the coefficients", "zh": "系数之和" },
+          { "en": "the vertex of the related parabola", "zh": "对应抛物线的顶点" },
+          { "en": "the y-intercept of the equation", "zh": "该方程的 y 截距" }
+        ],
+        "tool": [
+          { "en": "Linear equation", "zh": "线性方程" },
+          { "en": "Ratio and proportion", "zh": "比例关系" },
+          { "en": "Factoring a quadratic", "zh": "二次方程因式分解", "correct": true },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" }
+        ],
+        "cueEn": "Find two numbers that multiply to −14 and add to −5: they are −7 and 2.",
+        "cueZh": "找两个数，乘积为 −14，和为 −5：这两个数是 −7 和 2。",
+        "steps": [
+          { "en": "Factor: (x − 7)(x + 2) = 0", "zh": "因式分解：(x − 7)(x + 2) = 0" },
+          { "en": "Set each factor equal to zero and solve", "zh": "分别令每个因式为零并求解" }
+        ],
+        "turns": 2,
+        "workEn": "x²-5x-14=0\n(x-7)(x+2)=0\nx=7 or x=-2",
+        "workZh": "x²-5x-14=0\n(x-7)(x+2)=0\nx=7 或 x=-2",
+        "answerEn": "x = 7 or x = −2",
+        "answerZh": "x = 7 或 x = −2"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "Given f(x) = 2x² − 3x + 1, what is the value of f(3)?",
+        "textZh": "已知 f(x) = 2x² − 3x + 1，求 f(3) 的值。",
+        "ask": [
+          { "en": "the value of x", "zh": "x 的值" },
+          { "en": "the roots of f(x)", "zh": "f(x) 的根" },
+          { "en": "the value of f(3)", "zh": "f(3) 的值", "correct": true },
+          { "en": "the derivative of f(x)", "zh": "f(x) 的导数" }
+        ],
+        "tool": [
+          { "en": "Function evaluation (substitute x = 3)", "zh": "函数求值（代入 x = 3）", "correct": true },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Percent change", "zh": "百分比变化" },
+          { "en": "Circle geometry", "zh": "圆的几何" }
+        ],
+        "cueEn": "Substitute x = 3 directly into the expression 2x² − 3x + 1.",
+        "cueZh": "直接把 x = 3 代入表达式 2x² − 3x + 1。",
+        "steps": [
+          { "en": "Substitute x = 3: 2(3)² − 3(3) + 1", "zh": "代入 x = 3：2(3)² − 3(3) + 1" },
+          { "en": "Compute step by step: 18 − 9 + 1", "zh": "逐步计算：18 − 9 + 1" }
+        ],
+        "turns": 2,
+        "workEn": "f(3) = 2(9) - 3(3) + 1 = 18 - 9 + 1 = 10",
+        "workZh": "f(3) = 2(9) - 3(3) + 1 = 18 - 9 + 1 = 10",
+        "answerEn": "10",
+        "answerZh": "10"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 1,
+      "payload": {
+        "textEn": "A right triangle has legs of length 9 and 12. What is the length of the hypotenuse?",
+        "textZh": "一个直角三角形的两条直角边长分别为 9 和 12。斜边的长度是多少？",
+        "ask": [
+          { "en": "the length of one leg", "zh": "其中一条直角边的长度" },
+          { "en": "the perimeter of the triangle", "zh": "三角形的周长" },
+          { "en": "the area of the triangle", "zh": "三角形的面积" },
+          { "en": "the length of the hypotenuse", "zh": "斜边的长度", "correct": true }
+        ],
+        "tool": [
+          { "en": "Pythagorean theorem", "zh": "勾股定理", "correct": true },
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "Ratio and proportion", "zh": "比例关系" },
+          { "en": "Linear equation", "zh": "线性方程" }
+        ],
+        "cueEn": "For a right triangle, a² + b² = c², where c is the hypotenuse.",
+        "cueZh": "直角三角形满足 a² + b² = c²，其中 c 为斜边。",
+        "steps": [
+          { "en": "Square both legs and add: 9² + 12²", "zh": "两条直角边分别平方后相加：9² + 12²" },
+          { "en": "Take the square root of the sum", "zh": "对总和开平方根" }
+        ],
+        "turns": 2,
+        "workEn": "9² + 12² = 81 + 144 = 225\n√225 = 15",
+        "workZh": "9² + 12² = 81 + 144 = 225\n√225 = 15",
+        "answerEn": "15",
+        "answerZh": "15"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "The mean of 5 numbers is 18. A sixth number, 30, is added to the set. What is the new mean of all 6 numbers?",
+        "textZh": "5 个数的平均值是 18。将第 6 个数 30 加入这组数据。求这 6 个数的新平均值。",
+        "ask": [
+          { "en": "the sum of the original 5 numbers", "zh": "原来 5 个数的总和" },
+          { "en": "the new mean of all 6 numbers", "zh": "6 个数的新平均值", "correct": true },
+          { "en": "the median of the 6 numbers", "zh": "6 个数的中位数" },
+          { "en": "the range of the 6 numbers", "zh": "6 个数的极差" }
+        ],
+        "tool": [
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" },
+          { "en": "Mean and total sum relationship", "zh": "平均值与总和的关系", "correct": true },
+          { "en": "System of equations", "zh": "方程组" }
+        ],
+        "cueEn": "Mean × count = total sum. Find the original total, add the new number, then divide by the new count.",
+        "cueZh": "平均值 × 个数 = 总和。先求原总和，加上新数字，再除以新的个数。",
+        "steps": [
+          { "en": "Find the original total: 18 × 5 = 90", "zh": "求原总和：18 × 5 = 90" },
+          { "en": "Add the new number: 90 + 30 = 120", "zh": "加上新数字：90 + 30 = 120" },
+          { "en": "Divide by the new count of 6: 120 ÷ 6", "zh": "除以新的个数 6：120 ÷ 6" }
+        ],
+        "turns": 3,
+        "workEn": "18 × 5 = 90\n90 + 30 = 120\n120 / 6 = 20",
+        "workZh": "18 × 5 = 90\n90 + 30 = 120\n120 / 6 = 20",
+        "answerEn": "20",
+        "answerZh": "20"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A movie theater sells adult tickets for $a and child tickets for $c each (in terms of ticket count). One group buys 3 adult and 2 child tickets for a total of 54 tickets-equivalent value, satisfying 3a + 2c = 54. Another group buys 1 adult and 4 child tickets satisfying a + 4c = 48. What is the value of the adult ticket count a?",
+        "textZh": "一家电影院卖出的门票中，3 张成人票加 2 张儿童票满足 3a + 2c = 54，1 张成人票加 4 张儿童票满足 a + 4c = 48（a、c 为票的数量代号）。求 a 的值。",
+        "ask": [
+          { "en": "the value of a", "zh": "a 的值", "correct": true },
+          { "en": "the value of c", "zh": "c 的值" },
+          { "en": "the sum a + c", "zh": "a + c 的和" },
+          { "en": "the difference a − c", "zh": "a − c 的差" }
+        ],
+        "tool": [
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" },
+          { "en": "Percent change", "zh": "百分比变化" },
+          { "en": "System of equations (substitution)", "zh": "方程组（代入法）", "correct": true }
+        ],
+        "cueEn": "Solve the second equation for a in terms of c, then substitute into the first equation.",
+        "cueZh": "从第二个方程中把 a 用 c 表示，再代入第一个方程。",
+        "steps": [
+          { "en": "From a + 4c = 48, get a = 48 − 4c", "zh": "由 a + 4c = 48，得 a = 48 − 4c" },
+          { "en": "Substitute into 3a + 2c = 54: 3(48 − 4c) + 2c = 54", "zh": "代入 3a + 2c = 54：3(48 − 4c) + 2c = 54" },
+          { "en": "Solve for c, then back-substitute to find a", "zh": "解出 c，再回代求出 a" }
+        ],
+        "turns": 3,
+        "workEn": "a = 48 - 4c\n3(48-4c) + 2c = 54\n144 - 12c + 2c = 54\n144 - 10c = 54\nc = 9\na = 48 - 4(9) = 12",
+        "workZh": "a = 48 - 4c\n3(48-4c) + 2c = 54\n144 - 12c + 2c = 54\n144 - 10c = 54\nc = 9\na = 48 - 4(9) = 12",
+        "answerEn": "a = 12",
+        "answerZh": "a = 12"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A painter paints 1/4 of a wall in 2 hours at a constant rate. At that same rate, how long will it take to paint 3/5 of the wall?",
+        "textZh": "一位油漆工以恒定速度在 2 小时内粉刷了墙面的 1/4。以同样的速度，粉刷墙面的 3/5 需要多长时间？",
+        "ask": [
+          { "en": "the painter's rate per hour", "zh": "油漆工每小时的工作速率" },
+          { "en": "the time to paint the entire wall", "zh": "粉刷整面墙所需的时间" },
+          { "en": "the time to paint 3/5 of the wall", "zh": "粉刷墙面 3/5 所需的时间", "correct": true },
+          { "en": "the fraction of the wall left unpainted", "zh": "未粉刷部分占墙面的比例" }
+        ],
+        "tool": [
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Rate and proportion (unit rate)", "zh": "速率与比例（单位速率）", "correct": true },
+          { "en": "Quadratic formula", "zh": "求根公式" },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" }
+        ],
+        "cueEn": "Find the unit rate (wall fraction per hour) first, then divide the target fraction by that rate.",
+        "cueZh": "先求出单位速率（每小时完成的墙面比例），再用目标比例除以该速率。",
+        "steps": [
+          { "en": "Find the rate: (1/4) ÷ 2 = 1/8 of the wall per hour", "zh": "求速率：(1/4) ÷ 2 = 每小时 1/8 面墙" },
+          { "en": "Divide the target amount by the rate: (3/5) ÷ (1/8)", "zh": "用目标量除以速率：(3/5) ÷ (1/8)" }
+        ],
+        "turns": 2,
+        "workEn": "rate = (1/4)/2 = 1/8 wall per hour\ntime = (3/5) / (1/8) = (3/5) × 8 = 24/5 = 4.8 hours",
+        "workZh": "速率 = (1/4)/2 = 1/8（每小时）\n时间 = (3/5) ÷ (1/8) = (3/5) × 8 = 24/5 = 4.8 小时",
+        "answerEn": "4.8 hours",
+        "answerZh": "4.8 小时"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "payload": {
+        "textEn": "A circle has a circumference of 18π. What is the area of the circle, in terms of π?",
+        "textZh": "一个圆的周长是 18π。求这个圆的面积（用 π 表示）。",
+        "ask": [
+          { "en": "the radius of the circle", "zh": "圆的半径" },
+          { "en": "the diameter of the circle", "zh": "圆的直径" },
+          { "en": "the circumference of the circle", "zh": "圆的周长" },
+          { "en": "the area of the circle", "zh": "圆的面积", "correct": true }
+        ],
+        "tool": [
+          { "en": "Circle formulas (circumference to radius to area)", "zh": "圆的公式（周长求半径再求面积）", "correct": true },
+          { "en": "Linear equation", "zh": "线性方程" },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Percent change", "zh": "百分比变化" }
+        ],
+        "cueEn": "Use C = 2πr to find r first, then use A = πr² to find the area.",
+        "cueZh": "先用 C = 2πr 求出半径 r，再用 A = πr² 求面积。",
+        "steps": [
+          { "en": "Set 2πr = 18π and solve for r", "zh": "令 2πr = 18π，解出 r" },
+          { "en": "Substitute r into A = πr²", "zh": "把 r 代入 A = πr²" }
+        ],
+        "turns": 2,
+        "workEn": "2πr = 18π\nr = 9\nA = π(9)² = 81π",
+        "workZh": "2πr = 18π\nr = 9\nA = π(9)² = 81π",
+        "answerEn": "81π",
+        "answerZh": "81π"
+      },
+      "explanation": null,
+      "words": []
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "payload": {
+        "textEn": "A town's population is modeled by P(t) = 500(1.08)^t, where t is the number of years after 2020. What is the population after 3 years, rounded to the nearest whole number?",
+        "textZh": "某镇人口用 P(t) = 500(1.08)^t 建模，其中 t 是 2020 年之后的年数。3 年后的人口是多少（四舍五入到整数）？",
+        "ask": [
+          { "en": "the initial population in 2020", "zh": "2020 年的初始人口" },
+          { "en": "the annual growth rate", "zh": "年增长率" },
+          { "en": "the number of years elapsed", "zh": "经过的年数" },
+          { "en": "the population after 3 years", "zh": "3 年后的人口", "correct": true }
+        ],
+        "tool": [
+          { "en": "Linear equation", "zh": "线性方程" },
+          { "en": "System of equations", "zh": "方程组" },
+          { "en": "Pythagorean theorem", "zh": "勾股定理" },
+          { "en": "Exponential growth function (substitute t = 3)", "zh": "指数增长函数（代入 t = 3）", "correct": true }
+        ],
+        "cueEn": "Substitute t = 3 into P(t) = 500(1.08)^t and evaluate the power before multiplying.",
+        "cueZh": "把 t = 3 代入 P(t) = 500(1.08)^t，先算出乘方部分再相乘。",
+        "steps": [
+          { "en": "Substitute t = 3: P(3) = 500(1.08)³", "zh": "代入 t = 3：P(3) = 500(1.08)³" },
+          { "en": "Compute (1.08)³ ≈ 1.259712", "zh": "计算 (1.08)³ ≈ 1.259712" },
+          { "en": "Multiply by 500 and round to the nearest whole number", "zh": "乘以 500 并四舍五入到整数" }
+        ],
+        "turns": 3,
+        "workEn": "P(3) = 500 × (1.08)^3\n(1.08)^3 = 1.259712\n500 × 1.259712 = 629.856 ≈ 630",
+        "workZh": "P(3) = 500 × (1.08)^3\n(1.08)^3 = 1.259712\n500 × 1.259712 = 629.856 ≈ 630",
+        "answerEn": "≈ 630 people",
+        "answerZh": "约 630 人"
+      },
+      "explanation": null,
+      "words": []
+    }
+  ]
+}

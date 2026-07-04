@@ -1,0 +1,2244 @@
+{
+  "items": [
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Cautious / Traditional",
+            "words": [
+              {
+                "word": "conservative",
+                "gloss": "favoring traditional values"
+              },
+              {
+                "word": "cautious",
+                "gloss": "careful to avoid danger"
+              },
+              {
+                "word": "reluctant",
+                "gloss": "unwilling and hesitant"
+              },
+              {
+                "word": "hesitant",
+                "gloss": "slow to act from uncertainty"
+              }
+            ]
+          },
+          {
+            "theme": "Adaptable",
+            "words": [
+              {
+                "word": "adaptable",
+                "gloss": "able to adjust easily"
+              },
+              {
+                "word": "flexible",
+                "gloss": "able to change to suit circumstances"
+              },
+              {
+                "word": "versatile",
+                "gloss": "able to adapt to many functions"
+              },
+              {
+                "word": "compliant",
+                "gloss": "tending to obey without objection"
+              }
+            ]
+          },
+          {
+            "theme": "Rigid / Stubborn",
+            "words": [
+              {
+                "word": "rigid",
+                "gloss": "strict and inflexible"
+              },
+              {
+                "word": "inflexible",
+                "gloss": "unwilling to change"
+              },
+              {
+                "word": "stubborn",
+                "gloss": "determined not to change one's mind"
+              },
+              {
+                "word": "dogmatic",
+                "gloss": "insisting one's beliefs are true"
+              }
+            ]
+          },
+          {
+            "theme": "Diverse",
+            "words": [
+              {
+                "word": "diverse",
+                "gloss": "showing great variety"
+              },
+              {
+                "word": "varied",
+                "gloss": "having a range of different elements"
+              },
+              {
+                "word": "heterogeneous",
+                "gloss": "consisting of dissimilar elements"
+              },
+              {
+                "word": "disparate",
+                "gloss": "very different from each other"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'compliant' sounds like a flexible, easygoing trait, tempting students to place it there, but it actually describes going along with rules/orders rather than adjusting oneself.",
+      "words": [
+        "conservative",
+        "cautious",
+        "reluctant",
+        "hesitant",
+        "adaptable",
+        "flexible",
+        "versatile",
+        "compliant",
+        "rigid",
+        "inflexible",
+        "stubborn",
+        "dogmatic",
+        "diverse",
+        "varied",
+        "heterogeneous",
+        "disparate"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Working Together",
+            "words": [
+              {
+                "word": "collaborate",
+                "gloss": "work jointly with others"
+              },
+              {
+                "word": "cooperate",
+                "gloss": "work together toward a shared goal"
+              },
+              {
+                "word": "partner",
+                "gloss": "join with another to do something"
+              },
+              {
+                "word": "congenial",
+                "gloss": "pleasant and suited to working together"
+              }
+            ]
+          },
+          {
+            "theme": "Resolving Disputes",
+            "words": [
+              {
+                "word": "negotiate",
+                "gloss": "discuss to reach agreement"
+              },
+              {
+                "word": "mediate",
+                "gloss": "help two sides find agreement"
+              },
+              {
+                "word": "arbitrate",
+                "gloss": "officially settle a disagreement"
+              },
+              {
+                "word": "conciliatory",
+                "gloss": "intended to end a disagreement"
+              }
+            ]
+          },
+          {
+            "theme": "Giving In",
+            "words": [
+              {
+                "word": "yield",
+                "gloss": "give way to another's demand"
+              },
+              {
+                "word": "acquiesce",
+                "gloss": "accept reluctantly without protest"
+              },
+              {
+                "word": "capitulate",
+                "gloss": "stop resisting and give in"
+              },
+              {
+                "word": "concede",
+                "gloss": "admit or give up after denying"
+              }
+            ]
+          },
+          {
+            "theme": "Refusing / Resisting",
+            "words": [
+              {
+                "word": "refuse",
+                "gloss": "indicate unwillingness to accept"
+              },
+              {
+                "word": "insist",
+                "gloss": "demand firmly, refuse other options"
+              },
+              {
+                "word": "rival",
+                "gloss": "person competing against another"
+              },
+              {
+                "word": "compete",
+                "gloss": "try to win against others"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "collaborate",
+        "cooperate",
+        "partner",
+        "congenial",
+        "negotiate",
+        "mediate",
+        "arbitrate",
+        "conciliatory",
+        "yield",
+        "acquiesce",
+        "capitulate",
+        "concede",
+        "refuse",
+        "insist",
+        "rival",
+        "compete"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Persevering",
+            "words": [
+              {
+                "word": "persist",
+                "gloss": "continue despite difficulty"
+              },
+              {
+                "word": "withstand",
+                "gloss": "remain strong despite hardship"
+              },
+              {
+                "word": "endure",
+                "gloss": "suffer through something without giving up"
+              },
+              {
+                "word": "tolerate",
+                "gloss": "accept something unpleasant"
+              }
+            ]
+          },
+          {
+            "theme": "Achieving Victory",
+            "words": [
+              {
+                "word": "overcome",
+                "gloss": "successfully deal with a problem"
+              },
+              {
+                "word": "surmount",
+                "gloss": "deal successfully with an obstacle"
+              },
+              {
+                "word": "conquer",
+                "gloss": "defeat or gain control by force"
+              },
+              {
+                "word": "prosper",
+                "gloss": "succeed and become strong"
+              }
+            ]
+          },
+          {
+            "theme": "Making an Effort",
+            "words": [
+              {
+                "word": "struggle",
+                "gloss": "make a great effort at something difficult"
+              },
+              {
+                "word": "strive",
+                "gloss": "try very hard to achieve something"
+              },
+              {
+                "word": "endeavor",
+                "gloss": "try earnestly to do something"
+              },
+              {
+                "word": "attempt",
+                "gloss": "make an effort without guaranteeing success"
+              }
+            ]
+          },
+          {
+            "theme": "Starting Something",
+            "words": [
+              {
+                "word": "initiate",
+                "gloss": "start a process or action"
+              },
+              {
+                "word": "commence",
+                "gloss": "begin, often formally"
+              },
+              {
+                "word": "undertake",
+                "gloss": "commit to and begin a task"
+              },
+              {
+                "word": "pursue",
+                "gloss": "follow or work toward a goal"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "persist",
+        "withstand",
+        "endure",
+        "tolerate",
+        "overcome",
+        "surmount",
+        "conquer",
+        "prosper",
+        "struggle",
+        "strive",
+        "endeavor",
+        "attempt",
+        "initiate",
+        "commence",
+        "undertake",
+        "pursue"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Pausing",
+            "words": [
+              {
+                "word": "interrupt",
+                "gloss": "stop briefly by breaking in"
+              },
+              {
+                "word": "suspend",
+                "gloss": "stop temporarily"
+              },
+              {
+                "word": "halt",
+                "gloss": "stop moving or happening"
+              },
+              {
+                "word": "cease",
+                "gloss": "stop happening or existing"
+              }
+            ]
+          },
+          {
+            "theme": "Restarting",
+            "words": [
+              {
+                "word": "resume",
+                "gloss": "begin again after a pause"
+              },
+              {
+                "word": "restart",
+                "gloss": "start again from the beginning"
+              },
+              {
+                "word": "renew",
+                "gloss": "begin again or extend"
+              },
+              {
+                "word": "resilient",
+                "gloss": "able to recover quickly and bounce back"
+              }
+            ]
+          },
+          {
+            "theme": "Worsening",
+            "words": [
+              {
+                "word": "deteriorate",
+                "gloss": "become progressively worse"
+              },
+              {
+                "word": "decline",
+                "gloss": "gradually become weaker or worse"
+              },
+              {
+                "word": "regress",
+                "gloss": "return to a worse state"
+              },
+              {
+                "word": "worsen",
+                "gloss": "become more bad or severe"
+              }
+            ]
+          },
+          {
+            "theme": "Stuck / No Progress",
+            "words": [
+              {
+                "word": "stagnate",
+                "gloss": "stop developing or progressing"
+              },
+              {
+                "word": "stall",
+                "gloss": "stop making progress temporarily"
+              },
+              {
+                "word": "plateau",
+                "gloss": "reach a stable level after growth"
+              },
+              {
+                "word": "discontinue",
+                "gloss": "stop making or providing something"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "interrupt",
+        "suspend",
+        "halt",
+        "cease",
+        "resume",
+        "restart",
+        "renew",
+        "resilient",
+        "deteriorate",
+        "decline",
+        "regress",
+        "worsen",
+        "stagnate",
+        "stall",
+        "plateau",
+        "discontinue"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Success",
+            "words": [
+              {
+                "word": "thrive",
+                "gloss": "grow or develop very well"
+              },
+              {
+                "word": "flourish",
+                "gloss": "grow and succeed vigorously"
+              },
+              {
+                "word": "prosper",
+                "gloss": "succeed and become strong"
+              },
+              {
+                "word": "exemplary",
+                "gloss": "serving as a desirable model"
+              }
+            ]
+          },
+          {
+            "theme": "Fading Away",
+            "words": [
+              {
+                "word": "vanish",
+                "gloss": "disappear suddenly and completely"
+              },
+              {
+                "word": "fade",
+                "gloss": "gradually become less visible"
+              },
+              {
+                "word": "wane",
+                "gloss": "gradually decrease in strength"
+              },
+              {
+                "word": "evanescent",
+                "gloss": "lasting only a very short time"
+              }
+            ]
+          },
+          {
+            "theme": "Doubtful",
+            "words": [
+              {
+                "word": "skeptical",
+                "gloss": "having doubts about a claim"
+              },
+              {
+                "word": "doubtful",
+                "gloss": "uncertain something is true"
+              },
+              {
+                "word": "dubious",
+                "gloss": "not clearly true or reliable"
+              },
+              {
+                "word": "uncertain",
+                "gloss": "lacking confidence, not definite"
+              }
+            ]
+          },
+          {
+            "theme": "Certain / Assured",
+            "words": [
+              {
+                "word": "confident",
+                "gloss": "feeling sure about an outcome"
+              },
+              {
+                "word": "certain",
+                "gloss": "having no doubt something is true"
+              },
+              {
+                "word": "assured",
+                "gloss": "confident and free from self-doubt"
+              },
+              {
+                "word": "credulous",
+                "gloss": "too ready to believe without evidence"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'credulous' sounds positive like 'confident,' but it actually means gullible — believing too easily — the opposite of healthy certainty.",
+      "words": [
+        "thrive",
+        "flourish",
+        "prosper",
+        "exemplary",
+        "vanish",
+        "fade",
+        "wane",
+        "evanescent",
+        "skeptical",
+        "doubtful",
+        "dubious",
+        "uncertain",
+        "confident",
+        "certain",
+        "assured",
+        "credulous"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Willing / Eager",
+            "words": [
+              {
+                "word": "willing",
+                "gloss": "ready and happy to do something"
+              },
+              {
+                "word": "eager",
+                "gloss": "having a strong desire to do something"
+              },
+              {
+                "word": "enthusiastic",
+                "gloss": "showing intense excitement and interest"
+              },
+              {
+                "word": "alacrity",
+                "gloss": "brisk, eager readiness"
+              }
+            ]
+          },
+          {
+            "theme": "Unwilling",
+            "words": [
+              {
+                "word": "reluctant",
+                "gloss": "unwilling and hesitant"
+              },
+              {
+                "word": "unwilling",
+                "gloss": "not wanting to do something"
+              },
+              {
+                "word": "diffident",
+                "gloss": "shy and lacking confidence"
+              },
+              {
+                "word": "apathy",
+                "gloss": "lack of interest or concern"
+              }
+            ]
+          },
+          {
+            "theme": "Hopeful Outlook",
+            "words": [
+              {
+                "word": "optimistic",
+                "gloss": "hopeful and confident about the future"
+              },
+              {
+                "word": "hopeful",
+                "gloss": "expressing positive expectation"
+              },
+              {
+                "word": "buoyant",
+                "gloss": "cheerful and optimistic"
+              },
+              {
+                "word": "ebullient",
+                "gloss": "overflowing with enthusiasm"
+              }
+            ]
+          },
+          {
+            "theme": "Grim Outlook",
+            "words": [
+              {
+                "word": "pessimistic",
+                "gloss": "expecting the worst outcome"
+              },
+              {
+                "word": "bleak",
+                "gloss": "offering little hope; grim"
+              },
+              {
+                "word": "apprehensive",
+                "gloss": "anxious about what may happen"
+              },
+              {
+                "word": "disconcerting",
+                "gloss": "causing one to feel unsettled"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'apathy' can look like a grim/negative-outlook word, but it belongs with unwillingness since it describes disengagement, not pessimism about the future.",
+      "words": [
+        "willing",
+        "eager",
+        "enthusiastic",
+        "alacrity",
+        "reluctant",
+        "unwilling",
+        "diffident",
+        "apathy",
+        "optimistic",
+        "hopeful",
+        "buoyant",
+        "ebullient",
+        "pessimistic",
+        "bleak",
+        "apprehensive",
+        "disconcerting"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Extreme Degree",
+            "words": [
+              {
+                "word": "extreme",
+                "gloss": "very great in degree"
+              },
+              {
+                "word": "radical",
+                "gloss": "extreme change from the usual"
+              },
+              {
+                "word": "drastic",
+                "gloss": "having a strong, far-reaching effect"
+              },
+              {
+                "word": "excessive",
+                "gloss": "more than necessary or reasonable"
+              }
+            ]
+          },
+          {
+            "theme": "Small Amount",
+            "words": [
+              {
+                "word": "minimal",
+                "gloss": "the smallest possible amount"
+              },
+              {
+                "word": "negligible",
+                "gloss": "too small to be worth considering"
+              },
+              {
+                "word": "slight",
+                "gloss": "small in degree or amount"
+              },
+              {
+                "word": "insignificant",
+                "gloss": "too small to be important"
+              }
+            ]
+          },
+          {
+            "theme": "Deeply Involved",
+            "words": [
+              {
+                "word": "invested",
+                "gloss": "deeply interested and committed"
+              },
+              {
+                "word": "engaged",
+                "gloss": "actively involved and interested"
+              },
+              {
+                "word": "assiduous",
+                "gloss": "showing great persistence in work"
+              },
+              {
+                "word": "diligent",
+                "gloss": "showing careful, persistent effort"
+              }
+            ]
+          },
+          {
+            "theme": "Detached / Indifferent",
+            "words": [
+              {
+                "word": "detached",
+                "gloss": "not emotionally involved"
+              },
+              {
+                "word": "dispassionate",
+                "gloss": "not influenced by strong emotion"
+              },
+              {
+                "word": "complacent",
+                "gloss": "excessively self-satisfied, unaware of problems"
+              },
+              {
+                "word": "callous",
+                "gloss": "showing no sympathy for others"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "extreme",
+        "radical",
+        "drastic",
+        "excessive",
+        "minimal",
+        "negligible",
+        "slight",
+        "insignificant",
+        "invested",
+        "engaged",
+        "assiduous",
+        "diligent",
+        "detached",
+        "dispassionate",
+        "complacent",
+        "callous"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Literary Devices",
+            "words": [
+              {
+                "word": "metaphor",
+                "gloss": "figure of speech implying comparison"
+              },
+              {
+                "word": "simile",
+                "gloss": "compares using 'like' or 'as'"
+              },
+              {
+                "word": "allegory",
+                "gloss": "story representing a deeper meaning"
+              },
+              {
+                "word": "irony",
+                "gloss": "contrast between expectation and reality"
+              }
+            ]
+          },
+          {
+            "theme": "Word Meaning",
+            "words": [
+              {
+                "word": "connotation",
+                "gloss": "feeling a word invokes beyond its literal sense"
+              },
+              {
+                "word": "denotation",
+                "gloss": "literal dictionary meaning of a word"
+              },
+              {
+                "word": "diction",
+                "gloss": "choice and use of words"
+              },
+              {
+                "word": "colloquial",
+                "gloss": "used in ordinary conversation"
+              }
+            ]
+          },
+          {
+            "theme": "Condensed Text",
+            "words": [
+              {
+                "word": "summary",
+                "gloss": "brief statement of the main points"
+              },
+              {
+                "word": "abstract",
+                "gloss": "short summary of a longer paper"
+              },
+              {
+                "word": "excerpt",
+                "gloss": "short extract from a larger text"
+              },
+              {
+                "word": "passage",
+                "gloss": "short section from a longer work"
+              }
+            ]
+          },
+          {
+            "theme": "Source Material",
+            "words": [
+              {
+                "word": "citation",
+                "gloss": "reference to a source used as evidence"
+              },
+              {
+                "word": "source",
+                "gloss": "record that provides information"
+              },
+              {
+                "word": "reference",
+                "gloss": "mention of a source of information"
+              },
+              {
+                "word": "bibliography",
+                "gloss": "list of sources used in writing"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "metaphor",
+        "simile",
+        "allegory",
+        "irony",
+        "connotation",
+        "denotation",
+        "diction",
+        "colloquial",
+        "summary",
+        "abstract",
+        "excerpt",
+        "passage",
+        "citation",
+        "source",
+        "reference",
+        "bibliography"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Government Systems",
+            "words": [
+              {
+                "word": "democracy",
+                "gloss": "citizens elect their leaders"
+              },
+              {
+                "word": "republic",
+                "gloss": "power held by elected representatives"
+              },
+              {
+                "word": "monarchy",
+                "gloss": "government headed by a king or queen"
+              },
+              {
+                "word": "oligarchy",
+                "gloss": "government controlled by a small group"
+              }
+            ]
+          },
+          {
+            "theme": "Personal Freedom",
+            "words": [
+              {
+                "word": "liberty",
+                "gloss": "freedom from oppressive restriction"
+              },
+              {
+                "word": "freedom",
+                "gloss": "power to act without restraint"
+              },
+              {
+                "word": "autonomy",
+                "gloss": "right of self-governance"
+              },
+              {
+                "word": "autonomous",
+                "gloss": "able to act independently"
+              }
+            ]
+          },
+          {
+            "theme": "Official Rules",
+            "words": [
+              {
+                "word": "regulation",
+                "gloss": "official rule enforced by authority"
+              },
+              {
+                "word": "legislation",
+                "gloss": "laws formally made by a governing body"
+              },
+              {
+                "word": "statute",
+                "gloss": "written law passed by a legislature"
+              },
+              {
+                "word": "ordinance",
+                "gloss": "local law made by a city authority"
+              }
+            ]
+          },
+          {
+            "theme": "People in Society",
+            "words": [
+              {
+                "word": "citizen",
+                "gloss": "legally recognized member of a state"
+              },
+              {
+                "word": "civilian",
+                "gloss": "person not in the armed forces"
+              },
+              {
+                "word": "resident",
+                "gloss": "person who lives permanently somewhere"
+              },
+              {
+                "word": "inhabitant",
+                "gloss": "person who lives in a particular place"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "democracy",
+        "republic",
+        "monarchy",
+        "oligarchy",
+        "liberty",
+        "freedom",
+        "autonomy",
+        "autonomous",
+        "regulation",
+        "legislation",
+        "statute",
+        "ordinance",
+        "citizen",
+        "civilian",
+        "resident",
+        "inhabitant"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Business Entities",
+            "words": [
+              {
+                "word": "corporation",
+                "gloss": "large company recognized as a legal entity"
+              },
+              {
+                "word": "enterprise",
+                "gloss": "a business or bold project"
+              },
+              {
+                "word": "institution",
+                "gloss": "established organization for a purpose"
+              },
+              {
+                "word": "organization",
+                "gloss": "group working together for a purpose"
+              }
+            ]
+          },
+          {
+            "theme": "Official Orders",
+            "words": [
+              {
+                "word": "mandate",
+                "gloss": "official order or authorization"
+              },
+              {
+                "word": "directive",
+                "gloss": "official instruction from an authority"
+              },
+              {
+                "word": "jurisdiction",
+                "gloss": "official power over a legal matter"
+              },
+              {
+                "word": "authority",
+                "gloss": "power to give orders and enforce obedience"
+              }
+            ]
+          },
+          {
+            "theme": "Rule and Control",
+            "words": [
+              {
+                "word": "bureaucracy",
+                "gloss": "government marked by many officials and procedures"
+              },
+              {
+                "word": "totalitarian",
+                "gloss": "government demanding complete control"
+              },
+              {
+                "word": "authoritarian",
+                "gloss": "favoring strict obedience to authority"
+              },
+              {
+                "word": "despot",
+                "gloss": "ruler with absolute, often cruel power"
+              }
+            ]
+          },
+          {
+            "theme": "Hostility",
+            "words": [
+              {
+                "word": "animosity",
+                "gloss": "strong hostility or dislike"
+              },
+              {
+                "word": "antipathy",
+                "gloss": "deep-seated feeling of dislike"
+              },
+              {
+                "word": "enmity",
+                "gloss": "deep-seated hostility between people"
+              },
+              {
+                "word": "belligerent",
+                "gloss": "hostile and ready to fight"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "corporation",
+        "enterprise",
+        "institution",
+        "organization",
+        "mandate",
+        "directive",
+        "jurisdiction",
+        "authority",
+        "bureaucracy",
+        "totalitarian",
+        "authoritarian",
+        "despot",
+        "animosity",
+        "antipathy",
+        "enmity",
+        "belligerent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Unclear / Mixed Feelings",
+            "words": [
+              {
+                "word": "ambivalent",
+                "gloss": "having mixed or contradictory feelings"
+              },
+              {
+                "word": "equivocal",
+                "gloss": "open to more than one interpretation"
+              },
+              {
+                "word": "nuanced",
+                "gloss": "marked by subtle distinctions"
+              },
+              {
+                "word": "tenuous",
+                "gloss": "weak or lacking substance"
+              }
+            ]
+          },
+          {
+            "theme": "Skillful",
+            "words": [
+              {
+                "word": "adroit",
+                "gloss": "clever and skillful"
+              },
+              {
+                "word": "articulate",
+                "gloss": "able to express ideas clearly"
+              },
+              {
+                "word": "eloquent",
+                "gloss": "fluent and persuasive in speaking"
+              },
+              {
+                "word": "erudite",
+                "gloss": "showing great knowledge from study"
+              }
+            ]
+          },
+          {
+            "theme": "Honest",
+            "words": [
+              {
+                "word": "candid",
+                "gloss": "frank and honest"
+              },
+              {
+                "word": "forthright",
+                "gloss": "straightforward and direct"
+              },
+              {
+                "word": "candor",
+                "gloss": "quality of being honest and straightforward"
+              },
+              {
+                "word": "cogent",
+                "gloss": "clear, logical, and convincing"
+              }
+            ]
+          },
+          {
+            "theme": "Friendly",
+            "words": [
+              {
+                "word": "affable",
+                "gloss": "friendly, pleasant, easy to talk to"
+              },
+              {
+                "word": "amiable",
+                "gloss": "having a friendly, pleasant manner"
+              },
+              {
+                "word": "congenial",
+                "gloss": "pleasant and suited to one's needs"
+              },
+              {
+                "word": "convivial",
+                "gloss": "friendly, lively, and enjoyable"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'cogent' sounds like a 'Skillful' word (clever speech), but it groups with honest/direct communication since it describes a convincing, clear argument, not cleverness itself.",
+      "words": [
+        "ambivalent",
+        "equivocal",
+        "nuanced",
+        "tenuous",
+        "adroit",
+        "articulate",
+        "eloquent",
+        "erudite",
+        "candid",
+        "forthright",
+        "candor",
+        "cogent",
+        "affable",
+        "amiable",
+        "congenial",
+        "convivial"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Wealth and Greed",
+            "words": [
+              {
+                "word": "affluent",
+                "gloss": "having a great deal of money"
+              },
+              {
+                "word": "avarice",
+                "gloss": "extreme greed for wealth"
+              },
+              {
+                "word": "cupidity",
+                "gloss": "greed for money or possessions"
+              },
+              {
+                "word": "amass",
+                "gloss": "gather a large quantity over time"
+              }
+            ]
+          },
+          {
+            "theme": "Old-fashioned",
+            "words": [
+              {
+                "word": "antiquated",
+                "gloss": "old-fashioned and no longer suitable"
+              },
+              {
+                "word": "anachronism",
+                "gloss": "something placed in the wrong time period"
+              },
+              {
+                "word": "derivative",
+                "gloss": "imitative of another's earlier work"
+              },
+              {
+                "word": "banal",
+                "gloss": "so ordinary and unoriginal that it is boring"
+              }
+            ]
+          },
+          {
+            "theme": "Disorder / Deception",
+            "words": [
+              {
+                "word": "anarchy",
+                "gloss": "disorder from absence of authority"
+              },
+              {
+                "word": "chicanery",
+                "gloss": "use of trickery to achieve a goal"
+              },
+              {
+                "word": "duplicity",
+                "gloss": "deceitfulness; saying one thing, doing another"
+              },
+              {
+                "word": "conflagration",
+                "gloss": "a large, destructive fire"
+              }
+            ]
+          },
+          {
+            "theme": "Strange / Eccentric",
+            "words": [
+              {
+                "word": "eccentric",
+                "gloss": "unconventional or slightly strange"
+              },
+              {
+                "word": "amorphous",
+                "gloss": "having no clear shape or fixed form"
+              },
+              {
+                "word": "clairvoyant",
+                "gloss": "supposedly able to perceive beyond normal senses"
+              },
+              {
+                "word": "eclectic",
+                "gloss": "made up of varied styles or sources"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "affluent",
+        "avarice",
+        "cupidity",
+        "amass",
+        "antiquated",
+        "anachronism",
+        "derivative",
+        "banal",
+        "anarchy",
+        "chicanery",
+        "duplicity",
+        "conflagration",
+        "eccentric",
+        "amorphous",
+        "clairvoyant",
+        "eclectic"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Criticize Harshly",
+            "words": [
+              {
+                "word": "deplore",
+                "gloss": "strongly disapprove of something"
+              },
+              {
+                "word": "deride",
+                "gloss": "mock or ridicule"
+              },
+              {
+                "word": "castigate",
+                "gloss": "criticize or punish severely"
+              },
+              {
+                "word": "chastise",
+                "gloss": "scold or reprimand severely"
+              }
+            ]
+          },
+          {
+            "theme": "Praise / Admire",
+            "words": [
+              {
+                "word": "adulation",
+                "gloss": "excessive or extreme admiration"
+              },
+              {
+                "word": "accolade",
+                "gloss": "an award or expression of praise"
+              },
+              {
+                "word": "connoisseur",
+                "gloss": "person with refined taste and expert knowledge"
+              },
+              {
+                "word": "eminent",
+                "gloss": "famous and respected in a field"
+              }
+            ]
+          },
+          {
+            "theme": "Calm",
+            "words": [
+              {
+                "word": "equanimity",
+                "gloss": "calmness in a difficult situation"
+              },
+              {
+                "word": "demure",
+                "gloss": "shy and modest in behavior"
+              },
+              {
+                "word": "decorous",
+                "gloss": "proper and socially appropriate"
+              },
+              {
+                "word": "austere",
+                "gloss": "plain and simple, without luxury"
+              }
+            ]
+          },
+          {
+            "theme": "Anxious / Uneasy",
+            "words": [
+              {
+                "word": "apprehensive",
+                "gloss": "anxious about what may happen"
+              },
+              {
+                "word": "compunction",
+                "gloss": "a feeling of guilt or unease"
+              },
+              {
+                "word": "diffident",
+                "gloss": "shy and lacking self-confidence"
+              },
+              {
+                "word": "disconcerting",
+                "gloss": "causing one to feel unsettled"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "deplore",
+        "deride",
+        "castigate",
+        "chastise",
+        "adulation",
+        "accolade",
+        "connoisseur",
+        "eminent",
+        "equanimity",
+        "demure",
+        "decorous",
+        "austere",
+        "apprehensive",
+        "compunction",
+        "diffident",
+        "disconcerting"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Spreading Apart",
+            "words": [
+              {
+                "word": "disperse",
+                "gloss": "scatter or spread out"
+              },
+              {
+                "word": "disseminate",
+                "gloss": "spread information widely"
+              },
+              {
+                "word": "distend",
+                "gloss": "swell from pressure inside"
+              },
+              {
+                "word": "efface",
+                "gloss": "erase or rub out"
+              }
+            ]
+          },
+          {
+            "theme": "Branching Apart",
+            "words": [
+              {
+                "word": "divergent",
+                "gloss": "developing in different directions"
+              },
+              {
+                "word": "diverge",
+                "gloss": "separate and go different directions"
+              },
+              {
+                "word": "disparate",
+                "gloss": "very different, seeming unrelated"
+              },
+              {
+                "word": "discrepancy",
+                "gloss": "a difference between things that should match"
+              }
+            ]
+          },
+          {
+            "theme": "Combining",
+            "words": [
+              {
+                "word": "consolidate",
+                "gloss": "combine parts into a single whole"
+              },
+              {
+                "word": "coalesce",
+                "gloss": "come together to form one whole"
+              },
+              {
+                "word": "aggregate",
+                "gloss": "a total formed by combining elements"
+              },
+              {
+                "word": "amass",
+                "gloss": "gather a large quantity together"
+              }
+            ]
+          },
+          {
+            "theme": "Confirming",
+            "words": [
+              {
+                "word": "corroborate",
+                "gloss": "confirm a statement with evidence"
+              },
+              {
+                "word": "ascertain",
+                "gloss": "find out something for certain"
+              },
+              {
+                "word": "validate",
+                "gloss": "prove something is accurate"
+              },
+              {
+                "word": "verify",
+                "gloss": "check that something is true"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "disperse",
+        "disseminate",
+        "distend",
+        "efface",
+        "divergent",
+        "diverge",
+        "disparate",
+        "discrepancy",
+        "consolidate",
+        "coalesce",
+        "aggregate",
+        "amass",
+        "corroborate",
+        "ascertain",
+        "validate",
+        "verify"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Worsen or Irritate",
+            "words": [
+              {
+                "word": "exacerbate",
+                "gloss": "make a problem worse"
+              },
+              {
+                "word": "exasperate",
+                "gloss": "irritate intensely"
+              },
+              {
+                "word": "foment",
+                "gloss": "stir up or instigate trouble"
+              },
+              {
+                "word": "provoke",
+                "gloss": "stir up a strong reaction"
+              }
+            ]
+          },
+          {
+            "theme": "Joyful Energy",
+            "words": [
+              {
+                "word": "ebullient",
+                "gloss": "overflowing with enthusiasm"
+              },
+              {
+                "word": "effervescent",
+                "gloss": "bubbly and lively"
+              },
+              {
+                "word": "euphoria",
+                "gloss": "intense happiness and excitement"
+              },
+              {
+                "word": "buoyant",
+                "gloss": "cheerful and optimistic"
+              }
+            ]
+          },
+          {
+            "theme": "Elusive / Mysterious",
+            "words": [
+              {
+                "word": "enigma",
+                "gloss": "a mysterious person or thing"
+              },
+              {
+                "word": "cryptic",
+                "gloss": "mysterious, not easily understood"
+              },
+              {
+                "word": "esoteric",
+                "gloss": "understood by only a few specialists"
+              },
+              {
+                "word": "elusive",
+                "gloss": "difficult to find or achieve"
+              }
+            ]
+          },
+          {
+            "theme": "Thorough",
+            "words": [
+              {
+                "word": "exhaustive",
+                "gloss": "covering all possible details"
+              },
+              {
+                "word": "meticulous",
+                "gloss": "showing great attention to detail"
+              },
+              {
+                "word": "assiduous",
+                "gloss": "showing great care and persistence"
+              },
+              {
+                "word": "diligent",
+                "gloss": "showing careful, persistent effort"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "exacerbate",
+        "exasperate",
+        "foment",
+        "provoke",
+        "ebullient",
+        "effervescent",
+        "euphoria",
+        "buoyant",
+        "enigma",
+        "cryptic",
+        "esoteric",
+        "elusive",
+        "exhaustive",
+        "meticulous",
+        "assiduous",
+        "diligent"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Insulting or Belittling",
+            "words": [
+              {
+                "word": "denigrate",
+                "gloss": "criticize unfairly to damage reputation"
+              },
+              {
+                "word": "disdain",
+                "gloss": "feeling something is unworthy of respect"
+              },
+              {
+                "word": "belie",
+                "gloss": "give a false impression of something"
+              },
+              {
+                "word": "boorish",
+                "gloss": "rude and lacking good manners"
+              }
+            ]
+          },
+          {
+            "theme": "Deceptive",
+            "words": [
+              {
+                "word": "disingenuous",
+                "gloss": "not sincere; pretending to know less"
+              },
+              {
+                "word": "duplicity",
+                "gloss": "deceitfulness"
+              },
+              {
+                "word": "charlatan",
+                "gloss": "person falsely claiming special skill"
+              },
+              {
+                "word": "chicanery",
+                "gloss": "use of trickery to deceive"
+              }
+            ]
+          },
+          {
+            "theme": "Persuading",
+            "words": [
+              {
+                "word": "cajole",
+                "gloss": "persuade gently through flattery"
+              },
+              {
+                "word": "appease",
+                "gloss": "calm someone by giving in to demands"
+              },
+              {
+                "word": "espouse",
+                "gloss": "support or adopt a belief or cause"
+              },
+              {
+                "word": "engender",
+                "gloss": "cause or give rise to a feeling"
+              }
+            ]
+          },
+          {
+            "theme": "Rapid Growth",
+            "words": [
+              {
+                "word": "burgeon",
+                "gloss": "grow or increase rapidly"
+              },
+              {
+                "word": "amass",
+                "gloss": "gather a large quantity over time"
+              },
+              {
+                "word": "flourish",
+                "gloss": "grow and develop vigorously"
+              },
+              {
+                "word": "burnish",
+                "gloss": "polish until it shines; improve a reputation"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "denigrate",
+        "disdain",
+        "belie",
+        "boorish",
+        "disingenuous",
+        "duplicity",
+        "charlatan",
+        "chicanery",
+        "cajole",
+        "appease",
+        "espouse",
+        "engender",
+        "burgeon",
+        "amass",
+        "flourish",
+        "burnish"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Excessive Self-Regard",
+            "words": [
+              {
+                "word": "complacent",
+                "gloss": "excessively self-satisfied"
+              },
+              {
+                "word": "brazen",
+                "gloss": "bold and shameless"
+              },
+              {
+                "word": "effrontery",
+                "gloss": "shocking lack of shame in behavior"
+              },
+              {
+                "word": "egregious",
+                "gloss": "outstandingly bad or shocking"
+              }
+            ]
+          },
+          {
+            "theme": "Shy / Reserved",
+            "words": [
+              {
+                "word": "diffident",
+                "gloss": "shy and lacking confidence"
+              },
+              {
+                "word": "demure",
+                "gloss": "shy and modest in behavior"
+              },
+              {
+                "word": "discreet",
+                "gloss": "careful to avoid attracting notice"
+              },
+              {
+                "word": "apprehensive",
+                "gloss": "anxious about what may happen"
+              }
+            ]
+          },
+          {
+            "theme": "Argumentative",
+            "words": [
+              {
+                "word": "contentious",
+                "gloss": "causing or likely to cause argument"
+              },
+              {
+                "word": "belligerent",
+                "gloss": "hostile and ready to fight"
+              },
+              {
+                "word": "acrimony",
+                "gloss": "bitterness in speech or manner"
+              },
+              {
+                "word": "dissent",
+                "gloss": "disagreement with an official opinion"
+              }
+            ]
+          },
+          {
+            "theme": "Impartial / Fair",
+            "words": [
+              {
+                "word": "equitable",
+                "gloss": "fair and impartial"
+              },
+              {
+                "word": "dispassionate",
+                "gloss": "not influenced by strong emotion"
+              },
+              {
+                "word": "egalitarian",
+                "gloss": "believing all people are equal"
+              },
+              {
+                "word": "equanimity",
+                "gloss": "calmness and composure"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'discreet' sounds shy/quiet like diffident/demure, which is correct here, but students often confuse it with the similar-sounding 'discrete' (meaning separate) — a classic SAT spelling trap.",
+      "words": [
+        "complacent",
+        "brazen",
+        "effrontery",
+        "egregious",
+        "diffident",
+        "demure",
+        "discreet",
+        "apprehensive",
+        "contentious",
+        "belligerent",
+        "acrimony",
+        "dissent",
+        "equitable",
+        "dispassionate",
+        "egalitarian",
+        "equanimity"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Instructive",
+            "words": [
+              {
+                "word": "didactic",
+                "gloss": "intended to teach, often excessively"
+              },
+              {
+                "word": "edify",
+                "gloss": "instruct or improve morally"
+              },
+              {
+                "word": "erudite",
+                "gloss": "showing great knowledge from study"
+              },
+              {
+                "word": "empirical",
+                "gloss": "based on observation or experiment"
+              }
+            ]
+          },
+          {
+            "theme": "Delicate / Fragile",
+            "words": [
+              {
+                "word": "diaphanous",
+                "gloss": "light and translucent"
+              },
+              {
+                "word": "ethereal",
+                "gloss": "extremely delicate and light"
+              },
+              {
+                "word": "tenuous",
+                "gloss": "weak, thin, lacking substance"
+              },
+              {
+                "word": "emaciated",
+                "gloss": "abnormally thin from illness"
+              }
+            ]
+          },
+          {
+            "theme": "Comparable",
+            "words": [
+              {
+                "word": "analogous",
+                "gloss": "similar in a way allowing comparison"
+              },
+              {
+                "word": "commensurate",
+                "gloss": "matching in size or degree"
+              },
+              {
+                "word": "cosmopolitan",
+                "gloss": "familiar with many countries and cultures"
+              },
+              {
+                "word": "eclectic",
+                "gloss": "made up of varied styles or sources"
+              }
+            ]
+          },
+          {
+            "theme": "Regretful",
+            "words": [
+              {
+                "word": "contrite",
+                "gloss": "showing sincere regret for wrongdoing"
+              },
+              {
+                "word": "compunction",
+                "gloss": "a feeling of guilt or unease"
+              },
+              {
+                "word": "conundrum",
+                "gloss": "a confusing and difficult problem"
+              },
+              {
+                "word": "consensus",
+                "gloss": "general agreement among a group"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "didactic",
+        "edify",
+        "erudite",
+        "empirical",
+        "diaphanous",
+        "ethereal",
+        "tenuous",
+        "emaciated",
+        "analogous",
+        "commensurate",
+        "cosmopolitan",
+        "eclectic",
+        "contrite",
+        "compunction",
+        "conundrum",
+        "consensus"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Deep Knowledge",
+            "words": [
+              {
+                "word": "erudite",
+                "gloss": "showing great knowledge from study"
+              },
+              {
+                "word": "esoteric",
+                "gloss": "understood by only a small number"
+              },
+              {
+                "word": "empirical",
+                "gloss": "based on observation or experiment"
+              },
+              {
+                "word": "connoisseur",
+                "gloss": "expert with refined taste"
+              }
+            ]
+          },
+          {
+            "theme": "Sharing Feelings",
+            "words": [
+              {
+                "word": "empathy",
+                "gloss": "understanding and sharing another's feelings"
+              },
+              {
+                "word": "candor",
+                "gloss": "quality of being honest and open"
+              },
+              {
+                "word": "affable",
+                "gloss": "friendly and easy to talk to"
+              },
+              {
+                "word": "congenial",
+                "gloss": "pleasant and suited to one's nature"
+              }
+            ]
+          },
+          {
+            "theme": "Wandering Off Topic",
+            "words": [
+              {
+                "word": "digress",
+                "gloss": "move away from the main topic"
+              },
+              {
+                "word": "circuitous",
+                "gloss": "longer and less direct than straight"
+              },
+              {
+                "word": "tangential",
+                "gloss": "only slightly related to the main topic"
+              },
+              {
+                "word": "cursory",
+                "gloss": "done quickly without attention to detail"
+              }
+            ]
+          },
+          {
+            "theme": "Urgent / Immediate",
+            "words": [
+              {
+                "word": "exigent",
+                "gloss": "requiring immediate action"
+              },
+              {
+                "word": "expedite",
+                "gloss": "make a process happen more quickly"
+              },
+              {
+                "word": "foreboding",
+                "gloss": "a feeling that something bad is about to happen"
+              },
+              {
+                "word": "incessant",
+                "gloss": "continuing without pause or interruption"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": null,
+      "words": [
+        "erudite",
+        "esoteric",
+        "empirical",
+        "connoisseur",
+        "empathy",
+        "candor",
+        "affable",
+        "congenial",
+        "digress",
+        "circuitous",
+        "tangential",
+        "cursory",
+        "exigent",
+        "expedite",
+        "foreboding",
+        "incessant"
+      ]
+    },
+    {
+      "gameType": "clusters",
+      "domain": "craft_structure",
+      "difficulty": 2,
+      "payload": {
+        "groups": [
+          {
+            "theme": "Harmful",
+            "words": [
+              {
+                "word": "deleterious",
+                "gloss": "causing harm or damage"
+              },
+              {
+                "word": "detrimental",
+                "gloss": "causing harm or damage"
+              },
+              {
+                "word": "debilitate",
+                "gloss": "make someone or something weak"
+              },
+              {
+                "word": "enervate",
+                "gloss": "drain someone of energy or vitality"
+              }
+            ]
+          },
+          {
+            "theme": "Showy / Overblown",
+            "words": [
+              {
+                "word": "bombastic",
+                "gloss": "using high-sounding but empty language"
+              },
+              {
+                "word": "embellish",
+                "gloss": "make more attractive by adding details"
+              },
+              {
+                "word": "ostentatious",
+                "gloss": "showy in a way meant to impress"
+              },
+              {
+                "word": "grandiose",
+                "gloss": "impressively large or exaggerated in scope"
+              }
+            ]
+          },
+          {
+            "theme": "Shortened",
+            "words": [
+              {
+                "word": "abridge",
+                "gloss": "shorten a piece of writing"
+              },
+              {
+                "word": "curtail",
+                "gloss": "reduce or limit something"
+              },
+              {
+                "word": "abstain",
+                "gloss": "choose not to do or have something"
+              },
+              {
+                "word": "deplete",
+                "gloss": "use up the supply or resources of something"
+              }
+            ]
+          },
+          {
+            "theme": "Impending Danger",
+            "words": [
+              {
+                "word": "foreboding",
+                "gloss": "a feeling that something bad is about to happen"
+              },
+              {
+                "word": "precarious",
+                "gloss": "not securely held; likely to fall"
+              },
+              {
+                "word": "exigent",
+                "gloss": "requiring immediate attention"
+              },
+              {
+                "word": "ominous",
+                "gloss": "giving the impression something bad will happen"
+              }
+            ]
+          }
+        ]
+      },
+      "explanation": "Trap: 'abstain' looks like it means to hold back from danger, tempting a match with 'Impending Danger,' but it actually means choosing to refrain from an action, so it groups with the 'Shortened/Limited' cluster of restraint words.",
+      "words": [
+        "deleterious",
+        "detrimental",
+        "debilitate",
+        "enervate",
+        "bombastic",
+        "embellish",
+        "ostentatious",
+        "grandiose",
+        "abridge",
+        "curtail",
+        "abstain",
+        "deplete",
+        "foreboding",
+        "precarious",
+        "exigent",
+        "ominous"
+      ]
+    }
+  ]
+}

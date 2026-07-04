@@ -1,0 +1,754 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "invested",
+        "def": "deeply interested in and committed to something",
+        "pos": "adjective",
+        "ex": "After three seasons on the debate team, she felt truly {word} in every tournament outcome."
+      },
+      "explanation": null,
+      "words": [
+        "invested"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "engaged",
+        "def": "actively involved and interested in something",
+        "pos": "adjective",
+        "ex": "The lecture hall stayed silent, every student fully {word} with the professor's argument."
+      },
+      "explanation": null,
+      "words": [
+        "engaged"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "skeptical",
+        "def": "having doubts about whether a claim is true",
+        "pos": "adjective",
+        "ex": "The scientists remained {word} of the study until the experiment was repeated three times."
+      },
+      "explanation": null,
+      "words": [
+        "skeptical"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "doubtful",
+        "def": "feeling uncertain about whether something is true or will happen",
+        "pos": "adjective",
+        "ex": "Given the storm warnings, the coach was {word} the match would even start on time."
+      },
+      "explanation": null,
+      "words": [
+        "doubtful"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "confident",
+        "def": "feeling sure about one's abilities or about an outcome",
+        "pos": "adjective",
+        "ex": "After weeks of practice interviews, he walked into the office looking calm and {word}."
+      },
+      "explanation": null,
+      "words": [
+        "confident"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "certain",
+        "def": "having no doubt that something is true",
+        "pos": "adjective",
+        "ex": "She checked the map twice, wanting to be {word} before turning down the unmarked road."
+      },
+      "explanation": null,
+      "words": [
+        "certain"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "assured",
+        "def": "confident and free from self-doubt",
+        "pos": "adjective",
+        "ex": "The pilot's {word} voice over the intercom calmed the nervous passengers instantly."
+      },
+      "explanation": null,
+      "words": [
+        "assured"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "uncertain",
+        "def": "not known or definite; lacking confidence",
+        "pos": "adjective",
+        "ex": "The forecast remained {word}, with meteorologists unable to predict where the hurricane would land."
+      },
+      "explanation": null,
+      "words": [
+        "uncertain"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "optimistic",
+        "def": "hopeful and confident about the future",
+        "pos": "adjective",
+        "ex": "Despite the factory's losses last year, the new manager stayed {word} about next quarter's sales."
+      },
+      "explanation": null,
+      "words": [
+        "optimistic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "hopeful",
+        "def": "feeling or expressing a positive expectation about the future",
+        "pos": "adjective",
+        "ex": "Volunteers stayed {word} that the missing hiker would be found before nightfall."
+      },
+      "explanation": null,
+      "words": [
+        "hopeful"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "pessimistic",
+        "def": "expecting the worst possible outcome",
+        "pos": "adjective",
+        "ex": "The economist's {word} report predicted rising unemployment through the entire year."
+      },
+      "explanation": null,
+      "words": [
+        "pessimistic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "bleak",
+        "def": "offering little hope or encouragement; grim",
+        "pos": "adjective",
+        "ex": "The abandoned mill stood against a {word} winter sky, its windows shattered and dark."
+      },
+      "explanation": null,
+      "words": [
+        "bleak"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "balanced",
+        "def": "fairly presenting different sides or elements in equal proportion",
+        "pos": "adjective",
+        "ex": "The editor insisted on a {word} article that gave equal space to both candidates' views."
+      },
+      "explanation": null,
+      "words": [
+        "balanced"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "extreme",
+        "def": "very great in degree, or far from the usual or moderate",
+        "pos": "adjective",
+        "ex": "Only under {word} heat did the desert lizard finally retreat into its burrow."
+      },
+      "explanation": null,
+      "words": [
+        "extreme"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "radical",
+        "def": "relating to a fundamental or extreme change from what is usual",
+        "pos": "adjective",
+        "ex": "The committee rejected the professor's {word} proposal to eliminate letter grades entirely."
+      },
+      "explanation": null,
+      "words": [
+        "radical"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "drastic",
+        "def": "likely to have a strong or far-reaching effect; severe",
+        "pos": "adjective",
+        "ex": "Facing bankruptcy, the airline announced {word} cuts to nearly half its routes."
+      },
+      "explanation": null,
+      "words": [
+        "drastic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "moderate",
+        "def": "average in amount, intensity, or degree; not extreme",
+        "pos": "adjective",
+        "ex": "The trainer recommended a {word} pace, neither too slow nor too exhausting for beginners."
+      },
+      "explanation": null,
+      "words": [
+        "moderate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "excessive",
+        "def": "more than what is necessary, normal, or reasonable",
+        "pos": "adjective",
+        "ex": "The landlord's {word} fees for a late payment struck the tenants as unfair."
+      },
+      "explanation": null,
+      "words": [
+        "excessive"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "immoderate",
+        "def": "lacking restraint; exceeding reasonable limits",
+        "pos": "adjective",
+        "ex": "His {word} spending on rare coins left almost nothing in his savings account."
+      },
+      "explanation": null,
+      "words": [
+        "immoderate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "minimal",
+        "def": "of the smallest possible amount or degree",
+        "pos": "adjective",
+        "ex": "The renovation required only {word} changes, since the old floor plan already worked well."
+      },
+      "explanation": null,
+      "words": [
+        "minimal"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "negligible",
+        "def": "so small or unimportant that it is not worth considering",
+        "pos": "adjective",
+        "ex": "The survey found the price difference between the two brands was {word}."
+      },
+      "explanation": null,
+      "words": [
+        "negligible"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "slight",
+        "def": "small in degree or amount",
+        "pos": "adjective",
+        "ex": "A {word} adjustment to the recipe's sugar made the cookies noticeably less sweet."
+      },
+      "explanation": null,
+      "words": [
+        "slight"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "considerable",
+        "def": "large enough to be important or have a significant effect",
+        "pos": "adjective",
+        "ex": "Restoring the old theater required a {word} amount of both time and money."
+      },
+      "explanation": null,
+      "words": [
+        "considerable"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "insignificant",
+        "def": "too small or unimportant to be worth considering",
+        "pos": "adjective",
+        "ex": "Compared to the total budget, the printing costs seemed almost {word}."
+      },
+      "explanation": null,
+      "words": [
+        "insignificant"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "narrative",
+        "def": "a spoken or written account of connected events; a story",
+        "pos": "noun",
+        "ex": "The documentary wove interviews and old photographs into a single compelling {word}."
+      },
+      "explanation": null,
+      "words": [
+        "narrative"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "discourse",
+        "def": "written or spoken communication or debate about a topic",
+        "pos": "noun",
+        "ex": "The panel encouraged respectful public {word} on the contested zoning proposal."
+      },
+      "explanation": null,
+      "words": [
+        "discourse"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "syntax",
+        "def": "the arrangement of words and phrases to form correct sentences",
+        "pos": "noun",
+        "ex": "The tutor circled the sentence, noting an error in its {word} rather than its vocabulary."
+      },
+      "explanation": null,
+      "words": [
+        "syntax"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diction",
+        "def": "the choice and use of words in speech or writing",
+        "pos": "noun",
+        "ex": "The poet's formal {word} gave even simple images a sense of ceremony."
+      },
+      "explanation": null,
+      "words": [
+        "diction"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "tone",
+        "def": "the general attitude or feeling expressed by a piece of writing",
+        "pos": "noun",
+        "ex": "The reviewer noted a mocking {word} beneath the essay's otherwise polite phrasing."
+      },
+      "explanation": null,
+      "words": [
+        "tone"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "mood",
+        "def": "the emotional atmosphere created by a piece of writing",
+        "pos": "noun",
+        "ex": "Fog rolling through the graveyard scene set a suitably eerie {word} for the opening chapter."
+      },
+      "explanation": null,
+      "words": [
+        "mood"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "theme",
+        "def": "a central idea or message explored throughout a work",
+        "pos": "noun",
+        "ex": "Isolation emerged as the novel's central {word}, reappearing in nearly every chapter."
+      },
+      "explanation": null,
+      "words": [
+        "theme"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "motif",
+        "def": "a recurring image, idea, or element in a work of literature or art",
+        "pos": "noun",
+        "ex": "Broken mirrors served as a recurring {word}, hinting at the character's fractured identity."
+      },
+      "explanation": null,
+      "words": [
+        "motif"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "symbolism",
+        "def": "the use of symbols to represent ideas or qualities",
+        "pos": "noun",
+        "ex": "Critics praised the film's quiet {word}, especially the wilting garden representing decline."
+      },
+      "explanation": null,
+      "words": [
+        "symbolism"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "allegory",
+        "def": "a story in which characters and events represent a deeper moral or political meaning",
+        "pos": "noun",
+        "ex": "Many students read the farm's power struggle as an {word} for a real political revolution."
+      },
+      "explanation": null,
+      "words": [
+        "allegory"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "irony",
+        "def": "a contrast between what is expected and what actually happens or is said",
+        "pos": "noun",
+        "ex": "There was a bitter {word} in the fire station burning down before the crew ever moved in."
+      },
+      "explanation": null,
+      "words": [
+        "irony"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "satire",
+        "def": "the use of humor or exaggeration to criticize people's foolishness or vices",
+        "pos": "noun",
+        "ex": "The late-night show used sharp {word} to expose the senator's contradictory promises."
+      },
+      "explanation": null,
+      "words": [
+        "satire"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "metaphor",
+        "def": "a figure of speech that describes something by calling it another thing to suggest a comparison",
+        "pos": "noun",
+        "ex": "Calling the crowded subway car 'a sardine tin' is a vivid {word} for cramped travel."
+      },
+      "explanation": null,
+      "words": [
+        "metaphor"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "simile",
+        "def": "a figure of speech that compares two things using 'like' or 'as'",
+        "pos": "noun",
+        "ex": "The line 'her laughter rang like a struck bell' is a classic {word}."
+      },
+      "explanation": null,
+      "words": [
+        "simile"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "allusion",
+        "def": "an indirect reference to a person, event, or work outside the text",
+        "pos": "noun",
+        "ex": "The title contains a subtle {word} to a Greek myth most readers would recognize."
+      },
+      "explanation": null,
+      "words": [
+        "allusion"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "imagery",
+        "def": "descriptive language that appeals to the senses",
+        "pos": "noun",
+        "ex": "The chapter's rich {word} let readers almost smell the rain-soaked pavement."
+      },
+      "explanation": null,
+      "words": [
+        "imagery"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "connotation",
+        "def": "an idea or feeling a word invokes beyond its literal meaning",
+        "pos": "noun",
+        "ex": "Choosing 'stubborn' over 'determined' shifts the sentence's {word} from positive to negative."
+      },
+      "explanation": null,
+      "words": [
+        "connotation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "denotation",
+        "def": "the literal, dictionary meaning of a word",
+        "pos": "noun",
+        "ex": "Setting aside its emotional weight, the word's plain {word} is simply 'a place of shelter'."
+      },
+      "explanation": null,
+      "words": [
+        "denotation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "genre",
+        "def": "a category of artistic work characterized by a particular style or subject",
+        "pos": "noun",
+        "ex": "The bookstore's mystery {word} section had grown so popular it needed its own room."
+      },
+      "explanation": null,
+      "words": [
+        "genre"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "audience",
+        "def": "the group of people who read, watch, or listen to a work",
+        "pos": "noun",
+        "ex": "The comedian adjusted her jokes depending on whether the {word} was mostly students or parents."
+      },
+      "explanation": null,
+      "words": [
+        "audience"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "thesis",
+        "def": "a statement or claim that a piece of writing sets out to support",
+        "pos": "noun",
+        "ex": "Her opening paragraph stated the {word} clearly: social media weakens face-to-face communities."
+      },
+      "explanation": null,
+      "words": [
+        "thesis"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "premise",
+        "def": "a statement or idea assumed to be true and used as the basis for an argument",
+        "pos": "noun",
+        "ex": "The debate collapsed once someone challenged its basic {word} that the survey data was accurate."
+      },
+      "explanation": null,
+      "words": [
+        "premise"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "counterargument",
+        "def": "an argument made in opposition to another argument",
+        "pos": "noun",
+        "ex": "A strong essay anticipates the reader's {word} and answers it before moving on."
+      },
+      "explanation": null,
+      "words": [
+        "counterargument"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "rebuttal",
+        "def": "a response that argues against a previous claim or argument",
+        "pos": "noun",
+        "ex": "The lawyer's calm {word} dismantled the witness's testimony point by point."
+      },
+      "explanation": null,
+      "words": [
+        "rebuttal"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "citation",
+        "def": "a reference to a source used as evidence in writing",
+        "pos": "noun",
+        "ex": "Every statistic in the report needed a proper {word} pointing to the original study."
+      },
+      "explanation": null,
+      "words": [
+        "citation"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "source",
+        "def": "a person, document, or record that provides information",
+        "pos": "noun",
+        "ex": "The journalist refused to reveal her {word} even under pressure from the editor."
+      },
+      "explanation": null,
+      "words": [
+        "source"
+      ]
+    }
+  ]
+}

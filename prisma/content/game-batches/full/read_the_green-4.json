@@ -1,0 +1,1208 @@
+{
+  "items": [
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "When the letter finally arrived, Marguerite did not rush to open it, though she had waited three months for word from her brother.",
+          "Instead she set it on the windowsill and watched the evening light slide across the envelope, as if delaying the news could keep it from being true.",
+          "Her equanimity surprised even her; she had imagined herself weeping or shouting, not standing so still.",
+          "Only when the candle guttered did she finally break the seal, her fingers steady, her breath even.",
+          "The calm, she realized, was not indifference but a kind of armor, latent since childhood, that she had built without noticing."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Marguerite no longer cares what has happened to her brother.",
+            "trap": "opposite — she cared deeply, which is why she delayed"
+          },
+          {
+            "t": "Marguerite's outward calm masks a deliberate, self-protective response to anxious news.",
+            "correct": true
+          },
+          {
+            "t": "Marguerite is angry at her brother for not writing sooner.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "Marguerite regrets waiting so long to read the letter.",
+            "trap": "too narrow — the passage is about her composure, not regret"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explicitly reframes her calm as a protective, long-standing mechanism, which is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "equanimity",
+        "latent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The old carpenter's workshop smelled of sawdust and linseed oil, and every tool hung in its exacting place.",
+          "Visitors, mistaking his silence for indifference, often left thinking him aloof rather than simply erudite about his craft.",
+          "He spoke rarely because he distrusted words that outran the work they described.",
+          "'A chair either holds a man or it doesn't,' he would say, 'no amount of talk changes that.'",
+          "It was a philosophy as spare and load-bearing as anything he built, innate rather than learned from any book."
+        ],
+        "question": "What is the primary function of the quoted remark in sentence 4?",
+        "options": [
+          {
+            "t": "It shows the carpenter's contempt for his apprentice.",
+            "trap": "not supported — the remark is about chairs, not the apprentice"
+          },
+          {
+            "t": "It reveals the carpenter's fear of being misunderstood.",
+            "trap": "opposite — he seems unbothered by being misread"
+          },
+          {
+            "t": "It illustrates the carpenter's belief that results matter more than explanation.",
+            "correct": true
+          },
+          {
+            "t": "It proves the carpenter believes talking is more important than building.",
+            "trap": "opposite of what the quote says"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly demonstrates his practical, unpretentious philosophy about work over talk."
+      },
+      "explanation": null,
+      "words": [
+        "erudite",
+        "innate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "By the time the ferry reached the island, Dean had already rehearsed the apology four different ways.",
+          "None of them felt right; each sounded either too fervent or too flippant, as if he were performing regret rather than feeling it.",
+          "He watched the gulls circle the wake and tried to imagine his sister's face when she saw him.",
+          "Would she soften, or would the old fractious tension between them simply resume where it had left off?",
+          "He did not know, and the not-knowing was worse than any answer could have been."
+        ],
+        "question": "The passage most strongly suggests that Dean's anxiety stems from which of the following?",
+        "options": [
+          {
+            "t": "Uncertainty about how his sister will respond to him.",
+            "correct": true
+          },
+          {
+            "t": "Fear of missing the ferry's departure.",
+            "trap": "not stated — the ferry has already arrived"
+          },
+          {
+            "t": "Guilt over failing to write his apology down beforehand.",
+            "trap": "not stated — he rehearsed it, not wrote it"
+          },
+          {
+            "t": "Certainty that his sister will refuse to see him.",
+            "trap": "too strong — the passage says he does not know"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence states directly that not knowing his sister's reaction is the source of his distress."
+      },
+      "explanation": null,
+      "words": [
+        "fervent",
+        "flippant",
+        "fractious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Nadia had grown fastidious about the garden in a way that unsettled her neighbors.",
+          "Every leaf out of place, every stray weed, drew her out at dawn with shears in hand.",
+          "Her husband called it a hedonist's devotion to order, a pleasure taken purely for its own sake.",
+          "But Nadia knew the truth was plainer: the garden was the one thing that answered to her care exactly as much as she gave it.",
+          "Everything else in her life — her children, her work, her marriage — answered on its own uncertain, indifferent terms."
+        ],
+        "question": "Which choice best describes the function of the husband's comment in sentence 3?",
+        "options": [
+          {
+            "t": "It confirms that Nadia's garden work is purely for pleasure.",
+            "trap": "the next sentence rejects this reading as too simple"
+          },
+          {
+            "t": "It shows the husband resents the time Nadia spends gardening.",
+            "trap": "not stated — only a description is given, not resentment"
+          },
+          {
+            "t": "It proves that Nadia disagrees with everything her husband says.",
+            "trap": "overgeneralized — only this specific claim is addressed"
+          },
+          {
+            "t": "It offers an interpretation of Nadia's behavior that the narration later complicates.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence directly counters the husband's characterization, showing the passage complicates rather than confirms it."
+      },
+      "explanation": null,
+      "words": [
+        "fastidious",
+        "hedonist",
+        "indifferent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The debate coach had a gift for finding the incisive question buried inside a rambling argument.",
+          "Students who thought they had prepared for everything would freeze when she asked it.",
+          "She never raised her voice or displayed anything like malevolent satisfaction at their discomfort.",
+          "Instead she waited, patient and placid, until the silence taught the student more than any answer could.",
+          "Those who stayed with the team long enough learned to welcome the pause rather than fear it."
+        ],
+        "question": "The passage indicates that the coach's silences serve primarily to",
+        "options": [
+          {
+            "t": "punish students for insufficient preparation.",
+            "trap": "text explicitly denies malevolent intent"
+          },
+          {
+            "t": "give students room to discover their own reasoning.",
+            "correct": true
+          },
+          {
+            "t": "demonstrate the coach's superior debating skill.",
+            "trap": "not stated — focus is on student growth, not coach's ego"
+          },
+          {
+            "t": "signal that the debate has ended early.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains that the silence itself becomes instructive, supporting the idea that it fosters independent thinking."
+      },
+      "explanation": null,
+      "words": [
+        "incisive",
+        "malevolent",
+        "placid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Toma had always been the reticent one at family gatherings, content to let his cousins fill the room with noise.",
+          "That year, though, something had shifted; he arrived with a story he wanted, for once, to tell.",
+          "His aunt noticed first, the way he leaned forward instead of shrinking into the corner chair.",
+          "By the time he finished, even his loudest cousin had gone quiet, unsettled by how much feeling had been hiding in him.",
+          "It was as if a door long closed had swung open on well-oiled hinges, an innate warmth surfacing easier than anyone expected."
+        ],
+        "question": "Which choice best captures the shift the passage describes in Toma?",
+        "options": [
+          {
+            "t": "A habitually withdrawn person surprises his family by openly sharing something meaningful.",
+            "correct": true
+          },
+          {
+            "t": "A talkative person becomes quiet and withdrawn for the first time.",
+            "trap": "opposite of the shift described"
+          },
+          {
+            "t": "A family member argues loudly with his cousins about a story.",
+            "trap": "not stated — no argument occurs"
+          },
+          {
+            "t": "Toma's aunt reveals a secret that embarrasses him.",
+            "trap": "misreads the passage — no secret is revealed by the aunt"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the family's surprised reaction, confirming the described change from reticence to openness."
+      },
+      "explanation": null,
+      "words": [
+        "reticent",
+        "innate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The critic's review was scathing in a way that seemed almost personal, as if the play had wronged her directly.",
+          "She dismissed the lead's performance as prosaic, devoid of any spark that might justify the ticket price.",
+          "Backstage, the director read the review twice, jaw tight, before folding the paper and setting it aside.",
+          "He had learned long ago that a single harsh notice, however wounding, rarely decided a production's fate.",
+          "What decided it, he reminded himself, was whether the actors still believed in the story tomorrow night."
+        ],
+        "question": "The director's reaction, as described in sentences 3 and 4, primarily serves to",
+        "options": [
+          {
+            "t": "reveal that the director agrees completely with the critic's assessment.",
+            "trap": "not supported — he reads it twice but doesn't endorse it"
+          },
+          {
+            "t": "prove that the director plans to cancel the production.",
+            "trap": "not stated — the opposite is implied by his focus on tomorrow"
+          },
+          {
+            "t": "show a measured response that contrasts with the harshness of the review.",
+            "correct": true
+          },
+          {
+            "t": "demonstrate that critics never affect a play's success.",
+            "trap": "too absolute — he says 'rarely,' not 'never'"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the director's tempered, experienced perspective, contrasting with the review's harshness."
+      },
+      "explanation": null,
+      "words": [
+        "scathing",
+        "prosaic"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Every summer, the lake town filled with a particular kind of languid tourist, sunburned and unhurried.",
+          "Locals like Priya found their pace both baffling and, secretly, a little enviable.",
+          "She had never allowed herself an idle afternoon, convinced that stillness was simply indolent, wasted motion.",
+          "But watching a stranger drift on an inner tube for hours, doing nothing at all, planted an odd seed of longing in her.",
+          "Perhaps, she thought, there was a kind of courage in doing nothing on purpose."
+        ],
+        "question": "Which choice best describes the function of the final sentence?",
+        "options": [
+          {
+            "t": "It confirms that Priya has decided to leave her job.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "It shows Priya's continued contempt for tourists.",
+            "trap": "contradicts her admitted envy and longing"
+          },
+          {
+            "t": "It explains why tourists visit the lake town every summer.",
+            "trap": "irrelevant to the sentence's actual content"
+          },
+          {
+            "t": "It marks a shift in Priya's attitude toward rest and idleness.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This closing sentence reframes idleness as a form of courage, marking Priya's shift in perspective."
+      },
+      "explanation": null,
+      "words": [
+        "languid",
+        "indolent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The professor's lectures on medieval trade routes were, by his own admission, esoteric enough to empty half the hall.",
+          "Those who stayed discovered a mind that lit up over the tiniest detail — a tariff record, a merchant's ledger, a single disputed river crossing.",
+          "He never apologized for the narrowness of his passion, nor did he dilute it to please a wider, more myopic audience.",
+          "To his remaining students, that refusal felt less like arrogance than integrity.",
+          "They stayed, in the end, because his obscure devotion was more honest than any effort to be popular."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The professor's lectures are too difficult for any student to understand.",
+            "trap": "contradicted — some students clearly follow and admire him"
+          },
+          {
+            "t": "The professor's narrow, uncompromising focus earns the loyalty of students who value his honesty over broad appeal.",
+            "correct": true
+          },
+          {
+            "t": "The professor secretly wishes his lectures attracted larger audiences.",
+            "trap": "not supported — he never apologizes or dilutes his focus"
+          },
+          {
+            "t": "The professor's students resent his obscure subject matter.",
+            "trap": "opposite — the remaining students value it"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explains why students remain loyal, tying together the passage's point about honesty over popularity."
+      },
+      "explanation": null,
+      "words": [
+        "esoteric",
+        "myopic"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Grandmother Iris kept a small tin of buttons that, to anyone else, looked like ordinary clutter.",
+          "To her, each one was a fragment of reminiscence: a coat from her wedding, a coach's jacket, a nightgown worn through decades of use.",
+          "She never explained the collection to visitors who eyed it with polite, oblivious confusion.",
+          "Only her granddaughter Beatriz understood that some things are kept not for their usefulness but for what they refuse to let go of.",
+          "When Iris died, it was Beatriz who inherited the tin, and with it, the stories no one else had thought to ask about."
+        ],
+        "question": "The passage most strongly suggests which of the following about the button tin?",
+        "options": [
+          {
+            "t": "It holds sentimental value that only becomes clear through a close relationship with Iris.",
+            "correct": true
+          },
+          {
+            "t": "It is a valuable antique that visitors want to purchase.",
+            "trap": "not stated — visitors are only confused, not interested in buying"
+          },
+          {
+            "t": "It was originally intended as a sewing kit for household repairs.",
+            "trap": "not stated — no practical use is described"
+          },
+          {
+            "t": "It causes conflict between Iris and her granddaughter.",
+            "trap": "opposite — Beatriz is the one who understands and inherits it"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows that only Beatriz, through closeness to Iris, grasps the tin's true meaning."
+      },
+      "explanation": null,
+      "words": [
+        "reminiscence",
+        "oblivious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The negotiations dragged into their third week, and Consul Adaeze grew visibly restive, tapping her pen against untouched briefing papers.",
+          "Her counterpart across the table remained obdurate, refusing every compromise she proposed, however modest.",
+          "She began to suspect his intransigence was less about principle than about being seen, back home, as unyielding.",
+          "So she stopped offering compromises and instead asked him, plainly, what he was afraid his own government would say.",
+          "The question cracked something open that three weeks of proposals never had."
+        ],
+        "question": "Which choice best describes the shift in Consul Adaeze's strategy?",
+        "options": [
+          {
+            "t": "She abandons the negotiations entirely out of frustration.",
+            "trap": "not stated — she changes tactics, not gives up"
+          },
+          {
+            "t": "She agrees to every demand her counterpart makes.",
+            "trap": "opposite — she stops offering compromises"
+          },
+          {
+            "t": "She moves from offering concessions to directly addressing her counterpart's underlying motivation.",
+            "correct": true
+          },
+          {
+            "t": "She threatens to report her counterpart to his government.",
+            "trap": "not stated — she only asks a question"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence shows the effectiveness of her new approach, confirming the strategic shift described."
+      },
+      "explanation": null,
+      "words": [
+        "restive",
+        "obdurate"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The actor had a reputation for being mercurial, warm and generous one rehearsal, icily remote the next.",
+          "Younger cast members learned to read the weather of his moods before approaching him with questions.",
+          "Yet no one denied that his performances, however unpredictable the man behind them, were consistently exemplary.",
+          "Onstage he seemed to gather every scattered, fractious piece of himself into something whole and commanding.",
+          "It was as if the chaos offstage was simply the cost of the control he achieved under the lights."
+        ],
+        "question": "The passage suggests that the contrast between the actor's offstage behavior and his onstage performance",
+        "options": [
+          {
+            "t": "proves that his offstage moods never affect his colleagues.",
+            "trap": "contradicted — cast members adjust their behavior around him"
+          },
+          {
+            "t": "shows that his performances have declined in quality over time.",
+            "trap": "opposite — his performances are called exemplary"
+          },
+          {
+            "t": "indicates that he plans to retire from acting soon.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "reflects a kind of trade-off between his personal instability and his professional discipline.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This final sentence directly frames the relationship between his instability and his onstage control as a trade-off."
+      },
+      "explanation": null,
+      "words": [
+        "mercurial",
+        "exemplary",
+        "fractious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The letters between the two scientists, once thought lost, revealed a friendship far more fervent than their published papers suggested.",
+          "In public, they were rivals, each publishing rebuttals of the other's theories with barely concealed relish.",
+          "In private, they exchanged encouragement, admitted doubts, and once, memorably, apologized for a review neither had wanted to write.",
+          "The archivist who found the letters called the discovery a redemption of two reputations long flattened into caricature.",
+          "History, it turned out, had preferred the simpler, more lucid story of enemies to the messier truth of friends who argued in public."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "Newly discovered letters reveal a private friendship that complicates the scientists' public reputation as rivals.",
+            "correct": true
+          },
+          {
+            "t": "The scientists secretly hated each other despite appearing friendly in public.",
+            "trap": "opposite — public rivalry masked private friendship"
+          },
+          {
+            "t": "The archivist fabricated the letters to improve the scientists' reputations.",
+            "trap": "not stated — no suggestion of fabrication"
+          },
+          {
+            "t": "The scientists' published papers were more honest than their letters.",
+            "trap": "reverses the passage's actual claim"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "The archivist's characterization directly summarizes how the letters complicate the public narrative, capturing the main idea."
+      },
+      "explanation": null,
+      "words": [
+        "fervent",
+        "lucid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Amara's grandmother called every hardship a lesson in disguise, an outlook Amara privately found hackneyed.",
+          "But after the factory closed and half the town scattered looking for work, she began to understand what the old woman meant.",
+          "It wasn't that suffering was secretly good; it was that people, denied their old certainties, discovered abilities they never knew they had.",
+          "Her uncle, laid off at fifty, opened a bakery that outlasted the factory by a decade, a small but laudable act of reinvention.",
+          "Amara stopped rolling her eyes at the saying, though she never quite said so out loud."
+        ],
+        "question": "Which choice best describes how Amara's view of her grandmother's saying changes over the passage?",
+        "options": [
+          {
+            "t": "She moves from believing the saying to actively rejecting it.",
+            "trap": "reverses the actual direction of change"
+          },
+          {
+            "t": "She moves from dismissing the saying to privately recognizing some truth in it.",
+            "correct": true
+          },
+          {
+            "t": "She remains unconvinced of the saying throughout the passage.",
+            "trap": "contradicted by her admitted shift in understanding"
+          },
+          {
+            "t": "She repeats the saying publicly to comfort her uncle.",
+            "trap": "not stated — she never says so out loud"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This final sentence shows her internal shift without public acknowledgment, confirming the described change."
+      },
+      "explanation": null,
+      "words": [
+        "hackneyed",
+        "laudable"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The new intern's questions were relentless, arriving in a steady stream that some senior editors found exhausting.",
+          "Others, like Delphine, found the questions oddly bracing, a reminder of how much she had begun to take for granted.",
+          "She started keeping a small notebook of the ones she couldn't answer immediately.",
+          "By the end of the month, it held more entries than she expected, each one a small crack in her own complacency and latent assumptions.",
+          "She began to think the intern had taught her more than she had taught him."
+        ],
+        "question": "The passage indicates that Delphine's notebook primarily represents",
+        "options": [
+          {
+            "t": "a formal evaluation of the intern's performance for management.",
+            "trap": "not stated — no evaluative purpose is mentioned"
+          },
+          {
+            "t": "a list of complaints about the intern's excessive questioning.",
+            "trap": "contradicted — she finds the questions 'bracing,' not annoying"
+          },
+          {
+            "t": "a record of the gaps the intern's questions exposed in her own understanding.",
+            "correct": true
+          },
+          {
+            "t": "a collection of story ideas she plans to publish.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains what the growing notebook actually reveals about her own assumptions."
+      },
+      "explanation": null,
+      "words": [
+        "relentless",
+        "latent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Every family reunion, someone brought up the inheritance dispute, and every year Grandpa Silas grew phlegmatic and left the table early.",
+          "This year, his sister Odalys finally broke the pattern, saying plainly what the family had circled for a decade with rancor rather than resolution.",
+          "'The land matters less to me now than whether we still talk to each other,' she said, and the table went quiet.",
+          "Silas, who had rehearsed a dozen counterarguments over the years, found he had nothing rehearsed for this.",
+          "He simply nodded, and for the first time in years, stayed through dessert."
+        ],
+        "question": "Which choice best describes the function of Odalys's statement in sentence 3?",
+        "options": [
+          {
+            "t": "It reignites the argument more fiercely than in previous years.",
+            "trap": "opposite — the argument is defused, not reignited"
+          },
+          {
+            "t": "It reveals that Odalys no longer wants any relationship with her family.",
+            "trap": "opposite — she emphasizes the value of staying connected"
+          },
+          {
+            "t": "It proves that Silas has always agreed with Odalys about the land.",
+            "trap": "not stated — he has always had counterarguments prepared"
+          },
+          {
+            "t": "It reframes the long-standing dispute in a way that disarms Silas's usual defensiveness.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "Silas's changed behavior — staying through dessert — shows the statement successfully disarmed the old pattern."
+      },
+      "explanation": null,
+      "words": [
+        "phlegmatic",
+        "rancor"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The apprentice blacksmith found the master's insistence on precision almost punctilious at first, a fussiness over angles that seemed to slow the work.",
+          "Only after ruining three blades did he understand that the fussiness was the craft, not an obstacle to it.",
+          "Each correction, however minor it seemed, prevented a flaw that would surface only under stress, far from the forge.",
+          "He began to welcome the master's exacting eye rather than resent it.",
+          "By winter, he corrected his own angles before the master even had to look, the old irascible impatience finally gone."
+        ],
+        "question": "Which choice best captures the change in the apprentice's attitude across the passage?",
+        "options": [
+          {
+            "t": "He shifts from viewing precision as an annoyance to recognizing it as essential to good craftsmanship.",
+            "correct": true
+          },
+          {
+            "t": "He shifts from admiring the master to resenting his criticism.",
+            "trap": "reverses the actual direction of change"
+          },
+          {
+            "t": "He decides precision is unnecessary and abandons the master's methods.",
+            "trap": "opposite — he adopts the master's exacting standards"
+          },
+          {
+            "t": "He becomes frustrated and quits his apprenticeship by winter.",
+            "trap": "contradicted — he continues and even self-corrects by winter"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This final sentence shows the apprentice has internalized the master's standard, confirming the shift in attitude."
+      },
+      "explanation": null,
+      "words": [
+        "punctilious",
+        "irascible"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The town's one bookstore survived mostly on the largesse of a single benefactor who never asked for recognition.",
+          "Locals speculated for years about who kept the lights on through the leanest winters.",
+          "It wasn't until the benefactor's funeral that the owner, Petra, learned the truth from a lawyer's letter.",
+          "She stood in the empty shop afterward, surrounded by shelves that had quietly outlived their secret, munificent patron.",
+          "Grief and gratitude, she found, could occupy the same hour without canceling each other out."
+        ],
+        "question": "The final sentence primarily serves to",
+        "options": [
+          {
+            "t": "suggest that Petra no longer feels gratitude toward her benefactor.",
+            "trap": "contradicted — gratitude is explicitly named"
+          },
+          {
+            "t": "capture the complex, coexisting emotions Petra feels upon learning the truth.",
+            "correct": true
+          },
+          {
+            "t": "reveal that Petra plans to close the bookstore.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "prove that the benefactor's identity was widely known all along.",
+            "trap": "opposite — it was a secret until the funeral"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence directly names both emotions and asserts they coexist, which is the sentence's clear function."
+      },
+      "explanation": null,
+      "words": [
+        "largesse",
+        "munificent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The sailors regarded the new captain's optimism as a fool's gamble, wary and incredulous after weathering too many false assurances before.",
+          "She promised calm seas through the strait, a promise every veteran aboard privately doubted.",
+          "When the water did stay unnervingly still, some called it luck, others her uncanny reading of the sky.",
+          "Either way, doubt slowly gave way to something like trust, forged not by her words but by the accuracy of her predictions.",
+          "By the voyage's end, even the most skeptical hand had stopped keeping a private, petulant tally of her mistakes."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The sailors never come to trust the new captain despite her accurate predictions.",
+            "trap": "contradicted — trust is explicitly gained by the end"
+          },
+          {
+            "t": "The captain's promises are proven false by the end of the voyage.",
+            "trap": "opposite — her prediction of calm seas comes true"
+          },
+          {
+            "t": "The sailors' initial skepticism toward the captain gives way to trust earned through demonstrated competence.",
+            "correct": true
+          },
+          {
+            "t": "The sailors mutiny against the captain's leadership.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains the mechanism by which doubt turns to trust, capturing the passage's central arc."
+      },
+      "explanation": null,
+      "words": [
+        "incredulous",
+        "petulant"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The city council meeting had grown pugnacious long before the vote on the new park was called.",
+          "Neighbors who had waved to each other for decades now traded accusations across the folding chairs.",
+          "Councilwoman Reyes let the noise run its course rather than gaveling it down immediately.",
+          "She had learned that people needed to feel heard, however querulous their complaints, before they could hear anyone else.",
+          "When she finally spoke, the room quieted not because she demanded it, but because it was ready to listen."
+        ],
+        "question": "Which choice best describes Councilwoman Reyes's approach to the contentious meeting?",
+        "options": [
+          {
+            "t": "She allows the conflict to run its course, judging that patience will earn genuine attention.",
+            "correct": true
+          },
+          {
+            "t": "She immediately silences the disagreement to restore order.",
+            "trap": "opposite — she lets the noise continue rather than gaveling it down"
+          },
+          {
+            "t": "She sides openly with one group of neighbors against the other.",
+            "trap": "not stated — no side-taking is described"
+          },
+          {
+            "t": "She cancels the vote on the new park entirely.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence explains the reasoning behind her patient approach, directly supporting the described strategy."
+      },
+      "explanation": null,
+      "words": [
+        "pugnacious",
+        "querulous"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Every year, the harvest festival ended with old Dov reciting the same rambling toast, a ritual his grandchildren found endearingly garrulous.",
+          "He would wander from the weather to his late wife to a debt owed him decades ago, never quite arriving at a point.",
+          "This year, though, he stopped mid-sentence, looked around the table, and simply said, 'I'm glad you're all still here.'",
+          "The brevity stunned the family more than any of his longer, more loquacious speeches ever had.",
+          "Some silences, they realized, said more than a lifetime of rambling toasts."
+        ],
+        "question": "The passage's final sentence primarily functions to",
+        "options": [
+          {
+            "t": "criticize Dov for failing to give his usual toast.",
+            "trap": "not stated — the family is moved, not critical"
+          },
+          {
+            "t": "suggest that Dov has forgotten how to speak in public.",
+            "trap": "not stated — his brevity is deliberate, not forgetfulness"
+          },
+          {
+            "t": "explain why the family no longer holds the harvest festival.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "underscore the emotional weight of Dov's uncharacteristically brief remark.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows the family's reaction, which the final sentence then interprets and generalizes."
+      },
+      "explanation": null,
+      "words": [
+        "garrulous",
+        "loquacious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The violinist's tone had once been called ethereal by a critic who meant it as the highest praise.",
+          "Years later, after an injury stiffened her wrist, she wondered if that lightness was gone for good.",
+          "Her teacher disagreed, insisting the injury had only exposed a different, more grounded, resonant music in her playing.",
+          "Audiences who remembered her early recordings noticed the change but rarely called it a loss.",
+          "What she gained, it seemed, was a sound with more weight behind its beauty."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The violinist's injury permanently ended her career as a performer.",
+            "trap": "not stated — she continues to have audiences and recordings"
+          },
+          {
+            "t": "An injury transforms the violinist's playing style without necessarily diminishing its quality.",
+            "correct": true
+          },
+          {
+            "t": "Critics unanimously agree the violinist's playing has gotten worse.",
+            "trap": "contradicted — audiences rarely call it a loss"
+          },
+          {
+            "t": "The violinist secretly wishes she had never been injured.",
+            "trap": "not stated — no regret is expressed"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This closing sentence reframes the change as a gain rather than a loss, capturing the passage's central point."
+      },
+      "explanation": null,
+      "words": [
+        "ethereal",
+        "resonant"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The twins had always been treated as a matched set, their differences flattened by a lifetime of shared birthdays and identical haircuts.",
+          "It took a summer apart, one at a coding camp and one on a fishing boat, to reveal how different they truly were.",
+          "When they reunited, their mother noted with some surprise that one had grown reticent and careful with money, the other loud and prodigal with both words and cash.",
+          "Neither twin seemed troubled by the divergence; if anything, each seemed relieved to finally be seen apart from the other.",
+          "The matched set, it turned out, had only ever been a convenient shorthand."
+        ],
+        "question": "The passage most strongly suggests that the twins' summer apart resulted in",
+        "options": [
+          {
+            "t": "a permanent rift between the two siblings.",
+            "trap": "not stated — neither twin seems troubled or estranged"
+          },
+          {
+            "t": "their mother's decision to separate them permanently.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "a clearer sense of their individual identities.",
+            "correct": true
+          },
+          {
+            "t": "identical personalities becoming even more identical.",
+            "trap": "opposite — the summer revealed differences, not sameness"
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence shows both twins welcoming their newfound individuality, supporting the idea that the summer clarified their identities."
+      },
+      "explanation": null,
+      "words": [
+        "prodigal",
+        "reticent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The junior architect's design was elegant, but her mentor called it too austere for a building meant to house a children's museum.",
+          "She bristled at the word at first, calling her mentor myopic and certain that restraint was simply good taste.",
+          "Walking through a rival museum, opulent and joyful, she watched children shriek with delight at every gaudy turn.",
+          "Something in her plans, she admitted reluctantly, had prioritized her own aesthetic over the people who would actually use the space.",
+          "Her next draft kept the discipline of her original lines but let color and whimsy back into the halls."
+        ],
+        "question": "Which choice best describes the change reflected in the architect's next draft?",
+        "options": [
+          {
+            "t": "She integrates a concern for children's enjoyment while retaining her structural discipline.",
+            "correct": true
+          },
+          {
+            "t": "She abandons her original design entirely to copy the rival museum.",
+            "trap": "too extreme — she keeps 'the discipline of her original lines'"
+          },
+          {
+            "t": "She refuses to change anything about her original plans.",
+            "trap": "contradicted — she revises her draft"
+          },
+          {
+            "t": "She decides children's museums should avoid all color and decoration.",
+            "trap": "opposite — she adds color and whimsy"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence explicitly describes the balance she strikes in her revised design, which is the passage's key development."
+      },
+      "explanation": null,
+      "words": [
+        "myopic",
+        "opulent"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "Every winter, the fishing village held a small ceremony for those lost at sea, a ritual some outsiders found needlessly morose.",
+          "The villagers disagreed; for them, the ceremony was less about mourning than about keeping a ledger of who deserved to be remembered.",
+          "Names were read aloud in the same order every year, a continuity that comforted more than it saddened.",
+          "New arrivals to the village often misunderstood the mood, expecting grief and finding instead something closer to quiet, sedentary pride.",
+          "By their second winter, most came to understand what the villagers had always known."
+        ],
+        "question": "The passage suggests that outsiders' initial view of the ceremony is best described as",
+        "options": [
+          {
+            "t": "an accurate description that the villagers eventually come to accept.",
+            "trap": "opposite — the villagers already understood it differently from the start"
+          },
+          {
+            "t": "a view that causes conflict between villagers and newcomers.",
+            "trap": "not stated — no conflict is described"
+          },
+          {
+            "t": "a perspective the ceremony was originally designed to encourage.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "a misreading that the villagers' actual experience of the ritual contradicts.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 3,
+        "evidenceWhy": "This sentence contrasts outsiders' expectation of grief with the actual mood of quiet pride, confirming the misreading."
+      },
+      "explanation": null,
+      "words": [
+        "morose",
+        "sedentary"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The chess prodigy's early tournaments were marked by a precocious confidence that unsettled opponents twice her age.",
+          "She rarely hesitated over a move, and rarely apologized for the games she won quickly and decisively.",
+          "One veteran player, beaten in eleven moves, called her play brash and pugnacious rather than brilliant.",
+          "Her coach later admitted the criticism stung, though he never let her see it.",
+          "In private, he began teaching her not just how to win, but how to lose with the same composure."
+        ],
+        "question": "Which choice best describes the coach's response, as shown in sentences 4 and 5?",
+        "options": [
+          {
+            "t": "He confronts the veteran player publicly to defend his student.",
+            "trap": "not stated — no confrontation is described"
+          },
+          {
+            "t": "He absorbs the criticism privately while quietly adjusting his approach to her development.",
+            "correct": true
+          },
+          {
+            "t": "He agrees that his student's playing style should remain unchanged.",
+            "trap": "contradicted — he begins teaching her something new"
+          },
+          {
+            "t": "He decides to stop coaching the prodigy altogether.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence shows the concrete change in his coaching, revealing how he processed the criticism internally."
+      },
+      "explanation": null,
+      "words": [
+        "precocious",
+        "pugnacious"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The retired judge kept a reputation for being inscrutable on the bench, her expression giving away nothing during even the most damning testimony.",
+          "Lawyers who tried to read her face for hints of a verdict left the courtroom no wiser than when they entered.",
+          "Off the bench, her law clerks knew a warmer, more animated woman who kept peppermints in her desk for nervous witnesses.",
+          "The two versions of her, public and private, rarely overlapped, and she preferred it that way.",
+          "It was easier to stay impartial, she liked to say, if no one could read your face, and no clerk found the rule onerous."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The judge is cold and unfeeling in both her public and private life.",
+            "trap": "contradicted — she is warm in private"
+          },
+          {
+            "t": "The judge's law clerks are frightened of her at all times.",
+            "trap": "not stated — they know a warmer side of her"
+          },
+          {
+            "t": "The judge deliberately separates her private warmth from her professional impassiveness to preserve fairness.",
+            "correct": true
+          },
+          {
+            "t": "The judge plans to reveal her true feelings in future rulings.",
+            "trap": "not stated in the passage"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This closing quotation explains her reasoning for maintaining the separation, which is the passage's central claim."
+      },
+      "explanation": null,
+      "words": [
+        "impartial",
+        "onerous"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The novelist's early drafts were, by her own admission, redundant to the point of exhaustion, the same image repeated in three different chapters.",
+          "Her editor never suggested she had less to say; he simply asked her to say it once, and say it well.",
+          "She spent that winter cutting nearly forty thousand words, watching her manuscript grow leaner and, strangely, louder.",
+          "What had felt like sacrifice on the page read, in the end, like clarity.",
+          "The book that emerged said in three hundred lucid pages what the draft had struggled to say in five hundred."
+        ],
+        "question": "Which choice best describes the effect of the editing process on the novelist's manuscript?",
+        "options": [
+          {
+            "t": "Cutting repetitive material made the manuscript more effective, not merely shorter.",
+            "correct": true
+          },
+          {
+            "t": "The editing process removed the novelist's original ideas from the book.",
+            "trap": "contradicted — the editor says she has plenty to say"
+          },
+          {
+            "t": "The novelist refused to make any cuts suggested by her editor.",
+            "trap": "opposite — she cut nearly forty thousand words"
+          },
+          {
+            "t": "The final version of the book was longer than the original draft.",
+            "trap": "opposite — the final version is shorter"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This sentence quantifies the improvement, showing the shorter version communicates more effectively than the longer draft."
+      },
+      "explanation": null,
+      "words": [
+        "redundant",
+        "lucid"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The diplomat's memoir described her early career as a series of small, calculated risks rather than any single dramatic gamble.",
+          "She wrote of learning to be judicious about which battles were worth the political cost of fighting.",
+          "Colleagues who expected sweeping declarations from her memoir found instead a patient, unadorned accounting of compromises.",
+          "Some critics called the book anticlimactic; others called it the most honest, salient diplomatic memoir in a decade.",
+          "The disagreement, she suspected, said more about readers' expectations of drama than about the book itself."
+        ],
+        "question": "The passage most strongly suggests that critical disagreement over the memoir stems from",
+        "options": [
+          {
+            "t": "factual errors the diplomat included in her account of events.",
+            "trap": "not stated — no factual errors are mentioned"
+          },
+          {
+            "t": "the diplomat's refusal to discuss her career at all.",
+            "trap": "contradicted — she discusses her career in detail"
+          },
+          {
+            "t": "disagreement about whether the diplomat should have retired earlier.",
+            "trap": "not stated in the passage"
+          },
+          {
+            "t": "a mismatch between the book's quiet honesty and readers' expectations of dramatic storytelling.",
+            "correct": true
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This final sentence explicitly attributes the critical split to mismatched expectations rather than any flaw in the book."
+      },
+      "explanation": null,
+      "words": [
+        "judicious",
+        "salient"
+      ]
+    },
+    {
+      "gameType": "read_the_green",
+      "domain": "info_ideas",
+      "difficulty": 3,
+      "payload": {
+        "sentences": [
+          "The lighthouse keeper's log was full of entries so laconic that historians later mined them for meaning like miners panning for gold.",
+          "'Storm. Boat lost. No survivors found,' read one entry from a night that, by other accounts, had taken eleven hours to endure.",
+          "Some readers found the brevity cold, even callous, given the scale of what had happened.",
+          "Others argued that only someone who had lived through such nights could understand why words felt inadequate to them.",
+          "The log, in its silences, said as much about grief as any longer, more garrulous account might have."
+        ],
+        "question": "Which choice best states the main idea of the passage?",
+        "options": [
+          {
+            "t": "The lighthouse keeper felt no sorrow about the deaths he recorded.",
+            "trap": "contradicted — the final sentence links the silences to grief"
+          },
+          {
+            "t": "The lighthouse keeper's sparse writing reflects a restrained response to tragedy that later readers interpret in different ways.",
+            "correct": true
+          },
+          {
+            "t": "Historians agree unanimously that the log's brevity was disrespectful.",
+            "trap": "contradicted — readers are divided, not unanimous"
+          },
+          {
+            "t": "The log contains detailed, lengthy descriptions of every storm.",
+            "trap": "opposite — the entries are described as laconic"
+          }
+        ],
+        "evidenceIndex": 4,
+        "evidenceWhy": "This closing sentence ties the sparse language to grief, capturing the passage's balanced interpretation."
+      },
+      "explanation": null,
+      "words": [
+        "laconic",
+        "garrulous"
+      ]
+    }
+  ]
+}

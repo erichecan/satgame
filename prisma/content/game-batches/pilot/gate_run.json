@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "She was exhausted",
+        "after": "she kept running.",
+        "doors": [",", ";"],
+        "correctIndex": 1,
+        "why": "Two complete sentences — a comma would splice them, so use a semicolon."
+      },
+      "explanation": "Two independent clauses need a semicolon, not a comma, to avoid a comma splice.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The museum's new exhibit features only one artist's work",
+        "after": "a reclusive sculptor from Vermont.",
+        "doors": [":", ";"],
+        "correctIndex": 0,
+        "why": "The first part is a complete sentence introducing an explanation/identification, which a colon sets up."
+      },
+      "explanation": "A colon follows a complete sentence to introduce an explanation; the second part is not an independent clause, so a semicolon would be wrong.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 1,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The recipe called for three ingredients",
+        "after": "flour, sugar, and butter.",
+        "doors": [";", ":"],
+        "correctIndex": 1,
+        "why": "The first clause is complete and the second part is a list explaining it, which requires a colon."
+      },
+      "explanation": "Colons introduce lists after a complete sentence; a semicolon needs an independent clause on both sides, which the list is not.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "My neighbor",
+        "after": "a retired firefighter, volunteers at the shelter every weekend.",
+        "doors": [",", "—"],
+        "correctIndex": 0,
+        "why": "The phrase 'a retired firefighter' is a non-essential appositive describing my neighbor, so it takes matching commas."
+      },
+      "explanation": "A non-essential appositive is set off with commas on both sides; a single dash would not match the closing comma later in the sentence.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 3,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The results were surprising",
+        "after": "startling enough that the lead researcher asked for a second trial.",
+        "doors": [",", "—"],
+        "correctIndex": 1,
+        "why": "The dash sets off a dramatic restatement/elaboration of 'surprising,' a stronger break than a comma allows."
+      },
+      "explanation": "A dash before an emphatic elaboration signals a sharper break than a comma, a stylistic option the SAT tests when a phrase restates or intensifies the prior idea.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "punctuation",
+        "before": "The bridge had been closed for months",
+        "after": "engineers finally reopened it last week.",
+        "doors": [".", ","],
+        "correctIndex": 0,
+        "why": "Both parts are independent clauses with no coordinating conjunction, so joining them with only a comma creates a comma splice — a period (or semicolon) is needed."
+      },
+      "explanation": "Two independent clauses without a coordinating conjunction cannot be joined by a comma alone; use a period or semicolon.",
+      "words": []
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The forecast was grim.",
+        "after": "we set out anyway.",
+        "doors": ["Nevertheless", "Therefore"],
+        "correctIndex": 0,
+        "why": "Acting against the grim forecast signals concession/contrast."
+      },
+      "explanation": "The outcome goes against expectation set by the grim forecast, so a contrast connector fits, not a result connector.",
+      "words": ["nevertheless"]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "The factory doubled its output.",
+        "after": "profits rose sharply that quarter.",
+        "doors": ["However", "Consequently"],
+        "correctIndex": 1,
+        "why": "Higher output directly causing higher profits is a cause-and-effect relationship, which needs a result connector."
+      },
+      "explanation": "The second sentence describes a direct effect of the first, so a result/cause connector is needed rather than a contrast one.",
+      "words": ["consequently"]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 3,
+      "payload": {
+        "kind": "transition",
+        "before": "The novel is celebrated for its vivid imagery.",
+        "after": "critics have praised its intricate plot structure.",
+        "doors": ["Moreover", "Whereas"],
+        "correctIndex": 0,
+        "why": "The second sentence adds another praiseworthy feature to the first, so an addition connector fits."
+      },
+      "explanation": "Both sentences list positive qualities of the novel, so the relationship is additive, not contrastive.",
+      "words": ["moreover"]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "Most students found the lecture too abstract.",
+        "after": "a few praised its clarity.",
+        "doors": ["Similarly", "Whereas"],
+        "correctIndex": 1,
+        "why": "The two groups had opposite reactions, so a contrast connector is required."
+      },
+      "explanation": "The sentence sets up a contrast between the majority's and minority's opinions, so 'Whereas' fits and 'Similarly' does not.",
+      "words": ["whereas"]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 2,
+      "payload": {
+        "kind": "transition",
+        "before": "Many species adapt their behavior to survive drought.",
+        "after": "some birds migrate hundreds of miles earlier than usual, arriving at their destinations weeks ahead of schedule.",
+        "doors": ["Although", "Similarly"],
+        "correctIndex": 1,
+        "why": "The second sentence gives another instance consistent with the general claim about adaptation, so an addition/parallel connector fits, not a contrast one."
+      },
+      "explanation": "The second clause supports and parallels the first, general statement about adaptation, which calls for an addition connector rather than a contrast one.",
+      "words": ["similarly"]
+    },
+    {
+      "gameType": "gate_run",
+      "domain": "expression_conventions",
+      "difficulty": 3,
+      "payload": {
+        "kind": "transition",
+        "before": "The committee had promised a decision by Friday.",
+        "after": "no announcement had been made by the following Monday.",
+        "doors": ["Despite this", "Furthermore"],
+        "correctIndex": 0,
+        "why": "The delay contradicts the promise made earlier, signaling contrast/concession."
+      },
+      "explanation": "The second sentence describes an outcome that conflicts with the expectation set by the first, so a contrast connector is needed, not an addition connector.",
+      "words": ["despite"]
+    }
+  ]
+}

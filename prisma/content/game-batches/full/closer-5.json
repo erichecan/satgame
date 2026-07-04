@@ -1,0 +1,754 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "consolidate",
+        "def": "to combine separate parts into a single, stronger whole",
+        "pos": "verb",
+        "ex": "After the merger, the two departments will {word} into a single unit with one budget."
+      },
+      "explanation": null,
+      "words": [
+        "consolidate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "conspicuous",
+        "def": "standing out so as to be easily seen or noticed",
+        "pos": "adjective",
+        "ex": "The lone yellow umbrella was {word} against the gray, rain-soaked skyline."
+      },
+      "explanation": null,
+      "words": [
+        "conspicuous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "contentious",
+        "def": "causing or likely to cause an argument; controversial",
+        "pos": "adjective",
+        "ex": "Whether to rezone the riverfront became the most {word} topic at the council meeting."
+      },
+      "explanation": null,
+      "words": [
+        "contentious"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "contrite",
+        "def": "feeling or showing sincere regret for wrongdoing",
+        "pos": "adjective",
+        "ex": "Looking {word}, the intern admitted the error and offered to redo the entire report overnight."
+      },
+      "explanation": null,
+      "words": [
+        "contrite"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "conundrum",
+        "def": "a confusing and difficult problem or question",
+        "pos": "noun",
+        "ex": "Deciding which twin had cheated on the test was a genuine {word} for the teacher."
+      },
+      "explanation": null,
+      "words": [
+        "conundrum"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "convivial",
+        "def": "friendly, lively, and enjoyable, especially in a social setting",
+        "pos": "adjective",
+        "ex": "Laughter and clinking glasses filled the {word} dinner party long after midnight."
+      },
+      "explanation": null,
+      "words": [
+        "convivial"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "copious",
+        "def": "abundant or plentiful in supply",
+        "pos": "adjective",
+        "ex": "The chef kept {word} jars of spices lined up, enough to season a hundred meals."
+      },
+      "explanation": null,
+      "words": [
+        "copious"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "corroborate",
+        "def": "to confirm or support a statement or theory with evidence",
+        "pos": "verb",
+        "ex": "Security footage from a nearby shop helped {word} the witness's version of events."
+      },
+      "explanation": null,
+      "words": [
+        "corroborate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cosmopolitan",
+        "def": "familiar with and comfortable in many different countries and cultures",
+        "pos": "adjective",
+        "ex": "Having lived on four continents, she felt at ease in almost any {word} city she visited."
+      },
+      "explanation": null,
+      "words": [
+        "cosmopolitan"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "credulous",
+        "def": "too ready to believe things without enough evidence",
+        "pos": "adjective",
+        "ex": "The scammer targeted {word} shoppers who never questioned the too-good-to-be-true discount."
+      },
+      "explanation": null,
+      "words": [
+        "credulous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cryptic",
+        "def": "having a meaning that is mysterious or not easily understood",
+        "pos": "adjective",
+        "ex": "The old professor left a {word} note on the whiteboard that no student could decipher."
+      },
+      "explanation": null,
+      "words": [
+        "cryptic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "culminate",
+        "def": "to reach a final, climactic point after a series of events",
+        "pos": "verb",
+        "ex": "Months of rehearsals finally {word} in a single, unforgettable opening night."
+      },
+      "explanation": null,
+      "words": [
+        "culminate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cupidity",
+        "def": "greed for money or possessions",
+        "pos": "noun",
+        "ex": "Pure {word} drove the merchant to double his prices during the flood, ignoring his neighbors' hardship."
+      },
+      "explanation": null,
+      "words": [
+        "cupidity"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cursory",
+        "def": "done quickly and without attention to detail",
+        "pos": "adjective",
+        "ex": "A {word} glance at the contract missed the clause that later caused so much trouble."
+      },
+      "explanation": null,
+      "words": [
+        "cursory"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "curtail",
+        "def": "to reduce or limit something",
+        "pos": "verb",
+        "ex": "The city voted to {word} late-night construction noise near the hospital."
+      },
+      "explanation": null,
+      "words": [
+        "curtail"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "dearth",
+        "def": "a scarcity or lack of something",
+        "pos": "noun",
+        "ex": "During the drought, farmers faced a severe {word} of fresh water for their crops."
+      },
+      "explanation": null,
+      "words": [
+        "dearth"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "debacle",
+        "def": "a sudden, complete failure or disaster",
+        "pos": "noun",
+        "ex": "The product launch turned into a {word} when the app crashed in front of investors."
+      },
+      "explanation": null,
+      "words": [
+        "debacle"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "debilitate",
+        "def": "to make someone or something weak",
+        "pos": "verb",
+        "ex": "A slow-moving virus continued to {word} the once-thriving coral reef over the decade."
+      },
+      "explanation": null,
+      "words": [
+        "debilitate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "decorous",
+        "def": "behaving in a way that is proper and socially appropriate",
+        "pos": "adjective",
+        "ex": "Even amid the chaos of the wedding, the flower girl remained perfectly {word}."
+      },
+      "explanation": null,
+      "words": [
+        "decorous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deference",
+        "def": "respectful submission to the wishes or judgment of another",
+        "pos": "noun",
+        "ex": "The junior engineer spoke with {word} toward the veteran architect's design choices."
+      },
+      "explanation": null,
+      "words": [
+        "deference"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deleterious",
+        "def": "causing harm or damage",
+        "pos": "adjective",
+        "ex": "Years of unfiltered exhaust had a clearly {word} effect on the city's air quality."
+      },
+      "explanation": null,
+      "words": [
+        "deleterious"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "demagogue",
+        "def": "a political leader who seeks support by appealing to popular emotions and prejudices",
+        "pos": "noun",
+        "ex": "Historians later described the candidate as a {word} who thrived on fear rather than facts."
+      },
+      "explanation": null,
+      "words": [
+        "demagogue"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "demure",
+        "def": "shy and modest in behavior or appearance",
+        "pos": "adjective",
+        "ex": "She gave a {word} nod instead of joining the loud celebration on stage."
+      },
+      "explanation": null,
+      "words": [
+        "demure"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "denigrate",
+        "def": "to criticize someone or something unfairly in order to damage their reputation",
+        "pos": "verb",
+        "ex": "Rival campaigns often {word} each other's records rather than debate policy."
+      },
+      "explanation": null,
+      "words": [
+        "denigrate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deplete",
+        "def": "to use up the supply or resources of something",
+        "pos": "verb",
+        "ex": "The marathon's final miles began to {word} even the best-trained runners' energy reserves."
+      },
+      "explanation": null,
+      "words": [
+        "deplete"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deplore",
+        "def": "to strongly disapprove of something",
+        "pos": "verb",
+        "ex": "Community leaders publicly {word} the vandalism of the memorial park."
+      },
+      "explanation": null,
+      "words": [
+        "deplore"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deride",
+        "def": "to mock or ridicule someone or something",
+        "pos": "verb",
+        "ex": "Critics were quick to {word} the film's clumsy dialogue and wooden acting."
+      },
+      "explanation": null,
+      "words": [
+        "deride"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "derivative",
+        "def": "imitative of the work of another artist or writer, and therefore not original",
+        "pos": "adjective",
+        "ex": "The reviewer called the new sitcom painfully {word}, borrowing every joke from an older show."
+      },
+      "explanation": null,
+      "words": [
+        "derivative"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "desiccate",
+        "def": "to remove almost all the moisture from something, drying it thoroughly",
+        "pos": "verb",
+        "ex": "The desert wind can quickly {word} any plant lacking a thick, waxy skin."
+      },
+      "explanation": null,
+      "words": [
+        "desiccate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "despot",
+        "def": "a ruler who has absolute power and often uses it cruelly",
+        "pos": "noun",
+        "ex": "The exiled {word} once banned newspapers that dared print any criticism of his rule."
+      },
+      "explanation": null,
+      "words": [
+        "despot"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "deter",
+        "def": "to discourage someone from doing something by making them afraid of the consequences",
+        "pos": "verb",
+        "ex": "Bright motion-sensor lights were installed to {word} anyone tempted to trespass at night."
+      },
+      "explanation": null,
+      "words": [
+        "deter"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "detrimental",
+        "def": "causing harm or damage",
+        "pos": "adjective",
+        "ex": "Skipping sleep before finals proved {word} to her concentration during the exam."
+      },
+      "explanation": null,
+      "words": [
+        "detrimental"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diaphanous",
+        "def": "light, delicate, and translucent enough to see through",
+        "pos": "adjective",
+        "ex": "The dancer's {word} scarf floated behind her like a wisp of morning fog."
+      },
+      "explanation": null,
+      "words": [
+        "diaphanous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "didactic",
+        "def": "intended to teach or instruct, often excessively so",
+        "pos": "adjective",
+        "ex": "The novel's ending felt overly {word}, spelling out its moral in case anyone had missed it."
+      },
+      "explanation": null,
+      "words": [
+        "didactic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diffident",
+        "def": "shy and lacking confidence in oneself",
+        "pos": "adjective",
+        "ex": "Despite years of practice, he remained {word} whenever asked to speak in front of a crowd."
+      },
+      "explanation": null,
+      "words": [
+        "diffident"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "digress",
+        "def": "to move away from the main topic temporarily in speaking or writing",
+        "pos": "verb",
+        "ex": "The lecturer would often {word} into stories about his college years before returning to the syllabus."
+      },
+      "explanation": null,
+      "words": [
+        "digress"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diligent",
+        "def": "showing careful and persistent effort in one's work",
+        "pos": "adjective",
+        "ex": "Her {word} note-taking during the trial impressed even the presiding judge."
+      },
+      "explanation": null,
+      "words": [
+        "diligent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "diminutive",
+        "def": "extremely small in size",
+        "pos": "adjective",
+        "ex": "The {word} sports car barely had room for a briefcase, let alone luggage."
+      },
+      "explanation": null,
+      "words": [
+        "diminutive"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disconcerting",
+        "def": "causing someone to feel confused, unsettled, or worried",
+        "pos": "adjective",
+        "ex": "It was {word} to hear footsteps upstairs in a house everyone thought was empty."
+      },
+      "explanation": null,
+      "words": [
+        "disconcerting"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "discordant",
+        "def": "not in harmony or agreement; sounding harsh together",
+        "pos": "adjective",
+        "ex": "The band's rehearsal produced a {word} mix of instruments still finding the right key."
+      },
+      "explanation": null,
+      "words": [
+        "discordant"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "discreet",
+        "def": "careful to avoid causing embarrassment or attracting notice, especially about sensitive matters",
+        "pos": "adjective",
+        "ex": "The assistant was {word} about the executive's medical appointments, never mentioning them aloud."
+      },
+      "explanation": null,
+      "words": [
+        "discreet"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "discrepancy",
+        "def": "a difference between two things that should match",
+        "pos": "noun",
+        "ex": "Auditors flagged a {word} between the shipment records and the warehouse's actual inventory."
+      },
+      "explanation": null,
+      "words": [
+        "discrepancy"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disdain",
+        "def": "a feeling that someone or something is beneath consideration or unworthy of respect",
+        "pos": "noun",
+        "ex": "He viewed the tabloid headlines with open {word}, refusing even to glance at the covers."
+      },
+      "explanation": null,
+      "words": [
+        "disdain"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disingenuous",
+        "def": "not sincere, especially by pretending to know less than one actually does",
+        "pos": "adjective",
+        "ex": "It seemed {word} for the company to claim surprise at complaints it had received for months."
+      },
+      "explanation": null,
+      "words": [
+        "disingenuous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disparate",
+        "def": "very different from each other, so as to seem unrelated",
+        "pos": "adjective",
+        "ex": "The exhibit somehow united {word} pieces, from ancient pottery to digital sculpture, into one theme."
+      },
+      "explanation": null,
+      "words": [
+        "disparate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "dispassionate",
+        "def": "not influenced by strong emotion, and therefore fair or rational",
+        "pos": "adjective",
+        "ex": "The referee's {word} review of the replay settled the dispute without any favoritism."
+      },
+      "explanation": null,
+      "words": [
+        "dispassionate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disperse",
+        "def": "to scatter or spread out in different directions",
+        "pos": "verb",
+        "ex": "Police asked the crowd to {word} peacefully once the concert ended."
+      },
+      "explanation": null,
+      "words": [
+        "disperse"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "disseminate",
+        "def": "to spread information or ideas widely",
+        "pos": "verb",
+        "ex": "The health ministry used radio broadcasts to {word} guidance during the outbreak."
+      },
+      "explanation": null,
+      "words": [
+        "disseminate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "dissent",
+        "def": "disagreement with an official opinion or decision",
+        "pos": "noun",
+        "ex": "One justice's written {word} argued that the majority had misread the statute entirely."
+      },
+      "explanation": null,
+      "words": [
+        "dissent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "dissonance",
+        "def": "a lack of harmony or agreement, especially in sound or ideas",
+        "pos": "noun",
+        "ex": "The composer intentionally added moments of {word} before resolving them into a peaceful chord."
+      },
+      "explanation": null,
+      "words": [
+        "dissonance"
+      ]
+    }
+  ]
+}

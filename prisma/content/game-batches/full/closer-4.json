@@ -1,0 +1,754 @@
+{
+  "items": [
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "apprehensive",
+        "def": "anxious or fearful about something that may happen",
+        "pos": "adjective",
+        "ex": "Standing backstage, she felt {word} about forgetting her lines in front of the whole school."
+      },
+      "explanation": null,
+      "words": [
+        "apprehensive"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "arduous",
+        "def": "involving great effort or difficulty; strenuous",
+        "pos": "adjective",
+        "ex": "The {word} trek across the desert left the team dehydrated and stumbling by nightfall."
+      },
+      "explanation": null,
+      "words": [
+        "arduous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "articulate",
+        "def": "able to express ideas clearly and effectively in speech",
+        "pos": "adjective",
+        "ex": "The young debater was so {word} that even the judges struggled to find a counterargument."
+      },
+      "explanation": null,
+      "words": [
+        "articulate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "ascertain",
+        "def": "to find out something for certain through investigation",
+        "pos": "verb",
+        "ex": "Engineers ran three separate tests to {word} why the bridge cables had begun to fray."
+      },
+      "explanation": null,
+      "words": [
+        "ascertain"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "assiduous",
+        "def": "showing great care, effort, and persistence in work",
+        "pos": "adjective",
+        "ex": "Her {word} attention to every footnote impressed the editor, who rarely praised anyone's diligence."
+      },
+      "explanation": null,
+      "words": [
+        "assiduous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "austere",
+        "def": "plain and simple, without luxury or decoration",
+        "pos": "adjective",
+        "ex": "The monastery's {word} rooms held nothing but a bed, a chair, and a single candle."
+      },
+      "explanation": null,
+      "words": [
+        "austere"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "authoritarian",
+        "def": "favoring strict obedience to authority at the expense of personal freedom",
+        "pos": "adjective",
+        "ex": "Under the {word} principal, students were forbidden from speaking without raising a hand first."
+      },
+      "explanation": null,
+      "words": [
+        "authoritarian"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "autonomous",
+        "def": "able to act independently, without outside control",
+        "pos": "adjective",
+        "ex": "Once the colony became {word}, it no longer needed permission from the distant capital to pass laws."
+      },
+      "explanation": null,
+      "words": [
+        "autonomous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "avarice",
+        "def": "extreme greed for wealth or material gain",
+        "pos": "noun",
+        "ex": "The old merchant's {word} drove him to cheat even his closest partners out of a few coins."
+      },
+      "explanation": null,
+      "words": [
+        "avarice"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "aversion",
+        "def": "a strong dislike or unwillingness toward something",
+        "pos": "noun",
+        "ex": "His childhood illness left him with a lifelong {word} to the smell of hospital corridors."
+      },
+      "explanation": null,
+      "words": [
+        "aversion"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "banal",
+        "def": "so ordinary and unoriginal that it is boring",
+        "pos": "adjective",
+        "ex": "The critics dismissed the film's dialogue as {word}, full of lines they had heard a hundred times."
+      },
+      "explanation": null,
+      "words": [
+        "banal"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "belie",
+        "def": "to give a false impression of something",
+        "pos": "verb",
+        "ex": "Her calm expression seemed to {word} the panic that was racing through her mind."
+      },
+      "explanation": null,
+      "words": [
+        "belie"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "belligerent",
+        "def": "hostile and aggressive, ready to fight",
+        "pos": "adjective",
+        "ex": "The referee ejected the {word} coach after he shoved a player from the opposing team."
+      },
+      "explanation": null,
+      "words": [
+        "belligerent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "bombastic",
+        "def": "using high-sounding but empty or exaggerated language",
+        "pos": "adjective",
+        "ex": "The candidate's {word} speech promised miracles but offered no actual policy details."
+      },
+      "explanation": null,
+      "words": [
+        "bombastic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "boorish",
+        "def": "rude, crude, and lacking good manners",
+        "pos": "adjective",
+        "ex": "Guests were embarrassed by his {word} habit of interrupting the host mid-toast."
+      },
+      "explanation": null,
+      "words": [
+        "boorish"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "brazen",
+        "def": "bold and shameless, without any embarrassment",
+        "pos": "adjective",
+        "ex": "In a {word} move, the thief walked past three security guards carrying the stolen painting openly."
+      },
+      "explanation": null,
+      "words": [
+        "brazen"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "brevity",
+        "def": "the quality of being short and to the point",
+        "pos": "noun",
+        "ex": "The judge praised the lawyer's closing argument for its {word}, unlike the hours-long statement before it."
+      },
+      "explanation": null,
+      "words": [
+        "brevity"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "buoyant",
+        "def": "cheerful and optimistic; also able to float",
+        "pos": "adjective",
+        "ex": "Despite the layoffs, she remained {word}, certain a better opportunity was just around the corner."
+      },
+      "explanation": null,
+      "words": [
+        "buoyant"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "burgeon",
+        "def": "to grow or increase rapidly",
+        "pos": "verb",
+        "ex": "Interest in the small startup began to {word} after a single viral video mentioned its product."
+      },
+      "explanation": null,
+      "words": [
+        "burgeon"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "burnish",
+        "def": "to polish something until it shines; to improve a reputation",
+        "pos": "verb",
+        "ex": "The charity gala was widely seen as an attempt to {word} the company's tarnished image."
+      },
+      "explanation": null,
+      "words": [
+        "burnish"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cacophony",
+        "def": "a harsh, jarring mixture of sounds",
+        "pos": "noun",
+        "ex": "Car horns, shouting vendors, and screeching brakes blended into a {word} outside the station."
+      },
+      "explanation": null,
+      "words": [
+        "cacophony"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cajole",
+        "def": "to persuade someone gently through flattery or gentle urging",
+        "pos": "verb",
+        "ex": "It took twenty minutes to {word} her little brother into trying the unfamiliar dish."
+      },
+      "explanation": null,
+      "words": [
+        "cajole"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "callous",
+        "def": "showing no sympathy or concern for others' feelings",
+        "pos": "adjective",
+        "ex": "The manager's {word} response to the layoffs left employees feeling like mere numbers."
+      },
+      "explanation": null,
+      "words": [
+        "callous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "candor",
+        "def": "the quality of being honest and straightforward",
+        "pos": "noun",
+        "ex": "The interviewer thanked him for his {word}, since most guests dodged questions about the scandal."
+      },
+      "explanation": null,
+      "words": [
+        "candor"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "capitulate",
+        "def": "to stop resisting and accept an opponent's demands",
+        "pos": "verb",
+        "ex": "After months of siege, the fortress had no food left and was forced to {word}."
+      },
+      "explanation": null,
+      "words": [
+        "capitulate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "capricious",
+        "def": "changing mood or behavior suddenly and unpredictably",
+        "pos": "adjective",
+        "ex": "The {word} weather in the mountains could shift from sunshine to hail within an hour."
+      },
+      "explanation": null,
+      "words": [
+        "capricious"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "castigate",
+        "def": "to criticize or punish someone severely",
+        "pos": "verb",
+        "ex": "The coach did not hesitate to {word} the team after their careless mistakes in the final quarter."
+      },
+      "explanation": null,
+      "words": [
+        "castigate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "catalyst",
+        "def": "a person or thing that causes an important change or event",
+        "pos": "noun",
+        "ex": "The factory closing served as a {word} for the town's long-overdue push toward new industries."
+      },
+      "explanation": null,
+      "words": [
+        "catalyst"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "caustic",
+        "def": "sharply critical or bitter in tone; also chemically corrosive",
+        "pos": "adjective",
+        "ex": "The critic's {word} review left the young playwright too discouraged to write for months."
+      },
+      "explanation": null,
+      "words": [
+        "caustic"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "charlatan",
+        "def": "a person who falsely claims to have special knowledge or skill",
+        "pos": "noun",
+        "ex": "The so-called healer was exposed as a {word} once his miracle cures were tested in a lab."
+      },
+      "explanation": null,
+      "words": [
+        "charlatan"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "chastise",
+        "def": "to scold or reprimand someone severely",
+        "pos": "verb",
+        "ex": "Her parents did not {word} her for the broken vase, surprising everyone who expected a lecture."
+      },
+      "explanation": null,
+      "words": [
+        "chastise"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "chicanery",
+        "def": "the use of trickery or deception to achieve a goal",
+        "pos": "noun",
+        "ex": "Investigators uncovered years of financial {word} hidden behind falsified spreadsheets."
+      },
+      "explanation": null,
+      "words": [
+        "chicanery"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "circuitous",
+        "def": "longer and less direct than a straight path",
+        "pos": "adjective",
+        "ex": "We took a {word} route through back roads to avoid the traffic on the main highway."
+      },
+      "explanation": null,
+      "words": [
+        "circuitous"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "clairvoyant",
+        "def": "having the supposed ability to perceive things beyond normal senses",
+        "pos": "adjective",
+        "ex": "The carnival fortune-teller claimed to be {word}, though her predictions were vague enough to fit anyone."
+      },
+      "explanation": null,
+      "words": [
+        "clairvoyant"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "clandestine",
+        "def": "done secretly, often because it is illegal or disapproved of",
+        "pos": "adjective",
+        "ex": "The spies met in a {word} location far from any surveillance cameras."
+      },
+      "explanation": null,
+      "words": [
+        "clandestine"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "coalesce",
+        "def": "to come together to form one whole",
+        "pos": "verb",
+        "ex": "Scattered protests across the city began to {word} into a single organized movement."
+      },
+      "explanation": null,
+      "words": [
+        "coalesce"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "cogent",
+        "def": "clear, logical, and convincing",
+        "pos": "adjective",
+        "ex": "Her {word} argument left no room for the opposing team to respond effectively."
+      },
+      "explanation": null,
+      "words": [
+        "cogent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "colloquial",
+        "def": "used in ordinary or familiar conversation rather than formal speech or writing",
+        "pos": "adjective",
+        "ex": "The professor asked students to avoid {word} phrases like 'gonna' in their formal essays."
+      },
+      "explanation": null,
+      "words": [
+        "colloquial"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "commensurate",
+        "def": "matching in size, degree, or amount with something else",
+        "pos": "adjective",
+        "ex": "Her promotion came with a salary {word} with her five years of dedicated service."
+      },
+      "explanation": null,
+      "words": [
+        "commensurate"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "complacent",
+        "def": "showing excessive satisfaction with oneself, unaware of possible problems",
+        "pos": "adjective",
+        "ex": "After winning three straight championships, the team grew {word} and lost focus in practice."
+      },
+      "explanation": null,
+      "words": [
+        "complacent"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "compliant",
+        "def": "tending to agree with others or obey rules without objection",
+        "pos": "adjective",
+        "ex": "The new employee was so {word} that he never questioned even the most unreasonable requests."
+      },
+      "explanation": null,
+      "words": [
+        "compliant"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "compunction",
+        "def": "a feeling of guilt or unease about doing something wrong",
+        "pos": "noun",
+        "ex": "He showed no {word} about copying his classmate's homework at the last minute."
+      },
+      "explanation": null,
+      "words": [
+        "compunction"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "concede",
+        "def": "to admit that something is true after first denying it; to give up or yield",
+        "pos": "verb",
+        "ex": "After reviewing the footage, the referee had to {word} that the goal should have counted."
+      },
+      "explanation": null,
+      "words": [
+        "concede"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "conciliatory",
+        "def": "intended to end a disagreement and make peace",
+        "pos": "adjective",
+        "ex": "The manager sent a {word} email, hoping to smooth things over after the heated meeting."
+      },
+      "explanation": null,
+      "words": [
+        "conciliatory"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "concur",
+        "def": "to agree with an opinion or decision",
+        "pos": "verb",
+        "ex": "Both scientists reviewed the data separately and ultimately came to {word} on the conclusion."
+      },
+      "explanation": null,
+      "words": [
+        "concur"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "condone",
+        "def": "to accept or approve of behavior that is considered wrong",
+        "pos": "verb",
+        "ex": "The school made clear it would never {word} bullying, regardless of the excuse offered."
+      },
+      "explanation": null,
+      "words": [
+        "condone"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "conflagration",
+        "def": "a large, destructive fire",
+        "pos": "noun",
+        "ex": "Dry winds turned the small brush fire into a {word} that consumed three neighborhoods overnight."
+      },
+      "explanation": null,
+      "words": [
+        "conflagration"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "congenial",
+        "def": "pleasant and friendly, suited to one's needs or nature",
+        "pos": "adjective",
+        "ex": "The small café had a {word} atmosphere where strangers often struck up easy conversation."
+      },
+      "explanation": null,
+      "words": [
+        "congenial"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "connoisseur",
+        "def": "a person with expert knowledge and refined taste in a particular field",
+        "pos": "noun",
+        "ex": "As a true {word} of vintage watches, she could identify the decade of a piece at a glance."
+      },
+      "explanation": null,
+      "words": [
+        "connoisseur"
+      ]
+    },
+    {
+      "gameType": "closer",
+      "domain": "words_in_context",
+      "difficulty": 2,
+      "payload": {
+        "word": "consensus",
+        "def": "general agreement among a group of people",
+        "pos": "noun",
+        "ex": "After hours of debate, the committee finally reached a {word} on the new policy."
+      },
+      "explanation": null,
+      "words": [
+        "consensus"
+      ]
+    }
+  ]
+}

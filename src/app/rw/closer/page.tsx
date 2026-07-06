@@ -1,10 +1,14 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useGameItems } from "@/lib/use-game-items";
+import { recordProgress } from "@/lib/record-progress";
+import { MethodCard } from "@/components/rw/method-card";
+import { METHODS } from "@/lib/rw-methods";
 
 type WordItem = {
   id: string;
-  payload: { word: string; pos: string; def: string; ex: string };
+  payload: { word: string; pos: string; def: string; ex: string; contextClues?: string[] };
 };
 
 type Guess = { word: string; score: number; nudge: string; latest?: boolean };
@@ -17,8 +21,27 @@ function tierOf(score: number) {
   return { name: "还很远", color: "bg-amber-200" };
 }
 
+// 揭晓时在例句里高亮目标词与上下文线索词
+function renderExample(ex: string, word: string, clues?: string[]) {
+  const full = ex.replace("{word}", word);
+  const clueSet = new Set((clues ?? []).map((c) => c.toLowerCase()));
+  const wl = word.toLowerCase();
+  return full.split(/(\s+)/).map((tok, i) => {
+    const n = tok.toLowerCase().replace(/[^a-z']/g, "");
+    if (!n) return <span key={i}>{tok}</span>;
+    if (n === wl) return <b key={i} className="text-slate-900">{tok}</b>;
+    if (clueSet.has(n))
+      return (
+        <mark key={i} className="rounded bg-amber-100 px-0.5 text-amber-800">
+          {tok}
+        </mark>
+      );
+    return <span key={i}>{tok}</span>;
+  });
+}
+
 export default function CloserPage() {
-  const [pool, setPool] = useState<WordItem[]>([]);
+  const { items: pool, loading } = useGameItems<WordItem>("closer", 300);
   const [target, setTarget] = useState<WordItem | null>(null);
   const [guesses, setGuesses] = useState<Guess[]>([]);
   const [input, setInput] = useState("");
@@ -27,14 +50,8 @@ export default function CloserPage() {
   const [hint, setHint] = useState("");
   const [roundOver, setRoundOver] = useState(false);
   const [won, setWon] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [scoring, setScoring] = useState(false);
   const usedIds = useRef<Set<string>>(new Set());
-
-  useEffect(() => {
-    fetch("/api/game-items?gameType=closer&take=50")
-      .then((r) => r.json())
-      .then((d) => setPool(d.items));
-  }, []);
 
   useEffect(() => {
     if (pool.length && !target) pickWord();
@@ -47,6 +64,9 @@ export default function CloserPage() {
       usedIds.current.clear();
       candidates = pool;
     }
+    // 优先出带上下文线索的词，先把「上下文猜义」方法演示出来
+    const clued = candidates.filter((w) => (w.payload.contextClues?.length ?? 0) > 0);
+    if (clued.length > 0) candidates = clued;
     const next = candidates[Math.floor(Math.random() * candidates.length)];
     if (!next) return;
     usedIds.current.add(next.id);
@@ -62,15 +82,11 @@ export default function CloserPage() {
 
   function recordResult(correct: boolean) {
     if (!target) return;
-    fetch("/api/progress", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        gameType: "closer",
-        skill: "words_in_context",
-        itemId: target.id,
-        result: correct ? "correct" : "incorrect",
-      }),
+    recordProgress({
+      gameType: "closer",
+      skill: "words_in_context",
+      itemId: target.id,
+      result: correct ? "correct" : "incorrect",
     });
   }
 
@@ -88,7 +104,7 @@ export default function CloserPage() {
       return;
     }
 
-    setLoading(true);
+    setScoring(true);
     try {
       const res = await fetch("/api/semantic-distance", {
         method: "POST",
@@ -112,7 +128,7 @@ export default function CloserPage() {
     } catch {
       setNotice("暂时联系不上评分服务，请重试。");
     } finally {
-      setLoading(false);
+      setScoring(false);
     }
   }
 
@@ -136,7 +152,7 @@ export default function CloserPage() {
     }
   }
 
-  if (!target) {
+  if (loading || !target) {
     return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
   }
 
@@ -147,8 +163,10 @@ export default function CloserPage() {
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Closer</h1>
       <p className="mt-1 text-sm text-slate-500">
-        读句子，猜出填空处的 SAT 词。每次猜测都会显示语义上离目标词有多近。
+        读句子，用上下文线索猜出填空处的 SAT 词。每次猜测都会显示语义上离目标词有多近。
       </p>
+
+      <MethodCard {...METHODS.contextClue} />
 
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
         <div className="text-xs font-semibold uppercase text-slate-400">
@@ -175,10 +193,10 @@ export default function CloserPage() {
           />
           <button
             onClick={submit}
-            disabled={loading}
+            disabled={scoring}
             className="rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white disabled:opacity-50"
           >
-            {loading ? "评分中…" : "猜"}
+            {scoring ? "评分中…" : "猜"}
           </button>
         </div>
       )}
@@ -230,8 +248,11 @@ export default function CloserPage() {
           <p className="text-sm italic text-slate-500">{target.payload.pos}</p>
           <p className="mt-2 text-sm text-slate-700">{target.payload.def}</p>
           <p className="mt-2 rounded-lg bg-emerald-50 p-2 text-sm text-slate-700">
-            {target.payload.ex.replace("{word}", target.payload.word)}
+            {renderExample(target.payload.ex, target.payload.word, target.payload.contextClues)}
           </p>
+          {target.payload.contextClues && target.payload.contextClues.length > 0 && (
+            <p className="mt-1 text-xs text-amber-700">高亮的是帮你推断词义的上下文线索。</p>
+          )}
           <button
             onClick={pickWord}
             className="mt-4 w-full rounded-lg bg-rose-500 py-2 font-semibold text-white"

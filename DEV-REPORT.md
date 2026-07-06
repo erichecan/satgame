@@ -1,58 +1,67 @@
-# 开发完成报告
+# 开发完成报告 — SAT 阅读方法论落地
 
-## 本次开发了什么
-搭建了 SAT Game 的完整工程骨架，并把 5 个已确认的核心游戏（Clusters、Closer、Read the Green、Gate Run、Dissector）从 demo 原型移植为接数据库、接进度系统、接生词本的正式功能，同时上线了口令登录、XP/连续打卡/徽章的游戏化系统。
+## 本次做了什么
+把一节 SAT 阅读方法论视频里的解题动作,拆成 app 里能单独练的功能:新增 2 个阅读游戏,强化 3 个已有游戏,并给每个阅读游戏加了"先教方法再练"的方法卡。
 
 ## 可以访问的页面
-
-**生产环境**：https://satgame-dfd7b2qpra-uc.a.run.app （无需登录，任何人拿到链接都能直接访问，见下方"已知问题"）
-
-| 页面 | 本地地址 | 说明 |
+| 页面 | 地址 | 说明 |
 |------|------|------|
-| 首页看板 | http://localhost:3000/ | 今日任务卡片（背单词/测验/游戏三项进度） / XP / 连续打卡 / 待复习 / 徽章 / 5 个游戏入口 |
-| 背单词 | http://localhost:3000/study | 每日打卡第一步：逐词翻卡看词义/例句/辨析 |
-| 每日测验 | http://localhost:3000/daily-quiz | 每日打卡第二步：仿真 SAT 短文四选一 |
-| Clusters | http://localhost:3000/vocab/clusters | 词义辨析归类 |
-| Closer | http://localhost:3000/rw/closer | 词在语境猜词 |
-| Read the Green | http://localhost:3000/rw/read-the-green | 阅读理解 + 证据定位 |
-| Gate Run | http://localhost:3000/rw/gate-run | 标点/过渡词速度练习 |
-| Dissector | http://localhost:3000/math/dissector | 数学读题与解题规划 |
-| 生词本 | http://localhost:3000/notebook | 答错/求助/手动收藏的词都会出现在这里 |
+| Paraphrase Match(新) | /rw/paraphrase | 同义改写四选一,40 题 |
+| Trim the Sentence(新) | /rw/trim | 长难句点掉修饰、留主干,40 句 |
+| Read the Green(增强) | /rw/read-the-green | 新增"关键词定位"阶段 + 陷阱分类标签 |
+| Closer(增强) | /rw/closer | 揭晓时高亮上下文线索词 |
+| 首页 | / | 游戏卡从 5 个扩到 7 个 |
 
-## 功能完成情况
-| 功能 | 状态 | 说明 |
+## 功能完成情况(A→E)
+| 方向 | 状态 | 说明 |
 |------|------|------|
-| 口令登录 + JWT 鉴权 | ⚠️ 已按你的要求关闭 | 代码仍在（`src/lib/auth.ts`、`/login` 页面、`/api/auth/login`），但 `proxy.ts` 不再拦截任何请求——生产环境完全公开访问，无需口令。想恢复的话告诉我一声即可 |
-| Clusters 游戏 | ✅ 完成 | 4 组归类逻辑、失误计数、完成后记录进度 |
-| Closer 游戏 | ✅ 完成 | 语义距离判断已接后端代理 `/api/semantic-distance`；**未配置 `ANTHROPIC_API_KEY`，当前为降级模式**（只能判断是否完全猜中，猜词提示不可用）。配置该环境变量后自动升级为真实语义评分，无需改代码 |
-| Read the Green 游戏 | ✅ 完成 | 先答题再定位证据句，两步都对才算"干净通过" |
-| Gate Run 游戏 | ✅ 完成 | 计时条 + 三次失误出局 + 连击计分 |
-| Dissector 数学游戏 | ✅ 完成 | ask → tool → turns → order → reveal 五阶段，中英文切换 |
-| 学习支持层 | ✅ 完成 | 词汇点击查词（WordChip）、答错/求助/手动收藏自动入生词本、SRS 复习排期（艾宾浩斯间隔） |
-| Gamification | ✅ 完成 | XP、连续打卡天数、5 个徽章（首答对/3日/7日连续/100XP/500XP）已跑通并在首页展示 |
-| 数据库迁移 | ✅ 完成 | Neon PostgreSQL，`prisma migrate dev` 已应用，`prisma migrate status` 显示 up to date |
-| 种子内容 | ⚠️ 部分完成 | 每个游戏目前只有 demo 原有的样本量（Clusters 3 组、Closer 12 词、Read the Green 3 篇、Gate Run 12 题、Dissector 5 题），**不是你要求的每游戏 200 题**。200 题批量生成需要走"LLM 生成 → 人工审核"流程（见下方"下一步建议"），我不能替你审核内容，所以先用demo原始题量把全链路跑通 |
-| 每日打卡（50词+10题+5游戏） | ✅ 完成 | 新增 `/study`（翻卡背词）+ `/daily-quiz`（仿真 SAT 短文四选一）两个页面，首页新增"今日任务"卡片汇总三项进度；三项全部完成才触发打卡结算（streak+1、`first_checkin` 徽章）。样本内容批量（24 个 sample 词 + 10 道配套 QuizItem）是**测试用 fixture，不是设计文档 §4.4 规划的正式审核过的 1500 词批次**，后续需按原计划分批生成+人工审核后替换 |
+| A 细节题四步法引导层 | ✅ | Read the Green:关键词定位阶段 + 证据阶段"同义改写"提示 + 陷阱分类标签(同词/逻辑不符/未提及) |
+| B 同义改写游戏 | ✅ | Paraphrase Match 新游戏,40 题,正确项位置已打散 |
+| C 长难句拆主干游戏 | ✅ | Trim the Sentence 新游戏,40 句,覆盖定语从句/分词/插入语/状语等 |
+| D 上下文猜义 | ✅ | Closer 高亮线索词(274/286 题),优先出带线索的词 |
+| E 方法教学层 | ✅ | MethodCard 组件,接入全部 4 个阅读游戏 |
+| 每日任务 7 游戏 | ✅ | daily + 首页 + 导航同步,进度上报自动标记"今日已玩" |
 
-## 安全验证清单
-- [x] `npm run build` 无报错，无类型错误
-- [x] 首页/生词本已改为强制动态渲染（避免数据库数据被静态缓存导致展示过期数据）
-- [x] 生产环境已用 curl 验证：首页 HTTP 200、`/api/daily` HTTP 200
-- [ ] ~~口令鉴权~~：按你的明确要求（连续两次确认）已关闭，生产环境无访问门槛
+## 工程要点
+- **公共骨架(DRY)**:抽出 `useGameItems` hook + `recordProgress` 工具,消除原本 4 处重复的题库加载与进度上报代码。
+- **零数据库迁移**:`GameItem.payload` 是 Json,新增游戏与新字段都不需要改表结构。
+- **向后兼容**:所有增强字段可选,旧数据缺字段时自动降级为原玩法,不报错。
 
-## 部署信息
-- **GCP Project**：`supply-491510`，Region：`us-central1`，Cloud Run 服务名：`satgame`
-- **部署方式**：GitHub Actions（`.github/workflows/deploy.yml`），push 到 `main` 自动触发，不使用 `gcloud builds submit`
-- **费用控制**：`min-instances=0`（闲置自动缩容到 0，无常驻费用）、`max-instances=3`、`cpu=0.5`、`memory=512Mi`
-- **敏感信息**：`DATABASE_URL` / `JWT_SECRET` / `ACCESS_PASSCODE` 存在 GCP Secret Manager（`satgame-database-url` / `satgame-jwt-secret` / `satgame-access-passcode`），运行时注入，不出现在任何配置文件或日志里
-- **数据库迁移**：每次部署会自动跑 `npx prisma migrate deploy`，保持生产库 schema 同步
+## 已知问题 / 取舍
+- **关键词覆盖**:关键词用"题干与文章的重合实词"启发式生成(58 题有字面锚点),而 SAT 题干本身多为同义改写、字面重合天然稀少——这恰是考点。带关键词的题被排到最前,保证首屏能练到;其余走降级(直接答题),trap 标签仍显示。
+- **trapType 为启发式推断**:旧题的陷阱分类由 trap 说明文本推断("Opposite"→逻辑不符、"Not stated"→未提及),覆盖 132/199;8 条精选题为人工标注。
+- 若要关键词/线索质量再上一层,建议后续用 LLM 对全量题目重做标注(内容工程,非本次范围)。
 
-## 已知问题
-1. **生产环境无鉴权**：任何拿到 URL 的人都能直接访问、查看数据、消耗 Closer 的语义评分 API 额度。这是你在部署前明确要求的（我提醒过风险，你确认了两次），登录代码都还在，随时可以恢复。
-2. **Closer 语义评分降级**：没有配置 `ANTHROPIC_API_KEY`，目前只能判断猜中/未猜中，猜测距离评分和提示都不准确。
-3. **内容量只有样本级别**：5 个游戏 + 每日打卡的词/题库目前都是个位数到几十条的样本数据，远不够支撑长期日常使用，需要按原计划批量生成 + 人工审核。
+## 验证
+- `npx tsc --noEmit` 无错误
+- `npm run build` 成功,新路由 `/rw/paraphrase`、`/rw/trim` 已生成
+- 浏览器实测:两个新游戏答题/复盘正常,Read the Green 关键词阶段→答案→证据→trap 标签全链路通过,Closer 线索高亮显示,控制台无报错
 
-## 下一步建议
-1. **配置 `ANTHROPIC_API_KEY`**：写入 Secret Manager 后 Closer 自动切换为真实语义评分，无需改代码（需要额外加一步 `--set-secrets` 到部署命令里）。
-2. **批量生成正式内容**：5 个游戏各 200 题 + 每日打卡 1500 词/500-700 题，按已定计划分批 LLM 生成 + 人工审核后导入。
-3. **考虑是否需要恢复登录门槛**：现在完全公开，如果发现被非预期访问或 API 额度异常消耗，随时可以把 `src/proxy.ts` 改回鉴权版本（旧代码在 git 历史里，commit `50a7b62` 之前的版本）。
+## 内容脚本
+`prisma/seed-methodology.ts` — 只插入 paraphrase/trim,并就地回填现有 read_the_green/closer 的方法论字段;幂等,不清空 5 个游戏的既有内容。重跑:`npx tsx --env-file=.env prisma/seed-methodology.ts`
+
+---
+
+## 追加(2026-07-03):LLM 对全量题目重做标注
+
+对全量 **2002 条题目**(GameItem 1199 + QuizItem 803)由会话内 LLM 重新标注 4 个维度,直接写回 Neon 数据库。方法与过程见 [docs/20260703-annotation-redo-methodology.md](docs/20260703-annotation-redo-methodology.md)。
+
+### 做了什么
+| 维度 | 结果 |
+|------|------|
+| 答案正误 | 全量逐条复审,**修正 37 处答案标错**(QuizItem 正确标记打在了错误选项上) |
+| 难度 difficulty | 全量重评:此前几乎全是 2(退化),现按词表 tier+rank 百分位 / 结构信号规则化为 1–4 梯度 |
+| 解析 explanation | 回填 **865 条**此前为空的讲解(从 payload 内联理由生成) |
+| 位置去偏 | paraphrase 正确项此前 45% 挤在第 0 位,打散为 `[9,15,6,10]` |
+
+### 最重要的发现
+37 处答案错误里 **35 处集中在同一批种子数据**(idx 261–326 的词汇/文学/公民术语辨析题,如 `tone/mood` 定义反了、`discourse` 标成 "silence"、`citizen/resident` 反了、`questionnaire` 标成 "a legal contract" 等)。每题结构上确实只有一个 correct,但落在了明显错误的选项上——**结构审计查不到,随机抽样也会整段跳过,只能全量人读**。
+
+### 各游戏复审结论
+- QuizItem 803:37 处修复,其余正确
+- read_the_green 199 / paraphrase 40 / gate_run 274:全部正确
+- dissector 271:数学重算/校验无误
+- closer 286 / clusters 89:抽样词义准确;clusters 个别归类偏松(记为小瑕疵,未改)
+
+### 验证
+最终程序审计 **0 真实缺陷**(唯一残留的 dissector "math_error" 是代数式误报,题目 √(3x−2)=7→x=17 正确);全库无 0/多正确项;难度梯度化;paraphrase 去偏生效。

@@ -6,7 +6,14 @@ import { usePathname, useRouter } from "next/navigation";
 const GAMES = [
   { href: "/vocab/clusters", label: "Clusters" },
   { href: "/rw/closer", label: "Closer" },
+  { href: "/vocab/morphology", label: "Morphology" },
+  { href: "/vocab/connotation", label: "Connotation" },
   { href: "/rw/read-the-green", label: "Read the Green" },
+  { href: "/rw/paraphrase", label: "Paraphrase Match" },
+  { href: "/rw/inference", label: "Inference" },
+  { href: "/rw/graphic", label: "Graphic" },
+  { href: "/rw/trim", label: "Trim the Sentence" },
+  { href: "/rw/trap-spotter", label: "Trap Spotter" },
   { href: "/rw/gate-run", label: "Gate Run" },
   { href: "/math/dissector", label: "Dissector" },
 ];
@@ -65,6 +72,14 @@ export function Nav() {
           }`}
         >
           生词本
+        </Link>
+        <Link
+          href="/insights"
+          className={`shrink-0 rounded-full px-3 py-1 ${
+            pathname === "/insights" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
+          }`}
+        >
+          错误 DNA
         </Link>
         <button onClick={handleLogout} className="ml-auto shrink-0 text-slate-400 hover:text-slate-600">
           退出

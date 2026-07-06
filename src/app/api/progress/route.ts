@@ -21,12 +21,13 @@ export async function GET(req: Request) {
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { gameType, skill, itemId, wordId, result } = body as {
+    const { gameType, skill, itemId, wordId, result, errorTag } = body as {
       gameType: string;
       skill: string;
       itemId?: string;
       wordId?: string;
       result: "correct" | "incorrect";
+      errorTag?: string;
     };
 
     if (!gameType || !skill || !result) {
@@ -48,6 +49,9 @@ export async function POST(req: Request) {
       result === "correct"
     );
 
+    // 答对清空 errorTag，答错记录掉进的陷阱类型
+    const tag = result === "incorrect" ? errorTag ?? null : null;
+
     const progress = existing
       ? await prisma.progress.update({
           where: { id: existing.id },
@@ -57,6 +61,7 @@ export async function POST(req: Request) {
             masteryScore: srs.masteryScore,
             consecutiveCorrect: srs.consecutiveCorrect,
             nextReview: srs.nextReview,
+            errorTag: tag,
           },
         })
       : await prisma.progress.create({
@@ -68,6 +73,7 @@ export async function POST(req: Request) {
             masteryScore: srs.masteryScore,
             consecutiveCorrect: srs.consecutiveCorrect,
             nextReview: srs.nextReview,
+            errorTag: tag,
           },
         });
 

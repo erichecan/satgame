@@ -2,7 +2,20 @@ import { prisma } from "@/lib/db";
 import { addToReview } from "@/lib/learning";
 import { completeCheckin } from "@/lib/gamification";
 
-export const GAMES_PER_DAY = ["clusters", "closer", "read_the_green", "gate_run", "dissector"] as const;
+export const GAMES_PER_DAY = [
+  "clusters",
+  "closer",
+  "read_the_green",
+  "gate_run",
+  "dissector",
+  "paraphrase",
+  "trim",
+  "trap_spotter",
+  "morphology",
+  "inference",
+  "graphic",
+  "connotation",
+] as const;
 
 export const WORDS_PER_DAY = 50;
 export const NEW_WORDS_PER_DAY = 40;

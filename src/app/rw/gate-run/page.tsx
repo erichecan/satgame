@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 type GateItem = {
   id: string;
   payload: {
-    kind: "punctuation" | "transition";
+    kind: "punctuation" | "transition" | "redundancy" | "apostrophe";
     before: string;
     after: string;
     doors: [string, string];
@@ -32,7 +32,7 @@ export default function GateRunPage() {
   const scoreRef = useRef(0);
 
   useEffect(() => {
-    fetch("/api/game-items?gameType=gate_run")
+    fetch("/api/game-items?gameType=gate_run&take=400")
       .then((r) => r.json())
       .then((d) => setItems(d.items));
   }, []);
@@ -166,7 +166,7 @@ export default function GateRunPage() {
           <div className="h-full bg-emerald-400 transition-all" style={{ width: `${timePct}%` }} />
         </div>
         <div className="mt-3 text-xs font-bold uppercase tracking-wide text-slate-400">
-          {cur ? (cur.payload.kind === "punctuation" ? "标点" : "过渡词") : "准备"}
+          {cur ? ({ punctuation: "标点", transition: "过渡词", redundancy: "冗余", apostrophe: "所有格" }[cur.payload.kind]) : "准备"}
         </div>
         <p className="mt-2 min-h-[3.5rem] text-lg">
           {cur ? (

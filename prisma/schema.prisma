@@ -48,6 +48,7 @@ model Progress {
   masteryScore       Float     @default(0)
   consecutiveCorrect Int       @default(0)
   nextReview         DateTime?
+  errorTag           String? // 选错时掉进的陷阱类型(trapType),用于错误 DNA 分析
   createdAt          DateTime  @default(now())
   updatedAt          DateTime  @updatedAt
 

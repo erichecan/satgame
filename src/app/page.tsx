@@ -10,7 +10,14 @@ export const dynamic = "force-dynamic";
 const GAMES = [
   { href: "/vocab/clusters", title: "Clusters", domain: "词义辨析", gameType: "clusters" },
   { href: "/rw/closer", title: "Closer", domain: "词在语境", gameType: "closer" },
+  { href: "/vocab/morphology", title: "Morphology", domain: "拆词猜义", gameType: "morphology" },
+  { href: "/vocab/connotation", title: "Connotation", domain: "褒贬色彩", gameType: "connotation" },
   { href: "/rw/read-the-green", title: "Read the Green", domain: "阅读理解 / 证据", gameType: "read_the_green" },
+  { href: "/rw/paraphrase", title: "Paraphrase Match", domain: "同义改写", gameType: "paraphrase" },
+  { href: "/rw/inference", title: "Inference", domain: "推断题", gameType: "inference" },
+  { href: "/rw/graphic", title: "Graphic", domain: "图表题", gameType: "graphic" },
+  { href: "/rw/trim", title: "Trim the Sentence", domain: "长难句拆主干", gameType: "trim" },
+  { href: "/rw/trap-spotter", title: "Trap Spotter", domain: "干扰项分类", gameType: "trap_spotter" },
   { href: "/rw/gate-run", title: "Gate Run", domain: "标点 / 过渡词", gameType: "gate_run" },
   { href: "/math/dissector", title: "Dissector", domain: "数学读题", gameType: "dissector" },
 ];
@@ -55,7 +62,7 @@ export default async function Home() {
           </Link>
           <div className="rounded-lg border border-slate-200 p-3">
             <div className="text-sm text-slate-500">游戏</div>
-            <div className="text-lg font-semibold text-slate-900">{gamesDone} / 5</div>
+            <div className="text-lg font-semibold text-slate-900">{gamesDone} / 12</div>
           </div>
         </CardContent>
       </Card>

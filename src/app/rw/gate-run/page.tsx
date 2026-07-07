@@ -139,25 +139,25 @@ export default function GateRunPage() {
       }
       return nh;
     });
-    setFeed((i === null ? "太慢了！" : "不对。") + " " + gate.payload.why);
+    setFeed((i === null ? "Too slow!" : "Wrong.") + " " + gate.payload.why);
     recordResult(gate, false);
   }
 
   if (items.length === 0) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
 
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Gate Run</h1>
       <p className="mt-1 text-sm text-slate-500">
-        在计时条清空前选对门。标点和过渡词的速度练习，三次失误出局。
+        Pick the right door before the timer empties. A speed drill on punctuation and transitions—three misses and you are out.
       </p>
 
       <div className="mt-4 flex items-center justify-between text-sm">
         <span className="text-rose-500">{"♥".repeat(Math.max(hearts, 0))}</span>
         <span className="font-mono text-slate-500">
-          得分 <b className="text-slate-900">{score}</b> · 最佳连击 <b className="text-slate-900">{bestCombo}</b>
+          Score <b className="text-slate-900">{score}</b> · Best combo <b className="text-slate-900">{bestCombo}</b>
         </span>
       </div>
 
@@ -166,7 +166,7 @@ export default function GateRunPage() {
           <div className="h-full bg-emerald-400 transition-all" style={{ width: `${timePct}%` }} />
         </div>
         <div className="mt-3 text-xs font-bold uppercase tracking-wide text-slate-400">
-          {cur ? ({ punctuation: "标点", transition: "过渡词", redundancy: "冗余", apostrophe: "所有格" }[cur.payload.kind]) : "准备"}
+          {cur ? ({ punctuation: "Punctuation", transition: "Transition", redundancy: "Redundancy", apostrophe: "Possessive" }[cur.payload.kind]) : "Ready"}
         </div>
         <p className="mt-2 min-h-[3.5rem] text-lg">
           {cur ? (
@@ -175,7 +175,7 @@ export default function GateRunPage() {
               {cur.payload.after}
             </>
           ) : (
-            "点击门开始"
+            "Tap a door to start"
           )}
         </p>
         <div className="mt-4 grid grid-cols-2 gap-3">
@@ -191,7 +191,7 @@ export default function GateRunPage() {
                   : "border-slate-700 bg-slate-800 hover:border-emerald-400"
               }`}
             >
-              {cur ? cur.payload.doors[i] : i === 0 ? "点击" : "开始"}
+              {cur ? cur.payload.doors[i] : i === 0 ? "Tap" : "Start"}
             </button>
           ))}
         </div>
@@ -200,13 +200,13 @@ export default function GateRunPage() {
 
       {gameOver && (
         <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5 text-center">
-          <h2 className="text-xl font-bold text-slate-900">本轮结束</h2>
-          <p className="mt-1 text-slate-500">通过 {score} 关 · 最佳连击 {bestCombo}</p>
+          <h2 className="text-xl font-bold text-slate-900">Round over</h2>
+          <p className="mt-1 text-slate-500">Cleared {score} · Best combo {bestCombo}</p>
           <button
             onClick={startGame}
             className="mt-4 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
           >
-            再来一轮
+            Play again
           </button>
         </div>
       )}

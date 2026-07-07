@@ -1,5 +1,5 @@
-// P2 内容脚本:Morphology 拆词游戏。只插入 gameType=morphology。幂等。
-// 词法逐一核对:segments 拼接必须 === word。
+// P2 content: Morphology game. Inserts only gameType=morphology. Idempotent.
+// Verified: segments joined must === word.
 import { PrismaClient } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 
@@ -22,57 +22,54 @@ const R = (text: string, gloss: string): Segment => ({ text, kind: "root", gloss
 const S = (text: string, gloss: string): Segment => ({ text, kind: "suffix", gloss });
 
 const WORDS: MorphItem[] = [
-  { word: "unchangeable", segments: [P("un", "不"), R("change", "改变"), S("able", "能…的(形)")], pos: "adjective", meaning: "无法改变的", distractors: ["容易改变的", "经常变化的", "值得改变的"], connotation: "0", difficulty: 1 },
-  { word: "incontrovertible", segments: [P("in", "不"), P("contro", "反对"), R("vert", "转"), S("ible", "能…的(形)")], pos: "adjective", meaning: "无可辩驳的、确凿的", distractors: ["有争议的", "可以反驳的", "含糊不清的"], connotation: "+", difficulty: 4 },
-  { word: "metamorphosis", segments: [P("meta", "变"), R("morph", "形状"), S("osis", "过程(名)")], pos: "noun", meaning: "彻底的变形过程", distractors: ["一段短暂的睡眠", "一种昆虫的名字", "形状的测量"], connotation: "0", difficulty: 3 },
-  { word: "intolerant", segments: [P("in", "不"), R("toler", "忍受"), S("ant", "…的(形)")], pos: "adjective", meaning: "不能容忍的、狭隘武断的", distractors: ["非常有耐心的", "身体虚弱的", "乐于助人的"], connotation: "-", difficulty: 2 },
-  { word: "benevolent", segments: [P("bene", "好"), R("vol", "意愿"), S("ent", "…的(形)")], pos: "adjective", meaning: "仁慈的、乐善好施的", distractors: ["心怀恶意的", "冷漠无情的", "贪得无厌的"], connotation: "+", difficulty: 3 },
-  { word: "malevolent", segments: [P("male", "坏"), R("vol", "意愿"), S("ent", "…的(形)")], pos: "adjective", meaning: "恶毒的、心怀恶意的", distractors: ["善良友好的", "无关紧要的", "才华横溢的"], connotation: "-", difficulty: 3 },
-  { word: "innovation", segments: [P("in", "进入"), R("nov", "新"), S("ation", "过程(名)")], pos: "noun", meaning: "创新、革新", distractors: ["古老的传统", "一次失败", "重复的动作"], connotation: "+", difficulty: 2 },
-  { word: "novice", segments: [R("nov", "新"), S("ice", "人(名)")], pos: "noun", meaning: "新手、初学者", distractors: ["专家、老手", "一种饮料", "领导者"], connotation: "0", difficulty: 2 },
-  { word: "retrospect", segments: [P("retro", "向后"), R("spect", "看")], pos: "noun", meaning: "回顾、追溯", distractors: ["对未来的预测", "近距离观察", "一种望远镜"], connotation: "0", difficulty: 2 },
-  { word: "introspection", segments: [P("intro", "向内"), R("spect", "看"), S("ion", "名词")], pos: "noun", meaning: "自省、内省", distractors: ["对他人的观察", "户外探险", "公开演讲"], connotation: "0", difficulty: 3 },
-  { word: "circumscribe", segments: [P("circum", "环绕"), R("scribe", "写/画")], pos: "verb", meaning: "限制、圈定范围", distractors: ["自由扩张", "大声朗读", "彻底删除"], connotation: "0", difficulty: 3 },
-  { word: "inscribe", segments: [P("in", "在…上"), R("scribe", "写/刻")], pos: "verb", meaning: "题写、镌刻", distractors: ["擦除", "翻译", "购买"], connotation: "0", difficulty: 2 },
-  { word: "prescribe", segments: [P("pre", "预先"), R("scribe", "写")], pos: "verb", meaning: "开处方、规定", distractors: ["禁止", "描述外貌", "随意涂鸦"], connotation: "0", difficulty: 2 },
-  { word: "transport", segments: [P("trans", "跨越"), R("port", "运/搬")], pos: "verb", meaning: "运输、运送", distractors: ["储存不动", "毁坏", "购买"], connotation: "0", difficulty: 1 },
-  { word: "export", segments: [P("ex", "向外"), R("port", "运/搬")], pos: "verb", meaning: "出口(货物)", distractors: ["进口货物", "隐藏财物", "计算数量"], connotation: "0", difficulty: 1 },
-  { word: "audible", segments: [R("aud", "听"), S("ible", "能…的(形)")], pos: "adjective", meaning: "听得见的", distractors: ["看得见的", "无法听到的", "可食用的"], connotation: "0", difficulty: 1 },
-  { word: "inaudible", segments: [P("in", "不"), R("aud", "听"), S("ible", "能…的(形)")], pos: "adjective", meaning: "听不见的", distractors: ["非常响亮的", "清晰可读的", "看得见的"], connotation: "0", difficulty: 2 },
-  { word: "credible", segments: [R("cred", "相信"), S("ible", "能…的(形)")], pos: "adjective", meaning: "可信的、可靠的", distractors: ["荒谬的", "看不见的", "违法的"], connotation: "+", difficulty: 2 },
-  { word: "incredible", segments: [P("in", "不"), R("cred", "相信"), S("ible", "能…的(形)")], pos: "adjective", meaning: "难以置信的、了不起的", distractors: ["平淡无奇的", "完全可信的", "微不足道的"], connotation: "+", difficulty: 2 },
-  { word: "revive", segments: [P("re", "再次"), R("vive", "活")], pos: "verb", meaning: "复活、复兴", distractors: ["彻底摧毁", "使入睡", "遗忘"], connotation: "+", difficulty: 2 },
-  { word: "survive", segments: [P("sur", "越过"), R("vive", "活")], pos: "verb", meaning: "幸存、存活下来", distractors: ["死亡", "逃跑", "投降"], connotation: "+", difficulty: 1 },
-  { word: "intervene", segments: [P("inter", "在…之间"), R("vene", "来")], pos: "verb", meaning: "干预、介入", distractors: ["置身事外", "同时到达", "彻底离开"], connotation: "0", difficulty: 3 },
-  { word: "convene", segments: [P("con", "共同"), R("vene", "来")], pos: "verb", meaning: "召集、集会", distractors: ["解散", "独自离开", "拒绝出席"], connotation: "0", difficulty: 3 },
-  { word: "illegible", segments: [P("il", "不"), R("leg", "读"), S("ible", "能…的(形)")], pos: "adjective", meaning: "难以辨认的、字迹潦草的", distractors: ["清晰易读的", "合法的", "响亮的"], connotation: "-", difficulty: 3 },
-  { word: "immortal", segments: [P("im", "不"), R("mort", "死"), S("al", "…的(形)")], pos: "adjective", meaning: "不朽的、永生的", distractors: ["很快死去的", "道德高尚的", "移动的"], connotation: "+", difficulty: 2 },
-  { word: "immature", segments: [P("im", "不"), R("mature", "成熟")], pos: "adjective", meaning: "不成熟的、幼稚的", distractors: ["完全成熟的", "巨大的", "危险的"], connotation: "-", difficulty: 1 },
-  { word: "benefactor", segments: [P("bene", "好"), R("fact", "做/造"), S("or", "人(名)")], pos: "noun", meaning: "捐助者、恩人", distractors: ["受益人", "工厂工人", "对手"], connotation: "+", difficulty: 3 },
-  { word: "contradict", segments: [P("contra", "反对"), R("dict", "说")], pos: "verb", meaning: "反驳、与…矛盾", distractors: ["表示赞同", "预测未来", "大声重复"], connotation: "0", difficulty: 2 },
-  { word: "predict", segments: [P("pre", "预先"), R("dict", "说")], pos: "verb", meaning: "预言、预测", distractors: ["回忆过去", "禁止", "翻译"], connotation: "0", difficulty: 1 },
-  { word: "dehydrate", segments: [P("de", "去除"), R("hydr", "水"), S("ate", "使…(动)")], pos: "verb", meaning: "使脱水、使干燥", distractors: ["加水稀释", "加热煮沸", "冷冻保存"], connotation: "-", difficulty: 3 },
-  { word: "synchronize", segments: [P("syn", "共同"), R("chron", "时间"), S("ize", "使…(动)")], pos: "verb", meaning: "使同步、同时发生", distractors: ["拖延时间", "分开进行", "计时"], connotation: "0", difficulty: 3 },
-  { word: "anonymous", segments: [P("an", "无"), R("onym", "名字"), S("ous", "…的(形)")], pos: "adjective", meaning: "匿名的、无名的", distractors: ["署名的", "著名的", "唯一的"], connotation: "0", difficulty: 2 },
-  { word: "antagonist", segments: [P("ant", "反对"), R("agon", "斗争"), S("ist", "人(名)")], pos: "noun", meaning: "对手、反派", distractors: ["盟友", "旁观者", "主角的助手"], connotation: "-", difficulty: 3 },
-  { word: "philanthropy", segments: [R("phil", "爱"), R("anthrop", "人类"), S("y", "名词")], pos: "noun", meaning: "慈善、博爱", distractors: ["对人类的憎恨", "对自然的研究", "个人的野心"], connotation: "+", difficulty: 4 },
-  { word: "omnipotent", segments: [P("omni", "全部"), R("potent", "力量")], pos: "adjective", meaning: "全能的、无所不能的", distractors: ["软弱无力的", "无所不在的", "一无所知的"], connotation: "0", difficulty: 4 },
-  { word: "disharmony", segments: [P("dis", "不/无"), R("harmony", "和谐")], pos: "noun", meaning: "不和谐、不和", distractors: ["完美的一致", "响亮的音乐", "安静的环境"], connotation: "-", difficulty: 2 },
+  { word: "unchangeable", segments: [P("un", "not"), R("change", "change"), S("able", "able to (adj)")], pos: "adjective", meaning: "impossible to change", distractors: ["easy to change", "changing often", "worth changing"], connotation: "0", difficulty: 1 },
+  { word: "incontrovertible", segments: [P("in", "not"), P("contro", "against"), R("vert", "turn"), S("ible", "able to (adj)")], pos: "adjective", meaning: "impossible to dispute; certain", distractors: ["open to debate", "easily disproven", "vague and unclear"], connotation: "+", difficulty: 4 },
+  { word: "metamorphosis", segments: [P("meta", "change"), R("morph", "shape"), S("osis", "process (noun)")], pos: "noun", meaning: "a complete change of form", distractors: ["a short nap", "a kind of insect", "a measurement of shape"], connotation: "0", difficulty: 3 },
+  { word: "intolerant", segments: [P("in", "not"), R("toler", "endure"), S("ant", "-ing (adj)")], pos: "adjective", meaning: "unwilling to accept views unlike one's own", distractors: ["very patient", "physically weak", "eager to help"], connotation: "-", difficulty: 2 },
+  { word: "benevolent", segments: [P("bene", "good"), R("vol", "wish"), S("ent", "-ing (adj)")], pos: "adjective", meaning: "kind and generous", distractors: ["wishing harm", "cold and indifferent", "greedy"], connotation: "+", difficulty: 3 },
+  { word: "malevolent", segments: [P("male", "bad"), R("vol", "wish"), S("ent", "-ing (adj)")], pos: "adjective", meaning: "wishing harm to others", distractors: ["kind and friendly", "unimportant", "highly talented"], connotation: "-", difficulty: 3 },
+  { word: "innovation", segments: [P("in", "into"), R("nov", "new"), S("ation", "process (noun)")], pos: "noun", meaning: "a new method or idea", distractors: ["an old tradition", "a failure", "a repeated action"], connotation: "+", difficulty: 2 },
+  { word: "novice", segments: [R("nov", "new"), S("ice", "person (noun)")], pos: "noun", meaning: "a beginner", distractors: ["an expert", "a drink", "a leader"], connotation: "0", difficulty: 2 },
+  { word: "retrospect", segments: [P("retro", "backward"), R("spect", "look")], pos: "noun", meaning: "a review of past events", distractors: ["a prediction of the future", "a close-up look", "a telescope"], connotation: "0", difficulty: 2 },
+  { word: "introspection", segments: [P("intro", "inward"), R("spect", "look"), S("ion", "noun")], pos: "noun", meaning: "examination of one's own thoughts", distractors: ["watching other people", "outdoor adventure", "public speaking"], connotation: "0", difficulty: 3 },
+  { word: "circumscribe", segments: [P("circum", "around"), R("scribe", "write/draw")], pos: "verb", meaning: "to restrict; draw a line around", distractors: ["to expand freely", "to read aloud", "to erase completely"], connotation: "0", difficulty: 3 },
+  { word: "inscribe", segments: [P("in", "on"), R("scribe", "write/carve")], pos: "verb", meaning: "to write or carve on a surface", distractors: ["to erase", "to translate", "to buy"], connotation: "0", difficulty: 2 },
+  { word: "prescribe", segments: [P("pre", "before"), R("scribe", "write")], pos: "verb", meaning: "to recommend as a remedy", distractors: ["to forbid", "to describe an appearance", "to doodle"], connotation: "0", difficulty: 2 },
+  { word: "transport", segments: [P("trans", "across"), R("port", "carry")], pos: "verb", meaning: "to carry from one place to another", distractors: ["to keep still", "to destroy", "to buy"], connotation: "0", difficulty: 1 },
+  { word: "export", segments: [P("ex", "out"), R("port", "carry")], pos: "verb", meaning: "to send goods abroad", distractors: ["to bring goods in", "to hide valuables", "to count amounts"], connotation: "0", difficulty: 1 },
+  { word: "audible", segments: [R("aud", "hear"), S("ible", "able to (adj)")], pos: "adjective", meaning: "able to be heard", distractors: ["able to be seen", "impossible to hear", "edible"], connotation: "0", difficulty: 1 },
+  { word: "inaudible", segments: [P("in", "not"), R("aud", "hear"), S("ible", "able to (adj)")], pos: "adjective", meaning: "impossible to hear", distractors: ["very loud", "easy to read", "visible"], connotation: "0", difficulty: 2 },
+  { word: "credible", segments: [R("cred", "believe"), S("ible", "able to (adj)")], pos: "adjective", meaning: "believable; trustworthy", distractors: ["absurd", "invisible", "illegal"], connotation: "+", difficulty: 2 },
+  { word: "incredible", segments: [P("in", "not"), R("cred", "believe"), S("ible", "able to (adj)")], pos: "adjective", meaning: "hard to believe; amazing", distractors: ["dull and ordinary", "completely believable", "trivial"], connotation: "+", difficulty: 2 },
+  { word: "revive", segments: [P("re", "again"), R("vive", "live")], pos: "verb", meaning: "to bring back to life or use", distractors: ["to destroy utterly", "to put to sleep", "to forget"], connotation: "+", difficulty: 2 },
+  { word: "survive", segments: [P("sur", "over/beyond"), R("vive", "live")], pos: "verb", meaning: "to continue to live", distractors: ["to die", "to flee", "to surrender"], connotation: "+", difficulty: 1 },
+  { word: "intervene", segments: [P("inter", "between"), R("vene", "come")], pos: "verb", meaning: "to come between to alter events", distractors: ["to stay out of it", "to arrive at the same time", "to leave entirely"], connotation: "0", difficulty: 3 },
+  { word: "convene", segments: [P("con", "together"), R("vene", "come")], pos: "verb", meaning: "to come together for a meeting", distractors: ["to disband", "to leave alone", "to refuse to attend"], connotation: "0", difficulty: 3 },
+  { word: "illegible", segments: [P("il", "not"), R("leg", "read"), S("ible", "able to (adj)")], pos: "adjective", meaning: "impossible to read; badly written", distractors: ["clear and readable", "lawful", "loud"], connotation: "-", difficulty: 3 },
+  { word: "immortal", segments: [P("im", "not"), R("mort", "death"), S("al", "-al (adj)")], pos: "adjective", meaning: "living forever", distractors: ["dying soon", "highly moral", "moving"], connotation: "+", difficulty: 2 },
+  { word: "immature", segments: [P("im", "not"), R("mature", "mature")], pos: "adjective", meaning: "not fully developed; childish", distractors: ["fully grown", "enormous", "dangerous"], connotation: "-", difficulty: 1 },
+  { word: "benefactor", segments: [P("bene", "good"), R("fact", "do/make"), S("or", "person (noun)")], pos: "noun", meaning: "a person who gives help", distractors: ["a person who receives help", "a factory worker", "an opponent"], connotation: "+", difficulty: 3 },
+  { word: "contradict", segments: [P("contra", "against"), R("dict", "say")], pos: "verb", meaning: "to say the opposite of; to conflict with", distractors: ["to agree with", "to predict the future", "to repeat loudly"], connotation: "0", difficulty: 2 },
+  { word: "predict", segments: [P("pre", "before"), R("dict", "say")], pos: "verb", meaning: "to say what will happen", distractors: ["to recall the past", "to forbid", "to translate"], connotation: "0", difficulty: 1 },
+  { word: "dehydrate", segments: [P("de", "remove"), R("hydr", "water"), S("ate", "make (verb)")], pos: "verb", meaning: "to remove water from; to dry out", distractors: ["to add water", "to boil", "to freeze"], connotation: "-", difficulty: 3 },
+  { word: "synchronize", segments: [P("syn", "together"), R("chron", "time"), S("ize", "make (verb)")], pos: "verb", meaning: "to make happen at the same time", distractors: ["to delay", "to do separately", "to keep time"], connotation: "0", difficulty: 3 },
+  { word: "anonymous", segments: [P("an", "without"), R("onym", "name"), S("ous", "-ous (adj)")], pos: "adjective", meaning: "without a known name", distractors: ["signed", "famous", "unique"], connotation: "0", difficulty: 2 },
+  { word: "antagonist", segments: [P("ant", "against"), R("agon", "struggle"), S("ist", "person (noun)")], pos: "noun", meaning: "an opponent or adversary", distractors: ["an ally", "a bystander", "the hero's helper"], connotation: "-", difficulty: 3 },
+  { word: "philanthropy", segments: [R("phil", "love"), R("anthrop", "human"), S("y", "noun")], pos: "noun", meaning: "love of humankind shown by giving", distractors: ["hatred of people", "the study of nature", "personal ambition"], connotation: "+", difficulty: 4 },
+  { word: "omnipotent", segments: [P("omni", "all"), R("potent", "power")], pos: "adjective", meaning: "having unlimited power", distractors: ["weak and powerless", "present everywhere", "knowing nothing"], connotation: "0", difficulty: 4 },
+  { word: "disharmony", segments: [P("dis", "not/lack of"), R("harmony", "harmony")], pos: "noun", meaning: "lack of agreement; discord", distractors: ["perfect agreement", "loud music", "a quiet setting"], connotation: "-", difficulty: 2 },
 ];
 
 async function main() {
-  // 断言:segments 拼接 === word
   for (const w of WORDS) {
     const joined = w.segments.map((s) => s.text).join("");
-    if (joined !== w.word) throw new Error(`拆分不匹配: ${w.word} != ${joined}`);
+    if (joined !== w.word) throw new Error(`segment mismatch: ${w.word} != ${joined}`);
   }
 
   await prisma.gameItem.deleteMany({ where: { gameType: "morphology" } });
   for (const w of WORDS) {
     const { difficulty, ...payload } = w;
-    await prisma.gameItem.create({
-      data: { gameType: "morphology", domain: "words_in_context", difficulty, payload },
-    });
+    await prisma.gameItem.create({ data: { gameType: "morphology", domain: "words_in_context", difficulty, payload } });
   }
   console.log(`morphology: ${WORDS.length}`);
   console.log("P2 seed complete.");

@@ -14,11 +14,11 @@ type WordItem = {
 type Guess = { word: string; score: number; nudge: string; latest?: boolean };
 
 function tierOf(score: number) {
-  if (score >= 85) return { name: "非常接近", color: "bg-rose-400" };
-  if (score >= 65) return { name: "已经很近", color: "bg-emerald-400" };
-  if (score >= 45) return { name: "方向对了", color: "bg-emerald-300" };
-  if (score >= 25) return { name: "有点关系", color: "bg-lime-300" };
-  return { name: "还很远", color: "bg-amber-200" };
+  if (score >= 85) return { name: "Very close", color: "bg-rose-400" };
+  if (score >= 65) return { name: "Getting close", color: "bg-emerald-400" };
+  if (score >= 45) return { name: "Right direction", color: "bg-emerald-300" };
+  if (score >= 25) return { name: "Somewhat related", color: "bg-lime-300" };
+  return { name: "Still far", color: "bg-amber-200" };
 }
 
 // 揭晓时在例句里高亮目标词与上下文线索词
@@ -96,11 +96,11 @@ export default function CloserPage() {
     setNotice("");
     if (!raw) return;
     if (/\s/.test(raw)) {
-      setNotice("一次只能猜一个词。");
+      setNotice("One word at a time.");
       return;
     }
     if (guesses.some((g) => g.word === raw)) {
-      setNotice("已经猜过这个词了。");
+      setNotice("You already guessed that word.");
       return;
     }
 
@@ -113,7 +113,7 @@ export default function CloserPage() {
       });
       const r = await res.json();
       if (!r.valid) {
-        setNotice(`"${raw}" 好像不是一个已知的词，换一个试试。`);
+        setNotice(`"${raw}" does not seem to be a known word—try another.`);
       } else {
         const score = r.match ? 100 : Math.max(0, Math.min(100, r.score | 0));
         const entry: Guess = { word: raw, score, nudge: r.match ? "" : r.nudge, latest: true };
@@ -126,7 +126,7 @@ export default function CloserPage() {
         }
       }
     } catch {
-      setNotice("暂时联系不上评分服务，请重试。");
+      setNotice("Cannot reach the scoring service right now—please retry.");
     } finally {
       setScoring(false);
     }
@@ -144,16 +144,16 @@ export default function CloserPage() {
     setHintStage(stage);
     const t = target.payload;
     if (stage === 1) {
-      setHint(`提示：这是一个${t.pos === "verb" ? "动词" : "形容词"}。`);
+      setHint(`Hint: it is ${t.pos === "verb" ? "a verb" : "an adjective"}.`);
     } else if (stage === 2) {
-      setHint(`提示：以 “${t.word[0].toUpperCase()}” 开头，共 ${t.word.length} 个字母。`);
+      setHint(`Hint: it starts with "${t.word[0].toUpperCase()}" and has ${t.word.length} letters.`);
     } else {
-      setHint("提示用完了，点下方直接揭晓答案。");
+      setHint("Out of hints—tap below to reveal the answer.");
     }
   }
 
   if (loading || !target) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
 
   const sorted = [...guesses].sort((a, b) => b.score - a.score);
@@ -163,22 +163,22 @@ export default function CloserPage() {
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Closer</h1>
       <p className="mt-1 text-sm text-slate-500">
-        读句子，用上下文线索猜出填空处的 SAT 词。每次猜测都会显示语义上离目标词有多近。
+        Read the sentence and use context clues to guess the missing SAT word. Each guess shows how close it is in meaning.
       </p>
 
       <MethodCard {...METHODS.contextClue} />
 
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
         <div className="text-xs font-semibold uppercase text-slate-400">
-          填空 · {target.payload.pos}
+          Blank · {target.payload.pos}
         </div>
         <p className="mt-1 text-base text-slate-800">{cloze}</p>
       </div>
 
       <div className="mt-4 rounded-xl bg-slate-900 p-4 text-white">
-        <div className="text-xs uppercase text-slate-400">最近一次距离</div>
+        <div className="text-xs uppercase text-slate-400">Latest distance</div>
         <div className="mt-1 text-sm text-slate-200">
-          {guesses.length === 0 ? "先猜一个词。" : tierOf(guesses[guesses.length - 1].score).name}
+          {guesses.length === 0 ? "Guess a word first." : tierOf(guesses[guesses.length - 1].score).name}
         </div>
       </div>
 
@@ -188,7 +188,7 @@ export default function CloserPage() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && submit()}
-            placeholder="输入一个词…"
+            placeholder="Type a word…"
             className="flex-1 rounded-lg border border-slate-200 px-3 py-2 outline-none focus:border-slate-400"
           />
           <button
@@ -196,7 +196,7 @@ export default function CloserPage() {
             disabled={scoring}
             className="rounded-lg bg-slate-900 px-4 py-2 font-semibold text-white disabled:opacity-50"
           >
-            {scoring ? "评分中…" : "猜"}
+            {scoring ? "Scoring…" : "Guess"}
           </button>
         </div>
       )}
@@ -204,9 +204,9 @@ export default function CloserPage() {
 
       {!roundOver && (
         <div className="mt-2 flex items-center justify-between text-sm text-slate-500">
-          <span>{guesses.length} 次猜测</span>
+          <span>{guesses.length} guesses</span>
           <button onClick={requestHint} className="text-slate-600 underline">
-            需要提示？
+            Need a hint?
           </button>
         </div>
       )}
@@ -215,7 +215,7 @@ export default function CloserPage() {
           {hint}
           {hintStage >= 3 && (
             <button onClick={giveUp} className="ml-2 font-semibold text-rose-500 underline">
-              揭晓答案 →
+              Reveal answer →
             </button>
           )}
         </p>
@@ -242,7 +242,7 @@ export default function CloserPage() {
       {roundOver && (
         <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
           <div className="text-xs font-semibold uppercase text-slate-400">
-            {won ? "猜中了" : "答案是"}
+            {won ? "You got it" : "Answer"}
           </div>
           <h2 className="mt-1 text-xl font-bold text-slate-900">{target.payload.word}</h2>
           <p className="text-sm italic text-slate-500">{target.payload.pos}</p>
@@ -251,13 +251,13 @@ export default function CloserPage() {
             {renderExample(target.payload.ex, target.payload.word, target.payload.contextClues)}
           </p>
           {target.payload.contextClues && target.payload.contextClues.length > 0 && (
-            <p className="mt-1 text-xs text-amber-700">高亮的是帮你推断词义的上下文线索。</p>
+            <p className="mt-1 text-xs text-amber-700">Highlighted words are the context clues that hint at the meaning.</p>
           )}
           <button
             onClick={pickWord}
             className="mt-4 w-full rounded-lg bg-rose-500 py-2 font-semibold text-white"
           >
-            下一个词
+            Next word
           </button>
         </div>
       )}

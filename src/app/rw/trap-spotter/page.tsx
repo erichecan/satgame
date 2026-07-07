@@ -41,18 +41,18 @@ export default function TrapSpotterPage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
   if (items.length === 0) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
   }
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
         <p className="mt-2 text-slate-500">
-          {clean} / {items.length} 题一次判对。
+          {clean} / {items.length} judged correctly on the first try.
         </p>
         <button
           className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
@@ -62,7 +62,7 @@ export default function TrapSpotterPage() {
             setPicked(null);
           }}
         >
-          再来一轮
+          Play again
         </button>
       </main>
     );
@@ -78,10 +78,10 @@ export default function TrapSpotterPage() {
         <span>
           {idx + 1} / {items.length}
         </span>
-        <span>{clean} 题一次判对</span>
+        <span>{clean} first-try</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Trap Spotter</h1>
-      <p className="mt-1 text-sm text-slate-500">这个选项是正确答案，还是哪一类陷阱？</p>
+      <p className="mt-1 text-sm text-slate-500">Is this option the correct answer, or which kind of trap?</p>
 
       <MethodCard {...METHODS.trapTaxonomy} />
 
@@ -109,7 +109,7 @@ export default function TrapSpotterPage() {
               : "border-emerald-300 text-emerald-700 hover:bg-emerald-50"
           }`}
         >
-          ✓ 正确答案
+          ✓ Correct answer
         </button>
         {TRAP_TYPES.map((tt) => (
           <button
@@ -134,14 +134,14 @@ export default function TrapSpotterPage() {
       {answered && (
         <div className={`mt-4 rounded-lg p-3 text-sm ${gotIt ? "bg-emerald-50" : "bg-rose-50"}`}>
           <div className={`font-semibold ${gotIt ? "text-emerald-600" : "text-rose-500"}`}>
-            {gotIt ? "判对了" : "再想想"}
-            {verdict !== "correct" && <span className="ml-1 text-slate-500">· 这是「{TRAP_LABEL[verdict]}」</span>}
+            {gotIt ? "Correct" : "Think again"}
+            {verdict !== "correct" && <span className="ml-1 text-slate-500">· This is “{TRAP_LABEL[verdict]}”</span>}
           </div>
           <p className="mt-1 text-slate-600">
-            {verdict === "correct" ? "这个选项确实是正确答案：它是原文的换词说法，没有偷换意思。" : TRAP_TIP[verdict]}
+            {verdict === "correct" ? "This option really is correct: it paraphrases the passage without twisting the meaning." : TRAP_TIP[verdict]}
           </p>
           <button onClick={next} className="mt-3 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-            {idx === items.length - 1 ? "看总结" : "下一题"}
+            {idx === items.length - 1 ? "See summary" : "Next"}
           </button>
         </div>
       )}

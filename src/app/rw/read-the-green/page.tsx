@@ -90,12 +90,12 @@ export default function ReadTheGreenPage() {
     if (opt.correct) {
       setPickedOption(i);
       setPhase("evidence");
-      setNote({ head: "答对了", body: "现在回到原文，点出证明这个答案的那句话。", tone: "go" });
+      setNote({ head: "Correct", body: "Now go back to the passage and point to the sentence that proves this answer.", tone: "go" });
     } else {
       setFirstTry(false);
       setWrongOption(i);
       if (!errTag) setErrTag(opt.trapType);
-      setNote({ head: "这是个陷阱", body: opt.trap ?? "", extra: "再看看，选另一个。", tone: "no" });
+      setNote({ head: "This is a trap", body: opt.trap ?? "", extra: "Look again and pick another.", tone: "no" });
     }
   }
 
@@ -110,12 +110,12 @@ export default function ReadTheGreenPage() {
         .filter((o) => !o.correct)
         .map((o) => `• ${o.trapType ? `【${TRAP_LABEL[o.trapType]}】` : ""}${o.trap ?? ""}`)
         .join("\n");
-      setNote({ head: "就是这句", body: item.payload.evidenceWhy, extra: `其他选项为什么不对：\n${traps}`, tone: "ok" });
+      setNote({ head: "This is the sentence", body: item.payload.evidenceWhy, extra: `Why the other options are wrong:\n${traps}`, tone: "ok" });
     } else {
       setFirstTry(false);
       setNote({
-        head: "不是最有力的证据",
-        body: "这句话是真的，但不能直接证明答案。找出说得最清楚的那句。",
+        head: "Not the strongest evidence",
+        body: "This sentence is true, but it does not directly prove the answer. Find the one that states it most clearly.",
         tone: "no",
       });
     }
@@ -130,18 +130,18 @@ export default function ReadTheGreenPage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
   if (items.length === 0) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
   }
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
         <p className="mt-2 text-slate-500">
-          {clean} / {items.length} 篇一次就读对答案和证据。
+          {clean} / {items.length} passages read correctly (answer + evidence) on the first try.
         </p>
         <button
           className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
@@ -150,7 +150,7 @@ export default function ReadTheGreenPage() {
             setClean(0);
           }}
         >
-          再来一轮
+          Play again
         </button>
       </main>
     );
@@ -162,10 +162,10 @@ export default function ReadTheGreenPage() {
         <span>
           {idx + 1} / {items.length}
         </span>
-        <span>{clean} 篇干净通过</span>
+        <span>{clean} clean</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Read the Green</h1>
-      <p className="mt-1 text-sm text-slate-500">细节题四步：读题 → 抓关键词 → 回原文定位 → 选同义改写。</p>
+      <p className="mt-1 text-sm text-slate-500">Detail questions, 4 steps: read the question, grab keywords, locate in the passage, pick the paraphrase.</p>
 
       <MethodCard {...METHODS.detailFourStep} />
 
@@ -185,7 +185,7 @@ export default function ReadTheGreenPage() {
 
       {phase === "keyword" ? (
         <div className="mt-4">
-          <p className="text-sm font-semibold text-slate-900">先点出题干里该回原文定位的关键词：</p>
+          <p className="text-sm font-semibold text-slate-900">First, point out the keywords in the question you would use to locate the answer:</p>
           <p className="mt-2 leading-relaxed">
             {questionTokens.map((tok, i) =>
               /\s+/.test(tok) || norm(tok) === "" ? (
@@ -212,7 +212,7 @@ export default function ReadTheGreenPage() {
             disabled={foundKeywords < keywordSet.size}
             className="mt-3 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white disabled:opacity-40"
           >
-            {foundKeywords < keywordSet.size ? `再找 ${keywordSet.size - foundKeywords} 个关键词` : "进入选项 →"}
+            {foundKeywords < keywordSet.size ? `Find ${keywordSet.size - foundKeywords} more keyword(s)` : "Go to the options →"}
           </button>
         </div>
       ) : (
@@ -243,7 +243,7 @@ export default function ReadTheGreenPage() {
 
       {phase === "evidence" && (
         <p className="mt-3 rounded-lg bg-emerald-50 px-3 py-2 text-xs text-emerald-700">
-          提示：正确答案是原文的<b>换词说法</b>，不是原词照搬。回原文找证明它的那一句。
+          Hint: the correct answer is a <b>paraphrase</b> of the passage, not the same words. Go back and find the sentence that proves it.
         </p>
       )}
 
@@ -263,7 +263,7 @@ export default function ReadTheGreenPage() {
 
       {phase === "done" && (
         <button onClick={next} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-          {idx === items.length - 1 ? "看总结" : "下一篇"}
+          {idx === items.length - 1 ? "See summary" : "Next passage"}
         </button>
       )}
     </main>

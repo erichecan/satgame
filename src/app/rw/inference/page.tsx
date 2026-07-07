@@ -34,16 +34,16 @@ export default function InferencePage() {
     setOptPick(null);
   }, [item?.id]);
 
-  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
-  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
+  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
-        <p className="mt-2 text-slate-500">{clean} / {items.length} 题一次做对。</p>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
+        <p className="mt-2 text-slate-500">{clean} / {items.length} questions right on the first try.</p>
         <button className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
-          onClick={() => { setIdx(0); setClean(0); }}>再来一轮</button>
+          onClick={() => { setIdx(0); setClean(0); }}>Play again</button>
       </main>
     );
   }
@@ -87,10 +87,10 @@ export default function InferencePage() {
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
         <span>{idx + 1} / {items.length}</span>
-        <span>{clean} 题一次做对</span>
+        <span>{clean} first-try</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Inference</h1>
-      <p className="mt-1 text-sm text-slate-500">先想作者写这段的目的，再选最合逻辑的补全。</p>
+      <p className="mt-1 text-sm text-slate-500">First think about the author's purpose, then pick the most logical completion.</p>
 
       <MethodCard {...METHODS.inference} />
 
@@ -100,7 +100,7 @@ export default function InferencePage() {
 
       {/* 第一步:作者目的 */}
       <div className="mt-4">
-        <p className="text-sm font-semibold text-slate-900">这段话，作者的目的（exigence）是？</p>
+        <p className="text-sm font-semibold text-slate-900">What is the author's purpose (exigence) in this passage?</p>
         <div className="mt-2 space-y-2">
           {exigenceOptions.map((o, i) => (
             <button key={i} onClick={() => pickExigence(i)} disabled={phase !== "exigence"}
@@ -114,14 +114,14 @@ export default function InferencePage() {
           ))}
         </div>
         {phase === "exigence" && exPick !== null && !exigenceOptions[exPick].correct && (
-          <p className="mt-1 text-sm text-rose-500">再想想：作者为什么要写这段？</p>
+          <p className="mt-1 text-sm text-rose-500">Think again: why did the author write this?</p>
         )}
       </div>
 
       {/* 第二步:补全 */}
       {(phase === "complete" || phase === "done") && (
         <div className="mt-4">
-          <p className="text-sm font-semibold text-slate-900">哪一项最合逻辑地补全这段话？</p>
+          <p className="text-sm font-semibold text-slate-900">Which choice most logically completes the passage?</p>
           <div className="mt-2 space-y-2">
             {options.map((o, i) => {
               const reveal = phase === "done" && (o.correct || i === optPick);
@@ -149,10 +149,10 @@ export default function InferencePage() {
 
       {phase === "done" && (
         <div className="mt-4 rounded-lg bg-slate-50 p-3 text-sm">
-          <div className="font-semibold text-emerald-600">合逻辑的补全</div>
+          <div className="font-semibold text-emerald-600">The logical completion</div>
           <p className="mt-1 text-slate-600">{why}</p>
           <button onClick={next} className="mt-3 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-            {idx === items.length - 1 ? "看总结" : "下一题"}
+            {idx === items.length - 1 ? "See summary" : "Next"}
           </button>
         </div>
       )}

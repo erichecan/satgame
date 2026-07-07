@@ -10,9 +10,9 @@ type Conn = "+" | "-" | "0";
 type ConnItem = { id: string; payload: { word: string; sentence: string; answer: Conn } };
 
 const CHOICES: { key: Conn; label: string; cls: string }[] = [
-  { key: "+", label: "褒义", cls: "border-emerald-400 text-emerald-700 hover:bg-emerald-50" },
-  { key: "0", label: "中性", cls: "border-slate-300 text-slate-600 hover:bg-slate-100" },
-  { key: "-", label: "贬义", cls: "border-rose-400 text-rose-600 hover:bg-rose-50" },
+  { key: "+", label: "Positive", cls: "border-emerald-400 text-emerald-700 hover:bg-emerald-50" },
+  { key: "0", label: "Neutral", cls: "border-slate-300 text-slate-600 hover:bg-slate-100" },
+  { key: "-", label: "Negative", cls: "border-rose-400 text-rose-600 hover:bg-rose-50" },
 ];
 
 function renderSentence(sentence: string, word: string) {
@@ -90,7 +90,7 @@ export default function ConnotationPage() {
       return n;
     });
     recordProgress({ gameType: "connotation", skill: "connotation", itemId: it.id, result: "incorrect" });
-    setFeed(c === null ? "太慢了！正确的是绿色。" : "这个词在这句里的色彩看错了。");
+    setFeed(c === null ? "Too slow! The green one was right." : "Wrong read on the shading here.");
     setHearts((h) => {
       const nh = h - 1;
       if (nh <= 0) { setRunning(false); setTimeout(() => setOver(true), 600); }
@@ -102,13 +102,13 @@ export default function ConnotationPage() {
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Connotation</h1>
-      <p className="mt-1 text-sm text-slate-500">在计时条清空前，判断加粗词在这句话里的褒贬色彩。</p>
+      <p className="mt-1 text-sm text-slate-500">Before the timer runs out, judge the connotation of the bold word in this sentence.</p>
 
       <MethodCard {...METHODS.connotation} />
 
       <div className="mt-4 flex items-center justify-between text-sm">
         <span className="text-rose-500">{"♥".repeat(Math.max(hearts, 0))}</span>
-        <span className="font-mono text-slate-500">得分 <b className="text-slate-900">{score}</b> · 最佳 <b className="text-slate-900">{best}</b></span>
+        <span className="font-mono text-slate-500">Score <b className="text-slate-900">{score}</b> · Best <b className="text-slate-900">{best}</b></span>
       </div>
 
       <div className="mt-4 rounded-xl border border-slate-800 bg-slate-900 p-4 text-white">
@@ -116,7 +116,7 @@ export default function ConnotationPage() {
           <div className="h-full bg-emerald-400 transition-all" style={{ width: `${timePct}%` }} />
         </div>
         <p className="mt-4 min-h-[4rem] text-base leading-relaxed">
-          {cur ? renderSentence(cur.payload.sentence, cur.payload.word) : "点下方任意按钮开始"}
+          {cur ? renderSentence(cur.payload.sentence, cur.payload.word) : "Tap any button below to start"}
         </p>
         <div className="mt-4 grid grid-cols-3 gap-3">
           {CHOICES.map((ch) => (
@@ -135,9 +135,9 @@ export default function ConnotationPage() {
 
       {over && (
         <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5 text-center">
-          <h2 className="text-xl font-bold text-slate-900">本轮结束</h2>
-          <p className="mt-1 text-slate-500">连对 {best} 个</p>
-          <button onClick={start} className="mt-4 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white">再来一轮</button>
+          <h2 className="text-xl font-bold text-slate-900">Round over</h2>
+          <p className="mt-1 text-slate-500">{best} in a row</p>
+          <button onClick={start} className="mt-4 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white">Play again</button>
         </div>
       )}
     </main>

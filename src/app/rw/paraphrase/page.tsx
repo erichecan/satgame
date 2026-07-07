@@ -38,18 +38,18 @@ export default function ParaphrasePage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
   if (items.length === 0) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
   }
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
         <p className="mt-2 text-slate-500">
-          {clean} / {items.length} 题一次选对同义改写。
+          {clean} / {items.length} questions with the right paraphrase on the first try.
         </p>
         <button
           className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
@@ -59,7 +59,7 @@ export default function ParaphrasePage() {
             setPicked(null);
           }}
         >
-          再来一轮
+          Play again
         </button>
       </main>
     );
@@ -73,15 +73,15 @@ export default function ParaphrasePage() {
         <span>
           {idx + 1} / {items.length}
         </span>
-        <span>{clean} 题一次选对</span>
+        <span>{clean} first-try</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Paraphrase Match</h1>
-      <p className="mt-1 text-sm text-slate-500">选出这句话意思最接近的换词说法。</p>
+      <p className="mt-1 text-sm text-slate-500">Pick the paraphrase closest in meaning to this sentence.</p>
 
       <MethodCard {...METHODS.paraphrase} />
 
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
-        <div className="text-xs font-semibold uppercase text-slate-400">原文</div>
+        <div className="text-xs font-semibold uppercase text-slate-400">Source</div>
         <p className="mt-1 text-base text-slate-800">{item.payload.source}</p>
       </div>
 
@@ -118,7 +118,7 @@ export default function ParaphrasePage() {
 
       {answered && (
         <button onClick={next} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-          {idx === items.length - 1 ? "看总结" : "下一题"}
+          {idx === items.length - 1 ? "See summary" : "Next"}
         </button>
       )}
     </main>

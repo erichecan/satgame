@@ -11,8 +11,8 @@ export function MethodCard({ title, points }: { title: string; points: string[] 
         onClick={() => setOpen((o) => !o)}
         className="flex w-full items-center justify-between px-4 py-2 text-left text-sm font-semibold text-emerald-800"
       >
-        <span>🧭 方法 · {title}</span>
-        <span className="text-emerald-500">{open ? "收起" : "展开"}</span>
+        <span>🧭 Method · {title}</span>
+        <span className="text-emerald-500">{open ? "Collapse" : "Expand"}</span>
       </button>
       {open && (
         <ol className="list-decimal space-y-1 px-8 pb-3 text-sm text-emerald-900/80">

@@ -55,18 +55,18 @@ export default function TrimPage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
   if (items.length === 0) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
   }
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
         <p className="mt-2 text-slate-500">
-          {clean} / {items.length} 句一次就留对主干。
+          {clean} / {items.length} sentences trimmed to the right core on the first try.
         </p>
         <button
           className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
@@ -77,7 +77,7 @@ export default function TrimPage() {
             setChecked(false);
           }}
         >
-          再来一轮
+          Play again
         </button>
       </main>
     );
@@ -91,10 +91,10 @@ export default function TrimPage() {
         <span>
           {idx + 1} / {items.length}
         </span>
-        <span>{clean} 句留对主干</span>
+        <span>{clean} correct</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Trim the Sentence</h1>
-      <p className="mt-1 text-sm text-slate-500">点掉修饰成分，只留下主干（主 + 谓 + 宾）。</p>
+      <p className="mt-1 text-sm text-slate-500">Tap away the modifiers, leaving only the core (subject + verb + object).</p>
 
       <MethodCard {...METHODS.trim} />
 
@@ -118,21 +118,21 @@ export default function TrimPage() {
 
       {!checked ? (
         <button onClick={check} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-          检查主干
+          Check the core
         </button>
       ) : (
         <>
           <div className={`mt-4 rounded-lg p-3 text-sm ${correct ? "bg-emerald-50" : "bg-rose-50"}`}>
             <div className={`font-semibold ${correct ? "text-emerald-600" : "text-rose-500"}`}>
-              {correct ? "主干留对了" : "还差一点"}
+              {correct ? "Core is correct" : "Not quite"}
             </div>
             <p className="mt-1 text-slate-700">
-              主干：<b>{core}</b>
+              Core: <b>{core}</b>
             </p>
             <p className="mt-1 text-xs text-slate-500">{item.payload.gloss}</p>
           </div>
           <button onClick={next} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-            {idx === items.length - 1 ? "看总结" : "下一句"}
+            {idx === items.length - 1 ? "See summary" : "Next sentence"}
           </button>
         </>
       )}

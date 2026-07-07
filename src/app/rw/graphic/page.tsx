@@ -42,16 +42,16 @@ export default function GraphicPage() {
     setPicked(null);
   }
 
-  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
-  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
+  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
-        <p className="mt-2 text-slate-500">{clean} / {items.length} 题一次选对。</p>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
+        <p className="mt-2 text-slate-500">{clean} / {items.length} questions right on the first try.</p>
         <button className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
-          onClick={() => { setIdx(0); setClean(0); setPicked(null); }}>再来一轮</button>
+          onClick={() => { setIdx(0); setClean(0); setPicked(null); }}>Play again</button>
       </main>
     );
   }
@@ -64,17 +64,17 @@ export default function GraphicPage() {
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
         <span>{idx + 1} / {items.length}</span>
-        <span>{clean} 题一次选对</span>
+        <span>{clean} first-try</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Graphic</h1>
-      <p className="mt-1 text-sm text-slate-500">先读题，再读短文找结论，最后看图找规律。</p>
+      <p className="mt-1 text-sm text-slate-500">Read the question first, then the blurb for the conclusion, then the chart for the pattern.</p>
 
       <MethodCard {...METHODS.graphic} />
 
       {/* 图表 */}
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
         <div className="text-sm font-semibold text-slate-900">{title}</div>
-        {unit && <div className="text-xs text-slate-400">单位：{unit}</div>}
+        {unit && <div className="text-xs text-slate-400">Unit: {unit}</div>}
         <div className="mt-3 space-y-2">
           {bars.map((b, i) => (
             <div key={i} className="flex items-center gap-2 text-xs">
@@ -116,10 +116,10 @@ export default function GraphicPage() {
 
       {answered && (
         <div className="mt-4 rounded-lg bg-slate-50 p-3 text-sm">
-          <div className="font-semibold text-emerald-600">读图要点</div>
+          <div className="font-semibold text-emerald-600">Reading the chart</div>
           <p className="mt-1 text-slate-600">{why}</p>
           <button onClick={next} className="mt-3 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-            {idx === items.length - 1 ? "看总结" : "下一题"}
+            {idx === items.length - 1 ? "See summary" : "Next"}
           </button>
         </div>
       )}

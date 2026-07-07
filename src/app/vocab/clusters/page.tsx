@@ -87,10 +87,10 @@ export default function ClustersPage() {
       setSelected([]);
       const remainingAfter = remaining.filter((t) => t.groupIndex !== groupIndex);
       if (remainingAfter.length === 0) {
-        setMessage(`全部归类完成，剩 ${mistakes} 次机会 ✦`);
+        setMessage(`All groups found — ${mistakes} lives left ✦`);
         recordResult(true);
       } else {
-        setMessage("对了，继续。");
+        setMessage("Right, keep going.");
       }
     } else {
       const counts: Record<number, number> = {};
@@ -98,9 +98,9 @@ export default function ClustersPage() {
       const maxIn = Math.max(...Object.values(counts));
       const nextMistakes = mistakes - 1;
       setMistakes(nextMistakes);
-      setMessage(maxIn === 3 ? "差一个……再试一次。" : "这不是一组——再想想。");
+      setMessage(maxIn === 3 ? "One off… try again." : "Not a group—think again.");
       if (nextMistakes <= 0) {
-        setMessage("机会用完了，来看看正确分组。");
+        setMessage("Out of chances—here are the correct groups.");
         recordResult(false);
       }
     }
@@ -112,14 +112,14 @@ export default function ClustersPage() {
   }, [puzzle, mistakes, solvedGroups]);
 
   if (!puzzle) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
 
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Clusters</h1>
       <p className="mt-1 text-sm text-slate-500">
-        把 16 个词按精确含义分成 4 组。有些词看起来像属于一组，实际意思不同。允许 4 次失误。
+        Sort the 16 words into 4 groups by exact meaning. Some look like they belong together but mean different things. 4 mistakes allowed.
       </p>
 
       <div className="mt-4 space-y-2">
@@ -159,7 +159,7 @@ export default function ClustersPage() {
       )}
 
       <div className="mt-4 flex items-center justify-center gap-2 text-sm text-slate-500">
-        <span>剩余机会</span>
+        <span>Lives left</span>
         {[0, 1, 2, 3].map((i) => (
           <span
             key={i}
@@ -176,14 +176,14 @@ export default function ClustersPage() {
             disabled={selected.length === 0}
             onClick={() => setSelected([])}
           >
-            取消选择
+            Deselect
           </button>
           <button
             className="rounded-full border border-slate-900 bg-slate-900 px-5 py-2 text-sm font-bold text-white disabled:opacity-30"
             disabled={selected.length !== 4}
             onClick={submit}
           >
-            提交
+            Submit
           </button>
         </div>
       )}
@@ -193,7 +193,7 @@ export default function ClustersPage() {
           className="mt-4 w-full rounded-full bg-slate-900 py-3 text-sm font-bold text-white"
           onClick={() => setPIdx((i) => i + 1)}
         >
-          下一组
+          Next group
         </button>
       )}
     </main>

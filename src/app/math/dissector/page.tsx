@@ -179,7 +179,7 @@ export default function DissectorPage() {
             resetRound();
           }}
         >
-          {lang === "en" ? "Again" : "再来一轮"}
+          {lang === "en" ? "Again" : "Play again"}
         </button>
       </main>
     );

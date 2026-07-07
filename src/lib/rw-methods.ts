@@ -1,96 +1,95 @@
-// 方法卡内容库:各阅读/词汇游戏的「先教方法再练」提醒,取自 Kate Language 视频总结。
+// Method-card content library: the "learn the method, then practice" reminders for each reading/vocab game.
 export type Method = { title: string; points: string[] };
 
 export const METHODS = {
   detailFourStep: {
-    title: "细节题四步法",
+    title: "Detail questions: 4 steps",
     points: [
-      "先读题，判断这道题问的是什么。",
-      "从题干里提取具体关键词（人名、地点、条件词），它们是回原文的坐标。",
-      "回原文定位到关键词所在的那句，答案就藏在附近。",
-      "正确答案是原文的换词说法（same idea, different words）；和原文用词一样的选项往往是陷阱。",
+      "Read the question first and decide what it's actually asking.",
+      "Pull the concrete keywords out of the question (names, places, conditions)—they're your coordinates for going back to the passage.",
+      "Locate the sentence where those keywords appear; the answer is hiding nearby.",
+      "The right answer restates the passage in different words (same idea, different words); an option that copies the passage's wording is usually a trap.",
     ],
   },
   trapTaxonomy: {
-    title: "干扰项的固定套路",
+    title: "The fixed playbook of distractors",
     points: [
-      "SAT 的错误选项几乎逃不出这几类：同词复述 / 与原文相反 / 未提及 / 以偏概全 / 极端措辞 / 虚假比较 / 不当推理 / 基调不符。",
-      "最阴险的两类：极端措辞（will/all/never）和虚假比较（造出原文没有的 A 比 B）——1500→1550 的分水岭。",
-      "认出套路，比凭感觉'哪个更对'可靠得多。",
+      "SAT wrong answers almost always fall into a few types: repeats-wording / opposite / not-stated / too-narrow / too-extreme / false-comparison / doesn't-follow / wrong-tone.",
+      "The two nastiest: too-extreme (will/all/never) and false comparison (inventing an A-beats-B the passage never made)—this is the 1500→1550 divide.",
+      "Recognizing the pattern beats going with a gut feeling about which one 'seems right.'",
     ],
   },
   paraphrase: {
-    title: "同义改写原则",
+    title: "The paraphrase principle",
     points: [
-      "SAT 正确答案几乎从不照抄原文用词，而是同一个意思换一种说法（same idea, different words）。",
-      "看到和原句用词一模一样的选项，先警惕：常是把原词摆进去、意思却被偷换的陷阱。",
-      "逐项核对：意思有没有被扩大、缩小、反转，或加进原文没有的信息。",
+      "SAT's correct answer almost never copies the passage's wording—it says the same idea a different way (same idea, different words).",
+      "An option that uses the exact words of the sentence should raise a flag: it often drops the original words in while quietly swapping the meaning.",
+      "Check each option: has the meaning been widened, narrowed, reversed, or has information the passage never gave been added?",
     ],
   },
   trim: {
-    title: "长难句拆主干",
+    title: "Trimming a long sentence",
     points: [
-      "先找主语和它的谓语动词——这是句子的骨架。",
-      "定语从句、插入语、介词短语、状语大多是修饰，删掉也不影响主干意思。",
-      "一个长句往往有一半是可删的修饰；留下骨架，长句瞬间读懂。",
+      "Find the subject and its main verb first—that's the skeleton of the sentence.",
+      "Relative clauses, asides, prepositional phrases, and adverbials are mostly modifiers; deleting them doesn't change the core meaning.",
+      "A long sentence is often half deletable modifiers; keep the skeleton and the sentence reads instantly.",
     ],
   },
   contextClue: {
-    title: "上下文猜义",
+    title: "Guessing meaning from context",
     points: [
-      "遇到生词别急着查——先看它所在的整句话。",
-      "找线索：句中的对比词、举例、因果、以及和它并列的词，都在暗示它的意思。",
-      "先猜一个大致方向（褒义/贬义、强/弱），再往精确里收。",
+      "Don't rush to look up a new word—first read the whole sentence it sits in.",
+      "Hunt for clues: contrast words, examples, cause-and-effect, and words placed in parallel with it all hint at its meaning.",
+      "Guess a rough direction first (positive/negative, strong/weak), then narrow toward the precise sense.",
     ],
   },
-  // 以下为后续游戏(P2/P3/P5)预置的方法卡,先随内容库补齐(你的第 1 点:丰富提醒)
   inference: {
-    title: "推断题：抓作者目的",
+    title: "Inference: find the author's purpose",
     points: [
-      "推断题问『最合逻辑地补全』——先问：作者写这段的目的（exigence）是什么。",
-      "推断 = 原文没明说的；凡是复述原文原话的选项，都不可能是推断。",
-      "排除套路：极端措辞、与原文相反、离题、不当推理。",
+      "Inference questions ask for the 'most logical completion'—first ask: what is the author's purpose (exigence) in writing this?",
+      "An inference is what the passage does NOT state outright; any option that just repeats the passage's own words can't be the inference.",
+      "Rule out the usual traps: too-extreme, opposite, off-topic, doesn't-follow.",
     ],
   },
   graphic: {
-    title: "图表题四步",
+    title: "Graphic questions: 4 steps",
     points: [
-      "先读题（别一头扎进图表），明确要找什么。",
-      "读短文找 claim / 结论（不是实验步骤）。",
-      "看图：标题、坐标、图例各代表什么，找趋势（上升/下降/对比）。",
-      "从 A 到 D 逐项排除；题干说『差异大』就要选差异大的，不只是『不同』。",
+      "Read the question first (don't dive straight into the chart)—know what you're looking for.",
+      "Read the blurb for the claim / conclusion (not the experiment's steps).",
+      "Read the chart: what the title, axes, and legend mean, and find the trend (rising/falling/contrast).",
+      "Eliminate from A to D; if the question says 'varied widely,' pick the one showing a big difference, not just 'different.'",
     ],
   },
   mainPurpose: {
-    title: "main purpose 题",
+    title: "Main-purpose questions",
     points: [
-      "问的是『目的』不是『主旨』；选项都是『动词+宾语』的动作短语。",
-      "通读但聚焦首句（主题句）与末句；but/however 后半为重，双破折号中间可略。",
-      "先给文章定基调（tone），正确答案基调一致但换词。",
+      "It asks for the 'purpose,' not the 'main idea'; the options are all 'verb + object' action phrases.",
+      "Skim the whole thing but focus on the first sentence (topic) and the last; after but/however the second half matters, and the part between em-dashes can be skipped.",
+      "Fix the passage's tone first; the right answer matches that tone but in different words.",
     ],
   },
   ssatReading: {
-    title: "SSAT 阅读：每题 1 分钟",
+    title: "SSAT reading: one minute per question",
     points: [
-      "时间不够逐字读——重心放在『读懂题』而非『读懂文』。",
-      "只依据原文（passage only）：原文没提的选项直接排除，不用外部知识、不做假设。",
-      "标题题、作者观点题，本质都在考主旨。",
+      "There's no time to read word for word—put your effort into understanding the question, not the whole passage.",
+      "Passage only: rule out any option the passage doesn't mention; don't use outside knowledge and don't assume.",
+      "Title questions and author's-view questions are, at heart, all testing the main idea.",
     ],
   },
   morphology: {
-    title: "拆词猜义",
+    title: "Breaking a word down",
     points: [
-      "前缀+词根定词义，后缀定词性。",
-      "长词更好拆，短词才是噩梦（短词靠联想记：mar↔war=毁坏）。",
-      "拆完看整体判褒贬——in-/un- 开头也可能是褒义（incontrovertible=确凿）。",
+      "Prefix + root give the meaning; the suffix gives the part of speech.",
+      "Longer words are easier to break apart—short words are the nightmare (memorize those by association: mar↔war = to damage).",
+      "After breaking it up, judge the whole word's tone—an in-/un- start can still be positive (incontrovertible = certain).",
     ],
   },
   connotation: {
-    title: "褒贬色彩",
+    title: "Positive / negative shading",
     points: [
-      "每个词记 +/−/中性，别只记中文义。",
-      "褒贬会随语境漂移——同一个词在不同句子里可能不同。",
-      "近义词要辨细微差别（discern 察觉细微差别 vs detect 含分析）。",
+      "Tag every word +/−/neutral—don't just memorize a definition.",
+      "Connotation drifts with context—the same word can lean differently in different sentences.",
+      "Tell synonyms apart by their fine shades (discern = notice a subtle difference vs detect = involves analysis).",
     ],
   },
 } satisfies Record<string, Method>;

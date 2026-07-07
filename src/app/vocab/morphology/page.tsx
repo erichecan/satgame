@@ -21,10 +21,10 @@ type MorphItem = {
 
 type Phase = "split" | "pos" | "meaning" | "conn" | "done";
 
-const KIND_LABEL = { prefix: "前缀", root: "词根", suffix: "后缀" };
+const KIND_LABEL = { prefix: "prefix", root: "root", suffix: "suffix" };
 const POS_OPTIONS: MorphItem["payload"]["pos"][] = ["noun", "verb", "adjective", "adverb"];
-const POS_LABEL = { noun: "名词", verb: "动词", adjective: "形容词", adverb: "副词" };
-const CONN_LABEL = { "+": "褒义", "-": "贬义", "0": "中性" };
+const POS_LABEL = { noun: "noun", verb: "verb", adjective: "adjective", adverb: "adverb" };
+const CONN_LABEL = { "+": "positive", "-": "negative", "0": "neutral" };
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -75,16 +75,16 @@ export default function MorphologyPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [item?.id]);
 
-  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
-  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">暂无题目。</main>;
+  if (loading) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
+  if (items.length === 0) return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">No items yet.</main>;
 
   if (idx >= items.length) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center">
-        <h1 className="text-2xl font-bold text-slate-900">本轮完成</h1>
-        <p className="mt-2 text-slate-500">{clean} / {items.length} 词一次全对。</p>
+        <h1 className="text-2xl font-bold text-slate-900">Round complete</h1>
+        <p className="mt-2 text-slate-500">{clean} / {items.length} words all correct on the first try.</p>
         <button className="mt-6 rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
-          onClick={() => { setIdx(0); setClean(0); }}>再来一轮</button>
+          onClick={() => { setIdx(0); setClean(0); }}>Play again</button>
       </main>
     );
   }
@@ -138,17 +138,17 @@ export default function MorphologyPage() {
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
         <span>{idx + 1} / {items.length}</span>
-        <span>{clean} 词一次全对</span>
+        <span>{clean} perfect</span>
       </div>
       <h1 className="mt-1 text-2xl font-bold text-slate-900">Morphology</h1>
-      <p className="mt-1 text-sm text-slate-500">拆词猜义：切分 → 定词性 → 判词义与褒贬。</p>
+      <p className="mt-1 text-sm text-slate-500">Break down the word: split, part of speech, meaning & connotation.</p>
 
       <MethodCard {...METHODS.morphology} />
 
       {/* 第一步:切分 */}
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-5">
         <div className="text-xs font-semibold uppercase text-slate-400">
-          {phase === "split" ? "点字母之间的缝，把词切成 前缀/词根/后缀" : "词的构成"}
+          {phase === "split" ? "Tap the gaps between letters to split the word into prefix / root / suffix" : "Word structure"}
         </div>
         {phase === "split" ? (
           <div className="mt-3 flex items-center justify-center text-2xl font-mono tracking-wide">
@@ -180,18 +180,18 @@ export default function MorphologyPage() {
 
       {phase === "split" && (
         <button onClick={checkSplit} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-          检查切分
+          Check the split
         </button>
       )}
       {phase === "split" && !firstTry && !cutsMatch && (
-        <p className="mt-2 text-sm text-rose-500">还没切对。提示：这个词有 {segments.length} 段。</p>
+        <p className="mt-2 text-sm text-rose-500">Not split correctly yet. Hint: this word has {segments.length} parts.</p>
       )}
 
       {/* 第二步:词性(看后缀) */}
       {phase !== "split" && (
         <div className="mt-4">
           <p className="text-sm font-semibold text-slate-900">
-            看后缀 “{segments[segments.length - 1].text}” —— 这是什么词性？
+            Look at the suffix "{segments[segments.length - 1].text}" — what part of speech is it?
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
             {POS_OPTIONS.map((p) => (
@@ -211,7 +211,7 @@ export default function MorphologyPage() {
       {/* 第三步:词义(前缀+词根) */}
       {(phase === "meaning" || phase === "conn" || phase === "done") && (
         <div className="mt-4">
-          <p className="text-sm font-semibold text-slate-900">前缀+词根合起来 —— 这个词是什么意思？</p>
+          <p className="text-sm font-semibold text-slate-900">Prefix + root together — what does the word mean?</p>
           <div className="mt-2 space-y-2">
             {meaningOptions.map((m, i) => (
               <button key={i} onClick={() => pickMeaning(m)} disabled={phase !== "meaning"}
@@ -230,7 +230,7 @@ export default function MorphologyPage() {
       {/* 第四步:褒贬 */}
       {(phase === "conn" || phase === "done") && (
         <div className="mt-4">
-          <p className="text-sm font-semibold text-slate-900">拆完看整体 —— 这个词偏褒 / 贬 / 中性？</p>
+          <p className="text-sm font-semibold text-slate-900">Now the whole word — is it positive / negative / neutral?</p>
           <div className="mt-2 flex gap-2">
             {(["+", "-", "0"] as const).map((c) => (
               <button key={c} onClick={() => pickConn(c)} disabled={phase !== "conn"}
@@ -251,7 +251,7 @@ export default function MorphologyPage() {
           <div className="font-semibold text-slate-900">{word} · {POS_LABEL[pos]} · {CONN_LABEL[connotation]}</div>
           <p className="mt-1 text-slate-600">{meaning}</p>
           <button onClick={next} className="mt-3 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-            {idx === items.length - 1 ? "看总结" : "下一个词"}
+            {idx === items.length - 1 ? "See summary" : "Next word"}
           </button>
         </div>
       )}

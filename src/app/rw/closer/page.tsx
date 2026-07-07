@@ -40,6 +40,22 @@ function renderExample(ex: string, word: string, clues?: string[]) {
   });
 }
 
+// Cloze view while guessing: show the blank and highlight the context clues from the start.
+function renderCloze(ex: string, clues?: string[]) {
+  const clueSet = new Set((clues ?? []).map((c) => c.toLowerCase()));
+  const full = ex.replace("{word}", "＿＿＿＿");
+  return full.split(/(\s+)/).map((tok, i) => {
+    const n = tok.toLowerCase().replace(/[^a-z']/g, "");
+    if (n && clueSet.has(n))
+      return (
+        <mark key={i} className="rounded bg-amber-100 px-0.5 text-amber-800">
+          {tok}
+        </mark>
+      );
+    return <span key={i}>{tok}</span>;
+  });
+}
+
 export default function CloserPage() {
   const { items: pool, loading } = useGameItems<WordItem>("closer", 300);
   const [target, setTarget] = useState<WordItem | null>(null);
@@ -142,11 +158,11 @@ export default function CloserPage() {
     if (!target) return;
     const stage = hintStage + 1;
     setHintStage(stage);
-    const t = target.payload;
+    const w = target.payload.word;
     if (stage === 1) {
-      setHint(`Hint: it is ${t.pos === "verb" ? "a verb" : "an adjective"}.`);
+      setHint(`It starts with "${w[0].toUpperCase()}" and has ${w.length} letters.`);
     } else if (stage === 2) {
-      setHint(`Hint: it starts with "${t.word[0].toUpperCase()}" and has ${t.word.length} letters.`);
+      setHint(`The first two letters are "${w.slice(0, 2)}".`);
     } else {
       setHint("Out of hints—tap below to reveal the answer.");
     }
@@ -157,13 +173,12 @@ export default function CloserPage() {
   }
 
   const sorted = [...guesses].sort((a, b) => b.score - a.score);
-  const cloze = target.payload.ex.replace("{word}", "＿＿＿＿");
 
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8">
       <h1 className="text-2xl font-bold text-slate-900">Closer</h1>
       <p className="mt-1 text-sm text-slate-500">
-        Read the sentence and use context clues to guess the missing SAT word. Each guess shows how close it is in meaning.
+        Recall the SAT word that fits the blank. You&apos;re given its meaning and the highlighted context clues; each guess shows how close it is in meaning.
       </p>
 
       <MethodCard {...METHODS.contextClue} />
@@ -172,7 +187,16 @@ export default function CloserPage() {
         <div className="text-xs font-semibold uppercase text-slate-400">
           Blank · {target.payload.pos}
         </div>
-        <p className="mt-1 text-base text-slate-800">{cloze}</p>
+        <p className="mt-1 text-base text-slate-800">
+          {renderCloze(target.payload.ex, target.payload.contextClues)}
+        </p>
+        <div className="mt-3 border-t border-slate-100 pt-2 text-sm">
+          <span className="font-semibold text-slate-500">Meaning: </span>
+          <span className="text-slate-700">{target.payload.def}</span>
+        </div>
+        {target.payload.contextClues && target.payload.contextClues.length > 0 && (
+          <p className="mt-1 text-xs text-amber-700">Highlighted words are context clues.</p>
+        )}
       </div>
 
       <div className="mt-4 rounded-xl bg-slate-900 p-4 text-white">
@@ -213,7 +237,7 @@ export default function CloserPage() {
       {hint && (
         <p className="mt-1 rounded-lg bg-slate-100 px-3 py-2 text-sm text-slate-700">
           {hint}
-          {hintStage >= 3 && (
+          {hintStage >= 2 && (
             <button onClick={giveUp} className="ml-2 font-semibold text-rose-500 underline">
               Reveal answer →
             </button>

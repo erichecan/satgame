@@ -7,7 +7,7 @@ export async function GET(req: Request) {
   const take = Math.min(Number(searchParams.get("take")) || 20, 400);
 
   if (!gameType) {
-    return Response.json({ error: true, message: "缺少 gameType 参数" }, { status: 400 });
+    return Response.json({ error: true, message: "Missing gameType parameter" }, { status: 400 });
   }
 
   const pool = await prisma.gameItem.findMany({

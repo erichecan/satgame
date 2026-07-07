@@ -22,13 +22,13 @@ function LoginForm() {
       });
       if (!res.ok) {
         const data = await res.json();
-        setError(data.message || "登录失败");
+        setError(data.message || "Login failed");
         return;
       }
       router.push(searchParams.get("next") || "/");
       router.refresh();
     } catch {
-      setError("网络错误，请重试");
+      setError("Network error, please retry");
     } finally {
       setLoading(false);
     }
@@ -40,13 +40,13 @@ function LoginForm() {
       className="w-full max-w-sm space-y-4 rounded-2xl bg-white p-8 shadow-sm"
     >
       <h1 className="text-xl font-semibold text-slate-900">SAT Game</h1>
-      <p className="text-sm text-slate-500">输入访问口令继续</p>
+      <p className="text-sm text-slate-500">Enter the access code to continue</p>
       <input
         type="password"
         inputMode="numeric"
         value={passcode}
         onChange={(e) => setPasscode(e.target.value)}
-        placeholder="口令"
+        placeholder="Access code"
         className="w-full rounded-lg border border-slate-200 px-4 py-2 text-lg tracking-widest outline-none focus:border-slate-400"
         autoFocus
       />
@@ -56,7 +56,7 @@ function LoginForm() {
         disabled={loading || !passcode}
         className="w-full rounded-lg bg-slate-900 py-2 text-white disabled:opacity-40"
       >
-        {loading ? "登录中..." : "进入"}
+        {loading ? "Signing in..." : "Enter"}
       </button>
     </form>
   );

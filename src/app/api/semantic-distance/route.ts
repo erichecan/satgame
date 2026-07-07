@@ -9,7 +9,7 @@ function fallbackScore(guess: string, target: string) {
     valid: true,
     match: false,
     score: 5,
-    nudge: "未配置 ANTHROPIC_API_KEY，暂时只能判断是否完全猜中目标词。",
+    nudge: "ANTHROPIC_API_KEY is not set; for now we can only tell whether you exactly matched the target word.",
   };
 }
 
@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     if (!guess || !target) {
       return Response.json(
-        { error: true, message: "缺少必填字段 guess/target" },
+        { error: true, message: "Missing required field guess/target" },
         { status: 400 }
       );
     }
@@ -95,7 +95,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error("[API Route Error]", error);
     return Response.json(
-      { error: true, message: error instanceof Error ? error.message : "未知错误" },
+      { error: true, message: error instanceof Error ? error.message : "Unknown error" },
       { status: 500 }
     );
   }

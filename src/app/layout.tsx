@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SAT Game",
-  description: "为 Isabella 打造的每日游戏化 SAT 备考 App",
+  description: "A daily gamified SAT prep app built for Isabella",
 };
 
 export default function RootLayout({

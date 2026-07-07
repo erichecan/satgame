@@ -32,7 +32,7 @@ export async function POST(req: Request) {
 
     if (!gameType || !skill || !result) {
       return Response.json(
-        { error: true, message: "缺少必填字段 gameType/skill/result" },
+        { error: true, message: "Missing required field gameType/skill/result" },
         { status: 400 }
       );
     }
@@ -90,7 +90,7 @@ export async function POST(req: Request) {
     return Response.json(
       {
         error: true,
-        message: error instanceof Error ? error.message : "未知错误",
+        message: error instanceof Error ? error.message : "Unknown error",
         ...(process.env.NODE_ENV === "development" && {
           stack: error instanceof Error ? error.stack : undefined,
         }),

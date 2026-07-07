@@ -42,7 +42,7 @@ export function Nav() {
             pathname === "/study" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
           }`}
         >
-          背单词
+          Vocab
         </Link>
         <Link
           href="/daily-quiz"
@@ -50,7 +50,7 @@ export function Nav() {
             pathname === "/daily-quiz" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
           }`}
         >
-          测验
+          Quiz
         </Link>
         {GAMES.map((g) => (
           <Link
@@ -71,7 +71,7 @@ export function Nav() {
             pathname === "/notebook" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
           }`}
         >
-          生词本
+          Notebook
         </Link>
         <Link
           href="/insights"
@@ -79,10 +79,10 @@ export function Nav() {
             pathname === "/insights" ? "bg-slate-900 text-white" : "text-slate-600 hover:bg-slate-100"
           }`}
         >
-          错误 DNA
+          Error DNA
         </Link>
         <button onClick={handleLogout} className="ml-auto shrink-0 text-slate-400 hover:text-slate-600">
-          退出
+          Log out
         </button>
       </div>
     </nav>

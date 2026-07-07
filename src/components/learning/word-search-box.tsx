@@ -58,19 +58,19 @@ export function WordSearchBox() {
     <div className="mb-6 rounded-xl border border-slate-200 bg-white p-4">
       <div className="flex gap-2">
         <Input
-          placeholder="搜索单词，比如 ubiquitous"
+          placeholder="Search a word, e.g. ubiquitous"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && search()}
         />
         <Button onClick={search} disabled={loading || !query.trim()}>
-          {loading ? "查询中…" : "查询"}
+          {loading ? "Searching…" : "Search"}
         </Button>
       </div>
 
       {notFound && (
         <div className="mt-3 space-y-1">
-          <p className="text-sm text-slate-500">词库暂未收录该词（当前收录约 1500 个 SAT 高频词），去词典查一下：</p>
+          <p className="text-sm text-slate-500">This word is not in our list yet (~1500 common SAT words). Look it up in a dictionary:</p>
           <a
             className="text-sm text-amber-600 underline"
             href={`https://www.merriam-webster.com/dictionary/${encodeURIComponent(query.trim().toLowerCase())}`}
@@ -97,7 +97,7 @@ export function WordSearchBox() {
             onClick={handleSave}
             disabled={saved}
           >
-            {saved ? "已加入生词本 ✓" : "⭐ 加入生词本"}
+            {saved ? "Added to notebook ✓" : "⭐ Add to notebook"}
           </button>
         </div>
       )}

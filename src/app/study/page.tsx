@@ -51,21 +51,21 @@ export default function StudyPage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
 
   if (!current) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center lg:max-w-3xl">
-        <h1 className="text-2xl font-bold text-slate-900">今天的词都翻完了</h1>
+        <h1 className="text-2xl font-bold text-slate-900">All of today's words are done</h1>
         <p className="mt-2 text-slate-500">
-          {viewed.length} / {words.length} 词完成
+          {viewed.length} / {words.length} words done
         </p>
         <Link
           href="/daily-quiz"
           className="mt-6 inline-block rounded-full bg-slate-900 px-6 py-2 font-semibold text-white"
         >
-          去做题 →
+          Go practice →
         </Link>
       </main>
     );
@@ -74,7 +74,7 @@ export default function StudyPage() {
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 lg:max-w-4xl">
       <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
-        <span>背单词</span>
+        <span>Vocab</span>
         <span>
           {viewed.length} / {words.length}
         </span>
@@ -95,7 +95,7 @@ export default function StudyPage() {
               onClick={() => setFlipped(true)}
               className="mt-6 w-full rounded-lg bg-slate-100 py-3 font-semibold text-slate-700"
             >
-              翻面看词义
+              Flip for the meaning
             </button>
           ) : (
             <div className="mt-4 space-y-3">
@@ -107,7 +107,7 @@ export default function StudyPage() {
               )}
               {discriminationWords.length > 0 && (
                 <div className="rounded-lg bg-amber-50 p-3 text-sm text-slate-600">
-                  <div className="mb-1 font-semibold text-amber-700">辨析对比</div>
+                  <div className="mb-1 font-semibold text-amber-700">Nuance</div>
                   {discriminationWords.map((w) => (
                     <p key={w.id}>
                       <b>
@@ -123,13 +123,13 @@ export default function StudyPage() {
                   onClick={() => respond(false)}
                   className="flex-1 rounded-lg bg-emerald-600 py-3 font-semibold text-white"
                 >
-                  认识
+                  Know it
                 </button>
                 <button
                   onClick={() => respond(true)}
                   className="flex-1 rounded-lg bg-rose-500 py-3 font-semibold text-white"
                 >
-                  不认识
+                  Don't know
                 </button>
               </div>
             </div>
@@ -137,7 +137,7 @@ export default function StudyPage() {
         </div>
 
         <div className="hidden rounded-xl border border-slate-200 bg-white p-4 lg:block">
-          <div className="text-sm font-semibold text-slate-900">今天的进度</div>
+          <div className="text-sm font-semibold text-slate-900">Today's progress</div>
           <ul className="mt-2 space-y-1 text-sm text-slate-500">
             {words.map((w) => (
               <li key={w.id} className={viewed.includes(w.id) ? "text-slate-300 line-through" : ""}>

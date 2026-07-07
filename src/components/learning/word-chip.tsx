@@ -53,10 +53,10 @@ export function WordChip({ word, sourceGame }: { word: string; sourceGame?: stri
         {word}
       </PopoverTrigger>
       <PopoverContent className="w-80 space-y-2">
-        {loading && <p className="text-sm text-slate-500">加载中...</p>}
+        {loading && <p className="text-sm text-slate-500">Loading...</p>}
         {!loading && notFound && (
           <div className="space-y-1">
-            <p className="text-sm text-slate-500">未收录该词，去词典查一下：</p>
+            <p className="text-sm text-slate-500">Not in our list—look it up in a dictionary:</p>
             <a
               className="text-sm text-amber-600 underline"
               href={`https://www.merriam-webster.com/dictionary/${encodeURIComponent(word.toLowerCase())}`}
@@ -83,7 +83,7 @@ export function WordChip({ word, sourceGame }: { word: string; sourceGame?: stri
             <div className="flex items-center gap-3 pt-1 text-sm">
               {data.definitionCn && (
                 <button className="text-slate-500 underline" onClick={() => setShowCn((v) => !v)}>
-                  {showCn ? "隐藏中文" : "译成中文"}
+                  {showCn ? "Hide Chinese" : "Show Chinese"}
                 </button>
               )}
               <button
@@ -91,7 +91,7 @@ export function WordChip({ word, sourceGame }: { word: string; sourceGame?: stri
                 onClick={handleSave}
                 disabled={saved}
               >
-                {saved ? "已加入生词本 ✓" : "⭐ 加入生词本"}
+                {saved ? "Added to notebook ✓" : "⭐ Add to notebook"}
               </button>
             </div>
           </div>

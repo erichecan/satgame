@@ -23,7 +23,7 @@ export async function POST(req: Request) {
 
     if (!wordId || !reason) {
       return Response.json(
-        { error: true, message: "缺少必填字段 wordId/reason" },
+        { error: true, message: "Missing required field wordId/reason" },
         { status: 400 }
       );
     }
@@ -33,7 +33,7 @@ export async function POST(req: Request) {
   } catch (error) {
     console.error("[API Route Error]", error);
     return Response.json(
-      { error: true, message: error instanceof Error ? error.message : "未知错误" },
+      { error: true, message: error instanceof Error ? error.message : "Unknown error" },
       { status: 500 }
     );
   }

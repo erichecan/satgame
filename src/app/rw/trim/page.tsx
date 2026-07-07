@@ -101,7 +101,7 @@ export default function TrimPage() {
       <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4 text-lg leading-loose">
         {item.payload.tokens.map((t, i) => {
           const isDropped = dropped.has(i);
-          const wrong = checked && t.core === isDropped; // 该留却删 / 该删却留
+          const wrong = checked && t.core === isDropped; // should-keep dropped / should-drop kept
           return (
             <span
               key={i}

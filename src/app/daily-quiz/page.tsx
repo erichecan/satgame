@@ -55,25 +55,25 @@ export default function DailyQuizPage() {
   }
 
   if (loading) {
-    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">加载中…</main>;
+    return <main className="mx-auto max-w-lg flex-1 px-4 py-8 text-slate-500">Loading…</main>;
   }
 
   if (!current) {
     return (
       <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 text-center lg:max-w-3xl">
-        <h1 className="text-2xl font-bold text-slate-900">今天的测验做完了</h1>
+        <h1 className="text-2xl font-bold text-slate-900">Today's quiz is done</h1>
         <p className="mt-2 text-slate-500">
-          {Object.keys(answers).length} / {quizItems.length} 题完成
+          {Object.keys(answers).length} / {quizItems.length} done
         </p>
         {dailyComplete ? (
           <p className="mt-4 rounded-lg bg-emerald-50 p-3 font-semibold text-emerald-700">
-            今日打卡成功 ✦
+            Checked in today ✦
           </p>
         ) : (
-          <p className="mt-4 text-sm text-slate-500">还差游戏没玩完，去首页看看今日任务吧。</p>
+          <p className="mt-4 text-sm text-slate-500">Some games are still left—check today's tasks on the home page.</p>
         )}
         <Link href="/" className="mt-6 inline-block rounded-full bg-slate-900 px-6 py-2 font-semibold text-white">
-          回首页
+          Home
         </Link>
       </main>
     );
@@ -82,7 +82,7 @@ export default function DailyQuizPage() {
   return (
     <main className="mx-auto w-full max-w-lg flex-1 px-4 py-8 lg:max-w-3xl">
       <div className="flex items-center justify-between text-xs font-semibold text-slate-400">
-        <span>每日测验</span>
+        <span>Daily quiz</span>
         <span>
           {Object.keys(answers).length} / {quizItems.length}
         </span>
@@ -123,7 +123,7 @@ export default function DailyQuizPage() {
 
       {picked !== null && (
         <button onClick={next} className="mt-4 w-full rounded-lg bg-slate-900 py-2 font-semibold text-white">
-          下一题
+          Next
         </button>
       )}
     </main>

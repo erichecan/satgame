@@ -8,7 +8,7 @@ export function recordProgress(input: {
   itemId?: string;
   wordId?: string;
   result: ProgressResult;
-  errorTag?: string; // 选错时掉进的陷阱类型(trapType),用于错误 DNA
+  errorTag?: string; // the trapType fallen into on a wrong pick, for Error DNA
 }): Promise<void> {
   return fetch("/api/progress", {
     method: "POST",

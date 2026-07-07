@@ -6,10 +6,10 @@ import { WordSearchBox } from "@/components/learning/word-search-box";
 export const dynamic = "force-dynamic";
 
 const REASON_LABEL: Record<string, string> = {
-  wrong: "答错",
-  asked_hint: "求助",
-  gave_up: "放弃",
-  manual: "手动收藏",
+  wrong: "Wrong",
+  asked_hint: "Hint",
+  gave_up: "Gave up",
+  manual: "Saved",
 };
 
 export default async function NotebookPage() {
@@ -20,13 +20,13 @@ export default async function NotebookPage() {
 
   return (
     <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-8">
-      <h1 className="mb-2 text-xl font-semibold text-slate-900">生词本</h1>
+      <h1 className="mb-2 text-xl font-semibold text-slate-900">Notebook</h1>
       <p className="mb-4 text-sm text-slate-500">
-        除了游戏里答错/点⭐自动收录，也可以在这里手动搜索单词并加入生词本。
+        Words you miss or star in games are added automatically; you can also search and add words here by hand.
       </p>
       <WordSearchBox />
       {notes.length === 0 && (
-        <p className="text-slate-500">还没有生词，游戏里答错或点⭐会自动出现在这里。</p>
+        <p className="text-slate-500">No words yet—ones you miss or star in games will appear here automatically.</p>
       )}
       <div className="space-y-3">
         {notes.map((note) => {
@@ -36,7 +36,7 @@ export default async function NotebookPage() {
               <CardHeader className="flex-row items-center justify-between pb-2">
                 <CardTitle className="text-base">{note.word.word}</CardTitle>
                 <div className="flex gap-2">
-                  {due && <Badge variant="destructive">待复习</Badge>}
+                  {due && <Badge variant="destructive">Due</Badge>}
                   <Badge variant="secondary">{REASON_LABEL[note.addedFrom] ?? note.addedFrom}</Badge>
                 </div>
               </CardHeader>

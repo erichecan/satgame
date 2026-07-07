@@ -8,18 +8,18 @@ import { Badge } from "@/components/ui/badge";
 export const dynamic = "force-dynamic";
 
 const GAMES = [
-  { href: "/vocab/clusters", title: "Clusters", domain: "词义辨析", gameType: "clusters" },
-  { href: "/rw/closer", title: "Closer", domain: "词在语境", gameType: "closer" },
-  { href: "/vocab/morphology", title: "Morphology", domain: "拆词猜义", gameType: "morphology" },
-  { href: "/vocab/connotation", title: "Connotation", domain: "褒贬色彩", gameType: "connotation" },
-  { href: "/rw/read-the-green", title: "Read the Green", domain: "阅读理解 / 证据", gameType: "read_the_green" },
-  { href: "/rw/paraphrase", title: "Paraphrase Match", domain: "同义改写", gameType: "paraphrase" },
-  { href: "/rw/inference", title: "Inference", domain: "推断题", gameType: "inference" },
-  { href: "/rw/graphic", title: "Graphic", domain: "图表题", gameType: "graphic" },
-  { href: "/rw/trim", title: "Trim the Sentence", domain: "长难句拆主干", gameType: "trim" },
-  { href: "/rw/trap-spotter", title: "Trap Spotter", domain: "干扰项分类", gameType: "trap_spotter" },
-  { href: "/rw/gate-run", title: "Gate Run", domain: "标点 / 过渡词", gameType: "gate_run" },
-  { href: "/math/dissector", title: "Dissector", domain: "数学读题", gameType: "dissector" },
+  { href: "/vocab/clusters", title: "Clusters", domain: "Word nuance", gameType: "clusters" },
+  { href: "/rw/closer", title: "Closer", domain: "Words in context", gameType: "closer" },
+  { href: "/vocab/morphology", title: "Morphology", domain: "Word roots", gameType: "morphology" },
+  { href: "/vocab/connotation", title: "Connotation", domain: "Connotation", gameType: "connotation" },
+  { href: "/rw/read-the-green", title: "Read the Green", domain: "Reading / evidence", gameType: "read_the_green" },
+  { href: "/rw/paraphrase", title: "Paraphrase Match", domain: "Paraphrase", gameType: "paraphrase" },
+  { href: "/rw/inference", title: "Inference", domain: "Inference", gameType: "inference" },
+  { href: "/rw/graphic", title: "Graphic", domain: "Charts", gameType: "graphic" },
+  { href: "/rw/trim", title: "Trim the Sentence", domain: "Sentence core", gameType: "trim" },
+  { href: "/rw/trap-spotter", title: "Trap Spotter", domain: "Trap types", gameType: "trap_spotter" },
+  { href: "/rw/gate-run", title: "Gate Run", domain: "Punctuation / transitions", gameType: "gate_run" },
+  { href: "/math/dissector", title: "Dissector", domain: "Math reading", gameType: "dissector" },
 ];
 
 export default async function Home() {
@@ -43,25 +43,25 @@ export default async function Home() {
       <Card className="mb-8 border-slate-900">
         <CardHeader>
           <CardTitle className="flex items-center justify-between">
-            <span>今日任务</span>
-            {daily.completedAt && <Badge variant="secondary">✦ 今日打卡成功</Badge>}
+            <span>Today's tasks</span>
+            {daily.completedAt && <Badge variant="secondary">✦ Checked in today</Badge>}
           </CardTitle>
         </CardHeader>
         <CardContent className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           <Link href="/study" className="rounded-lg border border-slate-200 p-3 hover:border-slate-400">
-            <div className="text-sm text-slate-500">背单词</div>
+            <div className="text-sm text-slate-500">Vocab</div>
             <div className="text-lg font-semibold text-slate-900">
               {wordsDone} / {wordsTotal}
             </div>
           </Link>
           <Link href="/daily-quiz" className="rounded-lg border border-slate-200 p-3 hover:border-slate-400">
-            <div className="text-sm text-slate-500">测验</div>
+            <div className="text-sm text-slate-500">Quiz</div>
             <div className="text-lg font-semibold text-slate-900">
               {quizDone} / {quizTotal}
             </div>
           </Link>
           <div className="rounded-lg border border-slate-200 p-3">
-            <div className="text-sm text-slate-500">游戏</div>
+            <div className="text-sm text-slate-500">Games</div>
             <div className="text-lg font-semibold text-slate-900">{gamesDone} / 12</div>
           </div>
         </CardContent>
@@ -76,19 +76,19 @@ export default async function Home() {
         </Card>
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm text-slate-500">连续打卡</CardTitle>
+            <CardTitle className="text-sm text-slate-500">Streak</CardTitle>
           </CardHeader>
-          <CardContent className="text-2xl font-semibold">{stats.streak} 天</CardContent>
+          <CardContent className="text-2xl font-semibold">{stats.streak} d</CardContent>
         </Card>
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm text-slate-500">今日待复习</CardTitle>
+            <CardTitle className="text-sm text-slate-500">Due today</CardTitle>
           </CardHeader>
           <CardContent className="text-2xl font-semibold">{dueCount}</CardContent>
         </Card>
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm text-slate-500">生词待复习</CardTitle>
+            <CardTitle className="text-sm text-slate-500">Notebook due</CardTitle>
           </CardHeader>
           <CardContent className="text-2xl font-semibold">
             <Link href="/notebook" className="hover:underline">
@@ -108,7 +108,7 @@ export default async function Home() {
         </div>
       )}
 
-      <h2 className="mb-4 text-lg font-semibold text-slate-900">今日任务 · 游戏</h2>
+      <h2 className="mb-4 text-lg font-semibold text-slate-900">Today's tasks · Games</h2>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {GAMES.map((g) => (
           <Link key={g.href} href={g.href}>

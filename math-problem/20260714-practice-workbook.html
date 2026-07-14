@@ -1,0 +1,2082 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>SAT/ISEE 数学专项刷题手册</title>
+<style>
+@page { size: A4; margin: 16mm 14mm; }
+* { box-sizing: border-box; }
+body { font-family: "Songti SC", "Noto Serif SC", Georgia, serif; color: #1a1a1a; line-height: 1.5; font-size: 11.5pt; }
+h1 { font-size: 22pt; margin-bottom: 4pt; }
+h2 { font-size: 15pt; margin: 0 0 4pt; }
+h3 { font-size: 12.5pt; margin: 0; }
+.subtitle { color: #444; margin-top: 0; font-size: 11pt; }
+.cover { page-break-after: always; }
+.cover ol { padding-left: 1.3em; }
+.cover li { margin-bottom: 6pt; }
+table.signal-table { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin-top: 8pt; }
+table.signal-table th, table.signal-table td { border: 0.5pt solid #999; padding: 5pt 6pt; text-align: left; vertical-align: top; }
+table.signal-table th { background: #eee; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+table.signal-table td:nth-child(3) { white-space: nowrap; font-weight: bold; }
+
+.practice-groups .group-block { page-break-before: always; }
+.group-header { border-bottom: 1.5pt solid #333; padding-bottom: 4pt; margin-bottom: 10pt; }
+.signal-note { color: #444; font-size: 10pt; margin: 2pt 0 0; }
+
+.problem { margin-bottom: 14pt; page-break-inside: avoid; }
+.problem.lead { border: 1pt solid #888; padding: 8pt 10pt; background: #f7f7f7; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.problem-head { margin-bottom: 3pt; }
+.problem-num { font-weight: bold; margin-right: 6pt; }
+.lead-tag { font-size: 9pt; color: #555; border: 0.5pt solid #999; border-radius: 3pt; padding: 1pt 5pt; }
+.prompt { margin: 3pt 0 5pt; }
+.choices { display: flex; flex-wrap: wrap; gap: 3pt 20pt; margin-bottom: 4pt; }
+.choice { white-space: nowrap; }
+.workspace { border: 0.5pt dashed #aaa; border-radius: 3pt; height: 46pt; margin-top: 4pt; padding: 3pt 6pt; color: #999; font-size: 9pt; }
+.steps { margin-top: 6pt; font-size: 10pt; }
+.steps > div { margin-bottom: 3pt; }
+.step-label { font-weight: bold; margin-right: 5pt; }
+
+.answer-key { page-break-before: always; }
+.key-group-header { margin-top: 14pt; margin-bottom: 6pt; border-bottom: 1pt solid #333; padding-bottom: 3pt; }
+.key-group-header:first-child { margin-top: 0; }
+.key-entry { margin-bottom: 10pt; padding-bottom: 8pt; border-bottom: 0.5pt dotted #ccc; page-break-inside: avoid; }
+.key-head { margin-bottom: 3pt; }
+.key-answer { font-weight: bold; color: #0a5; }
+
+@media screen {
+  body { max-width: 900px; margin: 0 auto; padding: 20px; }
+}
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <h1>SAT / ISEE 数学专项刷题手册</h1>
+  <p class="subtitle">读题信号词 · 四步拆解 · 143 道全新练习题</p>
+
+  <h2>这本手册怎么用</h2>
+  <ol>
+    <li>每一组的第 <strong>1 题是「领路题」</strong>，已经把完整的四步拆解印在题目下面——先看她能不能看懂这道题是怎么「转弯」的，再动笔。</li>
+    <li>领路题之后的练习题<strong>只印题目</strong>，留白给她演算。不要求先做对，先要求她在旁边写一句话：「这题的信号词是什么，它要求我先做哪一步转换」。</li>
+    <li>做完一组，翻到全书最后的<strong>「答案与解析」</strong>部分，对照同样的编号（如 R1-3、D-7）逐题核对——重点看拆解的第 2、3 步（转换成什么形式、用哪个公式）想的对不对，而不是只看最终答案对不对。</li>
+    <li>建议每周只集中攻一组，配合已有诊断报告的建议：几何（第 10 组）和百分比（第 9 组）优先安排。</li>
+  </ol>
+
+  <h2>通用读题四步法</h2>
+  <p>拿到任何一道英文应用题，先按这个顺序过一遍，再动笔算：</p>
+  <ol>
+    <li><strong>圈「问的是什么」</strong>——一个具体数字？一个含字母的表达式？一个范围？还是一个「一定/不可能成立」的判断题？</li>
+    <li><strong>圈条件句里的关系词</strong>——对照下面的信号词表，看这句话属于哪一类「弯」。</li>
+    <li><strong>自问：题目给的是「能直接用的形式」，还是「半成品」？</strong>——如果是半成品，先做一步转换，再往下算。</li>
+    <li><strong>转换完，再代公式/代入数字算。</strong>算完对照「还差几步」，确认真的到底了。</li>
+  </ol>
+
+  <h2>信号词速查表</h2>
+  <table class="signal-table">
+    <thead><tr><th>英文信号词 / 句型</th><th>它在提醒什么</th><th>对应分组</th></tr></thead>
+    <tbody>
+      <tr><td>11 − x < 5 一类：最后一步是「两边乘/除负数」</td><td>两边乘或除以负数时，不等号方向要翻转——心里默念一次「翻转」</td><td>第 1 组</td></tr>
+<tr><td>"what does ___ equal"，题目里出现两个字母但只给一个等式</td><td>答案可以是一个含字母的表达式，不是「无法确定」；先把一个变量解出来代入</td><td>第 2 组</td></tr>
+<tr><td>"N years ago" / "N years from now"</td><td>时间偏移要同时作用在题目提到的每一个人身上，不是只作用一个人</td><td>第 3 组</td></tr>
+<tr><td>从乘积中解变量，如 3ab = 6 解 a</td><td>每一步只动一个运算符，动完立刻对照原式检查有没有凭空多出/少掉指数</td><td>第 4 组</td></tr>
+<tr><td>"decreases/increases by N% each ..." + "after N ..."</td><td>复合百分比要连乘 (1±r)ⁿ，不是 N×r% 直接相加</td><td>第 5 组</td></tr>
+<tr><td>"marked/discounted N% off"，问 original price</td><td>反向除法：原价 = 折后价 ÷ (1−折扣)，不是乘或减</td><td>第 6 组</td></tr>
+<tr><td>"per"、"每..."、多个单位混在一句话里</td><td>先写出「速率 = 数量 / 单位」，统一单位后再代入，常常要连续换算两次</td><td>第 7 组</td></tr>
+<tr><td>"ratio of A to B"、"twice as long as"、"for every ... there are ..."</td><td>先设公共单位变量列比例式，再代入已知数，不要凭直觉心算</td><td>第 8 组</td></tr>
+<tr><td>"X% of all ..."，给的是部分数量反推总数</td><td>总数 = 部分数量 ÷ 百分比(小数)，注意问的是「部分占整体」还是「整体占部分」</td><td>第 9 组</td></tr>
+<tr><td>"Note: figure not drawn to scale"</td><td>不能用眼睛估，必须完全靠角度/线段关系(等腰、平行、正多边形、外角定理)自己推出来</td><td>第 10 组</td></tr>
+<tr><td>"could NOT be" / "must be true"</td><td>must=所有情况都成立，could=至少一种成立，could NOT=任何情况都不成立——都要代入边界值检验</td><td>第 11 组</td></tr>
+<tr><td>图像描述、展开图、旋转、自定义运算符号 ☆</td><td>把图像/空间关系转成坐标或数值再比较，自定义运算符号按定义代入当普通方程解</td><td>第 12 组</td></tr>
+<tr><td>等差/等比数列第 N 项、连续整数平均数、"inclusive"计数</td><td>数列用通项公式；平均数先还原成总和再做加减；inclusive 计数要 (末−首+1)</td><td>第 13 组</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<div class="practice-groups">
+<div class="group-block"><div class="group-header"><h2>不等式两边乘/除负数要翻转方向</h2><p class="signal-note">最后一步是把方程两边同乘或同除一个负数(比如系数是 -1、-2、-3...)时,不等号方向必须翻转——看到 x 的系数是负数,这就是要翻转的信号。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R1-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">If 11 − x &lt; 5, what is the solution for x?</p><div class="choices"><span class="choice">A) x &lt; −6</span><span class="choice">B) x &lt; 6</span><span class="choice">C) x &gt; −6</span><span class="choice">D) x &gt; 6</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目最后要解出 x,必须把 −x 变成 x,也就是要乘/除以 −1——这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>题目给的是 11 − x &lt; 5(x 前面带负号),需要先把常数移到一边,变成 −x &lt; 常数 的形式,再对系数 −1 处理。</div>
+      <div><span class="step-label">③ 用公式</span>先移项: 11 − x &lt; 5 → −x &lt; 5 − 11。再两边同除以 −1,除以负数要把 '&lt;' 翻转成 '&gt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>11 − x &lt; 5 → −x &lt; 5 − 11 = −6 → −x &lt; −6。两边同除以 −1(翻转方向): x &gt; 6。验证: 取 x=7, 11−7=4, 4&lt;5 成立,且 7&gt;6 成立;取 x=6(边界)代入 11−6=5,不满足 &lt;5,说明 x=6 不算在内,与 x&gt;6 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &gt; 6 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R1-2</span></div><p class="prompt">If 8 − 2x &gt; 2, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &gt; 3</span><span class="choice">B) x &lt; 3</span><span class="choice">C) x &gt; −3</span><span class="choice">D) x &lt; −3</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-3</span></div><p class="prompt">If 20 − 4x ≤ 0, what is the solution set for x?</p><div class="choices"><span class="choice">A) x ≥ 5</span><span class="choice">B) x ≤ 5</span><span class="choice">C) x ≥ −5</span><span class="choice">D) x ≤ −5</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-4</span></div><p class="prompt">If 7 − 5x &lt; −3, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &lt; 2</span><span class="choice">B) x &gt; −2</span><span class="choice">C) x &gt; 2</span><span class="choice">D) x &lt; −2</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-5</span></div><p class="prompt">If 12 − 6x &lt; 0, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &lt; −2</span><span class="choice">B) x &gt; −2</span><span class="choice">C) x &lt; 2</span><span class="choice">D) x &gt; 2</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-6</span></div><p class="prompt">Which of the following gives all values of x that satisfy −2x − 5 ≤ 7?</p><div class="choices"><span class="choice">A) x ≤ −6</span><span class="choice">B) x ≥ −6</span><span class="choice">C) x ≤ 6</span><span class="choice">D) x ≥ 6</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-7</span></div><p class="prompt">If 9 − 3x &gt; 21, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &lt; −4</span><span class="choice">B) x &gt; −4</span><span class="choice">C) x &lt; 4</span><span class="choice">D) x &gt; 4</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-8</span></div><p class="prompt">If −4x + 10 ≥ 2, what is the solution set for x?</p><div class="choices"><span class="choice">A) x ≥ 2</span><span class="choice">B) x ≤ −2</span><span class="choice">C) x ≤ 2</span><span class="choice">D) x ≥ −2</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-9</span></div><p class="prompt">If 6 − 7x ≤ −8, what is the solution set for x?</p><div class="choices"><span class="choice">A) x ≤ −2</span><span class="choice">B) x ≥ −2</span><span class="choice">C) x ≤ 2</span><span class="choice">D) x ≥ 2</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-10</span></div><p class="prompt">If −5x − 3 &gt; 12, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &gt; −3</span><span class="choice">B) x &lt; −3</span><span class="choice">C) x &gt; 3</span><span class="choice">D) x &lt; 3</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R1-11</span></div><p class="prompt">If 18 − 2x &lt; 4, what is the solution set for x?</p><div class="choices"><span class="choice">A) x &gt; 7</span><span class="choice">B) x &lt; 7</span><span class="choice">C) x &gt; −7</span><span class="choice">D) x &lt; −7</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>一个等式两个字母:代入化简,不要选'无法确定'</h2><p class="signal-note">题目只给一个含两个字母的等式,又问另一个含其中一个字母的式子等于多少——不能因为看到两个字母就选'无法确定',要把其中一个变量解出来代入目标式子化简成一个含字母的表达式。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R2-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">If a − 7 = 3b + 4, what does a + 5 equal, in terms of b?</p><div class="choices"><span class="choice">A) 3b + 16</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 3b + 11</span><span class="choice">D) b + 16</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目只给了一个含 a、b 两个字母的等式,又问 a+5 等于多少——这是'看到两个字母就想选无法确定'的陷阱信号,实际上是可以确定的。</div>
+      <div><span class="step-label">② 要转换成</span>把 a − 7 = 3b + 4 转换成 'a = ...(只含 b 的式子)' 的形式,再把这个表达式代入 a+5 中化简。</div>
+      <div><span class="step-label">③ 用公式</span>先把 a 单独移到等号一边解出 a,再代入目标表达式 a+5,合并同类项。</div>
+      <div><span class="step-label">④ 代入计算</span>a − 7 = 3b + 4 → a = 3b + 4 + 7 = 3b + 11。代入 a+5: a+5 = (3b+11)+5 = 3b+16。验证: 取 b=1, a=3(1)+11=14,检查原式 a−7=14−7=7,3b+4=3+4=7 ✓;a+5=19,3b+16=3+16=19 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,3b+16 就是最终答案,直接对照选项选 A;'无法确定'是干扰项,因为经过代入化简后是可以确定的。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R2-2</span></div><p class="prompt">If c + 9 = 4d − 2, what does c − 3 equal, in terms of d?</p><div class="choices"><span class="choice">A) 4d − 11</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 4d − 14</span><span class="choice">D) d − 14</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-3</span></div><p class="prompt">If e − 4 = 6f + 10, what does e + 2 equal, in terms of f?</p><div class="choices"><span class="choice">A) 6f + 14</span><span class="choice">B) 6f + 16</span><span class="choice">C) 6f + 10</span><span class="choice">D) Cannot be determined</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-4</span></div><p class="prompt">If g − 5 = 2h + 8, what does g − 1 equal, in terms of h?</p><div class="choices"><span class="choice">A) 2h + 13</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 2h + 10</span><span class="choice">D) 2h + 12</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-5</span></div><p class="prompt">If k + 6 = 5m − 3, what does k − 2 equal, in terms of m?</p><div class="choices"><span class="choice">A) 5m − 11</span><span class="choice">B) 5m − 9</span><span class="choice">C) Cannot be determined</span><span class="choice">D) 5m − 7</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-6</span></div><p class="prompt">If p − 10 = 3q + 7, what does p + 4 equal, in terms of q?</p><div class="choices"><span class="choice">A) 3q + 17</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 3q + 21</span><span class="choice">D) 3q + 13</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-7</span></div><p class="prompt">If r + 3 = 8s − 5, what does r + 9 equal, in terms of s?</p><div class="choices"><span class="choice">A) 8s − 8</span><span class="choice">B) 8s + 1</span><span class="choice">C) Cannot be determined</span><span class="choice">D) 8s − 1</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-8</span></div><p class="prompt">If t − 6 = 2u + 9, what does t − 2 equal, in terms of u?</p><div class="choices"><span class="choice">A) 2u + 15</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 2u + 11</span><span class="choice">D) 2u + 13</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-9</span></div><p class="prompt">If v + 12 = 7w − 4, what does v − 5 equal, in terms of w?</p><div class="choices"><span class="choice">A) 7w − 21</span><span class="choice">B) 7w − 16</span><span class="choice">C) Cannot be determined</span><span class="choice">D) 7w − 11</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R2-10</span></div><p class="prompt">If y − 8 = 4z + 15, what does y + 6 equal, in terms of z?</p><div class="choices"><span class="choice">A) 4z + 23</span><span class="choice">B) Cannot be determined</span><span class="choice">C) 4z + 29</span><span class="choice">D) 4z + 21</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>年龄题:'几年前/几年后'要平移每一个人,不能只移一个人</h2><p class="signal-note">题目里出现'几年前/几年后'这类时间平移词,并且提到不止一个人时,要先在脑子里数清楚一共有几个人,再把每一个人的年龄都做同样的加减平移,不能只移动其中一个人。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R3-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">Bob is x years old. Jerry is 7 years older than Bob. What was the sum of their ages 5 years ago, in terms of x?</p><div class="choices"><span class="choice">A) 2x − 3</span><span class="choice">B) 2x + 2</span><span class="choice">C) 2x + 7</span><span class="choice">D) 2x + 17</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'5 years ago'这个时间平移词,且提到两个人(Bob 和 Jerry)——两个人的年龄都要往回移 5 年,不能只移一个。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 5,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Bob=x, Jerry=x+7。5 年前: Bob=x−5, Jerry=(x+7)−5。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Bob 现在 = x, Jerry 现在 = x+7。5 年前: Bob = x−5, Jerry = x+7−5 = x+2。两人年龄和 = (x−5)+(x+2) = 2x−3。验证: 取 x=10, Bob现在10,Jerry现在17;5年前 Bob=5,Jerry=12,和=17。代入公式 2x−3=20−3=17 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2x−3 就是最终答案,直接对照选项选 A;2x+2 是只把 Bob 减 5、忘记也把 Jerry 减 5 的常见错误(Bob现在10算成5,Jerry仍按17,和为22对应2x+2)。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R3-2</span></div><p class="prompt">Maria is y years old. Her brother Diego is 4 years older than Maria. In 6 years, what will be the sum of their ages, in terms of y?</p><div class="choices"><span class="choice">A) 2y + 10</span><span class="choice">B) 2y + 16</span><span class="choice">C) 2y + 4</span><span class="choice">D) 2y + 22</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-3</span></div><p class="prompt">Ken is z years old, and his cousin Lily is 3 years younger than Ken. Ten years ago, what was the sum of their ages, in terms of z?</p><div class="choices"><span class="choice">A) 2z − 13</span><span class="choice">B) 2z − 3</span><span class="choice">C) 2z − 23</span><span class="choice">D) 2z + 17</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-4</span></div><p class="prompt">Priya is currently p years old, and her younger sister Anjali is 5 years younger than Priya. Eight years from now, what will be the sum of their ages, in terms of p?</p><div class="choices"><span class="choice">A) 2p + 3</span><span class="choice">B) 2p − 5</span><span class="choice">C) 2p − 21</span><span class="choice">D) 2p + 11</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-5</span></div><p class="prompt">Omar is currently m years old, and his friend Sara is 9 years older than Omar. What was the difference between Sara's age and Omar's age 4 years ago, in terms of m?</p><div class="choices"><span class="choice">A) 9</span><span class="choice">B) 5</span><span class="choice">C) 13</span><span class="choice">D) m + 5</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-6</span></div><p class="prompt">Noah is n years old, and his sister Ella is 6 years younger than Noah. What will be the sum of their ages 3 years from now, in terms of n?</p><div class="choices"><span class="choice">A) 2n − 3</span><span class="choice">B) 2n</span><span class="choice">C) 2n − 6</span><span class="choice">D) 2n − 12</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-7</span></div><p class="prompt">Grace is g years old, and her cousin Beth is 2 years older than Grace. Twelve years ago, what was the sum of their ages, in terms of g?</p><div class="choices"><span class="choice">A) 2g − 10</span><span class="choice">B) 2g + 2</span><span class="choice">C) 2g − 22</span><span class="choice">D) 2g + 26</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-8</span></div><p class="prompt">Felix is f years old, and his coworker Dana is 10 years older than Felix. Six years from now, what will be the sum of their ages, in terms of f?</p><div class="choices"><span class="choice">A) 2f + 16</span><span class="choice">B) 2f + 10</span><span class="choice">C) 2f − 2</span><span class="choice">D) 2f + 22</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-9</span></div><p class="prompt">Leo is L years old, and his younger cousin Mia is 8 years younger than Leo. What was the sum of their ages 7 years ago, in terms of L?</p><div class="choices"><span class="choice">A) 2L − 22</span><span class="choice">B) 2L − 15</span><span class="choice">C) 2L − 8</span><span class="choice">D) 2L + 6</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-10</span></div><p class="prompt">Hana is h years old, and her neighbor Sam is 5 years older than Hana. In 9 years, what will be the sum of their ages, in terms of h?</p><div class="choices"><span class="choice">A) 2h + 14</span><span class="choice">B) 2h + 23</span><span class="choice">C) 2h + 5</span><span class="choice">D) 2h − 13</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-11</span></div><p class="prompt">Theo is t years old, and his younger sister Ivy is 11 years younger than Theo. Fifteen years ago, what was the sum of their ages, in terms of t?</p><div class="choices"><span class="choice">A) 2t − 26</span><span class="choice">B) 2t − 11</span><span class="choice">C) 2t − 41</span><span class="choice">D) 2t + 19</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R3-12</span></div><p class="prompt">Wendy is w years old, and her study partner Carl is 3 years older than Wendy. In 20 years, what will be the sum of their ages, in terms of w?</p><div class="choices"><span class="choice">A) 2w + 23</span><span class="choice">B) 2w + 3</span><span class="choice">C) 2w − 37</span><span class="choice">D) 2w + 43</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>从乘积里解变量，不要凭记忆多加指数（含分数+小数方程）</h2><p class="signal-note">看到形如 kXY = C 的等式并要求 solve for X (or Y) in terms of the other variable 时，一次只做一个操作（通常是除以另一个变量和系数），解完立刻把结果代回原式检查有没有多加/漏加指数或系数；若方程里同时出现分数和小数，先把分数转换成小数再移项，不要凭直觉估算分数的大小。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R4-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">If 3ab = 6, what is a in terms of b?</p><div class="choices"><span class="choice">A) a = 2/b</span><span class="choice">B) a = 2b</span><span class="choice">C) a = 2/b²</span><span class="choice">D) a = b/2</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目要求把变量 a 从一个三项相乘的等式中单独解出来，'what is a in terms of b' 是信号——这是一步除法操作，不涉及任何指数变化。</div>
+      <div><span class="step-label">② 要转换成</span>原式 3ab = 6 是'三个量相乘=常数'的形式，需要把它变成 a = ... 的形式，只需两边同时除以 3b 这一个操作。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以同一个非零量：若 XY = Z，则 X = Z/Y（这里 X=a, Y=3b, Z=6）。</div>
+      <div><span class="step-label">④ 代入计算</span>3ab = 6 → 两边同除以 3b → a = 6/(3b) → 约分 6 和 3 → a = 2/b。全程只做了'除以 3b'这一个操作，没有对 b 做平方或其他变形。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，a = 2/b 已经是最简形式，直接对照选项。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R4-2</span></div><p class="prompt">Given that 5xy = 20, what is the value of x in terms of y?</p><div class="choices"><span class="choice">A) x = 4/y²</span><span class="choice">B) x = 4/y</span><span class="choice">C) x = 4y</span><span class="choice">D) x = y/4</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-3</span></div><p class="prompt">In the equation 7mn = 21, express n in terms of m.</p><div class="choices"><span class="choice">A) n = 3/m²</span><span class="choice">B) n = 3m</span><span class="choice">C) n = 3/m</span><span class="choice">D) n = m/3</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-4</span></div><p class="prompt">If 6rs = 18, solve for r in terms of s.</p><div class="choices"><span class="choice">A) r = 3s</span><span class="choice">B) r = s/3</span><span class="choice">C) r = 3/s²</span><span class="choice">D) r = 3/s</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-5</span></div><p class="prompt">Suppose 9uv = 27. What is u in terms of v?</p><div class="choices"><span class="choice">A) u = 3/v</span><span class="choice">B) u = 3v</span><span class="choice">C) u = v/3</span><span class="choice">D) u = 3/v²</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-6</span></div><p class="prompt">If 8jk = 2, what is j in terms of k?</p><div class="choices"><span class="choice">A) j = 1/(4k²)</span><span class="choice">B) j = 1/(4k)</span><span class="choice">C) j = 4k</span><span class="choice">D) j = k/4</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-7</span></div><p class="prompt">Given 10pq = 15, express q in terms of p.</p><div class="choices"><span class="choice">A) q = 3p/2</span><span class="choice">B) q = 2p/3</span><span class="choice">C) q = 3/(2p)</span><span class="choice">D) q = 3/(2p²)</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-8</span></div><p class="prompt">If 12st = 9, solve for s in terms of t.</p><div class="choices"><span class="choice">A) s = 3/(4t²)</span><span class="choice">B) s = 4t/3</span><span class="choice">C) s = 3t/4</span><span class="choice">D) s = 3/(4t)</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-9</span></div><p class="prompt">A trail mix recipe combines 3/4 cup of raisins with x cups of peanuts, for a total of 8.3 cups. Solve the equation 3/4 + x = 8.3 for x.</p><div class="choices"><span class="choice">A) 7.55</span><span class="choice">B) 7.3</span><span class="choice">C) 7.96</span><span class="choice">D) 9.05</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-10</span></div><p class="prompt">A rope that is x feet long has 1/2 foot cut off, leaving 6.75 feet. Solve the equation x − 1/2 = 6.75 for x.</p><div class="choices"><span class="choice">A) 7.75</span><span class="choice">B) 7.25</span><span class="choice">C) 6.25</span><span class="choice">D) 6.87</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R4-11</span></div><p class="prompt">A pitcher contains 2/5 liter of juice, and y more liters are poured in, for a total of 4.6 liters. Solve the equation 2/5 + y = 4.6 for y.</p><div class="choices"><span class="choice">A) 3.6</span><span class="choice">B) 4.1</span><span class="choice">C) 4.2</span><span class="choice">D) 5.0</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>连续百分比变化要连乘，不能直接把百分比相加</h2><p class="signal-note">看到 'increases/decreases by N% each [period]' 和 'after N [periods]' 同时出现，说明这是复合百分比问题，必须把 (1±r) 连乘 n 次，即用 (1±r)^n，绝不能用 n×r% 相加。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R5-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">A colony of bacteria decreases by 20% each hour for 3 hours. What percent of the original colony size remains after 3 hours?</p><div class="choices"><span class="choice">A) 51.2%</span><span class="choice">B) 40%</span><span class="choice">C) 60%</span><span class="choice">D) 48.8%</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'decreases by 20% each hour' + 'after 3 hours' 同时出现——这就是复合百分比信号，必须连乘，不能用 3×20% 相加。</div>
+      <div><span class="step-label">② 要转换成</span>每小时剩余的比例是 (1−0.20)=0.8，3 小时要把 0.8 连乘 3 次，而不是把 20% 乘以 3。</div>
+      <div><span class="step-label">③ 用公式</span>复合变化公式：最终值 = 原值 × (1−r)^n，这里 r=0.20，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>0.8×0.8=0.64 → 0.64×0.8=0.512 → 即剩余 51.2%（这是精确值，不是估算）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到精确结果 51.2%，直接对照选项。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R5-2</span></div><p class="prompt">The price of a collectible increases by 10% each year for 3 years. Approximately what percent of the original price is the price after 3 years?</p><div class="choices"><span class="choice">A) 130%</span><span class="choice">B) 133%</span><span class="choice">C) 110%</span><span class="choice">D) 140%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-3</span></div><p class="prompt">A car's resale value decreases by 15% each year for 2 years. Approximately what percent of the original value remains after 2 years?</p><div class="choices"><span class="choice">A) 65%</span><span class="choice">B) 70%</span><span class="choice">C) 72%</span><span class="choice">D) 85%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-4</span></div><p class="prompt">An investment grows by 5% each year for 4 years. Approximately what percent of the original investment is it worth after 4 years?</p><div class="choices"><span class="choice">A) 120%</span><span class="choice">B) 105%</span><span class="choice">C) 125%</span><span class="choice">D) 122%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-5</span></div><p class="prompt">A stock's price falls by 10% each month for 3 months. What percent of the original price remains after 3 months?</p><div class="choices"><span class="choice">A) 72.9%</span><span class="choice">B) 70%</span><span class="choice">C) 81%</span><span class="choice">D) 90%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-6</span></div><p class="prompt">A quantity of a chemical increases by 25% each year for 2 years. What percent of the original quantity is it after 2 years?</p><div class="choices"><span class="choice">A) 150%</span><span class="choice">B) 156.25%</span><span class="choice">C) 125%</span><span class="choice">D) 162.5%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-7</span></div><p class="prompt">A house's value decreases by 8% each year for 3 years. Approximately what percent of the original value remains after 3 years?</p><div class="choices"><span class="choice">A) 76%</span><span class="choice">B) 84%</span><span class="choice">C) 78%</span><span class="choice">D) 74%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-8</span></div><p class="prompt">A savings account grows by 3% each year for 5 years. Approximately what percent of the original amount is it after 5 years?</p><div class="choices"><span class="choice">A) 115%</span><span class="choice">B) 103%</span><span class="choice">C) 118%</span><span class="choice">D) 116%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-9</span></div><p class="prompt">A city's population decreases by 12% each year for 2 years. What percent of the original population remains after 2 years?</p><div class="choices"><span class="choice">A) 77%</span><span class="choice">B) 76%</span><span class="choice">C) 88%</span><span class="choice">D) 74%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-10</span></div><p class="prompt">An orchard's annual yield increases by 6% each year for 3 years. Approximately what percent of the original yield is it after 3 years?</p><div class="choices"><span class="choice">A) 118%</span><span class="choice">B) 119%</span><span class="choice">C) 106%</span><span class="choice">D) 124%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R5-11</span></div><p class="prompt">A phone's resale value drops by 18% each year for 2 years. What percent of the original value remains after 2 years?</p><div class="choices"><span class="choice">A) 64%</span><span class="choice">B) 82%</span><span class="choice">C) 67%</span><span class="choice">D) 63%</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>由折后价反推原价，用除法，不是乘法或减法</h2><p class="signal-note">题目描述'...% off'这种已经发生的折扣，又问'original price'或'regular price'时，一律用 折后价 ÷ (1−折扣率) 求原价，绝不能用乘以折扣率或直接相减/相加来算。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">R6-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">A shirt is marked 30% off. If someone pays $35 for it, what was the original price?</p><div class="choices"><span class="choice">A) $50</span><span class="choice">B) $24.50</span><span class="choice">C) $116.67</span><span class="choice">D) $45.50</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目描述的是已经打折之后的价格（'30% off'已经发生），又问'original price'——这就是反向百分比信号，必须用除法而不是乘法。</div>
+      <div><span class="step-label">② 要转换成</span>已知：打折后价格 = 原价 × (1−折扣率)。现在已知打折后价格，要反过来求原价，需要把乘法变成除法。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1 − 折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>折扣率 30% → (1−0.30)=0.70 → 原价 = 35 ÷ 0.70 = 50。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $50，直接对照选项。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">R6-2</span></div><p class="prompt">A jacket is on sale for 25% off. Maria pays $60 for it. What was the original price?</p><div class="choices"><span class="choice">A) $75</span><span class="choice">B) $80</span><span class="choice">C) $45</span><span class="choice">D) $240</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-3</span></div><p class="prompt">A pair of shoes is discounted 40%. After the discount, the price is $54. What was the original price?</p><div class="choices"><span class="choice">A) $32.40</span><span class="choice">B) $135</span><span class="choice">C) $90</span><span class="choice">D) $75.60</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-4</span></div><p class="prompt">A tablet is marked down 15%. The sale price is $170. What was the original price?</p><div class="choices"><span class="choice">A) $144.50</span><span class="choice">B) $1,133.33</span><span class="choice">C) $195.50</span><span class="choice">D) $200</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-5</span></div><p class="prompt">A bicycle is on sale at 20% off, and Devon pays $96 for it. What was the original price?</p><div class="choices"><span class="choice">A) $120</span><span class="choice">B) $76.80</span><span class="choice">C) $480</span><span class="choice">D) $115.20</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-6</span></div><p class="prompt">A backpack's price was reduced by 35%. The discounted price is $39. What was the original price?</p><div class="choices"><span class="choice">A) $52.65</span><span class="choice">B) $60</span><span class="choice">C) $25.35</span><span class="choice">D) $111.43</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-7</span></div><p class="prompt">A gaming console is marked 10% off, and the sale price is $135. What was the original price?</p><div class="choices"><span class="choice">A) $121.50</span><span class="choice">B) $1,350</span><span class="choice">C) $150</span><span class="choice">D) $148.50</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-8</span></div><p class="prompt">A designer bag is discounted 45%. Someone pays $99 for it after the discount. What was the original price?</p><div class="choices"><span class="choice">A) $54.45</span><span class="choice">B) $220</span><span class="choice">C) $143.55</span><span class="choice">D) $180</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-9</span></div><p class="prompt">A textbook is on sale for 60% off, and a student pays $28 for it. What was the original price?</p><div class="choices"><span class="choice">A) $70</span><span class="choice">B) $11.20</span><span class="choice">C) $46.67</span><span class="choice">D) $44.80</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">R6-10</span></div><p class="prompt">A watch is marked down 22%, and the sale price is $78. What was the original price?</p><div class="choices"><span class="choice">A) $95.16</span><span class="choice">B) $100</span><span class="choice">C) $60.84</span><span class="choice">D) $354.55</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>单位换算 / 多步速率</h2><p class="signal-note">看到'每...多少时间/多少单位'这种恒定速率描述,且总量的单位和速率给出的单位不一致时,先把速率写成'每单位时间/数量对应多少',再统一单位、换算后相乘或相除,往往需要连续做两次换算。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">A-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">A factory machine fills 8 juice bottles every 3 seconds, working at a constant rate. How many minutes will it take the machine to fill 3,200 bottles?</p><div class="choices"><span class="choice">A) 20</span><span class="choice">B) 24</span><span class="choice">C) 30</span><span class="choice">D) 36</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每3秒装8瓶'这种恒定速率描述,且问题最后要求的是分钟,而速率给的是秒,这是需要先建立速率、再换算单位的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'每3秒装8瓶'写成速率8瓶/3秒,先求装3200瓶总共需要多少秒,最后把秒转换成分钟。</div>
+      <div><span class="step-label">③ 用公式</span>所需时间(秒) = 总瓶数 ÷ 速率(瓶/秒) = 总瓶数 × (每份时间 ÷ 每份瓶数);再除以60转换成分钟。</div>
+      <div><span class="step-label">④ 代入计算</span>速率 = 8瓶/3秒。装3200瓶所需秒数 = 3200 ÷ (8/3) = 3200 × 3/8 = 9600/8 = 1200秒。1200秒 ÷ 60 = 20分钟。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,20分钟就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">A-2</span></div><p class="prompt">A delivery van uses 2/5 gallon of fuel for every mile it drives in city traffic, at a constant rate. If its tank holds exactly 12 gallons and is completely full at the start of a shift, how many miles can it travel before the tank runs out, assuming it only drives in city traffic?</p><div class="choices"><span class="choice">A) 24</span><span class="choice">B) 30</span><span class="choice">C) 36</span><span class="choice">D) 40</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-3</span></div><p class="prompt">A recipe calls for 3/4 teaspoon of vanilla extract for every batch of 12 cookies. A baker wants to make 240 cookies for a bake sale, using the exact same ratio. How many teaspoons of vanilla extract are needed in total?</p><div class="choices"><span class="choice">A) 10</span><span class="choice">B) 12</span><span class="choice">C) 15</span><span class="choice">D) 18</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-4</span></div><p class="prompt">Maria reads 1/4 of a novel every 3 days, working at a steady, constant pace. If she keeps this same pace from start to finish, how many total days will it take her to read the entire novel?</p><div class="choices"><span class="choice">A) 6</span><span class="choice">B) 9</span><span class="choice">C) 10</span><span class="choice">D) 12</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-5</span></div><p class="prompt">Devon washes 1/3 of the dishes in the sink every 10 minutes, working at a constant rate. If he starts washing at 6:40 p.m. and keeps this same pace without stopping, at what time will he finish washing all the dishes?</p><div class="choices"><span class="choice">A) 7:10 p.m.</span><span class="choice">B) 7:15 p.m.</span><span class="choice">C) 7:20 p.m.</span><span class="choice">D) 7:30 p.m.</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-6</span></div><p class="prompt">A 3-D printer extrudes 15 grams of filament every 4 minutes while printing at a constant rate. A workshop needs to print a batch of parts that requires a total of 450 grams of filament. If the printer runs continuously without stopping, how many hours will the entire print job take?</p><div class="choices"><span class="choice">A) 1.5</span><span class="choice">B) 2</span><span class="choice">C) 2.5</span><span class="choice">D) 3</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-7</span></div><p class="prompt">A cyclist pedals at a constant rate, covering 5/8 mile every 3 minutes. At this same pace, how many miles will she cover in 1 hour and 12 minutes?</p><div class="choices"><span class="choice">A) 9</span><span class="choice">B) 12</span><span class="choice">C) 15</span><span class="choice">D) 18</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-8</span></div><p class="prompt">A printer produces 9 pages every 20 seconds, working at a constant rate. At this rate, how many pages can it print in 5 minutes?</p><div class="choices"><span class="choice">A) 100</span><span class="choice">B) 110</span><span class="choice">C) 120</span><span class="choice">D) 135</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-9</span></div><p class="prompt">A crew of painters can paint 2/5 of a fence every 30 minutes, working at a steady combined rate. If they continue at this same pace without stopping, how many total minutes will it take them to paint the entire fence?</p><div class="choices"><span class="choice">A) 75</span><span class="choice">B) 90</span><span class="choice">C) 100</span><span class="choice">D) 105</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-10</span></div><p class="prompt">A file downloads at a constant rate of 45 megabytes every 6 seconds. How many seconds will it take to download a 600-megabyte file?</p><div class="choices"><span class="choice">A) 72</span><span class="choice">B) 80</span><span class="choice">C) 90</span><span class="choice">D) 96</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">A-11</span></div><p class="prompt">Wei is memorizing a poem for class. After practicing for 24 minutes at a constant pace, she has memorized 2/9 of the poem. If she continues at the same pace, how many more minutes will she need to finish memorizing the rest of the poem?</p><div class="choices"><span class="choice">A) 60</span><span class="choice">B) 72</span><span class="choice">C) 84</span><span class="choice">D) 96</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>比例建模(把英文翻译成比例方程)</h2><p class="signal-note">看到'...与...的比是a:b',并且给出了其中一部分或两部分之差/之和的具体数值时,不要心算,先设公共单位x,把每一部分写成a·x、b·x,用已知数值解出x,再看题目问的到底是总数、某一部分、还是两者之差。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">B-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">At a youth soccer tournament, the ratio of forwards to defenders on a roster is 2:5. If the team has 20 defenders, how many total players (forwards and defenders combined) are on the roster?</p><div class="choices"><span class="choice">A) 28</span><span class="choice">B) 32</span><span class="choice">C) 44</span><span class="choice">D) 52</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'...与...的比是a:b'并且给出了其中一部分的具体人数(20名后卫),不要直接心算,这是需要先设公共单位x的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'forwards:defenders = 2:5'写成 forwards = 2x, defenders = 5x,用已知的defenders = 20求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用已知量解出x,再代入求总人数 = forwards + defenders = 2x + 5x = 7x。</div>
+      <div><span class="step-label">④ 代入计算</span>5x = 20,所以x = 4。forwards = 2×4 = 8。总人数 = 8 + 20 = 28。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,28人就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">B-2</span></div><p class="prompt">Two business partners, Alicia and Ben, split their monthly profit in the ratio 5:3. If Ben's share of the profit was $1,800, what was the total profit split between the two partners?</p><div class="choices"><span class="choice">A) $3,000</span><span class="choice">B) $4,200</span><span class="choice">C) $4,500</span><span class="choice">D) $4,800</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-3</span></div><p class="prompt">A jar contains only red and blue marbles in the ratio 4:7. If the jar contains 88 marbles in total, how many of the marbles are red?</p><div class="choices"><span class="choice">A) 24</span><span class="choice">B) 32</span><span class="choice">C) 56</span><span class="choice">D) 60</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-4</span></div><p class="prompt">In a classroom, the ratio of boys to girls is 3:5. If there are 18 boys in the class, how many more girls than boys are there?</p><div class="choices"><span class="choice">A) 12</span><span class="choice">B) 18</span><span class="choice">C) 30</span><span class="choice">D) 42</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-5</span></div><p class="prompt">A fruit punch recipe combines lemonade and cranberry juice in the ratio 5:2. If a batch uses 10 cups of cranberry juice, how many total cups of fruit punch does the batch make?</p><div class="choices"><span class="choice">A) 25</span><span class="choice">B) 30</span><span class="choice">C) 35</span><span class="choice">D) 40</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-6</span></div><p class="prompt">A rectangular garden is divided into a vegetable section and a flower section whose areas are in the ratio 7:3. If the total area of the garden is 250 square feet, how many square feet is the flower section?</p><div class="choices"><span class="choice">A) 50</span><span class="choice">B) 60</span><span class="choice">C) 65</span><span class="choice">D) 75</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-7</span></div><p class="prompt">In a school election, the ratio of votes for Candidate P to Candidate Q was 9:7. If Candidate P received 45 votes, how many total votes were cast for the two candidates combined?</p><div class="choices"><span class="choice">A) 63</span><span class="choice">B) 80</span><span class="choice">C) 90</span><span class="choice">D) 100</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-8</span></div><p class="prompt">The ratio of Maya's age to her uncle's age is 2:7. If Maya's uncle is 30 years older than Maya, how old is Maya?</p><div class="choices"><span class="choice">A) 6</span><span class="choice">B) 9</span><span class="choice">C) 12</span><span class="choice">D) 18</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-9</span></div><p class="prompt">An adult elephant's weight compared to a baby elephant born the same season is in the ratio 5:2. If the baby elephant weighs 260 pounds, what is the adult elephant's weight, in pounds?</p><div class="choices"><span class="choice">A) 650</span><span class="choice">B) 700</span><span class="choice">C) 780</span><span class="choice">D) 800</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">B-10</span></div><p class="prompt">A cleaning solution is mixed with concentrate and water in the ratio 1:6. If a batch contains 250 milliliters more water than concentrate, how many total milliliters of solution does the batch contain?</p><div class="choices"><span class="choice">A) 250</span><span class="choice">B) 300</span><span class="choice">C) 320</span><span class="choice">D) 350</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>百分比:子群体反推整体 + 复合百分比变化</h2><p class="signal-note">看到'某个子群体的人数/数量'加上'这个子群体占全部的X%',并要求'全部有多少',这是'部分反推整体'的信号,要用部分÷百分比小数,不能直接乘;看到价格/数值从A变到B并问'最接近百分之几',用(新−旧)÷旧×100;看到'总体百分比+分段实际数据+必然结论'三者同时出现,要设总量为变量、用代数验证所有可能情况,不能只代一个数字就下结论。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">C-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">At a community fair, 348 attendees were surveyed and identified as first-time visitors. If first-time visitors make up 58% of everyone who attended the fair, how many people attended the fair in total?</p><div class="choices"><span class="choice">A) 600</span><span class="choice">B) 650</span><span class="choice">C) 700</span><span class="choice">D) 829</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'某一部分的人数'加上'这部分占全部的X%',且问题问的是'全部有多少人',这是'部分反推整体'的信号,不能直接把348当成百分比去乘。</div>
+      <div><span class="step-label">② 要转换成</span>把百分比58%转换成小数0.58,用'部分 ÷ 百分比小数'求出整体,而不是用'部分 × 百分比'。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>348 ÷ 0.58 = 600。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,600人就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">C-2</span></div><p class="prompt">In a trivia competition, 92 contestants advanced to the final round. If these finalists represent 23% of everyone who originally registered for the competition, how many people registered in total?</p><div class="choices"><span class="choice">A) 350</span><span class="choice">B) 400</span><span class="choice">C) 425</span><span class="choice">D) 450</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-3</span></div><p class="prompt">A store's inventory records show that 261 items sold during a weekend sale were marked with a clearance tag. If clearance-tagged items make up 29% of everything sold that weekend, how many total items were sold during the sale?</p><div class="choices"><span class="choice">A) 800</span><span class="choice">B) 850</span><span class="choice">C) 900</span><span class="choice">D) 950</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-4</span></div><p class="prompt">A city's transit survey found that 336 riders on a particular bus route were students. If students make up 28% of all riders on that route, how many total riders were surveyed on that route?</p><div class="choices"><span class="choice">A) 1,000</span><span class="choice">B) 1,050</span><span class="choice">C) 1,100</span><span class="choice">D) 1,200</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-5</span></div><p class="prompt">During a shift, 168 packages processed at a warehouse were flagged for express shipping. If express packages make up 24% of all packages processed that shift, how many total packages were processed during the shift?</p><div class="choices"><span class="choice">A) 700</span><span class="choice">B) 725</span><span class="choice">C) 750</span><span class="choice">D) 800</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-6</span></div><p class="prompt">On a chemistry exam, 261 students scored in the 'proficient' category. If proficient scorers make up 87% of all students who took the exam, how many students took the exam in total?</p><div class="choices"><span class="choice">A) 280</span><span class="choice">B) 300</span><span class="choice">C) 315</span><span class="choice">D) 325</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-7</span></div><p class="prompt">The price of a bag of coffee beans rose from $8.40 to $9.66. This increase is closest to what percent?</p><div class="choices"><span class="choice">A) 10%</span><span class="choice">B) 12%</span><span class="choice">C) 15%</span><span class="choice">D) 20%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-8</span></div><p class="prompt">A gym membership fee decreased from $52 to $39. This decrease is closest to what percent?</p><div class="choices"><span class="choice">A) 15%</span><span class="choice">B) 20%</span><span class="choice">C) 22%</span><span class="choice">D) 25%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-9</span></div><p class="prompt">The price of a bag of chips increased from $2.15 to $2.60. This increase is closest to what percent?</p><div class="choices"><span class="choice">A) 21%</span><span class="choice">B) 25%</span><span class="choice">C) 28%</span><span class="choice">D) 30%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-10</span></div><p class="prompt">The number of visitors to a website dropped from 1,240 to 1,080 in one month. This decrease is closest to what percent?</p><div class="choices"><span class="choice">A) 10%</span><span class="choice">B) 13%</span><span class="choice">C) 15%</span><span class="choice">D) 18%</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-11</span></div><p class="prompt">A trivia player answers correctly on exactly 25% of all questions she attempts throughout a tournament. Of the first 20 questions she attempted, she answered 8 correctly. Which of the following must be true about the questions she attempts for the rest of the tournament?</p><div class="choices"><span class="choice">A) She will answer correctly on more than 25% of the remaining questions.</span><span class="choice">B) She will answer correctly on exactly 25% of the remaining questions.</span><span class="choice">C) She will answer correctly on less than 25% of the remaining questions.</span><span class="choice">D) She must attempt exactly 40 questions in total that day.</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">C-12</span></div><p class="prompt">A bakery finds that exactly 30% of all cupcakes it bakes on a given day turn out with frosting defects. Of the first 50 cupcakes baked that day, 20 had frosting defects. Which of the following must be true about the cupcakes baked afterward that day?</p><div class="choices"><span class="choice">A) The remaining cupcakes will have exactly 30% defects.</span><span class="choice">B) The remaining cupcakes will have more than 30% defects.</span><span class="choice">C) The bakery must have baked exactly 100 cupcakes that day.</span><span class="choice">D) The remaining cupcakes will have less than 30% defects.</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>几何——自己推角度/线段关系（含组合图形周长）</h2><p class="signal-note">看到等腰三角形、正多边形、平行线被截、组合图形周长等描述，且题目提示“图不按比例”时，不能靠目测，必须用角度关系（等腰底角相等、三角形内角和180°、正多边形内角公式、外角定理）或把线段/图形边长拆解开来自己推导，不能直接套一个公式了事。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">D-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">Triangle ABC is isosceles with AB = AC. Angle B measures (3x)° and angle A measures (4x + 30)°. Note: figure not drawn to scale. What is the measure of angle A?</p><div class="choices"><span class="choice">A) 90°</span><span class="choice">B) 80°</span><span class="choice">C) 100°</span><span class="choice">D) 120°</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目说 AB = AC（两条边相等），这是“等腰三角形”的信号，说明有两个角是相等的底角；同时出现两个用 x 表示的角，说明要联立方程求 x。</div>
+      <div><span class="step-label">② 要转换成</span>把“AB = AC”转换成角的语言：边 AB 和边 AC 相等，它们各自所对的角（角C 和角B）相等，所以角C = 角B = 3x。这样三角形三个角就都能用 x 表示了。</div>
+      <div><span class="step-label">③ 用公式</span>等腰三角形底角相等 + 三角形内角和 = 180°。</div>
+      <div><span class="step-label">④ 代入计算</span>角B = 角C = 3x（因为AB=AC，底角相等）。三角形内角和：角A + 角B + 角C = 180，即 (4x+30) + 3x + 3x = 180 → 10x + 30 = 180 → 10x = 150 → x = 15。代入角A = 4(15) + 30 = 60 + 30 = 90°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，90° 对应 A。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">D-2</span></div><p class="prompt">Triangle DEF is isosceles with DE = DF. Angle E measures (2x + 10)° and angle F measures (5x − 20)°. Note: figure not drawn to scale. What is the measure of angle D?</p><div class="choices"><span class="choice">A) 100°</span><span class="choice">B) 120°</span><span class="choice">C) 110°</span><span class="choice">D) 130°</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-3</span></div><p class="prompt">A regular hexagon has six equal sides and six equal interior angles. What is the measure of each interior angle?</p><div class="choices"><span class="choice">A) 108°</span><span class="choice">B) 135°</span><span class="choice">C) 120°</span><span class="choice">D) 144°</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-4</span></div><p class="prompt">A regular polygon has interior angles that each measure 144°. How many sides does the polygon have?</p><div class="choices"><span class="choice">A) 8</span><span class="choice">B) 9</span><span class="choice">C) 12</span><span class="choice">D) 10</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-5</span></div><p class="prompt">Two parallel lines, m and n, are each crossed by two different transversals. The transversals also intersect each other, forming a triangle between lines m and n. The three interior angles of this triangle are in the ratio 5 : 6 : 7. Note: figure not drawn to scale. What is the sum of the largest and smallest angles of this triangle?</p><div class="choices"><span class="choice">A) 120°</span><span class="choice">B) 130°</span><span class="choice">C) 110°</span><span class="choice">D) 140°</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-6</span></div><p class="prompt">Points A, B, C, and D lie on a line, in that order. AB = 6, BC is 3 times AB, and CD is half of BC. Note: figure not drawn to scale. What is the length of BD?</p><div class="choices"><span class="choice">A) 33</span><span class="choice">B) 27</span><span class="choice">C) 18</span><span class="choice">D) 9</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-7</span></div><p class="prompt">In the figure, ABDE is a parallelogram with AB = 8 and BD = 5. Equilateral triangle BCD is attached to side BD, on the opposite side of BD from A, and points C, D, E lie on a single straight line, with D between C and E. Note: figure not drawn to scale. What is the perimeter of quadrilateral ABCE (formed by segments AB, BC, CE, and EA)?</p><div class="choices"><span class="choice">A) 23</span><span class="choice">B) 26</span><span class="choice">C) 31</span><span class="choice">D) 36</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-8</span></div><p class="prompt">In the figure, ABDE is a parallelogram with AB = 11 and BD = 7. Equilateral triangle BCD is attached to side BD, positioned so that points A, B, C lie on a single straight line, with B between A and C. Note: figure not drawn to scale. What is the perimeter of quadrilateral ACDE (formed by segments AC, CD, DE, and EA)?</p><div class="choices"><span class="choice">A) 36</span><span class="choice">B) 40</span><span class="choice">C) 47</span><span class="choice">D) 43</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-9</span></div><p class="prompt">In triangle GHI, the exterior angle at vertex I measures (7x − 10)°. The two remote interior angles are angle G = (2x + 15)° and angle H = (3x + 5)°. Note: figure not drawn to scale. What is the measure of the exterior angle at vertex I?</p><div class="choices"><span class="choice">A) 95°</span><span class="choice">B) 90°</span><span class="choice">C) 100°</span><span class="choice">D) 85°</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-10</span></div><p class="prompt">Triangle JKL is isosceles with JK = JL. The exterior angle formed at vertex L (by extending side KL beyond L) measures (9x + 30)°, and angle J measures (3x)°. Note: figure not drawn to scale. What is the measure of angle J?</p><div class="choices"><span class="choice">A) 18°</span><span class="choice">B) 24°</span><span class="choice">C) 21°</span><span class="choice">D) 27°</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">D-11</span></div><p class="prompt">In the figure, ABDE is a parallelogram with AB = 6 and BD = 10. Equilateral triangle BCD is attached to side BD, on the opposite side of BD from A, such that points A, B, C lie on a straight line with B between A and C, AND points C, D, E lie on a straight line with D between C and E. Note: figure not drawn to scale. What is the perimeter of triangle ACE (formed by segments AC, CE, and EA)?</p><div class="choices"><span class="choice">A) 36</span><span class="choice">B) 38</span><span class="choice">C) 42</span><span class="choice">D) 46</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>抽象变量不等式——“一定成立”/“不可能是”的推理</h2><p class="signal-note">看到“could be”“could NOT be”“must be true”这类字眼，加上变量有整数/不等式范围限制时，不能只代入一个顺手的数就下结论，必须把边界值（最小/最大整数、符号边界、严格不等号排除的那个数）都逐一代入表达式测试，才能确定答案。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">E-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">n is an integer and n &gt; −3. Which of the following could NOT be the value of 2n − 4?</p><div class="choices"><span class="choice">A) −5</span><span class="choice">B) −8</span><span class="choice">C) 0</span><span class="choice">D) 4</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“could NOT be”是信号词：要找一个无论 n 取哪个允许的整数都得不到的值，所以必须先锁定 n 的取值边界（最小整数是多少），再看表达式能生成哪些值。</div>
+      <div><span class="step-label">② 要转换成</span>把“n &gt; −3 且 n 是整数”转换成 n 的最小可能值：因为−3本身被排除，最接近的整数是 −2，所以 n ≥ −2。</div>
+      <div><span class="step-label">③ 用公式</span>直接把 n 的边界值和各选项代入表达式 2n − 4 测试。</div>
+      <div><span class="step-label">④ 代入计算</span>n 的最小值是 −2（−3 被严格排除，下一个整数是−2）。代入表达式：n=−2 → 2(−2)−4=−8；n=−1→−6；n=0→−4；n=1→−2；n=2→0；n=4→4。可以看出所有可能值都是偶数，且最小是−8。选项B) −8 由 n=−2 得到，可能。选项C) 0 由 n=2 得到，可能。选项D) 4 由 n=4 得到，可能。选项A) −5 是奇数，而 2n−4 对任何整数 n 永远是偶数（2n 一定是偶数，再减4还是偶数），所以 −5 永远不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是A，因为−5是唯一一个不可能取到的值。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">E-2</span></div><p class="prompt">A + B/4 = 6 and A &lt; 2. Which of the following could NOT be the value of B?</p><div class="choices"><span class="choice">A) 17</span><span class="choice">B) 16</span><span class="choice">C) 20</span><span class="choice">D) 24</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-3</span></div><p class="prompt">j is a positive integer and k is a negative integer. Which of the following expressions must have the greatest value?</p><div class="choices"><span class="choice">A) jk</span><span class="choice">B) k − j</span><span class="choice">C) j − k</span><span class="choice">D) j + k</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-4</span></div><p class="prompt">x is an integer such that −5 ≤ x &lt; 3. Which of the following could NOT be the value of x²?</p><div class="choices"><span class="choice">A) 0</span><span class="choice">B) 9</span><span class="choice">C) 25</span><span class="choice">D) 36</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-5</span></div><p class="prompt">y is a negative integer. Which of the following must be true?</p><div class="choices"><span class="choice">A) y² &gt; 0</span><span class="choice">B) y + 1 &gt; 0</span><span class="choice">C) y − 1 &gt; y</span><span class="choice">D) 1/y &gt; 0</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-6</span></div><p class="prompt">a is a real number and 0 &lt; a &lt; 1. Which of the following must be true?</p><div class="choices"><span class="choice">A) a² &gt; a</span><span class="choice">B) a² &lt; a</span><span class="choice">C) 1/a &lt; 1</span><span class="choice">D) a + 1 &lt; 1</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-7</span></div><p class="prompt">3x − 2y = 12 and y &gt; 0. Which of the following could NOT be the value of x?</p><div class="choices"><span class="choice">A) 6</span><span class="choice">B) 10</span><span class="choice">C) 4</span><span class="choice">D) 16</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-8</span></div><p class="prompt">t is an integer and 5 &lt; 2t ≤ 18. Which of the following could NOT be the value of t?</p><div class="choices"><span class="choice">A) 3</span><span class="choice">B) 6</span><span class="choice">C) 9</span><span class="choice">D) 10</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-9</span></div><p class="prompt">|x − 4| &lt; 3 and x is an integer. Which of the following could NOT be the value of x?</p><div class="choices"><span class="choice">A) 7</span><span class="choice">B) 2</span><span class="choice">C) 4</span><span class="choice">D) 6</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-10</span></div><p class="prompt">a is a negative number and b is a positive number. Which of the following must be true?</p><div class="choices"><span class="choice">A) ab &gt; 0</span><span class="choice">B) a − b &lt; 0</span><span class="choice">C) a + b &gt; 0</span><span class="choice">D) b − a &lt; 0</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">E-11</span></div><p class="prompt">C = 2D/5 + 3 and D ≥ 10. Which of the following could NOT be the value of C?</p><div class="choices"><span class="choice">A) 7</span><span class="choice">B) 9</span><span class="choice">C) 6</span><span class="choice">D) 11</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>函数图象/空间推理（图象描述、展开图、旋转坐标、自定义运算）</h2><p class="signal-note">看到“哪个图象/哪种展开图/旋转后坐标/自定义运算符号”这类题，因为是纸面题没有真实图片，要先把每个选项的具体数值（斜率、截距、坐标、边长）都算出来再逐一比对，不能凭感觉选一个“看起来对”的。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">F-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">Which of the following best describes the graph of f(x) = 6 − x?
+(A) A line with slope 1 and y-intercept 6, passing through the points (0, 6) and (−6, 0).
+(B) A line with slope −1 and y-intercept −6, passing through the points (0, −6) and (−6, 0).
+(C) A line with slope −1 and y-intercept 6, passing through the points (0, 6) and (6, 0).
+(D) A line with slope 6 and y-intercept −1, passing through the points (0, −1) and (1, 5).</p><div class="choices"><span class="choice">A) Description A</span><span class="choice">B) Description B</span><span class="choice">C) Description C</span><span class="choice">D) Description D</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目问“哪个图象代表f(x)”，但没有真实图片——信号是要先把f(x)=6−x的斜率、y轴截距、x轴截距都算出具体数值，再去比对每个文字描述，而不是凭印象选。</div>
+      <div><span class="step-label">② 要转换成</span>把函数f(x)=6−x改写成标准形式 y = −1·x + 6，读出斜率=−1，y轴截距=6；再令y=0求x轴截距：0=6−x→x=6，所以还经过点(6,0)。</div>
+      <div><span class="step-label">③ 用公式</span>直线标准式 y=mx+b：m是斜率，b是y轴截距；令y=0解出x轴截距。</div>
+      <div><span class="step-label">④ 代入计算</span>f(x)=6−x：斜率m=−1，y轴截距b=6，所以过点(0,6)。令0=6−x得x=6，所以也过点(6,0)。逐个比对选项：(A)斜率写成1，不符；(B)y轴截距写成−6，不符；(C)斜率−1、y轴截距6、经过(0,6)和(6,0)，完全符合；(D)斜率6，不符。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，描述C与f(x)=6−x完全一致。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">F-2</span></div><p class="prompt">Which of the following six-square arrangements can be folded (along the shared edges) into a cube with no overlapping faces and no gaps?
+(A) Six unit squares arranged in a single straight row (a 1×6 line).
+(B) A central column of four squares stacked vertically, with one additional square attached to the left side of the second square from the top, and one additional square attached to the right side of that same square (forming a plus/cross shape).
+(C) Six unit squares arranged in a 2-by-3 rectangular grid (two rows of three squares each).
+(D) Five squares arranged in a plus shape (one central square with a square attached to each of its top, bottom, left, and right sides), plus a sixth square that touches the top square only at a single corner point, sharing no edge with it.</p><div class="choices"><span class="choice">A) Arrangement A</span><span class="choice">B) Arrangement B</span><span class="choice">C) Arrangement C</span><span class="choice">D) Arrangement D</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-3</span></div><p class="prompt">A sonar transmitter's detection range is a circular region with a real-world radius of 54 miles. The map scale is 1 inch = 9 miles. Which of the following correctly describes the circle representing the detection range on the map?</p><div class="choices"><span class="choice">A) A circle with radius 9 inches</span><span class="choice">B) A circle with diameter 6 inches</span><span class="choice">C) A circle with radius 486 inches</span><span class="choice">D) A circle with radius 6 inches</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-4</span></div><p class="prompt">Quadrilateral WXYZ has vertices W(2, 5), X(6, 5), Y(6, 1), and Z(2, 1). The quadrilateral is rotated 180° about the origin to form quadrilateral W'X'Y'Z'. What are the coordinates of point Y'?</p><div class="choices"><span class="choice">A) (6, −1)</span><span class="choice">B) (−6, −1)</span><span class="choice">C) (−6, 1)</span><span class="choice">D) (1, 6)</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-5</span></div><p class="prompt">Let a ▲ b = a² − 2b. If 5 ▲ c = 17, what is the value of c?</p><div class="choices"><span class="choice">A) 3</span><span class="choice">B) 6</span><span class="choice">C) 4</span><span class="choice">D) 8</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-6</span></div><p class="prompt">Let p ♦ q = p + (2 − 1/q). What is the value of 6 ♦ 4?</p><div class="choices"><span class="choice">A) 8.25</span><span class="choice">B) 6.25</span><span class="choice">C) 7.25</span><span class="choice">D) 7.75</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-7</span></div><p class="prompt">Which of the following best describes the graph of g(x) = −2x + 4?
+(A) A line with slope −2 and y-intercept 4, passing through the points (0, 4) and (2, 0).
+(B) A line with slope 2 and y-intercept 4, passing through the points (0, 4) and (−2, 0).
+(C) A line with slope −2 and y-intercept −4, passing through the points (0, −4) and (−2, 0).
+(D) A line with slope 4 and y-intercept −2, passing through the points (0, −2) and (0.5, 0).</p><div class="choices"><span class="choice">A) Description A</span><span class="choice">B) Description B</span><span class="choice">C) Description C</span><span class="choice">D) Description D</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-8</span></div><p class="prompt">Triangle DEF has vertices D(−3, 2), E(4, 2), and F(1, −5). After rotating 180° about the origin to form triangle D'E'F', what is the sum of the x-coordinates of D', E', and F'?</p><div class="choices"><span class="choice">A) −2</span><span class="choice">B) 2</span><span class="choice">C) −8</span><span class="choice">D) 8</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-9</span></div><p class="prompt">A solid cube measuring 4 units by 4 units by 4 units is painted red on all six outer faces, then cut into 64 unit cubes (a 4×4×4 grid of small cubes). How many of the small unit cubes have exactly 2 painted faces?</p><div class="choices"><span class="choice">A) 8</span><span class="choice">B) 24</span><span class="choice">C) 36</span><span class="choice">D) 16</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-10</span></div><p class="prompt">Which of the following best describes the graph of h(x) = |x| − 3?
+(A) A V-shaped graph with vertex at (0, 3), opening downward, crossing the x-axis at (3, 0) and (−3, 0).
+(B) A V-shaped graph with vertex at (−3, 0), opening upward, crossing the y-axis at (0, 3).
+(C) A V-shaped graph with vertex at (0, −3), opening upward, with the two rays having slopes 1 and −1, crossing the x-axis at (3, 0) and (−3, 0).
+(D) A straight line with slope 1 passing through (0, −3).</p><div class="choices"><span class="choice">A) Description A</span><span class="choice">B) Description B</span><span class="choice">C) Description C</span><span class="choice">D) Description D</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">F-11</span></div><p class="prompt">Define the operation m ⊕ n = 3m − n/2. If 4 ⊕ n = 10, what is the value of n?</p><div class="choices"><span class="choice">A) 4</span><span class="choice">B) 2</span><span class="choice">C) 8</span><span class="choice">D) −4</span></div><div class="workspace"><span>演算区</span></div></div></div><div class="group-block"><div class="group-header"><h2>数列与平均值——通项公式、连续整数反推、inclusive计数</h2><p class="signal-note">看到等差/等比数列第n项、连续整数（或连续奇数）已知平均值反推最大/最小项、“从A到B inclusive”计数、或“平均值+除了一人都相同求剩下一人”这类题，要先认清用哪个公式（a_n=a1+(n−1)d 或 a1×r^(n−1)）、记住连续整数的平均值等于中间项、inclusive计数要+1、平均值反推总和时必须把所有已知的人/项都算进去，不能只减一个。</p></div><div class="problem lead"><div class="problem-head"><span class="problem-num">G-1</span> <span class="lead-tag">领路题 · 完整拆解</span></div><p class="prompt">The first three terms of an arithmetic sequence are 12, 15, 18. What is the 100th term of this sequence?</p><div class="choices"><span class="choice">A) 309</span><span class="choice">B) 306</span><span class="choice">C) 312</span><span class="choice">D) 297</span></div>
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到“数列的第n项”并且前几项之间是等差（每次加同一个数），信号是要用等差数列通项公式，而不是一项项手动往下加到第100项。</div>
+      <div><span class="step-label">② 要转换成</span>从前三项12,15,18中读出首项a1=12，公差d=15−12=3。把“求第100项”转换成套用通项公式 a_n = a1 + (n−1)d，这里n=100。</div>
+      <div><span class="step-label">③ 用公式</span>等差数列通项公式：a_n = a1 + (n−1)d。</div>
+      <div><span class="step-label">④ 代入计算</span>a1=12，d=3，n=100。a_100 = 12 + (100−1)×3 = 12 + 99×3 = 12 + 297 = 309。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，309 对应 A。</div>
+    </div>
+    </div><div class="problem"><div class="problem-head"><span class="problem-num">G-2</span></div><p class="prompt">A geometric sequence begins 1/64, 1/16, 1/4, ... What is the 7th term of this sequence?</p><div class="choices"><span class="choice">A) 16</span><span class="choice">B) 64</span><span class="choice">C) 256</span><span class="choice">D) 32</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-3</span></div><p class="prompt">7 consecutive integers have an average of 31. What is the smallest of these integers?</p><div class="choices"><span class="choice">A) 31</span><span class="choice">B) 25</span><span class="choice">C) 28</span><span class="choice">D) 34</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-4</span></div><p class="prompt">5 consecutive odd integers have an average of 47. What is the largest of these integers?</p><div class="choices"><span class="choice">A) 45</span><span class="choice">B) 49</span><span class="choice">C) 53</span><span class="choice">D) 51</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-5</span></div><p class="prompt">How many integers from 1984 to 2013, inclusive, are there?</p><div class="choices"><span class="choice">A) 30</span><span class="choice">B) 29</span><span class="choice">C) 31</span><span class="choice">D) 28</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-6</span></div><p class="prompt">The average height of four classmates is 152 cm. Three of them are each exactly 148 cm tall. What is the height of the fourth classmate?</p><div class="choices"><span class="choice">A) 460</span><span class="choice">B) 164</span><span class="choice">C) 156</span><span class="choice">D) 148</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-7</span></div><p class="prompt">An arithmetic sequence begins 7, 11, 15, ... What is the 50th term of this sequence?</p><div class="choices"><span class="choice">A) 199</span><span class="choice">B) 207</span><span class="choice">C) 203</span><span class="choice">D) 196</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-8</span></div><p class="prompt">A geometric sequence begins 3, 6, 12, ... What is the 10th term of this sequence?</p><div class="choices"><span class="choice">A) 1024</span><span class="choice">B) 768</span><span class="choice">C) 3072</span><span class="choice">D) 1536</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-9</span></div><p class="prompt">9 consecutive integers have a sum of 198. What is the largest of these integers?</p><div class="choices"><span class="choice">A) 26</span><span class="choice">B) 22</span><span class="choice">C) 24</span><span class="choice">D) 29</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-10</span></div><p class="prompt">6 consecutive odd integers have an average of 50. What is the smallest of these integers?</p><div class="choices"><span class="choice">A) 41</span><span class="choice">B) 45</span><span class="choice">C) 49</span><span class="choice">D) 55</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-11</span></div><p class="prompt">A shelf holds books numbered consecutively from 205 to 289, inclusive. How many books are on the shelf?</p><div class="choices"><span class="choice">A) 83</span><span class="choice">B) 84</span><span class="choice">C) 85</span><span class="choice">D) 86</span></div><div class="workspace"><span>演算区</span></div></div><div class="problem"><div class="problem-head"><span class="problem-num">G-12</span></div><p class="prompt">The average score of a team of 5 players is 18 points. Four of the players each scored exactly 15 points. What did the fifth player score?</p><div class="choices"><span class="choice">A) 18</span><span class="choice">B) 15</span><span class="choice">C) 90</span><span class="choice">D) 30</span></div><div class="workspace"><span>演算区</span></div></div></div>
+</div>
+<div class="answer-key">
+<h1>答案与解析</h1>
+<div class="key-group-header"><h3>不等式两边乘/除负数要翻转方向</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-1</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目最后要解出 x,必须把 −x 变成 x,也就是要乘/除以 −1——这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>题目给的是 11 − x &lt; 5(x 前面带负号),需要先把常数移到一边,变成 −x &lt; 常数 的形式,再对系数 −1 处理。</div>
+      <div><span class="step-label">③ 用公式</span>先移项: 11 − x &lt; 5 → −x &lt; 5 − 11。再两边同除以 −1,除以负数要把 '&lt;' 翻转成 '&gt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>11 − x &lt; 5 → −x &lt; 5 − 11 = −6 → −x &lt; −6。两边同除以 −1(翻转方向): x &gt; 6。验证: 取 x=7, 11−7=4, 4&lt;5 成立,且 7&gt;6 成立;取 x=6(边界)代入 11−6=5,不满足 &lt;5,说明 x=6 不算在内,与 x&gt;6 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &gt; 6 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −2(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先把常数移到右边: 8 − 2x &gt; 2 → −2x &gt; 2 − 8,变成 −2x &gt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −2,除以负数要把 '&gt;' 翻转成 '&lt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>8 − 2x &gt; 2 → −2x &gt; 2 − 8 = −6 → −2x &gt; −6。两边除以 −2(翻转): x &lt; 3。验证: 取 x=2, 8−4=4, 4&gt;2 成立,且 2&lt;3 成立;取 x=3(边界), 8−6=2,不满足 &gt;2,说明边界不算在内,与 x&lt;3 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &lt; 3 就是最终答案,直接对照选项选 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-3</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −4(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 20 − 4x ≤ 0 → −4x ≤ −20,变成 −4x ≤ 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −4,除以负数要把 '≤' 翻转成 '≥'。</div>
+      <div><span class="step-label">④ 代入计算</span>20 − 4x ≤ 0 → −4x ≤ 0 − 20 = −20。两边除以 −4(翻转): x ≥ 5。验证: 取 x=5, 20−20=0,满足 ≤0(等号成立);取 x=6, 20−24=−4≤0 成立,且 6≥5 成立;取 x=4, 20−16=4,不满足 ≤0,说明 x=4 不该被包含,与 x≥5 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x ≥ 5 就是最终答案,直接对照选项选 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-4</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −5(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 7 − 5x &lt; −3 → −5x &lt; −3 − 7,变成 −5x &lt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −5,除以负数要把 '&lt;' 翻转成 '&gt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>7 − 5x &lt; −3 → −5x &lt; −3 − 7 = −10。两边除以 −5(翻转): x &gt; 2。验证: 取 x=3, 7−15=−8, −8&lt;−3 成立,且 3&gt;2 成立;取 x=2(边界), 7−10=−3,不满足 &lt;−3,说明边界不算在内,与 x&gt;2 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &gt; 2 就是最终答案,直接对照选项选 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-5</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −6(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 12 − 6x &lt; 0 → −6x &lt; −12,变成 −6x &lt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −6,除以负数要把 '&lt;' 翻转成 '&gt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>12 − 6x &lt; 0 → −6x &lt; 0 − 12 = −12。两边除以 −6(翻转): x &gt; 2。验证: 取 x=3, 12−18=−6&lt;0 成立,且 3&gt;2 成立;取 x=2(边界), 12−12=0,不满足 &lt;0,说明边界不算在内,与 x&gt;2 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &gt; 2 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −2(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: −2x − 5 ≤ 7 → −2x ≤ 7 + 5,变成 −2x ≤ 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −2,除以负数要把 '≤' 翻转成 '≥'。</div>
+      <div><span class="step-label">④ 代入计算</span>−2x − 5 ≤ 7 → −2x ≤ 12。两边除以 −2(翻转): x ≥ −6。验证: 取 x=0, −0−5=−5≤7 成立,且 0≥−6 成立;取 x=−6(边界), −2(−6)−5=12−5=7,满足 ≤7(等号成立);取 x=−7, −2(−7)−5=14−5=9,不满足 ≤7,说明 x=−7 不该被包含,与 x≥−6 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x ≥ −6 就是最终答案,直接对照选项选 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-7</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −3(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 9 − 3x &gt; 21 → −3x &gt; 21 − 9,变成 −3x &gt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −3,除以负数要把 '&gt;' 翻转成 '&lt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>9 − 3x &gt; 21 → −3x &gt; 21 − 9 = 12。两边除以 −3(翻转): x &lt; −4。验证: 取 x=−5, 9−3(−5)=9+15=24, 24&gt;21 成立,且 −5&lt;−4 成立;取 x=−4(边界), 9+12=21,不满足 &gt;21,说明边界不算在内,与 x&lt;−4 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &lt; −4 就是最终答案,直接对照选项选 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-8</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −4(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: −4x + 10 ≥ 2 → −4x ≥ 2 − 10,变成 −4x ≥ 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −4,除以负数要把 '≥' 翻转成 '≤'。</div>
+      <div><span class="step-label">④ 代入计算</span>−4x + 10 ≥ 2 → −4x ≥ 2 − 10 = −8。两边除以 −4(翻转): x ≤ 2。验证: 取 x=0, −0+10=10≥2 成立,且 0≤2 成立;取 x=2(边界), −8+10=2,满足 ≥2(等号成立);取 x=3, −12+10=−2,不满足 ≥2,说明 x=3 不该被包含,与 x≤2 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x ≤ 2 就是最终答案,直接对照选项选 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-9</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −7(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 6 − 7x ≤ −8 → −7x ≤ −8 − 6,变成 −7x ≤ 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −7,除以负数要把 '≤' 翻转成 '≥'。</div>
+      <div><span class="step-label">④ 代入计算</span>6 − 7x ≤ −8 → −7x ≤ −8 − 6 = −14。两边除以 −7(翻转): x ≥ 2。验证: 取 x=3, 6−21=−15, −15≤−8 成立,且 3≥2 成立;取 x=2(边界), 6−14=−8,满足 ≤−8(等号成立);取 x=1, 6−7=−1,不满足 ≤−8,说明 x=1 不该被包含,与 x≥2 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x ≥ 2 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −5(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: −5x − 3 &gt; 12 → −5x &gt; 12 + 3,变成 −5x &gt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −5,除以负数要把 '&gt;' 翻转成 '&lt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>−5x − 3 &gt; 12 → −5x &gt; 15。两边除以 −5(翻转): x &lt; −3。验证: 取 x=−4, −5(−4)−3=20−3=17, 17&gt;12 成立,且 −4&lt;−3 成立;取 x=−3(边界), 15−3=12,不满足 &gt;12,说明边界不算在内,与 x&lt;−3 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &lt; −3 就是最终答案,直接对照选项选 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R1-11</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>最后一步要除以 x 的系数 −2(负数),这是翻转信号。</div>
+      <div><span class="step-label">② 要转换成</span>先移项: 18 − 2x &lt; 4 → −2x &lt; 4 − 18,变成 −2x &lt; 常数 的形式。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以 −2,除以负数要把 '&lt;' 翻转成 '&gt;'。</div>
+      <div><span class="step-label">④ 代入计算</span>18 − 2x &lt; 4 → −2x &lt; 4 − 18 = −14。两边除以 −2(翻转): x &gt; 7。验证: 取 x=8, 18−16=2, 2&lt;4 成立,且 8&gt;7 成立;取 x=7(边界), 18−14=4,不满足 &lt;4,说明边界不算在内,与 x&gt;7 一致。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,x &gt; 7 就是最终答案,直接对照选项选 A。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>一个等式两个字母:代入化简,不要选'无法确定'</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目只给了一个含 a、b 两个字母的等式,又问 a+5 等于多少——这是'看到两个字母就想选无法确定'的陷阱信号,实际上是可以确定的。</div>
+      <div><span class="step-label">② 要转换成</span>把 a − 7 = 3b + 4 转换成 'a = ...(只含 b 的式子)' 的形式,再把这个表达式代入 a+5 中化简。</div>
+      <div><span class="step-label">③ 用公式</span>先把 a 单独移到等号一边解出 a,再代入目标表达式 a+5,合并同类项。</div>
+      <div><span class="step-label">④ 代入计算</span>a − 7 = 3b + 4 → a = 3b + 4 + 7 = 3b + 11。代入 a+5: a+5 = (3b+11)+5 = 3b+16。验证: 取 b=1, a=3(1)+11=14,检查原式 a−7=14−7=7,3b+4=3+4=7 ✓;a+5=19,3b+16=3+16=19 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,3b+16 就是最终答案,直接对照选项选 A;'无法确定'是干扰项,因为经过代入化简后是可以确定的。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-2</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 c、d 的等式,又问 c−3 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 c + 9 = 4d − 2 转换成 'c = ...(只含 d 的式子)',再代入 c−3。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 c,再代入目标表达式 c−3 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>c + 9 = 4d − 2 → c = 4d − 2 − 9 = 4d − 11。代入 c−3: c−3 = (4d−11)−3 = 4d−14。验证: 取 d=2, c=4(2)−11=−3,检查原式 c+9=−3+9=6,4d−2=8−2=6 ✓;c−3=−6,4d−14=8−14=−6 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,4d−14 就是最终答案,直接对照选项选 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-3</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 e、f 的等式,又问 e+2 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 e − 4 = 6f + 10 转换成 'e = ...(只含 f 的式子)',再代入 e+2。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 e,再代入目标表达式 e+2 化简,注意不能漏掉最后加的 2。</div>
+      <div><span class="step-label">④ 代入计算</span>e − 4 = 6f + 10 → e = 6f + 10 + 4 = 6f + 14。代入 e+2: e+2 = (6f+14)+2 = 6f+16。验证: 取 f=1, e=6(1)+14=20,检查原式 e−4=16,6f+10=6+10=16 ✓;e+2=22,6f+16=6+16=22 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,6f+16 就是最终答案,直接对照选项选 B;6f+14 只是 e 本身,忘记再加 2,是常见漏算陷阱。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 g、h 的等式,又问 g−1 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 g − 5 = 2h + 8 转换成 'g = ...(只含 h 的式子)',再代入 g−1。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 g,再代入目标表达式 g−1 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>g − 5 = 2h + 8 → g = 2h + 8 + 5 = 2h + 13。代入 g−1: g−1 = (2h+13)−1 = 2h+12。验证: 取 h=1, g=2(1)+13=15,检查原式 g−5=10,2h+8=2+8=10 ✓;g−1=14,2h+12=2+12=14 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2h+12 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 k、m 的等式,又问 k−2 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 k + 6 = 5m − 3 转换成 'k = ...(只含 m 的式子)',再代入 k−2。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 k,再代入目标表达式 k−2 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>k + 6 = 5m − 3 → k = 5m − 3 − 6 = 5m − 9。代入 k−2: k−2 = (5m−9)−2 = 5m−11。验证: 取 m=2, k=5(2)−9=1,检查原式 k+6=7,5m−3=10−3=7 ✓;k−2=−1,5m−11=10−11=−1 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,5m−11 就是最终答案,直接对照选项选 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-6</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 p、q 的等式,又问 p+4 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 p − 10 = 3q + 7 转换成 'p = ...(只含 q 的式子)',再代入 p+4。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 p,再代入目标表达式 p+4 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>p − 10 = 3q + 7 → p = 3q + 7 + 10 = 3q + 17。代入 p+4: p+4 = (3q+17)+4 = 3q+21。验证: 取 q=1, p=3(1)+17=20,检查原式 p−10=10,3q+7=3+7=10 ✓;p+4=24,3q+21=3+21=24 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,3q+21 就是最终答案,直接对照选项选 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-7</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 r、s 的等式,又问 r+9 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 r + 3 = 8s − 5 转换成 'r = ...(只含 s 的式子)',再代入 r+9。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 r,再代入目标表达式 r+9 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>r + 3 = 8s − 5 → r = 8s − 5 − 3 = 8s − 8。代入 r+9: r+9 = (8s−8)+9 = 8s+1。验证: 取 s=1, r=8(1)−8=0,检查原式 r+3=3,8s−5=8−5=3 ✓;r+9=9,8s+1=8+1=9 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,8s+1 就是最终答案,直接对照选项选 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 t、u 的等式,又问 t−2 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 t − 6 = 2u + 9 转换成 't = ...(只含 u 的式子)',再代入 t−2。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 t,再代入目标表达式 t−2 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>t − 6 = 2u + 9 → t = 2u + 9 + 6 = 2u + 15。代入 t−2: t−2 = (2u+15)−2 = 2u+13。验证: 取 u=1, t=2(1)+15=17,检查原式 t−6=11,2u+9=2+9=11 ✓;t−2=15,2u+13=2+13=15 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2u+13 就是最终答案,直接对照选项选 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 v、w 的等式,又问 v−5 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 v + 12 = 7w − 4 转换成 'v = ...(只含 w 的式子)',再代入 v−5。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 v,再代入目标表达式 v−5 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>v + 12 = 7w − 4 → v = 7w − 4 − 12 = 7w − 16。代入 v−5: v−5 = (7w−16)−5 = 7w−21。验证: 取 w=3, v=7(3)−16=5,检查原式 v+12=17,7w−4=21−4=17 ✓;v−5=0,7w−21=21−21=0 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,7w−21 就是最终答案,直接对照选项选 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R2-10</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>只有一个含 y、z 的等式,又问 y+6 等于多少——不要看到两个字母就选'无法确定'。</div>
+      <div><span class="step-label">② 要转换成</span>把 y − 8 = 4z + 15 转换成 'y = ...(只含 z 的式子)',再代入 y+6。</div>
+      <div><span class="step-label">③ 用公式</span>先解出 y,再代入目标表达式 y+6 化简。</div>
+      <div><span class="step-label">④ 代入计算</span>y − 8 = 4z + 15 → y = 4z + 15 + 8 = 4z + 23。代入 y+6: y+6 = (4z+23)+6 = 4z+29。验证: 取 z=1, y=4(1)+23=27,检查原式 y−8=19,4z+15=4+15=19 ✓;y+6=33,4z+29=4+29=33 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,4z+29 就是最终答案,直接对照选项选 C。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>年龄题:'几年前/几年后'要平移每一个人,不能只移一个人</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'5 years ago'这个时间平移词,且提到两个人(Bob 和 Jerry)——两个人的年龄都要往回移 5 年,不能只移一个。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 5,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Bob=x, Jerry=x+7。5 年前: Bob=x−5, Jerry=(x+7)−5。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Bob 现在 = x, Jerry 现在 = x+7。5 年前: Bob = x−5, Jerry = x+7−5 = x+2。两人年龄和 = (x−5)+(x+2) = 2x−3。验证: 取 x=10, Bob现在10,Jerry现在17;5年前 Bob=5,Jerry=12,和=17。代入公式 2x−3=20−3=17 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2x−3 就是最终答案,直接对照选项选 A;2x+2 是只把 Bob 减 5、忘记也把 Jerry 减 5 的常见错误(Bob现在10算成5,Jerry仍按17,和为22对应2x+2)。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'in 6 years'这个时间平移词,且提到两个人(Maria 和 Diego)——两个人的年龄都要往后移 6 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 6,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Maria=y, Diego=y+4。6 年后: Maria=y+6, Diego=(y+4)+6。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Maria 现在 = y, Diego 现在 = y+4。6 年后: Maria = y+6, Diego = y+4+6 = y+10。两人年龄和 = (y+6)+(y+10) = 2y+16。验证: 取 y=5, Maria现在5,Diego现在9;6年后 Maria=11,Diego=15,和=26。代入公式 2y+16=10+16=26 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2y+16 就是最终答案,直接对照选项选 B;2y+10 是只把 Maria 加 6、忘记把 Diego 也加 6 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'ten years ago'这个时间平移词,且提到两个人(Ken 和 Lily)——两个人的年龄都要往回移 10 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 10,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Ken=z, Lily=z−3。10 年前: Ken=z−10, Lily=(z−3)−10。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Ken 现在 = z, Lily 现在 = z−3。10 年前: Ken = z−10, Lily = z−3−10 = z−13。两人年龄和 = (z−10)+(z−13) = 2z−23。验证: 取 z=20, Ken现在20,Lily现在17;10年前 Ken=10,Lily=7,和=17。代入公式 2z−23=40−23=17 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2z−23 就是最终答案,直接对照选项选 C;2z−13 是只把 Ken 减 10、忘记把 Lily 也减 10 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'eight years from now'这个时间平移词,且提到两个人(Priya 和 Anjali)——两个人的年龄都要往后移 8 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 8,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Priya=p, Anjali=p−5。8 年后: Priya=p+8, Anjali=(p−5)+8。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Priya 现在 = p, Anjali 现在 = p−5。8 年后: Priya = p+8, Anjali = p−5+8 = p+3。两人年龄和 = (p+8)+(p+3) = 2p+11。验证: 取 p=12, Priya现在12,Anjali现在7;8年后 Priya=20,Anjali=15,和=35。代入公式 2p+11=24+11=35 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2p+11 就是最终答案,直接对照选项选 D;2p+3 是只把 Priya 加 8、忘记把 Anjali 也加 8 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'4 years ago'这个时间平移词,且提到两个人(Omar 和 Sara)——两个人的年龄都要往回移 4 年,如果只移一个人,年龄差就会被算错。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,把每个人都减去 4,再求 Sara 减 Omar 的差值,而不是只把其中一人平移后直接比较。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Omar=m, Sara=m+9。4 年前: Omar=m−4, Sara=(m+9)−4。差 = Sara − Omar。</div>
+      <div><span class="step-label">④ 代入计算</span>Omar 现在 = m, Sara 现在 = m+9。4 年前: Omar = m−4, Sara = m+9−4 = m+5。差 = (m+5)−(m−4) = 9。验证: 取 m=6, Omar现在6,Sara现在15;4年前 Omar=2,Sara=11,差=11−2=9,与公式结果 9 一致(且与 m 取值无关,恒等于两人年龄差)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,差值恒为 9,与 m 无关,直接对照选项选 A;5 是只把 Sara 减 4、Omar 不变的错误(15−4=11,与不变的6比较得5的另一种误算变体),13 是只把 Omar 减 4、Sara 不变的错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'3 years from now'这个时间平移词,且提到两个人(Noah 和 Ella)——两个人的年龄都要往后移 3 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 3,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Noah=n, Ella=n−6。3 年后: Noah=n+3, Ella=(n−6)+3。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Noah 现在 = n, Ella 现在 = n−6。3 年后: Noah = n+3, Ella = n−6+3 = n−3。两人年龄和 = (n+3)+(n−3) = 2n。验证: 取 n=10, Noah现在10,Ella现在4;3年后 Noah=13,Ella=7,和=20。代入公式 2n=20 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2n 就是最终答案,直接对照选项选 B;2n−3 是只把 Noah 加 3、忘记把 Ella 也加 3 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'twelve years ago'这个时间平移词,且提到两个人(Grace 和 Beth)——两个人的年龄都要往回移 12 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 12,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Grace=g, Beth=g+2。12 年前: Grace=g−12, Beth=(g+2)−12。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Grace 现在 = g, Beth 现在 = g+2。12 年前: Grace = g−12, Beth = g+2−12 = g−10。两人年龄和 = (g−12)+(g−10) = 2g−22。验证: 取 g=15, Grace现在15,Beth现在17;12年前 Grace=3,Beth=5,和=8。代入公式 2g−22=30−22=8 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2g−22 就是最终答案,直接对照选项选 C;2g−10 是只把 Grace 减 12、忘记把 Beth 也减 12 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'six years from now'这个时间平移词,且提到两个人(Felix 和 Dana)——两个人的年龄都要往后移 6 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 6,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Felix=f, Dana=f+10。6 年后: Felix=f+6, Dana=(f+10)+6。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Felix 现在 = f, Dana 现在 = f+10。6 年后: Felix = f+6, Dana = f+10+6 = f+16。两人年龄和 = (f+6)+(f+16) = 2f+22。验证: 取 f=8, Felix现在8,Dana现在18;6年后 Felix=14,Dana=24,和=38。代入公式 2f+22=16+22=38 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2f+22 就是最终答案,直接对照选项选 D;2f+16 是只把 Felix 加 6、忘记把 Dana 也加 6 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'7 years ago'这个时间平移词,且提到两个人(Leo 和 Mia)——两个人的年龄都要往回移 7 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 7,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Leo=L, Mia=L−8。7 年前: Leo=L−7, Mia=(L−8)−7。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Leo 现在 = L, Mia 现在 = L−8。7 年前: Leo = L−7, Mia = L−8−7 = L−15。两人年龄和 = (L−7)+(L−15) = 2L−22。验证: 取 L=20, Leo现在20,Mia现在12;7年前 Leo=13,Mia=5,和=18。代入公式 2L−22=40−22=18 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2L−22 就是最终答案,直接对照选项选 A;2L−15 是只把 Leo 减 7、忘记把 Mia 也减 7 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'in 9 years'这个时间平移词,且提到两个人(Hana 和 Sam)——两个人的年龄都要往后移 9 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 9,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Hana=h, Sam=h+5。9 年后: Hana=h+9, Sam=(h+5)+9。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Hana 现在 = h, Sam 现在 = h+5。9 年后: Hana = h+9, Sam = h+5+9 = h+14。两人年龄和 = (h+9)+(h+14) = 2h+23。验证: 取 h=6, Hana现在6,Sam现在11;9年后 Hana=15,Sam=20,和=35。代入公式 2h+23=12+23=35 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2h+23 就是最终答案,直接对照选项选 B;2h+14 是只把 Hana 加 9、忘记把 Sam 也加 9 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'fifteen years ago'这个时间平移词,且提到两个人(Theo 和 Ivy)——两个人的年龄都要往回移 15 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都减去 15,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Theo=t, Ivy=t−11。15 年前: Theo=t−15, Ivy=(t−11)−15。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Theo 现在 = t, Ivy 现在 = t−11。15 年前: Theo = t−15, Ivy = t−11−15 = t−26。两人年龄和 = (t−15)+(t−26) = 2t−41。验证: 取 t=30, Theo现在30,Ivy现在19;15年前 Theo=15,Ivy=4,和=19。代入公式 2t−41=60−41=19 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2t−41 就是最终答案,直接对照选项选 C;2t−26 是只把 Theo 减 15、忘记把 Ivy 也减 15 的常见错误。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R3-12</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里有'in 20 years'这个时间平移词,且提到两个人(Wendy 和 Carl)——两个人的年龄都要往后移 20 年。</div>
+      <div><span class="step-label">② 要转换成</span>先写出两人现在的年龄表达式,再把每个人都加上 20,最后把两个平移后的表达式相加。</div>
+      <div><span class="step-label">③ 用公式</span>现在: Wendy=w, Carl=w+3。20 年后: Wendy=w+20, Carl=(w+3)+20。两者求和。</div>
+      <div><span class="step-label">④ 代入计算</span>Wendy 现在 = w, Carl 现在 = w+3。20 年后: Wendy = w+20, Carl = w+3+20 = w+23。两人年龄和 = (w+20)+(w+23) = 2w+43。验证: 取 w=4, Wendy现在4,Carl现在7;20年后 Wendy=24,Carl=27,和=51。代入公式 2w+43=8+43=51 ✓,吻合。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2w+43 就是最终答案,直接对照选项选 D;2w+23 是只把 Wendy 加 20、忘记把 Carl 也加 20 的常见错误。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>从乘积里解变量，不要凭记忆多加指数（含分数+小数方程）</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目要求把变量 a 从一个三项相乘的等式中单独解出来，'what is a in terms of b' 是信号——这是一步除法操作，不涉及任何指数变化。</div>
+      <div><span class="step-label">② 要转换成</span>原式 3ab = 6 是'三个量相乘=常数'的形式，需要把它变成 a = ... 的形式，只需两边同时除以 3b 这一个操作。</div>
+      <div><span class="step-label">③ 用公式</span>两边同除以同一个非零量：若 XY = Z，则 X = Z/Y（这里 X=a, Y=3b, Z=6）。</div>
+      <div><span class="step-label">④ 代入计算</span>3ab = 6 → 两边同除以 3b → a = 6/(3b) → 约分 6 和 3 → a = 2/b。全程只做了'除以 3b'这一个操作，没有对 b 做平方或其他变形。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，a = 2/b 已经是最简形式，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'what is x in terms of y' 同样是从三项乘积中单独解出一个变量，信号是等式两边都只含乘法，没有加减。</div>
+      <div><span class="step-label">② 要转换成</span>5xy = 20 需要变成 x = ... ，只需两边同除以 5y。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → X = Z/Y，这里 X=x, Y=5y, Z=20。</div>
+      <div><span class="step-label">④ 代入计算</span>5xy = 20 → 两边同除以 5y → x = 20/(5y) → 化简 20/5=4 → x = 4/y。全程没有给 y 加平方。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最简形式 x = 4/y，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>注意这次是解 n（不是 m），信号词仍是 'in terms of'，要选对被除的那个变量。</div>
+      <div><span class="step-label">② 要转换成</span>7mn = 21 要变成 n = ... ，两边同除以 7m。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → Y = Z/X，这里把 m 当作分母的那一部分。</div>
+      <div><span class="step-label">④ 代入计算</span>7mn = 21 → 两边同除以 7m → n = 21/(7m) → 化简 21/7=3 → n = 3/m。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，n = 3/m 已是最简形式，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'solve for r in terms of s'——三项乘积等式，一步除法即可，不要对 s 加指数。</div>
+      <div><span class="step-label">② 要转换成</span>6rs = 18 变形为 r = ... ，两边同除以 6s。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → X = Z/Y。</div>
+      <div><span class="step-label">④ 代入计算</span>6rs = 18 → 两边同除以 6s → r = 18/(6s) → 化简 18/6=3 → r = 3/s。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已是最简形式，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>同类型题，信号是等式只有乘法没有加减，一步除法就能解出 u。</div>
+      <div><span class="step-label">② 要转换成</span>9uv = 27 → 两边同除以 9v，变成 u = ...。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → X = Z/Y。</div>
+      <div><span class="step-label">④ 代入计算</span>9uv = 27 → 两边同除以 9v → u = 27/(9v) → 化简 27/9=3 → u = 3/v。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已是最简形式，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这题的常数不能整除，提醒你更要一步步来，不能凭感觉简化，否则容易多加错误的指数或系数。</div>
+      <div><span class="step-label">② 要转换成</span>8jk = 2 → 两边同除以 8k，变成 j = ...。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → X = Z/Y，再化简分数。</div>
+      <div><span class="step-label">④ 代入计算</span>8jk = 2 → 两边同除以 8k → j = 2/(8k) → 分子分母同除以 2 → j = 1/(4k)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已化到最简分数，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这次要解的是 q，且常数 15/10 不能整除，更容易在化简时手滑加错指数，要一步步比对。</div>
+      <div><span class="step-label">② 要转换成</span>10pq = 15 → 两边同除以 10p，变成 q = ...。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → Y = Z/X，再化简分数。</div>
+      <div><span class="step-label">④ 代入计算</span>10pq = 15 → 两边同除以 10p → q = 15/(10p) → 分子分母同除以 5 → q = 3/(2p)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已化到最简分数，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>常数 9/12 不能整除，是最容易在化简分数时错误地给分母变量加平方的情形，一步步做。</div>
+      <div><span class="step-label">② 要转换成</span>12st = 9 → 两边同除以 12t，变成 s = ...。</div>
+      <div><span class="step-label">③ 用公式</span>XY = Z → X = Z/Y，再化简分数。</div>
+      <div><span class="step-label">④ 代入计算</span>12st = 9 → 两边同除以 12t → s = 9/(12t) → 分子分母同除以 3 → s = 3/(4t)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已化到最简分数，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目里同时出现分数 3/4 和小数 8.3，这是'分数+小数混合方程'的信号，不能把 3/4 当成接近 1 的整数来估算。</div>
+      <div><span class="step-label">② 要转换成</span>先把 3/4 转换成小数 0.75，把整个方程统一成小数形式：0.75 + x = 8.3。</div>
+      <div><span class="step-label">③ 用公式</span>移项：x = 8.3 − 0.75。</div>
+      <div><span class="step-label">④ 代入计算</span>3/4 = 0.75 → 方程变为 0.75 + x = 8.3 → x = 8.3 − 0.75 = 7.55。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 7.55，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>方程里同时有分数 1/2 和小数 6.75，先转换统一成小数，不要把 1/2 当作 1 来心算。</div>
+      <div><span class="step-label">② 要转换成</span>1/2 = 0.5，方程变为 x − 0.5 = 6.75。</div>
+      <div><span class="step-label">③ 用公式</span>移项：x = 6.75 + 0.5。</div>
+      <div><span class="step-label">④ 代入计算</span>1/2 = 0.5 → x − 0.5 = 6.75 → x = 6.75 + 0.5 = 7.25。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 7.25，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R4-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>同样是分数 2/5 和小数 4.6 混合的方程，先把 2/5 转换成小数，不要按整数或 1/2 估算。</div>
+      <div><span class="step-label">② 要转换成</span>2/5 = 0.4，方程变为 0.4 + y = 4.6。</div>
+      <div><span class="step-label">③ 用公式</span>移项：y = 4.6 − 0.4。</div>
+      <div><span class="step-label">④ 代入计算</span>2/5 = 0.4 → 0.4 + y = 4.6 → y = 4.6 − 0.4 = 4.2。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 4.2，直接对照选项。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>连续百分比变化要连乘，不能直接把百分比相加</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'decreases by 20% each hour' + 'after 3 hours' 同时出现——这就是复合百分比信号，必须连乘，不能用 3×20% 相加。</div>
+      <div><span class="step-label">② 要转换成</span>每小时剩余的比例是 (1−0.20)=0.8，3 小时要把 0.8 连乘 3 次，而不是把 20% 乘以 3。</div>
+      <div><span class="step-label">③ 用公式</span>复合变化公式：最终值 = 原值 × (1−r)^n，这里 r=0.20，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>0.8×0.8=0.64 → 0.64×0.8=0.512 → 即剩余 51.2%（这是精确值，不是估算）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到精确结果 51.2%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'increases by 10% each year' + 'after 3 years'——复合增长信号，要用 (1+r)^n 而不是加法。</div>
+      <div><span class="step-label">② 要转换成</span>每年变为原来的 1.10 倍，3 年要把 1.10 连乘 3 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1+r)^n，r=0.10，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>1.1×1.1=1.21 → 1.21×1.1=1.331 → 即 133.1%，题目选项里最接近的是 133%（这是'最接近'不是精确匹配）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 133%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'decreases by 15% each year' + 'after 2 years'——复合信号，两年要连乘两次 (1−0.15)。</div>
+      <div><span class="step-label">② 要转换成</span>每年剩余原值的 0.85 倍，2 年要把 0.85 平方。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1−r)^n，r=0.15，n=2。</div>
+      <div><span class="step-label">④ 代入计算</span>0.85×0.85=0.7225 → 即 72.25%，最接近的选项是 72%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 72%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'grows by 5% each year' + 'after 4 years'——四年复合增长，要把 1.05 连乘 4 次。</div>
+      <div><span class="step-label">② 要转换成</span>每年变为原来的 1.05 倍，4 年要把 1.05 连乘 4 次（即 1.05 的 4 次方）。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1+r)^n，r=0.05，n=4。</div>
+      <div><span class="step-label">④ 代入计算</span>1.05×1.05=1.1025 → 1.1025×1.1025=1.21550625 → 即 121.55%，最接近的选项是 122%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 122%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'falls by 10% each month' + 'after 3 months'——复合信号，三个月要连乘三次 0.9。</div>
+      <div><span class="step-label">② 要转换成</span>每月剩余原价的 0.9 倍，3 个月要把 0.9 连乘 3 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1−r)^n，r=0.10，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>0.9×0.9=0.81 → 0.81×0.9=0.729 → 即 72.9%（精确值）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到精确结果 72.9%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'increases by 25% each year' + 'after 2 years'——两年复合增长，要把 1.25 平方。</div>
+      <div><span class="step-label">② 要转换成</span>每年变为原来的 1.25 倍，2 年要把 1.25 连乘 2 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1+r)^n，r=0.25，n=2。</div>
+      <div><span class="step-label">④ 代入计算</span>1.25×1.25=1.5625 → 即 156.25%（精确值）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到精确结果 156.25%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'decreases by 8% each year' + 'after 3 years'——三年复合下降，要把 0.92 连乘三次。</div>
+      <div><span class="step-label">② 要转换成</span>每年剩余原值的 0.92 倍，3 年要把 0.92 连乘 3 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1−r)^n，r=0.08，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>0.92×0.92=0.8464 → 0.8464×0.92=0.778688 → 即 77.87%，最接近的选项是 78%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 78%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'grows by 3% each year' + 'after 5 years'——五年复合增长，要把 1.03 连乘五次。</div>
+      <div><span class="step-label">② 要转换成</span>每年变为原来的 1.03 倍，5 年要把 1.03 连乘 5 次（即 1.03 的 5 次方）。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1+r)^n，r=0.03，n=5。</div>
+      <div><span class="step-label">④ 代入计算</span>1.03²=1.0609 → 1.03⁴=1.0609²=1.12550881 → 1.03⁵=1.12550881×1.03=1.1592740743 → 即 115.93%，最接近的选项是 116%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 116%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'decreases by 12% each year' + 'after 2 years'——两年复合下降，把 0.88 平方。</div>
+      <div><span class="step-label">② 要转换成</span>每年剩余原值的 0.88 倍，2 年要把 0.88 连乘 2 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1−r)^n，r=0.12，n=2。</div>
+      <div><span class="step-label">④ 代入计算</span>0.88×0.88=0.7744 → 即 77.44%，最接近的选项是 77%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 77%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'increases by 6% each year' + 'after 3 years'——三年复合增长，把 1.06 连乘三次。</div>
+      <div><span class="step-label">② 要转换成</span>每年变为原来的 1.06 倍，3 年要把 1.06 连乘 3 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1+r)^n，r=0.06，n=3。</div>
+      <div><span class="step-label">④ 代入计算</span>1.06×1.06=1.1236 → 1.1236×1.06=1.191016 → 即 119.10%，最接近的选项是 119%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 119%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R5-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'drops by 18% each year' + 'after 2 years'——两年复合下降，把 0.82 平方。</div>
+      <div><span class="step-label">② 要转换成</span>每年剩余原值的 0.82 倍，2 年要把 0.82 连乘 2 次。</div>
+      <div><span class="step-label">③ 用公式</span>最终值 = 原值 × (1−r)^n，r=0.18，n=2。</div>
+      <div><span class="step-label">④ 代入计算</span>0.82×0.82=0.6724 → 即 67.24%，最接近的选项是 67%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到约 67%，直接对照选项。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>由折后价反推原价，用除法，不是乘法或减法</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目描述的是已经打折之后的价格（'30% off'已经发生），又问'original price'——这就是反向百分比信号，必须用除法而不是乘法。</div>
+      <div><span class="step-label">② 要转换成</span>已知：打折后价格 = 原价 × (1−折扣率)。现在已知打折后价格，要反过来求原价，需要把乘法变成除法。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1 − 折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>折扣率 30% → (1−0.30)=0.70 → 原价 = 35 ÷ 0.70 = 50。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $50，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'25% off'描述已经发生的折扣，问'original price'——反向百分比，要除以 (1−25%)。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.75，要反过来求原价需要除法。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.25)=0.75 → 原价 = 60 ÷ 0.75 = 80。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $80，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'discounted 40%'已发生，问'original price'——反向百分比信号。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.60，要反过来除以 0.60 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.40)=0.60 → 原价 = 54 ÷ 0.60 = 90。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $90，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'marked down 15%' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.85，需要除以 0.85 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.15)=0.85 → 原价 = 170 ÷ 0.85 = 200。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $200，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'on sale at 20% off' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.80，需要除以 0.80 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.20)=0.80 → 原价 = 96 ÷ 0.80 = 120。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $120，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'reduced by 35%' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.65，需要除以 0.65 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.35)=0.65 → 原价 = 39 ÷ 0.65 = 60。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $60，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'marked 10% off' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.90，需要除以 0.90 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.10)=0.90 → 原价 = 135 ÷ 0.90 = 150。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $150，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'discounted 45%' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.55，需要除以 0.55 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.45)=0.55 → 原价 = 99 ÷ 0.55 = 180。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $180，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'on sale for 60% off' + 问'original price'——反向百分比，折扣幅度大更容易算错方向。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.40，需要除以 0.40 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.60)=0.40 → 原价 = 28 ÷ 0.40 = 70。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $70，直接对照选项。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">R6-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>'marked down 22%' + 问'original price'——反向百分比。</div>
+      <div><span class="step-label">② 要转换成</span>打折后价格 = 原价 × 0.78，需要除以 0.78 求原价。</div>
+      <div><span class="step-label">③ 用公式</span>原价 = 打折后价格 ÷ (1−折扣率)。</div>
+      <div><span class="step-label">④ 代入计算</span>(1−0.22)=0.78 → 原价 = 78 ÷ 0.78 = 100。</div>
+      <div><span class="step-label">⑤ 还差几步</span>已得到最终答案 $100，直接对照选项。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>单位换算 / 多步速率</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每3秒装8瓶'这种恒定速率描述,且问题最后要求的是分钟,而速率给的是秒,这是需要先建立速率、再换算单位的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'每3秒装8瓶'写成速率8瓶/3秒,先求装3200瓶总共需要多少秒,最后把秒转换成分钟。</div>
+      <div><span class="step-label">③ 用公式</span>所需时间(秒) = 总瓶数 ÷ 速率(瓶/秒) = 总瓶数 × (每份时间 ÷ 每份瓶数);再除以60转换成分钟。</div>
+      <div><span class="step-label">④ 代入计算</span>速率 = 8瓶/3秒。装3200瓶所需秒数 = 3200 ÷ (8/3) = 3200 × 3/8 = 9600/8 = 1200秒。1200秒 ÷ 60 = 20分钟。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,20分钟就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每英里用2/5加仑'这种恒定速率,且已知总加仑数(12加仑)、要求总英里数,这是需要先写出'每单位对应多少'的速率信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'每英里2/5加仑'转换成'总加仑数能支持开多少英里',用除法而不是乘法。</div>
+      <div><span class="step-label">③ 用公式</span>总英里数 = 总加仑数 ÷ 每英里耗油量(加仑/英里)。</div>
+      <div><span class="step-label">④ 代入计算</span>12 ÷ (2/5) = 12 × 5/2 = 60/2 = 30英里。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,30英里就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每12块饼干用3/4茶匙'这种按批次给出的比例,且要做的饼干数量(240)是给定批次数量(12)的整数倍,这是需要先求出'做了多少批'、再乘以每批用量的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先把240块饼干换算成'相当于多少个12块一批',再乘以每批需要的香草精茶匙数。</div>
+      <div><span class="step-label">③ 用公式</span>总茶匙数 = (总饼干数 ÷ 每批饼干数) × 每批茶匙数。</div>
+      <div><span class="step-label">④ 代入计算</span>240 ÷ 12 = 20批。20 × 3/4 = 15茶匙。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,15茶匙就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每3天读1/4'这种'部分/时间'的恒定速率,且问题问的是读完'整本'(即完整的1)需要多久,这是要把分数部分反推成完整单位1的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'3天读1/4本'转换成'读完整本(1本)需要多少天'。</div>
+      <div><span class="step-label">③ 用公式</span>总天数 = 每次天数 ÷ 每次完成的比例 = 3 ÷ (1/4)。</div>
+      <div><span class="step-label">④ 代入计算</span>3 ÷ (1/4) = 3 × 4 = 12天。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,12天就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每10分钟洗1/3'这种恒定速率,且问题最后问的是'几点钟做完',这是要先求出完成全部(1)需要多少分钟、再把这段时长加到起始时刻上的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'10分钟洗1/3'转换成'洗完全部(1)需要多少分钟',再用起始时间加上这个时长得到结束的钟点。</div>
+      <div><span class="step-label">③ 用公式</span>总时长(分钟) = 每次分钟数 ÷ 每次完成比例;完成时刻 = 起始时刻 + 总时长。</div>
+      <div><span class="step-label">④ 代入计算</span>10 ÷ (1/3) = 10 × 3 = 30分钟。6:40 p.m. + 30分钟 = 7:10 p.m.。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,7:10 p.m.就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每4分钟挤出15克'这种恒定速率,且总量(450克)的单位和最终问题要求的单位(小时)不一致,这是需要两次转换(先求分钟,再转小时)的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先求出打印450克总共需要多少分钟,再把分钟换算成小时。</div>
+      <div><span class="step-label">③ 用公式</span>总分钟数 = 总克数 ÷ 速率(克/分钟);总小时数 = 总分钟数 ÷ 60。</div>
+      <div><span class="step-label">④ 代入计算</span>450 ÷ (15/4) = 450 × 4/15 = 1800/15 = 120分钟。120 ÷ 60 = 2小时。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,2小时就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每3分钟骑5/8英里'这种恒定速率,且总时间(1小时12分钟)的单位需要先统一成'分钟'才能和给定速率的单位匹配,这是需要先转换单位再套用速率的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先把1小时12分钟统一转换成分钟(72分钟),再看72分钟里包含了多少个'3分钟'的时间段,乘以每段的里程。</div>
+      <div><span class="step-label">③ 用公式</span>总里程 = (总分钟数 ÷ 每段分钟数) × 每段里程。</div>
+      <div><span class="step-label">④ 代入计算</span>1小时12分钟 = 72分钟。72 ÷ 3 = 24段。24 × 5/8 = 120/8 = 15英里。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,15英里就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每20秒印9页'这种恒定速率,而总时间给的是5分钟,单位不一致,这是需要先把分钟转换成秒、再套用速率的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先把5分钟转换成秒(300秒),再看300秒里包含了多少个'20秒'的时间段,乘以每段印的页数。</div>
+      <div><span class="step-label">③ 用公式</span>总页数 = (总秒数 ÷ 每段秒数) × 每段页数。</div>
+      <div><span class="step-label">④ 代入计算</span>5分钟 = 300秒。300 ÷ 20 = 15段。15 × 9 = 135页。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,135页就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每30分钟完成2/5'这种恒定速率,且问题问的是完成'整个'(1)任务需要多久,这是要把分数部分反推成完整单位1所需时间的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'30分钟完成2/5'转换成'完成全部(1)需要多少分钟'。</div>
+      <div><span class="step-label">③ 用公式</span>总分钟数 = 每次分钟数 ÷ 每次完成比例 = 30 ÷ (2/5)。</div>
+      <div><span class="step-label">④ 代入计算</span>30 ÷ (2/5) = 30 × 5/2 = 150/2 = 75分钟。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,75分钟就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'每6秒下载45MB'这种恒定速率,且总量(600MB)要求换算成时间(秒),这是需要先求出每秒的速率、再相除的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先把'每6秒45MB'转换成'每秒多少MB',再用总MB数除以每秒速率求出所需秒数。</div>
+      <div><span class="step-label">③ 用公式</span>每秒速率 = 45 ÷ 6;所需秒数 = 总MB数 ÷ 每秒速率。</div>
+      <div><span class="step-label">④ 代入计算</span>45 ÷ 6 = 7.5 MB/秒。600 ÷ 7.5 = 80秒。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,80秒就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">A-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'24分钟完成了2/9'这种恒定速率,且问题问的是'还需要多少分钟'而不是'总共需要多少分钟',这是需要先求出总时间、再减去已经用掉的时间的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先求出记完整首诗(1)总共需要多少分钟,再减去已经用掉的24分钟,得到剩余需要的时间。</div>
+      <div><span class="step-label">③ 用公式</span>总分钟数 = 已用分钟数 ÷ 已完成比例;剩余分钟数 = 总分钟数 − 已用分钟数。</div>
+      <div><span class="step-label">④ 代入计算</span>24 ÷ (2/9) = 24 × 9/2 = 216/2 = 108分钟(记完整首诗总共需要的时间)。108 − 24 = 84分钟(还需要的时间)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,84分钟就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>比例建模(把英文翻译成比例方程)</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'...与...的比是a:b'并且给出了其中一部分的具体人数(20名后卫),不要直接心算,这是需要先设公共单位x的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'forwards:defenders = 2:5'写成 forwards = 2x, defenders = 5x,用已知的defenders = 20求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用已知量解出x,再代入求总人数 = forwards + defenders = 2x + 5x = 7x。</div>
+      <div><span class="step-label">④ 代入计算</span>5x = 20,所以x = 4。forwards = 2×4 = 8。总人数 = 8 + 20 = 28。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,28人就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-2</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'5:3'加上其中一方的具体金额($1,800),要求的是两人总共分到的钱,这是需要先设x求出每一份的价值、再加总的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'Alicia:Ben = 5:3'写成 Alicia = 5x, Ben = 3x,用已知的Ben = 1800求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先解出x,再求总额 = Alicia + Ben = 5x + 3x = 8x。</div>
+      <div><span class="step-label">④ 代入计算</span>3x = 1800,所以x = 600。Alicia = 5×600 = 3000。总额 = 3000 + 1800 = 4800。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,4800美元就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-3</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'4:7'加上'总共88颗',且问题问的是'红色'这一部分而不是总数,这是需要先设x、解出每份大小、再只取所需那一部分的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'red:blue = 4:7'写成red = 4x, blue = 7x,用总数red+blue=88求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用总数解出x,再代入求所需的那一部分(red = 4x)。</div>
+      <div><span class="step-label">④ 代入计算</span>4x + 7x = 11x = 88,所以x = 8。red = 4×8 = 32。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,32颗就是最终答案,对应选项B,直接选B(注意56是蓝色珠子数,不是题目问的红色数量,是干扰项)。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-4</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'3:5'加上其中一部分的具体人数(18名男生),且问题问的是'两者之差'而不是某一方的人数或总数,一定要看清楚最后问的是什么。</div>
+      <div><span class="step-label">② 要转换成</span>把'boys:girls = 3:5'写成boys = 3x, girls = 5x,用已知的boys = 18求出x,再计算girls − boys。</div>
+      <div><span class="step-label">③ 用公式</span>先解出x,再求 girls − boys = 5x − 3x = 2x。</div>
+      <div><span class="step-label">④ 代入计算</span>3x = 18,所以x = 6。girls = 5×6 = 30。girls − boys = 30 − 18 = 12。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,12就是最终答案,对应选项A,直接选A(注意30是女生总人数,不是题目问的'多几个',是干扰项)。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-5</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'5:2'加上其中一种原料的具体用量(10杯蔓越莓汁),且问题问的是'总共多少杯',这是需要先设x求出另一种原料的量、再加总的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'lemonade:cranberry = 5:2'写成lemonade = 5x, cranberry = 2x,用已知的cranberry = 10求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先解出x,再求总量 = lemonade + cranberry = 5x + 2x = 7x。</div>
+      <div><span class="step-label">④ 代入计算</span>2x = 10,所以x = 5。lemonade = 5×5 = 25。总量 = 25 + 10 = 35杯。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,35杯就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-6</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'7:3'加上'总面积250平方英尺',且问题只问其中一个部分(花卉区),这是需要先用总量解出x、再只取所需部分的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'vegetable:flower = 7:3'写成vegetable = 7x, flower = 3x,用总面积vegetable+flower=250求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用总量解出x,再代入求所需部分(flower = 3x)。</div>
+      <div><span class="step-label">④ 代入计算</span>7x + 3x = 10x = 250,所以x = 25。flower = 3×25 = 75平方英尺。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,75平方英尺就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-7</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'9:7'加上其中一位候选人的具体票数(45票),且问题问的是两人总票数,这是需要先设x求出另一位候选人的票数、再加总的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'P:Q = 9:7'写成P = 9x, Q = 7x,用已知的P = 45求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先解出x,再求总票数 = P + Q = 9x + 7x = 16x。</div>
+      <div><span class="step-label">④ 代入计算</span>9x = 45,所以x = 5。Q = 7×5 = 35。总票数 = 45 + 35 = 80。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,80票就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-8</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'2:7'加上'年龄之差是30岁'(不是某一方的具体年龄,而是差值),这是需要先设x、用两部分之差建立方程的信号,而不是直接用某一方等于30。</div>
+      <div><span class="step-label">② 要转换成</span>把'Maya:uncle = 2:7'写成Maya = 2x, uncle = 7x,用两人年龄之差uncle − Maya = 30求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用差值解出x,再代入求Maya的年龄(Maya = 2x)。</div>
+      <div><span class="step-label">④ 代入计算</span>7x − 2x = 5x = 30,所以x = 6。Maya = 2×6 = 12岁。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,12岁就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'5:2'加上其中一方的具体重量(260磅的小象),且问题问的是另一方(成年象)的重量,这是需要先设x求出比例单位、再代入求所需一方的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'adult:baby = 5:2'写成adult = 5x, baby = 2x,用已知的baby = 260求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先解出x,再代入求所需部分(adult = 5x)。</div>
+      <div><span class="step-label">④ 代入计算</span>2x = 260,所以x = 130。adult = 5×130 = 650磅。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,650磅就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">B-10</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到比例'1:6'加上'水比浓缩液多250毫升'(是差值,不是某一方的具体量),这是需要先设x、用两部分之差建立方程,再求总量的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把'concentrate:water = 1:6'写成concentrate = x, water = 6x,用两者之差water − concentrate = 250求出x。</div>
+      <div><span class="step-label">③ 用公式</span>先用差值解出x,再求总量 = concentrate + water = x + 6x = 7x。</div>
+      <div><span class="step-label">④ 代入计算</span>6x − x = 5x = 250,所以x = 50。concentrate = 50, water = 300。总量 = 50 + 300 = 350毫升。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,350毫升就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>百分比:子群体反推整体 + 复合百分比变化</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'某一部分的人数'加上'这部分占全部的X%',且问题问的是'全部有多少人',这是'部分反推整体'的信号,不能直接把348当成百分比去乘。</div>
+      <div><span class="step-label">② 要转换成</span>把百分比58%转换成小数0.58,用'部分 ÷ 百分比小数'求出整体,而不是用'部分 × 百分比'。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>348 ÷ 0.58 = 600。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,600人就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'92人是决赛选手'加上'这部分占报名总人数的23%',问题问的是'总共报名了多少人',这是部分反推整体的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把23%转换成小数0.23,用'部分 ÷ 百分比小数'求出总报名人数。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>92 ÷ 0.23 = 400。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,400人就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'261件是清仓标签商品'加上'这部分占总销售量的29%',问题问的是'总共卖出多少件',这是部分反推整体的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把29%转换成小数0.29,用'部分 ÷ 百分比小数'求出总销售件数。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>261 ÷ 0.29 = 900。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,900件就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'336人是学生乘客'加上'这部分占全部乘客的28%',问题问的是'总共调查了多少乘客',这是部分反推整体的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把28%转换成小数0.28,用'部分 ÷ 百分比小数'求出总乘客数。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>336 ÷ 0.28 = 1200。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,1200人就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'168件是加急包裹'加上'这部分占全部处理包裹的24%',问题问的是'这一班总共处理了多少件',这是部分反推整体的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把24%转换成小数0.24,用'部分 ÷ 百分比小数'求出总处理件数。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>168 ÷ 0.24 = 700。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,700件就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'261人是达标学生'加上'这部分占全体考生的87%',问题问的是'总共有多少人参加考试',这是部分反推整体的信号。</div>
+      <div><span class="step-label">② 要转换成</span>把87%转换成小数0.87,用'部分 ÷ 百分比小数'求出总考生人数。</div>
+      <div><span class="step-label">③ 用公式</span>整体 = 部分 ÷ (百分比/100)。</div>
+      <div><span class="step-label">④ 代入计算</span>261 ÷ 0.87 = 300。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,300人就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到价格'从...变到...',且问的是'最接近百分之几',这是百分比变化题的信号,要用(新−旧)÷旧,而不是直接用差值除以新值。</div>
+      <div><span class="step-label">② 要转换成</span>先求出涨价的差值,再除以原价(旧价),不是除以新价。</div>
+      <div><span class="step-label">③ 用公式</span>百分比变化 = (新价 − 旧价) ÷ 旧价 × 100%。</div>
+      <div><span class="step-label">④ 代入计算</span>9.66 − 8.40 = 1.26。1.26 ÷ 8.40 = 0.15 = 15%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,15%就是最终答案,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到价格'从...降到...',且问的是'最接近百分之几',这是百分比变化题的信号,要用(旧−新)÷旧。</div>
+      <div><span class="step-label">② 要转换成</span>先求出降价的差值,再除以原价(旧价)。</div>
+      <div><span class="step-label">③ 用公式</span>百分比变化 = (旧价 − 新价) ÷ 旧价 × 100%。</div>
+      <div><span class="step-label">④ 代入计算</span>52 − 39 = 13。13 ÷ 52 = 0.25 = 25%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,25%就是最终答案,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到价格'从...涨到...',且问的是'最接近百分之几'(算出来不是整数),这是需要算出精确百分比后再找最接近选项的信号。</div>
+      <div><span class="step-label">② 要转换成</span>先求出涨价差值,再除以原价,算出的百分比可能不是整数,要跟选项比较找最接近的那个。</div>
+      <div><span class="step-label">③ 用公式</span>百分比变化 = (新价 − 旧价) ÷ 旧价 × 100%,再比较最接近的选项。</div>
+      <div><span class="step-label">④ 代入计算</span>2.60 − 2.15 = 0.45。0.45 ÷ 2.15 ≈ 0.2093 = 20.93%,最接近21%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,21%就是最终答案,对应选项A,直接选A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'从...下降到...',且问的是'最接近百分之几',这是需要精确计算后再找最接近选项的百分比变化题。</div>
+      <div><span class="step-label">② 要转换成</span>先求出下降的差值,再除以原来的数值(旧值)。</div>
+      <div><span class="step-label">③ 用公式</span>百分比变化 = (旧值 − 新值) ÷ 旧值 × 100%,再比较最接近的选项。</div>
+      <div><span class="step-label">④ 代入计算</span>1240 − 1080 = 160。160 ÷ 1240 ≈ 0.1290 = 12.90%,最接近13%。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,13%就是最终答案,对应选项B,直接选B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'总体百分比是固定的(25%)'加上'前面一段的实际表现(20题对8题)',且问题问的是'一定成立的结论',这是需要设总量为变量、用代数验证所有可能情况的信号,不能只代一个数字就下结论。</div>
+      <div><span class="step-label">② 要转换成</span>设总共尝试的题目数为T(T要让0.25T是整数),总正确数 = 0.25T。剩下的题目数 = T − 20,剩下的正确数 = 0.25T − 8。把剩下的正确数除以剩下的题目数,和25%比较。</div>
+      <div><span class="step-label">③ 用公式</span>剩余正确率 = (0.25T − 8) ÷ (T − 20);可以改写成 0.25 − 3/(T−20) 的形式来判断大小关系。</div>
+      <div><span class="step-label">④ 代入计算</span>前20题的正确率是8/20 = 40%,高于总体的25%,所以剩下部分的正确率必须被拉低。代数验证:剩余正确率 = (0.25T−8)/(T−20) = 0.25 − 3/(T−20)。因为剩下的题目数T−20必须大于0,且总正确数0.25T−8不能是负数(即T至少要等于32),所以3/(T−20)恒为正数,剩余正确率永远小于25%。用具体数字验证:T=32时,剩余正确率=0/12=0%;T=40时,剩余正确率=2/20=10%;T=100时,剩余正确率=17/80=21.25%——都小于25%,这个结论对所有合法的T都成立。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,'剩余正确率一定小于25%'是唯一在所有情况下都成立的结论,对应选项C,直接选C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">C-12</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到'全天总的缺陷率是固定的(30%)'加上'前面一批的实际数据(50个里20个有缺陷)',且问题问的是'一定成立的结论',这是需要设总量为变量、代数验证所有可能情况的信号。</div>
+      <div><span class="step-label">② 要转换成</span>设全天总共烤了T个纸杯蛋糕(T要让0.3T是整数),总缺陷数 = 0.3T。剩下烤的数量 = T − 50,剩下的缺陷数 = 0.3T − 20。把剩下的缺陷数除以剩下的数量,和30%比较。</div>
+      <div><span class="step-label">③ 用公式</span>剩余缺陷率 = (0.3T − 20) ÷ (T − 50);可以改写成 0.3 − 5/(T−50) 的形式来判断大小关系。</div>
+      <div><span class="step-label">④ 代入计算</span>前50个的缺陷率是20/50 = 40%,高于全天的30%,所以剩下部分的缺陷率必须被拉低。代数验证:剩余缺陷率 = (0.3T−20)/(T−50) = 0.3 − 5/(T−50)。因为剩下的数量T−50必须大于0,且总缺陷数0.3T−20不能是负数(即T至少要约为67,取能让0.3T为整数的T,最小是70),所以5/(T−50)恒为正数,剩余缺陷率永远小于30%。用具体数字验证:T=70时,剩余缺陷率=1/20=5%;T=100时,剩余缺陷率=10/50=20%——都小于30%,这个结论对所有合法的T都成立。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止,'剩余缺陷率一定小于30%'是唯一在所有情况下都成立的结论,对应选项D,直接选D。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>几何——自己推角度/线段关系（含组合图形周长）</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目说 AB = AC（两条边相等），这是“等腰三角形”的信号，说明有两个角是相等的底角；同时出现两个用 x 表示的角，说明要联立方程求 x。</div>
+      <div><span class="step-label">② 要转换成</span>把“AB = AC”转换成角的语言：边 AB 和边 AC 相等，它们各自所对的角（角C 和角B）相等，所以角C = 角B = 3x。这样三角形三个角就都能用 x 表示了。</div>
+      <div><span class="step-label">③ 用公式</span>等腰三角形底角相等 + 三角形内角和 = 180°。</div>
+      <div><span class="step-label">④ 代入计算</span>角B = 角C = 3x（因为AB=AC，底角相等）。三角形内角和：角A + 角B + 角C = 180，即 (4x+30) + 3x + 3x = 180 → 10x + 30 = 180 → 10x = 150 → x = 15。代入角A = 4(15) + 30 = 60 + 30 = 90°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，90° 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>DE = DF 说明这是等腰三角形，角E 和角F 是底角（分别是边DF、DE 的对角），它们必须相等——这是要圈出来的关键信息。</div>
+      <div><span class="step-label">② 要转换成</span>把“DE=DF”转换成“角E = 角F”，列出方程 2x+10 = 5x−20 求出 x，再回代求出角D。</div>
+      <div><span class="step-label">③ 用公式</span>等腰三角形底角相等 + 三角形内角和 = 180°。</div>
+      <div><span class="step-label">④ 代入计算</span>角E = 角F → 2x+10 = 5x−20 → 30 = 3x → x = 10。角E = 2(10)+10 = 30°，角F = 5(10)−20 = 30°。角D = 180 − 30 − 30 = 120°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，120° 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目说“regular hexagon”（正六边形），信号是要用正多边形内角公式，而不是凭印象猜一个角度。</div>
+      <div><span class="step-label">② 要转换成</span>把“六边形”转换为 n=6，代入正多边形内角公式。</div>
+      <div><span class="step-label">③ 用公式</span>正多边形每个内角 = (n−2)×180° / n。</div>
+      <div><span class="step-label">④ 代入计算</span>n=6：(6−2)×180 / 6 = 4×180/6 = 720/6 = 120°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，120° 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目反过来给了内角度数，问边数——信号是要把正多边形内角公式倒过来解方程，而不是死记某个多边形对应几度。</div>
+      <div><span class="step-label">② 要转换成</span>把“每个内角=144°”代入公式 (n−2)×180/n = 144，转换成关于 n 的方程。</div>
+      <div><span class="step-label">③ 用公式</span>正多边形内角公式：(n−2)×180/n = 内角度数。</div>
+      <div><span class="step-label">④ 代入计算</span>(n−2)×180 = 144n → 180n − 360 = 144n → 36n = 360 → n = 10。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，10 对应 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目给的是角度“比例”（ratio），不是具体度数——信号是要设每份为一个未知数k，再用三角形内角和=180°列方程求出每一份的实际度数。</div>
+      <div><span class="step-label">② 要转换成</span>把比例 5:6:7 转换成 5k、6k、7k 三个角，用三角形内角和求出 k。</div>
+      <div><span class="step-label">③ 用公式</span>三角形内角和 = 180°。</div>
+      <div><span class="step-label">④ 代入计算</span>5k + 6k + 7k = 180 → 18k = 180 → k = 10。三个角分别是 5(10)=50°、6(10)=60°、7(10)=70°。最大角70° + 最小角50° = 120°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，120° 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目给的是几段之间的“倍数关系”（3 times, half of），并且问的是BD（B到D），不是问AD（全长）——要看清楚问的是哪两点之间的距离。</div>
+      <div><span class="step-label">② 要转换成</span>先把 BC、CD 都用 AB 表示出来，再把 BD 转换成 BC + CD（因为B、C、D在同一直线上，顺序是B→C→D）。</div>
+      <div><span class="step-label">③ 用公式</span>同一直线上顺序排列的点，中间某段 = 相邻两段相加。</div>
+      <div><span class="step-label">④ 代入计算</span>AB=6。BC = 3×AB = 3×6 = 18。CD = BC/2 = 18/2 = 9。BD = BC + CD = 18 + 9 = 27。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，27 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这是“组合图形周长”陷阱题：图里CE看起来像一条边，但题目已经说明C、D、E共线，D在中间，所以CE其实是CD和DE两段加起来，不能直接当成一条已知边。</div>
+      <div><span class="step-label">② 要转换成</span>先用平行四边形对边相等求出DE、EA；再用等边三角形边长相等求出BC、CD；最后把 CE 转换成 CD + DE。</div>
+      <div><span class="step-label">③ 用公式</span>平行四边形对边相等：AB=DE，BD=EA。等边三角形三边相等：BC=CD=BD。共线线段相加：CE=CD+DE。</div>
+      <div><span class="step-label">④ 代入计算</span>AB=8，BD=5，所以 DE=AB=8，EA=BD=5。等边三角形BCD边长=BD=5，所以BC=CD=5。CE = CD + DE = 5 + 8 = 13。周长 = AB+BC+CE+EA = 8+5+13+5 = 31。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，31 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>又是组合图形周长陷阱：AC看起来像一条边，但题目说A、B、C共线，B在中间，所以AC其实是AB加BC两段，必须先加起来才能用。</div>
+      <div><span class="step-label">② 要转换成</span>先用平行四边形对边相等求出DE、EA；再用等边三角形边长相等求出BC、CD；最后把 AC 转换成 AB + BC。</div>
+      <div><span class="step-label">③ 用公式</span>平行四边形对边相等：AB=DE，BD=EA。等边三角形三边相等：BC=CD=BD。共线线段相加：AC=AB+BC。</div>
+      <div><span class="step-label">④ 代入计算</span>AB=11，BD=7，所以 DE=AB=11，EA=BD=7。等边三角形BCD边长=BD=7，所以BC=CD=7。AC = AB + BC = 11 + 7 = 18。周长 = AC+CD+DE+EA = 18+7+11+7 = 43。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，43 对应 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“exterior angle”（外角）加上“remote interior angles”（不相邻的两个内角）这两个词是信号，说明要用外角定理，而不是用180°减法去求。</div>
+      <div><span class="step-label">② 要转换成</span>把“外角 = 两个不相邻内角之和”这句话转换成方程：(7x−10) = (2x+15) + (3x+5)。</div>
+      <div><span class="step-label">③ 用公式</span>三角形外角定理：一个外角 = 与它不相邻的两个内角之和。</div>
+      <div><span class="step-label">④ 代入计算</span>7x−10 = (2x+15)+(3x+5) = 5x+20 → 7x−10=5x+20 → 2x=30 → x=15。外角 = 7(15)−10 = 105−10 = 95°。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，95° 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这题同时出现“isosceles（等腰）”和“exterior angle（外角）”两个信号，说明要把两个知识点串起来用：底角相等 + 外角与相邻内角互补(180°)。</div>
+      <div><span class="step-label">② 要转换成</span>先把外角转换成“180° − 角L”；再用JK=JL得到角K=角L；最后把角J、角K、角L代入三角形内角和180°，跟外角方程联立求x。</div>
+      <div><span class="step-label">③ 用公式</span>等腰三角形底角相等（角K=角L） + 外角与相邻内角互补（外角+角L=180°） + 三角形内角和180°。</div>
+      <div><span class="step-label">④ 代入计算</span>设角K=角L（因为JK=JL）。由角J+角K+角L=180，得 3x + 2×角L = 180 → 角L = 90 − 1.5x。外角在L处 = 180 − 角L = 180 − (90−1.5x) = 90 + 1.5x。题目给外角 = 9x+30，所以 90+1.5x = 9x+30 → 60 = 7.5x → x = 8。角J = 3(8) = 24°。（验证：角L=90−1.5(8)=78°，角J+2×角L=24+156=180 ✓）</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，24° 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">D-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这题一次给了两处共线陷阱（A、B、C共线 和 C、D、E共线），信号是三角形ACE的两条边AC和CE都不是图中直接标出的单一线段，都得先拆开算。</div>
+      <div><span class="step-label">② 要转换成</span>先用平行四边形对边相等求DE、EA；再用等边三角形边长相等求BC、CD；然后把 AC 转换成 AB+BC，把 CE 转换成 CD+DE。</div>
+      <div><span class="step-label">③ 用公式</span>平行四边形对边相等：DE=AB，EA=BD。等边三角形三边相等：BC=CD=BD。共线线段相加：AC=AB+BC，CE=CD+DE。</div>
+      <div><span class="step-label">④ 代入计算</span>AB=6，BD=10，所以 DE=AB=6，EA=BD=10。等边三角形BCD边长=BD=10，所以BC=CD=10。AC=AB+BC=6+10=16。CE=CD+DE=10+6=16。三角形ACE周长 = AC+CE+EA = 16+16+10 = 42。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，42 对应 C。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>抽象变量不等式——“一定成立”/“不可能是”的推理</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“could NOT be”是信号词：要找一个无论 n 取哪个允许的整数都得不到的值，所以必须先锁定 n 的取值边界（最小整数是多少），再看表达式能生成哪些值。</div>
+      <div><span class="step-label">② 要转换成</span>把“n &gt; −3 且 n 是整数”转换成 n 的最小可能值：因为−3本身被排除，最接近的整数是 −2，所以 n ≥ −2。</div>
+      <div><span class="step-label">③ 用公式</span>直接把 n 的边界值和各选项代入表达式 2n − 4 测试。</div>
+      <div><span class="step-label">④ 代入计算</span>n 的最小值是 −2（−3 被严格排除，下一个整数是−2）。代入表达式：n=−2 → 2(−2)−4=−8；n=−1→−6；n=0→−4；n=1→−2；n=2→0；n=4→4。可以看出所有可能值都是偶数，且最小是−8。选项B) −8 由 n=−2 得到，可能。选项C) 0 由 n=2 得到，可能。选项D) 4 由 n=4 得到，可能。选项A) −5 是奇数，而 2n−4 对任何整数 n 永远是偶数（2n 一定是偶数，再减4还是偶数），所以 −5 永远不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是A，因为−5是唯一一个不可能取到的值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目给了一个方程加一个不等式限制（A&lt;2），问“could NOT be”——信号是要把B用A表示出来，再用A的边界值（A能不能等于2）去判断B的范围。</div>
+      <div><span class="step-label">② 要转换成</span>把方程 A + B/4 = 6 转换成 B 关于 A 的表达式：B = 4(6 − A) = 24 − 4A。</div>
+      <div><span class="step-label">③ 用公式</span>把不等式 A&lt;2 代入 B=24−4A，推出 B 的取值范围。</div>
+      <div><span class="step-label">④ 代入计算</span>A&lt;2 → −4A&gt;−8 → 24−4A&gt;16，也就是 B&gt;16（严格大于，因为A&lt;2是严格不等号，A不能等于2）。检验：B=17时，A=(24−17)/4=1.75&lt;2，成立。B=20时，A=1&lt;2，成立。B=24时，A=0&lt;2，成立。B=16时，需要A=(24−16)/4=2，但A&lt;2严格排除A=2，所以B=16不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是B，因为16是唯一不可能取到的值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“must have the greatest value”是信号：这不是问某个具体数字，而是问哪个表达式无论 j、k 取什么合法值都必然是最大的，需要用正负号规律逐个比较，而不是随便代入一组数字看一眼。</div>
+      <div><span class="step-label">② 要转换成</span>把每个表达式的正负号特征列出来：j为正整数，k为负整数。jk=正×负=负数。k−j=负−正=更负的数。j−k=正−负=正+|k|，一定是正数。j+k的正负取决于j和|k|谁大，不固定。</div>
+      <div><span class="step-label">③ 用公式</span>逐个比较四个表达式的符号和大小关系，用“j−k = j+|k|”和“j+k = j−|k|”这两个等价形式对比。</div>
+      <div><span class="step-label">④ 代入计算</span>jk恒为负数（正×负）。k−j恒为负数且比jk更负（负−正）。j+k可能为正也可能为负（例如j=1,k=−1时为0；j=1,k=−5时为−4），不恒定。j−k = j+|k|恒为正数，且因为 j+|k| &gt; j−|k|（多加了|k|而不是减），所以 j−k 永远大于 j+k；又因为 j−k&gt;0&gt;jk，也大于jk；又因为 j−k&gt;0&gt;k−j，也大于k−j。所以无论j、k具体取值，j−k永远是四个表达式里最大的。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，j−k 恒为最大值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“could NOT be”加上一个整数范围（−5 ≤ x &lt; 3），信号是要先把范围内所有整数x都列出来，再逐个平方，而不是只测一两个顺手的数。</div>
+      <div><span class="step-label">② 要转换成</span>把 −5 ≤ x &lt; 3 且 x 为整数，转换成完整的整数列表：x ∈ {−5, −4, −3, −2, −1, 0, 1, 2}（注意x&lt;3是严格不等号，3不包含在内）。</div>
+      <div><span class="step-label">③ 用公式</span>把每个可能的x代入x²，列出所有能取到的值。</div>
+      <div><span class="step-label">④ 代入计算</span>(−5)²=25，(−4)²=16，(−3)²=9，(−2)²=4，(−1)²=1，0²=0，1²=1，2²=4。所以x²能取到的值是{0,1,4,9,16,25}。选项A)0、B)9、C)25都在这个集合里，可能。选项D)36需要x=±6，但x的范围是−5到2之间，不包含±6，所以36不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是D，因为36是唯一不可能取到的值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“must be true”是信号：要找一个对所有负整数y都成立的选项，最容易漏掉的检验方式是只测一个“常见”的y（比如−5），而不测边界值y=−1（最接近0的负整数）。</div>
+      <div><span class="step-label">② 要转换成</span>把每个选项在“边界值y=−1”和“任意负整数y”下分别测试。</div>
+      <div><span class="step-label">③ 用公式</span>逐项代入边界值检验，只有对所有负整数都成立的选项才是答案。</div>
+      <div><span class="step-label">④ 代入计算</span>测y=−1：A) (−1)²=1&gt;0，成立。B) −1+1=0&gt;0？不成立（0不大于0）。C) −1−1=−2&gt;−1？不成立。D) 1/(−1)=−1&gt;0？不成立。所以B、C、D在边界值y=−1时就已经失败，排除。再确认A对所有负整数都成立：因为y是负整数，y≠0，任何非零数的平方都大于0，所以y²&gt;0对所有负整数y恒成立。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是A，只有y²&gt;0对所有负整数都成立。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“must be true”加上一个开区间范围（0&lt;a&lt;1），信号是要测试区间两端附近的值（比如a接近0和a接近1的情况），确认结论在整个区间内都不变。</div>
+      <div><span class="step-label">② 要转换成</span>把 a²和a 的大小关系转换成 a²−a = a(a−1) 的符号问题来判断。</div>
+      <div><span class="step-label">③ 用公式</span>a(a−1)的符号：a&gt;0（已知），a−1&lt;0（因为a&lt;1），正×负=负，所以a²−a&lt;0，即a²&lt;a。</div>
+      <div><span class="step-label">④ 代入计算</span>测a=0.5：a²=0.25&lt;0.5，成立。测a接近1，比如a=0.99：a²=0.9801&lt;0.99，仍成立。测a接近0，比如a=0.01：a²=0.0001&lt;0.01，仍成立。反过来验证选项A) a²&gt;a：不成立（和B相反）。C) 1/a&lt;1需要a&gt;1，但a&lt;1，所以1/a&gt;1，C不成立。D) a+1&lt;1需要a&lt;0，但a&gt;0，所以D不成立。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是B，a²&lt;a在整个0&lt;a&lt;1区间内恒成立。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“could NOT be”加上一个不等式限制（y&gt;0），信号是要把x用y表示出来，再看y的边界（y能不能等于0）决定x的范围。</div>
+      <div><span class="step-label">② 要转换成</span>把方程 3x−2y=12 转换成 x 关于 y 的表达式：x = (12+2y)/3 = 4 + 2y/3。</div>
+      <div><span class="step-label">③ 用公式</span>把 y&gt;0 代入 x=4+2y/3，推出x的取值范围。</div>
+      <div><span class="step-label">④ 代入计算</span>y&gt;0 → 2y/3&gt;0（严格大于0）→ x&gt;4（严格大于，不能等于4）。检验：x=6时，2y/3=2→y=3&gt;0，成立。x=10时，2y/3=6→y=9&gt;0，成立。x=16时，2y/3=12→y=18&gt;0，成立。x=4时，需要2y/3=0→y=0，但y&gt;0严格排除y=0，所以x=4不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，因为4是唯一不可能取到的x值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目给的是关于2t的不等式，不是直接关于t的，信号是要先把不等式两边都除以2转换成t的范围，再注意整数边界该不该取到。</div>
+      <div><span class="step-label">② 要转换成</span>把 5 &lt; 2t ≤ 18 两边除以2，转换成 2.5 &lt; t ≤ 9。</div>
+      <div><span class="step-label">③ 用公式</span>结合t是整数，找出t的完整取值集合。</div>
+      <div><span class="step-label">④ 代入计算</span>2.5 &lt; t 且 t是整数，所以t最小是3（因为2.5不是整数，下一个整数是3）。t ≤ 9，所以t最大是9。t的取值集合是{3,4,5,6,7,8,9}。选项A)3、B)6、C)9都在集合内，可能。选项D)10超出了t≤9的上限，不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是D，因为10不在t的允许范围内。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>绝对值不等式加“could NOT be”是信号：要先把绝对值不等式拆成两边的普通不等式，再确定整数边界，不能凭感觉猜哪个数“看起来”接近4就选它。</div>
+      <div><span class="step-label">② 要转换成</span>把 |x−4|&lt;3 转换成 −3 &lt; x−4 &lt; 3，再转换成 1 &lt; x &lt; 7。</div>
+      <div><span class="step-label">③ 用公式</span>结合x是整数，列出x的完整取值集合。</div>
+      <div><span class="step-label">④ 代入计算</span>1&lt;x&lt;7 且 x是整数，所以x的取值集合是{2,3,4,5,6}（1和7都被严格排除）。选项B)2、C)4、D)6都在集合内，可能。选项A)7正好是被严格排除的上边界，不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是A，因为7是被严格排除的边界值。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“must be true”加上两个变量各自的正负号限制，信号是要逐个分析每个表达式的符号规律，而不是只测一组具体数字就下结论。</div>
+      <div><span class="step-label">② 要转换成</span>把每个选项的符号规律列出来：ab=负×正=负数；a−b=负−正=更负；a+b的符号取决于两者大小，不固定；b−a=正−负=正+正，恒为正数。</div>
+      <div><span class="step-label">③ 用公式</span>逐项判断符号是否对所有满足条件的a、b都恒成立。</div>
+      <div><span class="step-label">④ 代入计算</span>A) ab&gt;0：ab实际上恒为负数（负×正），所以A恒为假，排除。C) a+b&gt;0：例如a=−1,b=5时a+b=4&gt;0成立，但a=−5,b=1时a+b=−4&lt;0不成立，所以C不是恒成立。D) b−a&lt;0：b−a=正−负=正+正，恒为正数，所以“b−a&lt;0”恒为假，排除。B) a−b&lt;0：a−b=负−正=更负的数，无论a、b具体多大，负数减正数结果一定还是负数，所以a−b&lt;0对所有满足条件的a、b恒成立。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是B，a−b&lt;0对所有情况都成立。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">E-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“could NOT be”加上D的下限（D≥10，含等号），信号是要把C用D表示出来，代入D的最小值（这次边界是可以取到的，因为是≥不是&gt;）求出C的最小可能值。</div>
+      <div><span class="step-label">② 要转换成</span>已经给出C关于D的表达式：C = 2D/5 + 3。把 D≥10 代入求C的取值范围。</div>
+      <div><span class="step-label">③ 用公式</span>把D的最小值10代入表达式，求出C能取到的最小值。</div>
+      <div><span class="step-label">④ 代入计算</span>D≥10（含等号，10可以取到）。D=10时：C=2(10)/5+3=4+3=7，这是C能取到的最小值，且可以取到（不是严格排除）。检验：C=9时，2D/5=6→D=15≥10，成立。C=11时，2D/5=8→D=20≥10，成立。C=7时，D=10≥10，成立（边界可取到）。C=6时，需要2D/5=3→D=7.5，但D≥10，7.5不满足，所以C=6不可能取到。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，因为6小于C的最小可能值7，不可能取到。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>函数图象/空间推理（图象描述、展开图、旋转坐标、自定义运算）</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-1</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目问“哪个图象代表f(x)”，但没有真实图片——信号是要先把f(x)=6−x的斜率、y轴截距、x轴截距都算出具体数值，再去比对每个文字描述，而不是凭印象选。</div>
+      <div><span class="step-label">② 要转换成</span>把函数f(x)=6−x改写成标准形式 y = −1·x + 6，读出斜率=−1，y轴截距=6；再令y=0求x轴截距：0=6−x→x=6，所以还经过点(6,0)。</div>
+      <div><span class="step-label">③ 用公式</span>直线标准式 y=mx+b：m是斜率，b是y轴截距；令y=0解出x轴截距。</div>
+      <div><span class="step-label">④ 代入计算</span>f(x)=6−x：斜率m=−1，y轴截距b=6，所以过点(0,6)。令0=6−x得x=6，所以也过点(6,0)。逐个比对选项：(A)斜率写成1，不符；(B)y轴截距写成−6，不符；(C)斜率−1、y轴截距6、经过(0,6)和(6,0)，完全符合；(D)斜率6，不符。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，描述C与f(x)=6−x完全一致。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目问哪个展开图能折成正方体——信号是要在脑内（或用手比划）真正把每种排列折一遍，检查6个面是否恰好互不重叠地包住一个正方体，而不是看着“像不像”就选。</div>
+      <div><span class="step-label">② 要转换成</span>把每个文字描述转换成头脑中的折叠过程：一行6个直线排列 vs 十字/加号排列 vs 2×3矩形块 vs 只在角点相连的排列。</div>
+      <div><span class="step-label">③ 用公式</span>正方体展开图必须满足：6个正方形两两只通过完整边相连（不能只挨角），且折叠后6个面恰好不重叠地围成一个封闭正方体（经典“十字形/加号形”是标准可行展开图之一）。</div>
+      <div><span class="step-label">④ 代入计算</span>(A)一行6个直线排列：折叠时前4个折完已经绕正方体一圈回到起点，第5、6个方块会与第1、2个方块的位置重叠，不可行。(C)2×3矩形块：折叠时会导致两个面重叠、留出空隙，是经典不可行展开图。(D)第六个正方形只在一个角点接触，没有共享完整边，这种连接方式无法通过边折叠，不构成有效展开图。(B)中心四个正方形竖直堆叠成一列，左右各在同一行接出一个方块，形成标准的“十字/加号”形状——这是已被验证可行的正方体展开图之一，折叠后六个面恰好互不重叠地包住正方体。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是B，十字形展开图可以折成正方体。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-3</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目给了实际距离和比例尺（1英寸=9英里），信号是要用实际半径除以比例尺算出地图上的半径，注意别把“除以”看成“乘以”，也别把半径和直径搞混。</div>
+      <div><span class="step-label">② 要转换成</span>把“实际半径54英里”转换成“地图上的英寸数”：地图半径 = 实际半径 ÷ 比例尺换算率。</div>
+      <div><span class="step-label">③ 用公式</span>地图长度（英寸） = 实际长度（英里） ÷ 比例尺（英里/英寸）。</div>
+      <div><span class="step-label">④ 代入计算</span>地图半径 = 54 ÷ 9 = 6英寸。检查各选项：(A)9英寸是比例尺本身的数字，混淆了；(B)说的是直径6英寸，意味着半径是3英寸，不对；(C)486=54×9，是把除法看成了乘法，错误；(D)半径6英寸，正确。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是D，地图上的圆半径是6英寸。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-4</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“rotated 180° about the origin”是信号词，触发固定的坐标变换规则，不需要画图就能直接算出新坐标。</div>
+      <div><span class="step-label">② 要转换成</span>把“绕原点旋转180°”转换成坐标变换公式：(x,y) → (−x,−y)。</div>
+      <div><span class="step-label">③ 用公式</span>绕原点旋转180°：(x, y) → (−x, −y)。</div>
+      <div><span class="step-label">④ 代入计算</span>Y的坐标是(6, 1)。代入公式：Y' = (−6, −1)。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，(−6,−1) 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-5</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>题目定义了一个自定义符号“▲”，信号是要把这个符号的定义当成一个普通公式，把已知数字代入定义式，转换成一个关于未知数的方程去解，而不是被陌生符号吓住。</div>
+      <div><span class="step-label">② 要转换成</span>把 5 ▲ c 代入定义 a▲b = a²−2b（这里a=5，b=c），得到 5² − 2c = 17。</div>
+      <div><span class="step-label">③ 用公式</span>直接代入自定义运算的定义式，再当普通方程解。</div>
+      <div><span class="step-label">④ 代入计算</span>5² − 2c = 17 → 25 − 2c = 17 → 2c = 25 − 17 = 8 → c = 4。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，4 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-6</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>同样是自定义运算符号“♦”，信号是要把 p=6、q=4 直接代入定义式计算出一个具体数值，而不是求解未知数（和上一题的用法略有不同，这题是直接算结果）。</div>
+      <div><span class="step-label">② 要转换成</span>把 6♦4 代入定义 p♦q = p + (2 − 1/q)，其中p=6，q=4。</div>
+      <div><span class="step-label">③ 用公式</span>直接代入自定义运算的定义式求值。</div>
+      <div><span class="step-label">④ 代入计算</span>6♦4 = 6 + (2 − 1/4) = 6 + (2 − 0.25) = 6 + 1.75 = 7.75。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，7.75 对应 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-7</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>又一道“哪个描述符合函数图象”的题，信号还是先把斜率、y轴截距、x轴截距都用具体数字算出来，再比对文字描述，不能只看斜率符号对不对就选。</div>
+      <div><span class="step-label">② 要转换成</span>把g(x)=−2x+4写成标准式y=mx+b，读出斜率m=−2，y轴截距b=4；令y=0求x轴截距。</div>
+      <div><span class="step-label">③ 用公式</span>直线标准式y=mx+b读斜率和截距；令y=0解x轴截距。</div>
+      <div><span class="step-label">④ 代入计算</span>g(x)=−2x+4：斜率=−2，y轴截距=4，过点(0,4)。令0=−2x+4得x=2，所以也过点(2,0)。比对选项：(A)斜率−2、y轴截距4、过(0,4)和(2,0)，完全符合；(B)斜率写成2，不符；(C)y轴截距写成−4，不符；(D)斜率写成4，不符。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是A，描述A与g(x)=−2x+4完全一致。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-8</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>又是“绕原点旋转180°”的信号词，触发(x,y)→(−x,−y)这条固定规则；这次问的是三个新坐标的x值之和，要先把三个点都变换完再相加，不要中途漏掉负号。</div>
+      <div><span class="step-label">② 要转换成</span>把每个顶点坐标代入旋转公式(x,y)→(−x,−y)，得到D'、E'、F'的坐标，再只取x坐标相加。</div>
+      <div><span class="step-label">③ 用公式</span>绕原点旋转180°：(x, y) → (−x, −y)。</div>
+      <div><span class="step-label">④ 代入计算</span>D(−3,2)→D'(3,−2)。E(4,2)→E'(−4,−2)。F(1,−5)→F'(−1,5)。三个新点的x坐标之和：3 + (−4) + (−1) = −2。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，−2 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-9</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这是空间推理题，信号是“恰好2个面被涂色”——这类小方块只出现在大正方体的棱（边）上，但不包括顶点（角）处的方块，需要用棱的数量和每条棱上非角块的数量来计算，不能靠脑补数数。</div>
+      <div><span class="step-label">② 要转换成</span>把“恰好2面涂色”转换成“位于棱上但不是顶点”的小方块位置。一个正方体有12条棱，每条棱上共有n个小方块（这里n=4），其中两端的2个是顶点（3面涂色），中间的(n−2)个才是恰好2面涂色。</div>
+      <div><span class="step-label">③ 用公式</span>恰好2面涂色的小方块总数 = 12 × (n − 2)，其中n是每条边被切成的小方块数。</div>
+      <div><span class="step-label">④ 代入计算</span>n=4（4×4×4），所以每条棱上恰好2面涂色的小方块数 = 4−2 = 2个。总共12条棱：12 × 2 = 24个。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，24 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-10</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>绝对值函数h(x)=|x|−3——信号是要先算出顶点坐标、开口方向、两边斜率、x轴截距这几个具体数值，再逐条比对文字描述，不能只凭“有绝对值就选V形”这么模糊地判断。</div>
+      <div><span class="step-label">② 要转换成</span>把h(x)=|x|−3拆成两段：x≥0时h(x)=x−3（斜率1）；x&lt;0时h(x)=−x−3（斜率−1）。顶点在两段交界处，即x=0时，h(0)=|0|−3=−3，顶点(0,−3)。开口方向由|x|的系数为正决定，向上开口。</div>
+      <div><span class="step-label">③ 用公式</span>绝对值函数y=|x|+k的图象是顶点在(0,k)、向上开口的V形，两边斜率分别是1和−1；令y=0求x轴截距。</div>
+      <div><span class="step-label">④ 代入计算</span>顶点(0,−3)，向上开口，两边斜率±1。令0=|x|−3得|x|=3，所以x=3或x=−3，过点(3,0)和(−3,0)。比对选项：(A)顶点(0,3)且开口向下，不符；(B)顶点(−3,0)，不符；(C)顶点(0,−3)、开口向上、斜率±1、过(3,0)和(−3,0)，完全符合；(D)是直线不是V形，不符。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，答案是C，描述C与h(x)=|x|−3完全一致。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">F-11</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>又一个自定义运算符号“⊕”，信号是把定义式当成普通公式代入，把已知的m=4代入后转换成关于n的方程去解。</div>
+      <div><span class="step-label">② 要转换成</span>把 4⊕n 代入定义 m⊕n = 3m − n/2（这里m=4），得到 3(4) − n/2 = 10。</div>
+      <div><span class="step-label">③ 用公式</span>直接代入自定义运算的定义式，再当普通方程解。</div>
+      <div><span class="step-label">④ 代入计算</span>3(4) − n/2 = 10 → 12 − n/2 = 10 → n/2 = 12 − 10 = 2 → n = 4。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，4 对应 A。</div>
+    </div>
+    
+        </div>
+        <div class="key-group-header"><h3>数列与平均值——通项公式、连续整数反推、inclusive计数</h3></div>
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-1</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到“数列的第n项”并且前几项之间是等差（每次加同一个数），信号是要用等差数列通项公式，而不是一项项手动往下加到第100项。</div>
+      <div><span class="step-label">② 要转换成</span>从前三项12,15,18中读出首项a1=12，公差d=15−12=3。把“求第100项”转换成套用通项公式 a_n = a1 + (n−1)d，这里n=100。</div>
+      <div><span class="step-label">③ 用公式</span>等差数列通项公式：a_n = a1 + (n−1)d。</div>
+      <div><span class="step-label">④ 代入计算</span>a1=12，d=3，n=100。a_100 = 12 + (100−1)×3 = 12 + 99×3 = 12 + 297 = 309。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，309 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-2</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到数列每一项是前一项“乘以同一个数”得到的（1/64→1/16是乘4，1/16→1/4也是乘4），信号是等比数列，要用等比数列通项公式，而不是等差公式。</div>
+      <div><span class="step-label">② 要转换成</span>读出首项a1=1/64，公比r=(1/16)÷(1/64)=4。把“求第7项”转换成套用通项公式 a_n=a1×r^(n−1)，这里n=7。</div>
+      <div><span class="step-label">③ 用公式</span>等比数列通项公式：a_n = a1 × r^(n−1)。</div>
+      <div><span class="step-label">④ 代入计算</span>a1=1/64，r=4，n=7。a_7 = (1/64) × 4^6 = (1/64) × 4096 = 4096/64 = 64。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，64 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-3</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>看到“连续整数”加“平均值”，信号是连续整数（个数为奇数时）的平均值就等于正中间那一项，不需要先求总和再一个个试。</div>
+      <div><span class="step-label">② 要转换成</span>把“7个连续整数，平均值31”转换成“中间（第4个）数是31”，再从中间数往两边数出最小值。</div>
+      <div><span class="step-label">③ 用公式</span>奇数个连续整数的平均值 = 正中间那一项。最小值 = 中间项 − (项数−1)/2。</div>
+      <div><span class="step-label">④ 代入计算</span>7个数，中间是第4个，等于平均值31。最小值 = 31 − 3 = 28（因为最小值到中间项相差3个位置：28,29,30,31,32,33,34，中间是31，验证平均值=(28+34)/2=31 ✓）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，28 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-4</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>连续“奇数”整数（不是普通连续整数），信号是相邻两项相差2而不是1，中间项仍等于平均值，但往两边数的时候每一步要加/减2。</div>
+      <div><span class="step-label">② 要转换成</span>把“5个连续奇数，平均值47”转换成“中间（第3个）数是47”，再往右数2步（每步+2）找到最大值。</div>
+      <div><span class="step-label">③ 用公式</span>奇数个连续奇数的平均值 = 正中间那一项。最大值 = 中间项 + 2×(项数−1)/2。</div>
+      <div><span class="step-label">④ 代入计算</span>5个数，中间是第3个，等于47。最大值 = 47 + 2×2 = 47+4 = 51（数列是43,45,47,49,51，中间是47，验证平均值=(43+51)/2=47 ✓）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，51 对应 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-5</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>关键词“inclusive”是信号：两端的数（1984和2013）都要算进去，如果只用“大减小”会漏算一个，必须在减法结果上再加1。</div>
+      <div><span class="step-label">② 要转换成</span>把“从1984到2013 inclusive有多少个整数”转换成公式：个数 = (较大数 − 较小数) + 1。</div>
+      <div><span class="step-label">③ 用公式</span>inclusive计数公式：个数 = 较大值 − 较小值 + 1。</div>
+      <div><span class="step-label">④ 代入计算</span>2013 − 1984 = 29。加上inclusive的+1：29 + 1 = 30。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，30 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-6</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>“平均值+除了一人都相同”是信号：常见错误是只减掉一个人的身高，实际上三个人都是148cm，必须把三个人的总和都减掉，不能只减一次。</div>
+      <div><span class="step-label">② 要转换成</span>把“平均身高152，共4人”转换成总身高：总身高 = 平均值 × 人数。再把“三人都是148”转换成这三人的总身高，用总身高减去这三人的总和求出第四人。</div>
+      <div><span class="step-label">③ 用公式</span>总和 = 平均值 × 个数；第四人身高 = 总和 − 已知三人的总和（三人都要减，不能只减一人）。</div>
+      <div><span class="step-label">④ 代入计算</span>总身高 = 152 × 4 = 608 cm。三人总身高 = 148 × 3 = 444 cm（注意是三人都算进去，不是只减一个148）。第四人身高 = 608 − 444 = 164 cm。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，164 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-7</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>数列前几项每次加同一个数（7→11→15都是+4），信号是等差数列，要用通项公式，而不是数到第50项。</div>
+      <div><span class="step-label">② 要转换成</span>读出首项a1=7，公差d=11−7=4。把“求第50项”转换成套用通项公式 a_n=a1+(n−1)d，n=50。</div>
+      <div><span class="step-label">③ 用公式</span>等差数列通项公式：a_n = a1 + (n−1)d。</div>
+      <div><span class="step-label">④ 代入计算</span>a1=7，d=4，n=50。a_50 = 7 + (50−1)×4 = 7 + 49×4 = 7 + 196 = 203。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，203 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-8</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>数列每一项是前一项乘以同一个数（3→6→12都是×2），信号是等比数列，要用等比通项公式，且注意公式里指数是(n−1)不是n。</div>
+      <div><span class="step-label">② 要转换成</span>读出首项a1=3，公比r=6/3=2。把“求第10项”转换成套用通项公式 a_n=a1×r^(n−1)，n=10。</div>
+      <div><span class="step-label">③ 用公式</span>等比数列通项公式：a_n = a1 × r^(n−1)。</div>
+      <div><span class="step-label">④ 代入计算</span>a1=3，r=2，n=10。a_10 = 3 × 2^9 = 3 × 512 = 1536。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，1536 对应 D。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-9</span><span class="key-answer">答案：A</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这题给的是“总和”而不是直接给“平均值”，信号是要先把总和除以个数换算成平均值（=中间项），再往两边数出所求的项，不能把198直接当成某一项。</div>
+      <div><span class="step-label">② 要转换成</span>把“9个连续整数，总和198”转换成平均值：平均值 = 总和 ÷ 个数 = 198 ÷ 9 = 22，这就是中间（第5个）数。</div>
+      <div><span class="step-label">③ 用公式</span>奇数个连续整数：平均值=总和/个数=正中间那一项。最大值 = 中间项 + (项数−1)/2。</div>
+      <div><span class="step-label">④ 代入计算</span>平均值=198/9=22（中间项）。9个数中间是第5个，最大值 = 22 + 4 = 26（数列是18,19,20,21,22,23,24,25,26，验证总和=18+19+...+26=198 ✓）。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，26 对应 A。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-10</span><span class="key-answer">答案：B</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>这次是偶数个（6个）连续奇数，信号是偶数个连续整数/奇数的平均值不等于某一项本身，而是等于中间两项的平均值，不能直接套“中间项=平均值”。</div>
+      <div><span class="step-label">② 要转换成</span>设最小的奇数为x，6个连续奇数依次是x, x+2, x+4, x+6, x+8, x+10。把平均值转换成方程：(这6项之和)/6 = 50。</div>
+      <div><span class="step-label">③ 用公式</span>平均值 = 总和/个数；连续奇数每项间隔2。</div>
+      <div><span class="step-label">④ 代入计算</span>总和 = x+(x+2)+(x+4)+(x+6)+(x+8)+(x+10) = 6x+30。平均值 = (6x+30)/6 = x+5 = 50 → x = 45。验证：45,47,49,51,53,55，平均值=(45+55)/2=50 ✓。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，45 对应 B。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-11</span><span class="key-answer">答案：C</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>关键词“inclusive”再次出现——信号是两端的书（205号和289号）都要算进总数，只做减法会漏掉一本，必须在减法结果上加1。</div>
+      <div><span class="step-label">② 要转换成</span>把“从205到289 inclusive有多少本书”转换成公式：本数 = (较大编号 − 较小编号) + 1。</div>
+      <div><span class="step-label">③ 用公式</span>inclusive计数公式：个数 = 较大值 − 较小值 + 1。</div>
+      <div><span class="step-label">④ 代入计算</span>289 − 205 = 84。加上inclusive的+1：84 + 1 = 85。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，85 对应 C。</div>
+    </div>
+    
+        </div>
+        
+        <div class="key-entry">
+          <div class="key-head"><span class="problem-num">G-12</span><span class="key-answer">答案：D</span></div>
+          
+    <div class="steps">
+      <div><span class="step-label">① 信号词</span>又是“平均值+除了一人都相同”的陷阱题，信号是四个人都是15分，必须把这四个人的总分都减掉，不能只减一个15分就以为算完了。</div>
+      <div><span class="step-label">② 要转换成</span>把“平均分18，共5人”转换成总分：总分 = 平均值 × 人数。再把“四人都是15分”转换成这四人的总分，用总分减去这四人的总和求出第五人。</div>
+      <div><span class="step-label">③ 用公式</span>总和 = 平均值 × 个数；第五人得分 = 总和 − 已知四人的总和（四人都要减，不能只减一人）。</div>
+      <div><span class="step-label">④ 代入计算</span>总分 = 18 × 5 = 90分。四人总分 = 15 × 4 = 60分（四个人都算进去，不是只减一个15）。第五人得分 = 90 − 60 = 30分。</div>
+      <div><span class="step-label">⑤ 还差几步</span>到此为止，直接对照选项，30 对应 D。</div>
+    </div>
+    
+        </div>
+        
+</div>
+</body>
+</html>

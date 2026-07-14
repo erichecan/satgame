@@ -1,0 +1,405 @@
+{
+  "items": [
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If 8 − 2x > 4, what is the range of x?",
+        "textZh": "若 8 − 2x > 4，x 的取值范围是？",
+        "ask": [
+          { "en": "the range of x", "zh": "x 的取值范围", "correct": true },
+          { "en": "a single value of x", "zh": "一个具体的 x 值" },
+          { "en": "the range of 2x", "zh": "2x 的取值范围" },
+          { "en": "whether x is positive or negative", "zh": "x 是正数还是负数" }
+        ],
+        "tool": [
+          { "en": "Inequality — flip the sign when dividing by a negative", "zh": "不等式——两边除以负数时要翻转方向", "correct": true },
+          { "en": "Linear equation", "zh": "线性方程" },
+          { "en": "Absolute value", "zh": "绝对值" },
+          { "en": "Proportion", "zh": "比例" }
+        ],
+        "cueEn": "Isolating x means dividing both sides by −2. Any time you multiply or divide an inequality by a negative number, the inequality sign flips direction.",
+        "cueZh": "把 x 单独留出来要两边除以 −2。只要给不等式两边乘或除以负数，不等号方向就要翻转。",
+        "turns": 1,
+        "steps": [
+          { "en": "Subtract 8, then divide by −2 and flip the inequality sign", "zh": "两边减 8，再除以 −2 并翻转不等号" }
+        ],
+        "workEn": "8 − 2x > 4\n−2x > −4\nx < 2  (sign flipped)",
+        "workZh": "8 − 2x > 4\n−2x > −4\nx < 2（不等号已翻转）",
+        "answerEn": "x < 2",
+        "answerZh": "x < 2"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If x + 4 = 2y − 1, what is x + 9 in terms of y?",
+        "textZh": "若 x + 4 = 2y − 1，用 y 表示 x + 9 是多少？",
+        "ask": [
+          { "en": "a single number", "zh": "一个具体的数字" },
+          { "en": "an expression for x + 9 in terms of y", "zh": "用 y 表示的 x + 9 表达式", "correct": true },
+          { "en": "the value of y", "zh": "y 的值" },
+          { "en": "whether it can be determined", "zh": "这题能不能求出来" }
+        ],
+        "tool": [
+          { "en": "Cannot be determined — two variables", "zh": "无法确定——有两个未知数" },
+          { "en": "Solve for one variable, then substitute", "zh": "先解出一个变量，再代入", "correct": true },
+          { "en": "System of two equations", "zh": "联立两个方程" },
+          { "en": "Proportion", "zh": "比例" }
+        ],
+        "cueEn": "Seeing two letters doesn't mean 'cannot be determined.' The given equation already lets you write x in terms of y — solve for x first, then substitute.",
+        "cueZh": "看到两个字母不代表“无法确定”。已知的等式已经能把 x 用 y 表示出来——先解出 x，再代入。",
+        "turns": 2,
+        "steps": [
+          { "en": "Solve the given equation for x (x = 2y − 5)", "zh": "从已知等式解出 x（x = 2y − 5）" },
+          { "en": "Substitute into x + 9", "zh": "代入 x + 9" }
+        ],
+        "workEn": "x + 4 = 2y − 1 → x = 2y − 5\nx + 9 = (2y − 5) + 9 = 2y + 4",
+        "workZh": "x + 4 = 2y − 1 → x = 2y − 5\nx + 9 = (2y − 5) + 9 = 2y + 4",
+        "answerEn": "2y + 4",
+        "answerZh": "2y + 4"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "Mia is y years old, and her sister is 4 years older. What will be the sum of their ages in 4 years, in terms of y?",
+        "textZh": "Mia 现在 y 岁，她姐姐比她大 4 岁。4 年后两人年龄之和（用 y 表示）是多少？",
+        "ask": [
+          { "en": "the sum of their ages now", "zh": "现在两人年龄之和" },
+          { "en": "Mia's age in 4 years", "zh": "Mia 4 年后的年龄" },
+          { "en": "the sum of their ages in 4 years", "zh": "4 年后两人年龄之和", "correct": true },
+          { "en": "the age difference in 4 years", "zh": "4 年后两人的年龄差" }
+        ],
+        "tool": [
+          { "en": "Add 4 to only one person's age", "zh": "只给其中一个人加 4" },
+          { "en": "Shift every person's age by the same amount", "zh": "每个人的年龄都要同步偏移", "correct": true },
+          { "en": "Ratio", "zh": "比例" },
+          { "en": "Percent", "zh": "百分比" }
+        ],
+        "cueEn": "Time passes for everyone in the problem, not just one person. Both Mia and her sister need +4 added to their current ages before you add the two together.",
+        "cueZh": "时间对题目里的每个人都在流逝，不是只对一个人。Mia 和姐姐现在的年龄都要各加 4，之后再相加。",
+        "turns": 2,
+        "steps": [
+          { "en": "Write each person's age in 4 years: Mia = y+4, sister = (y+4)+4 = y+8", "zh": "写出两人 4 年后的年龄：Mia = y+4，姐姐 = (y+4)+4 = y+8" },
+          { "en": "Add the two ages together", "zh": "把两个年龄相加" }
+        ],
+        "workEn": "Mia in 4 yrs: y + 4\nSister now: y + 4, in 4 yrs: y + 8\nSum: (y+4) + (y+8) = 2y + 12",
+        "workZh": "Mia 4 年后：y + 4\n姐姐现在：y + 4，4 年后：y + 8\n之和：(y+4) + (y+8) = 2y + 12",
+        "answerEn": "2y + 12",
+        "answerZh": "2y + 12"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If 4mn = 8, what is n in terms of m?",
+        "textZh": "若 4mn = 8，用 m 表示 n 是多少？",
+        "ask": [
+          { "en": "an expression for m in terms of n", "zh": "用 n 表示的 m 表达式" },
+          { "en": "the value of m", "zh": "m 的值" },
+          { "en": "an expression for n in terms of m", "zh": "用 m 表示的 n 表达式", "correct": true },
+          { "en": "the value of n", "zh": "n 的值" }
+        ],
+        "tool": [
+          { "en": "Square both sides", "zh": "两边同时平方" },
+          { "en": "Multiply both sides by m", "zh": "两边同乘以 m" },
+          { "en": "Divide both sides by the coefficient and the other variable", "zh": "两边同除以系数和另一个变量", "correct": true },
+          { "en": "Take the square root of both sides", "zh": "两边同时开平方" }
+        ],
+        "cueEn": "m appears only once, with no exponent — after dividing it out, it should still appear only once, with no exponent, in the answer.",
+        "cueZh": "m 在原式里只出现一次、没有指数——除掉之后，答案里 m 也应该只出现一次、没有指数。",
+        "turns": 1,
+        "steps": [
+          { "en": "Divide both sides by 4m: n = 8 ÷ (4m)", "zh": "两边同除以 4m：n = 8 ÷ (4m)" }
+        ],
+        "workEn": "4mn = 8 → mn = 2 → n = 2/m",
+        "workZh": "4mn = 8 → mn = 2 → n = 2/m",
+        "answerEn": "2/m",
+        "answerZh": "2/m"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "A phone case is marked down 25% one week, then marked down another 20% off the new price the next week. What percent of the original price is the final price?",
+        "textZh": "一个手机壳第一周降价 25%，第二周再在新价格基础上降 20%。最终价格是原价的百分之多少？",
+        "ask": [
+          { "en": "the total dollar amount saved", "zh": "一共省了多少钱" },
+          { "en": "what percent of the original price the final price is", "zh": "最终价格是原价的百分之多少", "correct": true },
+          { "en": "the price after only the first markdown", "zh": "第一次降价后的价格" },
+          { "en": "the combined percent discount as a single number", "zh": "两次折扣合计的百分比数字" }
+        ],
+        "tool": [
+          { "en": "Add the two percents (25% + 20% = 45% off)", "zh": "把两个百分比直接相加（25%+20%=45%）" },
+          { "en": "Average the two percents", "zh": "把两个百分比取平均" },
+          { "en": "Successive percent changes — multiply, don't add", "zh": "连续百分比变化——要相乘，不能相加", "correct": true },
+          { "en": "Subtract the percents from 100 separately, then add", "zh": "分别用 100 减去两个百分比再相加" }
+        ],
+        "cueEn": "Each markdown applies to the price that already includes the previous markdown — that means multiplying by 0.75, then by 0.80. It is NOT 25%+20%=45% off.",
+        "cueZh": "每次降价都是在“已经降过价”的基础上再降，所以要乘以 0.75 再乘以 0.80——不是把 25% 和 20% 直接相加成 45%。",
+        "turns": 2,
+        "steps": [
+          { "en": "After week 1: price × 0.75", "zh": "第一周后：价格 × 0.75" },
+          { "en": "After week 2: (price × 0.75) × 0.80", "zh": "第二周后：(价格 × 0.75) × 0.80" }
+        ],
+        "workEn": "0.75 × 0.80 = 0.60 → 60% of the original price",
+        "workZh": "0.75 × 0.80 = 0.60 → 原价的 60%",
+        "answerEn": "60% of the original price",
+        "answerZh": "原价的 60%"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "A backpack is on sale for 20% off. After the discount, Maya pays $64. What was the original price?",
+        "textZh": "一个背包打 8 折（减 20%）出售。折后 Maya 付了 $64。原价是多少？",
+        "ask": [
+          { "en": "the amount of the discount in dollars", "zh": "折扣的金额" },
+          { "en": "the original price", "zh": "原价", "correct": true },
+          { "en": "the price after an additional 20% off", "zh": "再打一次 8 折后的价格" },
+          { "en": "20% of the sale price", "zh": "折后价格的 20%" }
+        ],
+        "tool": [
+          { "en": "Multiply the sale price by the discount", "zh": "折后价 × 折扣" },
+          { "en": "Subtract the discount amount from the sale price", "zh": "折后价 − 折扣金额" },
+          { "en": "Divide the sale price by (1 − discount)", "zh": "折后价 ÷ (1 − 折扣)", "correct": true },
+          { "en": "Add 20% of the sale price to the sale price", "zh": "折后价 + 折后价的 20%" }
+        ],
+        "cueEn": "The sale price is already 80% of the original (original × 0.80 = sale price), so working backward means dividing by 0.80 — not multiplying or subtracting.",
+        "cueZh": "折后价其实是原价的 80%（原价 × 0.80 = 折后价），所以反推要用除法除以 0.80——不是乘法也不是减法。",
+        "turns": 1,
+        "steps": [
+          { "en": "original price = sale price ÷ (1 − 0.20)", "zh": "原价 = 折后价 ÷ (1 − 0.20)" }
+        ],
+        "workEn": "64 ÷ 0.80 = 80",
+        "workZh": "64 ÷ 0.80 = 80",
+        "answerEn": "$80",
+        "answerZh": "$80"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "At a school, 68% of students play a sport. If 340 students play a sport, how many students are in the school?",
+        "textZh": "某学校 68% 的学生参加运动。如果有 340 名学生参加运动，这所学校一共有多少名学生？",
+        "ask": [
+          { "en": "the number of students who do NOT play a sport", "zh": "不参加运动的学生人数" },
+          { "en": "68% of 340", "zh": "340 的 68%" },
+          { "en": "the percent who don't play a sport", "zh": "不参加运动的学生占比" },
+          { "en": "the total number of students in the school", "zh": "学校学生总数", "correct": true }
+        ],
+        "tool": [
+          { "en": "Multiply 340 by 68%", "zh": "340 乘以 68%" },
+          { "en": "Find 68% of 340", "zh": "求 340 的 68%" },
+          { "en": "Add 68 to 340", "zh": "340 加上 68" },
+          { "en": "Percent of a whole — divide the part by the percent", "zh": "部分推整体——用部分除以百分比", "correct": true }
+        ],
+        "cueEn": "340 is only the part that equals 68% of the whole. To get back to the whole (100%), divide the part by the percent (as a decimal), don't multiply.",
+        "cueZh": "340 只是占整体 68% 的那一部分。要求回整体（100%），要用这部分除以百分比（小数形式），不是乘。",
+        "turns": 1,
+        "steps": [
+          { "en": "total = part ÷ percent = 340 ÷ 0.68", "zh": "总数 = 部分 ÷ 百分比 = 340 ÷ 0.68" }
+        ],
+        "workEn": "340 ÷ 0.68 = 500",
+        "workZh": "340 ÷ 0.68 = 500",
+        "answerEn": "500 students",
+        "answerZh": "500 名学生"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "In an isosceles triangle, the two equal sides meet at the top vertex. Each base angle measures 65°. What is the measure of the top (apex) angle?",
+        "textZh": "一个等腰三角形，两条相等的边交于顶点。每个底角是 65°。顶角是多少度？",
+        "ask": [
+          { "en": "the measure of one base angle", "zh": "一个底角的度数" },
+          { "en": "the measure of the apex angle", "zh": "顶角的度数", "correct": true },
+          { "en": "the sum of the two base angles", "zh": "两个底角之和" },
+          { "en": "the length of the base", "zh": "底边的长度" }
+        ],
+        "tool": [
+          { "en": "180° minus one base angle", "zh": "180° 减去一个底角" },
+          { "en": "Triangle angle sum: 180° minus both base angles", "zh": "三角形内角和：180° 减去两个底角", "correct": true },
+          { "en": "Exterior angle theorem", "zh": "外角定理" },
+          { "en": "Half of 180°", "zh": "180° 的一半" }
+        ],
+        "cueEn": "All three interior angles of a triangle add to 180°. You're given both base angles (equal, since the triangle is isosceles) — subtract both of them, not just one.",
+        "cueZh": "三角形三个内角加起来是 180°。两个底角都已知（因为是等腰三角形所以相等）——要两个都减掉，不能只减一个。",
+        "turns": 1,
+        "steps": [
+          { "en": "apex = 180 − 65 − 65", "zh": "顶角 = 180 − 65 − 65" }
+        ],
+        "workEn": "180 − 65 − 65 = 50",
+        "workZh": "180 − 65 − 65 = 50",
+        "answerEn": "50°",
+        "answerZh": "50°"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "In a triangle, one interior angle measures 70°. An exterior angle at a different vertex measures 130°. What is the measure of the third interior angle?",
+        "textZh": "一个三角形中，一个内角是 70°。另一个顶点处的外角是 130°。第三个内角是多少度？",
+        "ask": [
+          { "en": "the interior angle at the vertex with the exterior angle", "zh": "外角所在顶点的内角" },
+          { "en": "the third interior angle", "zh": "第三个内角", "correct": true },
+          { "en": "the sum of all interior angles", "zh": "所有内角之和" },
+          { "en": "the exterior angle at the 70° vertex", "zh": "70° 顶点处的外角" }
+        ],
+        "tool": [
+          { "en": "The exterior angle equals its interior angle", "zh": "外角等于它所在顶点的内角" },
+          { "en": "An exterior angle and its interior angle are supplementary (sum to 180°)", "zh": "外角和它所在顶点的内角互补（相加=180°）", "correct": true },
+          { "en": "The exterior angle equals half its interior angle", "zh": "外角等于它所在顶点内角的一半" },
+          { "en": "Ignore the exterior angle and use only the given interior angle", "zh": "忽略外角，只用已知的内角" }
+        ],
+        "cueEn": "The 130° is an exterior angle, not an interior one — first convert it to the interior angle at that vertex (180 − 130), then use the triangle angle sum with the 70°.",
+        "cueZh": "130° 是外角，不是内角——先把它换算成该顶点的内角（180 − 130），再和已知的 70° 一起用三角形内角和求出第三个角。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the interior angle at the vertex with the 130° exterior angle: 180 − 130 = 50°", "zh": "先求外角 130° 所在顶点的内角：180 − 130 = 50°" },
+          { "en": "Use the triangle angle sum: 180 − 70 − 50", "zh": "用三角形内角和：180 − 70 − 50" }
+        ],
+        "workEn": "180 − 130 = 50\n180 − 70 − 50 = 60",
+        "workZh": "180 − 130 = 50\n180 − 70 − 50 = 60",
+        "answerEn": "60°",
+        "answerZh": "60°"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "Two parallel lines are cut by a transversal. One angle formed measures 55°. What is the measure of its co-interior (same-side interior) angle?",
+        "textZh": "两条平行线被一条截线所截。其中一个角是 55°。与它同旁内角的角是多少度？",
+        "ask": [
+          { "en": "the alternate interior angle", "zh": "内错角的度数" },
+          { "en": "the co-interior angle", "zh": "同旁内角的度数", "correct": true },
+          { "en": "the corresponding angle", "zh": "同位角的度数" },
+          { "en": "the vertical angle", "zh": "对顶角的度数" }
+        ],
+        "tool": [
+          { "en": "Co-interior angles are always equal", "zh": "同旁内角一定相等" },
+          { "en": "Co-interior angles are supplementary (sum to 180°)", "zh": "同旁内角互补（相加 = 180°）", "correct": true },
+          { "en": "Co-interior angles are complementary (sum to 90°)", "zh": "同旁内角互余（相加 = 90°）" },
+          { "en": "Cannot be determined without more information", "zh": "信息不够，无法确定" }
+        ],
+        "cueEn": "Parallel lines cut by a transversal create a fixed family of angle relationships. Co-interior (same-side interior) angles are the pair that adds up to 180°, unlike alternate or corresponding angles, which are equal.",
+        "cueZh": "平行线被截线所截会产生一组固定的角度关系。同旁内角是“相加等于180°”的那一对，而内错角、同位角则是“相等”的那一对。",
+        "turns": 1,
+        "steps": [
+          { "en": "180 − 55", "zh": "180 − 55" }
+        ],
+        "workEn": "180 − 55 = 125",
+        "workZh": "180 − 55 = 125",
+        "answerEn": "125°",
+        "answerZh": "125°"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "How many integers are there from 24 to 61, inclusive?",
+        "textZh": "从 24 到 61（含两端）一共有多少个整数？",
+        "ask": [
+          { "en": "the difference between 61 and 24", "zh": "61 与 24 的差" },
+          { "en": "the count of integers, including both endpoints", "zh": "整数个数（两端都算）", "correct": true },
+          { "en": "the count of integers, excluding both endpoints", "zh": "整数个数（两端都不算）" },
+          { "en": "the average of 24 and 61", "zh": "24 与 61 的平均数" }
+        ],
+        "tool": [
+          { "en": "Inclusive count = last − first", "zh": "含头含尾计数 = 末 − 首" },
+          { "en": "Inclusive count = (last − first) + 1", "zh": "含头含尾计数 = (末 − 首) + 1", "correct": true },
+          { "en": "Inclusive count = last − first − 1", "zh": "含头含尾计数 = 末 − 首 − 1" },
+          { "en": "Divide the range by 2", "zh": "把区间除以 2" }
+        ],
+        "cueEn": "\"Inclusive\" means both 24 and 61 themselves are counted. A plain subtraction (61−24) misses one of the endpoints, so you always need the +1.",
+        "cueZh": "“inclusive（含两端）”意味着 24 和 61 本身都要算进去。单纯做减法（61−24）会漏掉一个端点，所以永远要 +1。",
+        "turns": 1,
+        "steps": [
+          { "en": "61 − 24 + 1", "zh": "61 − 24 + 1" }
+        ],
+        "workEn": "61 − 24 = 37\n37 + 1 = 38",
+        "workZh": "61 − 24 = 37\n37 + 1 = 38",
+        "answerEn": "38",
+        "answerZh": "38"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "The average of 6 numbers is 15. If one number is removed, the average of the remaining 5 numbers is 14. What was the number that was removed?",
+        "textZh": "6 个数的平均数是 15。去掉一个数后，剩下 5 个数的平均数是 14。被去掉的数是多少？",
+        "ask": [
+          { "en": "the new average", "zh": "新的平均数" },
+          { "en": "the removed number", "zh": "被去掉的数", "correct": true },
+          { "en": "the sum of the remaining 5 numbers", "zh": "剩下 5 个数的和" },
+          { "en": "the sum of all 6 original numbers", "zh": "原来 6 个数的和" }
+        ],
+        "tool": [
+          { "en": "Subtract the averages directly (15 − 14)", "zh": "直接用平均数相减（15 − 14）" },
+          { "en": "Convert averages to totals first, then subtract", "zh": "先把平均数换算成总和，再相减", "correct": true },
+          { "en": "Multiply the two averages", "zh": "把两个平均数相乘" },
+          { "en": "The removed number equals the new average", "zh": "被去掉的数就等于新的平均数" }
+        ],
+        "cueEn": "You can't subtract averages directly — averages aren't additive. Turn each average back into a total (average × count), then subtract the totals.",
+        "cueZh": "平均数不能直接相减——平均数不具有可加性。要先把每个平均数换算回总和（平均数×个数），再用总和相减。",
+        "turns": 2,
+        "steps": [
+          { "en": "Total of 6 numbers = 6 × 15 = 90", "zh": "6 个数的总和 = 6 × 15 = 90" },
+          { "en": "Total of remaining 5 = 5 × 14 = 70, removed number = 90 − 70", "zh": "剩下 5 个数的总和 = 5 × 14 = 70，被去掉的数 = 90 − 70" }
+        ],
+        "workEn": "6 × 15 = 90\n5 × 14 = 70\n90 − 70 = 20",
+        "workZh": "6 × 15 = 90\n5 × 14 = 70\n90 − 70 = 20",
+        "answerEn": "20",
+        "answerZh": "20"
+      }
+    }
+  ]
+}

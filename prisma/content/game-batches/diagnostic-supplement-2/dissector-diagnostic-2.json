@@ -1,0 +1,478 @@
+{
+  "items": [
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "A car's gas tank holds 12 gallons. Each round trip to school uses 3/4 gallon. How many full tanks of gas are used for 20 trips?",
+        "textZh": "一辆车的油箱能装 12 加仑汽油。每趟往返学校用 3/4 加仑。20 趟一共要用掉几箱油？",
+        "ask": [
+          { "en": "how many tanks of gas are used", "zh": "一共用掉几箱油", "correct": true },
+          { "en": "how many gallons are used per trip", "zh": "每趟用多少加仑" },
+          { "en": "how many trips one tank can cover", "zh": "一箱油能跑几趟" },
+          { "en": "the tank's total capacity", "zh": "油箱的总容量" }
+        ],
+        "tool": [
+          { "en": "Find total gas used, then divide by tank capacity", "zh": "先求总用油量，再除以油箱容量", "correct": true },
+          { "en": "Divide 12 by 3/4", "zh": "用 12 除以 3/4" },
+          { "en": "Multiply 12 by 20", "zh": "用 12 乘以 20" },
+          { "en": "Divide 20 by 12", "zh": "用 20 除以 12" }
+        ],
+        "cueEn": "\"How many tanks\" is a two-step question: first find the total gas needed for all 20 trips, then see how that total compares to one tank's capacity.",
+        "cueZh": "“几箱油”是两步问题：先求 20 趟一共要用多少油，再看这个总量相当于几个油箱。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find total gas used: 20 × 3/4", "zh": "求总用油量：20 × 3/4" },
+          { "en": "Divide by tank capacity: total ÷ 12", "zh": "除以油箱容量：总量 ÷ 12" }
+        ],
+        "workEn": "20 × 0.75 = 15 gallons\n15 ÷ 12 = 1.25 tanks",
+        "workZh": "20 × 0.75 = 15 加仑\n15 ÷ 12 = 1.25 箱",
+        "answerEn": "1.25 tanks",
+        "answerZh": "1.25 箱"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "A printer prints 8 pages every 3 seconds. At this rate, how many pages does it print in 2 minutes?",
+        "textZh": "一台打印机每 3 秒打印 8 页。按这个速度，2 分钟能打印多少页？",
+        "ask": [
+          { "en": "how many pages it prints in 3 seconds", "zh": "3 秒能打印多少页" },
+          { "en": "how many pages it prints in 2 minutes", "zh": "2 分钟能打印多少页", "correct": true },
+          { "en": "how many seconds it takes to print 1 page", "zh": "打印 1 页要几秒" },
+          { "en": "the printer's speed in pages per second", "zh": "打印机每秒能打几页" }
+        ],
+        "tool": [
+          { "en": "Multiply 8 by 2", "zh": "8 乘以 2" },
+          { "en": "Convert minutes to seconds first, then apply the rate", "zh": "先把分钟换算成秒，再套用速率", "correct": true },
+          { "en": "Divide 8 by 3 minutes", "zh": "用 8 除以 3 分钟" },
+          { "en": "Multiply 3 by 2", "zh": "3 乘以 2" }
+        ],
+        "cueEn": "The rate is given in seconds, but the question asks about minutes. Units have to match before you can multiply — convert 2 minutes to seconds first.",
+        "cueZh": "题目给的速率单位是“秒”，问题问的却是“分钟”。单位不一致不能直接乘，要先把 2 分钟换算成秒。",
+        "turns": 2,
+        "steps": [
+          { "en": "Convert 2 minutes to seconds: 2 × 60 = 120", "zh": "把 2 分钟换算成秒：2 × 60 = 120" },
+          { "en": "Apply the rate: (120 ÷ 3) × 8", "zh": "套用速率：(120 ÷ 3) × 8" }
+        ],
+        "workEn": "2 min = 120 sec\n120 ÷ 3 = 40 groups of 3 seconds\n40 × 8 = 320 pages",
+        "workZh": "2 分钟 = 120 秒\n120 ÷ 3 = 40 个 3 秒\n40 × 8 = 320 页",
+        "answerEn": "320 pages",
+        "answerZh": "320 页"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "Lena studies for 90 minutes and finishes 2/5 of her homework. At the same rate, how many more minutes does she need to finish the rest?",
+        "textZh": "Lena 学习 90 分钟完成了 2/5 的作业。按同样的速度，她还需要多少分钟才能完成剩下的部分？",
+        "ask": [
+          { "en": "the total time for all the homework", "zh": "全部作业需要的总时间" },
+          { "en": "how many more minutes are needed to finish the rest", "zh": "还需要多少分钟才能做完剩下的", "correct": true },
+          { "en": "how much homework she finished in 90 minutes", "zh": "90 分钟她完成了多少作业" },
+          { "en": "her rate in homework-per-minute", "zh": "她每分钟能完成多少作业" }
+        ],
+        "tool": [
+          { "en": "Multiply 90 by 2/5", "zh": "90 乘以 2/5" },
+          { "en": "Divide 90 by 2", "zh": "90 除以 2" },
+          { "en": "Find the total time needed, then subtract the time already spent", "zh": "先求全部所需总时间，再减去已经花的时间", "correct": true },
+          { "en": "The total time is already the answer", "zh": "总时间就是答案" }
+        ],
+        "cueEn": "The question asks for the REMAINING time, not the total time. You need one extra step after finding the total: subtract the 90 minutes she already spent.",
+        "cueZh": "问题问的是“还需要多少”，不是“总共需要多少”。求出总时间后还要多做一步：减去已经花掉的 90 分钟。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find total time for the whole assignment: 90 ÷ (2/5) = 225 minutes", "zh": "求完成全部作业所需的总时间：90 ÷ (2/5) = 225 分钟" },
+          { "en": "Subtract the time already spent: 225 − 90", "zh": "减去已经花的时间：225 − 90" }
+        ],
+        "workEn": "90 ÷ (2/5) = 90 × 5/2 = 225 minutes total\n225 − 90 = 135 minutes remaining",
+        "workZh": "90 ÷ (2/5) = 90 × 5/2 = 225 分钟（总共）\n225 − 90 = 135 分钟（剩下）",
+        "answerEn": "135 minutes",
+        "answerZh": "135 分钟"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "At a library, the ratio of fiction books to nonfiction books is 3 to 8. If there are 480 nonfiction books, how many books are there in total?",
+        "textZh": "图书馆里小说和非小说的比例是 3:8。如果有 480 本非小说，一共有多少本书？",
+        "ask": [
+          { "en": "the number of fiction books only", "zh": "只求小说的数量" },
+          { "en": "the total number of books", "zh": "书的总数", "correct": true },
+          { "en": "the value of one ratio unit", "zh": "比例中一份代表多少" },
+          { "en": "the difference between fiction and nonfiction", "zh": "小说和非小说数量之差" }
+        ],
+        "tool": [
+          { "en": "Multiply 480 by 3/8", "zh": "480 乘以 3/8" },
+          { "en": "Divide 480 by 3", "zh": "480 除以 3" },
+          { "en": "Set up the ratio, find the value of one unit, then find each part", "zh": "列出比例，先求一份的值，再求各部分", "correct": true },
+          { "en": "Add 3 and 8 to get the total directly", "zh": "直接把 3 和 8 相加当作总数" }
+        ],
+        "cueEn": "A ratio isn't a formula you plug numbers into — it describes how many \"units\" make up each group. Find what one unit equals first, then scale both parts by it.",
+        "cueZh": "比例不是一个可以直接套用数字的公式，它描述的是每一组由多少“份”组成。先求出一份等于多少，再用它去缩放两个部分。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the value of one ratio unit: 480 ÷ 8 = 60", "zh": "求一份的值：480 ÷ 8 = 60" },
+          { "en": "Find fiction books (3 × 60) and add to the 480 nonfiction", "zh": "求出小说数（3 × 60），再加上 480 本非小说" }
+        ],
+        "workEn": "480 ÷ 8 = 60 (one unit)\nFiction = 3 × 60 = 180\nTotal = 180 + 480 = 660",
+        "workZh": "480 ÷ 8 = 60（一份）\n小说 = 3 × 60 = 180\n总数 = 180 + 480 = 660",
+        "answerEn": "660 books",
+        "answerZh": "660 本"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "A recipe calls for flour and sugar in a ratio of 5 to 2. If a baker uses 15 cups of flour, how many cups of sugar does she need?",
+        "textZh": "一个食谱里面粉和糖的比例是 5:2。如果烘焙师用了 15 杯面粉，需要多少杯糖？",
+        "ask": [
+          { "en": "the cups of sugar needed", "zh": "需要多少杯糖", "correct": true },
+          { "en": "the cups of flour needed", "zh": "需要多少杯面粉" },
+          { "en": "the total cups of flour and sugar combined", "zh": "面粉和糖加起来一共多少杯" },
+          { "en": "the value of one ratio unit for flour", "zh": "面粉这一份代表多少杯" }
+        ],
+        "tool": [
+          { "en": "Multiply 15 by 2", "zh": "15 乘以 2" },
+          { "en": "Find the value of one ratio unit from the given part, then scale the other part by it", "zh": "先用已知部分求出一份的值，再用它缩放另一部分", "correct": true },
+          { "en": "Divide 15 by 2", "zh": "15 除以 2" },
+          { "en": "Subtract 2 from 5, then multiply by 15", "zh": "用 5 减 2，再乘以 15" }
+        ],
+        "cueEn": "You're given the flour side of the ratio (5 units = 15 cups). Use that to find what one unit equals, then apply the same unit value to the sugar side (2 units).",
+        "cueZh": "已知的是面粉那一边（5 份 = 15 杯）。用它求出一份等于多少，再把这个“一份”的值用到糖那边（2 份）。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the value of one ratio unit: 15 ÷ 5 = 3", "zh": "求一份的值：15 ÷ 5 = 3" },
+          { "en": "Scale sugar's ratio number by that unit: 2 × 3", "zh": "用这个“一份”去缩放糖的份数：2 × 3" }
+        ],
+        "workEn": "15 ÷ 5 = 3 (one unit)\n2 × 3 = 6",
+        "workZh": "15 ÷ 5 = 3（一份）\n2 × 3 = 6",
+        "answerEn": "6 cups",
+        "answerZh": "6 杯"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If x is an integer and x < 2, then 3x + 6 could NOT be which of the following: 12, 9, 6, 3, or −3?",
+        "textZh": "若 x 是整数且 x < 2，那么 3x + 6 不可能是下列哪个：12、9、6、3、还是 −3？",
+        "ask": [
+          { "en": "which value 3x + 6 could NOT equal", "zh": "3x + 6 不可能等于哪个值", "correct": true },
+          { "en": "the smallest possible value of x", "zh": "x 可能的最小值" },
+          { "en": "the value of 3x + 6 when x = 2", "zh": "x = 2 时 3x + 6 的值" },
+          { "en": "every possible value of x", "zh": "x 所有可能的取值" }
+        ],
+        "tool": [
+          { "en": "Just compute 3x + 6 for x = 2", "zh": "直接算 x = 2 时 3x + 6 的值" },
+          { "en": "Test the boundary value of x first, since it gives the extreme possible result", "zh": "先测试 x 的边界值，因为它给出的是极端结果", "correct": true },
+          { "en": "Try random values of x until one matches", "zh": "随便试几个 x 直到凑上一个" },
+          { "en": "Assume the smallest listed number must be impossible", "zh": "假设列出的最小数字一定不可能" }
+        ],
+        "cueEn": "For a \"could NOT be\" question with an inequality, the fastest path is to find the extreme allowed value of the variable (here, the largest integer less than 2, which is 1) — that tells you the extreme possible result, and anything beyond it is impossible.",
+        "cueZh": "遇到不等式的“不可能是”题型，最快的办法是先找变量的极端允许值（这里是小于2的最大整数，也就是1）——这能给出结果的极端值，超出这个极端的选项就是不可能的。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the largest allowed integer x (since x < 2, the largest is x = 1)", "zh": "找出 x 允许的最大整数（因为 x < 2，最大是 x = 1）" },
+          { "en": "Find the largest possible value of 3x + 6 (at x = 1, it's 9) — anything above that is impossible", "zh": "求出 3x + 6 可能的最大值（x=1 时是 9）——超过这个值就不可能" }
+        ],
+        "workEn": "x ≤ 1 (largest allowed integer)\n3(1) + 6 = 9 is the largest possible value\n12 is larger than 9, so it's impossible",
+        "workZh": "x ≤ 1（允许的最大整数）\n3(1) + 6 = 9 是可能的最大值\n12 比 9 大，所以不可能",
+        "answerEn": "12",
+        "answerZh": "12"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If (A + B) ÷ 3 = 4 and A is greater than 1, which of the following could NOT be the value of B: −3, 0, 1, 2, or 12?",
+        "textZh": "若 (A + B) ÷ 3 = 4 且 A 大于 1，以下哪个不可能是 B 的值：−3、0、1、2、还是 12？",
+        "ask": [
+          { "en": "which value B could NOT be", "zh": "B 不可能是哪个值", "correct": true },
+          { "en": "the value of A", "zh": "A 的值" },
+          { "en": "every possible value of B", "zh": "B 所有可能的取值" },
+          { "en": "whether A and B can be equal", "zh": "A 和 B 能不能相等" }
+        ],
+        "tool": [
+          { "en": "Solve for A directly and ignore B", "zh": "只解出 A，不管 B" },
+          { "en": "Rewrite the constraint on A as a constraint on B, then check each option", "zh": "把关于 A 的限制转换成关于 B 的限制，再逐个检查选项", "correct": true },
+          { "en": "Assume B can be anything", "zh": "假设 B 可以是任何数" },
+          { "en": "Just plug in B = 0 and stop there", "zh": "只代入 B = 0 就停" }
+        ],
+        "cueEn": "The constraint is written in terms of A (\"A is greater than 1\"), but the question asks about B. Translate it: since A + B = 12 and A > 1, that means B < 11 — now check which option breaks that rule.",
+        "cueZh": "限制条件写的是 A（“A 大于 1”），但问题问的是 B。要把它翻译过来：因为 A + B = 12 且 A > 1，所以 B < 11——再看哪个选项违反了这条规则。",
+        "turns": 2,
+        "steps": [
+          { "en": "Rewrite the equation: A + B = 12, so B = 12 − A", "zh": "改写等式：A + B = 12，所以 B = 12 − A" },
+          { "en": "Since A > 1, B < 12 − 1 = 11 — any value 11 or greater is impossible", "zh": "因为 A > 1，所以 B < 12 − 1 = 11——任何 ≥11 的值都不可能" }
+        ],
+        "workEn": "A + B = 12 → B = 12 − A\nA > 1 → B < 11\n12 ≥ 11, so B cannot be 12",
+        "workZh": "A + B = 12 → B = 12 − A\nA > 1 → B < 11\n12 ≥ 11，所以 B 不能是 12",
+        "answerEn": "12",
+        "answerZh": "12"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "If p is a positive integer and n is a negative integer, which of the following has the greatest value: p/n, n/p, 1/(p − n), or 1/(n − p)?",
+        "textZh": "若 p 是正整数，n 是负整数，以下哪个表达式的值最大：p/n、n/p、1/(p − n)、还是 1/(n − p)?",
+        "ask": [
+          { "en": "which expression has the greatest value", "zh": "哪个表达式的值最大", "correct": true },
+          { "en": "which expression has the smallest value", "zh": "哪个表达式的值最小" },
+          { "en": "the exact numeric value of each expression", "zh": "每个表达式的具体数值" },
+          { "en": "whether p and n could be equal", "zh": "p 和 n 能不能相等" }
+        ],
+        "tool": [
+          { "en": "Plug in the same sample numbers for p and n in all four and compare sizes only", "zh": "给 p 和 n 代入相同的样本数字，只比较大小" },
+          { "en": "Compare the denominators only", "zh": "只比较分母" },
+          { "en": "Determine the sign of each expression first — any positive value automatically beats any negative one", "zh": "先判断每个表达式的正负号——正数天然比负数大", "correct": true },
+          { "en": "Assume the expression with subtraction is always the greatest", "zh": "假设带减法的表达式一定最大" }
+        ],
+        "cueEn": "Before computing exact sizes, check signs. p/n and n/p are both negative (positive ÷ negative or vice versa). p − n is positive minus negative, which is positive, so 1/(p−n) is positive. n − p is negative minus positive, which is negative, so 1/(n−p) is negative. A positive number always beats a negative one.",
+        "cueZh": "在比较具体大小之前，先看正负号。p/n 和 n/p 都是负数（正数除负数或负数除正数）。p − n 是正数减负数，结果为正，所以 1/(p−n) 是正数。n − p 是负数减正数，结果为负，所以 1/(n−p) 是负数。正数一定比负数大。",
+        "turns": 2,
+        "steps": [
+          { "en": "Determine the sign of each expression: p/n and n/p are negative; 1/(p−n) is positive since p−n > 0; 1/(n−p) is negative since n−p < 0", "zh": "判断每个表达式的正负：p/n 和 n/p 是负数；1/(p−n) 是正数（因为 p−n>0）；1/(n−p) 是负数（因为 n−p<0）" },
+          { "en": "The only positive expression is automatically the greatest", "zh": "唯一的正数表达式自然就是最大的" }
+        ],
+        "workEn": "p > 0, n < 0\np/n < 0, n/p < 0\np − n = positive − negative = positive → 1/(p−n) > 0\nn − p = negative − positive = negative → 1/(n−p) < 0\nOnly 1/(p−n) is positive",
+        "workZh": "p > 0, n < 0\np/n < 0, n/p < 0\np − n = 正 − 负 = 正 → 1/(p−n) > 0\nn − p = 负 − 正 = 负 → 1/(n−p) < 0\n只有 1/(p−n) 是正数",
+        "answerEn": "1/(p − n)",
+        "answerZh": "1/(p − n)"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "The function f(x) = 6 − x is graphed on the coordinate plane. What are the slope and y-intercept of this line?",
+        "textZh": "函数 f(x) = 6 − x 画在坐标平面上。这条直线的斜率和 y 截距分别是多少？",
+        "ask": [
+          { "en": "the slope and y-intercept of the line", "zh": "这条直线的斜率和 y 截距", "correct": true },
+          { "en": "the x-intercept only", "zh": "只求 x 截距" },
+          { "en": "the value of f(6)", "zh": "f(6) 的值" },
+          { "en": "whether the line passes through the origin", "zh": "这条直线是否经过原点" }
+        ],
+        "tool": [
+          { "en": "Plug in x = 0 to find the slope", "zh": "代入 x=0 来求斜率" },
+          { "en": "Rewrite in slope-intercept form y = mx + b and read off m and b", "zh": "改写成斜截式 y = mx + b，直接读出 m 和 b", "correct": true },
+          { "en": "Assume the slope equals the constant term", "zh": "假设斜率等于常数项" },
+          { "en": "Graph several points and estimate by eye", "zh": "画几个点用眼睛估计" }
+        ],
+        "cueEn": "\"6 − x\" is the same as \"−1x + 6\" — it's already in slope-intercept form once you reorder the terms. The coefficient of x is the slope; the constant is the y-intercept.",
+        "cueZh": "“6 − x”其实就是“−1x + 6”——把项的顺序换一下，就已经是斜截式了。x 前面的系数是斜率，常数项是 y 截距。",
+        "turns": 1,
+        "steps": [
+          { "en": "Match 6 − x to y = mx + b: m = −1, b = 6", "zh": "把 6 − x 对照 y = mx + b：m = −1，b = 6" }
+        ],
+        "workEn": "f(x) = 6 − x = −1x + 6\nslope = −1, y-intercept = 6",
+        "workZh": "f(x) = 6 − x = −1x + 6\n斜率 = −1，y 截距 = 6",
+        "answerEn": "slope = −1, y-intercept = 6",
+        "answerZh": "斜率 = −1，y 截距 = 6"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "Point A is located at (3, −5) on the coordinate plane. If point A is rotated 180° about the origin, what are the coordinates of the new point?",
+        "textZh": "点 A 在坐标平面上位于 (3, −5)。若将点 A 绕原点旋转 180°，新的坐标是多少？",
+        "ask": [
+          { "en": "the coordinates after a 180° rotation about the origin", "zh": "绕原点旋转 180° 后的坐标", "correct": true },
+          { "en": "the distance from A to the origin", "zh": "A 到原点的距离" },
+          { "en": "the coordinates after reflecting over the x-axis", "zh": "关于 x 轴反射后的坐标" },
+          { "en": "the midpoint between A and the origin", "zh": "A 与原点的中点" }
+        ],
+        "tool": [
+          { "en": "Only flip the sign of x", "zh": "只翻转 x 的符号" },
+          { "en": "A 180° rotation about the origin negates both coordinates: (x, y) → (−x, −y)", "zh": "绕原点旋转 180° 会让两个坐标都变号：(x, y) → (−x, −y)", "correct": true },
+          { "en": "Only flip the sign of y", "zh": "只翻转 y 的符号" },
+          { "en": "Swap x and y without changing either sign", "zh": "交换 x 和 y，但符号不变" }
+        ],
+        "cueEn": "A 180° rotation about the origin is a specific, fixed rule — both coordinates flip sign, not just one. That's different from reflecting over just the x-axis or just the y-axis.",
+        "cueZh": "绕原点旋转 180° 是一条固定规则——两个坐标都要变号，不是只变一个。这和只关于 x 轴或只关于 y 轴做反射是不同的操作。",
+        "turns": 1,
+        "steps": [
+          { "en": "Apply the 180° rotation rule: negate both coordinates", "zh": "套用 180° 旋转规则：两个坐标都变号" }
+        ],
+        "workEn": "(3, −5) → (−3, 5)",
+        "workZh": "(3, −5) → (−3, 5)",
+        "answerEn": "(−3, 5)",
+        "answerZh": "(−3, 5)"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "For all real numbers u and v, define u ★ v = u − (1 − 1/v). If a ★ 4 = 5, what is the value of a?",
+        "textZh": "对所有实数 u 和 v，定义 u ★ v = u − (1 − 1/v)。若 a ★ 4 = 5，求 a 的值。",
+        "ask": [
+          { "en": "the value of a", "zh": "a 的值", "correct": true },
+          { "en": "the value of u ★ v in general", "zh": "u ★ v 的一般表达式" },
+          { "en": "the value of 4 ★ a", "zh": "4 ★ a 的值" },
+          { "en": "whether ★ is the same as multiplication", "zh": "★ 是不是就是乘法" }
+        ],
+        "tool": [
+          { "en": "Assume ★ means regular multiplication", "zh": "假设 ★ 就是普通乘法" },
+          { "en": "Swap a and 4 in the definition before substituting", "zh": "代入前先把 a 和 4 互换" },
+          { "en": "Substitute directly into the given definition, then solve like a normal equation", "zh": "直接把已知定义代入，再像普通方程一样求解", "correct": true },
+          { "en": "Only use the constant \"1\" from the definition and ignore v", "zh": "只用定义里的常数“1”，忽略 v" }
+        ],
+        "cueEn": "A custom symbol like ★ is just shorthand for a formula — substitute u = a and v = 4 into the given definition exactly as written, then solve the resulting equation normally.",
+        "cueZh": "★ 这种自定义符号只是一个公式的简写——把 u = a、v = 4 原样代入已知定义，再像普通方程一样求解。",
+        "turns": 2,
+        "steps": [
+          { "en": "Substitute into the definition: a − (1 − 1/4) = 5", "zh": "代入定义：a − (1 − 1/4) = 5" },
+          { "en": "Simplify and solve: a − 0.75 = 5", "zh": "化简并求解：a − 0.75 = 5" }
+        ],
+        "workEn": "a − (1 − 1/4) = 5\na − 0.75 = 5\na = 5.75",
+        "workZh": "a − (1 − 1/4) = 5\na − 0.75 = 5\na = 5.75",
+        "answerEn": "5.75 (or 23/4)",
+        "answerZh": "5.75（即 23/4）"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "The first three terms of an arithmetic sequence are 12, 15, and 18. What is the 50th term?",
+        "textZh": "一个等差数列的前三项是 12、15、18。第 50 项是多少？",
+        "ask": [
+          { "en": "the 50th term", "zh": "第 50 项", "correct": true },
+          { "en": "the common difference", "zh": "公差" },
+          { "en": "the sum of the first 50 terms", "zh": "前 50 项的和" },
+          { "en": "the 3rd term", "zh": "第 3 项" }
+        ],
+        "tool": [
+          { "en": "nth term = first term × n", "zh": "第 n 项 = 首项 × n" },
+          { "en": "nth term = first term + (n − 1) × common difference", "zh": "第 n 项 = 首项 + (n − 1) × 公差", "correct": true },
+          { "en": "nth term = first term + n × common difference", "zh": "第 n 项 = 首项 + n × 公差" },
+          { "en": "Just multiply the first term by 50", "zh": "直接用首项乘以 50" }
+        ],
+        "cueEn": "It's off by one term that trips people up: the formula uses (n − 1), not n, because the first term itself hasn't had the common difference added yet.",
+        "cueZh": "最容易出错的是那个“差一项”：公式里用的是 (n − 1)，不是 n，因为首项本身还没加过公差。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the common difference: 15 − 12 = 3", "zh": "求公差：15 − 12 = 3" },
+          { "en": "Apply the formula: 12 + (50 − 1) × 3", "zh": "套用公式：12 + (50 − 1) × 3" }
+        ],
+        "workEn": "d = 3\n12 + 49×3 = 12 + 147 = 159",
+        "workZh": "d = 3\n12 + 49×3 = 12 + 147 = 159",
+        "answerEn": "159",
+        "answerZh": "159"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 3,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "The first three terms of a geometric sequence are 1/64, 1/16, and 1/4. What is the 7th term?",
+        "textZh": "一个等比数列的前三项是 1/64、1/16、1/4。第 7 项是多少？",
+        "ask": [
+          { "en": "the common ratio only", "zh": "只求公比" },
+          { "en": "the 7th term", "zh": "第 7 项", "correct": true },
+          { "en": "the sum of the first 7 terms", "zh": "前 7 项的和" },
+          { "en": "the 4th term", "zh": "第 4 项" }
+        ],
+        "tool": [
+          { "en": "nth term = first term × common ratio × n", "zh": "第 n 项 = 首项 × 公比 × n" },
+          { "en": "nth term = first term × (common ratio)^(n − 1)", "zh": "第 n 项 = 首项 × 公比^(n − 1)", "correct": true },
+          { "en": "nth term = first term + (n − 1) × common ratio", "zh": "第 n 项 = 首项 + (n − 1) × 公比" },
+          { "en": "Just multiply the first term by 7", "zh": "直接用首项乘以 7" }
+        ],
+        "cueEn": "Geometric sequences multiply by the common ratio each step, so the exponent — not a plain multiplier — carries the step count. Like the arithmetic version, the exponent is (n − 1), not n.",
+        "cueZh": "等比数列每一步是乘以公比，所以“步数”体现在指数上，而不是简单相乘。和等差数列一样，指数是 (n − 1)，不是 n。",
+        "turns": 2,
+        "steps": [
+          { "en": "Find the common ratio: (1/16) ÷ (1/64) = 4", "zh": "求公比：(1/16) ÷ (1/64) = 4" },
+          { "en": "Apply the formula: (1/64) × 4^6", "zh": "套用公式：(1/64) × 4^6" }
+        ],
+        "workEn": "r = 4\n(1/64) × 4^6 = (1/64) × 4096 = 64",
+        "workZh": "r = 4\n(1/64) × 4^6 = (1/64) × 4096 = 64",
+        "answerEn": "64",
+        "answerZh": "64"
+      }
+    },
+    {
+      "gameType": "dissector",
+      "domain": "math",
+      "difficulty": 2,
+      "explanation": null,
+      "words": [],
+      "payload": {
+        "textEn": "The average of 7 consecutive integers is 31. What is the smallest of these integers?",
+        "textZh": "7 个连续整数的平均数是 31。这些整数中最小的是多少？",
+        "ask": [
+          { "en": "the smallest of the 7 integers", "zh": "这 7 个数中最小的", "correct": true },
+          { "en": "the largest of the 7 integers", "zh": "这 7 个数中最大的" },
+          { "en": "the sum of all 7 integers", "zh": "这 7 个数的和" },
+          { "en": "the middle integer", "zh": "中间那个数" }
+        ],
+        "tool": [
+          { "en": "The average equals the smallest term", "zh": "平均数就等于最小的那个数" },
+          { "en": "For consecutive integers, the average equals the middle term", "zh": "对于连续整数，平均数就等于中间那一项", "correct": true },
+          { "en": "The average equals the largest term", "zh": "平均数就等于最大的那个数" },
+          { "en": "Divide the average by 7", "zh": "用平均数除以 7" }
+        ],
+        "cueEn": "For any set of consecutive (evenly spaced) integers, the average always equals the middle value — you don't need to add up all 7 numbers. From there, just count backward to reach the smallest.",
+        "cueZh": "对于任何一组连续（等间距）整数，平均数永远等于中间那个数——不需要把 7 个数都加起来。从中间值往前数几步就能求出最小值。",
+        "turns": 2,
+        "steps": [
+          { "en": "Recognize the average equals the middle (4th) term: middle = 31", "zh": "认出平均数就是中间（第4）项：中间值 = 31" },
+          { "en": "Count down 3 from the middle to reach the smallest term", "zh": "从中间值往下数 3 步得到最小值" }
+        ],
+        "workEn": "Middle (4th of 7) term = 31\nSmallest = 31 − 3 = 28",
+        "workZh": "中间（7个中第4个）项 = 31\n最小值 = 31 − 3 = 28",
+        "answerEn": "28",
+        "answerZh": "28"
+      }
+    }
+  ]
+}

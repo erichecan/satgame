@@ -43,6 +43,9 @@ export function Nav() {
         <Link href="/" className="shrink-0 font-semibold text-slate-900">
           SAT Game
         </Link>
+        <Link href="/lessons" className={pill(pathname.startsWith("/lessons"))}>
+          Lessons
+        </Link>
         <Link href="/study" className={pill(pathname === "/study")}>
           Vocab
         </Link>

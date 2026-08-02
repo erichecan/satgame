@@ -50,7 +50,7 @@ export default function DissectorPage() {
   useEffect(() => {
     fetch("/api/game-items?gameType=dissector&take=400")
       .then((r) => r.json())
-      .then((d) => setItems(shuffled(d.items).slice(0, 20)));
+      .then((d) => setItems(shuffled((d.items ?? []) as DissectorItem[]).slice(0, 20)));
   }, []);
 
   const item = items[idx];

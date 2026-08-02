@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useGameItems } from "@/lib/use-game-items";
 import { recordProgress } from "@/lib/record-progress";
 import { MethodCard } from "@/components/rw/method-card";
+import { BarChart } from "@/components/rw/bar-chart";
 import { METHODS } from "@/lib/rw-methods";
 import { TrapType, TRAP_LABEL } from "@/lib/trap-types";
 
@@ -57,7 +58,6 @@ export default function GraphicPage() {
   }
 
   const { title, unit, bars, blurb, question, options, why } = item.payload;
-  const max = Math.max(...bars.map((b) => b.value));
   const answered = picked !== null;
 
   return (
@@ -72,20 +72,8 @@ export default function GraphicPage() {
       <MethodCard {...METHODS.graphic} />
 
       {/* 图表 */}
-      <div className="mt-4 rounded-xl border border-slate-200 bg-white p-4">
-        <div className="text-sm font-semibold text-slate-900">{title}</div>
-        {unit && <div className="text-xs text-slate-400">Unit: {unit}</div>}
-        <div className="mt-3 space-y-2">
-          {bars.map((b, i) => (
-            <div key={i} className="flex items-center gap-2 text-xs">
-              <span className="w-28 shrink-0 text-right text-slate-600">{b.label}</span>
-              <div className="h-4 flex-1 overflow-hidden rounded bg-slate-100">
-                <div className="h-full rounded bg-slate-800" style={{ width: `${(b.value / max) * 100}%` }} />
-              </div>
-              <span className="w-12 shrink-0 font-mono text-slate-700">{b.value}</span>
-            </div>
-          ))}
-        </div>
+      <div className="mt-4">
+        <BarChart title={title} unit={unit} bars={bars} />
       </div>
 
       <p className="mt-4 rounded-lg bg-slate-50 p-3 text-sm text-slate-700">{blurb}</p>

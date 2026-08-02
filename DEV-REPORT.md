@@ -1,67 +1,114 @@
-# 开发完成报告 — SAT 阅读方法论落地
+# 开发完成报告 — Strategy Lessons(Khan Academy 式技巧课)
+
+> 上一期报告已归档:`docs/20260703-DEV-REPORT-mvp.md`
 
 ## 本次做了什么
-把一节 SAT 阅读方法论视频里的解题动作,拆成 app 里能单独练的功能:新增 2 个阅读游戏,强化 3 个已有游戏,并给每个阅读游戏加了"先教方法再练"的方法卡。
+
+针对孩子反映的两个卡点(**生词一多就不会做**、**换成科学/历史这类学科文章就读不进去**),新增了一个完整的技巧课模块 `/lessons`:16 节课覆盖 Digital SAT 阅读写作的**全部官方题型**,每节课都是"读方法 → 跟着拆一道例题 → 做 8 道练习 → 记录掌握度"的 Khan Academy 式流程。
+
+课不是孤立的:每节课底部直接链到 app 里对应的游戏,做错时掉进的陷阱类型会自动汇进原有的 Error DNA 页面。
 
 ## 可以访问的页面
+
 | 页面 | 地址 | 说明 |
 |------|------|------|
-| Paraphrase Match(新) | /rw/paraphrase | 同义改写四选一,40 题 |
-| Trim the Sentence(新) | /rw/trim | 长难句点掉修饰、留主干,40 句 |
-| Read the Green(增强) | /rw/read-the-green | 新增"关键词定位"阶段 + 陷阱分类标签 |
-| Closer(增强) | /rw/closer | 揭晓时高亮上下文线索词 |
-| 首页 | / | 游戏卡从 5 个扩到 7 个 |
+| 课程首页 | http://localhost:3002/lessons | 6 个单元 16 节课 + 每课掌握度地图 |
+| 单课页 | http://localhost:3002/lessons/[课程名] | 三段式:Learn / Worked example / Practice |
+| Error DNA(已有) | http://localhost:3002/insights | 现在也统计技巧课的错题类型 |
 
-## 功能完成情况(A→E)
-| 方向 | 状态 | 说明 |
+导航栏新增 **Lessons** 入口(在 Vocab 左边)。
+
+## 16 节课清单
+
+| 单元 | 课程 | 说明 |
 |------|------|------|
-| A 细节题四步法引导层 | ✅ | Read the Green:关键词定位阶段 + 证据阶段"同义改写"提示 + 陷阱分类标签(同词/逻辑不符/未提及) |
-| B 同义改写游戏 | ✅ | Paraphrase Match 新游戏,40 题,正确项位置已打散 |
-| C 长难句拆主干游戏 | ✅ | Trim the Sentence 新游戏,40 句,覆盖定语从句/分词/插入语/状语等 |
-| D 上下文猜义 | ✅ | Closer 高亮线索词(274/286 题),优先出带线索的词 |
-| E 方法教学层 | ✅ | MethodCard 组件,接入全部 4 个阅读游戏 |
-| 每日任务 7 游戏 | ✅ | daily + 首页 + 导航同步,进度上报自动标记"今日已玩" |
+| Unit 0 通用引擎 | The 4-Step Answer Engine | 所有阅读题共用的四步动作 |
+| Unit 1 Craft and Structure | **Words in Context** ⭐ | **孩子薄弱点①**:不认识这个词也能做对 |
+| | Text Structure and Purpose | purpose ≠ main idea |
+| | Cross-Text Connections | 两篇短文的关系判断 |
+| Unit 2 Information and Ideas | Central Ideas and Details | 主旨 vs 细节 |
+| | Command of Evidence — Textual | claim 才是胜负手,"真"不等于"支持" |
+| | Command of Evidence — Quantitative ⭐ | **图表题**,不需要计算 |
+| | Inferences | 补全题,复述的选项一定错 |
+| Unit 3 Expression of Ideas | Transitions | 先定关系再挑词 |
+| | Rhetorical Synthesis | 四个选项都是真话,只看有没有完成任务 |
+| Unit 4 Standard English Conventions | Boundaries | 标点是结构题,不是语义题 |
+| | Form, Structure, and Sense | 主谓一致/时态/修饰语 |
+| Unit 5 文体专项 ⭐ | Science Passages | **孩子薄弱点②**:研究骨架读法 |
+| | History & Social Studies Passages | 古旧措辞先翻译成大白话 |
+| | Humanities Passages | 找那句"下judgment"的话 |
+| | Literature & Poetry | 先把字面情节读通 |
 
-## 工程要点
-- **公共骨架(DRY)**:抽出 `useGameItems` hook + `recordProgress` 工具,消除原本 4 处重复的题库加载与进度上报代码。
-- **零数据库迁移**:`GameItem.payload` 是 Json,新增游戏与新字段都不需要改表结构。
-- **向后兼容**:所有增强字段可选,旧数据缺字段时自动降级为原玩法,不报错。
+⭐ = 直接对应孩子当前的两个卡点。
+
+## 内容从哪来(可信度说明)
+
+原计划"上网找技巧大全 + 我自己总结"两条腿走。实际执行时:
+
+- ✅ **考试规格部分是一手核实的**:直接从 College Board 官方《Assessment Framework for the Digital SAT Suite》PDF 里逐条抠出来的 —— 四大领域、11 个官方 skill 名称、各领域题量占比、54 题/2 模块/各 32 分钟、短文 25–150 词、图表只有三种且不需计算、文体四类。课程目录与官方分类学**一一对应**。
+- ⚠️ **解题步骤和技巧是我总结的**:基于官方对每个 skill 的定义和官方样题的作答逻辑推导。原本还要交叉比对 Khan Academy 和几家备考机构的方法论,但那批联网任务中途因额度中断没跑完,官方规格部分我后来独立补齐核实了,机构方法论这一层没做。
+
+完整汇编存在 `docs/20260801-sat-strategy-compendium.md`,里面明确标了哪些是一手核实、哪些是我总结的。
+
+## 练习题从哪来
+
+**没有重造题库**。存量 2000+ 道已审核过的题按题型接进来,不够的才新写:
+
+| 来源 | 用于哪些课 |
+|------|-----------|
+| 每日测验题库(803 题) | Words in Context、Text Structure |
+| Read the Green / Paraphrase / Inference / Graphic / Trap Spotter | 主旨、证据、推断、图表、四步引擎 |
+| Gate Run(298 题) | Transitions、Boundaries、Form Structure |
+| **本次新写 40 题** | 跨文本、Rhetorical Synthesis、以及 Unit 5 四类文体 |
+
+每课固定 8 题,按难度 1–4 分层抽取、由易到难排列(照搬 DSAT 的编排),点"再练一组"会换新题。
+
+## 质量把关(这是本次重点)
+
+上一期的教训是"答案曾成批错标,抽样查不出来"。所以这次做了**两轮独立全量复审**(一轮查 40 道新题,一轮查 16 课课文与例题),都不抽样。
+
+**最重要的结论:56 道题(40 道练习 + 16 道例题)正解全部标对,0 处错标。**
+
+但复审查出了别的真问题,已全部修掉:
+
+**练习题(40 道)**
+- 4 道填空题的短文末尾漏了引导句和 `______`,学生会看到"一段完整文章 + 四个无处可填的碎片"。已补。
+- 2 道题的错因解释写错了(其中"童年老屋"那道的解释本身逻辑就是错的,学生选错后反而被误导)。已重写并改正陷阱分类。
+- 另有 9 处小瑕疵(陷阱标签不够准、文案略夸大)一并修了。
+
+**课文与例题(16 课)**
+- **Boundaries 课有实质语法错误**:规则表漏了破折号;两条规则互相打架(一条说"完整句+不完整句只能用逗号",另一条又说冒号后面可以接不完整成分);还把"逗号 + however"一概说成 comma splice(其实 `The plan, however, failed.` 完全合法)。全部改正。
+- **Boundaries 例题有两个说得通的答案**:分号是正解,但冒号干扰项按官方冒号规则也站得住。已重写例题,让冒号明确不成立。
+- **Form, Structure and Sense 课编了一条不存在的语法规则**("现在完成时不能和 still 连用")。已改成真正的错因(单复数不一致)。
+- 第 0 课(专门教陷阱分类学的那课)的示范干扰项同时符合两类标签,削弱整套分类学的说服力。已改成单一分类。
+- 2 处错因解释说反了,5 处题干措辞不是官方原话,4 处英式拼写(SAT 一律美式),都已改正。
+- **修掉一个我自己写的 UI bug**:例题的分步讲解按位置对应策略标签,当一道例题演示不完全部策略时(Form Structure 课 6 条策略、例题只用得上 3 条),标签会整体错位、把讲解挂到不相干的策略上。改成显式绑定。
+
+**存量数据也顺带修了 2 处**:Trap Spotter 里两道题,原文根本没提到的内容被标成了"同词复述",实际应是"原文未提及"。这两道题现在会进技巧课,不改会把错的分类学教给孩子。
+
+另外写了体检脚本 `scripts/check-lesson-pools.ts`,可随时验证每课题量、结构完整性、正确项位置分布。当前:**16 课全部满 8 题、无结构问题、正确项位置分散**。
+
+## 实际验证过的(不是"应该能跑")
+
+- `npm run build` 通过,16 个课程页全部预渲染成功
+- `npx tsc --noEmit` 干净;`npm test` 9 项通过
+- 浏览器实操跑完整闭环:课程首页 → 进课 → 例题作答 → 分步讲解展开 → 练习作答 → 反馈 → 进度写库 → 返回首页看到掌握度从 "Not started" 变 "Familiar"
+- 故意选错项,确认陷阱类型("Too extreme")正确写进数据库并出现在 Error DNA 页
+- 16 个课程页 + 课程首页 + API 全部返回 200;不存在的课程名正确返回 404
+- 测试期间产生的假进度数据已清除,不污染孩子的真实统计
 
 ## 已知问题 / 取舍
-- **关键词覆盖**:关键词用"题干与文章的重合实词"启发式生成(58 题有字面锚点),而 SAT 题干本身多为同义改写、字面重合天然稀少——这恰是考点。带关键词的题被排到最前,保证首屏能练到;其余走降级(直接答题),trap 标签仍显示。
-- **trapType 为启发式推断**:旧题的陷阱分类由 trap 说明文本推断("Opposite"→逻辑不符、"Not stated"→未提及),覆盖 132/199;8 条精选题为人工标注。
-- 若要关键词/线索质量再上一层,建议后续用 LLM 对全量题目重做标注(内容工程,非本次范围)。
 
-## 验证
-- `npx tsc --noEmit` 无错误
-- `npm run build` 成功,新路由 `/rw/paraphrase`、`/rw/trim` 已生成
-- 浏览器实测:两个新游戏答题/复盘正常,Read the Green 关键词阶段→答案→证据→trap 标签全链路通过,Closer 线索高亮显示,控制台无报错
+1. **Transitions / Boundaries / Form Structure 三课的练习题是两选一,不是四选一**。这些题复用的是 Gate Run 的"双门"数据(已审核过、共 286 题)。核心技能(先判关系再选词)练得到,但和真实考试的四选一格式有差距。要补成四选一得给每题另编两个干扰项,风险大于收益,这次没做。
+2. **技巧步骤未经第三方备考机构交叉验证**(原因见上文)。官方规格部分不受影响。
+3. 新写的 40 题在源文件里正确答案都写在 A 位,靠代码按题目 ID 做确定性轮转打散。线上显示没问题(已验证位置分布均匀),但将来如果要导出成静态题库(比如打印版),需要先做一次打散。
+4. **官方题干里的 "underlined sentence"(下划线句)在本页面无法真正画下划线**,改成用引号点明目标句。意思一样,和真题的视觉呈现有细微差别。
+5. Form Structure 课的 6 条策略里,代词指代、悬垂修饰、冗余这 3 条在课文里教了,但那道例题演示不到(一道题演示不了 6 条规则),要靠 Practice 环节练。
+4. `npm run lint` 仍有既有报错,来自本次之前就存在的其他页面;本次新增/修改的文件已全部 lint 干净。
 
-## 内容脚本
-`prisma/seed-methodology.ts` — 只插入 paraphrase/trim,并就地回填现有 read_the_green/closer 的方法论字段;幂等,不清空 5 个游戏的既有内容。重跑:`npx tsx --env-file=.env prisma/seed-methodology.ts`
+## 下一步建议
 
----
-
-## 追加(2026-07-03):LLM 对全量题目重做标注
-
-对全量 **2002 条题目**(GameItem 1199 + QuizItem 803)由会话内 LLM 重新标注 4 个维度,直接写回 Neon 数据库。方法与过程见 [docs/20260703-annotation-redo-methodology.md](docs/20260703-annotation-redo-methodology.md)。
-
-### 做了什么
-| 维度 | 结果 |
-|------|------|
-| 答案正误 | 全量逐条复审,**修正 37 处答案标错**(QuizItem 正确标记打在了错误选项上) |
-| 难度 difficulty | 全量重评:此前几乎全是 2(退化),现按词表 tier+rank 百分位 / 结构信号规则化为 1–4 梯度 |
-| 解析 explanation | 回填 **865 条**此前为空的讲解(从 payload 内联理由生成) |
-| 位置去偏 | paraphrase 正确项此前 45% 挤在第 0 位,打散为 `[9,15,6,10]` |
-
-### 最重要的发现
-37 处答案错误里 **35 处集中在同一批种子数据**(idx 261–326 的词汇/文学/公民术语辨析题,如 `tone/mood` 定义反了、`discourse` 标成 "silence"、`citizen/resident` 反了、`questionnaire` 标成 "a legal contract" 等)。每题结构上确实只有一个 correct,但落在了明显错误的选项上——**结构审计查不到,随机抽样也会整段跳过,只能全量人读**。
-
-### 各游戏复审结论
-- QuizItem 803:37 处修复,其余正确
-- read_the_green 199 / paraphrase 40 / gate_run 274:全部正确
-- dissector 271:数学重算/校验无误
-- closer 286 / clusters 89:抽样词义准确;clusters 个别归类偏松(记为小瑕疵,未改)
-
-### 验证
-最终程序审计 **0 真实缺陷**(唯一残留的 dissector "math_error" 是代数式误报,题目 √(3x−2)=7→x=17 正确);全库无 0/多正确项;难度梯度化;paraphrase 去偏生效。
+1. **先让孩子用两周**,重点看 Words in Context 和 Unit 5 四课的掌握度变化 —— 这是当初做这个模块的原因,数据会直接说明有没有解决问题。
+2. Error DNA 页现在能按技巧课统计错误类型了,可以据此判断该回炉哪一课。
+3. 如果两选一的三节课体感太简单,再考虑补四选一题;补的话必须走同样的全量复审流程。
+4. 联网额度恢复后,可以补跑一次 Khan Academy 官方课程的交叉验证,校准解题步骤的措辞。

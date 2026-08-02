@@ -5,6 +5,7 @@ import { TRAP_LABEL, TRAP_TIP, TrapType } from "@/lib/trap-types";
 export const dynamic = "force-dynamic";
 
 const GAME_LABEL: Record<string, string> = {
+  lesson: "Strategy Lessons",
   read_the_green: "Read the Green",
   paraphrase: "Paraphrase Match",
   trim: "Trim the Sentence",

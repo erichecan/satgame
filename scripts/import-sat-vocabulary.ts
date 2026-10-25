@@ -65,7 +65,7 @@ async function main() {
     };
     await prisma.word.upsert({
       where: { word: key },
-      create: { word: key, definitionEn: entry.definitionEn, partOfSpeech: entry.partOfSpeech, exampleEn: entry.exampleEn, ...data },
+      create: { word: key, ...data },
       update: data,
     });
   }

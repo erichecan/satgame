@@ -14,13 +14,36 @@ model Word {
   definitionEn String
   definitionCn String?
   exampleEn    String?
+  synonyms     String[]    @default([])
   difficulty   Int         @default(1)
   tier         String      @default("sat_core") // "foundation" | "sat_core"
   rank         Int         @default(9999) // order within tier for daily new-word selection
   synonymGroup String? // optional key linking words for discrimination display
+  sourceTags   String[]    @default([])
+  qbankQuestionCount   Int @default(0)
+  qbankMentionCount    Int @default(0)
+  qbankWicAnswerCount  Int @default(0)
   isActive     Boolean     @default(true)
   createdAt    DateTime    @default(now())
   vocabNotes   VocabNote[]
+  skillProgress VocabularySkillProgress[]
+}
+
+// Mastery is tracked independently for recognition, definition recall, and context choice.
+model VocabularySkillProgress {
+  id                 String   @id @default(cuid())
+  wordId             String
+  word               Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  skill              String   // recognition | definition_recall | context_choice
+  masteryLevel       Int      @default(0)
+  consecutiveCorrect Int      @default(0)
+  reviewCount        Int      @default(0)
+  correctCount       Int      @default(0)
+  nextReview         DateTime?
+  updatedAt          DateTime @updatedAt
+
+  @@unique([wordId, skill])
+  @@index([skill, nextReview])
 }
 
 // 5 个游戏的题目内容统一存储，payload 按 gameType 存放各自结构化数据

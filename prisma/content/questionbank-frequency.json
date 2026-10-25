@@ -1,0 +1,5158 @@
+{
+  "source": "College Board Student Question Bank, SAT Reading and Writing (public digital bank)",
+  "asOf": "2026-10-25",
+  "questionCount": 1845,
+  "itemDateRangeUtc": [
+    1691007959310,
+    1786995570033
+  ],
+  "distinctWordFormsInCorpus": 19628,
+  "scope": "SAT Reading and Writing: question stems, reading passages, and answer options; excludes rationales.",
+  "wordStats": {
+    "ability": {
+      "questionCount": 29,
+      "mentionCount": 38,
+      "wicCorrectOptionCount": 0
+    },
+    "abrupt": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "abstract": {
+      "questionCount": 12,
+      "mentionCount": 14,
+      "wicCorrectOptionCount": 0
+    },
+    "abundant": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "accept": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "accessible": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "accidental": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "accomplish": {
+      "questionCount": 203,
+      "mentionCount": 204,
+      "wicCorrectOptionCount": 0
+    },
+    "accordingly": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "account": {
+      "questionCount": 27,
+      "mentionCount": 34,
+      "wicCorrectOptionCount": 1
+    },
+    "accumulate": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "accuracy": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "accurate": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "achieve": {
+      "questionCount": 14,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "acknowledge": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "acknowledged": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "acquire": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "acquired": {
+      "questionCount": 17,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 1
+    },
+    "acquisition": {
+      "questionCount": 7,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "adapt": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "adaptable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "address": {
+      "questionCount": 18,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 0
+    },
+    "adhere": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "administration": {
+      "questionCount": 5,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "admit": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "advance": {
+      "questionCount": 7,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "advantageous": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "advent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "adverse": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "advocacy": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "advocate": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "aesthetic": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "affinity": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "afford": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "aggregate": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "alarmed": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "allay": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "alleviate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "allocate": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "allow": {
+      "questionCount": 28,
+      "mentionCount": 28,
+      "wicCorrectOptionCount": 0
+    },
+    "alter": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "although": {
+      "questionCount": 95,
+      "mentionCount": 119,
+      "wicCorrectOptionCount": 0
+    },
+    "ambiguity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "ambiguous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "ambitious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "ambivalence": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "ambivalent": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "amiable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "among": {
+      "questionCount": 130,
+      "mentionCount": 163,
+      "wicCorrectOptionCount": 1
+    },
+    "amorphous": {
+      "questionCount": 2,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "ample": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "amplify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "analogous": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "analogy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "analysis": {
+      "questionCount": 58,
+      "mentionCount": 88,
+      "wicCorrectOptionCount": 0
+    },
+    "analyze": {
+      "questionCount": 13,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "anecdote": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "anguish": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "animate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "anomaly": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "antagonist": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "anticipate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "apparent": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "apparently": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "appear": {
+      "questionCount": 37,
+      "mentionCount": 46,
+      "wicCorrectOptionCount": 0
+    },
+    "appease": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "applicable": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "apply": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "approach": {
+      "questionCount": 39,
+      "mentionCount": 52,
+      "wicCorrectOptionCount": 0
+    },
+    "appropriate": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "approximately": {
+      "questionCount": 34,
+      "mentionCount": 52,
+      "wicCorrectOptionCount": 0
+    },
+    "arbitrary": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "archaic": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "arduous": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "argue": {
+      "questionCount": 33,
+      "mentionCount": 33,
+      "wicCorrectOptionCount": 0
+    },
+    "argument": {
+      "questionCount": 17,
+      "mentionCount": 23,
+      "wicCorrectOptionCount": 0
+    },
+    "arise": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "arrange": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "arriving": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "articulate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "artificial": {
+      "questionCount": 10,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "ascend": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "ascertain": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "aspect": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "assemble": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "assert": {
+      "questionCount": 12,
+      "mentionCount": 14,
+      "wicCorrectOptionCount": 0
+    },
+    "asserted": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "assertion": {
+      "questionCount": 13,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "assess": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "assume": {
+      "questionCount": 11,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "assumption": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "attempt": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "attest": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "attractive": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "attribute": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "attributed": {
+      "questionCount": 13,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 1
+    },
+    "atypical": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "audience": {
+      "questionCount": 33,
+      "mentionCount": 45,
+      "wicCorrectOptionCount": 0
+    },
+    "austerity": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "authentic": {
+      "questionCount": 3,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "authenticity": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "authoritarian": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "authority": {
+      "questionCount": 2,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "autonomous": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "autonomy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "available": {
+      "questionCount": 35,
+      "mentionCount": 43,
+      "wicCorrectOptionCount": 1
+    },
+    "avenue": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "aversion": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "balanced": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "barren": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "basic": {
+      "questionCount": 11,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "bear": {
+      "questionCount": 8,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "begin": {
+      "questionCount": 16,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "beneficial": {
+      "questionCount": 11,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "benign": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "bleak": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "bolster": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "boost": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "brawl": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "brazen": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "brief": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "bureaucracy": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "bureaucratic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "burgeoning": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "buttress": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "cadence": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "calculation": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "capacious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "capacity": {
+      "questionCount": 13,
+      "mentionCount": 25,
+      "wicCorrectOptionCount": 0
+    },
+    "capitalize": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "capture": {
+      "questionCount": 11,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "catalyst": {
+      "questionCount": 3,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "categorize": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "category": {
+      "questionCount": 31,
+      "mentionCount": 31,
+      "wicCorrectOptionCount": 0
+    },
+    "catholic": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "cause": {
+      "questionCount": 23,
+      "mentionCount": 27,
+      "wicCorrectOptionCount": 0
+    },
+    "cautious": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "cease": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "census": {
+      "questionCount": 4,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "central": {
+      "questionCount": 35,
+      "mentionCount": 62,
+      "wicCorrectOptionCount": 0
+    },
+    "certain": {
+      "questionCount": 76,
+      "mentionCount": 92,
+      "wicCorrectOptionCount": 0
+    },
+    "challenge": {
+      "questionCount": 24,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "change": {
+      "questionCount": 50,
+      "mentionCount": 89,
+      "wicCorrectOptionCount": 0
+    },
+    "characteristic": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "charitable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "choose": {
+      "questionCount": 15,
+      "mentionCount": 22,
+      "wicCorrectOptionCount": 1
+    },
+    "chronological": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "circumvent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "cite": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "citizen": {
+      "questionCount": 7,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "civic": {
+      "questionCount": 5,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "civilian": {
+      "questionCount": 1,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "claim": {
+      "questionCount": 160,
+      "mentionCount": 194,
+      "wicCorrectOptionCount": 0
+    },
+    "clarify": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "clarity": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "classification": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "classify": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "clear": {
+      "questionCount": 26,
+      "mentionCount": 29,
+      "wicCorrectOptionCount": 0
+    },
+    "clinical": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "coarse": {
+      "questionCount": 3,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "coherence": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "coherent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "collaborate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "collaboration": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "collateral": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "collect": {
+      "questionCount": 14,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "collected": {
+      "questionCount": 35,
+      "mentionCount": 60,
+      "wicCorrectOptionCount": 1
+    },
+    "combine": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "combined": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "commission": {
+      "questionCount": 1,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "commonalities": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "communicate": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "compact": {
+      "questionCount": 1,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "comparable": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "comparison": {
+      "questionCount": 21,
+      "mentionCount": 21,
+      "wicCorrectOptionCount": 0
+    },
+    "compete": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "competence": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "competent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "compile": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "complement": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "complementary": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "complete": {
+      "questionCount": 97,
+      "mentionCount": 101,
+      "wicCorrectOptionCount": 0
+    },
+    "complex": {
+      "questionCount": 23,
+      "mentionCount": 28,
+      "wicCorrectOptionCount": 0
+    },
+    "complexity": {
+      "questionCount": 7,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "compliance": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "component": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "comprehend": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "comprehensive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "compress": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "comprises": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "compromise": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "concede": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "conceive": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "concentrated": {
+      "questionCount": 6,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 1
+    },
+    "concept": {
+      "questionCount": 13,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "conception": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "concerned": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "concerted": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "concise": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "conclude": {
+      "questionCount": 13,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "conclusion": {
+      "questionCount": 76,
+      "mentionCount": 79,
+      "wicCorrectOptionCount": 0
+    },
+    "conclusive": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "concurrent": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "conducive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "conduct": {
+      "questionCount": 6,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "confer": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "confident": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "confine": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "confined": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "confirm": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 1
+    },
+    "conform": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "confounding": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "confront": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "conjecture": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "conjectures": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "consecrate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "consensus": {
+      "questionCount": 5,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "consequence": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "consequently": {
+      "questionCount": 16,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "conservative": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "consider": {
+      "questionCount": 26,
+      "mentionCount": 31,
+      "wicCorrectOptionCount": 0
+    },
+    "considerable": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "considerably": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "consist": {
+      "questionCount": 7,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "consistency": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "consistent": {
+      "questionCount": 22,
+      "mentionCount": 27,
+      "wicCorrectOptionCount": 1
+    },
+    "console": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "conspicuous": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "constituent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "constitute": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "constrain": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "constraint": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "construct": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "contempt": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "contend": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "contentious": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "context": {
+      "questionCount": 20,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "contingent": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "continue": {
+      "questionCount": 14,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "contract": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "contradict": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "contradicted": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "contradiction": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "contrast": {
+      "questionCount": 64,
+      "mentionCount": 70,
+      "wicCorrectOptionCount": 0
+    },
+    "contribute": {
+      "questionCount": 11,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "contributing": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "controversial": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "convention": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "conventional": {
+      "questionCount": 12,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "converge": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "conversely": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "convert": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "convey": {
+      "questionCount": 15,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "convincing": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "coordinate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "core": {
+      "questionCount": 7,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "corollary": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "corporation": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "correct": {
+      "questionCount": 13,
+      "mentionCount": 14,
+      "wicCorrectOptionCount": 0
+    },
+    "correlation": {
+      "questionCount": 12,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "corroborate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "corroboration": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "cosmic": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "counteract": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "counterfactual": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "create": {
+      "questionCount": 63,
+      "mentionCount": 71,
+      "wicCorrectOptionCount": 1
+    },
+    "created": {
+      "questionCount": 74,
+      "mentionCount": 108,
+      "wicCorrectOptionCount": 1
+    },
+    "creating": {
+      "questionCount": 37,
+      "mentionCount": 39,
+      "wicCorrectOptionCount": 1
+    },
+    "credence": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "credibility": {
+      "questionCount": 1,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "credible": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "criteria": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "critical": {
+      "questionCount": 18,
+      "mentionCount": 22,
+      "wicCorrectOptionCount": 0
+    },
+    "critique": {
+      "questionCount": 9,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "crucial": {
+      "questionCount": 17,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "cryptic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "cultivate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "cultural": {
+      "questionCount": 37,
+      "mentionCount": 49,
+      "wicCorrectOptionCount": 0
+    },
+    "cumulative": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "cyclical": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "cynicism": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "data": {
+      "questionCount": 196,
+      "mentionCount": 330,
+      "wicCorrectOptionCount": 0
+    },
+    "decay": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "decide": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "decline": {
+      "questionCount": 14,
+      "mentionCount": 23,
+      "wicCorrectOptionCount": 0
+    },
+    "decrease": {
+      "questionCount": 11,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "defend": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "deference": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "defied": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "defunct": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "deleterious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "deliberate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "delicate": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "demarcated": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "democracy": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "demographic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "demonstrate": {
+      "questionCount": 15,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "demonstrating": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "denigrate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "denote": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "deny": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "depended": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "depict": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "derivative": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "derive": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "describe": {
+      "questionCount": 55,
+      "mentionCount": 63,
+      "wicCorrectOptionCount": 0
+    },
+    "despite": {
+      "questionCount": 42,
+      "mentionCount": 43,
+      "wicCorrectOptionCount": 0
+    },
+    "destructive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "detailed": {
+      "questionCount": 22,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "deter": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "determine": {
+      "questionCount": 55,
+      "mentionCount": 59,
+      "wicCorrectOptionCount": 0
+    },
+    "develop": {
+      "questionCount": 24,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "developed": {
+      "questionCount": 48,
+      "mentionCount": 60,
+      "wicCorrectOptionCount": 1
+    },
+    "dexterous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "dictate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "differentiate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "dilemma": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "dimension": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "diminish": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "dire": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "discern": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "disconcerting": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "discourage": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "discourse": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "discreet": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "discrepancy": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "discretion": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "disdain": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "disheveled": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "dismissive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "disparage": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "disparate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "dispassionate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "disperse": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "displayed": {
+      "questionCount": 17,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 1
+    },
+    "dispute": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "disseminate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "dissonance": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "distant": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "distinct": {
+      "questionCount": 25,
+      "mentionCount": 31,
+      "wicCorrectOptionCount": 1
+    },
+    "distinction": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "distinguish": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "diverge": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "divergent": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "diverse": {
+      "questionCount": 22,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 1
+    },
+    "diversification": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "divulge": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "doctrine": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "dogmatic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "dominance": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "dormant": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "doubt": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "dramatically": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "eager": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "easily": {
+      "questionCount": 17,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 1
+    },
+    "eccentric": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "eclipse": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "economic": {
+      "questionCount": 19,
+      "mentionCount": 46,
+      "wicCorrectOptionCount": 0
+    },
+    "effect": {
+      "questionCount": 56,
+      "mentionCount": 81,
+      "wicCorrectOptionCount": 0
+    },
+    "effective": {
+      "questionCount": 26,
+      "mentionCount": 36,
+      "wicCorrectOptionCount": 1
+    },
+    "efficiency": {
+      "questionCount": 11,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "efficient": {
+      "questionCount": 6,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 1
+    },
+    "egalitarian": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "elaborate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "elasticity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "elegy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "element": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "elicit": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "elusive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "embrace": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "embraced": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "emerge": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "emit": {
+      "questionCount": 7,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "emphasize": {
+      "questionCount": 80,
+      "mentionCount": 83,
+      "wicCorrectOptionCount": 0
+    },
+    "empirical": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "employ": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "empty": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "enable": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "encourage": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "endeavor": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "endorse": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "endure": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "engaged": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "engender": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "engendering": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "enhance": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "enigma": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "enmity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "ensuring": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "entail": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "enthusiasm": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "enthusiastic": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "envy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "ephemera": {
+      "questionCount": 1,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "ephemeral": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "equanimity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "equitable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "erroneous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "essential": {
+      "questionCount": 14,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "essentially": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "establish": {
+      "questionCount": 14,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "esteem": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "ethereal": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "evaluate": {
+      "questionCount": 21,
+      "mentionCount": 22,
+      "wicCorrectOptionCount": 0
+    },
+    "evaluation": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "evidence": {
+      "questionCount": 89,
+      "mentionCount": 110,
+      "wicCorrectOptionCount": 1
+    },
+    "evident": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "evoke": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "evolve": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exacerbate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exact": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "exacting": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exactitude": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "examine": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "excerpt": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "excessive": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exclude": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "exemplary": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exemplifies": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "exemplify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exercise": {
+      "questionCount": 6,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "exert": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exhaustive": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "exhilarating": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "expand": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "expect": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "expedite": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "expend": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "expertise": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "exploit": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "exploited": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "explore": {
+      "questionCount": 17,
+      "mentionCount": 21,
+      "wicCorrectOptionCount": 0
+    },
+    "expose": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "exposure": {
+      "questionCount": 17,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 1
+    },
+    "express": {
+      "questionCount": 11,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "extend": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "extended": {
+      "questionCount": 15,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "extensive": {
+      "questionCount": 13,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "extol": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "extract": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "extraneous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "extraordinary": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "extreme": {
+      "questionCount": 17,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "exuberant": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "fabricated": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "facilitate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "factor": {
+      "questionCount": 15,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 1
+    },
+    "fade": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "false": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "fauna": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "favorable": {
+      "questionCount": 3,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "feature": {
+      "questionCount": 23,
+      "mentionCount": 30,
+      "wicCorrectOptionCount": 0
+    },
+    "featured": {
+      "questionCount": 28,
+      "mentionCount": 36,
+      "wicCorrectOptionCount": 2
+    },
+    "fervent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "finalize": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "finishing": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "fiscal": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "flawed": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "flexible": {
+      "questionCount": 8,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "flourish": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "fluctuate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "fluctuations": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "follow": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 1
+    },
+    "forecast": {
+      "questionCount": 4,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "formulate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "foster": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "foundational": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "fragile": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "framework": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "frank": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "freedom": {
+      "questionCount": 6,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "frequently": {
+      "questionCount": 29,
+      "mentionCount": 33,
+      "wicCorrectOptionCount": 0
+    },
+    "frivolous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "fruitful": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "fulfill": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "fulfills": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "function": {
+      "questionCount": 80,
+      "mentionCount": 83,
+      "wicCorrectOptionCount": 0
+    },
+    "fundamental": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "fundamentally": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "furthermore": {
+      "questionCount": 12,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "gain": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "gather": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "gathers": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "generally": {
+      "questionCount": 39,
+      "mentionCount": 45,
+      "wicCorrectOptionCount": 0
+    },
+    "generate": {
+      "questionCount": 12,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "genre": {
+      "questionCount": 15,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "gentle": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "genuine": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "geographic": {
+      "questionCount": 8,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "gradually": {
+      "questionCount": 20,
+      "mentionCount": 174,
+      "wicCorrectOptionCount": 0
+    },
+    "halt": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "hampered": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "handmade": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "haphazard": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "harmful": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "harsh": {
+      "questionCount": 9,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 1
+    },
+    "healthy": {
+      "questionCount": 10,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "hearing": {
+      "questionCount": 7,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "held": {
+      "questionCount": 43,
+      "mentionCount": 56,
+      "wicCorrectOptionCount": 1
+    },
+    "hesitant": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "heterogeneous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "hierarchy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "highlight": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "hinder": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "historical": {
+      "questionCount": 50,
+      "mentionCount": 76,
+      "wicCorrectOptionCount": 0
+    },
+    "homogeneous": {
+      "questionCount": 4,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 2
+    },
+    "hopeful": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "however": {
+      "questionCount": 167,
+      "mentionCount": 191,
+      "wicCorrectOptionCount": 0
+    },
+    "hypothesis": {
+      "questionCount": 46,
+      "mentionCount": 70,
+      "wicCorrectOptionCount": 0
+    },
+    "hypothesize": {
+      "questionCount": 11,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "hypothetical": {
+      "questionCount": 6,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "identify": {
+      "questionCount": 31,
+      "mentionCount": 33,
+      "wicCorrectOptionCount": 0
+    },
+    "identity": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "illogical": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "illustrate": {
+      "questionCount": 28,
+      "mentionCount": 28,
+      "wicCorrectOptionCount": 0
+    },
+    "imagery": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "imaginable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "imitation": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "impact": {
+      "questionCount": 33,
+      "mentionCount": 52,
+      "wicCorrectOptionCount": 0
+    },
+    "impart": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "impartial": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "impede": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "impending": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "impenetrable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "impertinent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "impervious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "implement": {
+      "questionCount": 6,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "implication": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "implicit": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "imply": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "important": {
+      "questionCount": 67,
+      "mentionCount": 73,
+      "wicCorrectOptionCount": 1
+    },
+    "imposing": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "imprecise": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "improve": {
+      "questionCount": 22,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "impulsive": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "inaccurate": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "inadequate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "incensed": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "include": {
+      "questionCount": 42,
+      "mentionCount": 47,
+      "wicCorrectOptionCount": 0
+    },
+    "incongruous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "inconsequential": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "inconsistent": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "incorporate": {
+      "questionCount": 9,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "increase": {
+      "questionCount": 51,
+      "mentionCount": 73,
+      "wicCorrectOptionCount": 0
+    },
+    "increasingly": {
+      "questionCount": 16,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "independent": {
+      "questionCount": 14,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "indicate": {
+      "questionCount": 28,
+      "mentionCount": 29,
+      "wicCorrectOptionCount": 0
+    },
+    "indicator": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "indifference": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "indifferent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "induce": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "inducement": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "indulge": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "industry": {
+      "questionCount": 18,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "inertia": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "inevitable": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "inevitably": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "inexpensive": {
+      "questionCount": 5,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "inexperienced": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "infer": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "influence": {
+      "questionCount": 44,
+      "mentionCount": 51,
+      "wicCorrectOptionCount": 0
+    },
+    "influenced": {
+      "questionCount": 32,
+      "mentionCount": 37,
+      "wicCorrectOptionCount": 1
+    },
+    "ingenious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "inherent": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "inherently": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "inhibit": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "initiate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "innate": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "innocuous": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "innovative": {
+      "questionCount": 12,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "insignificant": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "insist": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "inspect": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "inspecting": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "inspire": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "inspired": {
+      "questionCount": 45,
+      "mentionCount": 54,
+      "wicCorrectOptionCount": 1
+    },
+    "instituting": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "institution": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "insufficient": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "insurmountable": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "intangible": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "integral": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 2
+    },
+    "interconnected": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "interpret": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "interpretation": {
+      "questionCount": 9,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "interrupt": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "intersect": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "intrepid": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "intricate": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "introduced": {
+      "questionCount": 24,
+      "mentionCount": 30,
+      "wicCorrectOptionCount": 1
+    },
+    "invalidate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "inventive": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "inversion": {
+      "questionCount": 1,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "invested": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "investigate": {
+      "questionCount": 17,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "inviting": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "involuntarily": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "involve": {
+      "questionCount": 13,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "involved": {
+      "questionCount": 25,
+      "mentionCount": 33,
+      "wicCorrectOptionCount": 1
+    },
+    "irrational": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "irrelevant": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "jurisdiction": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "justify": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "key": {
+      "questionCount": 15,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "laconic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "lament": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "languid": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "latent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "laudable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "lead": {
+      "questionCount": 16,
+      "mentionCount": 25,
+      "wicCorrectOptionCount": 0
+    },
+    "legislation": {
+      "questionCount": 3,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "legitimate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "liberty": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "limit": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "limited": {
+      "questionCount": 27,
+      "mentionCount": 32,
+      "wicCorrectOptionCount": 0
+    },
+    "linear": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "livid": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "locomotion": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "logical": {
+      "questionCount": 416,
+      "mentionCount": 417,
+      "wicCorrectOptionCount": 0
+    },
+    "lucid": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "lucrative": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "maintain": {
+      "questionCount": 13,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 0
+    },
+    "malleable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "manifest": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "marginal": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "marginalize": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "mastery": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "mechanism": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "mediate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "mediated": {
+      "questionCount": 3,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "melodic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "metaphor": {
+      "questionCount": 3,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "method": {
+      "questionCount": 38,
+      "mentionCount": 65,
+      "wicCorrectOptionCount": 0
+    },
+    "methodology": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "meticulous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "minimal": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "minimize": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "minor": {
+      "questionCount": 11,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "mitigate": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 1
+    },
+    "moderate": {
+      "questionCount": 4,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "modern": {
+      "questionCount": 48,
+      "mentionCount": 68,
+      "wicCorrectOptionCount": 0
+    },
+    "modest": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "modify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "momentary": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "monarchy": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "mood": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "moreover": {
+      "questionCount": 26,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "mother": {
+      "questionCount": 23,
+      "mentionCount": 47,
+      "wicCorrectOptionCount": 1
+    },
+    "motif": {
+      "questionCount": 1,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "myopic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "narrative": {
+      "questionCount": 20,
+      "mentionCount": 30,
+      "wicCorrectOptionCount": 0
+    },
+    "narrow": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "negating": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "negative": {
+      "questionCount": 26,
+      "mentionCount": 53,
+      "wicCorrectOptionCount": 0
+    },
+    "neglect": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "negligible": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 1
+    },
+    "neutral": {
+      "questionCount": 5,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "nevertheless": {
+      "questionCount": 39,
+      "mentionCount": 39,
+      "wicCorrectOptionCount": 0
+    },
+    "newfound": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "notable": {
+      "questionCount": 17,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "notably": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "notional": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "novel": {
+      "questionCount": 132,
+      "mentionCount": 197,
+      "wicCorrectOptionCount": 0
+    },
+    "nuanced": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "nullify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "objective": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "obscure": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "observant": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "observation": {
+      "questionCount": 13,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 0
+    },
+    "obsolete": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "obtain": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "obvious": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "occasionally": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "oddity": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "offered": {
+      "questionCount": 12,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "ominous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "onset": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "opaque": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 2
+    },
+    "optimistic": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "optimize": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "organization": {
+      "questionCount": 11,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "organize": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "organized": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "original": {
+      "questionCount": 31,
+      "mentionCount": 38,
+      "wicCorrectOptionCount": 1
+    },
+    "originate": {
+      "questionCount": 7,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "ornate": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "ostensibly": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "ostentatious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "outcome": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "outline": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "overcome": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "overjoyed": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "overlook": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 1
+    },
+    "overshadowed": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "overtly": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "paradigm": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "paradox": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "paramount": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "partial": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "particular": {
+      "questionCount": 38,
+      "mentionCount": 47,
+      "wicCorrectOptionCount": 1
+    },
+    "particularly": {
+      "questionCount": 18,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "partner": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "partnership": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "passage": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "pattern": {
+      "questionCount": 16,
+      "mentionCount": 31,
+      "wicCorrectOptionCount": 0
+    },
+    "patterns": {
+      "questionCount": 24,
+      "mentionCount": 29,
+      "wicCorrectOptionCount": 1
+    },
+    "paucity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "peculiar": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "penchant": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "perceptible": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "perception": {
+      "questionCount": 6,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "perform": {
+      "questionCount": 21,
+      "mentionCount": 24,
+      "wicCorrectOptionCount": 0
+    },
+    "periodic": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "peripheral": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "permit": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "persist": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "persistent": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "perspective": {
+      "questionCount": 13,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "persuasive": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "pertinent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "phenomenon": {
+      "questionCount": 25,
+      "mentionCount": 31,
+      "wicCorrectOptionCount": 0
+    },
+    "philanthropic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "plain": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "plateau": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "plausible": {
+      "questionCount": 8,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 0
+    },
+    "plethora": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "policy": {
+      "questionCount": 7,
+      "mentionCount": 44,
+      "wicCorrectOptionCount": 0
+    },
+    "political": {
+      "questionCount": 37,
+      "mentionCount": 73,
+      "wicCorrectOptionCount": 0
+    },
+    "ponder": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "popularize": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "population": {
+      "questionCount": 50,
+      "mentionCount": 103,
+      "wicCorrectOptionCount": 0
+    },
+    "portray": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "positive": {
+      "questionCount": 21,
+      "mentionCount": 40,
+      "wicCorrectOptionCount": 0
+    },
+    "potential": {
+      "questionCount": 38,
+      "mentionCount": 46,
+      "wicCorrectOptionCount": 0
+    },
+    "pragmatic": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "pragmatism": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "precarious": {
+      "questionCount": 1,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "precise": {
+      "questionCount": 232,
+      "mentionCount": 232,
+      "wicCorrectOptionCount": 0
+    },
+    "precision": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "preclude": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "predecessor": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "predict": {
+      "questionCount": 16,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 0
+    },
+    "predicted": {
+      "questionCount": 13,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "predominantly": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "premise": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "prescribed": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "preserve": {
+      "questionCount": 17,
+      "mentionCount": 18,
+      "wicCorrectOptionCount": 1
+    },
+    "preserving": {
+      "questionCount": 12,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "presume": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "prevent": {
+      "questionCount": 10,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "preventable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "priced": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "primarily": {
+      "questionCount": 30,
+      "mentionCount": 38,
+      "wicCorrectOptionCount": 0
+    },
+    "primary": {
+      "questionCount": 18,
+      "mentionCount": 23,
+      "wicCorrectOptionCount": 0
+    },
+    "principal": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "principle": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "pristine": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "procedure": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "process": {
+      "questionCount": 62,
+      "mentionCount": 103,
+      "wicCorrectOptionCount": 0
+    },
+    "produce": {
+      "questionCount": 49,
+      "mentionCount": 68,
+      "wicCorrectOptionCount": 0
+    },
+    "productive": {
+      "questionCount": 2,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "productivity": {
+      "questionCount": 4,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "profound": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "progress": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "progressive": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "prolific": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "prominent": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 0
+    },
+    "promote": {
+      "questionCount": 14,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 1
+    },
+    "prompt": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "propensity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "proponent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "prosaic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "protagonist": {
+      "questionCount": 7,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "protect": {
+      "questionCount": 14,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "protective": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "provide": {
+      "questionCount": 55,
+      "mentionCount": 60,
+      "wicCorrectOptionCount": 2
+    },
+    "providing": {
+      "questionCount": 21,
+      "mentionCount": 29,
+      "wicCorrectOptionCount": 1
+    },
+    "provincial": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "provocative": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "provoke": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "proxies": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "prudent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "pulled": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "punctilious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "purpose": {
+      "questionCount": 68,
+      "mentionCount": 72,
+      "wicCorrectOptionCount": 0
+    },
+    "pursue": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "quality": {
+      "questionCount": 19,
+      "mentionCount": 21,
+      "wicCorrectOptionCount": 0
+    },
+    "quantitative": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "question": {
+      "questionCount": 32,
+      "mentionCount": 37,
+      "wicCorrectOptionCount": 0
+    },
+    "questionable": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "questionnaire": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "quotation": {
+      "questionCount": 67,
+      "mentionCount": 67,
+      "wicCorrectOptionCount": 0
+    },
+    "radical": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "rarely": {
+      "questionCount": 13,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 1
+    },
+    "rational": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "raw": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "readily": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "reason": {
+      "questionCount": 38,
+      "mentionCount": 39,
+      "wicCorrectOptionCount": 0
+    },
+    "reasonable": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "recalcitrant": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "receptive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "reciprocate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "reciprocates": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "recognizable": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "recognize": {
+      "questionCount": 20,
+      "mentionCount": 23,
+      "wicCorrectOptionCount": 1
+    },
+    "rectify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "reduce": {
+      "questionCount": 15,
+      "mentionCount": 20,
+      "wicCorrectOptionCount": 0
+    },
+    "reduced": {
+      "questionCount": 12,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "redundant": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "reference": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "reflect": {
+      "questionCount": 20,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 1
+    },
+    "reform": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "reforms": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "refuse": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "refute": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "regulation": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "reinforce": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "reject": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "relatively": {
+      "questionCount": 49,
+      "mentionCount": 58,
+      "wicCorrectOptionCount": 0
+    },
+    "relentless": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "relevant": {
+      "questionCount": 210,
+      "mentionCount": 212,
+      "wicCorrectOptionCount": 0
+    },
+    "relinquish": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "reluctant": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "relying": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "remain": {
+      "questionCount": 19,
+      "mentionCount": 20,
+      "wicCorrectOptionCount": 0
+    },
+    "renounce": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "replenishes": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "represent": {
+      "questionCount": 22,
+      "mentionCount": 27,
+      "wicCorrectOptionCount": 0
+    },
+    "republic": {
+      "questionCount": 5,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "repudiates": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "reputation": {
+      "questionCount": 8,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "requires": {
+      "questionCount": 29,
+      "mentionCount": 37,
+      "wicCorrectOptionCount": 1
+    },
+    "resident": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "resilient": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "resistance": {
+      "questionCount": 11,
+      "mentionCount": 14,
+      "wicCorrectOptionCount": 1
+    },
+    "resolve": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "responsive": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "restive": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "restrict": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "result": {
+      "questionCount": 82,
+      "mentionCount": 88,
+      "wicCorrectOptionCount": 0
+    },
+    "retain": {
+      "questionCount": 9,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "retention": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "reticent": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "reuse": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "reveal": {
+      "questionCount": 19,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 0
+    },
+    "review": {
+      "questionCount": 12,
+      "mentionCount": 40,
+      "wicCorrectOptionCount": 0
+    },
+    "revise": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "rhetoric": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "rigid": {
+      "questionCount": 5,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "rival": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "role": {
+      "questionCount": 44,
+      "mentionCount": 50,
+      "wicCorrectOptionCount": 0
+    },
+    "roughly": {
+      "questionCount": 34,
+      "mentionCount": 41,
+      "wicCorrectOptionCount": 0
+    },
+    "rousing": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "rudimentary": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "salient": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "sample": {
+      "questionCount": 9,
+      "mentionCount": 21,
+      "wicCorrectOptionCount": 0
+    },
+    "sanguine": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "satire": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "saturated": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "scale": {
+      "questionCount": 9,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "scarce": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "scorn": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "seclusion": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "secondary": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "secrete": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "sector": {
+      "questionCount": 3,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "secure": {
+      "questionCount": 8,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "seemed": {
+      "questionCount": 16,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 1
+    },
+    "seemingly": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "sensitive": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "sentiment": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "sequential": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "settle": {
+      "questionCount": 6,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "sheer": {
+      "questionCount": 2,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "shift": {
+      "questionCount": 20,
+      "mentionCount": 21,
+      "wicCorrectOptionCount": 0
+    },
+    "significant": {
+      "questionCount": 54,
+      "mentionCount": 61,
+      "wicCorrectOptionCount": 0
+    },
+    "signify": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "similarities": {
+      "questionCount": 11,
+      "mentionCount": 14,
+      "wicCorrectOptionCount": 1
+    },
+    "similarly": {
+      "questionCount": 48,
+      "mentionCount": 48,
+      "wicCorrectOptionCount": 0
+    },
+    "simple": {
+      "questionCount": 15,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "simulate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "simultaneous": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "skeptical": {
+      "questionCount": 7,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "skill": {
+      "questionCount": 6,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "slight": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "sober": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "social": {
+      "questionCount": 57,
+      "mentionCount": 114,
+      "wicCorrectOptionCount": 0
+    },
+    "solemn": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "sound": {
+      "questionCount": 34,
+      "mentionCount": 67,
+      "wicCorrectOptionCount": 0
+    },
+    "source": {
+      "questionCount": 22,
+      "mentionCount": 28,
+      "wicCorrectOptionCount": 1
+    },
+    "spans": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 2
+    },
+    "sparingly": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "sparse": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "spawn": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "speculate": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 1
+    },
+    "speculates": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 1
+    },
+    "sporadic": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "spur": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "spurious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "stable": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "stagnant": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "state": {
+      "questionCount": 52,
+      "mentionCount": 78,
+      "wicCorrectOptionCount": 0
+    },
+    "static": {
+      "questionCount": 2,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "steady": {
+      "questionCount": 6,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "stimulated": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "stop": {
+      "questionCount": 9,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "straightforward": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 1
+    },
+    "strategy": {
+      "questionCount": 8,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "strengthen": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "stress": {
+      "questionCount": 10,
+      "mentionCount": 17,
+      "wicCorrectOptionCount": 0
+    },
+    "stretching": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "strive": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "structure": {
+      "questionCount": 69,
+      "mentionCount": 84,
+      "wicCorrectOptionCount": 0
+    },
+    "struggle": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "stymie": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "subjective": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "subsequent": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "subsequently": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "substantial": {
+      "questionCount": 13,
+      "mentionCount": 15,
+      "wicCorrectOptionCount": 1
+    },
+    "substantially": {
+      "questionCount": 21,
+      "mentionCount": 26,
+      "wicCorrectOptionCount": 0
+    },
+    "substantiate": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "subtle": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "successful": {
+      "questionCount": 24,
+      "mentionCount": 30,
+      "wicCorrectOptionCount": 1
+    },
+    "sufficient": {
+      "questionCount": 11,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "suggest": {
+      "questionCount": 69,
+      "mentionCount": 72,
+      "wicCorrectOptionCount": 0
+    },
+    "suitable": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "summarize": {
+      "questionCount": 8,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "summary": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "superficial": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "superseded": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "support": {
+      "questionCount": 168,
+      "mentionCount": 174,
+      "wicCorrectOptionCount": 0
+    },
+    "supposition": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "suppress": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "surface": {
+      "questionCount": 64,
+      "mentionCount": 160,
+      "wicCorrectOptionCount": 0
+    },
+    "surmised": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "surreptitiously": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "survey": {
+      "questionCount": 32,
+      "mentionCount": 45,
+      "wicCorrectOptionCount": 0
+    },
+    "susceptible": {
+      "questionCount": 7,
+      "mentionCount": 7,
+      "wicCorrectOptionCount": 0
+    },
+    "suspect": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "suspend": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "sustain": {
+      "questionCount": 4,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "symbolism": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "synchronization": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "syntax": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "synthesis": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "synthetic": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "take": {
+      "questionCount": 31,
+      "mentionCount": 35,
+      "wicCorrectOptionCount": 1
+    },
+    "talk": {
+      "questionCount": 7,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 1
+    },
+    "tangential": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "tangible": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "technique": {
+      "questionCount": 16,
+      "mentionCount": 27,
+      "wicCorrectOptionCount": 0
+    },
+    "tedious": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "temperament": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "temperate": {
+      "questionCount": 3,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "tendency": {
+      "questionCount": 9,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "tenuous": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "theme": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "theorize": {
+      "questionCount": 1,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "theory": {
+      "questionCount": 30,
+      "mentionCount": 67,
+      "wicCorrectOptionCount": 1
+    },
+    "therefore": {
+      "questionCount": 86,
+      "mentionCount": 86,
+      "wicCorrectOptionCount": 0
+    },
+    "thesis": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "thorough": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "thrive": {
+      "questionCount": 13,
+      "mentionCount": 16,
+      "wicCorrectOptionCount": 0
+    },
+    "time": {
+      "questionCount": 212,
+      "mentionCount": 318,
+      "wicCorrectOptionCount": 1
+    },
+    "tolerate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "tone": {
+      "questionCount": 7,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "toward": {
+      "questionCount": 32,
+      "mentionCount": 42,
+      "wicCorrectOptionCount": 2
+    },
+    "trace": {
+      "questionCount": 7,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 1
+    },
+    "traced": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "traditional": {
+      "questionCount": 53,
+      "mentionCount": 68,
+      "wicCorrectOptionCount": 1
+    },
+    "trait": {
+      "questionCount": 7,
+      "mentionCount": 10,
+      "wicCorrectOptionCount": 0
+    },
+    "tranquil": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "transcending": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "transform": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "transformed": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "transient": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "transparent": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "tremendous": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "trend": {
+      "questionCount": 12,
+      "mentionCount": 13,
+      "wicCorrectOptionCount": 0
+    },
+    "trigger": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "turbulent": {
+      "questionCount": 3,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "typical": {
+      "questionCount": 18,
+      "mentionCount": 20,
+      "wicCorrectOptionCount": 0
+    },
+    "typically": {
+      "questionCount": 59,
+      "mentionCount": 64,
+      "wicCorrectOptionCount": 0
+    },
+    "ubiquitous": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "ubiquity": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 1
+    },
+    "ultimately": {
+      "questionCount": 19,
+      "mentionCount": 20,
+      "wicCorrectOptionCount": 0
+    },
+    "unassuming": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "uncertain": {
+      "questionCount": 4,
+      "mentionCount": 4,
+      "wicCorrectOptionCount": 0
+    },
+    "unclear": {
+      "questionCount": 10,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "undermine": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "underscore": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "undertake": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "uniform": {
+      "questionCount": 9,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 1
+    },
+    "unimportant": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 1
+    },
+    "unique": {
+      "questionCount": 39,
+      "mentionCount": 47,
+      "wicCorrectOptionCount": 0
+    },
+    "unprecedented": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "unpredictable": {
+      "questionCount": 5,
+      "mentionCount": 5,
+      "wicCorrectOptionCount": 0
+    },
+    "unscrupulous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "unwarranted": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "unwilling": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "urge": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "use": {
+      "questionCount": 144,
+      "mentionCount": 219,
+      "wicCorrectOptionCount": 0
+    },
+    "utilize": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "vague": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "valid": {
+      "questionCount": 4,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "validate": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 1
+    },
+    "validity": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "variable": {
+      "questionCount": 5,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 1
+    },
+    "varied": {
+      "questionCount": 16,
+      "mentionCount": 22,
+      "wicCorrectOptionCount": 0
+    },
+    "venerable": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "verify": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "versatile": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "vex": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "viable": {
+      "questionCount": 7,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 0
+    },
+    "vital": {
+      "questionCount": 5,
+      "mentionCount": 8,
+      "wicCorrectOptionCount": 0
+    },
+    "vivid": {
+      "questionCount": 6,
+      "mentionCount": 9,
+      "wicCorrectOptionCount": 1
+    },
+    "vow": {
+      "questionCount": 1,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    },
+    "wary": {
+      "questionCount": 3,
+      "mentionCount": 3,
+      "wicCorrectOptionCount": 0
+    },
+    "welcome": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "whereas": {
+      "questionCount": 57,
+      "mentionCount": 91,
+      "wicCorrectOptionCount": 0
+    },
+    "whimsical": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "widen": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "widespread": {
+      "questionCount": 11,
+      "mentionCount": 12,
+      "wicCorrectOptionCount": 1
+    },
+    "willing": {
+      "questionCount": 6,
+      "mentionCount": 6,
+      "wicCorrectOptionCount": 0
+    },
+    "withstand": {
+      "questionCount": 8,
+      "mentionCount": 11,
+      "wicCorrectOptionCount": 0
+    },
+    "worsen": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "yield": {
+      "questionCount": 5,
+      "mentionCount": 19,
+      "wicCorrectOptionCount": 0
+    },
+    "zealous": {
+      "questionCount": 1,
+      "mentionCount": 1,
+      "wicCorrectOptionCount": 0
+    },
+    "zenith": {
+      "questionCount": 2,
+      "mentionCount": 2,
+      "wicCorrectOptionCount": 0
+    }
+  }
+}

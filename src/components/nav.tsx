@@ -46,8 +46,8 @@ export function Nav() {
         <Link href="/lessons" className={pill(pathname.startsWith("/lessons"))}>
           Lessons
         </Link>
-        <Link href="/study" className={pill(pathname === "/study")}>
-          Vocab
+        <Link href="/vocab" className={pill(pathname.startsWith("/vocab") || pathname === "/study")}>
+          Vocabulary
         </Link>
         <Link href="/daily-quiz" className={pill(pathname === "/daily-quiz")}>
           Quiz

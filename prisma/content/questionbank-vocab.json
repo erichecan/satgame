@@ -1,0 +1,3902 @@
+[
+  {
+    "word": "abrupt",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something which is abrupt; an abyss.",
+    "exampleEn": "The party came to an abrupt end when the parents of our host arrived.",
+    "synonyms": [
+      "broken",
+      "rough",
+      "rugged"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "accept",
+    "partOfSpeech": "verb",
+    "definitionEn": "to agree to receive or take something offered",
+    "exampleEn": "She decided to accept the job offer after much thought.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "accessible",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Easy of access or approach.",
+    "exampleEn": "an accessible town or mountain",
+    "synonyms": [
+      "approachable",
+      "easy-going",
+      "friendly"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "accidental",
+    "partOfSpeech": "noun",
+    "definitionEn": "A property which is not essential; a nonessential; anything happening accidentally.",
+    "exampleEn": null,
+    "synonyms": [
+      "adventitious",
+      "casual",
+      "contingent"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "account",
+    "partOfSpeech": "noun",
+    "definitionEn": "A registry of pecuniary transactions; a written or printed statement of business dealings or debts and credits, and also of other things subjected to a reckoning or review.",
+    "exampleEn": "to keep one's account at the bank.",
+    "synonyms": [
+      "accounting",
+      "explanation",
+      "defense"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 27,
+    "mentionCount": 34,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "acknowledged",
+    "partOfSpeech": "verb",
+    "definitionEn": "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in",
+    "exampleEn": "to acknowledge the being of a god",
+    "synonyms": [
+      "admit",
+      "allow",
+      "avow"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 8,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "acquired",
+    "partOfSpeech": "verb",
+    "definitionEn": "To get.",
+    "exampleEn": "He acquired a title.",
+    "synonyms": [
+      "attain",
+      "come by",
+      "earn"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 17,
+    "mentionCount": 19,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "adapt",
+    "partOfSpeech": "v.",
+    "definitionEn": "to make suit a new purpose; to accommodate oneself to a new condition, setting, or situation",
+    "exampleEn": "The US has adapted many foreign foods to better suit the tastes of Americans. Dogs are known for their ability to quickly adapt to their environments.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "adhere",
+    "partOfSpeech": "verb",
+    "definitionEn": "To stick fast or cleave, as a glutinous substance does; to become joined or united.",
+    "exampleEn": "wax adhered to his finger",
+    "synonyms": [
+      "cleave",
+      "cling",
+      "stick"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "advantageous",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Providing an advantage; favorable to one's interest.",
+    "exampleEn": "Signing the contract early proved advantageous once prices rose.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 6,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "alarmed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To call to arms for defense",
+    "exampleEn": "This door is alarmed.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "ambiguity",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something, particularly words and sentences, that is open to more than one interpretation, explanation or meaning, if that meaning etc cannot be determined from its context.",
+    "exampleEn": "His speech was made with such great ambiguity that neither supporter nor opponent could be certain of his true position.",
+    "synonyms": [
+      "ambiguousness",
+      "imprecision",
+      "polysemy"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "ambivalence",
+    "partOfSpeech": "n.",
+    "definitionEn": "the state of being uncertain or stuck between two or more options",
+    "exampleEn": "His ambivalence prevented him from immediately signing the contract.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "among",
+    "partOfSpeech": "preposition",
+    "definitionEn": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)",
+    "exampleEn": "How can you speak with authority about their customs when you have never lived among them?",
+    "synonyms": [
+      "amid",
+      "amidst",
+      "amongst"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 130,
+    "mentionCount": 163,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "analogy",
+    "partOfSpeech": "noun",
+    "definitionEn": "A relationship of resemblance or equivalence between two situations, people, or objects, especially when used as a basis for explanation or extrapolation.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "anomaly",
+    "partOfSpeech": "n.",
+    "definitionEn": "something different from the norm",
+    "exampleEn": "This result is an anomaly and very rarely happens.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "arduous",
+    "partOfSpeech": "adjective",
+    "definitionEn": "involving great effort or difficulty; strenuous",
+    "exampleEn": "The arduous hike up the mountain took nearly ten hours and left the climbers exhausted.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "arriving",
+    "partOfSpeech": "verb",
+    "definitionEn": "To reach; to get to a certain place.",
+    "exampleEn": "He arrived home for two days.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "asserted",
+    "partOfSpeech": "verb",
+    "definitionEn": "To declare with assurance or plainly and strongly; to state positively.",
+    "exampleEn": "Salman Rushdie has asserted his right to be identified as the author of this work.",
+    "synonyms": [
+      "affirm",
+      "asseverate",
+      "aver"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "attractive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Causing attraction; having the quality of attracting by inherent force.",
+    "exampleEn": "That's a very attractive offer.",
+    "synonyms": [
+      "magnetic"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "attributed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To ascribe (something) to a given cause, reason etc.",
+    "exampleEn": "This poem is attributed to Browning.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 13,
+    "mentionCount": 13,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "atypical",
+    "partOfSpeech": "noun",
+    "definitionEn": "An atypical antipsychotic.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "available",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Such as one may avail oneself of; capable of being used for the accomplishment of a purpose.",
+    "exampleEn": "We have an available candidate.",
+    "synonyms": [
+      "effectual",
+      "valid",
+      "advantageous"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 35,
+    "mentionCount": 43,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "buttress",
+    "partOfSpeech": "noun",
+    "definitionEn": "A brick or stone structure built against another structure to support it.",
+    "exampleEn": null,
+    "synonyms": [
+      "brace",
+      "counterfort"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "calculation",
+    "partOfSpeech": "noun",
+    "definitionEn": "The act or process of calculating.",
+    "exampleEn": "By my calculation, we should be there by midnight.",
+    "synonyms": [
+      "sum",
+      "computation",
+      "evaluation"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "catalyst",
+    "partOfSpeech": "noun",
+    "definitionEn": "a person or thing that causes an important change or event",
+    "exampleEn": "The factory closure became the catalyst for a wave of protests across the town.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "categorize",
+    "partOfSpeech": "verb",
+    "definitionEn": "to place things into particular groups based on similarities",
+    "exampleEn": "The librarian had to categorize hundreds of new books by subject.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "characteristic",
+    "partOfSpeech": "noun",
+    "definitionEn": "a feature or quality typical of a person, place, or thing",
+    "exampleEn": "Bright orange feathers are a defining characteristic of the male cardinal.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 10,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "choose",
+    "partOfSpeech": "verb",
+    "definitionEn": "To pick; to make the choice of; to select.",
+    "exampleEn": "I chose a nice ripe apple from the fruit bowl.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 15,
+    "mentionCount": 22,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "commonalities",
+    "partOfSpeech": "noun",
+    "definitionEn": "The common people; the commonalty",
+    "exampleEn": null,
+    "synonyms": [
+      "commonship"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "comparable",
+    "partOfSpeech": "adj.",
+    "definitionEn": "able to be compared",
+    "exampleEn": "This novel is comparable to Huckleberry Finn.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "competent",
+    "partOfSpeech": "adj.",
+    "definitionEn": "sufficiently qualified",
+    "exampleEn": "create a good website for our company. Though he had never won any awards or even",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "complementary",
+    "partOfSpeech": "noun",
+    "definitionEn": "A complementary colour.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "complexity",
+    "partOfSpeech": "noun",
+    "definitionEn": "The state of being complex; intricacy; entanglement.",
+    "exampleEn": null,
+    "synonyms": [
+      "complicacy"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 7,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "comprehend",
+    "partOfSpeech": "verb",
+    "definitionEn": "to understand something fully",
+    "exampleEn": "It took her a moment to comprehend the complicated instructions.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "comprises",
+    "partOfSpeech": "verb",
+    "definitionEn": "To be made up of; to consist of (especially a comprehensive list of parts).",
+    "exampleEn": "Our committee comprises a president, secretary, treasurer and five other members.",
+    "synonyms": [
+      "form",
+      "make up"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "concede",
+    "partOfSpeech": "v.",
+    "definitionEn": "to be forced to agree or surrender; to admit to a transgression",
+    "exampleEn": "With no chance of winning the battle, the army at last conceded. Dan conceded to pranking his sister.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "concentrated",
+    "partOfSpeech": "verb",
+    "definitionEn": "To bring to, or direct toward, a common center; to unite more closely; to gather into one body, mass, or force.",
+    "exampleEn": "We made a drink from concentrated orange juice.",
+    "synonyms": [
+      "strong"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 15,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "confined",
+    "partOfSpeech": "verb",
+    "definitionEn": "To restrict; to keep within bounds; to shut or keep in a limited space or area.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "confirm",
+    "partOfSpeech": "verb",
+    "definitionEn": "to state or show that something is true or correct",
+    "exampleEn": "The lab results confirmed the doctor's initial diagnosis.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 9,
+    "mentionCount": 9,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "conform",
+    "partOfSpeech": "verb",
+    "definitionEn": "to comply with rules, standards, or expectations",
+    "exampleEn": "New employees are expected to conform to the company's dress code.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "conjectures",
+    "partOfSpeech": "noun",
+    "definitionEn": "A statement or an idea which is unproven, but is thought to be true; a guess.",
+    "exampleEn": "I explained it, but it is pure conjecture whether he understood, or not.",
+    "synonyms": [
+      "halseny"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "consensus",
+    "partOfSpeech": "n.",
+    "definitionEn": "overall agreement",
+    "exampleEn": "a consensus.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "consistent",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Always acting or behaving in the same way; unchanging.",
+    "exampleEn": "Her consistent effort throughout the season earned her the team captaincy.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 22,
+    "mentionCount": 27,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "constraint",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something that constrains; a restriction.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "contingent",
+    "partOfSpeech": "noun",
+    "definitionEn": "An event which may or may not happen; that which is unforeseen, undetermined, or dependent on something future.",
+    "exampleEn": "The success of his undertaking is contingent upon events which he cannot control.",
+    "synonyms": [
+      "contingency",
+      "proportion",
+      "casual"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "contradicted",
+    "partOfSpeech": "verb",
+    "definitionEn": "To deny the truth of (a statement or statements).",
+    "exampleEn": "His testimony contradicts hers.",
+    "synonyms": [
+      "controvert",
+      "deny",
+      "disconfirm"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "contributing",
+    "partOfSpeech": "verb",
+    "definitionEn": "To give something that is or becomes part of a larger whole.",
+    "exampleEn": "to contribute articles to a journal",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 7,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "corroborate",
+    "partOfSpeech": "v.",
+    "definitionEn": "to provide evidence for; to back up (a claim)",
+    "exampleEn": "The note signed by her father corroborates her claim that she was absent from class that day.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "counterfactual",
+    "partOfSpeech": "noun",
+    "definitionEn": "A claim, hypothesis, or other belief that is contrary to the facts.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "create",
+    "partOfSpeech": "verb",
+    "definitionEn": "to bring something new into existence",
+    "exampleEn": "The artist used scraps of metal to create a striking sculpture.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 63,
+    "mentionCount": 71,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "created",
+    "partOfSpeech": "verb",
+    "definitionEn": "To bring into existence; (sometimes in particular:)",
+    "exampleEn": "A sudden chemical spill on the highway created a chain‐collision which created a record traffic jam.",
+    "synonyms": [
+      "generate"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 74,
+    "mentionCount": 108,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "creating",
+    "partOfSpeech": "verb",
+    "definitionEn": "To bring into existence; (sometimes in particular:)",
+    "exampleEn": "Children usually enjoy creating, never mind if it is of any use!",
+    "synonyms": [
+      "generate"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 37,
+    "mentionCount": 39,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "defied",
+    "partOfSpeech": "verb",
+    "definitionEn": "To challenge (someone) or brave (a hazard or opposition).",
+    "exampleEn": "to defy an enemy;   to defy the power of a magistrate;   to defy the arguments of an opponent;   to defy public opinion",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "defunct",
+    "partOfSpeech": "noun",
+    "definitionEn": "The dead person (referred to).",
+    "exampleEn": null,
+    "synonyms": [
+      "antiquated",
+      "disused",
+      "outdated"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "demarcated",
+    "partOfSpeech": "verb",
+    "definitionEn": "To mark the limits or boundaries of something; to delimit.",
+    "exampleEn": null,
+    "synonyms": [
+      "delimit",
+      "delineate",
+      "demark"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "dictate",
+    "partOfSpeech": "noun",
+    "definitionEn": "An order or command.",
+    "exampleEn": "I must obey the dictates of my conscience.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "diminish",
+    "partOfSpeech": "v.",
+    "definitionEn": "to become smaller in scope or degree",
+    "exampleEn": "The itchiness of mosquito bites usually starts to diminish after a few days.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "discern",
+    "partOfSpeech": "verb",
+    "definitionEn": "to perceive or recognize something clearly, especially something not obvious",
+    "exampleEn": "Through the fog, the sailors could barely discern the outline of the lighthouse.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "disparate",
+    "partOfSpeech": "adjective",
+    "definitionEn": "very different from each other, so as to seem unrelated",
+    "exampleEn": "The exhibit brought together disparate art forms, from ancient pottery to digital animation.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "displayed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To show conspicuously; to exhibit; to demonstrate; to manifest.",
+    "exampleEn": null,
+    "synonyms": [
+      "splay"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 17,
+    "mentionCount": 19,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "distant",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Far off (physically, logically or mentally).",
+    "exampleEn": "We heard a distant rumbling but didn't pay any more attention to it.   She was surprised to find that her fiancé was a distant relative of hers.   His distant look showed that he was not listening to me.",
+    "synonyms": [
+      "aloof",
+      "cold",
+      "faraway"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 10,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "distinct",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Capable of being perceived very clearly.",
+    "exampleEn": "Her voice was distinct despite the heavy traffic.",
+    "synonyms": [
+      "clear",
+      "vivid",
+      "different"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 25,
+    "mentionCount": 31,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "diverse",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Showing a great deal of variety; very different from one another.",
+    "exampleEn": "The city's diverse population speaks more than forty languages.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 22,
+    "mentionCount": 26,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "dogmatic",
+    "partOfSpeech": "adjective",
+    "definitionEn": "insisting that one's own beliefs are true without allowing for debate",
+    "exampleEn": "His dogmatic refusal to consider other opinions made group discussions frustrating.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "dominance",
+    "partOfSpeech": "noun",
+    "definitionEn": "The state of being dominant; of prime importance; supremacy.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "dormant",
+    "partOfSpeech": "adjective",
+    "definitionEn": "temporarily inactive but capable of becoming active later",
+    "exampleEn": "The volcano had been dormant for centuries before it suddenly erupted last year.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "easily",
+    "partOfSpeech": "adverb",
+    "definitionEn": "Comfortably, without discomfort or anxiety.",
+    "exampleEn": "Individuals without a family network are easily controlled.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 17,
+    "mentionCount": 18,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "effective",
+    "partOfSpeech": "noun",
+    "definitionEn": "A soldier fit for duty",
+    "exampleEn": "The pill is an effective method of birth control.",
+    "synonyms": [
+      "efficacious"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 26,
+    "mentionCount": 36,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "efficient",
+    "partOfSpeech": "noun",
+    "definitionEn": "A cause; something that causes an effect",
+    "exampleEn": "An efficient process would automate all the routine work.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 13,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "elasticity",
+    "partOfSpeech": "noun",
+    "definitionEn": "The property by virtue of which a material deformed under load can regain its original dimensions when unloaded",
+    "exampleEn": "If the sales of an item drop by 5% when the price increases by 10%, its price elasticity is -0.5.",
+    "synonyms": [
+      "point elasticity"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "embraced",
+    "partOfSpeech": "verb",
+    "definitionEn": "To clasp (someone or each other) in the arms with affection; to take in the arms; to hug.",
+    "exampleEn": null,
+    "synonyms": [
+      "accept",
+      "entwine",
+      "surround"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "empty",
+    "partOfSpeech": "noun",
+    "definitionEn": "(usually plural) A container, especially a bottle, whose contents have been used up, leaving it empty.",
+    "exampleEn": "an empty purse; an empty jug; an empty stomach",
+    "synonyms": [
+      "clean",
+      "clear",
+      "leer"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "engendering",
+    "partOfSpeech": "verb",
+    "definitionEn": "To beget (of a man); to bear or conceive (of a woman).",
+    "exampleEn": null,
+    "synonyms": [
+      "assemble",
+      "beget",
+      "conjure"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "ensuring",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make a pledge to (someone); to promise, guarantee (someone of something); to assure.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 11,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "enthusiasm",
+    "partOfSpeech": "noun",
+    "definitionEn": "Possession by a god; divine inspiration or frenzy.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "esteem",
+    "partOfSpeech": "noun",
+    "definitionEn": "Favourable regard.",
+    "exampleEn": "We hold her in high esteem.",
+    "synonyms": [
+      "cherish",
+      "respect",
+      "revere"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "evidence",
+    "partOfSpeech": "noun",
+    "definitionEn": "facts or information that show whether something is true or valid",
+    "exampleEn": "The lawyer presented photographs and receipts as evidence that her client was elsewhere that night.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 89,
+    "mentionCount": 110,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "exhaustive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "covering all possible details or aspects; extremely thorough",
+    "exampleEn": "The detective conducted an exhaustive search of the property before leaving.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "extended",
+    "partOfSpeech": "verb",
+    "definitionEn": "To increase in extent.",
+    "exampleEn": "The desert extended for miles in all directions.",
+    "synonyms": [
+      "enlarge",
+      "expand",
+      "increase"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 15,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "extensive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Covering a large area or a great range of items.",
+    "exampleEn": "The museum houses an extensive collection of ancient artifacts.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 13,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "extraordinary",
+    "partOfSpeech": "noun",
+    "definitionEn": "Anything that goes beyond what is ordinary.",
+    "exampleEn": "an extraordinary poet",
+    "synonyms": [
+      "exceptional",
+      "noteworthy",
+      "outstanding"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "factor",
+    "partOfSpeech": "noun",
+    "definitionEn": "one of several things that influences or causes a result",
+    "exampleEn": "Rainfall was the biggest factor in the farmer's decision to plant later than usual.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 15,
+    "mentionCount": 15,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "featured",
+    "partOfSpeech": "verb",
+    "definitionEn": "To ascribe the greatest importance to something within a certain context.",
+    "exampleEn": "This month's featured products are on the first page of the catalogue.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 28,
+    "mentionCount": 36,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "finishing",
+    "partOfSpeech": "verb",
+    "definitionEn": "To complete (something).",
+    "exampleEn": "That guy's a slow and lazy player, but he's got excellent finishing",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "fluctuations",
+    "partOfSpeech": "noun",
+    "definitionEn": "A motion like that of waves; a moving in this and that direction.",
+    "exampleEn": "the fluctuations of the sea",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "follow",
+    "partOfSpeech": "noun",
+    "definitionEn": "(sometimes attributive) In billiards and similar games, a stroke causing a ball to follow another ball after hitting it.",
+    "exampleEn": "a follow shot",
+    "synonyms": [
+      "ensue",
+      "pursue",
+      "tail"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 9,
+    "mentionCount": 10,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "foster",
+    "partOfSpeech": "noun",
+    "definitionEn": "A foster parent.",
+    "exampleEn": "foster parents",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "foundational",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Of, or relating to a foundation or foundations",
+    "exampleEn": null,
+    "synonyms": [
+      "groundlaying"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "fragile",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Easily broken or destroyed, and thus often of subtle or intricate structure.",
+    "exampleEn": "He is a very fragile person and gets easily depressed.",
+    "synonyms": [
+      "breakable",
+      "breakly",
+      "destroyable"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "fruitful",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Producing good and useful results; successful.",
+    "exampleEn": "Their collaboration proved fruitful, resulting in a groundbreaking discovery.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "fulfills",
+    "partOfSpeech": "verb",
+    "definitionEn": "To satisfy, carry out, bring to completion (an obligation, a requirement, etc.).",
+    "exampleEn": "You made a promise, son, and now you must fulfill it.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "gathers",
+    "partOfSpeech": "noun",
+    "definitionEn": "A plait or fold in cloth, made by drawing a thread through it; a pucker.",
+    "exampleEn": null,
+    "synonyms": [
+      "aggroup",
+      "togetherize"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "gentle",
+    "partOfSpeech": "noun",
+    "definitionEn": "A person of high birth.",
+    "exampleEn": "Stuart is a gentle man; he would never hurt you.",
+    "synonyms": [
+      "friendly",
+      "kind",
+      "polite"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "hampered",
+    "partOfSpeech": "verb",
+    "definitionEn": "To put into a hamper.",
+    "exampleEn": "Competition pigeons are hampered for the truck trip to the point of release where the race back starts.",
+    "synonyms": [
+      "embarrass",
+      "encumber",
+      "hinder"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "handmade",
+    "partOfSpeech": "noun",
+    "definitionEn": "An art or craft object made by hand.",
+    "exampleEn": "handmade shoes",
+    "synonyms": [
+      "handcrafted"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "haphazard",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Random; chaotic; incomplete; not thorough, constant, or consistent.",
+    "exampleEn": "Do not make such haphazard changes to the settings; instead, adjust the knobs carefully, a bit at a time.",
+    "synonyms": [
+      "chaotic",
+      "random"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "harsh",
+    "partOfSpeech": "verb",
+    "definitionEn": "To negatively criticize.",
+    "exampleEn": "Quit harshing me already, I said that I was sorry!",
+    "synonyms": [
+      "rough"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 9,
+    "mentionCount": 15,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "healthy",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Enjoying health and vigor of body, mind, or spirit: well.",
+    "exampleEn": "He was father to three healthy kids.",
+    "synonyms": [
+      "healthful"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 10,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "hearing",
+    "partOfSpeech": "verb",
+    "definitionEn": "(stative) To perceive sounds through the ear.",
+    "exampleEn": "My hearing isn't what it used to be, but I still heard that noise.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 7,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "held",
+    "partOfSpeech": "verb",
+    "definitionEn": "To grasp or grip.",
+    "exampleEn": "Elections will be held on the first Sunday of next month.",
+    "synonyms": [
+      "clasp",
+      "grasp",
+      "grip"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 43,
+    "mentionCount": 56,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "hinder",
+    "partOfSpeech": "verb",
+    "definitionEn": "to make progress or action difficult; to get in the way.",
+    "exampleEn": "Heavy snow hindered the rescue team's efforts to reach the hikers.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "homogeneous",
+    "partOfSpeech": "adjective",
+    "definitionEn": "consisting of parts or elements that are all the same type",
+    "exampleEn": "The classroom was surprisingly homogeneous, with students sharing nearly identical backgrounds.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 4,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "impede",
+    "partOfSpeech": "verb",
+    "definitionEn": "to slow down or block the progress of something.",
+    "exampleEn": "Fallen trees impeded traffic along the mountain road.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "impenetrable",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Not penetrable.",
+    "exampleEn": "The fortress is impenetrable, so it cannot be taken.",
+    "synonyms": [
+      "impregnable",
+      "unfathomable"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "implement",
+    "partOfSpeech": "verb",
+    "definitionEn": "to put a plan or decision into effect",
+    "exampleEn": "The school decided to implement a new grading system next semester.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 6,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "important",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Having relevant and crucial value.",
+    "exampleEn": "It is very important to give your daughter independence in her life so she learns from experience.",
+    "synonyms": [
+      "significant",
+      "weighty"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 67,
+    "mentionCount": 73,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inadequate",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Not enough or not good enough for a particular purpose.",
+    "exampleEn": "The hospital's staffing was inadequate to handle the sudden surge of patients.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inconsequential",
+    "partOfSpeech": "adjective",
+    "definitionEn": "not important; of no significant effect",
+    "exampleEn": "He dismissed the typo as inconsequential compared to the report's overall findings.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "independent",
+    "partOfSpeech": "noun",
+    "definitionEn": "A candidate or voter not affiliated with any political party, a freethinker, free of a party platform.",
+    "exampleEn": "the independent candidate",
+    "synonyms": [
+      "autonomous",
+      "free",
+      "selfstanding"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 14,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "indicator",
+    "partOfSpeech": "noun",
+    "definitionEn": "A pointer or index that indicates something.",
+    "exampleEn": null,
+    "synonyms": [
+      "blinker",
+      "directional",
+      "directional signal"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inducement",
+    "partOfSpeech": "noun",
+    "definitionEn": "An incentive that helps bring about a desired state. In some contexts, this can imply bribery.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "indulge",
+    "partOfSpeech": "v.",
+    "definitionEn": "to give into; to satisfy or gratify",
+    "exampleEn": "My friend loves to indulge in cheesy romance movies.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inertia",
+    "partOfSpeech": "noun",
+    "definitionEn": "The property of a body that resists any change to its uniform motion; equivalent to its mass.",
+    "exampleEn": null,
+    "synonyms": [
+      "idleness",
+      "laziness",
+      "sloth"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inexpensive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Low in price",
+    "exampleEn": null,
+    "synonyms": [
+      "cheap",
+      "economical"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inexperienced",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Not experienced; lacking knowledge or experience; green.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "influenced",
+    "partOfSpeech": "verb",
+    "definitionEn": "To have an effect on by using gentle or subtle action; to exert an influence upon; to modify, bias, or sway; to persuade or induce.",
+    "exampleEn": "I must admit that this book influenced my outlook on life.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 32,
+    "mentionCount": 37,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "innocuous",
+    "partOfSpeech": "adjective",
+    "definitionEn": "not harmful or offensive",
+    "exampleEn": "The comment seemed innocuous at first, but it later caused an argument.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inspecting",
+    "partOfSpeech": "verb",
+    "definitionEn": "To examine critically or carefully; especially, to search out problems or determine condition; to scrutinize.",
+    "exampleEn": "Inspect the system for leaks.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inspired",
+    "partOfSpeech": "verb",
+    "definitionEn": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
+    "exampleEn": "The actor's inspired performance of Hamlet's soliloquy left the audience dumbfounded.",
+    "synonyms": [
+      "beghast"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 45,
+    "mentionCount": 54,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "instituting",
+    "partOfSpeech": "verb",
+    "definitionEn": "To begin or initiate (something); to found.",
+    "exampleEn": "He instituted the new policy of having children walk through a metal detector to enter school.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "insurmountable",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Incapable of being passed over, surmounted, or overcome; insuperable",
+    "exampleEn": "Getting everybody to agree proved to be an insurmountable difficulty.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "intangible",
+    "partOfSpeech": "noun",
+    "definitionEn": "Anything intangible",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "integral",
+    "partOfSpeech": "noun",
+    "definitionEn": "A number, the limit of the sums computed in a process in which the domain of a function is divided into small subsets and a possibly nominal value of the function on each subset is multiplied by the measure of that subset, all these products then being summed.",
+    "exampleEn": "The integral of x\\mapsto x^2 on [0,1] is \\frac{1}{3}.",
+    "synonyms": [
+      "antiderivative",
+      "indefinite integral",
+      "∫"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "interconnected",
+    "partOfSpeech": "verb",
+    "definitionEn": "To connect to one another.",
+    "exampleEn": "The Internet interconnects a set of networks.",
+    "synonyms": [
+      "anastomose"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "interpret",
+    "partOfSpeech": "verb",
+    "definitionEn": "to explain the meaning of something, especially something unclear",
+    "exampleEn": "Historians continue to interpret the ancient text in different ways.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "intersect",
+    "partOfSpeech": "verb",
+    "definitionEn": "To cut into or between; to cut or cross mutually; to divide into parts.",
+    "exampleEn": "Any two diameters of a circle intersect each other at the centre.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "intricate",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Very complicated or detailed in pattern or design.",
+    "exampleEn": "The watchmaker assembled the intricate gears with a steady hand.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 10,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inventive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Of, or relating to invention; pertaining to the act of devising new mechanisms or processes.",
+    "exampleEn": "an inventive pursuit",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "inviting",
+    "partOfSpeech": "verb",
+    "definitionEn": "To ask for the presence or participation of someone or something.",
+    "exampleEn": "We invited our friends round for dinner.",
+    "synonyms": [
+      "ask out",
+      "ask for",
+      "encourage"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "involuntarily",
+    "partOfSpeech": "adverb",
+    "definitionEn": "In an involuntary manner; done without conscious thought.",
+    "exampleEn": "He involuntarily overheard the conversation.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "involved",
+    "partOfSpeech": "verb",
+    "definitionEn": "To roll or fold up; to wind round; to entwine.",
+    "exampleEn": "He's involved in the crime.",
+    "synonyms": [
+      "complicate",
+      "embarrass",
+      "entangle"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 25,
+    "mentionCount": 33,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "irrelevant",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Not related, not applicable, unimportant, not connected.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "justify",
+    "partOfSpeech": "verb",
+    "definitionEn": "to show or prove that something is right or reasonable",
+    "exampleEn": "The manager had to justify the budget cuts to the entire staff.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "latent",
+    "partOfSpeech": "adjective",
+    "definitionEn": "present but not yet developed or manifest; hidden",
+    "exampleEn": "The coach recognized a latent talent in the shy freshman.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "manifest",
+    "partOfSpeech": "noun",
+    "definitionEn": "A list or invoice of the passengers or goods being carried by a commercial vehicle or ship.",
+    "exampleEn": null,
+    "synonyms": [
+      "apparent",
+      "clear",
+      "distinct"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "marginalize",
+    "partOfSpeech": "verb",
+    "definitionEn": "To relegate (something, especially a topic or a group of people) to the margins or to a lower limit; to exclude socially or otherwise.",
+    "exampleEn": null,
+    "synonyms": [
+      "alienate",
+      "invisibilize",
+      "peripheralize"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "mediated",
+    "partOfSpeech": "verb",
+    "definitionEn": "To resolve differences, or to bring about a settlement, between conflicting parties.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "melodic",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Of, relating to, or having melody.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "mitigate",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make something less severe or harmful.",
+    "exampleEn": "A proper warm-up can mitigate the risk of injury.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 10,
+    "mentionCount": 10,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "modest",
+    "partOfSpeech": "adj.",
+    "definitionEn": "simple and humble; small in size or amount",
+    "exampleEn": "I received a modest sum of money for my help at the company event.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "mother",
+    "partOfSpeech": "noun",
+    "definitionEn": "A (human) female who has given birth to a baby",
+    "exampleEn": "He had something of his mother in him.",
+    "synonyms": [
+      "father",
+      "granddaddy",
+      "grandfather"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 23,
+    "mentionCount": 47,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "negating",
+    "partOfSpeech": "verb",
+    "definitionEn": "To deny the existence, evidence, or truth of; to contradict.",
+    "exampleEn": "The investigation tending to negate any supernatural influences.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "neglect",
+    "partOfSpeech": "noun",
+    "definitionEn": "The act of neglecting.",
+    "exampleEn": "to neglect duty or business;  to neglect to pay debts",
+    "synonyms": [
+      "carelessness",
+      "negligence",
+      "let slide"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "negligible",
+    "partOfSpeech": "adjective",
+    "definitionEn": "so small or unimportant that it is not worth considering",
+    "exampleEn": "The difference in price between the two brands was negligible, so she bought whichever was closer.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 6,
+    "mentionCount": 7,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "newfound",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Recently found; newly discovered.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "notional",
+    "partOfSpeech": "noun",
+    "definitionEn": "A fake company used as a front in espionage.",
+    "exampleEn": "This paper proposes a notional Federated Identity Management (FIM) architecture.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "nullify",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make legally invalid.",
+    "exampleEn": "The contract has been nullified.",
+    "synonyms": [
+      "annul",
+      "cancel"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "observant",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Alert and paying close attention; watchful.",
+    "exampleEn": "The observant police officer noticed that my tax disk was out-of-date.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "obtain",
+    "partOfSpeech": "verb",
+    "definitionEn": "to get or acquire something, usually through effort",
+    "exampleEn": "Students must obtain permission from a teacher before leaving campus.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "oddity",
+    "partOfSpeech": "noun",
+    "definitionEn": "An odd or strange thing or opinion.",
+    "exampleEn": null,
+    "synonyms": [
+      "kook",
+      "odd duck",
+      "oddball"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "offered",
+    "partOfSpeech": "verb",
+    "definitionEn": "To propose or express one's willingness (to do something).",
+    "exampleEn": "She offered to help with her homework.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 12,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "opaque",
+    "partOfSpeech": "adjective",
+    "definitionEn": "not able to be seen through, or difficult to understand.",
+    "exampleEn": "The company's opaque pricing policy left customers confused about hidden fees.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "optimize",
+    "partOfSpeech": "verb",
+    "definitionEn": "(originally intransitive) To act optimistically or as an optimist.",
+    "exampleEn": null,
+    "synonyms": [
+      "enhance",
+      "hone",
+      "improve"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "organized",
+    "partOfSpeech": "verb",
+    "definitionEn": "To arrange in working order.",
+    "exampleEn": "an organized being",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 7,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "original",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Not copied or imitated; new and inventive.",
+    "exampleEn": "Her original composition impressed the judges at the music competition.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 31,
+    "mentionCount": 38,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "overcome",
+    "partOfSpeech": "verb",
+    "definitionEn": "to successfully deal with or defeat a problem or difficulty",
+    "exampleEn": "The team had to overcome a ten-point deficit to win the championship.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "particular",
+    "partOfSpeech": "noun",
+    "definitionEn": "A small individual part of something larger; a detail, a point.",
+    "exampleEn": "I couldn't find the particular model you asked for, but I hope this one will do.",
+    "synonyms": [
+      "optimized",
+      "specialistic"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 38,
+    "mentionCount": 47,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "partnership",
+    "partOfSpeech": "noun",
+    "definitionEn": "The state of being associated with a partner.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "patterns",
+    "partOfSpeech": "noun",
+    "definitionEn": "Model, example.",
+    "exampleEn": null,
+    "synonyms": [
+      "original",
+      "stencil",
+      "tessellation"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 24,
+    "mentionCount": 29,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "paucity",
+    "partOfSpeech": "noun",
+    "definitionEn": "a smallness or scarcity of amount.",
+    "exampleEn": "The report cited a paucity of clean water in the drought-stricken region.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "perceptible",
+    "partOfSpeech": "noun",
+    "definitionEn": "Anything that can be perceived.",
+    "exampleEn": "Her voice was barely perceptible over the noise, but her gestures made her meaning clear.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "perception",
+    "partOfSpeech": "noun",
+    "definitionEn": "The organisation, identification and interpretation of sensory information.",
+    "exampleEn": null,
+    "synonyms": [
+      "ken"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "peripheral",
+    "partOfSpeech": "adjective",
+    "definitionEn": "relating to a minor or less important part of something.",
+    "exampleEn": "The committee decided the budget issue was peripheral to the main proposal.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "persistent",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Obstinately refusing to give up or let go.",
+    "exampleEn": "She has had a persistent cough for weeks.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "popularize",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make popular.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "predicted",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make a prediction: to forecast, foretell, or estimate a future event on the basis of knowledge and reasoning; to prophesy a future event on the basis of mystical knowledge or power.",
+    "exampleEn": null,
+    "synonyms": [
+      "forespeak",
+      "forespell",
+      "foretell"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 13,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "prescribed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To order (a drug or medical device) for use by a particular patient (under licensed authority).",
+    "exampleEn": "The doctor prescribed aspirin.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "preserve",
+    "partOfSpeech": "verb",
+    "definitionEn": "to keep something safe and unchanged, especially from damage or loss.",
+    "exampleEn": "The organization works to preserve historic buildings in the city.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 17,
+    "mentionCount": 18,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "preserving",
+    "partOfSpeech": "verb",
+    "definitionEn": "To protect; to keep from harm or injury.",
+    "exampleEn": "Every people have the right to preserve its identity and culture.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 12,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "preventable",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something that can be prevented.",
+    "exampleEn": null,
+    "synonyms": [
+      "preventible"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "priced",
+    "partOfSpeech": "verb",
+    "definitionEn": "To determine the monetary value of (an item); to put a price on.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "promote",
+    "partOfSpeech": "verb",
+    "definitionEn": "To raise (someone) to a more important, responsible, or remunerative job or rank.",
+    "exampleEn": "At the end of Primary 6 students can promote directly to the secondary section of SIS.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 14,
+    "mentionCount": 15,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "proponent",
+    "partOfSpeech": "noun",
+    "definitionEn": "One who supports something; an advocate",
+    "exampleEn": null,
+    "synonyms": [
+      "exponent"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "protect",
+    "partOfSpeech": "verb",
+    "definitionEn": "To keep safe; to defend; to guard; to prevent harm coming to.",
+    "exampleEn": "Condoms are designed to protect against sexually-transmitted diseases.",
+    "synonyms": [
+      "bergh",
+      "beshield"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 14,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "protective",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something that protects.",
+    "exampleEn": "Mother bears are famously protective of their cubs.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "provide",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make a living; earn money for necessities.",
+    "exampleEn": "It is difficult to provide for my family working on minimum wage.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 55,
+    "mentionCount": 60,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "providing",
+    "partOfSpeech": "verb",
+    "definitionEn": "To make a living; earn money for necessities.",
+    "exampleEn": "It is difficult to provide for my family working on minimum wage.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 21,
+    "mentionCount": 29,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "proxies",
+    "partOfSpeech": "noun",
+    "definitionEn": "An agent or substitute authorized to act for another person.",
+    "exampleEn": null,
+    "synonyms": [
+      "deputy",
+      "representative",
+      "substitute"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "prudent",
+    "partOfSpeech": null,
+    "definitionEn": "careful, wise",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "pulled",
+    "partOfSpeech": "verb",
+    "definitionEn": "To apply a force to (an object) so that it comes toward the person or thing applying the force.",
+    "exampleEn": "He's pulled that bird over there.",
+    "synonyms": [
+      "drag",
+      "tow",
+      "tug"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "rarely",
+    "partOfSpeech": "adverb",
+    "definitionEn": "not often; seldom",
+    "exampleEn": "Snow rarely falls in the coastal valley, so the children were thrilled by the flurries.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 13,
+    "mentionCount": 13,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "receptive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Capable of receiving something",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reciprocates",
+    "partOfSpeech": "verb",
+    "definitionEn": "To exchange two things, with both parties giving one thing and taking another thing.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "recognizable",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Able to be recognized",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "recognize",
+    "partOfSpeech": "verb",
+    "definitionEn": "to identify someone or something from previous knowledge or experience",
+    "exampleEn": "She could recognize her grandmother's handwriting from across the room.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 20,
+    "mentionCount": 23,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "rectify",
+    "partOfSpeech": "verb",
+    "definitionEn": "To heal (an organ or part of the body).",
+    "exampleEn": "to rectify the crisis",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reduced",
+    "partOfSpeech": "verb",
+    "definitionEn": "To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower.",
+    "exampleEn": "Hester Prynne was shocked at the condition to which she found the clergyman reduced.",
+    "synonyms": [
+      "inspissate",
+      "cut",
+      "decrease"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 12,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reflect",
+    "partOfSpeech": "verb",
+    "definitionEn": "to think seriously about past experiences or ideas.",
+    "exampleEn": "The teacher asked students to reflect on what they had learned that year.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 20,
+    "mentionCount": 26,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reforms",
+    "partOfSpeech": "noun",
+    "definitionEn": "The change of something that is defective, broken, inefficient or otherwise negative, in order to correct or improve it",
+    "exampleEn": "A major reform is needed to improve the efficiency in the factory.",
+    "synonyms": [
+      "amendment",
+      "correction",
+      "rectification"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "relying",
+    "partOfSpeech": "verb",
+    "definitionEn": "(with on or upon, formerly also with in) to trust; to have confidence in; to depend.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "replenishes",
+    "partOfSpeech": "verb",
+    "definitionEn": "To refill; to renew; to supply again or to add a fresh quantity to.",
+    "exampleEn": "It's a popular product, and they have to replenish their stock of it frequently.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "repudiates",
+    "partOfSpeech": "verb",
+    "definitionEn": "To reject the truth or validity of; to deny.",
+    "exampleEn": null,
+    "synonyms": [
+      "contradict",
+      "deny",
+      "gainsay"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reputation",
+    "partOfSpeech": "noun",
+    "definitionEn": "What somebody is known for.",
+    "exampleEn": null,
+    "synonyms": [
+      "name"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 8,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "requires",
+    "partOfSpeech": "verb",
+    "definitionEn": "To ask (someone) for something; to request.",
+    "exampleEn": null,
+    "synonyms": [
+      "call for"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 29,
+    "mentionCount": 37,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "resistance",
+    "partOfSpeech": "noun",
+    "definitionEn": "The act of resisting, or the capacity to resist.",
+    "exampleEn": "the resistance of bacteria to certain antibiotics",
+    "synonyms": [
+      "opposition"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 11,
+    "mentionCount": 14,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "responsive",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Answering, replying or responding",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "reuse",
+    "partOfSpeech": "noun",
+    "definitionEn": "The act of salvaging or in some manner restoring a discarded item to yield something usable.",
+    "exampleEn": "Code reuse can save programmers a lot of typing.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "rousing",
+    "partOfSpeech": "verb",
+    "definitionEn": "To wake (someone) or be awoken from sleep, or from apathy.",
+    "exampleEn": "rousing music",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "rudimentary",
+    "partOfSpeech": "noun",
+    "definitionEn": "(usually in the plural) One of the rudimentary mammae of boars.",
+    "exampleEn": "I have only a rudimentary grasp of chemistry.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "seemed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To appear; to look outwardly; to be perceived as.",
+    "exampleEn": "He seems to be ill.   Her eyes seem blue.   It seems like it is going to rain later.   How did she seem to you?",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 16,
+    "mentionCount": 16,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "sensitive",
+    "partOfSpeech": "noun",
+    "definitionEn": "A person with a paranormal sensitivity to something that most cannot perceive.",
+    "exampleEn": "Max is very sensitive; he cried today because of the bad news.",
+    "synonyms": [
+      "aware",
+      "caring",
+      "classified"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 10,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "similarities",
+    "partOfSpeech": "noun",
+    "definitionEn": "Closeness of appearance to something else.",
+    "exampleEn": null,
+    "synonyms": [
+      "resemblance"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 11,
+    "mentionCount": 14,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "simulate",
+    "partOfSpeech": "verb",
+    "definitionEn": "To model, replicate, duplicate the behavior, appearance or properties of.",
+    "exampleEn": "We will use a smoke machine to simulate the fog you will actually encounter.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "source",
+    "partOfSpeech": "noun",
+    "definitionEn": "a person, document, or record that provides information",
+    "exampleEn": "The journalist refused to reveal her source for the leaked documents.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 22,
+    "mentionCount": 28,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "spans",
+    "partOfSpeech": "noun",
+    "definitionEn": "The space from the thumb to the end of the little finger when extended; nine inches; an eighth of a fathom.",
+    "exampleEn": "The novel spans three centuries.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 2,
+    "rank": 0
+  },
+  {
+    "word": "speculate",
+    "partOfSpeech": "verb",
+    "definitionEn": "to form a guess or opinion about something without firm evidence.",
+    "exampleEn": "Reporters speculated about the reasons behind the sudden resignation.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 5,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "speculates",
+    "partOfSpeech": "verb",
+    "definitionEn": "To think, meditate or reflect on a subject; to consider, to deliberate or cogitate.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 6,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "stimulated",
+    "partOfSpeech": "verb",
+    "definitionEn": "To encourage into action.",
+    "exampleEn": null,
+    "synonyms": [
+      "animate",
+      "arouse",
+      "energise"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "straightforward",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Uncomplicated and easy to understand or do.",
+    "exampleEn": "The application process was straightforward, requiring only a short form.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 4,
+    "mentionCount": 4,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "stretching",
+    "partOfSpeech": "noun",
+    "definitionEn": "The act by which something is stretched.",
+    "exampleEn": "To say crossing the street was brave is stretching the meaning of \"brave\" considerably.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "stymie",
+    "partOfSpeech": "verb",
+    "definitionEn": "to block or prevent progress on something",
+    "exampleEn": "A lack of funding stymied the research team's plans for a follow-up study.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "substantial",
+    "partOfSpeech": "adj.",
+    "definitionEn": "very large in amount or degree",
+    "exampleEn": "I was shocked to find a substantial amount of money beneath the park bench.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 13,
+    "mentionCount": 15,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "successful",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Resulting in success; assuring, or promoting, success; accomplishing what was proposed; having the desired effect",
+    "exampleEn": "a successful use of medicine;  a successful experiment;  a successful enterprise",
+    "synonyms": [
+      "tithe",
+      "accomplished",
+      "effective"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 24,
+    "mentionCount": 30,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "suitable",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Having sufficient or the required properties for a certain purpose or task; appropriate to a certain occasion.",
+    "exampleEn": null,
+    "synonyms": [
+      "fit for purpose",
+      "up to standard"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 10,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "superseded",
+    "partOfSpeech": "verb",
+    "definitionEn": "To take the place of.",
+    "exampleEn": "Those older products have been superseded by our new range.",
+    "synonyms": [
+      "replace",
+      "supplant",
+      "usurp"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "supposition",
+    "partOfSpeech": "noun",
+    "definitionEn": "Something that is supposed; an assumption made to account for known facts, conjecture.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "suppress",
+    "partOfSpeech": "verb",
+    "definitionEn": "To put an end to, especially with force, to crush, do away with; to prohibit, subdue.",
+    "exampleEn": "I struggled to suppress my smile.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "surmised",
+    "partOfSpeech": "verb",
+    "definitionEn": "To imagine or suspect; to conjecture; to posit with contestable premises.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "surreptitiously",
+    "partOfSpeech": "adverb",
+    "definitionEn": "In a surreptitious manner; stealthily, furtively, secretly.",
+    "exampleEn": null,
+    "synonyms": [
+      "furtively",
+      "secretly",
+      "stealthily"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "synchronization",
+    "partOfSpeech": "noun",
+    "definitionEn": "The state or property of being synchronized.",
+    "exampleEn": "The generator went off line when it lost synchronization with the power line.",
+    "synonyms": [
+      "synchroneity",
+      "synchronicity"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "take",
+    "partOfSpeech": "noun",
+    "definitionEn": "The or an act of taking.",
+    "exampleEn": "What's your take on this issue, Fred?",
+    "synonyms": [
+      "capture",
+      "conquer",
+      "seize"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 31,
+    "mentionCount": 35,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "tenuous",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Very weak, thin, or flimsy; lacking substance.",
+    "exampleEn": "The whole argument rested on tenuous evidence.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "theory",
+    "partOfSpeech": "noun",
+    "definitionEn": "a well-supported explanation of some aspect of the world, based on evidence and testing",
+    "exampleEn": "The theory of plate tectonics explains why earthquakes cluster along certain lines on the map.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 30,
+    "mentionCount": 67,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "tolerate",
+    "partOfSpeech": "verb",
+    "definitionEn": "to accept or put up with something unpleasant without complaint",
+    "exampleEn": "The manager said she would not tolerate any further lateness from her staff.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "trace",
+    "partOfSpeech": "noun",
+    "definitionEn": "An act of tracing.",
+    "exampleEn": "Your cell phone company can put a trace on your line.",
+    "synonyms": [
+      "track",
+      "trail"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 7,
+    "mentionCount": 8,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "traced",
+    "partOfSpeech": "verb",
+    "definitionEn": "To follow the trail of.",
+    "exampleEn": "He carefully traced the outlines of the old building before him.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "traditional",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Following long-established customs or beliefs.",
+    "exampleEn": "The family gathered for a traditional holiday meal passed down for generations.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 53,
+    "mentionCount": 68,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "tranquil",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Free from emotional or mental disturbance.",
+    "exampleEn": null,
+    "synonyms": [
+      "peaceful",
+      "calm",
+      "serene"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "transformed",
+    "partOfSpeech": "verb",
+    "definitionEn": "To change greatly the appearance or form of.",
+    "exampleEn": "The alchemists sought to transform lead into gold.",
+    "synonyms": [
+      "alter",
+      "change",
+      "convert"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "transparent",
+    "partOfSpeech": "adj.",
+    "definitionEn": "see-through; so thin that light can shine through; truthful or easy to perceive",
+    "exampleEn": "Stained window glass isn’t as transparent as regular window glass is. She was transparent about her plans to end her marriage.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "ubiquity",
+    "partOfSpeech": "noun",
+    "definitionEn": "The state or quality of being, or appearing to be, everywhere at once; actual or perceived omnipresence.",
+    "exampleEn": null,
+    "synonyms": [
+      "omnipresence"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 1,
+    "mentionCount": 1,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "unassuming",
+    "partOfSpeech": "adjective",
+    "definitionEn": "modest and not seeking attention",
+    "exampleEn": "Despite his fame, the actor remained unassuming and preferred quiet evenings at home.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "uniform",
+    "partOfSpeech": "adjective",
+    "definitionEn": "the same throughout, not varying",
+    "exampleEn": "The bricks were cut to a uniform size so they would fit together perfectly.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 9,
+    "mentionCount": 11,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "unimportant",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Petty; not important or noteworthy",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 2,
+    "mentionCount": 2,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "validate",
+    "partOfSpeech": "v.",
+    "definitionEn": "to prove or declare valid",
+    "exampleEn": "for me.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 3,
+    "mentionCount": 3,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "variable",
+    "partOfSpeech": "noun",
+    "definitionEn": "an element, feature, or factor that is liable to change",
+    "exampleEn": "In the experiment, the only variable the scientists changed was the amount of sunlight each plant received.",
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank: Words in Context correct-answer vocabulary",
+    "questionCount": 5,
+    "mentionCount": 9,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "vivid",
+    "partOfSpeech": "noun",
+    "definitionEn": "A felt-tipped permanent marker.",
+    "exampleEn": null,
+    "synonyms": [],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 6,
+    "mentionCount": 9,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  },
+  {
+    "word": "widespread",
+    "partOfSpeech": "adjective",
+    "definitionEn": "Affecting a large area (e.g. the entire land or body); broad in extent; widely diffused.",
+    "exampleEn": null,
+    "synonyms": [
+      "extensive",
+      "pervasive",
+      "prevalent"
+    ],
+    "sourceTags": [
+      "qbank_wic"
+    ],
+    "source": "College Board Question Bank WIC target; definition from DictionaryAPI.dev",
+    "questionCount": 11,
+    "mentionCount": 12,
+    "wicCorrectOptionCount": 1,
+    "rank": 0
+  }
+]
